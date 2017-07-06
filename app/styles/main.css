@@ -1,6 +1,63 @@
 .diagonal-grad-1 {
-  background: -webkit-linear-gradient(left top, #4B940F, #83BA1C); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #4B940F, #83BA1C); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #4B940F, #83BA1C); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #4B940F, #83BA1C); /* Standard syntax (must be last) */
+  background: linear-gradient(to bottom right, #4B940F, #83BA1C);
+}
+
+.pl-logo {
+  width: 27px;
+  position: absolute;
+  top: 37px;
+  left: 45px;
+}
+
+.icon-grid-view {
+  position: absolute;
+  top: 39px;
+  right: 136px;
+}
+
+.icon-arrow-left {
+  position: absolute;
+  top: 37px;
+  right: 85px;
+}
+
+.icon-arrow-right {
+  position: absolute;
+  top: 37px;
+  right: 45px;
+}
+
+.icon-arrow-bottom {
+  margin-top: 51px;
+}
+
+.jumbotron-heading {
+  color: #FFFFFF;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 60px;
+  margin-top: 91px;
+  margin-bottom: 217px;
+}
+
+.project-logo {
+  height: 40px;
+  margin-bottom: 18.5px;
+}
+
+.project-text {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.project-text-small {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.project-text-medium {
+  font-size: 18px;
+  line-height: 26px;
 }
