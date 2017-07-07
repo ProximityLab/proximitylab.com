@@ -1,3 +1,7 @@
+.project-jumbotron {
+  margin-bottom: 0;
+}
+
 .diagonal-grad-1 {
   background: linear-gradient(to bottom right, #4B940F, #83BA1C);
 }
@@ -49,7 +53,14 @@
 .project-text {
   font-family: 'Assistant', sans-serif;
   font-weight: 400;
+}
+
+.project-text-light {
   color: #FFFFFF;
+}
+
+.project-text-dark {
+  color: #4D4D4D;
 }
 
 .project-text-small {
@@ -60,4 +71,38 @@
 .project-text-medium {
   font-size: 18px;
   line-height: 26px;
+}
+
+.project-text-button {
+  display: block;
+  width: 93px;
+  height: 93px;
+  background-color: #09AFE1;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 93px;
+  margin-top: 135px;
+}
+
+.project-text-button-icon {
+  width: 15px;
+}
+
+.project-product {
+  background-color: #131313;
+  background-image: url('/images/product-wagz.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  min-height: 760px;
+}
+
+.project-product-heading {
+  max-width: 354px;
+  margin-top: 172px;
+  font-family: 'Assistant', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #FFFFFF;
+  line-height: 44px;
 }
