@@ -125,3 +125,38 @@
 .project-screenshot {
   margin-bottom: 82px;
 }
+
+.page-footer {
+  background-color: #1B1C25;
+  padding-top: 107px;
+  padding-left: 110px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.page-footer-heading {
+  margin-bottom: 57px;
+}
+
+.footer-links-container {
+  list-style: none;
+  padding: 0;
+  margin: 219px 0 40px;
+}
+
+.footer-item {
+  display: inline;
+  margin-right: 22px;
+}
+
+.footer-link {
+  color: #FFB1FE;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.footer-link:hover {
+  color: #FFB1FE;
+}
