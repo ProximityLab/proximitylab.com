@@ -106,3 +106,12 @@
   color: #FFFFFF;
   line-height: 44px;
 }
+
+.project-screenshots-container {
+  background-color: #E9EBED;
+  padding: 82px 73px 0;
+}
+
+.project-screenshot {
+  margin-bottom: 82px;
+}
