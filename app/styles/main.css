@@ -1,5 +1,12 @@
 .project-jumbotron {
   margin-bottom: 0;
+  padding-left: 92px;
+  padding-right: 92px;
+}
+
+.project-jumbotron-padding {
+  padding-left: 33px;
+  padding-right: 33px;
 }
 
 .diagonal-grad-1 {
@@ -35,12 +42,15 @@
   margin-top: 51px;
 }
 
-.jumbotron-heading {
+.pl-heading {
   color: #FFFFFF;
   font-family: 'Assistant', sans-serif;
   font-weight: 200;
   font-size: 60px;
   line-height: 60px;
+}
+
+.pl-heading-jumbotron {
   margin-top: 91px;
   margin-bottom: 217px;
 }
@@ -50,25 +60,25 @@
   margin-bottom: 18.5px;
 }
 
-.project-text {
+.pl-text {
   font-family: 'Assistant', sans-serif;
   font-weight: 400;
 }
 
-.project-text-light {
+.pl-text-light {
   color: #FFFFFF;
 }
 
-.project-text-dark {
+.pl-text-dark {
   color: #4D4D4D;
 }
 
-.project-text-small {
+.pl-text-small {
   font-size: 14px;
   line-height: 20px;
 }
 
-.project-text-medium {
+.pl-text-medium {
   font-size: 18px;
   line-height: 26px;
 }
