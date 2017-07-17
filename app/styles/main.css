@@ -152,48 +152,6 @@ body {
   line-height: 36px;
 }
 
-.project-text-button {
-  display: block;
-  width: 93px;
-  height: 93px;
-  background-color: #09AFE1;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 93px;
-  margin-top: 135px;
-}
-
-.project-text-button-icon {
-  width: 15px;
-}
-
-.project-product {
-  background-color: #131313;
-  background-image: url('/images/product-wagz.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom;
-  min-height: 760px;
-}
-
-.project-product-heading {
-  max-width: 354px;
-  margin-top: 172px;
-  font-size: 36px;
-  font-weight: 300;
-  color: #FFFFFF;
-  line-height: 44px;
-}
-
-.project-screenshots-container {
-  background-color: #E9EBED;
-  padding: 82px 73px 0;
-}
-
-.project-screenshot {
-  margin-bottom: 82px;
-}
-
 .page-footer {
   background-color: #1B1C25;
   padding-top: 107px;
