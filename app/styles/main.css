@@ -203,6 +203,12 @@
   padding: 34px 0 0;
 }
 
+@media (min-width: 576px) {
+  .service-info {
+    padding: 34px 0;
+  }
+}
+
 @media (min-width: 992px) {
   .service-info {
     padding: 34px 0 34px 110px;
