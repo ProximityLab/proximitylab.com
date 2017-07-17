@@ -150,19 +150,40 @@
 .page-footer {
   background-color: #1B1C25;
   padding-top: 107px;
-  padding-left: 110px;
   padding-bottom: 40px;
   position: relative;
+}
+
+@media (min-width: 992px) {
+  .page-footer {
+    padding-left: 110px;
+  }
 }
 
 .page-footer-heading {
   margin-bottom: 57px;
 }
 
+.footer-button {
+  display: inline-block;
+  background: #C624AE;
+  border-radius: 4px;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 300;
+  font-size: 29px;
+  color: #FFFFFF;
+  padding: 12px 100px;
+  margin: 39px 0 43px 0;
+}
+
+.footer-button:link {
+  text-decoration: none;
+}
+
 .footer-links-container {
   list-style: none;
   padding: 0;
-  margin: 219px 0 40px;
+  margin: 0 0 40px;
 }
 
 .footer-item {
