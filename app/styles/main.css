@@ -240,3 +240,35 @@
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
+
+.how-info {
+  margin: 40px 0;
+}
+
+.how-heading {
+  font-family: 'Assistant', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #4A4A4A;
+  margin-bottom: 16px;
+}
+
+.how-circle {
+  margin-bottom: 27px;
+}
+
+.how-text {
+  max-width: 292px;
+  margin: 0 auto;
+  font-family: 'Assistant', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #7C7C7C;
+  line-height: 34px;
+}
+
+@media (min-width: 576px) {
+  .how-dog {
+    margin-top: 178px;
+  }
+}
