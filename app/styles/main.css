@@ -220,3 +220,17 @@
   background-position: right;
   min-height: 636px;
 }
+
+.project-video {
+  position: relative;
+}
+
+.project-video-play {
+  width: 154px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
