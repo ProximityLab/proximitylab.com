@@ -85,6 +85,10 @@
   color: #4D4D4D;
 }
 
+.pl-text-boulder {
+  color: #7C7C7C;
+}
+
 .pl-text-small {
   font-size: 14px;
   line-height: 20px;
@@ -93,6 +97,11 @@
 .pl-text-medium {
   font-size: 18px;
   line-height: 26px;
+}
+
+.pl-text-medium2 {
+  font-size: 18px;
+  line-height: 36px;
 }
 
 .project-text-button {
@@ -171,4 +180,43 @@
 
 .footer-link:hover {
   color: #FFB1FE;
+}
+
+.pl-heading-sm {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #7C7C7C;
+  letter-spacing: 5px;
+  margin-bottom: 17px;
+}
+
+.pl-heading-md {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: #282828;
+  margin-bottom: 32px;
+}
+
+.service-info {
+  padding: 34px 0 0;
+}
+
+@media (min-width: 992px) {
+  .service-info {
+    padding: 34px 0 34px 110px;
+  }
+
+  .service-info-text {
+    padding-right: 75px;
+  }
+}
+
+.carousel-placeholder {
+  background-image: url('/images/wagz-carousel-placeholder.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  min-height: 636px;
 }
