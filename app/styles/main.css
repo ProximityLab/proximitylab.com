@@ -6,6 +6,55 @@ body {
   font-family: 'Assistant', sans-serif;
 }
 
+
+/**
+ * Headings
+ */
+
+.pl-heading-xl {
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 60px;
+}
+
+.pl-heading-lg {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.pl-heading-md {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.pl-heading-sm {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+
+/**
+ * Colors
+ */
+
+.pl-color-white {
+  color: #FFFFFF;
+}
+
+.pl-color-boulder {
+  color: #7C7C7C;
+}
+
+.pl-color-mineshaft {
+  color: #282828;
+}
+
+.pl-color-tundora {
+  color: #4A4A4A;
+}
+
+
 .project-jumbotron {
   margin-bottom: 0;
 }
@@ -55,13 +104,6 @@ body {
 
 .icon-arrow-bottom {
   margin-top: 51px;
-}
-
-.pl-heading {
-  color: #FFFFFF;
-  font-weight: 200;
-  font-size: 60px;
-  line-height: 60px;
 }
 
 .pl-heading-jumbotron {
@@ -206,18 +248,11 @@ body {
   color: #FFB1FE;
 }
 
-.pl-heading-sm {
-  font-weight: 600;
-  font-size: 12px;
-  color: #7C7C7C;
-  letter-spacing: 5px;
+.service-info-heading1 {
   margin-bottom: 17px;
 }
 
-.pl-heading-md {
-  font-weight: 300;
-  font-size: 36px;
-  color: #282828;
+.service-info-heading2 {
   margin-bottom: 32px;
 }
 
@@ -268,9 +303,6 @@ body {
 }
 
 .how-heading {
-  font-size: 24px;
-  font-weight: 300;
-  color: #4A4A4A;
   margin-bottom: 16px;
 }
 
