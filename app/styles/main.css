@@ -1,3 +1,11 @@
+/**
+ * Global styles
+ */
+
+body {
+  font-family: 'Assistant', sans-serif;
+}
+
 .project-jumbotron {
   margin-bottom: 0;
 }
@@ -51,7 +59,6 @@
 
 .pl-heading {
   color: #FFFFFF;
-  font-family: 'Assistant', sans-serif;
   font-weight: 200;
   font-size: 60px;
   line-height: 60px;
@@ -73,7 +80,6 @@
 }
 
 .pl-text {
-  font-family: 'Assistant', sans-serif;
   font-weight: 400;
 }
 
@@ -131,7 +137,6 @@
 .project-product-heading {
   max-width: 354px;
   margin-top: 172px;
-  font-family: 'Assistant', sans-serif;
   font-size: 36px;
   font-weight: 300;
   color: #FFFFFF;
@@ -168,7 +173,6 @@
   display: inline-block;
   background: #C624AE;
   border-radius: 4px;
-  font-family: 'Assistant', sans-serif;
   font-weight: 300;
   font-size: 29px;
   color: #FFFFFF;
@@ -193,7 +197,6 @@
 
 .footer-link {
   color: #FFB1FE;
-  font-family: 'Assistant', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -204,7 +207,6 @@
 }
 
 .pl-heading-sm {
-  font-family: 'Assistant', sans-serif;
   font-weight: 600;
   font-size: 12px;
   color: #7C7C7C;
@@ -213,7 +215,6 @@
 }
 
 .pl-heading-md {
-  font-family: 'Assistant', sans-serif;
   font-weight: 300;
   font-size: 36px;
   color: #282828;
@@ -267,7 +268,6 @@
 }
 
 .how-heading {
-  font-family: 'Assistant', sans-serif;
   font-size: 24px;
   font-weight: 300;
   color: #4A4A4A;
@@ -281,7 +281,6 @@
 .how-text {
   max-width: 292px;
   margin: 0 auto;
-  font-family: 'Assistant', sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #7C7C7C;
