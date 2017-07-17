@@ -1,12 +1,19 @@
 .project-jumbotron {
   margin-bottom: 0;
-  padding-left: 92px;
-  padding-right: 92px;
 }
 
-.project-jumbotron-padding {
-  padding-left: 33px;
-  padding-right: 33px;
+@media (min-width: 1200px) {
+  .project-jumbotron {
+    padding-left: 92px;
+    padding-right: 92px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-jumbotron-padding {
+    padding-left: 33px;
+    padding-right: 33px;
+  }
 }
 
 .diagonal-grad-1 {
@@ -52,7 +59,12 @@
 
 .pl-heading-jumbotron {
   margin-top: 91px;
-  margin-bottom: 217px;
+}
+
+@media (min-width: 1200px) {
+  .pl-heading-jumbotron {
+    margin-bottom: 217px;
+  }
 }
 
 .project-logo {
