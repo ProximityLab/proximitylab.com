@@ -84,7 +84,9 @@ body {
 }
 
 
-
+/**
+ * Project jumbotron
+ */
 
 .project-jumbotron {
   margin-bottom: 0;
@@ -152,6 +154,11 @@ body {
   margin-bottom: 18.5px;
 }
 
+
+/**
+ * Page footer
+ */
+
 .page-footer {
   background-color: #1B1C25;
   padding-top: 107px;
@@ -206,16 +213,21 @@ body {
   color: #FFB1FE;
 }
 
+
+/**
+ * Service info section
+ */
+
+.service-info {
+  padding: 34px 0 0;
+}
+
 .service-info-heading1 {
   margin-bottom: 17px;
 }
 
 .service-info-heading2 {
   margin-bottom: 32px;
-}
-
-.service-info {
-  padding: 34px 0 0;
 }
 
 @media (min-width: 576px) {
@@ -238,6 +250,7 @@ body {
   line-height: 36px;
 }
 
+/* temp */
 .carousel-placeholder {
   background-image: url('/images/wagz-carousel-placeholder.png');
   background-repeat: no-repeat;
@@ -245,6 +258,11 @@ body {
   background-position: right;
   min-height: 636px;
 }
+
+
+/**
+ * Video section
+ */
 
 .project-video {
   position: relative;
@@ -259,6 +277,11 @@ body {
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
+
+
+/**
+ * How section
+ */
 
 .how-info {
   margin: 40px 0;
