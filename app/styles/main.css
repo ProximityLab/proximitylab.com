@@ -55,6 +55,37 @@ body {
 }
 
 
+/**
+ * Text
+ */
+
+.pl-text-xs {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.pl-text-sm {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.pl-text-md {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.pl-text-lg {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+
+
+
 .project-jumbotron {
   margin-bottom: 0;
 }
@@ -119,37 +150,6 @@ body {
 .project-logo {
   height: 40px;
   margin-bottom: 18.5px;
-}
-
-.pl-text {
-  font-weight: 400;
-}
-
-.pl-text-light {
-  color: #FFFFFF;
-}
-
-.pl-text-dark {
-  color: #4D4D4D;
-}
-
-.pl-text-boulder {
-  color: #7C7C7C;
-}
-
-.pl-text-small {
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.pl-text-medium {
-  font-size: 18px;
-  line-height: 26px;
-}
-
-.pl-text-medium2 {
-  font-size: 18px;
-  line-height: 36px;
 }
 
 .page-footer {
@@ -234,6 +234,10 @@ body {
   }
 }
 
+.service-info-paragraph {
+  line-height: 36px;
+}
+
 .carousel-placeholder {
   background-image: url('/images/wagz-carousel-placeholder.png');
   background-repeat: no-repeat;
@@ -271,10 +275,6 @@ body {
 .how-text {
   max-width: 292px;
   margin: 0 auto;
-  font-size: 16px;
-  font-weight: 400;
-  color: #7C7C7C;
-  line-height: 34px;
 }
 
 @media (min-width: 576px) {
