@@ -1,9 +1,7 @@
-<div class="jumbotron jumbotron-fluid project-jumbotron diagonal-grad-1">
-    <img class="pl-logo" src="images/logo-proximity-lab-white.svg" alt="Proximity Lab logo">
-    <img class="icon-grid-view" src="images/icon-grid-view.svg" alt="Grid view icon">
-    <img class="icon-arrow-left" src="images/icon-arrow-left.svg" alt="Left arrow icon">
-    <img class="icon-arrow-right" src="images/icon-arrow-right.svg" alt="Right arrow icon">
-    
+<div class="jumbotron jumbotron-fluid project-jumbotron diagonal-grad-1">  
+
+    <?php include('includes/header.php'); ?>
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-4 project-jumbotron-padding">
