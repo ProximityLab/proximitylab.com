@@ -106,10 +106,6 @@ body {
   }
 }
 
-.diagonal-grad-1 {
-  background: linear-gradient(to bottom right, #4B940F, #83BA1C);
-}
-
 .pl-logo {
   width: 27px;
   position: absolute;
@@ -152,6 +148,21 @@ body {
 .project-logo {
   height: 40px;
   margin-bottom: 18.5px;
+}
+
+
+/**
+ * Diagonal gradients
+ */
+
+/* Wagz */
+.diagonal-grad-1 {
+  background: linear-gradient(to bottom right, #4B940F, #83BA1C);
+}
+
+/* Nye */
+.diagonal-grad-2 {
+  background: linear-gradient(to bottom right, #74D561, #066E5C);
 }
 
 
