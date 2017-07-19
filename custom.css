@@ -256,15 +256,16 @@ body {
   line-height: 36px;
 }
 
-/* temp */
-.carousel-placeholder {
-  background-image: url('images/wagz-carousel-placeholder.png');
+.service-info-image {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
   min-height: 636px;
 }
 
+.service-info-image-wagz {
+  background-image: url('images/wagz-carousel-placeholder.png');
+}
 
 /**
  * Video section

@@ -28,7 +28,7 @@
                     <p class="pl-text-lg pl-color-boulder service-info-paragraph">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design through development, testing and deployment.</p>
                 </div>
             </div>
-            <div class="col-12 col-md-6 carousel-placeholder"></div>
+            <div class="col-12 col-md-6 service-info-image service-info-image-wagz"></div>
         </div>
     </div>
 </section>
