@@ -252,7 +252,7 @@ body {
 
 /* temp */
 .carousel-placeholder {
-  background-image: url('/images/wagz-carousel-placeholder.png');
+  background-image: url('images/wagz-carousel-placeholder.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
