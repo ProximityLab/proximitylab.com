@@ -30,3 +30,8 @@
         </div>
     </div>
 </section>
+
+<section class="project-video">
+    <img class="img-fluid px-5" src="images/video-background-nye.png" alt="Nye video background">
+    <img class="project-video-play" src="images/icon-play.svg" alt="Play icon" data-toggle="modal" data-target="#video-modal">
+</section>
