@@ -9,7 +9,7 @@ gulp.task('serve', function() {
         });
     });
 
-    gulp.watch('**/*.php').on('change', function() {
+    gulp.watch(['**/*.php', '**/*.css', '**/*.js']).on('change', function() {
         browserSync.reload();
     });
 });
