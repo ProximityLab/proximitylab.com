@@ -267,6 +267,11 @@ body {
   background-image: url('images/wagz-carousel-placeholder.png');
 }
 
+.service-info-image-nye {
+  background-image: url('images/service-info-image-nye.png');
+}
+
+
 /**
  * Video section
  */
