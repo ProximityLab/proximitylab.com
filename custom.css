@@ -135,10 +135,6 @@ body {
   margin-top: 51px;
 }
 
-.pl-heading-jumbotron {
-  margin-top: 91px;
-}
-
 @media (min-width: 1200px) {
   .pl-heading-jumbotron {
     margin-bottom: 217px;
@@ -147,7 +143,6 @@ body {
 
 .project-logo {
   height: 40px;
-  margin-bottom: 18.5px;
 }
 
 

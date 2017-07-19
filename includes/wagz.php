@@ -5,8 +5,8 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-4 project-jumbotron-padding">
-                <h1 class="pl-heading-xl pl-color-white pl-heading-jumbotron">keep fido safe from the world</h1>
-                <p class="pl-text-lg pl-color-white">Lorem ipsum dolor sit amet, consectetur</p>
+                <h1 class="pl-heading-xl pl-color-white mt-5 pt-5 mb-xl-5 pb-xl-5">keep fido safe from the world</h1>
+                <p class="pl-text-lg pl-color-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue</p>
                 <img class="icon-arrow-bottom mx-auto d-block" src="images/icon-arrow-bottom.svg" alt="Bottom arrow icon">
             </div>
             <div class="col-12 col-sm-6 col-md-4 project-jumbotron-padding"><img class="img-fluid" src="images/iphone-mockup-wagz.png" alt="Wagz iPhone Mockup"></div>
