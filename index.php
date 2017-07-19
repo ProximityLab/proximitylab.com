@@ -9,6 +9,15 @@
         <link rel="stylesheet" href="custom.css">
     </head>
     <body>
+        <?php
+            switch ($_GET['project']) {
+                case 'nye':
+                    include('includes/nye.php');
+                    break;
+                default:
+                    include('includes/wagz.php');
+            }
+        ?>
 
         <?php include('includes/footer.php'); ?>
 
