@@ -31,7 +31,13 @@
     </div>
 </section>
 
-<section class="project-video">
-    <img class="img-fluid px-5" src="images/video-background-nye.png" alt="Nye video background">
-    <img class="project-video-play" src="images/icon-play.svg" alt="Play icon" data-toggle="modal" data-target="#video-modal">
-</section>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-sm-10 offset-sm-1">
+            <section class="project-video">
+                <img class="img-fluid" src="images/video-background-nye.png" alt="Nye video background">
+                <img class="project-video-play" src="images/icon-play.svg" alt="Play icon" data-toggle="modal" data-target="#video-modal">
+            </section>
+        </div>
+    </div>
+</div>
