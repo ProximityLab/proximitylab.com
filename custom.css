@@ -92,6 +92,12 @@ body {
   line-height: 26px;
 }
 
+.pl-text-xl {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
 
 /**
  * Project jumbotron
