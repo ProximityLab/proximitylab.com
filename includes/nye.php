@@ -31,6 +31,15 @@
     </div>
 </section>
 
+<div class="container-fluid mt-5 mb-4">
+    <div class="row">
+        <div class="col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3 text-center">
+            <h2 class="pl-heading-lg pl-color-tundora mb-4">How we did it</h2>
+            <p class="pl-text-xl pl-color-dovegrey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo</p>
+        </div>
+    </div>
+</div>
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-12 col-sm-10 offset-sm-1">
