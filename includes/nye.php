@@ -40,7 +40,7 @@
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid mb-5">
     <div class="row">
         <div class="col-12 col-sm-10 offset-sm-1">
             <section class="project-video">
