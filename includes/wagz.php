@@ -23,8 +23,8 @@
         <div class="row">
             <div class="col-12 col-md-6 align-self-center">
                 <div class="service-info-text">
-                    <h4 class="pl-heading-sm pl-color-boulder service-info-heading1">PORTFOLIO</h4>
-                    <h2 class="pl-heading-lg pl-color-mineshaft service-info-heading2">Creating an easier way to project your best companion</h2>
+                    <h5 class="pl-heading-xs pl-color-boulder service-info-heading1">PORTFOLIO</h5>
+                    <h3 class="pl-heading-md pl-color-mineshaft service-info-heading2">Creating an easier way to project your best companion</h3>
                     <p class="pl-text-lg pl-color-boulder service-info-paragraph">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design through development, testing and deployment.</p>
                 </div>
             </div>
@@ -61,7 +61,7 @@
         <div class="col-12 col-sm-4 align-self-center text-center">
             <div class="how-info">
                 <img class="how-circle" src="images/icon-circle.svg" alt="Circle icon">
-                <h3 class="pl-heading-md pl-color-tundora how-heading">Designing</h3>
+                <h4 class="pl-heading-sm pl-color-tundora how-heading">Designing</h4>
                 <p class="pl-text-md pl-color-boulder how-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by</p>
             </div>
         </div>
@@ -69,7 +69,7 @@
         <div class="col-12 col-sm-4 align-self-center text-center">
             <div class="how-info">
                 <img class="how-circle" src="images/icon-circle.svg" alt="Circle icon">
-                <h3 class="pl-heading-md pl-color-tundora how-heading">Designing</h3>
+                <h4 class="pl-heading-sm pl-color-tundora how-heading">Designing</h4>
                 <p class="pl-text-md pl-color-boulder how-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by</p>
             </div>
         </div>
