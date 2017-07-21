@@ -175,6 +175,11 @@ body {
   background: linear-gradient(to bottom right, #74D561, #066E5C);
 }
 
+/* Amadeus */
+.diagonal-grad-3 {
+  background: linear-gradient(to bottom right, #D91B3D, #8B054A);
+}
+
 
 /**
  * Page footer
