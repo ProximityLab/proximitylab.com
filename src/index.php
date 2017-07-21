@@ -14,6 +14,9 @@
                 case 'nye':
                     include('includes/nye.php');
                     break;
+                case 'amadeus':
+                    include('includes/amadeus.php');
+                    break;
                 default:
                     include('includes/wagz.php');
             }
