@@ -16,12 +16,38 @@
 
 </div>
 
-<div class="container-fluid mt-5 pt-5">
+<div class="container-fluid my-5 pt-5">
     <div class="row">
         <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
             <h5 class="pl-heading-xs pl-color-boulder service-info-heading1">PORTFOLIO</h5>
             <h3 class="pl-heading-md pl-color-mineshaft service-info-heading2">Planning spaces for the future</h3>
             <p class="pl-text-lg pl-color-boulder service-info-paragraph">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mb-5 pb-5">
+    <div class="row">
+        <div class="col-12 col-sm-4 align-self-center text-center">
+            <div class="how-info">
+                <img class="how-circle" src="images/icon-think.svg" alt="Think icon">
+                <h4 class="pl-heading-sm pl-color-tundora how-heading">Designing</h4>
+                <p class="pl-text-md pl-color-boulder how-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by</p>
+            </div>
+        </div>
+        <div class="col-12 col-sm-4 align-self-center text-center">
+            <div class="how-info">
+                <img class="how-circle" src="images/icon-plan.svg" alt="Plan icon">
+                <h4 class="pl-heading-sm pl-color-tundora how-heading">Planning</h4>
+                <p class="pl-text-md pl-color-boulder how-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by</p>
+            </div>
+        </div>
+        <div class="col-12 col-sm-4 align-self-center text-center">
+            <div class="how-info">
+                <img class="how-circle" src="images/icon-bulb.svg" alt="Bulb icon">
+                <h4 class="pl-heading-sm pl-color-tundora how-heading">Problem Solving</h4>
+                <p class="pl-text-md pl-color-boulder how-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by</p>
+            </div>
         </div>
     </div>
 </div>
