@@ -8,6 +8,47 @@ body {
 
 
 /**
+ * Dropdown menu
+ */
+
+.dropdown {
+  position: absolute;
+  top: 37px;
+  left: 45px;
+  z-index: 1;
+}
+
+.dropdown-logo {
+  width: 27px;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-link {
+  line-height: 26px;
+  display: block;
+  color: #fff;
+}
+
+.dropdown-link:hover {
+  color: #fff;
+}
+
+.dropdown-horizontal-rule {
+  margin: 0 0 8px;
+  border: 1px solid #fff;
+  opacity: 0.5;
+  width: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/**
  * Headings
  */
 
