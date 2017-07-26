@@ -24,6 +24,7 @@ body {
 
 .dropdown-content {
   display: none;
+  padding-top: 20px;
 }
 
 .dropdown-link {
