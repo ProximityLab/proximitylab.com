@@ -23,8 +23,11 @@ body {
 }
 
 .dropdown-content {
-  display: none;
+  height: 0;
+  overflow: hidden;
   padding-top: 20px;
+  opacity: 0;
+  transition: all 1s;
 }
 
 .dropdown-link {
@@ -46,7 +49,8 @@ body {
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  height: 200px;
+  opacity: 1;
 }
 
 
