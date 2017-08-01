@@ -12,6 +12,9 @@
     <body class="animated fadeIn">
         <?php
             switch ($_GET['project']) {
+                case 'wagz':
+                    include('includes/wagz.php');
+                    break;
                 case 'nye':
                     include('includes/nye.php');
                     break;
@@ -19,7 +22,7 @@
                     include('includes/amadeus.php');
                     break;
                 default:
-                    include('includes/wagz.php');
+                    include('includes/home.php');
             }
         ?>
 
