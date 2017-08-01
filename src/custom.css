@@ -8,6 +8,28 @@ body {
 
 
 /**
+* Homepage
+*/
+
+#carouselHome {
+  height: 760px;
+}
+
+#carouselHome .carousel-inner {
+  height: 100%;
+}
+
+#carouselHome .carousel-item {
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#carouselHome .carousel-item1 { background-image: url(images/carousel-home/slide1.jpg);}
+
+
+/**
  * Dropdown menu
  */
 
