@@ -8,11 +8,28 @@ body {
 
 
 /**
-* Homepage
-*/
+ * Navigation
+ */
+
+.pl-nav {
+  position: absolute;
+  top: 38px;
+  right: 61px;
+  z-index: 1;
+  font-size: 18px;
+}
+
+.pl-nav-link {
+  color: #FFF;
+}
+
+.pl-nav-link:last-child {
+  margin-left: 36px;
+}
 
 #carouselHome {
   height: 760px;
+  position: relative;
 }
 
 #carouselHome .carousel-inner {
