@@ -27,6 +27,28 @@ body {
   margin-left: 36px;
 }
 
+
+/**
+ * Homepage
+ */
+
+.pl-logo-hero {
+  position: absolute;
+  z-index: 1;
+  width: 88px;
+  top: 225px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: all 1s;
+}
+
+.pl-logo-hero-animate {
+  width: 27px;
+  top: 38px;
+  left: 61px;
+  transform: translate(0, 0);
+}
+
 #carouselHome {
   height: 760px;
   position: relative;
