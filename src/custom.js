@@ -13,7 +13,7 @@ videoModal.on('hide.bs.modal', function (e) {
 
 
 // homepage hero logo animation on scroll
-var logo = $('#pl-logo-hero');
+/* var logo = $('#pl-logo-hero');
 
 $(window).scroll(function() {
     if ($(window).scrollTop() > 5) {
@@ -21,4 +21,4 @@ $(window).scroll(function() {
     } else {
         logo.removeClass('pl-logo-hero-animate');
     }
-});
+}); */
