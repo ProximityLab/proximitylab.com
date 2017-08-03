@@ -67,6 +67,17 @@ body {
 
 #carouselHome .carousel-item1 { background-image: url(images/carousel-home/slide1.jpg);}
 
+#carouselHome .carousel-caption {
+  bottom: auto;
+  top: 381px;
+}
+
+.carousel-text {
+  font-size: 28px;
+  color: #FFF;
+  line-height: 64px;
+}
+
 
 /**
  * Dropdown menu
