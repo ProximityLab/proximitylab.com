@@ -25,3 +25,15 @@
     </div>
   </div>
 </div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <h3 class="pl-heading-md pl-color-tundora text-center mt-5 pt-4">Who we like to work with</h3>
+    </div>
+
+    <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+      <p class="pl-text-lg pl-color-dovegrey text-center workwith-text mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue sed nulla scelerisque, id tempor</p>
+    </div>
+  </div>
+</div>
