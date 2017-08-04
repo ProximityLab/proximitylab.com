@@ -24,6 +24,8 @@
       </div>
     </div>
   </div>
+
+  <img class="carousel-arrow" src="images/icon-arrow-bottom.svg" alt="Bottom arrow">
 </div>
 
 <div class="container-fluid">

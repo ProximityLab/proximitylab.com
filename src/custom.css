@@ -78,6 +78,14 @@ body {
   line-height: 64px;
 }
 
+#carouselHome .carousel-arrow {
+  cursor: pointer;
+  position: absolute;
+  bottom: 86px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
 .workwith-text {
   line-height: 36px !important;
 }
