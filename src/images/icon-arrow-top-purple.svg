@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="12px" viewBox="0 0 24 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-705.000000, -1381.000000)" fill-rule="nonzero" fill="#CF0D7D">
+            <g id="who-we-work-with" transform="translate(0.000000, 822.000000)">
+                <g id="Startups" transform="translate(518.000000, 199.000000)">
+                    <path d="M210.701806,370.240525 L201.697304,361.130257 C200.954892,360.378651 199.97266,359.998582 198.999795,360.000004 C198.027399,359.999056 197.044698,360.378651 196.302754,361.130257 L187.298253,370.240525 C186.900582,370.642867 186.900582,371.295902 187.298253,371.698244 C187.695924,372.100585 188.341377,372.100585 188.739048,371.698244 L197.743549,362.587976 C198.092975,362.23492 198.541701,362.06242 198.999795,362.061472 C199.457889,362.062894 199.906615,362.23492 200.256041,362.587976 L209.260542,371.698244 C209.658213,372.100585 210.303666,372.100585 210.701337,371.698244 C211.099476,371.295902 211.099476,370.642867 210.701806,370.240525 Z" id="Shape" transform="translate(199.000000, 366.000000) scale(1, -1) rotate(-180.000000) translate(-199.000000, -366.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

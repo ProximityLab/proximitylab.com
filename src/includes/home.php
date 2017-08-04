@@ -35,7 +35,34 @@
     </div>
 
     <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
-      <p class="pl-text-lg pl-color-dovegrey text-center workwith-text mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue sed nulla scelerisque, id tempor</p>
+      <p class="pl-text-lg pl-color-dovegrey text-center workwith-text mt-3 mb-5 pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue sed nulla scelerisque, id tempor</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-4">
+      <div class="workwith-item pb-5">
+        <img class="d-block mx-auto py-5 workwith-item-icon" src="images/icon-building.svg" alt="Building icon">
+        <h4 class="pl-heading-sm pl-color-fiord text-center workwith-item-heading">Enterprise UX</h4>
+        <p class="workwith-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper</p>
+        <img class="d-block mx-auto mt-5 workwith-item-arrow" src="images/icon-arrow-top-purple.svg" alt="Top arrow">
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4">
+      <div class="workwith-item pb-5">
+        <img class="d-block mx-auto py-5 workwith-item-icon" src="images/icon-desktop.svg" alt="Desktop icon">
+        <h4 class="pl-heading-sm pl-color-fiord text-center workwith-item-heading">Startups</h4>
+        <p class="workwith-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper</p>
+        <img class="d-block mx-auto mt-5 workwith-item-arrow" src="images/icon-arrow-top-purple.svg" alt="Top arrow">
+      </div>
+    </div>
+    <div class="col-12 col-sm-12 col-md-4">
+      <div class="workwith-item pb-5">
+        <img class="d-block mx-auto py-5 workwith-item-icon" src="images/icon-app.svg" alt="App icon">
+        <h4 class="pl-heading-sm pl-color-fiord text-center workwith-item-heading">Application Reboots</h4>
+        <p class="workwith-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper</p>
+        <img class="d-block mx-auto mt-5 workwith-item-arrow" src="images/icon-arrow-top-purple.svg" alt="Top arrow">
+      </div>
     </div>
   </div>
 </div>
