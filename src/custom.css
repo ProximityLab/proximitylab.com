@@ -122,7 +122,13 @@ body {
  */
 
 #carouselTestimonials .carousel-item {
-  height: 761px;
+  height: 1000px;
+}
+
+@media (min-width: 576px) {
+  #carouselTestimonials .carousel-item {
+    height: 761px;
+  }
 }
 
 #carouselTestimonials .carousel-item-scribe {

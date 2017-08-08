@@ -70,21 +70,21 @@
 <div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item carousel-item-scribe active">
-      <div class="carousel-caption d-none d-md-block">
-        <h5 class="pl-heading-xs pl-color-mineshaft">THE BOND WITH OUR CLIENTS</h5>
-        <img class="testimonial-logo" src="images/logo-scribe.png" alt="Scribe logo">
+      <div class="carousel-caption">
+        <h5 class="pl-heading-xs pl-color-mineshaft d-none d-md-block">THE BOND WITH OUR CLIENTS</h5>
+        <img class="testimonial-logo d-none d-lg-inline-block" src="images/logo-scribe.png" alt="Scribe logo">
         <p class="testimonial-text">"I've been super impressed. I didn't have much of an idea what to expect going into this, with working with an outside web design firm as the closest prior experience. So I gotta say, I'm kind of blown away at how quickly things are progressing."</p>
-        <img class="testimonial-author" src="images/testimonial-author-scribe.png" alt="Testimonial author">
+        <img class="testimonial-author d-none d-sm-inline-block" src="images/testimonial-author-scribe.png" alt="Testimonial author">
         <p class="testimonial-author-title"><b>Shawn McGowen</b>, CEO Scribe</p>
       </div>
     </div>
 
     <div class="carousel-item carousel-item-adobe">
-      <div class="carousel-caption d-none d-md-block">
-        <h5 class="pl-heading-xs pl-color-mineshaft">THE BOND WITH OUR CLIENTS</h5>
-        <img class="testimonial-logo" src="images/logo-adobe.png" alt="Adobe logo">
+      <div class="carousel-caption">
+        <h5 class="pl-heading-xs pl-color-mineshaft d-none d-md-block">THE BOND WITH OUR CLIENTS</h5>
+        <img class="testimonial-logo d-none d-lg-inline-block" src="images/logo-adobe.png" alt="Adobe logo">
         <p class="testimonial-text">"I've been super impressed. I didn't have much of an idea what to expect going into this, with working with an outside web design firm as the closest prior experience. So I gotta say, I'm kind of blown away at how quickly things are progressing."</p>
-        <img class="testimonial-author" src="images/testimonial-author-adobe.png" alt="Testimonial author">
+        <img class="testimonial-author d-none d-sm-inline-block" src="images/testimonial-author-adobe.png" alt="Testimonial author">
         <p class="testimonial-author-title"><b>Rachana Rele</b>, Director - User Experience</p>
       </div>
     </div>
