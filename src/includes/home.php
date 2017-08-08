@@ -78,11 +78,21 @@
         <p class="testimonial-author-title"><b>Shawn McGowen</b>, CEO Scribe</p>
       </div>
     </div>
+
+    <div class="carousel-item carousel-item-adobe">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="pl-heading-xs pl-color-mineshaft">THE BOND WITH OUR CLIENTS</h5>
+        <img class="testimonial-logo" src="images/logo-adobe.png" alt="Adobe logo">
+        <p class="testimonial-text">"I've been super impressed. I didn't have much of an idea what to expect going into this, with working with an outside web design firm as the closest prior experience. So I gotta say, I'm kind of blown away at how quickly things are progressing."</p>
+        <img class="testimonial-author" src="images/testimonial-author-adobe.png" alt="Testimonial author">
+        <p class="testimonial-author-title"><b>Rachana Rele</b>, Director - User Experience</p>
+      </div>
+    </div>
   </div>
 
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselTestimonials" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselTestimonials" data-slide-to="1"></li>
+    <li data-target="#carouselTestimonials" data-slide-to="2"></li>
   </ol>
 </div>
