@@ -139,6 +139,10 @@ body {
   background-color: #F61A34;
 }
 
+#carouselTestimonials .carousel-item-amadeus {
+  background-color: #1773CF;
+}
+
 #carouselTestimonials .carousel-caption {
   bottom: auto;
   top: 87px;
@@ -152,6 +156,11 @@ body {
 #carouselTestimonials .carousel-item-adobe .testimonial-logo {
   height: 85px;
   margin: 24px 0;
+}
+
+#carouselTestimonials .carousel-item-amadeus .testimonial-logo {
+  height: 45px;
+  margin: 44px 0;
 }
 
 #carouselTestimonials .testimonial-text {
