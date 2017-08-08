@@ -188,6 +188,8 @@ body {
   height: 14px;
   border-radius: 50%;
   background-color: rgba(0,0,0,.2);
+  margin-left: 6.5px;
+  margin-right: 6.5px;
 }
 
 #carouselTestimonials .carousel-indicators .active {
