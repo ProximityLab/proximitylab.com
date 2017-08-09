@@ -304,6 +304,10 @@ body {
   color: #404F60;
 }
 
+.pl-color-dustygrey {
+  color: #9B9B9B;
+}
+
 
 /**
  * Text
@@ -365,7 +369,7 @@ body {
 .pl-logo {
   width: 27px;
   position: absolute;
-  top: 37px;
+  top: 40px;
   left: 45px;
 }
 
@@ -432,7 +436,7 @@ body {
 
 .page-footer {
   background-color: #1B1C25;
-  padding-top: 107px;
+  padding-top: 100px;
   padding-bottom: 40px;
   position: relative;
 }
@@ -444,18 +448,22 @@ body {
 }
 
 .page-footer-heading {
-  margin-bottom: 57px;
+  line-height: 60px;
+  font-weight: 200;
 }
 
 .footer-button {
-  display: inline-block;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
   background: #C624AE;
   border-radius: 4px;
   font-weight: 300;
   font-size: 29px;
   color: #FFFFFF;
-  padding: 12px 100px;
-  margin: 39px 0 43px 0;
+  padding: 8px 0;
+  margin: 0 auto;
 }
 
 .footer-button:link {
@@ -465,7 +473,7 @@ body {
 .footer-links-container {
   list-style: none;
   padding: 0;
-  margin: 0 0 40px;
+  margin: 0 0 20px;
 }
 
 .footer-item {
@@ -482,6 +490,12 @@ body {
 
 .footer-link:hover {
   color: #FFB1FE;
+}
+
+.footer-separator {
+  margin: 0 15px;
+  color: #979797;
+  opacity: 0.3;
 }
 
 
