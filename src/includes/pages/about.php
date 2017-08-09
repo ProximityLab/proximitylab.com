@@ -11,4 +11,6 @@
     <h1 class="about-header-heading-primary text-center">Our Passion</h1>
 
     <hr class="about-separator">
+
+    <p class="about-header-text text-center">Proximity Lab is an award-winning interaction design studio with a 25-year track record providing product strategy, user experience design and front-end development to trusted brands and startups.</p>
 </header>

@@ -59,3 +59,11 @@
   border-top: 2px solid #ED08D3;
   margin: 19px auto;
 }
+
+.about-header-text {
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 30px;
+  max-width: 494px;
+  margin: 35px auto 0;
+}
