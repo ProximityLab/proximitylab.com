@@ -7,4 +7,5 @@
     </nav>
 
     <h2 class="about-header-heading-secondary text-center">ABOUT PROXIMITY LAB</h2>
+    <h1 class="about-header-heading-primary text-center">Our Passion</h1>
 </header>
