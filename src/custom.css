@@ -621,4 +621,35 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+.about-logo {
+  width: 27px;
+  position: absolute;
+  top: 37px;
+  left: 45px;
+}
+
+.about-nav {
+  position: absolute;
+  top: 38px;
+  right: 61px;
+  z-index: 1;
+  font-size: 18px;
+}
+
+.about-nav-link {
+  color: #B6B6B6;
+}
+
+.about-nav-link:last-child {
+  margin-left: 36px;
+}
+
+.about-nav-link:hover,
+.about-nav-link-active {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #ED08D3;
 }
