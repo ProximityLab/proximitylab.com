@@ -1,7 +1,7 @@
 <div id="carouselHome" class="carousel slide" data-ride="carousel">
 
   <nav class="pl-nav">
-    <a class="pl-nav-link" href="#">About</a>
+    <a class="pl-nav-link" href="?page=about">About</a>
     <a class="pl-nav-link" href="#">Work</a>
   </nav>
 

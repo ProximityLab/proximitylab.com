@@ -11,6 +11,16 @@
     </head>
     <body class="animated fadeIn">
         <?php
+            switch ($_GET['page']) {
+                case 'about':
+                    include('includes/pages/about.php');
+                    break;
+                default:
+                    include('includes/pages/home.php');
+            }
+        ?>
+
+        <?php
             switch ($_GET['project']) {
                 case 'wagz':
                     include('includes/wagz.php');
@@ -21,8 +31,6 @@
                 case 'amadeus':
                     include('includes/amadeus.php');
                     break;
-                default:
-                    include('includes/home.php');
             }
         ?>
 
