@@ -9,6 +9,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  padding-top: 230px;
 }
 
 .about-logo {
@@ -39,4 +40,11 @@
   color: #fff;
   text-decoration: none;
   border-bottom: 1px solid #ED08D3;
+}
+
+.about-header-heading-secondary {
+  font-size: 12px;
+  font-weight: 600;
+  color: #FBFBFB;
+  letter-spacing: 5px;
 }
