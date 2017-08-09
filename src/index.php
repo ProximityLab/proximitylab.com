@@ -1,3 +1,6 @@
+<?php
+    $activePage = $_GET['page'];
+?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -7,11 +10,12 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
-        <link rel="stylesheet" href="custom.css">
+        <link rel="stylesheet" href="css/main.css">
+        <?php if ($activePage == 'about') echo '<link rel="stylesheet" href="css/about.css">'; ?>
     </head>
     <body class="animated fadeIn">
         <?php
-            switch ($_GET['page']) {
+            switch ($activePage) {
                 case 'about':
                     include('includes/pages/about.php');
                     break;

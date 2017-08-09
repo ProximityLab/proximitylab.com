@@ -65,7 +65,7 @@ body {
   background-size: cover;
 }
 
-#carouselHome .carousel-item1 { background-image: url(images/carousel-home/slide1.jpg);}
+#carouselHome .carousel-item1 { background-image: url(../images/carousel-home/slide1.jpg);}
 
 #carouselHome .carousel-caption {
   bottom: auto;
@@ -543,11 +543,11 @@ body {
 }
 
 .service-info-image-wagz {
-  background-image: url('images/wagz-carousel-placeholder.png');
+  background-image: url('../images/wagz-carousel-placeholder.png');
 }
 
 .service-info-image-nye {
-  background-image: url('images/service-info-image-nye.png');
+  background-image: url('../images/service-info-image-nye.png');
 }
 
 
@@ -604,52 +604,8 @@ body {
 
 .bottom-jumbotron-bg-nye {
   height: 956px;
-  background-image: url('images/bottom-jumbotron-bg-nye.jpg');
+  background-image: url('../images/bottom-jumbotron-bg-nye.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
-}
-
-
-/**
- * About page
- */
-
-.about-header {
-  height: 760px;
-  background-image: url('images/header-background-home.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.about-logo {
-  width: 27px;
-  position: absolute;
-  top: 37px;
-  left: 45px;
-}
-
-.about-nav {
-  position: absolute;
-  top: 38px;
-  right: 61px;
-  z-index: 1;
-  font-size: 18px;
-}
-
-.about-nav-link {
-  color: #B6B6B6;
-}
-
-.about-nav-link:last-child {
-  margin-left: 36px;
-}
-
-.about-nav-link:hover,
-.about-nav-link-active {
-  color: #fff;
-  text-decoration: none;
-  border-bottom: 1px solid #ED08D3;
 }
