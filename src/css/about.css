@@ -2,6 +2,8 @@
  * About page
  */
 
+/* header section */
+
 .about-header {
   height: 760px;
   background-image: url('../images/header-background-home.jpg');
@@ -66,4 +68,65 @@
   line-height: 30px;
   max-width: 494px;
   margin: 35px auto 0;
+}
+
+
+/* service section */
+
+.about-service {
+  margin-top: 92px;
+  margin-bottom: 134px;
+}
+
+@media (min-width: 992px) {
+  .about-service-spacing {
+    padding: 108px 122px 0 125px;
+  }
+}
+
+.about-service-heading-secondary {
+  font-size: 12px;
+  font-weight: 600;
+  color: #7C7C7C;
+  letter-spacing: 5px;
+}
+
+.about-service-heading-primary {
+  font-size: 36px;
+  font-weight: 300;
+  color: #282828;
+  margin-top: 17px;
+  margin-bottom: 28px;
+}
+
+.about-service-text {
+  font-size: 18px;
+  color: #7C7C7C;
+  line-height: 36px;
+}
+
+.about-service-image {
+  min-height: 245px;
+  background-image: url('../images/about-service-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 576px) {
+  .about-service-image {
+    min-height: 345px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-service-image {
+    min-height: 445px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-service-image {
+    min-height: 545px;
+  }
 }
