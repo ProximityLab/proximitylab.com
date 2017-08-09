@@ -53,3 +53,9 @@
   font-size: 64px;
   color: #FFFFFF;
 }
+
+.about-separator {
+  width: 173px;
+  border-top: 2px solid #ED08D3;
+  margin: 19px auto;
+}
