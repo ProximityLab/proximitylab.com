@@ -24,6 +24,6 @@
             <p class="about-service-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design through development, testing and deployment.</p>
         </div>
 
-        <div class="col-12 col-md-5 about-service-image about-service-image-size"></div>
+        <div class="col-12 col-md-5 about-service-image"></div>
     </div>
 </div>
