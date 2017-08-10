@@ -27,3 +27,29 @@
         <div class="col-12 col-md-5 about-service-image"></div>
     </div>
 </div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 text-center about-service-item">
+            <img class="about-service-item-icon" src="images/icon-research.svg" alt="Research icon">
+            <h5 class="about-service-item-heading">Research</h5>
+            <p class="about-service-item-text">Trendscape Analysis</p>
+            <p class="about-service-item-text">Research &amp; Planning</p>
+            <p class="about-service-item-text">Journey Mapping</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 text-center about-service-item">
+            <img class="about-service-item-icon" src="images/icon-ux.svg" alt="UX icon">
+            <h5 class="about-service-item-heading">UX Strategy</h5>
+            <p class="about-service-item-text">Persona Development</p>
+            <p class="about-service-item-text">Storyboarding</p>
+            <p class="about-service-item-text">Content Strategy</p>
+        </div>
+        <div class="col-12 col-md-4 text-center about-service-item">
+            <img class="about-service-item-icon" src="images/icon-design.svg" alt="Design icon">
+            <h5 class="about-service-item-heading">Design &amp; Development</h5>
+            <p class="about-service-item-text">User Interface &amp; Visual Design</p>
+            <p class="about-service-item-text">Wireframe &amp; Prototyping</p>
+            <p class="about-service-item-text">Front End Develpoment</p>
+        </div>
+    </div>
+</div>

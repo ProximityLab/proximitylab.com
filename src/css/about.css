@@ -130,3 +130,26 @@
     min-height: 545px;
   }
 }
+
+.about-service-item {
+  margin-bottom: 177px;
+}
+
+.about-service-item-icon {
+  height: 67px;
+}
+
+.about-service-item-heading {
+  font-size: 24px;
+  font-weight: 300;
+  color: #CF0D7D;
+  margin-top: 25px;
+  margin-bottom: 26px;
+}
+
+.about-service-item-text {
+  font-size: 16px;
+  color: #7C7C7C;
+  line-height: 14px;
+  margin-bottom: 17px;
+}
