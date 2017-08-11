@@ -1,0 +1,54 @@
+/**
+ * Work page
+ */
+
+/* header section */
+
+.work-header {
+    position: relative;
+    padding-top: 71px;
+}
+  
+.work-logo {
+    width: 27px;
+    position: absolute;
+    top: 37px;
+    left: 45px;
+}
+
+.work-nav {
+    position: absolute;
+    top: 38px;
+    right: 61px;
+    z-index: 1;
+    font-size: 18px;
+  }
+  
+.work-nav-link {
+    color: #535558;
+}
+
+.work-nav-link:last-child {
+    margin-left: 36px;
+}
+
+.work-nav-link:hover,
+.work-nav-link-active {
+    color: #CF0D7D;
+    text-decoration: none;
+    border-bottom: 1px solid #CF0D7D;
+}
+
+.work-header-heading {
+    font-size: 36px;
+    font-weight: 300;
+    color: #282828;
+    margin-bottom: 16px;
+}
+
+.work-header-text {
+    font-size: 18px;
+    color: #7C7C7C;
+    line-height: 36px;
+    max-width: 578px;
+}
