@@ -82,7 +82,7 @@
     <div class="carousel-item carousel-item-adobe">
       <div class="carousel-caption">
         <h5 class="pl-heading-xs pl-color-mineshaft d-none d-md-block">THE BOND WITH OUR CLIENTS</h5>
-        <img class="testimonial-logo d-none d-lg-inline-block" src="images/logo-adobe.png" alt="Adobe logo">
+        <img class="testimonial-logo d-none d-lg-inline-block" src="images/logo-adobe.svg" alt="Adobe logo">
         <p class="testimonial-text">"I've been super impressed. I didn't have much of an idea what to expect going into this, with working with an outside web design firm as the closest prior experience. So I gotta say, I'm kind of blown away at how quickly things are progressing."</p>
         <img class="testimonial-author d-none d-sm-inline-block" src="images/testimonial-author-adobe.png" alt="Testimonial author">
         <p class="testimonial-author-title"><b>Rachana Rele</b>, Director - User Experience</p>
@@ -92,7 +92,7 @@
     <div class="carousel-item carousel-item-amadeus">
       <div class="carousel-caption">
         <h5 class="pl-heading-xs pl-color-mineshaft d-none d-md-block">THE BOND WITH OUR CLIENTS</h5>
-        <img class="testimonial-logo d-none d-lg-inline-block" src="images/logo-amadeus.png" alt="Amadeus logo">
+        <img class="testimonial-logo d-none d-lg-inline-block" src="images/logo-amadeus.svg" alt="Amadeus logo">
         <p class="testimonial-text">"I've been super impressed. I didn't have much of an idea what to expect going into this, with working with an outside web design firm as the closest prior experience. So I gotta say, I'm kind of blown away at how quickly things are progressing."</p>
         <img class="testimonial-author d-none d-sm-inline-block" src="images/testimonial-author-amadeus.png" alt="Testimonial author">
         <p class="testimonial-author-title"><b>Lee Horgan</b>, CEO</p>
