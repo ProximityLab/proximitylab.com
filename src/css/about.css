@@ -201,3 +201,66 @@
 .about-clients-logo-nye { height: 70px; }
 .about-clients-logo-scribe { height: 28px; }
 .about-clients-logo-zynga { height: 44px; }
+
+
+/* team section */
+
+.about-team {
+  background-color: #F7F7F7;
+}
+
+.about-team-info {
+  background-color: #CF0D7D;
+  padding: 15px 0 10px;
+  min-height: 200px;
+}
+
+.about-team-info-container {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%)
+}
+
+.about-team-heading-secondary {
+  font-size: 10px;
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: 5px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 992px) {
+  .about-team-heading-secondary {
+    font-size: 12px;
+  }
+}
+
+.about-team-heading-primary {
+  font-size: 34px;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin-bottom: 29px;
+}
+
+@media (min-width: 992px) {
+  .about-team-heading-primary {
+    font-size: 36px;
+  }
+}
+
+.about-team-text {
+  opacity: 0.9;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 33px;
+  max-width: 236px;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  .about-team-text {
+    font-size: 18px;
+    line-height: 35px;
+  }
+}

@@ -94,3 +94,22 @@
         </div>
     </div>
 </div>
+
+<div class="about-team">
+    <div class="row no-gutters">
+        <div class="col-12 col-sm-6 col-md-4 about-team-info text-center">
+            <div class="about-team-info-container">
+                <h6 class="about-team-heading-secondary">ABOUT PROXIMITY LAB</h6>
+                <h5 class="about-team-heading-primary">Meet our team</h5>
+                <p class="about-team-text">We are a team of passionate and innovative thinkers, driven to create awesome experiences</p>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4"><img class="img-fluid" src="images/about-team-member1.jpg" alt="Team member photo"></div>
+        <div class="col-12 col-sm-6 col-md-4"><img class="img-fluid" src="images/about-team-member2.jpg" alt="Team member photo"></div>
+        <div class="col-12 col-sm-6 col-md-4"><img class="img-fluid" src="images/about-team-member3.jpg" alt="Team member photo"></div>
+        <div class="col-12 col-sm-6 col-md-4"><img class="img-fluid" src="images/about-team-member4.jpg" alt="Team member photo"></div>
+        <div class="col-12 col-sm-6 col-md-4"><img class="img-fluid" src="images/about-team-member5.jpg" alt="Team member photo"></div>
+        <div class="col-12 col-sm-6 col-md-4"><img class="img-fluid" src="images/about-team-member6.jpg" alt="Team member photo"></div>
+        <div class="col-12 col-sm-6 col-md-4"><img class="img-fluid" src="images/about-team-member7.jpg" alt="Team member photo"></div>
+    </div>
+</div>
