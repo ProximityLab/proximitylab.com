@@ -264,3 +264,68 @@
     line-height: 35px;
   }
 }
+
+
+/* location section */
+
+.about-location {
+  margin-top: 109px;
+  background-image: url('../images/about-location-background.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  padding-bottom: 200px;
+}
+
+@media (min-width: 576px) {
+  .about-location {
+    padding-bottom: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-location {
+    padding-bottom: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-location {
+    padding-bottom: 480px;
+  }
+}
+
+.about-location-heading-primary {
+  font-size: 36px;
+  font-weight: 300;
+  color: #282828;
+  margin-bottom: 20px;
+}
+
+.about-location-text {
+  font-size: 18px;
+  color: #7C7C7C;
+  line-height: 36px;
+}
+
+.about-location-heading-tertiary {
+  font-size: 12px;
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: 5px;
+  margin-bottom: 13px;
+  margin-top: 40px;
+}
+
+.about-location-heading-secondary {
+  font-size: 24px;
+  font-weight: 600;
+  color: #D70F8A;
+  margin-bottom: 4px;
+}
+
+.about-location-address {
+  font-size: 16px;
+  color: #737373;
+  line-height: 24px;
+}

@@ -113,3 +113,30 @@
         <div class="col-12 col-sm-6 col-md-4"><img class="img-fluid" src="images/about-team-member7.jpg" alt="Team member photo"></div>
     </div>
 </div>
+
+<div class="container-fluid about-location">
+    <div class="row">
+        <div class="col-12 col-lg-8 col-xl-5 offset-xl-1">
+            <h4 class="about-location-heading-primary">Changing experiences coast to coast</h4>
+            <p class="about-location-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design through development, testing and deployment.</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-2 offset-xl-1">
+            <h6 class="about-location-heading-tertiary">WEST COAST</h6>
+            <h5 class="about-location-heading-secondary">SF Bay Area</h5>
+            <address class="about-location-address">
+                510 3rd Street<br>
+                Oakland, CA 94607
+            </address>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-2">
+            <h6 class="about-location-heading-tertiary">EAST COAST</h6>
+            <h5 class="about-location-heading-secondary">Portsmouth</h5>
+            <address class="about-location-address">
+                3 Congress Street, Suite 2<br>
+                Portsmouth, NH 03801
+            </address>
+        </div>
+    </div>
+</div>
