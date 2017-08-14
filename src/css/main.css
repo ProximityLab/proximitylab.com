@@ -8,6 +8,91 @@ body {
 
 
 /**
+ * Page footer
+ */
+
+ .page-footer {
+  background-color: #1B1C25;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .page-footer {
+    padding-left: 110px;
+  }
+}
+
+.page-footer-logo {
+  width: 27px;
+  position: absolute;
+  top: 40px;
+  left: 45px;
+}
+
+.page-footer-heading {
+  line-height: 60px;
+  font-size: 48px;
+  font-weight: 200;
+  color: #FFFFFF;
+}
+
+.page-footer-button {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  background: #C624AE;
+  border-radius: 4px;
+  font-weight: 300;
+  font-size: 29px;
+  color: #FFFFFF;
+  padding: 8px 0;
+  margin: 0 auto;
+}
+
+.page-footer-button:link {
+  text-decoration: none;
+}
+
+.page-footer-links-container {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.page-footer-item {
+  display: inline;
+  margin-right: 22px;
+}
+
+.page-footer-link {
+  color: #FFB1FE;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.page-footer-link:hover {
+  color: #FFB1FE;
+}
+
+.page-footer-credits {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #9B9B9B;
+}
+
+.page-footer-separator {
+  margin: 0 15px;
+  color: #979797;
+  opacity: 0.3;
+}
+
+
+/**
  * Navigation
  */
 
@@ -427,75 +512,6 @@ body {
 /* Amadeus */
 .diagonal-grad-3 {
   background: linear-gradient(to bottom right, #D91B3D, #8B054A);
-}
-
-
-/**
- * Page footer
- */
-
-.page-footer {
-  background-color: #1B1C25;
-  padding-top: 100px;
-  padding-bottom: 40px;
-  position: relative;
-}
-
-@media (min-width: 992px) {
-  .page-footer {
-    padding-left: 110px;
-  }
-}
-
-.page-footer-heading {
-  line-height: 60px;
-  font-weight: 200;
-}
-
-.footer-button {
-  display: block;
-  width: 100%;
-  max-width: 300px;
-  text-align: center;
-  background: #C624AE;
-  border-radius: 4px;
-  font-weight: 300;
-  font-size: 29px;
-  color: #FFFFFF;
-  padding: 8px 0;
-  margin: 0 auto;
-}
-
-.footer-button:link {
-  text-decoration: none;
-}
-
-.footer-links-container {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 20px;
-}
-
-.footer-item {
-  display: inline;
-  margin-right: 22px;
-}
-
-.footer-link {
-  color: #FFB1FE;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-}
-
-.footer-link:hover {
-  color: #FFB1FE;
-}
-
-.footer-separator {
-  margin: 0 15px;
-  color: #979797;
-  opacity: 0.3;
 }
 
 
