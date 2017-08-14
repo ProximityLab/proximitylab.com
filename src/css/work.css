@@ -107,13 +107,9 @@
     height: 70px;
 }
 
-.work-item-logo-nye {
-    height: 70px;
-}
-
-.work-item-logo-wagz {
-    height: 69px;
-}
+.work-item-logo-nye { height: 70px; }
+.work-item-logo-wagz { height: 69px; }
+.work-item-logo-amadeus { height: 21px; }
 
 .work-item-text {
     font-size: 16px;

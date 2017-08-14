@@ -27,7 +27,13 @@
                 <a class="work-item-button" href="">View work</a>
             </div>
         </div>
-        <div class="work-item col-12 col-sm-6 col-md-4"><div class="work-item-container work-item-amadeus"></div></div>
+        <div class="work-item col-12 col-sm-6 col-md-4">
+            <div class="work-item-container work-item-amadeus text-center">
+                <img class="work-item-logo work-item-logo-amadeus" src="images/logo-amadeus.svg" alt="Amadeus logo">
+                <p class="work-item-text mx-auto">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
+                <a class="work-item-button" href="">View work</a>
+            </div>
+        </div>
         <div class="work-item col-12 col-md-8"><div class="work-item-container work-item-fpo1"></div></div>
         <div class="work-item col-12 col-sm-6 col-md-4"><div class="work-item-container work-item-fpo2"></div></div>
         <div class="work-item col-12 col-sm-6 col-md-4"><div class="work-item-container work-item-fpo3"></div></div>
