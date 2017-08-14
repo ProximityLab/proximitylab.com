@@ -6,7 +6,13 @@
 
 .work-header {
     position: relative;
-    padding-top: 71px;
+    padding-top: 150px;
+}
+
+@media (min-width: 768px) {
+    .work-header {
+        padding-top: 71px;
+    }
 }
   
 .work-logo {
