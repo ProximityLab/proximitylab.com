@@ -52,3 +52,44 @@
     line-height: 36px;
     max-width: 578px;
 }
+
+
+/* portfolio section */
+
+.work-item {
+    margin-bottom: 30px;
+}
+
+.work-item-container {
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 576px) {
+    .work-item-container {
+        height: 320px;
+    }
+}
+
+@media (min-width: 768px) {
+    .work-item-container {
+        height: 420px;
+    }
+}
+
+.work-item-nye { background-image: url('../images/work-item-background-nye.jpg'); }
+.work-item-wagz { background-image: url('../images/work-item-background-wagz.jpg'); }
+.work-item-amadeus { background-image: url('../images/work-item-background-amadeus.jpg'); }
+.work-item-fpo1 { background-image: url('../images/work-item-background-fpo1.jpg'); }
+.work-item-fpo2 { background-image: url('../images/work-item-background-fpo2.jpg'); }
+.work-item-fpo3 { background-image: url('../images/work-item-background-fpo3.jpg'); }
+.work-item-fpo4 { background-image: url('../images/work-item-background-fpo4.jpg'); }
+.work-item-fpo5 { background-image: url('../images/work-item-background-fpo5.jpg'); }
+.work-item-fpo6 { background-image: url('../images/work-item-background-fpo6.jpg'); }
+.work-item-fpo7 { background-image: url('../images/work-item-background-fpo7.jpg'); }
+.work-item-fpo8 { background-image: url('../images/work-item-background-fpo8.jpg'); }
+.work-item-fpo9 { background-image: url('../images/work-item-background-fpo9.jpg'); }
+.work-item-fpo10 { background-image: url('../images/work-item-background-fpo10.jpg'); }
+.work-item-fpo11 { background-image: url('../images/work-item-background-fpo11.jpg'); }
