@@ -20,28 +20,23 @@
     <body class="animated fadeIn">
         <?php
             switch ($activePage) {
-                case 'about':
-                    include('includes/pages/about.php');
+                case 'amadeus':
+                    include('includes/pages/amadeus.php');
+                    break;
+                case 'wagz':
+                    include('includes/pages/wagz.php');
+                    break;
+                case 'nye':
+                    include('includes/pages/nye.php');
                     break;
                 case 'work':
                     include('includes/pages/work.php');
                     break;
+                case 'about':
+                    include('includes/pages/about.php');
+                    break;
                 default:
                     include('includes/pages/home.php');
-            }
-        ?>
-
-        <?php
-            switch ($_GET['project']) {
-                case 'wagz':
-                    include('includes/wagz.php');
-                    break;
-                case 'nye':
-                    include('includes/nye.php');
-                    break;
-                case 'amadeus':
-                    include('includes/amadeus.php');
-                    break;
             }
         ?>
 
