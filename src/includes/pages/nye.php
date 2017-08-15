@@ -1,16 +1,20 @@
-<div class="jumbotron jumbotron-fluid project-jumbotron diagonal-grad-2">
-    
-    <?php include('includes/header.php'); ?>
+<div class="jumbotron jumbotron-fluid nye-jumbotron">
+
+    <a href="/"><img class="nye-jumbotron-logo-site" src="images/logo-proximity-lab-white.svg" alt="Proximity Lab logo"></a>
+
+    <img class="nye-jumbotron-grid" src="images/icon-grid-view.svg" alt="Grid view icon">
+    <img class="nye-jumbotron-left" src="images/icon-arrow-left.svg" alt="Left arrow icon">
+    <img class="nye-jumbotron-right" src="images/icon-arrow-right.svg" alt="Right arrow icon">
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-4 project-jumbotron-padding">
-                <h1 class="pl-heading-xl pl-color-white mt-5 pt-5">explore the world outside</h1>
-                <img class="project-logo d-block mx-auto my-4 my-xl-5" src="images/logo-nye.png" alt="Nye logo">
-                <p class="pl-text-lg pl-color-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue</p>
-                <img class="icon-arrow-bottom mx-auto d-block" src="images/icon-arrow-bottom.svg" alt="Bottom arrow icon">
+            <div class="col-12 col-md-4 nye-jumbotron-padding">
+                <h1 class="nye-jumbotron-heading mt-5 pt-5">explore the world outside</h1>
+                <img class="nye-jumbotron-logo-project d-block mx-auto my-4 my-xl-5" src="images/logo-nye.png" alt="Nye logo">
+                <p class="nye-jumbotron-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue</p>
+                <img class="nye-jumbotron-bottom mx-auto d-block" src="images/icon-arrow-bottom.svg" alt="Bottom arrow icon">
             </div>
-            <div class="col-12 col-md-8 project-jumbotron-padding"><img class="img-fluid mt-5" src="images/website-mockup-nye.png" alt="Nye website mockup"></div>
+            <div class="col-12 col-md-8 nye-jumbotron-padding"><img class="img-fluid mt-5" src="images/website-mockup-nye.png" alt="Nye website mockup"></div>
         </div>
     </div>
 

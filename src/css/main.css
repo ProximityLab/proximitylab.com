@@ -260,61 +260,10 @@ body {
  * Project jumbotron
  */
 
-.project-jumbotron {
-  margin-bottom: 0;
-}
-
-@media (min-width: 1200px) {
-  .project-jumbotron {
-    padding-left: 92px;
-    padding-right: 92px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .project-jumbotron-padding {
-    padding-left: 33px;
-    padding-right: 33px;
-  }
-}
-
-.pl-logo {
-  width: 27px;
-  position: absolute;
-  top: 40px;
-  left: 45px;
-}
-
-.icon-grid-view {
-  position: absolute;
-  top: 39px;
-  right: 136px;
-}
-
-.icon-arrow-left {
-  position: absolute;
-  top: 37px;
-  right: 85px;
-}
-
-.icon-arrow-right {
-  position: absolute;
-  top: 37px;
-  right: 45px;
-}
-
-.icon-arrow-bottom {
-  margin-top: 51px;
-}
-
 @media (min-width: 1200px) {
   .pl-heading-jumbotron {
     margin-bottom: 217px;
   }
-}
-
-.project-logo {
-  height: 40px;
 }
 
 .project-logo-amadeus {
@@ -329,11 +278,6 @@ body {
 /* Wagz */
 .diagonal-grad-1 {
   background: linear-gradient(to bottom right, #4B940F, #83BA1C);
-}
-
-/* Nye */
-.diagonal-grad-2 {
-  background: linear-gradient(to bottom right, #74D561, #066E5C);
 }
 
 /* Amadeus */

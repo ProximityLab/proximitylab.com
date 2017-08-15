@@ -15,6 +15,7 @@
             if (!$activePage) echo '<link rel="stylesheet" href="css/home.css">';
             if ($activePage == 'about') echo '<link rel="stylesheet" href="css/about.css">';
             if ($activePage == 'work') echo '<link rel="stylesheet" href="css/work.css">';
+            if ($activePage == 'nye') echo '<link rel="stylesheet" href="css/nye.css">';
         ?>
     </head>
     <body class="animated fadeIn">
