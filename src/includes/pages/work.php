@@ -1,10 +1,7 @@
 <header class="work-header">
     <a href="/"><img class="work-logo" src="images/logo-proximity-lab-pink.svg" alt="Proximity Lab logo"></a>
 
-    <nav class="work-nav">
-        <a class="work-nav-link" href="?page=about">About</a>
-        <a class="work-nav-link work-nav-link-active" href="?page=work">Work</a>
-    </nav>
+    <?php include('includes/navigation.php'); ?>
 
     <h1 class="work-header-heading text-center">The fruits of our labor</h1>
 

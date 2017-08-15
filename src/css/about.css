@@ -2,6 +2,20 @@
  * About page
  */
 
+/* navigation */
+
+.page-navigation-link {
+  color: #B6B6B6;
+}
+
+.page-navigation-link:hover,
+.page-navigation-link-active {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #ED08D3;
+}
+
+
 /* header section */
 
 .about-header {
@@ -19,29 +33,6 @@
   position: absolute;
   top: 37px;
   left: 45px;
-}
-
-.about-nav {
-  position: absolute;
-  top: 38px;
-  right: 61px;
-  z-index: 1;
-  font-size: 18px;
-}
-
-.about-nav-link {
-  color: #B6B6B6;
-}
-
-.about-nav-link:last-child {
-  margin-left: 36px;
-}
-
-.about-nav-link:hover,
-.about-nav-link-active {
-  color: #fff;
-  text-decoration: none;
-  border-bottom: 1px solid #ED08D3;
 }
 
 .about-header-heading-secondary {

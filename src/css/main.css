@@ -8,6 +8,23 @@ body {
 
 
 /**
+ * Navigation
+ */
+
+.page-navigation {
+  position: absolute;
+  top: 38px;
+  right: 61px;
+  z-index: 1;
+  font-size: 18px;
+}
+
+.page-navigation-link:last-child {
+  margin-left: 36px;
+}
+
+
+/**
  * Page footer
  */
 
@@ -89,27 +106,6 @@ body {
   margin: 0 15px;
   color: #979797;
   opacity: 0.3;
-}
-
-
-/**
- * Navigation
- */
-
-.pl-nav {
-  position: absolute;
-  top: 38px;
-  right: 61px;
-  z-index: 1;
-  font-size: 18px;
-}
-
-.pl-nav-link {
-  color: #FFF;
-}
-
-.pl-nav-link:last-child {
-  margin-left: 36px;
 }
 
 

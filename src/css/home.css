@@ -2,6 +2,13 @@
  * Home page
  */
 
+ /* navigation */
+
+.page-navigation-link {
+    color: #FFF;
+}
+
+
 /* header carousel */
 
 .home-carousel-header {

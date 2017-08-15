@@ -1,9 +1,6 @@
 <div id="home-carousel-header" class="carousel slide home-carousel-header" data-ride="carousel">
 
-  <nav class="pl-nav">
-    <a class="pl-nav-link" href="?page=about">About</a>
-    <a class="pl-nav-link" href="#">Work</a>
-  </nav>
+  <?php include('includes/navigation.php'); ?>
 
   <a href="/"><img class="home-carousel-header-logo" src="images/logo-proximity-lab-white.svg" alt="Proximity Lab logo"></a>
 

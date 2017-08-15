@@ -2,6 +2,20 @@
  * Work page
  */
 
+/* navigation */
+
+.page-navigation-link {
+    color: #535558;
+}
+
+.page-navigation-link:hover,
+.page-navigation-link-active {
+    color: #CF0D7D;
+    text-decoration: none;
+    border-bottom: 1px solid #CF0D7D;
+}
+
+
 /* header section */
 
 .work-header {
@@ -20,29 +34,6 @@
     position: absolute;
     top: 37px;
     left: 45px;
-}
-
-.work-nav {
-    position: absolute;
-    top: 38px;
-    right: 61px;
-    z-index: 1;
-    font-size: 18px;
-  }
-  
-.work-nav-link {
-    color: #535558;
-}
-
-.work-nav-link:last-child {
-    margin-left: 36px;
-}
-
-.work-nav-link:hover,
-.work-nav-link-active {
-    color: #CF0D7D;
-    text-decoration: none;
-    border-bottom: 1px solid #CF0D7D;
 }
 
 .work-header-heading {
