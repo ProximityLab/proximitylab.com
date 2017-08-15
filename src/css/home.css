@@ -1,0 +1,180 @@
+/**
+ * Home page
+ */
+
+/* header carousel */
+
+.home-carousel-header {
+    height: 760px;
+    position: relative;
+}
+
+.home-carousel-header-logo {
+    position: absolute;
+    z-index: 1;
+    width: 88px;
+    top: 225px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: all 1s;
+}
+
+.home-carousel-header-logo-animate {
+    width: 27px;
+    top: 38px;
+    left: 61px;
+    transform: translate(0, 0);
+}
+
+.home-carousel-header-inner {
+    height: 100%;
+}
+
+.home-carousel-header-item {
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-carousel-header-item1 { background-image: url(../images/carousel-home/slide1.jpg); }
+
+.home-carousel-header-caption {
+    bottom: auto;
+    top: 381px;
+}
+  
+.home-carousel-header-text {
+    font-size: 28px;
+    color: #FFF;
+    line-height: 64px;
+}
+  
+.home-carousel-header-arrow {
+    cursor: pointer;
+    position: absolute;
+    bottom: 86px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+/* workwith section */
+
+.home-workwith-header-heading {
+    font-size: 36px;
+    font-weight: 300;
+    color: #4A4A4A;
+}
+
+.home-workwith-header-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #737373;
+}
+
+.home-workwith-item {
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.10);
+    margin-bottom: 78px;
+}
+  
+.home-workwith-item-icon {
+    height: 198px;
+}
+  
+.home-workwith-item-heading {
+    font-size: 24px;
+    font-weight: 400;
+    color: #404F60;
+}
+  
+.home-workwith-item-text {
+    font-size: 16px;
+    font-weight: 300;
+    color: #737373;
+    line-height: 24px;
+    margin: 18px 40px;
+    text-align: center;
+}
+  
+.home-workwith-item-arrow {
+    cursor: pointer;
+}
+
+
+/* testimonial carousel */
+
+.home-carousel-testimonial-item {
+    height: 1000px;
+}
+  
+@media (min-width: 576px) {
+    .home-carousel-testimonial-item {
+        height: 761px;
+    }
+}
+  
+.home-carousel-testimonial-item-scribe { background-color: #139CE4; }
+.home-carousel-testimonial-item-adobe { background-color: #F61A34; }
+.home-carousel-testimonial-item-amadeus { background-color: #1773CF; }
+  
+.home-carousel-testimonial-caption {
+    bottom: auto;
+    top: 87px;
+}
+
+.home-carousel-testimonial-heading {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: #282828;
+}
+  
+.home-carousel-testimonial-logo-scribe {
+    height: 29px;
+    margin: 50px 0;
+}
+  
+.home-carousel-testimonial-logo-adobe {
+    height: 85px;
+    margin: 24px 0;
+}
+  
+.home-carousel-testimonial-logo-amadeus {
+    height: 45px;
+    margin: 44px 0;
+}
+  
+.home-carousel-testimonial-text {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 44px;
+}
+  
+.home-carousel-testimonial-author {
+    height: 70px;
+    margin: 65px 0 8px;
+}
+  
+.home-carousel-testimonial-author-title {
+    font-size: 20px;
+    line-height: 44px;
+}
+  
+.home-carousel-testimonial-indicators {
+    bottom: 51px;
+}
+  
+li.home-carousel-testimonial-indicator {
+    max-width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.2);
+    margin-left: 6.5px;
+    margin-right: 6.5px;
+}
+  
+.home-carousel-testimonial-indicator.active {
+    background-color: #fff;
+}
