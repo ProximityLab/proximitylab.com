@@ -69,6 +69,11 @@ body {
   margin: 0 auto;
 }
 
+.page-footer-button:hover {
+  color: #FFFFFF;
+  background-color: #E057CC;
+}
+
 .page-footer-button:link {
   text-decoration: none;
 }
