@@ -37,9 +37,9 @@
     </div>
 </section>
 
-<section class="project-video">
+<section class="wagz-video">
     <img class="img-fluid" src="images/video-background-wagz.jpg" alt="Wagz video background">
-    <img class="project-video-play" src="images/icon-play.svg" alt="Play icon" data-toggle="modal" data-target="#video-modal">
+    <img class="wagz-play" src="images/icon-play.svg" alt="Play icon" data-toggle="modal" data-target="#video-modal">
 </section>
 
 <!-- Modal -->
