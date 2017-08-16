@@ -93,6 +93,8 @@ body {
 
 .page-footer-link:hover {
   color: #FFB1FE;
+  text-decoration: none;
+  border-bottom: 1px solid #ED08D3;
 }
 
 .page-footer-credits {
