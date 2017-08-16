@@ -8,8 +8,11 @@
     color: #535558;
 }
 
-.page-navigation-link:hover,
 .page-navigation-link-active {
+    color: #CF0D7D;
+}
+
+.page-navigation-link:hover {
     color: #CF0D7D;
     text-decoration: none;
     border-bottom: 1px solid #CF0D7D;
