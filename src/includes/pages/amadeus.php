@@ -1,16 +1,20 @@
-<div class="jumbotron jumbotron-fluid project-jumbotron diagonal-grad-3">
+<div class="jumbotron jumbotron-fluid ama-jumbotron">
 
-    <?php include('includes/header.php'); ?>
+    <a href="/"><img class="ama-jumbotron-logo-site" src="images/logo-proximity-lab-white.svg" alt="Proximity Lab logo"></a>
+
+    <img class="ama-jumbotron-grid" src="images/icon-grid-view.svg" alt="Grid view icon">
+    <img class="ama-jumbotron-left" src="images/icon-arrow-left.svg" alt="Left arrow icon">
+    <img class="ama-jumbotron-right" src="images/icon-arrow-right.svg" alt="Right arrow icon">
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-4 project-jumbotron-padding">
-                <h1 class="pl-heading-xl pl-color-white mt-5 pt-5">plan your space</h1>
-                <img class="project-logo project-logo-amadeus my-4 my-xl-5" src="images/logo-amadeus.png" alt="Amadeus logo">
-                <p class="pl-text-lg pl-color-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue</p>
-                <img class="icon-arrow-bottom mx-auto d-block" src="images/icon-arrow-bottom.svg" alt="Bottom arrow icon">
+            <div class="col-12 col-md-4 ama-jumbotron-padding">
+                <h1 class="ama-jumbotron-heading mt-5 pt-5">plan your space</h1>
+                <img class="ama-jumbotron-logo-project my-4 my-xl-5" src="images/logo-amadeus.svg" alt="Amadeus logo">
+                <p class="ama-jumbotron-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue</p>
+                <img class="ama-jumbotron-bottom mx-auto d-block" src="images/icon-arrow-bottom.svg" alt="Bottom arrow icon">
             </div>
-            <div class="col-12 col-md-8 project-jumbotron-padding"><img class="img-fluid mt-5" src="images/website-mockup-amadeus.png" alt="Amadeus website mockup"></div>
+            <div class="col-12 col-md-8 ama-jumbotron-padding"><img class="img-fluid mt-5" src="images/website-mockup-amadeus.png" alt="Amadeus website mockup"></div>
         </div>
     </div>
 

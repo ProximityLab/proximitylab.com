@@ -265,13 +265,3 @@ body {
     margin-bottom: 217px;
   }
 }
-
-.project-logo-amadeus {
-  height: 22px;
-}
-
-
-/* Amadeus */
-.diagonal-grad-3 {
-  background: linear-gradient(to bottom right, #D91B3D, #8B054A);
-}
