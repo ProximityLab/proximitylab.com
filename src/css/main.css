@@ -290,51 +290,8 @@ body {
  * Service info section
  */
 
-.service-info {
-  padding: 34px 0 0;
-}
-
-.service-info-heading1 {
-  margin-bottom: 17px;
-}
-
-.service-info-heading2 {
-  margin-bottom: 32px;
-}
-
-@media (min-width: 576px) {
-  .service-info {
-    padding: 34px 0;
-  }
-}
-
-@media (min-width: 992px) {
-  .service-info {
-    padding: 34px 0 34px 110px;
-  }
-
-  .service-info-text {
-    padding-right: 75px;
-  }
-}
-
-.service-info-paragraph {
-  line-height: 36px;
-}
-
-.service-info-image {
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
-  min-height: 636px;
-}
-
 .service-info-image-wagz {
   background-image: url('../images/wagz-carousel-placeholder.png');
-}
-
-.service-info-image-nye {
-  background-image: url('../images/service-info-image-nye.png');
 }
 
 
