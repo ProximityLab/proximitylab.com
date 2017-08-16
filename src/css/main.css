@@ -275,31 +275,3 @@ body {
 .diagonal-grad-3 {
   background: linear-gradient(to bottom right, #D91B3D, #8B054A);
 }
-
-
-/**
- * How section
- */
-
-.how-info {
-  margin: 40px 0;
-}
-
-.how-heading {
-  margin-bottom: 16px;
-}
-
-.how-circle {
-  margin-bottom: 27px;
-}
-
-.how-text {
-  max-width: 292px;
-  margin: 0 auto;
-}
-
-@media (min-width: 576px) {
-  .how-dog {
-    margin-top: 178px;
-  }
-}

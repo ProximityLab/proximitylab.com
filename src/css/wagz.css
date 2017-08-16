@@ -152,3 +152,36 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
+
+
+/* service */
+
+.wagz-service {
+    margin: 40px 0;
+}
+
+.wagz-service-circle {
+    margin-bottom: 27px;
+}
+
+.wagz-service-heading {
+    font-size: 24px;
+    font-weight: 300;
+    color: #4A4A4A;
+    margin-bottom: 16px;
+}
+
+.wagz-service-text {
+    max-width: 292px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #7C7C7C;
+}
+
+@media (min-width: 576px) {
+    .wagz-service-dog {
+        margin-top: 178px;
+    }
+}

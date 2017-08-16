@@ -63,18 +63,18 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-12 col-sm-4 align-self-center text-center">
-            <div class="how-info">
-                <img class="how-circle" src="images/icon-circle.svg" alt="Circle icon">
-                <h4 class="pl-heading-sm pl-color-tundora how-heading">Designing</h4>
-                <p class="pl-text-md pl-color-boulder how-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by</p>
+            <div class="wagz-service">
+                <img class="wagz-service-circle" src="images/icon-circle.svg" alt="Circle icon">
+                <h4 class="wagz-service-heading">Designing</h4>
+                <p class="wagz-service-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by</p>
             </div>
         </div>
-        <div class="col-12 col-sm-4"><img class="img-fluid how-dog" src="images/wagz-dog.png" alt="Wagz dog"></div>
+        <div class="col-12 col-sm-4"><img class="img-fluid wagz-service-dog" src="images/wagz-dog.png" alt="Wagz dog"></div>
         <div class="col-12 col-sm-4 align-self-center text-center">
-            <div class="how-info">
-                <img class="how-circle" src="images/icon-circle.svg" alt="Circle icon">
-                <h4 class="pl-heading-sm pl-color-tundora how-heading">Designing</h4>
-                <p class="pl-text-md pl-color-boulder how-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by</p>
+            <div class="wagz-service">
+                <img class="wagz-service-circle" src="images/icon-circle.svg" alt="Circle icon">
+                <h4 class="wagz-service-heading">Designing</h4>
+                <p class="wagz-service-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by</p>
             </div>
         </div>
     </div>
