@@ -157,3 +157,27 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
+
+
+/* hero */
+
+.nye-hero {
+    height: 956px;
+    background-image: url('../images/bottom-jumbotron-bg-nye.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.nye-hero-heading {
+    font-size: 36px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.nye-hero-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #FFFFFF;
+}

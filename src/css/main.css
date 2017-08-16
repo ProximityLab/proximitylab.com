@@ -321,16 +321,3 @@ body {
     margin-top: 178px;
   }
 }
-
-
-/**
- * Bottom jumbotron
- */
-
-.bottom-jumbotron-bg-nye {
-  height: 956px;
-  background-image: url('../images/bottom-jumbotron-bg-nye.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-}

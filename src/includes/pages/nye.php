@@ -74,10 +74,10 @@
 </div>
 
 <div class="container-fluid">
-    <div class="row bottom-jumbotron-bg-nye align-items-end">
+    <div class="row nye-hero align-items-end">
         <div class="col-12 col-sm-10 offset-sm-2 col-md-8 offset-md-3 col-lg-6 offset-lg-5 col-xl-4 offset-xl-7">
-            <h3 class="pl-heading-md pl-color-white mb-4">Engaging yound minds through interactive exhibits</h3>
-            <p class="pl-text-md pl-color-white mb-sm-5 pb-md-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue sed nulla scelerisque, id tempor tellus molestie. Ut elementum feugiat dolor, in vestibulum velit gravida at</p>
+            <h3 class="nye-hero-heading mb-4">Engaging yound minds through interactive exhibits</h3>
+            <p class="nye-hero-text mb-sm-5 pb-md-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue sed nulla scelerisque, id tempor tellus molestie. Ut elementum feugiat dolor, in vestibulum velit gravida at</p>
         </div>
     </div>
 </div>
