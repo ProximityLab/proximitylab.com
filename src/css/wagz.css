@@ -79,3 +79,59 @@
     line-height: 20px;
     color: #FFFFFF;
 }
+
+
+/* portfolio */
+
+.wagz-portfolio {
+    padding: 34px 0 0;
+}
+
+@media (min-width: 576px) {
+    .wagz-portfolio {
+        padding: 34px 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .wagz-portfolio {
+        padding: 34px 0 34px 110px;
+    }
+}
+
+@media (min-width: 992px) {
+    .wagz-portfolio-text {
+        padding-right: 75px;
+    }
+}
+
+.wagz-portfolio-heading-secondary {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: #7C7C7C;
+    margin-bottom: 17px;
+}
+
+.wagz-portfolio-heading-primary {
+    font-size: 36px;
+    font-weight: 300;
+    color: #282828;
+    margin-bottom: 32px;
+}
+
+.wagz-portfolio-paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #7C7C7C;
+    line-height: 36px;
+}
+
+.wagz-portfolio-image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    min-height: 636px;
+    background-image: url('../images/wagz-carousel-placeholder.png');
+}

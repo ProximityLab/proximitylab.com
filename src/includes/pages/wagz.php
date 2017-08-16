@@ -22,17 +22,17 @@
     </div><!-- container -->
 </div><!-- jumbotron -->
 
-<section class="service-info">
+<section class="wagz-portfolio">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-6 align-self-center">
-                <div class="service-info-text">
-                    <h5 class="pl-heading-xs pl-color-boulder service-info-heading1">PORTFOLIO</h5>
-                    <h3 class="pl-heading-md pl-color-mineshaft service-info-heading2">Creating an easier way to project your best companion</h3>
-                    <p class="pl-text-lg pl-color-boulder service-info-paragraph">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design through development, testing and deployment.</p>
+                <div class="wagz-portfolio-text">
+                    <h5 class="wagz-portfolio-heading-secondary">PORTFOLIO</h5>
+                    <h3 class="wagz-portfolio-heading-primary">Creating an easier way to project your best companion</h3>
+                    <p class="wagz-portfolio-paragraph">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design through development, testing and deployment.</p>
                 </div>
             </div>
-            <div class="col-12 col-md-6 service-info-image service-info-image-wagz"></div>
+            <div class="col-12 col-md-6 wagz-portfolio-image"></div>
         </div>
     </div>
 </section>
