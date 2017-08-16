@@ -38,8 +38,8 @@
 <div class="container-fluid mt-5 mb-4">
     <div class="row">
         <div class="col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3 text-center">
-            <h2 class="pl-heading-lg pl-color-tundora mb-4">How we did it</h2>
-            <p class="pl-text-xl pl-color-dovegrey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo</p>
+            <h2 class="nye-how-heading mb-4">How we did it</h2>
+            <p class="nye-how-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo</p>
         </div>
     </div>
 </div>
@@ -47,9 +47,9 @@
 <div class="container-fluid mb-5">
     <div class="row">
         <div class="col-12 col-sm-10 offset-sm-1">
-            <section class="project-video">
+            <section class="nye-how-video">
                 <img class="img-fluid" src="images/video-background-nye.png" alt="Nye video background">
-                <img class="project-video-play" src="images/icon-play.svg" alt="Play icon" data-toggle="modal" data-target="#video-modal">
+                <img class="nye-how-play" src="images/icon-play.svg" alt="Play icon" data-toggle="modal" data-target="#video-modal">
             </section>
         </div>
     </div>

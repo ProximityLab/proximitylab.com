@@ -127,3 +127,33 @@
     min-height: 636px;
     background-image: url('../images/service-info-image-nye.png');
 }
+
+
+/* how */
+
+.nye-how-heading {
+    font-size: 48px;
+    font-weight: 300;
+    color: #4A4A4A;
+}
+
+.nye-how-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #737373
+}
+
+.nye-how-video {
+    position: relative;
+}
+
+.nye-how-play {
+    width: 154px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
