@@ -71,3 +71,53 @@
     margin-top: 51px;
     opacity: 0.3;
 }
+
+
+/* portfolio */
+
+.ama-portfolio-heading-secondary {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: #7C7C7C;
+    margin-bottom: 17px;
+}
+
+.ama-portfolio-heading-primary {
+    font-size: 36px;
+    font-weight: 300;
+    color: #282828;
+    margin-bottom: 32px;
+}
+
+.ama-portfolio-paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #7C7C7C;
+    line-height: 36px;
+}
+
+.ama-portfolio-service {
+    margin: 40px 0;
+}
+
+.ama-portfolio-service-icon {
+    margin-bottom: 27px;
+}
+
+.ama-portfolio-service-heading {
+    font-size: 24px;
+    font-weight: 300;
+    color: #4A4A4A;
+    margin-bottom: 16px;
+}
+
+.ama-portfolio-service-text {
+    max-width: 292px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #7C7C7C;
+}
