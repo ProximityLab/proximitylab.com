@@ -1,18 +1,22 @@
-<div class="jumbotron jumbotron-fluid project-jumbotron diagonal-grad-1">  
+<div class="jumbotron jumbotron-fluid wagz-jumbotron">  
 
-    <?php include('includes/header.php'); ?>
+    <a href="/"><img class="wagz-jumbotron-logo-site" src="images/logo-proximity-lab-white.svg" alt="Proximity Lab logo"></a>
+
+    <img class="wagz-jumbotron-grid" src="images/icon-grid-view.svg" alt="Grid view icon">
+    <img class="wagz-jumbotron-left" src="images/icon-arrow-left.svg" alt="Left arrow icon">
+    <img class="wagz-jumbotron-right" src="images/icon-arrow-right.svg" alt="Right arrow icon">
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-4 project-jumbotron-padding">
-                <h1 class="pl-heading-xl pl-color-white mt-5 pt-5 mb-xl-5 pb-xl-5">keep fido safe from the world</h1>
-                <p class="pl-text-lg pl-color-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue</p>
-                <img class="icon-arrow-bottom mx-auto d-block" src="images/icon-arrow-bottom.svg" alt="Bottom arrow icon">
+            <div class="col-12 col-md-4 wagz-jumbotron-padding">
+                <h1 class="wagz-jumbotron-heading mt-5 pt-5 mb-xl-5 pb-xl-5">keep fido safe from the world</h1>
+                <p class="wagz-jumbotron-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue</p>
+                <img class="wagz-jumbotron-bottom mx-auto d-block" src="images/icon-arrow-bottom.svg" alt="Bottom arrow icon">
             </div>
-            <div class="col-12 col-sm-6 col-md-4 project-jumbotron-padding"><img class="img-fluid" src="images/iphone-mockup-wagz.png" alt="Wagz iPhone Mockup"></div>
-            <div class="col-12 col-sm-6 col-md-4 align-self-center project-jumbotron-padding">
-                <img class="project-logo" src="images/logo-wagz.png" alt="Wagz logo">
-                <p class="pl-text-sm pl-color-white">Lorem ipsum dolor sit amet, consectetur</p>
+            <div class="col-12 col-sm-6 col-md-4 wagz-jumbotron-padding"><img class="img-fluid" src="images/iphone-mockup-wagz.png" alt="Wagz iPhone Mockup"></div>
+            <div class="col-12 col-sm-6 col-md-4 align-self-center wagz-jumbotron-padding">
+                <img class="wagz-jumbotron-logo-project" src="images/logo-wagz-blue.png" alt="Wagz logo">
+                <p class="wagz-jumbotron-logo-project-text">Lorem ipsum dolor sit amet, consectetur</p>
             </div>
         </div><!-- row -->
     </div><!-- container -->

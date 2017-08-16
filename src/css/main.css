@@ -271,15 +271,6 @@ body {
 }
 
 
-/**
- * Diagonal gradients
- */
-
-/* Wagz */
-.diagonal-grad-1 {
-  background: linear-gradient(to bottom right, #4B940F, #83BA1C);
-}
-
 /* Amadeus */
 .diagonal-grad-3 {
   background: linear-gradient(to bottom right, #D91B3D, #8B054A);

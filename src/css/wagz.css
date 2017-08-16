@@ -1,0 +1,81 @@
+/**
+ * Nye page
+ */
+
+/* jumbotron */
+
+.wagz-jumbotron {
+    background: linear-gradient(to bottom right, #4B940F, #83BA1C);
+    margin-bottom: 0;
+    position: relative;
+}
+
+@media (min-width: 1200px) {
+    .wagz-jumbotron {
+        padding-left: 92px;
+        padding-right: 92px;
+    }
+}
+
+.wagz-jumbotron-logo-site {
+    width: 27px;
+    position: absolute;
+    top: 37px;
+    left: 45px;
+}
+
+.wagz-jumbotron-grid {
+    position: absolute;
+    top: 39px;
+    right: 136px;
+}
+
+.wagz-jumbotron-left {
+    position: absolute;
+    top: 37px;
+    right: 85px;
+}
+  
+.wagz-jumbotron-right {
+    position: absolute;
+    top: 37px;
+    right: 45px;
+}
+
+@media (min-width: 1200px) {
+    .wagz-jumbotron-padding {
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+}
+
+.wagz-jumbotron-heading {
+    font-size: 60px;
+    font-weight: 200;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.wagz-jumbotron-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.wagz-jumbotron-bottom {
+    margin-top: 51px;
+    opacity: 0.3;
+}
+
+.wagz-jumbotron-logo-project {
+    height: 40px;
+    margin-bottom: 18.5px;
+}
+
+.wagz-jumbotron-logo-project-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+}
