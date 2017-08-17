@@ -67,7 +67,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 81px 15px;
+    position: relative;
 }
 
 @media (min-width: 576px) {
@@ -97,9 +97,38 @@
 .work-item-fpo10 { background-image: url('../images/work-item-background-fpo10.jpg'); }
 .work-item-fpo11 { background-image: url('../images/work-item-background-fpo11.jpg'); }
 
+.work-item-container:hover .work-item-overlay {
+    display: block;
+}
+
+.work-item-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.9;
+}
+
+.work-item-overlay-nye { background-color: rgba(60, 161, 94, 0.9) }
+.work-item-overlay-wagz { background-color: rgba(87, 155, 18, 0.9) }
+.work-item-overlay-amadeus { background-color: rgba(205, 25, 64, 0.9) }
+
+.work-item-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
 .work-item-logo {
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 30px;
     height: 70px;
+    display: block;
 }
 
 .work-item-logo-nye { height: 70px; }
