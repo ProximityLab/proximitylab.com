@@ -2,7 +2,7 @@
 
     <a href="/"><img class="wagz-jumbotron-logo-site" src="images/logo-proximity-lab-white.svg" alt="Proximity Lab logo"></a>
 
-    <img class="wagz-jumbotron-grid" src="images/icon-grid-view.svg" alt="Grid view icon">
+    <a href="?page=work"><img class="wagz-jumbotron-grid" src="images/icon-grid-view.svg" alt="Grid view icon"></a>
     <img class="wagz-jumbotron-left" src="images/icon-arrow-left.svg" alt="Left arrow icon">
     <img class="wagz-jumbotron-right" src="images/icon-arrow-right.svg" alt="Right arrow icon">
 
