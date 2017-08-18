@@ -37,27 +37,8 @@
     </div>
 </section>
 
-<section class="wagz-video">
-    <img class="img-fluid" src="images/video-background-wagz.jpg" alt="Wagz video background">
-    <img class="wagz-play" src="images/icon-play.svg" alt="Play icon" data-toggle="modal" data-target="#video-modal">
-</section>
-
-<!-- Modal -->
-<div class="modal fade" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe id="video-iframe" class="embed-responsive-item" src="https://player.vimeo.com/video/226451580?title=0&byline=0&portrait=0" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe id="video-iframe" class="embed-responsive-item" src="https://player.vimeo.com/video/226451580?title=0&amp;byline=0&amp;portrait=0" allowfullscreen></iframe>
 </div>
 
 <div class="container-fluid">
