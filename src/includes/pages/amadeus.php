@@ -3,8 +3,7 @@
     <a href="/"><img class="ama-jumbotron-logo-site" src="images/logo-proximity-lab-white.svg" alt="Proximity Lab logo"></a>
 
     <a href="?page=work"><img class="ama-jumbotron-grid" src="images/icon-grid-view.svg" alt="Grid view icon"></a>
-    <img class="ama-jumbotron-left" src="images/icon-arrow-left.svg" alt="Left arrow icon">
-    <img class="ama-jumbotron-right" src="images/icon-arrow-right.svg" alt="Right arrow icon">
+    <a href="?page=wagz"><img class="ama-jumbotron-left" src="images/icon-arrow-left.svg" alt="Left arrow icon"></a>
 
     <div class="container-fluid">
         <div class="row">
