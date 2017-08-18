@@ -1,10 +1,10 @@
-// homepage hero logo animation on scroll
-/* var logo = $('#pl-logo-hero');
+// navigation animation on scroll
+var nav = $('.page-navigation');
 
 $(window).scroll(function() {
     if ($(window).scrollTop() > 5) {
-        logo.addClass('pl-logo-hero-animate');
+        nav.addClass('page-navigation-animate');
     } else {
-        logo.removeClass('pl-logo-hero-animate');
+        nav.removeClass('page-navigation-animate');
     }
-}); */
+});

@@ -33,9 +33,10 @@
 
 .about-logo {
   width: 27px;
-  position: absolute;
+  position: fixed;
   top: 37px;
   left: 45px;
+  z-index: 3;
 }
 
 .about-header-heading-secondary {

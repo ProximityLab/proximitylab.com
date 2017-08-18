@@ -12,11 +12,20 @@ body {
  */
 
 .page-navigation {
-  position: absolute;
-  top: 38px;
-  right: 61px;
+  width: 100%;
+  position: fixed;
+  text-align: right;
+  padding: 38px 61px;
   z-index: 1;
   font-size: 18px;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all 0.5s;
+  z-index: 2;
+  top: 0;
+}
+
+.page-navigation-animate {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .page-navigation-link:last-child {
