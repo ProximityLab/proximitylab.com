@@ -8,17 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nunoarruda/proximitylab.com.git"
+    "url": "git+https://github.com/mrwaimanwong/proximitylab.com.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nunoarruda/proximitylab.com/issues"
+    "url": "https://github.com/mrwaimanwong/proximitylab.com/issues"
   },
-  "homepage": "https://github.com/nunoarruda/proximitylab.com#readme",
+  "homepage": "https://github.com/mrwaimanwong/proximitylab.com#readme",
   "devDependencies": {
     "browser-sync": "^2.18.12",
     "gulp": "^3.9.1",
-    "gulp-connect-php": "^1.0.1"
+    "gulp-connect-php": "^1.0.1",
+    "lru-cache": "^4.1.1",
+    "natives": "^1.1.0",
+    "sigmund": "^1.0.1"
   }
 }
