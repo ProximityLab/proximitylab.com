@@ -17,11 +17,12 @@
     }
 }
 
-.ama-jumbotron-logo-site {
-    width: 27px;
-    position: absolute;
-    top: 37px;
-    left: 45px;
+.jumbotron-logo-project {
+    width: 241px;
+}
+
+.home-carousel-header-arrow {
+  left:40%;
 }
 
 .ama-jumbotron-grid {
@@ -35,7 +36,7 @@
     top: 37px;
     right: 85px;
 }
-  
+
 .ama-jumbotron-right {
     position: absolute;
     top: 37px;
@@ -57,7 +58,8 @@
 }
 
 .ama-jumbotron-logo-project {
-    height: 22px;
+    /*height: 22px;*/
+    width: 241px;
 }
 
 .ama-jumbotron-text {
@@ -109,7 +111,7 @@
 .ama-portfolio-service-heading {
     font-size: 24px;
     font-weight: 300;
-    color: #4A4A4A;
+    color: #FFF;
     margin-bottom: 16px;
 }
 
@@ -119,5 +121,92 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 34px;
-    color: #7C7C7C;
+    color: #989898;
+}
+
+@media (min-width: 992px) {
+  .project-description {
+    background: url('../images/portfolio-description-bgd-map.png') no-repeat;
+    background-position: 140% top;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-description {
+    background-position: 100% top;
+    background-size: contain;
+  }
+}
+
+.project-more-info {
+  background: url('/images/portfolio_bgd_amadeus.jpg') no-repeat;
+  background-size: cover;
+  background-position: center top;
+  font-size: 1.5rem;
+    color: #282828;
+    /*padding: 0;*/
+}
+
+.project-more-info .top {
+  padding: 4rem 3rem 34rem;
+}
+
+@media (min-width: 576px) {
+  .project-more-info .top {
+    padding: 3rem 3rem 26rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-more-info .top {
+    padding: 6rem 6rem 20rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-more-info .top {
+    padding: 10rem 10rem 20rem;
+  }
+}
+
+.project-more-info h2 {
+  font-size: 3.4rem;
+  font-weight: 300;
+  margin-bottom: 1.7rem;
+}
+
+.project-more-info p {
+
+}
+
+@media (min-width: 576px) {
+  .project-more-info p {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-more-info p {
+    margin-right: 30%;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-more-info p {
+    margin-right: 40%;
+  }
+}
+
+.project-more-info .bottom {
+  padding: 2rem 0 0 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.project-more-info .bottom .inner img {
+  width: 100%;
+}
+
+.project-services {
+  background-color: #1B1C25;
+  margin-bottom: 0;
 }

@@ -1,7 +1,3 @@
-/**
- * Nye page
- */
-
 /* jumbotron */
 
 .wagz-jumbotron {
@@ -17,17 +13,35 @@
     }
 }
 
-.wagz-jumbotron-logo-site {
+.jumbotron-logo-project {
+    width: 241px;
+  }
+
+
+@media (min-width: 992px){
+.jumbotron-project-logo {
+    position: absolute;
+    top: 40%;
+    right:0;
+  }
+}
+
+.home-carousel-header-arrow {
+  left:50%;
+}
+
+/*.wagz-jumbotron-logo-site {
     width: 27px;
     position: absolute;
     top: 37px;
     left: 45px;
-}
+}*/
 
 .wagz-jumbotron-grid {
     position: absolute;
     top: 39px;
     right: 136px;
+    z-index: 3;
 }
 
 .wagz-jumbotron-left {
@@ -35,26 +49,19 @@
     top: 37px;
     right: 85px;
 }
-  
+
 .wagz-jumbotron-right {
     position: absolute;
     top: 37px;
     right: 45px;
 }
 
-@media (min-width: 1200px) {
-    .wagz-jumbotron-padding {
-        padding-left: 33px;
-        padding-right: 33px;
-    }
-}
-
-.wagz-jumbotron-heading {
+/*.wagz-jumbotron-heading {
     font-size: 60px;
     font-weight: 200;
     line-height: 60px;
     color: #FFFFFF;
-}
+}*/
 
 .wagz-jumbotron-text {
     font-size: 18px;
@@ -68,17 +75,18 @@
     opacity: 0.3;
 }
 
-.wagz-jumbotron-logo-project {
-    height: 40px;
-    margin-bottom: 18.5px;
-}
+/*.wagz-jumbotron .jumbotron-logo-project {
+  width: 199px;
+  position: absolute;
+  top: 40%;
+}*/
 
-.wagz-jumbotron-logo-project-text {
+/*.wagz-jumbotron-logo-project-text {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     color: #FFFFFF;
-}
+}*/
 
 
 /* portfolio */
@@ -87,7 +95,7 @@
     padding: 34px 0 0;
 }
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
     .wagz-portfolio {
         padding: 34px 0;
     }
@@ -97,13 +105,7 @@
     .wagz-portfolio {
         padding: 34px 0 34px 110px;
     }
-}
-
-@media (min-width: 992px) {
-    .wagz-portfolio-text {
-        padding-right: 75px;
-    }
-}
+}*/
 
 .wagz-portfolio-heading-secondary {
     font-size: 12px;
@@ -126,14 +128,36 @@
     line-height: 26px;
     color: #7C7C7C;
     line-height: 36px;
+    margin-bottom: 3rem;
 }
+
+
 
 .wagz-portfolio-image {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
-    min-height: 636px;
+    min-height: 436px;
     background-image: url('../images/wagz-carousel-placeholder.png');
+}
+
+@media (min-width: 576px) {
+    .wagz-portfolio-image {
+        background-position: top;
+    }
+}
+
+@media (min-width: 576px) {
+    .wagz-portfolio-text {
+        margin-bottom: 8rem;
+        min-height: 636px;
+    }
+}
+
+@media (min-width: 992px) {
+    .wagz-portfolio-text {
+        padding: 0 75px;
+    }
 }
 
 

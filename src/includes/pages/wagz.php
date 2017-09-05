@@ -1,35 +1,36 @@
-<div class="jumbotron jumbotron-fluid wagz-jumbotron">  
-
-    <a href="/"><img class="wagz-jumbotron-logo-site" src="images/logo-proximity-lab-white.svg" alt="Proximity Lab logo"></a>
-
-    <a href="?page=work"><img class="wagz-jumbotron-grid" src="images/icon-grid-view.svg" alt="Grid view icon"></a>
-    <a href="?page=nye"><img class="wagz-jumbotron-left" src="images/icon-arrow-left.svg" alt="Left arrow icon"></a>
-    <a href="?page=amadeus"><img class="wagz-jumbotron-right" src="images/icon-arrow-right.svg" alt="Right arrow icon"></a>
-
+<div class="jumbotron jumbotron-fluid wagz-jumbotron">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-4 wagz-jumbotron-padding">
-                <h1 class="wagz-jumbotron-heading mt-5 pt-5 mb-xl-5 pb-xl-5">keep fido safe from the world</h1>
-                <p class="wagz-jumbotron-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue</p>
-                <img class="wagz-jumbotron-bottom mx-auto d-block" src="images/icon-arrow-bottom.svg" alt="Bottom arrow icon">
+
+            <div class="col-lg-4 jumbotron-padding">
+              <img class="jumbotron-logo-project jumbotron-project-logo my-4 my-xl-5" src="images/logo-wagz-green.png" alt="Amadeus logo">
+              <a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 wagz-jumbotron-padding"><img class="img-fluid" src="images/iphone-mockup-wagz.png" alt="Wagz iPhone Mockup"></div>
-            <div class="col-12 col-sm-6 col-md-4 align-self-center wagz-jumbotron-padding">
-                <img class="wagz-jumbotron-logo-project" src="images/logo-wagz-blue.png" alt="Wagz logo">
-                <p class="wagz-jumbotron-logo-project-text">Lorem ipsum dolor sit amet, consectetur</p>
-            </div>
+            <div class="col-lg-8 jumbotron-padding"><img class="img-fluid mt-5" src="images/iphone-mockup-wagz.png" alt="Amadeus website mockup"></div>
         </div><!-- row -->
+        <!-- <div class="row"><a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a></div> -->
     </div><!-- container -->
 </div><!-- jumbotron -->
+
+<div class="container-fluid 2 portfolio-header">
+  <div class="row">
+    <div class="col-12">
+    <h2 class="heading-secondary text-center"><a name="start">STARTUPS</a></h2>
+
+    <h1 class="heading-primary text-center">Canine Innovation: From the Whiteboard to the Retail Market</h1>
+
+    <p class="header-text text-center">An integrated hardware, software, SaaS platform for dog safety, health, and happiness</p>
+  </div>
+</div>
+</div>
 
 <section class="wagz-portfolio">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-6 align-self-center">
+            <div class="col-12 col-md-6">
                 <div class="wagz-portfolio-text">
-                    <h5 class="wagz-portfolio-heading-secondary">PORTFOLIO</h5>
-                    <h3 class="wagz-portfolio-heading-primary">Creating an easier way to project your best companion</h3>
-                    <p class="wagz-portfolio-paragraph">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design through development, testing and deployment.</p>
+                    <p class="wagz-portfolio-paragraph">Proximity Lab worked with Wagz to help design an intuitive app / experience allowing dog owners to manage its connected dog collar. While there were other products on the market that helped dog owners monitor certain aspects of their dog’s life (location and activity), none had the range of features and capabilities that had been envisioned for the Wagz connected collar -- including an integrated HD camera to allow users to see what their dogs are seeing.</p>
+                    <p class="ww-sub-text">This powerful breadth of the capabilities combined with the requirement for absolute simplicity made for an ambitious undertaking. Our team not only created native mobile experiences, it collaborated with other teams to ensure that consumers had a simple and rewarding experience from the moment they open the box to when they used the app to monitor analytics from their dog’s activities.</p>
                 </div>
             </div>
             <div class="col-12 col-md-6 wagz-portfolio-image"></div>
@@ -41,22 +42,13 @@
     <iframe id="video-iframe" class="embed-responsive-item" src="https://player.vimeo.com/video/226451580?title=0&amp;byline=0&amp;portrait=0" allowfullscreen></iframe>
 </div>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-12 col-sm-4 align-self-center text-center">
-            <div class="wagz-service">
-                <img class="wagz-service-circle" src="images/icon-circle.svg" alt="Circle icon">
-                <h4 class="wagz-service-heading">Designing</h4>
-                <p class="wagz-service-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by</p>
-            </div>
-        </div>
-        <div class="col-12 col-sm-4"><img class="img-fluid wagz-service-dog" src="images/wagz-dog.png" alt="Wagz dog"></div>
-        <div class="col-12 col-sm-4 align-self-center text-center">
-            <div class="wagz-service">
-                <img class="wagz-service-circle" src="images/icon-circle.svg" alt="Circle icon">
-                <h4 class="wagz-service-heading">Designing</h4>
-                <p class="wagz-service-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by</p>
-            </div>
-        </div>
+<div class="container-fluid portfolio-testimonial">
+  <div class="row">
+    <div>
+        <p>"The Wagz team was blown away by the work by Proximity Lab. While we were originally looking for a UX/UI partner to help improve an app we had in mind to accompany our collar, we ended up with a comprehensive design partner. We couldn’t be happier with the result of our collaboration on this ambitious project."
+          <br /><img class="home-carousel-testimonial-author d-none d-sm-inline-block" src="images/profile_terry_anderton.png" alt="Testimonial author"></p>
+      <p class="home-carousel-testimonial-author-title">
+          <b>Shawn McGowen</b>, CEO Scribe</p>
     </div>
+  </div>
 </div>

@@ -4,7 +4,7 @@
 
 /* navigation */
 
-.page-navigation-link {
+/*.page-navigation-link {
     color: #535558;
 }
 
@@ -16,14 +16,15 @@
     color: #CF0D7D;
     text-decoration: none;
     border-bottom: 1px solid #CF0D7D;
-}
+}*/
 
 
 /* header section */
 
 .work-header {
     position: relative;
-    padding-top: 150px;
+    /*margin-top: 100px;*/
+    padding-top: 10rem;
 }
 
 @media (min-width: 768px) {
@@ -31,7 +32,7 @@
         padding-top: 71px;
     }
 }
-  
+
 .work-logo {
     width: 27px;
     position: fixed;
@@ -63,17 +64,25 @@
 }
 
 .work-item-container {
-    height: 100%;
+    height: 0;
     min-height: 220px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     position: relative;
+    width:99.9%;
+    padding-bottom:99.9%;
+    /*width: 95vw;
+    height: 95vw;*/
+    background-color: #f1f1f1;
 }
 
 @media (min-width: 576px) {
     .work-item-container {
         min-height: 320px;
+        width:100%;
+        padding-bottom:0;
+        /*height: 266px;*/
     }
 }
 
@@ -83,20 +92,20 @@
     }
 }
 
-.work-item-nye { background-image: url('../images/work-item-background-nye.jpg'); }
-.work-item-wagz { background-image: url('../images/work-item-background-wagz.jpg'); }
-.work-item-amadeus { background-image: url('../images/work-item-background-amadeus.jpg'); }
-.work-item-fpo1 { background-image: url('../images/work-item-background-fpo1.jpg'); }
-.work-item-fpo2 { background-image: url('../images/work-item-background-fpo2.jpg'); }
-.work-item-fpo3 { background-image: url('../images/work-item-background-fpo3.jpg'); }
-.work-item-fpo4 { background-image: url('../images/work-item-background-fpo4.jpg'); }
-.work-item-fpo5 { background-image: url('../images/work-item-background-fpo5.jpg'); }
-.work-item-fpo6 { background-image: url('../images/work-item-background-fpo6.jpg'); }
-.work-item-fpo7 { background-image: url('../images/work-item-background-fpo7.jpg'); }
-.work-item-fpo8 { background-image: url('../images/work-item-background-fpo8.jpg'); }
-.work-item-fpo9 { background-image: url('../images/work-item-background-fpo9.jpg'); }
-.work-item-fpo10 { background-image: url('../images/work-item-background-fpo10.jpg'); }
-.work-item-fpo11 { background-image: url('../images/work-item-background-fpo11.jpg'); }
+#scheduleme { background-image: url('../images/work-item-background-scheduleme.jpg'); }
+#mosaic { background-image: url('../images/work-item-background-mosaic.jpg'); }
+#icovia { background-image: url('../images/work-item-background-icovia.jpg'); }
+#songbird { background-image: url('../images/work-item-background-songbird.jpg'); }
+#eagle { background-image: url('../images/work-item-background-eagle.jpg'); }
+#solidworks { background-image: url('../images/work-item-background-solidworks.jpg'); }
+#philips { background-image: url('../images/work-item-background-philips.jpg'); }
+#adobe { background-image: url('../images/work-item-background-adobe.jpg'); }
+#minim { background-image: url('../images/work-item-background-minim.jpg'); }
+#insight { background-image: url('../images/work-item-background-insight.jpg'); }
+#scribe { background-image: url('../images/work-item-background-scribe.jpg'); }
+#nye { background-image: url('../images/work-item-background-nye.jpg'); }
+#wagz { background-image: url('../images/work-item-background-wagz.jpg'); }
+#amadeus { background-image: url('../images/work-item-background-amadeus.jpg'); }
 
 .work-item-container:hover .work-item-overlay {
     opacity: 1;
@@ -112,10 +121,35 @@
     transition: all 0.5s;
 }
 
-.work-item-overlay-nye { background-color: rgba(60, 161, 94, 0.9) }
-.work-item-overlay-wagz { background-color: rgba(87, 155, 18, 0.9) }
-.work-item-overlay-amadeus { background-color: rgba(205, 25, 64, 0.9) }
+#scheduleme .work-item-overlay { background-color: rgba(213, 115, 2, 1) }
+#mosaic .work-item-overlay { background-color: rgba(222, 34, 131, 1) }
+#icovia .work-item-overlay { background-color: rgba(235, 154, 0, 1) }
+#songbird .work-item-overlay { background-color: rgba(40, 185, 176, 1) }
+#eagle .work-item-overlay { background-color: rgba(178, 55, 231, 1) }
+#solidworks .work-item-overlay { background-color: rgba(38, 101, 162, 1) }
+#philips .work-item-overlay { background-color: rgba(42, 124, 234, 1) }
+#scribe .work-item-overlay { background-color: rgba(215, 127, 26, 1) }
+#insight .work-item-overlay { background-color: rgba(215, 127, 26, 1) }
+#nye .work-item-overlay { background-color: rgba(60, 161, 94, 1) }
+#wagz .work-item-overlay { background-color: rgba(87, 155, 18, 1) }
+#amadeus .work-item-overlay { background-color: rgba(205, 25, 64, 1) }
+#minim .work-item-overlay { background-color: rgba(28, 113, 179, 1) }
+#adobe .work-item-overlay { background-color: rgba(246, 26, 52, 1) }
 
+#scheduleme .work-item-logo { height: 53px; }
+#mosaic .work-item-logo { height: 86px; width: 96px;}
+#icovia .work-item-logo { height: 40px; width: 136px; }
+#songbird .work-item-logo { height: 65px; width: 180px;}
+#eagle .work-item-logo { height: 69px; }
+#solidworks .work-item-logo { height: 32px; width: 155px;}
+#philips .work-item-logo { height: 33px; width: 180px; }
+#insight .work-item-logo { height: 53px; }
+#scribe .work-item-logo { height: 30px; width: 180px;}
+#nye .work-item-logo { height: 70px; }
+#minim .work-item-logo { height: 53px; }
+#wagz .work-item-logo { height: 69px; }
+#amadeus .work-item-logo { height: 21px; }
+#minim .work-item-logo { height: 40px; width: 112px; }
 .work-item-wrapper {
     position: absolute;
     top: 50%;
@@ -132,9 +166,6 @@
     display: block;
 }
 
-.work-item-logo-nye { height: 70px; }
-.work-item-logo-wagz { height: 69px; }
-.work-item-logo-amadeus { height: 21px; }
 
 .work-item-text {
     font-size: 16px;
@@ -148,11 +179,15 @@
     font-size: 18px;
     font-weight: 600;
     color: #FFFFFF;
-    border: 0.5px solid #fff;
+    border: 0.5px solid rgba(255, 255, 255, 1);
     padding: 11px 27px;
     display: inline-block;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all .25s ease-in-out;
 }
 
 .work-item-button:hover {
-    color: #fff;
+    color: #444;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 1);
 }

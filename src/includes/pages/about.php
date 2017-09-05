@@ -1,7 +1,7 @@
 <header class="about-header">
-    <a href="/"><img class="about-logo" src="images/logo-proximity-lab-white.svg" alt="Proximity Lab logo"></a>
+    <!-- <a href="/"><img class="about-logo" src="images/logo-proximity-lab-white.svg" alt="Proximity Lab logo"></a> -->
 
-    <?php include('includes/navigation.php'); ?>
+
 
     <h2 class="about-header-heading-secondary text-center">ABOUT PROXIMITY LAB</h2>
 
@@ -14,14 +14,13 @@
 
 <div class="container-fluid about-service">
     <div class="row">
-        <div class="col-12 col-md-7 about-service-spacing">
+        <div class="col-12 about-service-spacing text-center">
             <h4 class="about-service-heading-secondary">ABOUT PROXIMITY LAB</h4>
-            <h3 class="about-service-heading-primary">The Proximity Lab story</h3>
-            <p class="about-service-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design through development, testing and deployment.</p>
-            <p class="about-service-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design through development, testing and deployment.</p>
+            <h3 class="about-service-heading-primary">Our Story (so far . . . )</h3>
+            <p class="about-service-text mx-auto">We are designers, creators, and thinkers. Although we come from various backgrounds, we stand behind a common vision to create products that are designed with clarity for their users. We know that many products are very complex - but we also that doesn't mean they have to be complicated.</p>
         </div>
 
-        <div class="col-12 col-md-5 about-service-image"></div>
+        <!-- <div class="col-12 col-md-5 about-service-image"></div> -->
     </div>
 </div>
 
@@ -52,8 +51,8 @@
 </div>
 
 <div class="about-clients text-center">
-    <h6 class="about-clients-heading">We work with the best</h6>
-    <p class="about-clients-text mx-auto">We bring focused research and impactful creative together to develop best-in-class web and mobile experiences that emphasize customer value and deep engagement.</p>
+    <div class="container-fluid"><h6 class="about-clients-heading">We work with the best</h6>
+    <p class="about-clients-text mx-auto">We bring focused research and impactful creative together to develop best-in-class web and mobile experiences that emphasize customer value and deep engagement.</p></div>
 
     <div class="container-fluid">
         <div class="row">
@@ -64,7 +63,7 @@
                 <img class="about-clients-logo about-clients-logo-adobe" src="images/logo-adobe.svg" alt="Adobe logo">
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
-                <img class="about-clients-logo about-clients-logo-phillips" src="images/logo-phillips.svg" alt="Phillips logo">
+                <img class="about-clients-logo about-clients-logo-phillips" src="images/logo-philips.svg" alt="Philips logo">
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
                 <img class="about-clients-logo about-clients-logo-eagle" src="images/logo-eagle.png" alt="Eagle logo">
@@ -108,7 +107,6 @@
                     <h1 class="about-team-person-name">Evan Karatzas</h1>
                     <h2 class="about-team-person-title">Founder &amp; CEO</h2>
                     <hr class="about-team-person-separator">
-                    <p class="about-team-person-info d-none d-xl-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design</p>
                 </div>
             </div>
         </div>
@@ -119,7 +117,6 @@
                     <h1 class="about-team-person-name">Nick Allen</h1>
                     <h2 class="about-team-person-title">Director of Research &amp; Strategy</h2>
                     <hr class="about-team-person-separator">
-                    <p class="about-team-person-info d-none d-xl-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design</p>
                 </div>
             </div>
         </div>
@@ -130,7 +127,6 @@
                     <h1 class="about-team-person-name">Ryan Szepan</h1>
                     <h2 class="about-team-person-title">Senior UX Designer</h2>
                     <hr class="about-team-person-separator">
-                    <p class="about-team-person-info d-none d-xl-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design</p>
                 </div>
             </div>
         </div>
@@ -141,7 +137,6 @@
                     <h1 class="about-team-person-name">Brian Lucid</h1>
                     <h2 class="about-team-person-title">SENIOR UX Designer</h2>
                     <hr class="about-team-person-separator">
-                    <p class="about-team-person-info d-none d-xl-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design</p>
                 </div>
             </div>
         </div>
@@ -152,7 +147,6 @@
                     <h1 class="about-team-person-name">Yanjun Lyu</h1>
                     <h2 class="about-team-person-title">Visual Designer</h2>
                     <hr class="about-team-person-separator">
-                    <p class="about-team-person-info d-none d-xl-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design</p>
                 </div>
             </div>
         </div>
@@ -163,7 +157,6 @@
                     <h1 class="about-team-person-name">Tom Rhinelander</h1>
                     <h2 class="about-team-person-title">SENIOR RESEARCHER</h2>
                     <hr class="about-team-person-separator">
-                    <p class="about-team-person-info d-none d-xl-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design</p>
                 </div>
             </div>
         </div>
@@ -174,7 +167,6 @@
                     <h1 class="about-team-person-name">Jason Fernald</h1>
                     <h2 class="about-team-person-title">FRONT-END DEVELOPER</h2>
                     <hr class="about-team-person-separator">
-                    <p class="about-team-person-info d-none d-xl-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design</p>
                 </div>
             </div>
         </div>

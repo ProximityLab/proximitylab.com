@@ -1,70 +1,131 @@
-<div id="home-carousel-header" class="carousel slide home-carousel-header" data-ride="carousel">
 
-  <?php include('includes/navigation.php'); ?>
-
-  <a href="/"><img class="home-carousel-header-logo" src="images/logo-proximity-lab-white.svg" alt="Proximity Lab logo"></a>
-
-  <div class="carousel-inner home-carousel-header-inner" role="listbox">
-    <div class="carousel-item home-carousel-header-item home-carousel-header-item1 active">
-      <div class="carousel-caption home-carousel-header-caption d-none d-md-block">
-        <p class="home-carousel-header-text">Proximity Lab is an award-winning interaction design studio with a 25-year track record providing product strategy, user</p>
-      </div>
-    </div>
-    <div class="carousel-item home-carousel-header-item home-carousel-header-item1">
-      <div class="carousel-caption home-carousel-header-caption d-none d-md-block">
-        <p class="home-carousel-header-text">Proximity Lab is an award-winning interaction design studio with a 25-year track record providing product strategy, user</p>
-      </div>
-    </div>
-    <div class="carousel-item home-carousel-header-item home-carousel-header-item1">
-      <div class="carousel-caption home-carousel-header-caption d-none d-md-block">
-        <p class="home-carousel-header-text">Proximity Lab is an award-winning interaction design studio with a 25-year track record providing product strategy, user</p>
-      </div>
-    </div>
-  </div>
-
-  <img class="home-carousel-header-arrow" src="images/icon-arrow-bottom.svg" alt="Bottom arrow">
+  <header>
+  <div class="container">
+    <!-- <div class="x-gif"><x-gif src="/images/logo_animated_darkgray.gif" n-times="1" width="89px" height="182px"></x-gif></div> -->
+    <!-- <img class="ww-main-logo" src="/images/logo_animated_darkgray.gif" rel:animated_src="/images/logo_animated_darkgray.gif"
+		width="89" height="182" rel:auto_play="0" rel:rubbable="0" /> -->
+    <h1>Proximity Lab</h1>
+  <h2>Proximity Lab is an interaction design studio. We're experts in realizing, rethinking, and rebooting product strategy and user experience.</h2>
+  <a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a>
 </div>
+</header>
 
-<div class="container-fluid">
-  <div class="row">
+
+
+<!-- <img src="images/icon-arrow-bottom.svg" alt="Bottom arrow"> -->
+
+
+
+
+<div class="container home-workwith">
+  <div class="row" id="home-headline">
     <div class="col-12">
-      <h1 class="home-workwith-header-heading text-center mt-5 pt-4">Who we like to work with</h1>
-    </div>
-
-    <div class="col-12 col-sm-10 mx-sm-auto col-md-8">
-      <p class="home-workwith-header-text text-center mt-3 mb-5 pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue sed nulla scelerisque, id tempor</p>
+      <h1 class="home-workwith-header-heading text-center display-1 pb-5"><a name="start">Who we like to work with</a></h1>
+      <p class="home-workwith-header-text text-center pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue sed nulla scelerisque, id tempor</p>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-12 col-sm-6 col-md-4">
-      <div class="home-workwith-item pb-5">
-        <img class="home-workwith-item-icon d-block mx-auto py-5" src="images/icon-building.svg" alt="Building icon">
-        <h4 class="home-workwith-item-heading text-center">Enterprise UX</h4>
-        <p class="home-workwith-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper</p>
-        <img class="home-workwith-item-arrow d-block mx-auto mt-5" src="images/icon-arrow-top-purple.svg" alt="Top arrow">
+  <div class="row ww-panels pt-5">
+    <div class="col-lg-4">
+      <div id="home-carousel-enterprise" class="carousel slide" data-interval="false">
+        <ol class="carousel-indicators">
+          <li data-target="#home-carousel-enterprise" data-slide-to="0" class="active"></li>
+          <li data-target="#home-carousel-enterprise" data-slide-to="1"></li>
+          <li data-target="#home-carousel-enterprise" data-slide-to="2"></li>
+          <li data-target="#home-carousel-enterprise" data-slide-to="3"></li>
+        </ol>
+        <h3 class="home-workwith-item-heading">Enterprise UX</h3>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active ww-panel-icon">
+            <img class="" src="images/icon-building.svg" alt="Desktop icon">
+
+          </div>
+          <div class="carousel-item">
+            <img src="/images/logo-adobe.png" alt="Proximity Lab - Project">
+            <p>Teaser about the Adobe work that describes briefly what we did</p>
+            <a href="#">View Project</a>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/logo-eagle-blue.png" alt="Proximity Lab - Project">
+            <p>Teaser about the Eagle Genomics work that describes briefly what we did</p>
+            <a href="#">View Project</a>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/logo-philips-blue.png" alt="Proximity Lab - Project">
+            <p>Teaser about the Philips work that describes briefly what we did</p>
+            <a href="#">View Project</a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-12 col-sm-6 col-md-4">
-      <div class="home-workwith-item pb-5">
-        <img class="home-workwith-item-icon d-block mx-auto py-5" src="images/icon-desktop.svg" alt="Desktop icon">
-        <h4 class="home-workwith-item-heading text-center">Startups</h4>
-        <p class="home-workwith-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper</p>
-        <img class="home-workwith-item-arrow d-block mx-auto mt-5" src="images/icon-arrow-top-purple.svg" alt="Top arrow">
+    <div class="col-lg-4">
+      <div id="home-carousel-startups" class="carousel slide" data-interval="false">
+        <ol class="carousel-indicators">
+          <li data-target="#home-carousel-startups" data-slide-to="0" class="active"></li>
+          <li data-target="#home-carousel-startups" data-slide-to="1"></li>
+          <li data-target="#home-carousel-startups" data-slide-to="2"></li>
+          <li data-target="#home-carousel-startups" data-slide-to="3"></li>
+        </ol>
+        <h3 class="home-workwith-item-heading text-center">Startups</h3>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active ww-panel-icon">
+            <img class="" src="images/icon-desktop.svg" alt="Desktop icon">
+
+          </div>
+          <div class="carousel-item">
+            <img src="/images/logo-wagz-blue.png" alt="Proximity Lab - Project">
+            <p>Teaser about the Wagz work that describes briefly what we did</p>
+            <a href="#">View Project</a>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/logo-nye-blue.png" alt="Proximity Lab - Project">
+            <p>Teaser about the Bill Nye work that describes briefly what we did</p>
+            <a href="#">View Project</a>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/logo-minim-blue.png" alt="Proximity Lab - Project">
+            <p>Teaser about the Minim work that describes briefly what we did</p>
+            <a href="#">View Project</a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-12 col-sm-12 col-md-4">
-      <div class="home-workwith-item pb-5">
-        <img class="home-workwith-item-icon d-block mx-auto py-5" src="images/icon-app.svg" alt="App icon">
-        <h4 class="home-workwith-item-heading text-center">Application Reboots</h4>
-        <p class="home-workwith-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper</p>
-        <img class="home-workwith-item-arrow d-block mx-auto mt-5" src="images/icon-arrow-top-purple.svg" alt="Top arrow">
+    <div class="col-lg-4">
+      <div id="home-carousel-reboots" class="carousel slide">
+        <ol class="carousel-indicators">
+          <li data-target="#home-carousel-reboots" data-slide-to="0" class="active"></li>
+          <li data-target="#home-carousel-reboots" data-slide-to="1"></li>
+          <li data-target="#home-carousel-reboots" data-slide-to="2"></li>
+          <li data-target="#home-carousel-reboots" data-slide-to="3"></li>
+        </ol>
+        <h3 class="home-workwith-item-heading text-center">Application Reboots</h3>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active ww-panel-icon">
+            <img class="" src="images/icon-app.svg" alt="Desktop icon">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/logo-scribe-blue.png" alt="Proximity Lab - Project">
+            <p>Teaser about the Scribe work that describes briefly what we did</p>
+            <a href="#">View Project</a>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/logo-amadeus-blue.png" alt="Proximity Lab - Project">
+            <p>Teaser about the Amadeus work that describes briefly what we did</p>
+            <a href="#">View Project</a>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/logo-songbird-blue.png" alt="Proximity Lab - Project">
+            <p>Teaser about the Songbird work that describes briefly what we did</p>
+            <a href="#">View Project</a>
+          </div>
+        </div>
       </div>
     </div>
+
   </div>
 </div>
 
-<div id="home-carousel-testimonial" class="carousel slide" data-ride="carousel">
+<div id="home-carousel-testimonial" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item home-carousel-testimonial-item home-carousel-testimonial-item-scribe active">
       <div class="carousel-caption home-carousel-testimonial-caption">

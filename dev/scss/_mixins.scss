@@ -1,0 +1,32 @@
+/* ## Mixins
+-----------------------------------------------*/
+
+//Rem Font Sizing
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@mixin bp($point) {
+/* Large devices (large desktops, 1200px and up) */
+  @if $point == grandpa-bear {
+  	@media (min-width: 1200px){ @content; }
+  }
+/* Medium devices (desktops, 992px and up) */
+  @else if $point == papa-bear {
+  	@media (min-width: 992px){ @content; }
+  }
+/* Small devices (tablets, 768px and up) */
+  @else if $point == mama-bear {
+    @media (min-width: 768px){ @content; }
+  }
+
+  @else if $point == baby-bear {
+    @media (min-width: 576px){ @content; }
+  }
+
+}
