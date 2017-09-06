@@ -92,20 +92,20 @@
     }
 }
 
-#scheduleme { background-image: url('../images/work-item-background-scheduleme.jpg'); }
-#mosaic { background-image: url('../images/work-item-background-mosaic.jpg'); }
-#icovia { background-image: url('../images/work-item-background-icovia.jpg'); }
-#songbird { background-image: url('../images/work-item-background-songbird.jpg'); }
-#eagle { background-image: url('../images/work-item-background-eagle.jpg'); }
-#solidworks { background-image: url('../images/work-item-background-solidworks.jpg'); }
-#philips { background-image: url('../images/work-item-background-philips.jpg'); }
-#adobe { background-image: url('../images/work-item-background-adobe.jpg'); }
-#minim { background-image: url('../images/work-item-background-minim.jpg'); }
-#insight { background-image: url('../images/work-item-background-insight.jpg'); }
-#scribe { background-image: url('../images/work-item-background-scribe.jpg'); }
-#nye { background-image: url('../images/work-item-background-nye.jpg'); }
-#wagz { background-image: url('../images/work-item-background-wagz.jpg'); }
-#amadeus { background-image: url('../images/work-item-background-amadeus.jpg'); }
+#scheduleme { background-image: url('/images/work-item-background-scheduleme.jpg'); }
+#mosaic { background-image: url('/images/work-item-background-mosaic.jpg'); }
+#icovia { background-image: url('/images/work-item-background-icovia.jpg'); }
+#songbird { background-image: url('/images/work-item-background-songbird.jpg'); }
+#eagle { background-image: url('/images/work-item-background-eagle.jpg'); }
+#solidworks { background-image: url('/images/work-item-background-solidworks.jpg'); }
+#philips { background-image: url('/images/work-item-background-philips.jpg'); }
+#adobe { background-image: url('/images/work-item-background-adobe.jpg'); }
+#minim { background-image: url('/images/work-item-background-minim.jpg'); }
+#insight { background-image: url('/images/work-item-background-insight.jpg'); }
+#scribe { background-image: url('/images/work-item-background-scribe.jpg'); }
+#nye { background-image: url('/images/work-item-background-nye.jpg'); }
+#wagz { background-image: url('/images/work-item-background-wagz.jpg'); }
+#amadeus { background-image: url('/images/work-item-background-amadeus.jpg'); }
 
 .work-item-container:hover .work-item-overlay {
     @media (min-width: 768px) { opacity: 1; }

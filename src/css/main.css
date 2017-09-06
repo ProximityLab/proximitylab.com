@@ -76,7 +76,7 @@ a[name=start] {
     height: 182px;
     text-indent: -9999px;
     display: block;
-    background: url(../images/logo_animated_darkgray.gif) no-repeat;
+    background: url(/images/logo_animated_darkgray.gif) no-repeat;
     background-size: contain;
     position: relative !important;
     z-index: 99999!important;
@@ -227,7 +227,7 @@ a[name=start] {
 .site-title-r {
     text-indent: -9999px;
     display: block;
-    background: url(../images/logo-proximity-lab-pink-2.svg) no-repeat;
+    background: url(/images/logo-proximity-lab-pink-2.svg) no-repeat;
     background-size: cover;
     width: 27px;
     height: 38px;
@@ -236,7 +236,7 @@ a[name=start] {
 }
 .home .site-title-r { transform: translateY(-5000px); }
 .site-title-r.pinkey {
-    background: url(../images/logo-proximity-lab-pink-2.svg) no-repeat;
+    background: url(/images/logo-proximity-lab-pink-2.svg) no-repeat;
 }
 .primary-nav-holder {
     position: fixed;

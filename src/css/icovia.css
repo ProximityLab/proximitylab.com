@@ -79,7 +79,7 @@
 
 @media (min-width: 992px) {
   .project-description {
-    background: url('../images/portfolio-description-icovia-bgd.png') no-repeat;
+    background: url('/images/portfolio-description-icovia-bgd.png') no-repeat;
     background-position: 180% top;
   }
 }
@@ -95,7 +95,7 @@
 @media (min-width: 768px) {
     .portfolio-image {
         background-repeat: no-repeat;
-        background-image: url('../images/songbird-carousel-placeholder.png');
+        background-image: url('/images/songbird-carousel-placeholder.png');
     }
 }
 

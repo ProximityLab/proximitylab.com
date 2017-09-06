@@ -3,10 +3,10 @@
         <div class="row">
 
             <div class="col-lg-4 jumbotron-padding">
-              <img class="jumbotron-logo-project my-4 my-xl-5" src="images/icon-project-icovia.png" alt="Icovia logo">
+              <img class="jumbotron-logo-project my-4 my-xl-5" src="/images/icon-project-icovia.png" alt="Icovia logo">
               <a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-8 flex-first jumbotron-padding"><img class="img-fluid mt-5" src="images/website-mockup-icovia.png" alt="Icovia website mockup"></div>
+            <div class="col-lg-8 flex-first jumbotron-padding"><img class="img-fluid mt-5" src="/images/website-mockup-icovia.png" alt="Icovia website mockup"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

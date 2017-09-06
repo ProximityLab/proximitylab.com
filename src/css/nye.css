@@ -125,7 +125,7 @@
     background-size: contain;
     background-position: right;
     min-height: 636px;
-    background-image: url('../images/service-info-image-nye.png');
+    background-image: url('/images/service-info-image-nye.png');
 }
 
 
@@ -149,7 +149,7 @@
 
 .nye-hero {
     height: 956px;
-    background-image: url('../images/bottom-jumbotron-bg-nye.jpg');
+    background-image: url('/images/bottom-jumbotron-bg-nye.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;

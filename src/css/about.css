@@ -23,7 +23,7 @@
 
 .about-header {
   height: 560px;
-  background-image: url('../images/header-background-home.jpg');
+  background-image: url('/images/header-background-home.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -118,7 +118,7 @@
 
 /*.about-service-image {
   min-height: 245px;
-  background-image: url('../images/about-service-image.jpg');
+  background-image: url('/images/about-service-image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -371,7 +371,7 @@
 
 .about-location {
   margin-top: 109px;
-  background-image: url('../images/about-location-background.jpg');
+  background-image: url('/images/about-location-background.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center 95%;

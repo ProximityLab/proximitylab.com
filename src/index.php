@@ -1,5 +1,5 @@
 <?php
-    $activePage = $_GET['page'];
+    $activePage = !empty($_GET['page']) ? trim($_GET['page']) : '';
 ?>
 <!doctype html>
 <html lang="en">
@@ -10,29 +10,39 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="/css/main.min.css">
         <?php
-            if (!$activePage) echo '<link rel="stylesheet" href="css/home.css">';
+            if (empty($activePage)) echo '<link rel="stylesheet" href="/css/home.css">';
 
-            if ($activePage == 'solidworks') echo '<link rel="stylesheet" href="css/solidworks.css">';
-            if ($activePage == 'mosaic') echo '<link rel="stylesheet" href="css/mosaic.css">';
-            if ($activePage == 'rootinsight') echo '<link rel="stylesheet" href="css/rootinsight.css">';
-            if ($activePage == 'adobe') echo '<link rel="stylesheet" href="css/adobe.css">';
-            if ($activePage == 'eagle') echo '<link rel="stylesheet" href="css/eagle.css">';
-            if ($activePage == 'philips') echo '<link rel="stylesheet" href="css/philips.css">';
-            if ($activePage == 'scribe') echo '<link rel="stylesheet" href="css/scribe.css">';
-            if ($activePage == 'minum') echo '<link rel="stylesheet" href="css/minum.css">';
-            if ($activePage == 'icovia') echo '<link rel="stylesheet" href="css/icovia.css">';
+            if ($activePage == 'solidworks') echo '<link rel="stylesheet" href="/css/solidworks.css">';
+            if ($activePage == 'mosaic') echo '<link rel="stylesheet" href="/css/mosaic.css">';
+            if ($activePage == 'rootinsight') echo '<link rel="stylesheet" href="/css/rootinsight.css">';
+            if ($activePage == 'adobe') echo '<link rel="stylesheet" href="/css/adobe.css">';
+            if ($activePage == 'eagle') echo '<link rel="stylesheet" href="/css/eagle.css">';
+            if ($activePage == 'philips') echo '<link rel="stylesheet" href="/css/philips.css">';
+            if ($activePage == 'scribe') echo '<link rel="stylesheet" href="/css/scribe.css">';
+            if ($activePage == 'minum') echo '<link rel="stylesheet" href="/css/minum.css">';
+            if ($activePage == 'icovia') echo '<link rel="stylesheet" href="/css/icovia.css">';
 
 
-            if ($activePage == 'scheduleme') echo '<link rel="stylesheet" href="css/scheduleme.css">';
-            if ($activePage == 'songbird') echo '<link rel="stylesheet" href="css/songbird.css">';
-            if ($activePage == 'about') echo '<link rel="stylesheet" href="css/about.css">';
-            if ($activePage == 'work') echo '<link rel="stylesheet" href="css/work.css">';
-            if ($activePage == 'nye') echo '<link rel="stylesheet" href="css/nye.css">';
-            if ($activePage == 'wagz') echo '<link rel="stylesheet" href="css/wagz.css">';
-            if ($activePage == 'amadeus') echo '<link rel="stylesheet" href="css/amadeus.css">';
+            if ($activePage == 'scheduleme') echo '<link rel="stylesheet" href="/css/scheduleme.css">';
+            if ($activePage == 'songbird') echo '<link rel="stylesheet" href="/css/songbird.css">';
+            if ($activePage == 'about') echo '<link rel="stylesheet" href="/css/about.css">';
+            if ($activePage == 'work') echo '<link rel="stylesheet" href="/css/work.css">';
+            if ($activePage == 'billnye') echo '<link rel="stylesheet" href="/css/nye.css">';
+            if ($activePage == 'wagz') echo '<link rel="stylesheet" href="/css/wagz.css">';
+            if ($activePage == 'amadeus') echo '<link rel="stylesheet" href="/css/amadeus.css">';
         ?>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-28875731-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
     </head>
     <body id="waypoint" class="animated fadeIn">
       <?php include('includes/navigation.php'); ?>
@@ -114,6 +124,6 @@
           }
         </script>
         <link rel="import" href="/includes/x-gif.html"> -->
-        <script src="custom.js"></script>
+        <script src="/custom.js"></script>
     </body>
 </html>
