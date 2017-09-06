@@ -14,17 +14,6 @@
         <?php
             if (empty($activePage)) echo '<link rel="stylesheet" href="/css/home.css">';
 
-<<<<<<< HEAD
-            if ($activePage == 'solidworks') echo '<link rel="stylesheet" href="css/solidworks.css">';
-            if ($activePage == 'mosaic') echo '<link rel="stylesheet" href="css/mosaic.css">';
-            if ($activePage == 'rootinsight') echo '<link rel="stylesheet" href="css/rootinsight.css">';
-            if ($activePage == 'adobe') echo '<link rel="stylesheet" href="css/adobe.css">';
-            if ($activePage == 'eagle') echo '<link rel="stylesheet" href="css/eagle.css">';
-            if ($activePage == 'philips') echo '<link rel="stylesheet" href="css/philips.css">';
-            if ($activePage == 'scribe') echo '<link rel="stylesheet" href="css/scribe.css">';
-            if ($activePage == 'minim') echo '<link rel="stylesheet" href="css/minim.css">';
-            if ($activePage == 'icovia') echo '<link rel="stylesheet" href="css/icovia.css">';
-=======
             if ($activePage == 'solidworks') echo '<link rel="stylesheet" href="/css/solidworks.css">';
             if ($activePage == 'mosaic') echo '<link rel="stylesheet" href="/css/mosaic.css">';
             if ($activePage == 'rootinsight') echo '<link rel="stylesheet" href="/css/rootinsight.css">';
@@ -32,10 +21,8 @@
             if ($activePage == 'eagle') echo '<link rel="stylesheet" href="/css/eagle.css">';
             if ($activePage == 'philips') echo '<link rel="stylesheet" href="/css/philips.css">';
             if ($activePage == 'scribe') echo '<link rel="stylesheet" href="/css/scribe.css">';
-            if ($activePage == 'minum') echo '<link rel="stylesheet" href="/css/minum.css">';
+            if ($activePage == 'minim') echo '<link rel="stylesheet" href="/css/minim.css">';
             if ($activePage == 'icovia') echo '<link rel="stylesheet" href="/css/icovia.css">';
->>>>>>> 2293a468de9b49ad940967d711c0059dde6c7cc1
-
 
             if ($activePage == 'scheduleme') echo '<link rel="stylesheet" href="/css/scheduleme.css">';
             if ($activePage == 'songbird') echo '<link rel="stylesheet" href="/css/songbird.css">';
