@@ -10,10 +10,9 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/main.min.css">
+        <link rel="stylesheet" href="/css/main.css">
         <?php
             if (empty($activePage)) echo '<link rel="stylesheet" href="/css/home.css">';
-
             if ($activePage == 'solidworks') echo '<link rel="stylesheet" href="/css/solidworks.css">';
             if ($activePage == 'mosaic') echo '<link rel="stylesheet" href="/css/mosaic.css">';
             if ($activePage == 'rootinsight') echo '<link rel="stylesheet" href="/css/rootinsight.css">';
@@ -23,7 +22,6 @@
             if ($activePage == 'scribe') echo '<link rel="stylesheet" href="/css/scribe.css">';
             if ($activePage == 'minim') echo '<link rel="stylesheet" href="/css/minim.css">';
             if ($activePage == 'icovia') echo '<link rel="stylesheet" href="/css/icovia.css">';
-
             if ($activePage == 'scheduleme') echo '<link rel="stylesheet" href="/css/scheduleme.css">';
             if ($activePage == 'songbird') echo '<link rel="stylesheet" href="/css/songbird.css">';
             if ($activePage == 'about') echo '<link rel="stylesheet" href="/css/about.css">';
@@ -73,13 +71,7 @@
                   break;
                   case 'scribe':
                     include('includes/pages/scribe.php');
-                    break;
-
-
-
-
-
-                case 'scheduleme':
+                    break;case 'scheduleme':
                   include('includes/pages/scheduleme.php');
                   break;
                 case 'songbird':
@@ -111,7 +103,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <script src="/js/jquery.waypoints.min.js"></script>
-        <!-- <script type="text/javascript" src="/js/libgif.js"></script> -->
         <!-- <script>
           if ('registerElement' in document
             && 'createShadowRoot' in HTMLElement.prototype
@@ -121,8 +112,7 @@
           } else {
             document.write('<script src="https:\/\/cdnjs.cloudflare.com/ajax/libs/polymer/0.3.4/platform.js"><\/script>')
           }
-        </script>
-        <link rel="import" href="/includes/x-gif.html"> -->
+        </script> -->
         <script src="/custom.js"></script>
     </body>
 </html>

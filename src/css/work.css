@@ -101,15 +101,18 @@
 #philips { background-image: url('/images/work-item-background-philips.jpg'); }
 #adobe { background-image: url('/images/work-item-background-adobe.jpg'); }
 #minim { background-image: url('/images/work-item-background-minim.jpg'); }
-#insight { background-image: url('/images/work-item-background-insight.jpg'); }
+#rootinsight { background-image: url('/images/work-item-background-insight.jpg'); }
 #scribe { background-image: url('/images/work-item-background-scribe.jpg'); }
 #nye { background-image: url('/images/work-item-background-nye.jpg'); }
 #wagz { background-image: url('/images/work-item-background-wagz.jpg'); }
 #amadeus { background-image: url('/images/work-item-background-amadeus.jpg'); }
 
+@media (min-width: 768px){
 .work-item-container:hover .work-item-overlay {
-    @media (min-width: 768px) { opacity: 1; }
+     opacity: 1;
+  }
 }
+
 .work-item-container.active .work-item-overlay { opacity: 1 !important; }
 
 .work-item-overlay {
