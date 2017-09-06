@@ -108,8 +108,9 @@
 #amadeus { background-image: url('../images/work-item-background-amadeus.jpg'); }
 
 .work-item-container:hover .work-item-overlay {
-    opacity: 1;
+    @media (min-width: 768px) { opacity: 1; }
 }
+.work-item-container.active .work-item-overlay { opacity: 1 !important; }
 
 .work-item-overlay {
     position: absolute;
@@ -181,9 +182,10 @@
     color: #FFFFFF;
     border: 0.5px solid rgba(255, 255, 255, 1);
     padding: 11px 27px;
-    display: inline-block;
+    display: none;
     background-color: rgba(255, 255, 255, 0);
     transition: all .25s ease-in-out;
+    @media (min-width: 768px) { display: inline-block; }
 }
 
 .work-item-button:hover {
@@ -191,3 +193,5 @@
     text-decoration: none;
     background-color: rgba(255, 255, 255, 1);
 }
+
+.work-item-container.active .work-item-button { display: inline-block !important; }
