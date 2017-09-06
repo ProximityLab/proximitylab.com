@@ -42,7 +42,7 @@
 
 .home-carousel-header-inner {
     height: 100%;
-    /*min-height:95vh;*/
+    /*min-height:95vh;
 }*/
 
 /*.home-carousel-header-item {
@@ -127,22 +127,38 @@
 /* testimonial carousel */
 
 .home-carousel-testimonial-item {
-    height: 1000px;
+    height: 550px;
 }
 
 @media (min-width: 576px) {
     .home-carousel-testimonial-item {
-        height: 761px;
+        height: 800px;
     }
 }
 
-.home-carousel-testimonial-item-scribe { background-color: #139CE4; }
-.home-carousel-testimonial-item-adobe { background-color: #F61A34; }
-.home-carousel-testimonial-item-amadeus { background-color: #1773CF; }
+@media (min-width: 768px) {
+    .home-carousel-testimonial-item {
+        height: 700px;
+    }
+}
+
+@media (min-width: 992px) {
+    .home-carousel-testimonial-item {
+        height: 900px;
+    }
+}
+
+.home-carousel-testimonial-item-one { background-color: #139CE4; }
+.home-carousel-testimonial-item-two { background-color: #896BC2; }
+.home-carousel-testimonial-item-three { background-color: #0CC1D3; }
 
 .home-carousel-testimonial-caption {
     bottom: auto;
-    top: 87px;
+    top: 3rem;
+    width: 85%;
+    right: 0;
+    left: 0;
+    margin: 0 auto 6rem;
 }
 
 .home-carousel-testimonial-heading {
@@ -157,30 +173,86 @@
     margin: 50px 0;
 }
 
-.home-carousel-testimonial-logo-adobe {
-    height: 85px;
-    margin: 24px 0;
+.home-carousel-testimonial-item-two .home-carousel-testimonial-logo {
+    width: 145px;
+    margin: 24px 0 2rem;
 }
 
-.home-carousel-testimonial-logo-amadeus {
+.home-carousel-testimonial-item-three .home-carousel-testimonial-logo {
     height: 45px;
     margin: 44px 0;
 }
 
 .home-carousel-testimonial-text {
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 300;
-    line-height: 44px;
+    line-height: 3rem;
 }
+
+@media (min-width: 576px) {
+
+.home-carousel-testimonial-text {
+    font-size: 2.4rem;
+    line-height: 4rem;
+  }
+}
+@media (min-width: 768px) {
+
+.home-carousel-testimonial-text {
+    margin-top: 4rem;
+  }
+}
+@media (min-width: 992px) {
+
+.home-carousel-testimonial-text {
+    font-size: 3rem;
+    line-height: 5rem;
+    margin-top: 2rem;
+  }
+}
+/*@media (min-width: 992px) {
+
+.home-carousel-testimonial-text {
+
+  }
+}*/
+@media (min-width: 1200px) {
+
+.home-carousel-testimonial-text {
+    max-width: 870px;
+    margin: 0 auto;
+  }
+}
+/*@media (min-width: 1200px) {
+
+.home-carousel-testimonial-item-two .home-carousel-testimonial-text {
+    max-width: 96%;
+  }
+}*/
 
 .home-carousel-testimonial-author {
+    width: 70px;
     height: 70px;
-    margin: 65px 0 8px;
+    margin: 2rem 0 2rem 0;
 }
 
+@media (min-width: 1200px) {
+
+.home-carousel-testimonial-author {
+    width: 70px;
+    height: 70px;
+    margin: 6rem 0 2rem 0;
+}
+}
+.home-carousel-testimonial-author-title {
+    font-size: 1.6rem;
+    line-height: 44px;
+}
+
+@media (min-width: 576px) {
 .home-carousel-testimonial-author-title {
     font-size: 20px;
-    line-height: 44px;
+}
 }
 
 .home-carousel-testimonial-indicators {
@@ -196,6 +268,42 @@ li.home-carousel-testimonial-indicator {
     margin-right: 6.5px;
 }
 
-.home-carousel-testimonial-indicator.active {
+/*.home-carousel-testimonial-indicator.active {
     background-color: #fff;
+}*/
+/*
+.carousel-fade .carousel-inner .carousel-item {
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
 }
+
+.carousel-inner .carousel-item,
+.carousel-inner .active.carousel-item-left,
+.carousel-inner .active.carousel-item-right
+{
+    opacity:0;
+}
+
+.carousel-inner .active,
+.carousel-inner .carousel-item-next.carousel-item-left,
+.carousel-inner .carousel-item-previous.carousel-item-right
+{
+    opacity: 1;
+}
+
+.carousel-item.active,
+.active.carousel-item-left,
+.active.carousel-item-prev,
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right
+{
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}*/

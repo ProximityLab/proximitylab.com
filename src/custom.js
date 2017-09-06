@@ -70,47 +70,18 @@ $(".work-item-overlay").click(function(){
 function getFileName() {
   //this gets the full url
   var url = document.location.href;
-  // //this removes the anchor at the end, if there is one
-  url = url.substring(0, (url.indexOf("#") == -1) ? url.length : url.indexOf("#"));
-  // //this removes the query after the file name, if there is one
-  // url = url.substring(0, (url.indexOf("?") == -1) ? url.length : url.indexOf("?"));
-  // //this removes everything before the last slash in the path
-  url = url.substring(url.lastIndexOf("/") + 1, url.length);
-  // //this removes everything after the last period (file extension)
-  // url = url.substring(0, url.lastIndexOf("."));
-
-  // this removes everything before the last slash in the path
-  url = url.substring(url.length, url.lastIndexOf("page=") + 5);
-
-  //this replaces the "-" with a " ".
-  // url = url.replace(/\-/g, ' ');
-
-
+  url = url.substring(url.lastIndexOf('.com/')+5);
+	var lastChar = url[url.length -1];
+	if(lastChar === "/"){
+		url = url.slice(0, -1);
+	}
   //return
   return url;
   }
 
-// var $activePage = 'benefits-overview';
 var url = getFileName();
-// var $title = url.replace(/\-/g, ' ');
-url = document.location.href;
-//this removes the anchor at the end, if there is one
-// $path = url.substring(0, (url.indexOf("#") == -1) ? url.length : url.indexOf("#"));
-//this removes the query after the file name, if there is one
-// $path = url.substring(0, (url.indexOf("?") == -1) ? url.length : url.indexOf("?"));
-//this removes everything before the last slash in the path
-// $path = url.substring(url.lastIndexOf("/") + 1, url.length);
-url = url.substring(url.lastIndexOf('.com/')+5);
 
-var lastChar = url[url.length -1];
-if(lastChar === "/"){
-	url = url.slice(0, -1);
-}
-// alert($title);
-// var $title;
-// $title = "http://newsite.proximitylab.com/work/amadeus";
-// $title = url.replace("http://newsite.proximitylab.com/work/amadeus");
-console.log(url+"**************");
+// console.log(url+"**************");
 if (url === 'work') {
   $('body').addClass('ww-work');
 }
