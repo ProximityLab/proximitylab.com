@@ -24,6 +24,49 @@
 //     }
 // });
 
+// Function to change elements on document scroll
+
+$(document).ready(function(){
+
+	// Header Scroll State
+	
+	$(document).scroll(function() {
+		
+		var $header = $('#home-carousel-header .ww-underlay');
+		
+		var scroll = $(document).scrollTop();
+
+		if (scroll > 50) {
+			
+			$header.addClass("scrolled");
+			
+		} else {
+			
+			$header.removeClass("scrolled");
+			
+		}
+		
+	});
+	
+});
+
+// Work items for Mobile	
+	
+$(".work-item-overlay").click(function(){
+	
+	if ($(window).width() < 768) {
+		
+		$('.work-item-container').removeClass('active');
+		$(this).parent().addClass('active');
+		
+	} else {
+		
+		$('.work-item-container').removeClass('active');
+		
+	}
+});
+
+
 function getFileName() {
   //this gets the full url
   var url = document.location.href;
