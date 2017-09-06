@@ -3,10 +3,10 @@
         <div class="row">
 
             <div class="col-lg-4 jumbotron-padding">
-              <img class="jumbotron-logo-project my-4 my-xl-5" src="images/logo-minim-white-169x60.png" alt="Minim logo">
+              <img class="jumbotron-logo-project my-4 my-xl-5" src="/images/logo-minim-white-169x60.png" alt="Minim logo">
               <a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-8 jumbotron-padding"><img class="img-fluid mt-5" src="images/website-mockup-minim.png" alt="Minim website mockup"></div>
+            <div class="col-lg-8 jumbotron-padding"><img class="img-fluid mt-5" src="/images/website-mockup-minim.png" alt="Minim website mockup"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
@@ -68,7 +68,7 @@
   <div class="row">
     <div>
         <p>"Proximity Lab is at the top of the game for user experience and design. Having worked with them on multiple occasions and projects, they have proven to be a firm that goes way beyond producing simple mock-ups. They take the time to understand the core solution a product is to deliver."
-          <br /><img class="home-carousel-testimonial-author d-sm-inline-block" src="images/profile-jeremy-hitchcock.png" alt="Testimonial author"></p>
+          <br /><img class="home-carousel-testimonial-author d-sm-inline-block" src="/images/profile-jeremy-hitchcock.png" alt="Testimonial author"></p>
       <p class="home-carousel-testimonial-author-title">
           <b>Jeremy Hitchcock</b>, Founder & CEO  (Minim & Dyn)</p>
     </div>

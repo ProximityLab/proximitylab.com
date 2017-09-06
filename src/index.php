@@ -83,7 +83,7 @@
                 case 'wagz':
                     include('includes/pages/wagz.php');
                     break;
-                case 'nye':
+                case 'billnye':
                     include('includes/pages/billnye.php');
                     break;
                 case 'work':

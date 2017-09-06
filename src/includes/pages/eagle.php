@@ -3,10 +3,10 @@
         <div class="row">
 
             <div class="col-lg-4 jumbotron-padding">
-              <img class="jumbotron-logo-project my-4 my-xl-5" src="images/logo-eagle.png" alt="Eagle Genomics logo">
+              <img class="jumbotron-logo-project my-4 my-xl-5" src="/images/logo-eagle.png" alt="Eagle Genomics logo">
               <a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-8 jumbotron-padding"><img class="img-fluid mt-5" src="images/website-mockup-eagle.png" alt="Eagle Genomics website mockup"></div>
+            <div class="col-lg-8 jumbotron-padding"><img class="img-fluid mt-5" src="/images/website-mockup-eagle.png" alt="Eagle Genomics website mockup"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
@@ -38,21 +38,21 @@
     <div class="row">
         <div class="col-12 col-sm-4 text-center">
             <div class="project-service">
-                <img class="portfolio-service-icon" src="images/icon-user-research.svg" alt="Visual Experience">
+                <img class="portfolio-service-icon" src="/images/icon-user-research.svg" alt="Visual Experience">
                 <h4 class="portfolio-service-heading">User research</h4>
                 <p class="portfolio-service-text">Interviews with prospective users helped us identify a broad set of user types who would interact with the Eagle system at various stages of the research process.</p>
             </div>
         </div>
         <div class="col-12 col-sm-4 text-center">
             <div class="project-service">
-                <img class="portfolio-service-icon" src="images/icon-use-case.svg" alt="Team Collaboration">
+                <img class="portfolio-service-icon" src="/images/icon-use-case.svg" alt="Team Collaboration">
                 <h4 class="portfolio-service-heading">Use case modeling</h4>
                 <p class="portfolio-service-text">Journey maps and or visual models helped us identify points of integration with other tools in the suite and streamline the workflows between them.</p>
             </div>
         </div>
         <div class="col-12 col-sm-4 text-center">
             <div class="project-service">
-                <img class="portfolio-service-icon" src="images/icon-simple-full.svg" alt="Unified Experience">
+                <img class="portfolio-service-icon" src="/images/icon-simple-full.svg" alt="Unified Experience">
                 <h4 class="portfolio-service-heading">Competitive analysis</h4>
                 <p class="portfolio-service-text">There were other solutions in the market designed to aid in the genomic research process. We analyzed each solution to get a clear sense of their strengths and weaknesses to incorporate into our UX roadmap.</p>
             </div>
@@ -82,7 +82,7 @@
   <div class="row">
     <div>
         <p>"Proximity Lab was an excellent UX/UI product strategy and design partner. They helped us accelerate our understanding of user journeys and user profiles, and ultimately created stunning visual designs that enabled us to demonstrate the power of our product to current and new customers. Although the Proximity Lab is US based and we are UK based, the project ran smoothly with effective communications that kept all the team members on both sides constantly in the loop, as if it were one single team."
-          <br /><img class="home-carousel-testimonial-author d-sm-inline-block" src="images/profile_ureta_vidal.png" alt="Testimonial author"></p>
+          <br /><img class="home-carousel-testimonial-author d-sm-inline-block" src="/images/profile_ureta_vidal.png" alt="Testimonial author"></p>
       <p class="home-carousel-testimonial-author-title">
           <b>Abel Ureta-Vidal</b>, CEO Eagle Genomics</p>
     </div>

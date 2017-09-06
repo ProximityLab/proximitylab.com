@@ -3,10 +3,10 @@
         <div class="row">
 
             <div class="col-lg-4 jumbotron-padding">
-              <img class="jumbotron-logo-project my-4 my-xl-5" src="images/logo-scribe-white-2x.png" alt="Scribe logo">
+              <img class="jumbotron-logo-project my-4 my-xl-5" src="/images/logo-scribe-white-2x.png" alt="Scribe logo">
               <a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-8 jumbotron-padding"><img class="img-fluid mt-5" src="images/website-mockup-scribe-2x.png" alt="Scribe website mockup"></div>
+            <div class="col-lg-8 jumbotron-padding"><img class="img-fluid mt-5" src="/images/website-mockup-scribe-2x.png" alt="Scribe website mockup"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
@@ -84,21 +84,21 @@
       <div class="col-12 mt-5"><h2 class="text-center">Scribe has been extremely satisfied with the collaboration with Proximity Lab and has reported many impressive results</h2></div>
         <div class="col-12 col-sm-4 text-center">
             <div class="project-service">
-                <img class="portfolio-service-icon" src="images/icon-increased-usage.svg" alt="Visual Experience">
+                <img class="portfolio-service-icon" src="/images/icon-increased-usage.svg" alt="Visual Experience">
                 <h4 class="portfolio-service-heading">Increased Usage</h4>
                 <p class="portfolio-service-text">An overall increase of 200+% of concurrent use on the Scribe cloud-based platform</p>
             </div>
         </div>
         <div class="col-12 col-sm-4 text-center">
             <div class="project-service">
-                <img class="portfolio-service-icon" src="images/icon-customer-satisfaction.svg" alt="Team Collaboration">
+                <img class="portfolio-service-icon" src="/images/icon-customer-satisfaction.svg" alt="Team Collaboration">
                 <h4 class="portfolio-service-heading">Customer Satisfaction</h4>
                 <p class="portfolio-service-text">Heightened customer satisfaction as measured in improvements in customer retention</p>
             </div>
         </div>
         <div class="col-12 col-sm-4 text-center">
             <div class="project-service">
-                <img class="portfolio-service-icon" src="images/icon-task-efficiency.svg" alt="Unified Experience">
+                <img class="portfolio-service-icon" src="/images/icon-task-efficiency.svg" alt="Unified Experience">
                 <h4 class="portfolio-service-heading">Task Efficiency</h4>
                 <p class="portfolio-service-text">A 25% improvement in efficiency of integration tasks</p>
             </div>
@@ -110,7 +110,7 @@
   <div class="row">
     <div>
         <p>"Not only did Proximity Lab understand our business, but they challenged our thinking that helped create new paradigms for data integration. The resulting user-centric design is now driving the product roadmap for our SaaS platform, and more importantly - we are seeing a new category of users performing data integration tasks that would have previously been outside of their skillset."
-          <br /><img class="home-carousel-testimonial-author d-sm-inline-block" src="images/testimonial-author-scribe.png" alt="Testimonial author"></p>
+          <br /><img class="home-carousel-testimonial-author d-sm-inline-block" src="/images/testimonial-author-scribe.png" alt="Testimonial author"></p>
       <p class="home-carousel-testimonial-author-title">
           <b>Shawn McGowan</b>, CEO  Scribe)</p>
     </div>

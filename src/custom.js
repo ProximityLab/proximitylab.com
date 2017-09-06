@@ -29,40 +29,40 @@
 $(document).ready(function(){
 
 	// Header Scroll State
-	
+
 	$(document).scroll(function() {
-		
+
 		var $header = $('#home-carousel-header .ww-underlay');
-		
+
 		var scroll = $(document).scrollTop();
 
 		if (scroll > 50) {
-			
+
 			$header.addClass("scrolled");
-			
+
 		} else {
-			
+
 			$header.removeClass("scrolled");
-			
+
 		}
-		
+
 	});
-	
+
 });
 
-// Work items for Mobile	
-	
+// Work items for Mobile
+
 $(".work-item-overlay").click(function(){
-	
+
 	if ($(window).width() < 768) {
-		
+
 		$('.work-item-container').removeClass('active');
 		$(this).parent().addClass('active');
-		
+
 	} else {
-		
+
 		$('.work-item-container').removeClass('active');
-		
+
 	}
 });
 
@@ -92,8 +92,25 @@ function getFileName() {
 
 // var $activePage = 'benefits-overview';
 var url = getFileName();
-var $title = url.replace(/\-/g, ' ');
-// console.log($title+"**************");
+// var $title = url.replace(/\-/g, ' ');
+url = document.location.href;
+//this removes the anchor at the end, if there is one
+// $path = url.substring(0, (url.indexOf("#") == -1) ? url.length : url.indexOf("#"));
+//this removes the query after the file name, if there is one
+// $path = url.substring(0, (url.indexOf("?") == -1) ? url.length : url.indexOf("?"));
+//this removes everything before the last slash in the path
+// $path = url.substring(url.lastIndexOf("/") + 1, url.length);
+url = url.substring(url.lastIndexOf('.com/')+5);
+
+var lastChar = url[url.length -1];
+if(lastChar === "/"){
+	url = url.slice(0, -1);
+}
+// alert($title);
+// var $title;
+// $title = "http://newsite.proximitylab.com/work/amadeus";
+// $title = url.replace("http://newsite.proximitylab.com/work/amadeus");
+console.log(url+"**************");
 if (url === 'work') {
   $('body').addClass('ww-work');
 }
