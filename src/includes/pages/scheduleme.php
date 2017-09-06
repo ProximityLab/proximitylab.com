@@ -3,10 +3,10 @@
         <div class="row">
 
             <div class="col-lg-4 jumbotron-padding">
-              <img class="jumbotron-project-logo jumbotron-logo-project my-4 my-xl-5" src="images/logo-scheduleme.svg" alt="Schedule Me logo">
+              <img class="jumbotron-project-logo jumbotron-logo-project my-4 my-xl-5" src="/images/logo-scheduleme.svg" alt="Schedule Me logo">
               <a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-8 flex-first jumbotron-padding"><img class="img-fluid mt-5" src="images/website-mockup-scheduleme.png" alt="Schedule Me website mockup"></div>
+            <div class="col-lg-8 flex-first jumbotron-padding"><img class="img-fluid mt-5" src="/images/website-mockup-scheduleme.png" alt="Schedule Me website mockup"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

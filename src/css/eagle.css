@@ -123,13 +123,7 @@
 @media (min-width: 768px) {
     .portfolio-image {
         background-repeat: no-repeat;
-        background-image: url('../images/eagle-carousel-placeholder.png');
-    }
-}
-
-@media (min-width: 992px) {
-    .portfolio-image{
-        min-height: 650px;
+        background-image: url('/images/eagle-carousel-placeholder.png');
     }
 }
 

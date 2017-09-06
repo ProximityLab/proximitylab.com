@@ -1,5 +1,5 @@
 <header class="about-header">
-    <!-- <a href="/"><img class="about-logo" src="images/logo-proximity-lab-white.svg" alt="Proximity Lab logo"></a> -->
+    <!-- <a href="/"><img class="about-logo" src="/images/logo-proximity-lab-white.svg" alt="Proximity Lab logo"></a> -->
 
 
 
@@ -27,21 +27,21 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-12 col-sm-6 col-md-4 text-center about-service-item">
-            <img class="about-service-item-icon" src="images/icon-research.svg" alt="Research icon">
+            <img class="about-service-item-icon" src="/images/icon-research.svg" alt="Research icon">
             <h5 class="about-service-item-heading">Research</h5>
             <p class="about-service-item-text">Trendscape Analysis</p>
             <p class="about-service-item-text">Research &amp; Planning</p>
             <p class="about-service-item-text">Journey Mapping</p>
         </div>
         <div class="col-12 col-sm-6 col-md-4 text-center about-service-item">
-            <img class="about-service-item-icon" src="images/icon-ux.svg" alt="UX icon">
+            <img class="about-service-item-icon" src="/images/icon-ux.svg" alt="UX icon">
             <h5 class="about-service-item-heading">UX Strategy</h5>
             <p class="about-service-item-text">Persona Development</p>
             <p class="about-service-item-text">Storyboarding</p>
             <p class="about-service-item-text">Content Strategy</p>
         </div>
         <div class="col-12 col-md-4 text-center about-service-item">
-            <img class="about-service-item-icon" src="images/icon-design.svg" alt="Design icon">
+            <img class="about-service-item-icon" src="/images/icon-design.svg" alt="Design icon">
             <h5 class="about-service-item-heading">Design &amp; Development</h5>
             <p class="about-service-item-text">User Interface &amp; Visual Design</p>
             <p class="about-service-item-text">Wireframe &amp; Prototyping</p>
@@ -57,35 +57,35 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 offset-xl-1 about-clients-logo-container">
-                <img class="about-clients-logo about-clients-logo-oracle" src="images/logo-oracle.svg" alt="Oracle logo">
+                <img class="about-clients-logo about-clients-logo-oracle" src="/images/logo-oracle.svg" alt="Oracle logo">
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
-                <img class="about-clients-logo about-clients-logo-adobe" src="images/logo-adobe.svg" alt="Adobe logo">
+                <img class="about-clients-logo about-clients-logo-adobe" src="/images/logo-adobe.svg" alt="Adobe logo">
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
-                <img class="about-clients-logo about-clients-logo-phillips" src="images/logo-philips.svg" alt="Philips logo">
+                <img class="about-clients-logo about-clients-logo-phillips" src="/images/logo-philips.svg" alt="Philips logo">
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
-                <img class="about-clients-logo about-clients-logo-eagle" src="images/logo-eagle.png" alt="Eagle logo">
+                <img class="about-clients-logo about-clients-logo-eagle" src="/images/logo-eagle.png" alt="Eagle logo">
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
-                <img class="about-clients-logo about-clients-logo-solidworks" src="images/logo-solidworks.svg" alt="Solidworks logo">
+                <img class="about-clients-logo about-clients-logo-solidworks" src="/images/logo-solidworks.svg" alt="Solidworks logo">
             </div>
 
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 offset-xl-1 about-clients-logo-container">
-                <img class="about-clients-logo about-clients-logo-dyn" src="images/logo-dyn.svg" alt="Dyn logo">
+                <img class="about-clients-logo about-clients-logo-dyn" src="/images/logo-dyn.svg" alt="Dyn logo">
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
-                <img class="about-clients-logo about-clients-logo-amadeus" src="images/logo-amadeus.svg" alt="Amadeus logo">
+                <img class="about-clients-logo about-clients-logo-amadeus" src="/images/logo-amadeus.svg" alt="Amadeus logo">
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
-                <img class="about-clients-logo about-clients-logo-nye" src="images/logo-nye.png" alt="Nye logo">
+                <img class="about-clients-logo about-clients-logo-nye" src="/images/logo-nye.png" alt="Nye logo">
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 offset-lg-3 col-xl-2 offset-xl-0 about-clients-logo-container">
-                <img class="about-clients-logo about-clients-logo-scribe" src="images/logo-scribe.png" alt="Scribe logo">
+                <img class="about-clients-logo about-clients-logo-scribe" src="/images/logo-scribe.png" alt="Scribe logo">
             </div>
             <div class="col-12 col-sm-6 col-md-4 offset-md-4 col-lg-3 offset-lg-0 col-xl-2 about-clients-logo-container">
-                <img class="about-clients-logo about-clients-logo-zynga" src="images/logo-zynga.svg" alt="Zynga logo">
+                <img class="about-clients-logo about-clients-logo-zynga" src="/images/logo-zynga.svg" alt="Zynga logo">
             </div>
         </div>
     </div>
@@ -101,7 +101,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 about-team-person">
-            <img class="img-fluid" src="images/about-team-member1.jpg" alt="Team member photo">
+            <img class="img-fluid" src="/images/about-team-member1.jpg" alt="Team member photo">
             <div class="about-team-person-overlay">
                 <div class="about-team-person-wrapper">
                     <h1 class="about-team-person-name">Evan Karatzas</h1>
@@ -111,7 +111,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 about-team-person">
-            <img class="img-fluid" src="images/about-team-member2.jpg" alt="Team member photo">
+            <img class="img-fluid" src="/images/about-team-member2.jpg" alt="Team member photo">
             <div class="about-team-person-overlay">
                 <div class="about-team-person-wrapper">
                     <h1 class="about-team-person-name">Nick Allen</h1>
@@ -121,7 +121,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 about-team-person">
-            <img class="img-fluid" src="images/about-team-member3.jpg" alt="Team member photo">
+            <img class="img-fluid" src="/images/about-team-member3.jpg" alt="Team member photo">
             <div class="about-team-person-overlay">
                 <div class="about-team-person-wrapper">
                     <h1 class="about-team-person-name">Ryan Szepan</h1>
@@ -131,7 +131,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 about-team-person">
-            <img class="img-fluid" src="images/about-team-member4.jpg" alt="Team member photo">
+            <img class="img-fluid" src="/images/about-team-member4.jpg" alt="Team member photo">
             <div class="about-team-person-overlay">
                 <div class="about-team-person-wrapper">
                     <h1 class="about-team-person-name">Brian Lucid</h1>
@@ -141,7 +141,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 about-team-person">
-            <img class="img-fluid" src="images/about-team-member5.jpg" alt="Team member photo">
+            <img class="img-fluid" src="/images/about-team-member5.jpg" alt="Team member photo">
             <div class="about-team-person-overlay">
                 <div class="about-team-person-wrapper">
                     <h1 class="about-team-person-name">Yanjun Lyu</h1>
@@ -151,7 +151,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 about-team-person">
-            <img class="img-fluid" src="images/about-team-member6.jpg" alt="Team member photo">
+            <img class="img-fluid" src="/images/about-team-member6.jpg" alt="Team member photo">
             <div class="about-team-person-overlay">
                 <div class="about-team-person-wrapper">
                     <h1 class="about-team-person-name">Tom Rhinelander</h1>
@@ -161,7 +161,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 about-team-person">
-            <img class="img-fluid" src="images/about-team-member7.jpg" alt="Team member photo">
+            <img class="img-fluid" src="/images/about-team-member7.jpg" alt="Team member photo">
             <div class="about-team-person-overlay">
                 <div class="about-team-person-wrapper">
                     <h1 class="about-team-person-name">Jason Fernald</h1>

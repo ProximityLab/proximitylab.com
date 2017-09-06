@@ -138,7 +138,7 @@
     background-size: contain;
     background-position: right;
     min-height: 436px;
-    background-image: url('../images/wagz-carousel-placeholder.png');
+    background-image: url('/images/wagz-carousel-placeholder.png');
 }
 
 @media (min-width: 576px) {

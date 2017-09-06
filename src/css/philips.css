@@ -101,7 +101,7 @@ background-image: linear-gradient(-134deg, #11478C 0%, #2F86FC 100%);
 @media (min-width: 768px) {
     .portfolio-image {
         background-repeat: no-repeat;
-        background-image: url('../images/songbird-carousel-placeholder.png');
+        background-image: url('/images/songbird-carousel-placeholder.png');
     }
 }
 

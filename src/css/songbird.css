@@ -80,19 +80,19 @@
 
 /*.portfolio-image {
     background-repeat: no-repeat;
-    background-image: url('../images/songbird-carousel-placeholder.png');
+    background-image: url('/images/songbird-carousel-placeholder.png');
 }*/
 
 /*@media (min-width: 576px) {
     .portfolio-image {
         background-repeat: no-repeat;
-        background-image: url('../images/songbird-carousel-placeholder.png');
+        background-image: url('/images/songbird-carousel-placeholder.png');
     }
 }*/
 @media (min-width: 768px) {
     .portfolio-image {
         background-repeat: no-repeat;
-        background-image: url('../images/songbird-carousel-placeholder.png');
+        background-image: url('/images/songbird-carousel-placeholder.png');
     }
 }
 
@@ -122,7 +122,7 @@
 
 /*@media (min-width: 992px) {
   .project-description {
-    background: url('../images/portfolio-description-bgd-map.png') no-repeat;
+    background: url('/images/portfolio-description-bgd-map.png') no-repeat;
     background-position: 140% top;
   }
 }

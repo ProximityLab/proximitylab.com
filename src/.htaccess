@@ -1,0 +1,34 @@
+AddType text/css css .css
+
+RewriteEngine on
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(thank-you|careers-thank-you|careers|work_04|work_06|work_12|work_13|work_14)
+RewriteRule ^.*$ / [L,R=301]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /work_02
+RewriteRule ^.*$ /work/amadeus [L,R=301]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /work_03
+RewriteRule ^.*$ /work/scribe [L,R=301]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /work_05
+RewriteRule ^.*$ /work/mosaic [L,R=301]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(work_07|work_11)
+RewriteRule ^.*$ /work/billnye [L,R=301]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /work_08
+RewriteRule ^.*$ /work/icovia [L,R=301]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /work_09
+RewriteRule ^.*$ /work/solidworks [L,R=301]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /work_10
+RewriteRule ^.*$ /work/scheduleme [L,R=301]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /work_15
+RewriteRule ^.*$ /work/adobe [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^/?([^/]*/)?([^/]*)/?$ /index.php?page=$2 [L]
