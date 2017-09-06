@@ -1,15 +1,15 @@
 <header class="work-header">
 
-    <h1 class="work-header-heading text-center">The fruits of our labor</h1>
+    <h1 class="work-header-heading text-center">Outcome-based design collaboration</h1>
 
-    <p class="work-header-text text-center mx-auto">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from</p>
+    <p class="work-header-text text-center mx-auto">Explore our portfolio to learn how we can help advance  your product vision and customer experience.</p>
 </header>
 
 <div class="container-fluid">
     <div class="row">
 
         <div class="work-item col-12 col-md-8">
-            <div id="insight" class="work-item-container text-center">
+            <div id="rootinsight" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="images/logo-insight.png" alt="Insight logo">
@@ -62,7 +62,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="images/logo-minim-white.png" alt="Minim logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=minum">View work</a>
+                        <a class="work-item-button" href="?page=minim">View work</a>
                     </div>
                 </div>
             </div>
@@ -98,14 +98,14 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="images/logo-philips.svg" alt="Philips logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=adobe">View work</a>
+                        <a class="work-item-button" href="?page=philips">View work</a>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="work-item col-12 col-sm-6 col-md-4">
-            <div  id = "eagle" class="work-item-container text-center">
+            <div id="eagle" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="images/logo-eagle.png" alt="Eagle logo">
@@ -117,7 +117,7 @@
         </div>
 
         <div class="work-item col-12 col-sm-6 col-md-4">
-            <div  id = "solidworks" class="work-item-container text-center">
+            <div id="solidworks" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="images/logo-solidworks.svg" alt="Solid Works logo">
@@ -129,7 +129,7 @@
         </div>
 
         <div class="work-item col-12 col-sm-6 col-md-4">
-            <div  id = "songbird" class="work-item-container text-center">
+            <div id="songbird" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="images/logo-songbird-white.svg" alt="Songbird logo">
@@ -141,7 +141,7 @@
         </div>
 
         <div class="work-item col-12 col-sm-6 col-md-4">
-            <div  id = "icovia" class="work-item-container text-center">
+            <div id="icovia" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="images/logo-icovia.png" alt="icovia logo">
@@ -153,7 +153,7 @@
         </div>
 
         <div class="work-item col-12 col-sm-6 col-md-4">
-            <div  id = "mosaic" class="work-item-container text-center">
+            <div id="mosaic" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="images/logo-mosaic.png" alt="Mosaic logo">

@@ -1,12 +1,12 @@
 /**
- * Philips page
+ * Minum page
  */
 
 /* jumbotron */
 
 .jumbotron {
-
-  background-image: linear-gradient(-134deg,  #5913BB 0%, #C330FB 100%);
+  /* Mask: */
+background-image: linear-gradient(-135deg, #1E6BAD 0%, #32BAF2 100%);
   margin-bottom: 0;
   position: relative;
 }
@@ -35,9 +35,19 @@
     }
 }
 
+.jumbotron-padding img {
+    margin-bottom: -2rem;
+}
+
+@media (min-width: 576px) {
+    .jumbotron-padding img {
+        margin-bottom: -4rem;
+    }
+}
+
 .jumbotron-logo-project {
-    width: 178px;
-    /*left: 3rem;*/
+    width: 169px;
+    left: 0;
 }
 
 @media (min-width: 992px) {
@@ -47,24 +57,25 @@
 }
 
 /* portfolio */
+.portfolio-header {
+  margin: 3rem 0;
+}
+
+@media (min-width: 992px) {
+  .portfolio-header {
+    margin: 6rem 0 10rem;
+  }
+}
 
 .portfolio {
-    padding: 8rem 0 4rem 0;
+    padding: 0 0 3.4rem 0;
 }
 
 @media (min-width: 768px) {
     .portfolio {
-        padding: 8rem 0;
+        padding: 3rem 0 6rem 0;
     }
 }
-
-.portfolio h2 {
-    font-size: 36px;
-    color: #282828;
-    font-weight: 300;
-    margin-bottom: 2rem;
-}
-
 .ww-paragraph {
   border-color: #5F97E9;
   margin-bottom: 6rem;
@@ -76,60 +87,175 @@
 
 .project-description {
   min-height: 0;
-  /*margin-bottom: 0;*/
+  margin: 0;
 }
-
-/*.project-description p {
-  margin-bottom: 6rem;
-}*/
 
 @media (min-width: 768px) {
     .project-description {
       padding: 0 6rem;
-      min-height: 0;
-      margin-bottom: 3rem;
     }
+}
+
+/*@media (min-width: 992px) {
+    .project-description {
+      padding: 0 0 6rem;
+    }
+}*/
+
+
+.project-description h3 {
+    font-size: 1.8rem!important;
+    color: #282828!important;
+    font-weight: 700!important;
+    margin: 2rem 0!important;
+}
+/*.project-description img {
+    width: 100%;
+    overflow: hidden;
+    height: 50%;
+    max-height: 100%;
+}*/
+
+.halfie {
+  padding: 0;
+}
+
+.halfie .row {
+  margin: 0;
+}
+
+.halfie .half-image {
+  height: 300px;
+}
+
+.halfie .half-image.flex-first {
+  order: 1;
+}
+
+@media (min-width: 576px) {
+  .halfie .half-image {
+    /*display: flex;*/
+    height: 300px;
+    margin-bottom: 3rem;
+  }
+}
+
+/*@media (min-width: 576px) {
+  .halfie .half-image.flex-first {
+    order: 1;
+  }
+}*/
+
+.halfie .text-container {
+  padding: 0 3rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .halfie .text-container {
+    padding: 3rem 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .halfie .text-container {
+    padding: 0 10rem;
+  }
+}
+
+.halfie #map {
+  background: url('/images/portfolio-journey-map.png') no-repeat;
+  background-size: 90%;
+  background-position: right center;
+    /*display: flex;*/
+    /*height: 300px;*/
+    order: -1;
+}
+
+/*@media (min-width: 992px) {
+  .halfie #map {
+      height: 760px;
+  }
+}*/
+
+@media (min-width: 768px) {
+  .halfie #map {
+    /*background-position: center;*/
+    height: 760px;
+  }
+}
+
+.halfie #bt {
+  background: url('/images/portfolio-minim-bt-screen.jpg') no-repeat;
+  background-size: cover;
+  /*height: 760px;*/
+    /*display: none;*/
+}
+
+
+
+@media (min-width: 768px) {
+  .halfie #bt {
+    height: 760px;
+    margin-bottom: 0;
+    order: -1;
+  }
+}
+
+@media (min-width: 768px) {
+  .halfie #moms {
+    height: 760px;
+  }
+}
+
+.halfie #moms {
+  background: url('/images/portfolio-minim-moms-screen.jpg') no-repeat;
+  background-size: cover;
+  /*height: 760px;*/
+    /*display: none;*/
+    margin-bottom: 0;
+}
+
+ .halves h2,
+ .halfie h2
+ {
+    font-size: 3.4rem!important;
+    color: #282828!important;
+    font-weight: 300!important;
+    margin: 2rem 0!important;
+}
+
+/*@media (min-width: 992px) {
+  .project-description .half-image {
+      display: flex;
+  }
+}*/
+
+
+.project-description p {
+    margin: 0 0 4rem 0;
 }
 
 @media (min-width: 992px) {
   .project-description {
-    background: url('../images/portfolio-description-eagle-bgd.png') no-repeat;
-    background-position: right 60px;;
-    /*background-size: cover;*/
-    background-size: 100%;
-    min-height: 640px;
-    /*margin-bottom: 0;*/
+    background: url('../images/portfolio-description-minim-bgd.png') no-repeat;
+    background-position: 180% top;
 
   }
 }
 
 @media (min-width: 1200px) {
   .project-description {
-    min-height: 900px;
-    background-size: cover;
-    /*min-height: 400px;*/
-
-  }
-}
-
-/*@media (min-width: 1200px) {
-  .project-description {
     background-position: 100% top;
     background-size: 42%;
+    /*background-size: contain;*/
+    min-height: 1303px;
   }
-}*/
-
+}
 
 @media (min-width: 768px) {
     .portfolio-image {
         background-repeat: no-repeat;
-        background-image: url('../images/eagle-carousel-placeholder.png');
-    }
-}
-
-@media (min-width: 992px) {
-    .portfolio-image{
-        min-height: 650px;
+        background-image: url('../images/songbird-carousel-placeholder.png');
     }
 }
 
@@ -232,12 +358,14 @@
 
 
 .project-service {
-  margin: 0 0 6rem;
+  margin:4rem 0;
 }
 
+
+
 .portfolio-testimonial {
-  background-color: #896BC2;
-  min-height: 620px;
+  background-color: #0CC1D3;
+  /*min-height: 620px;*/
   color: #fff;
   line-height: 4rem;
   font-size: 2.4rem;

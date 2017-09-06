@@ -4,8 +4,14 @@
 
 /* jumbotron */
 
+h2 {
+  color: #282828;
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
 .jumbotron {
-  background-image: linear-gradient(44deg, #FFBB00 0%, #D06B02 100%);
+  /* Rectangle: */
+background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
   margin-bottom: 0;
   position: relative;
 }
@@ -35,8 +41,17 @@
 }
 
 .jumbotron-logo-project {
-    width: 178px;
-    left: 3rem;
+    width: 225px;
+}
+
+@media (min-width: 992px) {
+    .jumbotron-logo-project {
+    right: 0;
+}
+}
+
+.jumbotron-padding .home-carousel-header-arrow {
+  margin-left: 22%;
 }
 
 /* portfolio */
@@ -51,6 +66,22 @@
     }
 }
 
+.portfolio-header {
+  margin: 3rem 0 3rem;
+}
+
+/*@media (min-width: 768px) {
+  .portfolio-header {
+    margin: 3rem 0 10rem;
+  }
+}*/
+
+@media (min-width: 992px) {
+  .portfolio-header {
+    margin: 3rem 0 10rem;
+  }
+}
+
 .ww-paragraph {
   border-color: #5F97E9;
   margin-bottom: 6rem;
@@ -62,8 +93,14 @@
 
 .project-description {
   min-height: 0;
+  margin: 0 0 6rem 0;
 }
 
+@media (min-width: 576px) {
+    .project-description {
+      margin: 0 0 2rem 0;
+    }
+}
 @media (min-width: 768px) {
     .project-description {
       padding: 0 6rem;
@@ -71,23 +108,181 @@
 }
 
 @media (min-width: 992px) {
-    .project-description {
-      padding: 6rem;
-    }
+  .project-description {
+    /*padding: 0 6rem 6rem;*/
+    background: url('../images/portfolio-description-scribe-bgd-2x.jpg') no-repeat;
+    background-position: right top;
+    background-size: 45%;
+    margin: 6rem 0 0;
+  }
+}
+@media (min-width: 1200px) {
+  .project-description {
+    background-size: 45%;
+  }
 }
 
 @media (min-width: 992px) {
-  .project-description {
-    background: url('../images/portfolio-description-icovia-bgd.png') no-repeat;
-    background-position: 180% top;
+  .project-description#description-2 {
+    padding: 0 6rem 6rem;
+    background: url('../images/portfolio-description-scribe-bgd-2-2x.png') no-repeat;
+    background-size: 45%;
+    background-position: right top;
+    min-height: 568px;
+  }
+}
+
+.halfie {
+  padding: 0;
+}
+
+.halfie .row {
+  margin: 0;
+}
+
+.halfie .half-image {
+  height: 300px;
+}
+
+.halfie .half-image.flex-first {
+  order: 1;
+}
+
+@media (min-width: 576px) {
+  .halfie .half-image {
+    /*display: flex;*/
+    height: 300px;
+    margin-bottom: 3rem;
+  }
+}
+
+.text-container {
+  padding: 3rem;
+}
+
+@media (min-width: 768px) {
+  .text-container {
+    padding: 3rem 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .text-container {
+    padding: 0 10rem;
+  }
+}
+
+#code-support h2 {
+  color: #fff;
+
+  }
+
+#code-support .half-image {
+  background: url('/images/portfolio-scribe-code-support-2x.jpg') no-repeat;
+  background-position: left top;
+  /*background-size: contain;*/
+  /*height: 700px;*/
+    /*display: none;*/
+    margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+  #code-support .half-image {
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  #code-support .half-image {
+    /*background-size: contain;*/
+    background-position: left top;
+    min-height: 700px;
+  }
+}
+
+@media (min-width: 992px) {
+  #code-support .half-image {
+    min-height: 700px;
   }
 }
 
 @media (min-width: 1200px) {
-  .project-description {
-    background-position: 100% top;
-    background-size: 42%;
+  #code-support .half-image {
+    background-size: cover;
+    min-height: 500px;
   }
+}
+
+#code-support .text-container {
+  background-color: #1E2128!important;
+  color: #C3C3C3;
+}
+
+@media (min-width: 576px) {
+  #code-support .text-container {
+    padding: 3rem;
+  }
+}
+
+#design-excellence .half-image {
+  background: url('/images/portfolio-scribe-design-excellence-2x.png') no-repeat;
+  background-position: center top;
+  background-size: contain;
+    margin-bottom: 0;
+    /*min-height: 503px;*/
+    background-size: 90%;
+}
+
+@media (min-width: 576px) {
+  #design-excellence .half-image {
+    background-size: 80%;
+    background-position: center top;
+    min-height: 303px;
+  }
+}
+
+@media (min-width: 768px) {
+  #design-excellence .half-image {
+    background-position: center center;
+  }
+}
+
+@media (min-width: 992px) {
+  #design-excellence .half-image {
+    background-size: 90%;
+    background-position: left 6rem;
+    min-height: 503px;
+  }
+}
+@media (min-width: 1200px) {
+  #design-excellence .half-image {
+    min-height: 560px;
+  }
+}
+
+/*#design-excellence .text-container {
+  padding: 3rem 3rem 0;
+}*/
+
+@media (min-width: 576px) {
+  #design-excellence .text-container   {
+    padding: 6rem;
+  }
+}
+/*
+@media (min-width: 768px) {
+  #design-excellence .half-image {
+    background-size: contain;
+    background-position: left top;
+    min-height: 700px;
+  }
+}*/
+
+.project-description h2 {
+  font-size: 3.4rem!important;
+  color: #282828!important;
+  font-weight: 300!important;
+  margin: 2rem 0!important;
 }
 
 
@@ -158,9 +353,9 @@
   margin-bottom: 1.7rem;
 }
 
-.project-more-info p {
+/*.project-more-info p {
 
-}
+}*/
 
 @media (min-width: 576px) {
   .project-more-info p {
@@ -198,4 +393,80 @@
 
 .project-service {
   margin:4rem 0;
+}
+
+.portfolio-testimonial {
+  background-color: #139CE4;
+  /*min-height: 620px;*/
+  color: #fff;
+  line-height: 4rem;
+  font-size: 2.4rem;
+  padding: 3rem 3rem;
+}
+
+@media (min-width: 768px) {
+    .portfolio-testimonial {
+        padding: 10rem 6rem;
+        width: 100%;
+        min-height: 420px;
+    }
+}
+
+.portfolio-testimonial p {
+text-align: center;
+/*margin-left: 0%;*/
+  margin: 0 auto;
+  max-width: 75%;
+}
+
+/*@media (min-width: 576px) {
+    .portfolio-testimonial p {
+        max-width: 90%;
+        text-align: center;
+        margin-left: 20%;
+    }
+}*/
+
+/*@media (min-width: 768px) {
+    .portfolio-testimonial p {
+        max-width: 50%;
+        text-align: center;
+        margin-left: 40%;
+        max-width: 80%;
+    }
+}*/
+
+/*@media (min-width: 992px) {
+    .portfolio-testimonial p {
+        max-width: 50%;
+        text-align: center;
+        margin-left: 40%;
+        max-width: 75%;
+    }
+}*/
+
+.portfolio-testimonial img {
+margin: 2rem 0 0 0;
+}
+
+.portfolio-testimonial p.home-carousel-testimonial-author-title {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+.ww-circle  {
+  max-width: 540px;
+  margin: 0 auto 3rem;
+}
+@media (min-width: 576px) {
+  .ww-circle  {
+    margin: 3rem auto 6rem;
+  }
+}
+
+.ww-circle div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #D8D8D8;
 }

@@ -21,7 +21,7 @@
             if ($activePage == 'eagle') echo '<link rel="stylesheet" href="css/eagle.css">';
             if ($activePage == 'philips') echo '<link rel="stylesheet" href="css/philips.css">';
             if ($activePage == 'scribe') echo '<link rel="stylesheet" href="css/scribe.css">';
-            if ($activePage == 'minum') echo '<link rel="stylesheet" href="css/minum.css">';
+            if ($activePage == 'minim') echo '<link rel="stylesheet" href="css/minim.css">';
             if ($activePage == 'icovia') echo '<link rel="stylesheet" href="css/icovia.css">';
 
 
@@ -56,8 +56,8 @@
                 case 'philips':
                   include('includes/pages/philips.php');
                   break;
-                case 'minum':
-                  include('includes/pages/minum.php');
+                case 'minim':
+                  include('includes/pages/minim.php');
                   break;
                 case 'icovia':
                   include('includes/pages/icovia.php');
@@ -83,7 +83,7 @@
                     include('includes/pages/wagz.php');
                     break;
                 case 'nye':
-                    include('includes/pages/nye.php');
+                    include('includes/pages/billnye.php');
                     break;
                 case 'work':
                     include('includes/pages/work.php');

@@ -21,7 +21,7 @@
   <div class="row" id="home-headline">
     <div class="col-12">
       <h1 class="home-workwith-header-heading text-center display-1 pb-5"><a name="start">Who we like to work with</a></h1>
-      <p class="home-workwith-header-text text-center pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor feugiat posuere. Vestibulum finibus neque vitae leo semper porttitor eu vel sapien. Donec sollicitudin augue sed nulla scelerisque, id tempor</p>
+      <p class="home-workwith-header-text text-center pb-5">We've been part of big teams, small teams, and everything in-between.  Having a common appreciation and passion for thoughtful design makes for the best partnerships.</p>
     </div>
   </div>
 

@@ -5,7 +5,7 @@ $pagelist = array(
   'amadeus',
   'scribe',
   'wagz',
-  'minum',
+  'minim',
   'nye',
   'adobe',
   'philips',
