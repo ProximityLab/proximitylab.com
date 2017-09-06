@@ -62,7 +62,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-minim-white.png" alt="Minim logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="/work/minum">View work</a>
+                        <a class="work-item-button" href="/work/minim">View work</a>
                     </div>
                 </div>
             </div>
