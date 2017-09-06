@@ -92,20 +92,20 @@
     }
 }
 
-#scheduleme { background-image: url('../images/work-item-background-scheduleme.jpg'); }
-#mosaic { background-image: url('../images/work-item-background-mosaic.jpg'); }
-#icovia { background-image: url('../images/work-item-background-icovia.jpg'); }
-#songbird { background-image: url('../images/work-item-background-songbird.jpg'); }
-#eagle { background-image: url('../images/work-item-background-eagle.jpg'); }
-#solidworks { background-image: url('../images/work-item-background-solidworks.jpg'); }
-#philips { background-image: url('../images/work-item-background-philips.jpg'); }
-#adobe { background-image: url('../images/work-item-background-adobe.jpg'); }
-#minim { background-image: url('../images/work-item-background-minim.jpg'); }
-#insight { background-image: url('../images/work-item-background-insight.jpg'); }
-#scribe { background-image: url('../images/work-item-background-scribe.jpg'); }
-#nye { background-image: url('../images/work-item-background-nye.jpg'); }
-#wagz { background-image: url('../images/work-item-background-wagz.jpg'); }
-#amadeus { background-image: url('../images/work-item-background-amadeus.jpg'); }
+#scheduleme { background-image: url('/images/work-item-background-scheduleme.jpg'); }
+#mosaic { background-image: url('/images/work-item-background-mosaic.jpg'); }
+#icovia { background-image: url('/images/work-item-background-icovia.jpg'); }
+#songbird { background-image: url('/images/work-item-background-songbird.jpg'); }
+#eagle { background-image: url('/images/work-item-background-eagle.jpg'); }
+#solidworks { background-image: url('/images/work-item-background-solidworks.jpg'); }
+#philips { background-image: url('/images/work-item-background-philips.jpg'); }
+#adobe { background-image: url('/images/work-item-background-adobe.jpg'); }
+#minim { background-image: url('/images/work-item-background-minim.jpg'); }
+#insight { background-image: url('/images/work-item-background-insight.jpg'); }
+#scribe { background-image: url('/images/work-item-background-scribe.jpg'); }
+#nye { background-image: url('/images/work-item-background-nye.jpg'); }
+#wagz { background-image: url('/images/work-item-background-wagz.jpg'); }
+#amadeus { background-image: url('/images/work-item-background-amadeus.jpg'); }
 
 
 .work-item-container:hover .work-item-overlay { opacity: 0; }
@@ -136,7 +136,7 @@
 #solidworks .work-item-overlay { background-color: rgba(38, 101, 162, 1) }
 #philips .work-item-overlay { background-color: rgba(42, 124, 234, 1) }
 #scribe .work-item-overlay { background-color: rgba(215, 127, 26, 1) }
-#insight .work-item-overlay { background-color: rgba(215, 127, 26, 1) }
+#rootinsight .work-item-overlay { background-color: rgba(215, 127, 26, 1) }
 #nye .work-item-overlay { background-color: rgba(60, 161, 94, 1) }
 #wagz .work-item-overlay { background-color: rgba(87, 155, 18, 1) }
 #amadeus .work-item-overlay { background-color: rgba(205, 25, 64, 1) }
@@ -150,7 +150,7 @@
 #eagle .work-item-logo { height: 69px; }
 #solidworks .work-item-logo { height: 32px; width: 155px;}
 #philips .work-item-logo { height: 33px; width: 180px; }
-#insight .work-item-logo { height: 53px; }
+#rootinsight .work-item-logo { height: 53px; }
 #scribe .work-item-logo { height: 30px; width: 180px;}
 #nye .work-item-logo { height: 70px; }
 #minim .work-item-logo { height: 53px; }

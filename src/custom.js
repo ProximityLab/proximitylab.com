@@ -305,15 +305,6 @@ $('.ww-panels .carousel').mouseleave(function() {
   $(this).find('h3').animateCss('fadeIn');
 });
 
-// $('img').each(function (img_tag) {
-//         if (/.*\.gif/.test(img_tag.src)) {
-//             var rub = new SuperGif({ gif: img_tag, loop_mode: false } );
-//             rub.load(function(){
-//                 console.log('oh hey, now the gif is loaded');
-//             });
-//         }
-//     });
-
 // var nav = $('.primary-nav-holder');
 
 // Select all links with hashes

@@ -5,7 +5,7 @@ $pagelist = array(
   'amadeus',
   'scribe',
   'wagz',
-  'minum',
+  'minim',
   'nye',
   'adobe',
   'philips',
@@ -29,14 +29,14 @@ foreach ($pagelist as $key => $value) {
   }
 }
 
-if ($currentpagenum < $listamount - 1){
+if (!empty($currentpagenum) && $currentpagenum < $listamount - 1){
   $next = $pagelist[$currentpagenum + 1];
 }
 else {
   $next = $pagelist[0];
 }
 
-if ($currentpagenum > 0){
+if (!empty($currentpagenum) && $currentpagenum > 0){
   $previous = $pagelist[$currentpagenum - 1];
   echo $pagelist[$currentpagenum -1];
 }
@@ -54,10 +54,10 @@ else {
 	<nav class="page-navigation">
 		<a href="/" id="pl-nav-logo"class="site-title-r">Proximity Lab</a>
 		<ul>
-			<li><a class="page-navigation-link<?php if ($activePage == 'about') echo ' page-navigation-link-active'; ?>" href="?page=about">About</a></li>
-			<li><a class="page-navigation-link<?php if ($activePage == 'work') echo ' page-navigation-link-active'; ?>" href="?page=work">Work</a></li>
-			<li><a href="?page=<?php echo $previous; ?>" class="jumbotron-left" alt="Previous project"></a></li>
-			<li><a href="?page=<?php echo $next; ?>" class="jumbotron-right" alt="Next project"></a></li>
+			<li><a class="page-navigation-link<?php if ($activePage == 'about') echo ' page-navigation-link-active'; ?>" href="/about">About</a></li>
+			<li><a class="page-navigation-link<?php if ($activePage == 'work') echo ' page-navigation-link-active'; ?>" href="/work">Work</a></li>
+			<li><a href="/work/<?php echo $previous; ?>" class="jumbotron-left" alt="Previous project"></a></li>
+			<li><a href="/work/<?php echo $next; ?>" class="jumbotron-right" alt="Next project"></a></li>
 		</ul>
 	</nav>
 	<div class="ww-underlay"></div>

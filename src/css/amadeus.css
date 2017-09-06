@@ -126,7 +126,7 @@
 
 @media (min-width: 992px) {
   .project-description {
-    background: url('../images/portfolio-description-bgd-map.png') no-repeat;
+    background: url('/images/portfolio-description-bgd-map.png') no-repeat;
     background-position: 140% top;
   }
 }

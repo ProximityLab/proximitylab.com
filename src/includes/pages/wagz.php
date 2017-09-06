@@ -3,10 +3,10 @@
         <div class="row">
 
             <div class="col-lg-4 jumbotron-padding">
-              <img class="jumbotron-logo-project jumbotron-project-logo my-4 my-xl-5" src="images/logo-wagz-green.png" alt="Amadeus logo">
+              <img class="jumbotron-logo-project jumbotron-project-logo my-4 my-xl-5" src="/images/logo-wagz-green.png" alt="Amadeus logo">
               <a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-8 jumbotron-padding"><img class="img-fluid mt-5" src="images/iphone-mockup-wagz.png" alt="Amadeus website mockup"></div>
+            <div class="col-lg-8 jumbotron-padding"><img class="img-fluid mt-5" src="/images/iphone-mockup-wagz.png" alt="Amadeus website mockup"></div>
         </div><!-- row -->
         <!-- <div class="row"><a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a></div> -->
     </div><!-- container -->
@@ -46,7 +46,7 @@
   <div class="row">
     <div>
         <p>"The Wagz team was blown away by the work by Proximity Lab. While we were originally looking for a UX/UI partner to help improve an app we had in mind to accompany our collar, we ended up with a comprehensive design partner. We couldn’t be happier with the result of our collaboration on this ambitious project."
-          <br /><img class="home-carousel-testimonial-author d-none d-sm-inline-block" src="images/profile_terry_anderton.png" alt="Testimonial author"></p>
+          <br /><img class="home-carousel-testimonial-author d-none d-sm-inline-block" src="/images/profile_terry_anderton.png" alt="Testimonial author"></p>
       <p class="home-carousel-testimonial-author-title">
           <b>Shawn McGowen</b>, CEO Scribe</p>
     </div>
