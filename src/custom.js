@@ -29,40 +29,48 @@
 $(document).ready(function(){
 
 	// Header Scroll State
-
+	
 	$(document).scroll(function() {
-
-		var $header = $('#home-carousel-header .ww-underlay');
-
+		
+		var $headerContainer = $('.primary-nav-holder');
+		
+		var $headerNav = $('.primary-nav-holder .page-navigation');
+		
+		var $headerPanel = $('.primary-nav-holder .ww-underlay');
+		
 		var scroll = $(document).scrollTop();
 
-		if (scroll > 50) {
-
-			$header.addClass("scrolled");
-
+		if (scroll > 0) {
+			
+			$headerContainer.addClass("headerScrolledUp");
+			$headerNav.addClass("scrolled");
+			$headerPanel.addClass("scrolled");
+			
 		} else {
-
-			$header.removeClass("scrolled");
-
+			
+			$headerContainer.removeClass("headerScrolledUp");
+			$headerNav.removeClass("scrolled");
+			$headerPanel.removeClass("scrolled");
+			
 		}
-
+		
 	});
-
+	
 });
 
-// Work items for Mobile
-
+// Work items for Mobile	
+	
 $(".work-item-overlay").click(function(){
-
+	
 	if ($(window).width() < 768) {
-
+		
 		$('.work-item-container').removeClass('active');
 		$(this).parent().addClass('active');
-
+		
 	} else {
-
+		
 		$('.work-item-container').removeClass('active');
-
+		
 	}
 });
 
@@ -99,6 +107,8 @@ else {
 
 function setWays(){
 
+var $headerContainer = $('.primary-nav-holder');
+
 var waypointDown = new Waypoint({
   element: document.getElementById("waypoint"),
   // direction: 'down',
@@ -106,15 +116,10 @@ var waypointDown = new Waypoint({
   handler: function(direction) {
     if(direction === 'down')
     {
-              $('.ww-underlay').addClass('active');
-              $('.page-navigation').find('ul').removeClass();
-              $('.page-navigation').find('ul').addClass('animated slideOutRight');
-              // console.log('Scrolled to waypoint!' + direction);
+    	$headerContainer.addClass("headerScrolledDown");
     }
   }
 });
-
-
 
 var waypointUp = new Waypoint({
   element: document.getElementById("waypoint"),
@@ -123,10 +128,7 @@ var waypointUp = new Waypoint({
   handler: function(direction) {
     if(direction === 'up')
     {
-        $('.ww-underlay').removeClass('active');
-        $('.page-navigation').find('ul').removeClass();
-        $('.page-navigation').find('ul').addClass('animated slideInRight');
-        // console.log('Scrolled to waypoint!' + direction);
+    	$headerContainer.removeClass("headerScrolledDown");
     }
   }
 });
