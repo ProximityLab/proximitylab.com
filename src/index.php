@@ -13,22 +13,22 @@
         <link rel="stylesheet" href="/css/main.css">
         <?php
             if (empty($activePage)) echo '<link rel="stylesheet" href="/css/home.css">';
-            if ($activePage == 'solidworks') echo '<link rel="stylesheet" href="/css/solidworks.css">';
-            if ($activePage == 'mosaic') echo '<link rel="stylesheet" href="/css/mosaic.css">';
-            if ($activePage == 'rootinsight') echo '<link rel="stylesheet" href="/css/rootinsight.css">';
-            if ($activePage == 'adobe') echo '<link rel="stylesheet" href="/css/adobe.css">';
-            if ($activePage == 'eagle') echo '<link rel="stylesheet" href="/css/eagle.css">';
-            if ($activePage == 'philips') echo '<link rel="stylesheet" href="/css/philips.css">';
-            if ($activePage == 'scribe') echo '<link rel="stylesheet" href="/css/scribe.css">';
-            if ($activePage == 'minim') echo '<link rel="stylesheet" href="/css/minim.css">';
-            if ($activePage == 'icovia') echo '<link rel="stylesheet" href="/css/icovia.css">';
-            if ($activePage == 'scheduleme') echo '<link rel="stylesheet" href="/css/scheduleme.css">';
-            if ($activePage == 'songbird') echo '<link rel="stylesheet" href="/css/songbird.css">';
-            if ($activePage == 'about') echo '<link rel="stylesheet" href="/css/about.css">';
-            if ($activePage == 'work') echo '<link rel="stylesheet" href="/css/work.css">';
-            if ($activePage == 'billnye') echo '<link rel="stylesheet" href="/css/nye.css">';
-            if ($activePage == 'wagz') echo '<link rel="stylesheet" href="/css/wagz.css">';
-            if ($activePage == 'amadeus') echo '<link rel="stylesheet" href="/css/amadeus.css">';
+            if ($activePage == '/work/solidworks') echo '<link rel="stylesheet" href="/css/solidworks.css">';
+            if ($activePage == '/work/mosaic') echo '<link rel="stylesheet" href="/css/mosaic.css">';
+            if ($activePage == '/work/rootinsight') echo '<link rel="stylesheet" href="/css/rootinsight.css">';
+            if ($activePage == '/work/adobe') echo '<link rel="stylesheet" href="/css/adobe.css">';
+            if ($activePage == '/work/eagle') echo '<link rel="stylesheet" href="/css/eagle.css">';
+            if ($activePage == '/work/philips') echo '<link rel="stylesheet" href="/css/philips.css">';
+            if ($activePage == '/work/scribe') echo '<link rel="stylesheet" href="/css/scribe.css">';
+            if ($activePage == '/work/minim') echo '<link rel="stylesheet" href="/css/minim.css">';
+            if ($activePage == '/work/icovia') echo '<link rel="stylesheet" href="/css/icovia.css">';
+            if ($activePage == '/work/scheduleme') echo '<link rel="stylesheet" href="/css/scheduleme.css">';
+            if ($activePage == '/work/songbird') echo '<link rel="stylesheet" href="/css/songbird.css">';
+            if ($activePage == '/about') echo '<link rel="stylesheet" href="/css/about.css">';
+            if ($activePage == '/work') echo '<link rel="stylesheet" href="/css/work.css">';
+            if ($activePage == '/work/billnye') echo '<link rel="stylesheet" href="/css/nye.css">';
+            if ($activePage == '/work/wagz') echo '<link rel="stylesheet" href="/css/wagz.css">';
+            if ($activePage == '/work/amadeus') echo '<link rel="stylesheet" href="/css/amadeus.css">';
         ?>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -42,58 +42,60 @@
         </script>
     </head>
     <body id="waypoint" class="animated fadeIn">
+      <?= empty($activePage); ?>
       <?php include('includes/navigation.php'); ?>
         <?php
             switch ($activePage) {
-                case 'solidworks':
+                case '/work/solidworks':
                   include('includes/pages/solidworks.php');
                   break;
-                case 'mosaic':
+                case '/work/mosaic':
                   include('includes/pages/mosaic.php');
                   break;
-                case 'rootinsight':
+                case '/work/rootinsight':
                   include('includes/pages/rootinsight.php');
                   break;
-                case 'adobe':
+                case '/work/adobe':
                   include('includes/pages/adobe.php');
                   break;
-                case 'eagle':
+                case '/work/eagle':
                   include('includes/pages/eagle.php');
                   break;
-                case 'philips':
+                case '/work/philips':
                   include('includes/pages/philips.php');
                   break;
-                case 'minim':
+                case '/work/minim':
                   include('includes/pages/minim.php');
                   break;
-                case 'icovia':
+                case '/work/icovia':
                   include('includes/pages/icovia.php');
                   break;
-                  case 'scribe':
-                    include('includes/pages/scribe.php');
-                    break;case 'scheduleme':
+                case '/work/scribe':
+                  include('includes/pages/scribe.php');
+                  break;
+                case '/work/scheduleme':
                   include('includes/pages/scheduleme.php');
                   break;
-                case 'songbird':
+                case '/work/songbird':
                   include('includes/pages/songbird.php');
                   break;
-                case 'amadeus':
-                    include('includes/pages/amadeus.php');
-                    break;
-                case 'wagz':
-                    include('includes/pages/wagz.php');
-                    break;
-                case 'billnye':
-                    include('includes/pages/billnye.php');
-                    break;
-                case 'work':
-                    include('includes/pages/work.php');
-                    break;
-                case 'about':
-                    include('includes/pages/about.php');
-                    break;
+                case '/work/amadeus':
+                  include('includes/pages/amadeus.php');
+                  break;
+                case '/work/wagz':
+                  include('includes/pages/wagz.php');
+                  break;
+                case '/work/billnye':
+                  include('includes/pages/billnye.php');
+                  break;
+                case '/work':
+                  include('includes/pages/work.php');
+                  break;
+                case '/about':
+                  include('includes/pages/about.php');
+                  break;
                 default:
-                    include('includes/pages/home.php');
+                  include('includes/pages/home.php');
             }
         ?>
 

@@ -1,20 +1,20 @@
 <?php
 
 $pagelist = array(
-  'rootinsight',
-  'amadeus',
-  'scribe',
-  'wagz',
-  'minim',
-  'nye',
-  'adobe',
-  'philips',
-  'eagle',
-  'solidworks',
-  'songbird',
-  'icovia',
-  'mosaic',
-  'scheduleme'
+  '/work/rootinsight',
+  '/work/amadeus',
+  '/work/scribe',
+  '/work/wagz',
+  '/work/minim',
+  '/work/billnye',
+  '/work/adobe',
+  '/work/philips',
+  '/work/eagle',
+  '/work/solidworks',
+  '/work/songbird',
+  '/work/icovia',
+  '/work/mosaic',
+  '/work/scheduleme'
 );
 
 $previous;
@@ -54,10 +54,10 @@ else {
 	<nav class="page-navigation">
 		<a href="/" id="pl-nav-logo"class="site-title-r">Proximity Lab</a>
 		<ul>
-			<li><a class="page-navigation-link<?php if ($activePage == 'about') echo ' page-navigation-link-active'; ?>" href="/about">About</a></li>
-			<li><a class="page-navigation-link<?php if ($activePage == 'work') echo ' page-navigation-link-active'; ?>" href="/work">Work</a></li>
-			<li><a href="/work/<?php echo $previous; ?>" class="jumbotron-left" alt="Previous project"></a></li>
-			<li><a href="/work/<?php echo $next; ?>" class="jumbotron-right" alt="Next project"></a></li>
+			<li><a class="page-navigation-link<?php if ($activePage == '/about') echo ' page-navigation-link-active'; ?>" href="?page=/about">About</a></li>
+			<li><a class="page-navigation-link<?php if ($activePage == '/work') echo ' page-navigation-link-active'; ?>" href="?page=/work">Work</a></li>
+			<li><a href="?page=<?php echo $previous; ?>" class="jumbotron-left" alt="Previous project"></a></li>
+			<li><a href="?page=<?php echo $next; ?>" class="jumbotron-right" alt="Next project"></a></li>
 		</ul>
 	</nav>
 	<div class="ww-underlay"></div>
