@@ -38,7 +38,6 @@ else {
 
 if (!empty($currentpagenum) && $currentpagenum > 0){
   $previous = $pagelist[$currentpagenum - 1];
-  echo $pagelist[$currentpagenum -1];
 }
 else {
   $previous = $pagelist[$listamount - 1];

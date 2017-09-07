@@ -9,7 +9,8 @@ var gulp = require('gulp'),
     autoprefixer = require('autoprefixer'),
     cssMqpacker = require('css-mqpacker'),
     newer = require('gulp-newer'),
-    dest = require('gulp-dest');
+    dest = require('gulp-dest'),
+    modRewrite = require('connect-modrewrite');
 
       // folders
       folder = {

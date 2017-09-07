@@ -1,5 +1,20 @@
 <?php
     $activePage = !empty($_GET['page']) ? trim($_GET['page']) : '';
+
+    if ($activePage === 'work') {
+      $bodyclass = 'ww-work';
+    }
+    else if($activePage === '' || $activePage === 'home')
+    {
+      $bodyclass = 'home';
+    }
+    else if($activePage === 'about')
+    {
+      $bodyclass = 'about';
+    }
+    else {
+      $bodyclass = 'ww-portfolio';
+    }
 ?>
 <!doctype html>
 <html lang="en">
@@ -41,8 +56,7 @@
 
         </script>
     </head>
-    <body id="waypoint" class="animated fadeIn">
-      <?= empty($activePage); ?>
+    <body id="waypoint" class="animated fadeIn <?php echo $bodyclass ?>">
       <?php include('includes/navigation.php'); ?>
         <?php
             switch ($activePage) {
