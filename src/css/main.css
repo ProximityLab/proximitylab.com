@@ -256,35 +256,35 @@ a[name=start] {
     height: 100%;
     background: rgba(30,33,40,0.0);
     z-index: -1;
-
+		
 	-webkit-transition: margin .5s ease-out;
   	     -o-transition: margin .5s ease-out;
     	    transition: margin .5s ease-out;
 }
 
 .ww-underlay.scrolled {
-
+	
 	background: rgba(30,33,40,0.9);
-
+	
 }
 
 .headerScrolledDown .ww-underlay.scrolled {
-
+		
 	-webkit-transition: margin .3s ease-out .2s, background .1s ease-out .4s;
   	     -o-transition: margin .3s ease-out .2s, background .1s ease-out .4s;
     	    transition: margin .3s ease-out .2s, background .1s ease-out .4s;
-
+	
 }
 
 .headerScrolledDown .ww-underlay.scrolled {
-
+	
 }
 
 /* header - chevrons */
-
+	
 .jumbotron-left, .jumbotron-right {
 	margin: -5px 0;
-    text-indent: -9999px;
+    text-indent: -9999;
     width: 2.3rem;
     height: 2.3rem;
     display: none;
@@ -330,7 +330,7 @@ a[name=start] {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-
+		
 	-webkit-transition: margin .5s ease-out .1s;
   	     -o-transition: margin .5s ease-out .1s;
     	    transition: margin .5s ease-out .1s;
@@ -356,27 +356,27 @@ a[name=start] {
 .page-navigation li a.page-navigation-link { color: white !important; opacity: 0.6; }
 
 .headerScrolledDown .page-navigation li a.page-navigation-link {
-
+		
 	-webkit-transition: all 0s ease-out 0s;
   	     -o-transition: all 0s ease-out 0s;
     	    transition: all 0s ease-out 0s;
-
+	
 }
 
 .headerScrolledUp .page-navigation li a.page-navigation-link {
-
+		
 	-webkit-transition: all .5s ease-out .5s;
   	     -o-transition: all .5s ease-out .5s;
     	    transition: all .5s ease-out .5s;
-
+	
 }
 
 .headerScrolledUp .page-navigation.scrolled li a.page-navigation-link {
-
+		
 	-webkit-transition: all 0s ease-out 0s;
   	     -o-transition: all 0s ease-out 0s;
     	    transition: all 0s ease-out 0s;
-
+	
 }
 
 .page-navigation li a.page-navigation-link:hover {
@@ -523,21 +523,21 @@ a[name=start] {
 .home .page-navigation .site-title-r {
 
 	opacity: 0.0 !important;
-
+		
 	-webkit-transition: all 0s ease-out 0s;
   	     -o-transition: all 0s ease-out 0s;
     	    transition: all 0s ease-out 0s;
-
+	
 }
 
 .home .page-navigation.scrolled .site-title-r {
-
+	
 	opacity: 1.0 !important;
-
+		
 	-webkit-transition: all .5s ease-out .5s;
   	     -o-transition: all .5s ease-out .5s;
     	    transition: all .5s ease-out .5s;
-
+	
 }
 
 /* header - home nav links */
@@ -857,3 +857,4 @@ a[name=start] {
     margin: 6rem 0 0;
 }
 }
+

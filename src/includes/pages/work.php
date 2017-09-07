@@ -14,7 +14,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-insight.png" alt="Insight logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/rootinsight">View work</a>
+                        <a class="work-item-button" href="/work/rootinsight">View work</a>
                     </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-amadeus.svg" alt="Amadeus logo">
                         <p class="work-item-text d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/amadeus">View work</a>
+                        <a class="work-item-button" href="/work/amadeus">View work</a>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-scribe.png" alt="Scribe logo">
                         <p class="work-item-text d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/scribe">View work</a>
+                        <a class="work-item-button" href="/work/scribe">View work</a>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-wagz-green.png" alt="Wagz logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/wagz">View work</a>
+                        <a class="work-item-button" href="/work/wagz">View work</a>
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-minim-white.png" alt="Minim logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/minim">View work</a>
+                        <a class="work-item-button" href="/work/minim">View work</a>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-nye.png" alt="Nye logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/billnye">View work</a>
+                        <a class="work-item-button" href="/work/billnye">View work</a>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-adobe.svg" alt="Adobe logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/adobe">View work</a>
+                        <a class="work-item-button" href="/work/adobe">View work</a>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-philips.svg" alt="Philips logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/philips">View work</a>
+                        <a class="work-item-button" href="/work/philips">View work</a>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-eagle.png" alt="Eagle logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/eagle">View work</a>
+                        <a class="work-item-button" href="/work/eagle">View work</a>
                     </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-solidworks.svg" alt="Solid Works logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/solidworks">View work</a>
+                        <a class="work-item-button" href="/work/solidworks">View work</a>
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-songbird-white.svg" alt="Songbird logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/songbird">View work</a>
+                        <a class="work-item-button" href="/work/songbird">View work</a>
                     </div>
                 </div>
             </div>
@@ -146,7 +146,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-icovia.png" alt="icovia logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/icovia">View work</a>
+                        <a class="work-item-button" href="/work/icovia">View work</a>
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-mosaic.png" alt="Mosaic logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/mosaic">View work</a>
+                        <a class="work-item-button" href="/work/mosaic">View work</a>
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-scheduleme.svg" alt="Schedule Me logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/scheduleme">View work</a>
+                        <a class="work-item-button" href="/work/scheduleme">View work</a>
                     </div>
                 </div>
             </div>
