@@ -1,14 +1,14 @@
 <?php
     $activePage = !empty($_GET['page']) ? trim($_GET['page']) : '';
 
-    if ($activePage === 'work') {
+    if ($activePage === '/work') {
       $bodyclass = 'ww-work';
     }
-    else if($activePage === '' || $activePage === 'home')
+    else if($activePage === '' || $activePage === '/home')
     {
       $bodyclass = 'home';
     }
-    else if($activePage === 'about')
+    else if($activePage === '/about')
     {
       $bodyclass = 'about';
     }

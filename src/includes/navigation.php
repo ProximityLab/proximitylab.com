@@ -51,7 +51,7 @@ else {
  ?>
  <div id="home-carousel-header" class="primary-nav-holder carousel slide home-carousel-header ">
 	<nav class="page-navigation">
-		<a href="/" id="pl-nav-logo"class="site-title-r">Proximity Lab</a>
+		<a href="/" id="pl-nav-logo" class="site-title-r">Proximity Lab</a>
 		<ul>
 			<li><a class="page-navigation-link<?php if ($activePage == '/about') echo ' page-navigation-link-active'; ?>" href="?page=/about">About</a></li>
 			<li><a class="page-navigation-link<?php if ($activePage == '/work') echo ' page-navigation-link-active'; ?>" href="?page=/work">Work</a></li>
