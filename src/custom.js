@@ -54,7 +54,11 @@ $(".form-dropdown").click(function(){
 	
 	var $form = $(this).siblings('.ww-form');
 	
-	var $otherForms = $(this).parent().siblings().children(".form-dropdown");
+	var $otherForms = $(this).parent().siblings();
+	
+	var $bigButton = $('.page-footer-button');
+	
+	$bigButton.fadeOut();
 	
 	$otherForms.slideUp();
 	
@@ -66,14 +70,17 @@ $(".form-close").click(function(){
 	
 	var $form = $('.ww-form');
 	
-	var $otherForms = $('.form-dropdown');
+	var $otherForms = $('.form-dropdown').parent();
+	
+	var $bigButton = $('.page-footer-button');
+	
+	$bigButton.fadeIn();
 	
 	$otherForms.show();
 	
 	$form.fadeOut();
 	
 });
-
 
 
 function getFileName() {
@@ -250,8 +257,7 @@ $('a[href*="#"]')
     // $this.toggleClass( 'activated' );
     $obj.stop(true,true).slideToggle();
     // $btn.hide();
-    $btn.removeClass();
-    $btn.addClass('page-footer-button animated fadeOut');
+    $btn.fadeOut();
     $("html, body").animate({ scrollTop: $(document).height() }, "slow");
   });
 
@@ -259,8 +265,7 @@ $('a[href*="#"]')
     e.preventDefault();
     $obj.stop(true,true).slideToggle();
     // $btn.show();
-    $btn.removeClass();
-    $btn.addClass('page-footer-button animated fadeIn');
+    $btn.fadeIn();
     $current_form = $(this);
   });
 

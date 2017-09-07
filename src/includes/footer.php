@@ -10,29 +10,29 @@
                   <a href="#" class="form-close" role="button">Close</a>
                   <ul>
                     <li><a href="#" id="new-business"  class="form-dropdown" role="button"><img src="/images/icon-new-business.svg" alt="New Business"> &nbsp;New Business</a>
-                      <form class=" ww-form form-new-business" action="index.html" method="post">
-                        <input type="text" name="firstname" value="Name">
-                        <input type="email" name="email" value="Email">
-                        <input type="text" value="Tell us what you need some help with">
-                        <input type="submit" value="Send">
+                      <form class="ww-form form-new-business" action="index.html" method="post">
+                        <input type="text" name="firstname" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email">
+                        <input type="text" placeholder="Tell us what you need some help with">
+                        <input class="form-submit" type="submit" value="Send">
                       </form>
                     </li>
 
                     <li><a href="#" id="say-hello" class="form-dropdown" role="button"><img src="/images/icon-say-hello.svg" alt="Say Hello">  &nbsp;Say Hello</a>
                     <form class="ww-form form-say-hello" action="index.html" method="post">
-                      <input type="text" name="firstname" value="Name">
-                      <input type="email" name="email" value="Email">
-                      <input type="text" value="Tell us what you need some help with">
-                      <input type="submit" value="Send">
+                      <input type="text" name="firstname" placeholder="Name">
+                      <input type="email" name="email" placeholder="Email">
+                      <input type="text" placeholder="Tell us what you need some help with">
+                      <input class="form-submit" type="submit" value="Send">
                     </form>
                   </li>
 
                     <li><a href="#" id="ww-careers"  class="form-dropdown" role="button"><img src="/images/icon-careers.svg" alt="Careers"> &nbsp;Careers</a>
                     <form class="ww-form form-ww-careers" action="index.html" method="post">
-                      <input type="text" name="firstname" value="Name">
-                      <input type="email" name="email" value="Email">
-                      <input type="text" value="Tell us what you need some help with">
-                      <input type="submit" value="Send">
+                      <input type="text" name="firstname" placeholder="Name">
+                      <input type="email" name="email" placeholder="Email">
+                      <input type="text" placeholder="Tell us what you need some help with">
+                      <input class="form-submit" type="submit" value="Send">
                     </form>
                   </li>
                   </ul>
