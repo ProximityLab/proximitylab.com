@@ -29,14 +29,14 @@ foreach ($pagelist as $key => $value) {
   }
 }
 
-if (!empty($currentpagenum) && $currentpagenum < $listamount - 1){
+if (isset($currentpagenum) && $currentpagenum < $listamount - 1){
   $next = $pagelist[$currentpagenum + 1];
 }
 else {
   $next = $pagelist[0];
 }
 
-if (!empty($currentpagenum) && $currentpagenum > 0){
+if (isset($currentpagenum) && $currentpagenum > 0){
   $previous = $pagelist[$currentpagenum - 1];
 }
 else {
