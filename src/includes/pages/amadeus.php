@@ -6,7 +6,7 @@
               <img class="jumbotron-logo-project" src="/images/logo-amadeus.svg" alt="Amadeus logo">
               <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-6"><img class="img-fluid" src="/images/website-mockup-amadeus.png" alt="Amadeus website mockup"></div>
+            <div class="col-lg-7"><img class="img-fluid" src="/images/website-mockup-amadeus.png" alt="Amadeus website mockup"></div>
         </div><!-- row -->
         <!-- <div class="row"><a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a></div> -->
     </div><!-- container -->

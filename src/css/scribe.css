@@ -39,16 +39,41 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
         padding-right: 33px;
     }
 }*/
+/*.jumbotron-logo-project {
+    width: 241px;
+    padding-bottom: 2rem;
+    margin: auto;
+    display: block;
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .jumbotron-logo-project {
+      margin: auto 0;
+      position: absolute;
+      top:0;
+      bottom:0;
+      right: 0;
+      padding: 0;
+    }
+}*/
 
 .jumbotron-logo-project {
     width: 225px;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    display: block;
+    position: relative;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .jumbotron-logo-project {
-      margin: 0;
+      margin: auto 0;
+      position: absolute;
+      top:0;
+      bottom:0;
       right: 0;
+      padding: 0;
     }
 }
 

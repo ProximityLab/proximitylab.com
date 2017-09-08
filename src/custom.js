@@ -3,115 +3,84 @@
 $(document).ready(function(){
 
 	// Header Scroll State
-	
+
 	$(document).scroll(function() {
-		
+
 		var $headerContainer = $('.primary-nav-holder');
-		
+
 		var $headerNav = $('.primary-nav-holder .page-navigation');
-		
+
 		var $headerPanel = $('.primary-nav-holder .ww-underlay');
-		
+
 		var scroll = $(document).scrollTop();
 
 		if (scroll > 5) {
-			
+
 			$headerContainer.addClass("headerScrolledUp");
 			$headerNav.addClass("scrolled");
 			$headerPanel.addClass("scrolled");
-			
+
 		} else {
-			
+
 			$headerContainer.removeClass("headerScrolledUp");
 			$headerNav.removeClass("scrolled");
 			$headerPanel.removeClass("scrolled");
-			
+
 		}
-		
+
 	});
-	
+
 });
 
-// Work items for Mobile	
-	
+// Work items for Mobile
+
 $(".work-item-overlay").click(function(){
-	
+
 	if ($(window).width() < 768) {
-		
+
 		$('.work-item-container').removeClass('active');
 		$(this).parent().addClass('active');
-		
+
 	} else {
-		
+
 		$('.work-item-container').removeClass('active');
-		
+
 	}
 });
 
 // Footer Forms
 
 $(".form-dropdown").click(function(){
-	
+
 	var $form = $(this).siblings('.ww-form');
-	
+
 	var $otherForms = $(this).parent().siblings();
-	
+
 	var $bigButton = $('.page-footer-button');
-	
+
 	$bigButton.fadeOut();
-	
+
 	$otherForms.slideUp();
-	
+
 	$form.fadeIn();
-	
+
 });
 
 $(".form-close").click(function(){
-	
+
 	var $form = $('.ww-form');
-	
+
 	var $otherForms = $('.form-dropdown').parent();
-	
+
 	var $bigButton = $('.page-footer-button');
-	
+
 	$bigButton.fadeIn();
-	
+
 	$otherForms.show();
-	
+
 	$form.fadeOut();
-	
+
 });
-
-
-function getFileName() {
-  //this gets the full url
-  var url = document.location.href;
-  url = url.substring(url.lastIndexOf('.com/')+5);
-	var lastChar = url[url.length -1];
-	if(lastChar === "/"){
-		url = url.slice(0, -1);
-	}
-  //return
-  return url;
-  }
-
-var url = getFileName();
-
-// console.log(url+"**************");
-if (url === 'work') {
-  $('body').addClass('ww-work');
-}
-else if(url === '' || url === 'home')
-{
-  $('body').addClass('home');
-}
-else if(url === 'about')
-{
-  $('body').addClass('about');
-}
-else {
-  $('body').addClass('ww-portfolio');
-}
 
 function setWays(){
 
