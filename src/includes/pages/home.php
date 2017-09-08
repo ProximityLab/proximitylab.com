@@ -24,7 +24,7 @@
           <li data-target="#home-carousel-enterprise" data-slide-to="0" class="active"></li>
           <li data-target="#home-carousel-enterprise" data-slide-to="1"></li>
           <li data-target="#home-carousel-enterprise" data-slide-to="2"></li>
-          <li data-target="#home-carousel-enterprise" data-slide-to="3"></li>
+            <!-- <li data-target="#home-carousel-enterprise" data-slide-to="3"></li> -->
         </ol>
         <h3 class="home-workwith-item-heading">Enterprise UX</h3>
         <div class="carousel-inner" role="listbox">
@@ -32,20 +32,22 @@
             <img class="" src="/images/icon-building.svg" alt="Desktop icon">
 
           </div>
-          <div class="carousel-item">
+          <!-- <div class="carousel-item">
             <img src="/images/logo-adobe.png" alt="Proximity Lab - Project">
             <p>Teaser about the Adobe work that describes briefly what we did</p>
-            <a href="#">View Project</a>
-          </div>
+            <a href="?page=/work/adobe">View Project</a>
+          </div> -->
           <div class="carousel-item">
             <img src="/images/logo-eagle-blue.png" alt="Proximity Lab - Project">
-            <p>Teaser about the Eagle Genomics work that describes briefly what we did</p>
-            <a href="#">View Project</a>
+            <!-- <p>Teaser about the Eagle Genomics work that describes briefly what we did</p> -->
+            <br>
+            <a href="?page=/work/eagle">View Project</a>
           </div>
           <div class="carousel-item">
             <img src="/images/logo-philips-blue.png" alt="Proximity Lab - Project">
-            <p>Teaser about the Philips work that describes briefly what we did</p>
-            <a href="#">View Project</a>
+            <!-- <p>Teaser about the Philips work that describes briefly what we did</p> -->
+            <br>
+            <a href="?page=/work/philips">View Project</a>
           </div>
         </div>
       </div>
@@ -56,7 +58,7 @@
           <li data-target="#home-carousel-startups" data-slide-to="0" class="active"></li>
           <li data-target="#home-carousel-startups" data-slide-to="1"></li>
           <li data-target="#home-carousel-startups" data-slide-to="2"></li>
-          <li data-target="#home-carousel-startups" data-slide-to="3"></li>
+          <!-- <li data-target="#home-carousel-startups" data-slide-to="3"></li> -->
         </ol>
         <h3 class="home-workwith-item-heading text-center">Startups</h3>
         <div class="carousel-inner" role="listbox">
@@ -66,18 +68,20 @@
           </div>
           <div class="carousel-item">
             <img src="/images/logo-wagz-blue.png" alt="Proximity Lab - Project">
-            <p>Teaser about the Wagz work that describes briefly what we did</p>
-            <a href="#">View Project</a>
+            <!-- <p>Teaser about the Wagz work that describes briefly what we did</p> -->
+            <br>
+            <a href="?page=/work/wagz">View Project</a>
           </div>
-          <div class="carousel-item">
+          <!-- <div class="carousel-item">
             <img src="/images/logo-nye-blue.png" alt="Proximity Lab - Project">
             <p>Teaser about the Bill Nye work that describes briefly what we did</p>
-            <a href="#">View Project</a>
-          </div>
+            <a href="?page=/work/billnye">View Project</a>
+          </div> -->
           <div class="carousel-item">
             <img src="/images/logo-minim-blue.png" alt="Proximity Lab - Project">
-            <p>Teaser about the Minim work that describes briefly what we did</p>
-            <a href="#">View Project</a>
+            <!-- <p>Teaser about the Minim work that describes briefly what we did</p> -->
+            <br>
+            <a href="?page=/work/minim">View Project</a>
           </div>
         </div>
       </div>
@@ -97,18 +101,21 @@
           </div>
           <div class="carousel-item">
             <img src="/images/logo-scribe-blue.png" alt="Proximity Lab - Project">
-            <p>Teaser about the Scribe work that describes briefly what we did</p>
-            <a href="#">View Project</a>
+            <!-- <p>Teaser about the Scribe work that describes briefly what we did</p> -->
+            <br>
+            <a href="?page=/work/scribe">View Project</a>
           </div>
           <div class="carousel-item">
             <img src="/images/logo-amadeus-blue.png" alt="Proximity Lab - Project">
-            <p>Teaser about the Amadeus work that describes briefly what we did</p>
-            <a href="#">View Project</a>
+            <!-- <p>Teaser about the Amadeus work that describes briefly what we did</p> -->
+            <br>
+            <a href="?page=/work/amadeus">View Project</a>
           </div>
           <div class="carousel-item">
             <img src="/images/logo-songbird-blue.png" alt="Proximity Lab - Project">
-            <p>Teaser about the Songbird work that describes briefly what we did</p>
-            <a href="#">View Project</a>
+            <!-- <p>Teaser about the Songbird work that describes briefly what we did</p> -->
+            <br>
+            <a href="?page=/work/songbird">View Project</a>
           </div>
         </div>
       </div>
@@ -118,7 +125,6 @@
 </div>
 
 <div id="home-carousel-testimonial" class="carousel slide carousel-fade" data-ride="carousel">
-<!-- <div id="home-carousel-testimonial" class="" data-ride=""> -->
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item home-carousel-testimonial-item home-carousel-testimonial-item-one active">
       <div class="carousel-caption home-carousel-testimonial-caption">
@@ -136,7 +142,7 @@
         <img class="home-carousel-testimonial-logo d-none d-lg-inline-block" src="/images/logo-eagle-2x.png" alt="Eagle logo">
         <p class="home-carousel-testimonial-text">“Proximity Lab was an excellent UX/UI product strategy and design partner. They helped us accelerate our understanding of user journeys and user profiles, and ultimately created stunning visual designs that enabled us to demonstrate the power of our product to current and new customers.”</p>
         <img class="home-carousel-testimonial-author d-none d-sm-inline-block" src="/images/profile_ureta_vidal_2x.png" alt="Testimonial author">
-        <p class="home-carousel-testimonial-author-title"><b>Abel Ureta-Vidal</b>, CEO</p>
+        <p class="home-carousel-testimonial-author-title"><b>Abel Ureta-Vidal</b>, CEO Eagle Genomics</p>
       </div>
     </div>
 
@@ -146,7 +152,7 @@
         <img class="home-carousel-testimonial-logo d-none d-lg-inline-block" src="/images/logo-minim-white-169x60.png" alt="Minim logo">
         <p class="home-carousel-testimonial-text">“Proximity Lab is at the top of the game for user experience and design. Having worked with them on multiple occasions and projects, they have proven to be a firm that goes way beyond producing simple mock-ups. They take the time to understand the core solution a product needs to deliver.”</p>
         <img class="home-carousel-testimonial-author d-none d-sm-inline-block" src="/images/profile-jeremy-hitchcock-2x.png" alt="Testimonial author">
-        <p class="home-carousel-testimonial-author-title"><b>Jeremy Hitchcock</b>, Founder & COO</p>
+        <p class="home-carousel-testimonial-author-title"><b>Jeremy Hitchcock</b>, Founder & COO Minim</p>
       </div>
     </div>
   </div>
@@ -156,4 +162,4 @@
     <li data-target="#home-carousel-testimonial" data-slide-to="1" class="home-carousel-testimonial-indicator"></li>
     <li data-target="#home-carousel-testimonial" data-slide-to="2" class="home-carousel-testimonial-indicator"></li>
   </ol>
-</div>
+  </div>
