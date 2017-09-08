@@ -1,4 +1,4 @@
-<div class="jumbotron jumbotron-fluid ama-jumbotron">
+<div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
         <div class="row">
 
@@ -8,7 +8,6 @@
             </div>
             <div class="col-lg-7"><img class="img-fluid" src="/images/website-mockup-scribe-2x.png" alt="Scribe website mockup"></div>
         </div><!-- row -->
-        <!-- <div class="row"><a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a></div> -->
     </div><!-- container -->
 </div><!-- jumbotron -->
 
