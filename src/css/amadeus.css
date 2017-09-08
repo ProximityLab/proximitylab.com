@@ -4,25 +4,66 @@
 
 /* jumbotron */
 
-.ama-jumbotron {
-    background: linear-gradient(to bottom right, #D91B3D, #8B054A);
+.ww-portfolio .ama-jumbotron {
+  /* Rectangle: */
+background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
     margin-bottom: 0;
     position: relative;
+    padding-top: 8rem;
 }
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
     .ama-jumbotron {
         padding-left: 92px;
         padding-right: 92px;
     }
-}
+}*/
 
 .jumbotron-logo-project {
     width: 241px;
+    padding-bottom: 1rem;
+    margin: 0 auto;
 }
 
-.home-carousel-header-arrow {
-  left:40%;
+@media (min-width: 1200px) {
+    .jumbotron-logo-project {
+      margin: 0;
+      right: 0;
+    }
+}
+
+.scroll-down-arrow {
+    text-indent: -9999px;
+    width: 40px;
+    height: 20px;
+    background: url(/images/icon-arrow-bottom.svg);
+    opacity: .2;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+    display: none;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@media (min-width: 992px) {
+    .scroll-down-arrow {
+        display: block;
+        left: 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+      .scroll-down-arrow {
+          display: block;
+      }
+}
+
+
+.scroll-down-arrow:hover {
+    opacity: 1;
 }
 
 .ama-jumbotron-grid {
@@ -124,36 +165,63 @@
     color: #989898;
 }
 
+@media (min-width: 768px) {
+  .project-description {
+    padding: 0 6rem;
+  }
+}
 @media (min-width: 992px) {
   .project-description {
     background: url('/images/portfolio-description-bgd-map.png') no-repeat;
     background-position: 140% top;
+    padding: 3rem 10rem;
   }
 }
 
 @media (min-width: 1200px) {
   .project-description {
-    background-position: 100% top;
+    background-position: 110% top;
     background-size: contain;
   }
 }
 
 .project-more-info {
-  background: url('/images/portfolio_bgd_amadeus.jpg') no-repeat;
+  /*background: url('/images/portfolio_bgd_amadeus.jpg') no-repeat;
   background-size: cover;
-  background-position: center top;
+  background-position: center top;*/
   font-size: 1.5rem;
     color: #282828;
     /*padding: 0;*/
+    display: block;
+  position: relative;
+}
+
+.project-more-info:after {
+  content: "";
+  background:  url('/images/portfolio_bgd_amadeus.jpg') no-repeat;
+  background-size: cover;
+  opacity: 0.15;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (min-width: 992px) {
+.project-more-info:after {
+  opacity: 1;
+}
 }
 
 .project-more-info .top {
-  padding: 4rem 3rem 34rem;
+  padding: 3rem;
 }
 
 @media (min-width: 576px) {
   .project-more-info .top {
-    padding: 3rem 3rem 26rem;
+    padding: 3rem;
   }
 }
 

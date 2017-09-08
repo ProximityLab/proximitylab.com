@@ -59,18 +59,23 @@ a[name=start] {
     position: absolute;
     bottom: 0;
     left: 30%;
-    right: 50%}
-.portfolio .home-carousel-header-arrow {
-    margin: 3rem auto 2rem;
+    right: 50%
 }
+
+/*.portfolio .home-carousel-header-arrow {
+    margin: 3rem auto 2rem;
+}*/
+
 .home .home-carousel-header-arrow {
     position: relative;
     left: 0;
     right: 0;
 }
+
 .home-carousel-header-arrow:hover {
     opacity: 1;
 }
+
 .home header h1 {
     width: 89px;
     height: 182px;
@@ -145,12 +150,8 @@ a[name=start] {
     background-color: #fff;
     border: 1px solid #ed08d3;
 }
-.ww-panels .carousel-inner {
-	overflow: hidden !important;
-    height: 330px !important; max-height: 330px !important;
-}
 .ww-panels .carousel-item {
-    height: 330px !important; max-height: 330px !important;
+    height: 330px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -336,7 +337,7 @@ a[name=start] {
     	    transition: margin .5s ease-out .1s;
 }
 .page-navigation ul {
-    margin: 0;
+    margin-bottom: 0;
 }
 .page-navigation li {
     display: inline-block;
@@ -345,10 +346,6 @@ a[name=start] {
     color: #1e2128;
     margin-left: 30px;
 }
-@media (max-width:375px) {
-	.page-navigation li a {  margin-left: 15px; }
-}
-.page-navigation li:first-child a { margin-left: 0px; }
 .page-navigation li a:hover {
     text-decoration: none;
 }
@@ -401,11 +398,10 @@ a[name=start] {
 .page-navigation.scrolled li a.page-navigation-link { color: #1e2128 !important; }
 
 .page-navigation.scrolled li a.page-navigation-link:hover {
-	color: #1e2128 !important;
+	color: #d11481 !important;
     text-decoration: none;
     border-bottom: 1px #1e2128 solid;
 }
-
 
 .page-navigation.scrolled li a.page-navigation-link-active {
 	color: #d11481 !important;
@@ -442,19 +438,6 @@ a[name=start] {
 
 
 /* header - work nav links */
-
-/* header - home logo link */
-.page-navigation .site-title-r {
-
-	background: url(/images/logo-proximity-lab-pink-2.svg) no-repeat;
-	
-}
-
-.page-navigation.scrolled .site-title-r {
-	
-	background: url(/images/logo-proximity-lab-pink-2.svg) no-repeat;
-	
-}
 
 .ww-work .page-navigation li a.page-navigation-link { color: #1e2128 !important; }
 
@@ -703,7 +686,8 @@ a[name=start] {
 .ww-form.active {
     display: block;
 }
-.ww-portfolio-nav {
+
+/*.ww-portfolio-nav {
     height: 10rem;
 }
 .ww-portfolio .jumbotron {
@@ -719,8 +703,10 @@ a[name=start] {
     -webkit-box-ordinal-group: 0;
     -ms-flex-order: -1;
     order: -1;
-}
-}.jumbotron-padding {
+  }
+}*/
+
+.jumbotron-padding {
     text-align: center;
 }
 @media (min-width:576px) {
@@ -775,7 +761,7 @@ a[name=start] {
     line-height: 30px;
     margin: 2rem auto 0;
 }
-.portfolio-testimonial {
+/*.portfolio-testimonial {
     background: url(/images/portfolio_bgd_wagz.jpg) no-repeat;
     background-size: cover;
     background-position: 0;
@@ -808,7 +794,7 @@ a[name=start] {
     margin-left: 40%}
 }.portfolio-testimonial img {
     margin: 2rem 0 0;
-}
+}*/
 .portfolio-header {
     margin: 3rem 0;
 }

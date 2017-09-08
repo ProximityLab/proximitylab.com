@@ -127,24 +127,30 @@
 /* testimonial carousel */
 
 .home-carousel-testimonial-item {
-    height: 550px;
+    height: 475px;
 }
 
 @media (min-width: 576px) {
     .home-carousel-testimonial-item {
-        height: 800px;
+        height: 675px;
     }
 }
 
 @media (min-width: 768px) {
     .home-carousel-testimonial-item {
-        height: 700px;
+        height: 625px;
     }
 }
 
 @media (min-width: 992px) {
     .home-carousel-testimonial-item {
-        height: 900px;
+        height: 800px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-carousel-testimonial-item {
+        height: 800px;
     }
 }
 

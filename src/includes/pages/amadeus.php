@@ -2,11 +2,11 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-lg-4 jumbotron-padding">
-              <img class="jumbotron-logo-project my-4 my-xl-5" src="/images/logo-amadeus.svg" alt="Amadeus logo">
-              <a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a>
+            <div class="col-lg-3">
+              <img class="jumbotron-logo-project" src="/images/logo-amadeus.svg" alt="Amadeus logo">
+              <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-8 flex-first jumbotron-padding"><img class="img-fluid mt-5" src="/images/website-mockup-amadeus.png" alt="Amadeus website mockup"></div>
+            <div class="col-lg-6"><img class="img-fluid" src="/images/website-mockup-amadeus.png" alt="Amadeus website mockup"></div>
         </div><!-- row -->
         <!-- <div class="row"><a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a></div> -->
     </div><!-- container -->
