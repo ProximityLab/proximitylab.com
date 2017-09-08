@@ -168,7 +168,7 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
 
 .project-description-0 {
   min-height: 0;
-  margin: 0 0 6rem 0;
+  margin: 0;
 }
 
 @media (min-width: 576px) {
@@ -616,21 +616,4 @@ height: 70px;
 .portfolio-testimonial p.home-carousel-testimonial-author-title {
   font-size: 1.6rem;
   margin-top: 1rem;
-}
-
-.ww-circle  {
-  max-width: 540px;
-  margin: 0 auto 3rem;
-}
-@media (min-width: 576px) {
-  .ww-circle  {
-    margin: 3rem auto 6rem;
-  }
-}
-
-.ww-circle div {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: #D8D8D8;
 }

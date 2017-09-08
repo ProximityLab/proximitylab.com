@@ -36,8 +36,8 @@
 
 <div class="container-fluid project-description project-description-1">
   <div class="row">
-    <div class="col-12 my-5 pt-5">
-      <img src="/images/portfolio-description-scribe-bgd-2-2x.png" class="img-fluid">
+    <div class="col-12">
+      <img src="/images/portfolio-description-scribe-bgd-2-2x.png" class="img-fluid my-lg-5">
       <h2>Focused Research and  User Journies</h2>
       <p>Using a combination of market research tools and processes, our team set out to understand the existing Scribe solution - why it existed and what were most useful parts? To answer this, we worked with the internal product teams to understand the mechanics of the product and learn about specific pain points directly from customer interviews.</p>
       <p>The creation of key persona types, idealized journey maps, and key workflows helped focus on the actionable business and UI needs that required support and to help shape the product roadmap.</p>

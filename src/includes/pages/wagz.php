@@ -2,13 +2,12 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-lg-4 jumbotron-padding">
-              <img class="jumbotron-logo-project jumbotron-project-logo my-4 my-xl-5" src="/images/logo-wagz-green.png" alt="Amadeus logo">
+            <div class="col-lg-4">
+              <img class="jumbotron-logo-project jumbotron-project-logo" src="/images/logo-wagz-green-2x.png" alt="Wagz logo">
               <a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-8 jumbotron-padding"><img class="img-fluid mt-5" src="/images/iphone-mockup-wagz.png" alt="Amadeus website mockup"></div>
+            <div class="col-lg-4"><img class="img-fluid" src="/images/iphone-mockup-wagz-2x.png" alt="Wgz website mockup"></div>
         </div><!-- row -->
-        <!-- <div class="row"><a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a></div> -->
     </div><!-- container -->
 </div><!-- jumbotron -->
 
@@ -27,13 +26,12 @@
 <section class="wagz-portfolio">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6">
                 <div class="wagz-portfolio-text">
                     <p class="wagz-portfolio-paragraph">Proximity Lab worked with Wagz to help design an intuitive app / experience allowing dog owners to manage its connected dog collar. While there were other products on the market that helped dog owners monitor certain aspects of their dog’s life (location and activity), none had the range of features and capabilities that had been envisioned for the Wagz connected collar -- including an integrated HD camera to allow users to see what their dogs are seeing.</p>
-                    <p class="ww-sub-text">This powerful breadth of the capabilities combined with the requirement for absolute simplicity made for an ambitious undertaking. Our team not only created native mobile experiences, it collaborated with other teams to ensure that consumers had a simple and rewarding experience from the moment they open the box to when they used the app to monitor analytics from their dog’s activities.</p>
                 </div>
             </div>
-            <div class="col-12 col-md-6 wagz-portfolio-image"></div>
+            <div class="col-12 col-lg -6 wagz-portfolio-image"></div>
         </div>
     </div>
 </section>
@@ -44,11 +42,11 @@
 
 <div class="container-fluid portfolio-testimonial">
   <div class="row">
-    <div>
+    <div class="ww-content">
         <p>"The Wagz team was blown away by the work by Proximity Lab. While we were originally looking for a UX/UI partner to help improve an app we had in mind to accompany our collar, we ended up with a comprehensive design partner. We couldn’t be happier with the result of our collaboration on this ambitious project."
-          <br /><img class="home-carousel-testimonial-author d-none d-sm-inline-block" src="/images/profile_terry_anderton.png" alt="Testimonial author"></p>
+          <br /><img class="home-carousel-testimonial-author" src="/images/profile_terry_anderton.png" alt="Testimonial author"></p>
       <p class="home-carousel-testimonial-author-title">
-          <b>Shawn McGowen</b>, CEO Scribe</p>
+          <b>Terry Anderton</b>, Founder and CEO</p>
     </div>
   </div>
 </div>

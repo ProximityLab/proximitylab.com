@@ -24,7 +24,7 @@
 .work-header {
     position: relative;
     /*margin-top: 100px;*/
-    padding-top: 10rem;
+    padding: 10rem 3rem 0;
 }
 
 @media (min-width: 768px) {
@@ -56,11 +56,14 @@
     margin-bottom: 40px;
 }
 
-
+.ww-work .container-fluid {
+  padding: 0 4rem;
+}
 /* portfolio section */
 
 .work-item {
-    margin-bottom: 30px;
+    margin: 0 0 4rem 0;
+    padding: 0 2rem;
 }
 
 .work-item-container {

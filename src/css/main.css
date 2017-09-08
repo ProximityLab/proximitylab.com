@@ -802,18 +802,8 @@ a[name=start] {
     .portfolio-header {
     margin: 6rem 0;
 }
-}.ww-sub-text {
-    text-align: left;
-    line-height: 3rem;
-    font-size: 14px;
-    font-size: 1.4rem;
-    margin-left: 0;
-}
-@media (min-width:768px) {
-    .ww-sub-text {
-    text-align: right;
-    margin-left: 20%}
-}.project-description {
+
+.project-description {
     margin-bottom: 3rem;
 }
 .project-description p {
