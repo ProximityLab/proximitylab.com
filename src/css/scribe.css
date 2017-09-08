@@ -215,7 +215,7 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
 #code-support .half-image {
   background: url('/images/portfolio-scribe-code-support-2x.jpg') no-repeat;
   background-position: left top;
-  background-size: contain;
+  background-size: cover;
   /*height: 700px;*/
     /*display: none;*/
     margin-bottom: 0;
@@ -304,13 +304,15 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
   #design-excellence .half-image {
     background-size: 80%;
     background-position: center top;
-    min-height: 303px;
+    min-height: 375px;
   }
 }
 
 @media (min-width: 768px) {
   #design-excellence .half-image {
-    background-position: center center;
+    background-position: 0 120%;
+    background-size: contain;
+    /*min-height: 400px;*/
   }
 }
 
@@ -324,6 +326,16 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
 @media (min-width: 1200px) {
   #design-excellence .half-image {
     min-height: 560px;
+    background-position: 0 110%;
+  margin: 0 0 6rem 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #design-excellence .half-image {
+    min-height: 560px;
+    background-position: 0 100%;
+    margin: 4rem 0;
   }
 }
 
@@ -479,6 +491,32 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
   flex-flow: row;
   /*align-items: center;*/
   /*justify-content: center;*/
+}
+
+.ww-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+@media (min-width: 1440px) {
+  .ww-overlay {
+    background-color: rgba(0, 0, 0, 0);
+}
+}
+.ww-content {
+  z-index: 2;
+}
+
+@media (min-width: 1440px) {
+  .portfolio-testimonial .ww-content {
+    max-width: 50%;
+    margin: 0 0 0 50%;
+  }
 }
 
 @media (min-width: 576px) {

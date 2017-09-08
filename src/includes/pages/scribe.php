@@ -6,7 +6,7 @@
               <img class="jumbotron-logo-project" src="/images/logo-scribe-white-2x.png" alt="Scribe logo">
               <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-7"><img class="img-fluid" src="/images/website-mockup-scribe-2x.png" alt="Scribe website mockup"></div>
+            <div class="col-lg-7"><img class="img-fluid" src="/images/website-mockup-scribe.png" alt="Scribe website mockup"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
@@ -37,7 +37,7 @@
   <div class="row">
     <div class="col-12">
       <img src="/images/portfolio-description-scribe-bgd-2-2x.png" class="img-fluid my-lg-5">
-      <h2>Focused Research and  User Journies</h2>
+      <h2>Focused Research and  User Journeys</h2>
       <p>Using a combination of market research tools and processes, our team set out to understand the existing Scribe solution - why it existed and what were most useful parts? To answer this, we worked with the internal product teams to understand the mechanics of the product and learn about specific pain points directly from customer interviews.</p>
       <p>The creation of key persona types, idealized journey maps, and key workflows helped focus on the actionable business and UI needs that required support and to help shape the product roadmap.</p>
     </div>
@@ -75,7 +75,7 @@
 
 <div class="container-fluid project-services">
     <div class="row">
-      <div class="col-12 mt-5"><h2 class="text-center">Scribe has been extremely satisfied with the collaboration with Proximity Lab and has reported many impressive results</h2></div>
+      <div class="col-12"><h2 class="text-center">Scribe has been extremely satisfied with the collaboration with Proximity Lab and has reported many impressive results</h2></div>
         <div class="col-12 col-sm-4 text-center">
             <div class="project-service">
                 <img class="portfolio-service-icon" src="/images/icon-increased-usage.svg" alt="Visual Experience">
@@ -107,5 +107,6 @@
       <p class="home-carousel-testimonial-author-title">
           <strong>Shawn McGowan,</strong> CEO  Scribe</p>
     </div>
+    <div class="ww-overlay"></div>
   </div>
 </div>
