@@ -34,5 +34,8 @@
     "natives": "^1.1.0",
     "postcss": "^6.0.10",
     "sigmund": "^1.0.1"
+  },
+  "dependencies": {
+    "connect-modrewrite": "^0.10.1"
   }
 }

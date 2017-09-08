@@ -29,6 +29,10 @@ RewriteRule ^.*$ /work/scheduleme [L,R=301]
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /work_15
 RewriteRule ^.*$ /work/adobe [L,R=301]
 
+RewriteCond %{QUERY_STRING} !marker
+RewriteCond %{QUERY_STRING} page=([^&]+)
+RewriteRule ^/?(.*)$ %1? [R=302,L] 
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^/?([^/]*/)?([^/]*)/?$ /index.php?page=$2 [L]
+RewriteRule ^/?(.*)$ /index.php?marker&page=/$1 [L]
