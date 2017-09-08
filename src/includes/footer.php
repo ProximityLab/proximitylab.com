@@ -2,7 +2,7 @@
 
 if ($_POST['name'] && $_POST['email'] && $_POST['subject'] && $_POST['message']) {
   // email to send to
-  $myemail = 'info@proximity-lab.com';
+  $myemail = 'info@proximitylab.com';
 
   // name
   $name = $_POST['name'];
