@@ -246,6 +246,20 @@ a[name=start] {
 /* header - standard
 --------------------------------------------------- */
 
+/* logo */
+
+.page-navigation .site-title-r {
+
+	background: url(/images/logo-proximity-lab-pink-2.svg) no-repeat;
+	
+}
+
+.page-navigation.scrolled .site-title-r {
+	
+	background: url(/images/logo-proximity-lab-pink-2.svg) no-repeat;
+	
+}
+
 .ww-underlay {
     position: absolute;
     top: 0;
@@ -436,25 +450,29 @@ a[name=start] {
 /* header - work
 --------------------------------------------------- */
 
+/* logo */
+
+.ww-portfolio .page-navigation .site-title-r {
+
+	background: url(/images/logo-proximity-lab-white-2.svg) no-repeat;
+	
+}
+
+.ww-portfolio .page-navigation.scrolled .site-title-r {
+	
+	background: url(/images/logo-proximity-lab-pink-2.svg) no-repeat;
+	
+}
+
+
+
+
 .ww-work .ww-underlay { background: rgba(30,33,40,0.0); }
 
 .ww-work .ww-underlay.scrolled { background: rgba(30,33,40,0.9); }
 
 
 /* header - work nav links */
-
-/* header - home logo link */
-.page-navigation .site-title-r {
-
-	background: url(/images/logo-proximity-lab-pink-2.svg) no-repeat;
-	
-}
-
-.page-navigation.scrolled .site-title-r {
-	
-	background: url(/images/logo-proximity-lab-pink-2.svg) no-repeat;
-	
-}
 
 .ww-work .page-navigation li a.page-navigation-link { color: #1e2128 !important; }
 
