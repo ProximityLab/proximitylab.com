@@ -1,20 +1,20 @@
 <?php
 
 $pagelist = array(
-  '/work/rootinsight',
-  '/work/amadeus',
   '/work/scribe',
-  '/work/wagz',
+  '/work/amadeus',
   '/work/minim',
-  '/work/billnye',
-  '/work/adobe',
-  '/work/philips',
+  '/work/wagz',
   '/work/eagle',
-  '/work/solidworks',
   '/work/songbird',
-  '/work/icovia',
-  '/work/mosaic',
-  '/work/scheduleme'
+  '/work/philips',
+  '/work/scheduleme',
+  '/work/icovia'
+  // '/work/mosaic',
+  // '/work/rootinsight',
+  // '/work/billnye',
+  // '/work/adobe',
+  // '/work/solidworks',
 );
 
 $previous;
