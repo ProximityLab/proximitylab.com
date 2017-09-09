@@ -481,6 +481,7 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
 }
 
 .portfolio-testimonial {
+  background: none;
   background-color: #139CE4;
   /*min-height: 620px;*/
   color: #fff;
@@ -514,8 +515,8 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
 
 @media (min-width: 1440px) {
   .portfolio-testimonial .ww-content {
-    max-width: 50%;
-    margin: 0 0 0 50%;
+    max-width: 64%;
+    margin: 0 18% 0 18%;
   }
 }
 
