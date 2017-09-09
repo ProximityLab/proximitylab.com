@@ -125,14 +125,6 @@ $(document).ready(function() {
     interval: 20000
   });
 
-  $('#home-carousel-testimonial.carousel').on('slide.bs.carousel', function() {
-    console.log('test slide');
-  });
-
-  $('#home-carousel-testimonial.carousel').on('slid.bs.carousel', function() {
-    console.log('test slid');
-  });
-
   // Select all links with hashes
   $('a[href*="#"]')
     // Remove links that don't actually link to anything
