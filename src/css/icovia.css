@@ -4,10 +4,11 @@
 
 /* jumbotron */
 
-.jumbotron {
+.ww-portfolio .jumbotron {
   background-image: linear-gradient(44deg, #FFBB00 0%, #D06B02 100%);
   margin-bottom: 0;
   position: relative;
+  padding-top: 8rem;
 }
 
 /*.jumbotron .flex-first img {
@@ -34,10 +35,70 @@
     }
 }
 
+/*.jumbotron-logo-project {
+    width: 179px;
+    height: 53px;
+    left: 3rem;
+    margin-bottom: 2rem;
+}*/
+
 .jumbotron-logo-project {
     width: 179px;
-    /*height: 52px;*/
-    left: 3rem;
+    height: 53px;
+    /*padding-bottom: 2rem;*/
+    /*margin: auto;*/
+    display: block;
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .jumbotron-logo-project {
+      margin: auto 0;
+      position: absolute;
+      top:0;
+      bottom:0;
+      right: 0;
+      padding: 0;
+    }
+}
+
+.scroll-down-arrow {
+    text-indent: -9999px;
+    width: 40px;
+    height: 20px;
+    background: url(/images/icon-arrow-bottom.svg);
+    opacity: .2;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+    display: none;
+    position: absolute;
+    margin: auto;
+    left: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+.scroll-down-arrow:hover {
+    opacity: 1;
+}
+
+@media (min-width: 992px) {
+    .scroll-down-arrow {
+        display: block;
+        left: 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+      .scroll-down-arrow {
+          display: block;
+      }
+}
+
+@media (min-width: 1440px) {
+      .scroll-down-arrow {
+          left: 50%;
+      }
 }
 
 /* portfolio */
@@ -54,50 +115,85 @@
 
 .ww-paragraph {
   border-color: #5F97E9;
-  margin-bottom: 6rem;
+  margin: 6rem 0 6rem 2rem;
+}
+
+@media (min-width: 992px) {
+  .ww-paragraph {
+    margin: 4rem 0 4rem 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ww-paragraph {
+    margin: 6rem 0 6rem 2rem;
+  }
 }
 
 .ww-paragraph p {
   line-height: normal;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 1200px) {
+  .ww-paragraph p {
+    line-height: normal;
+    margin-bottom: 6rem;
+  }
 }
 
 .project-description {
   min-height: 0;
+  margin-bottom: 0;
+}
+
+#last-paragraph {
+  padding: 0 3rem 3rem;
+}
+
+@media (min-width: 576px) {
+    .project-description {
+      /*background: url('/images/portfolio-description-icovia-bgd-2x.png') no-repeat;
+      background-position: 100% top;
+      background-size: 50%;*/
+      padding: 0 6rem;
+      margin-bottom: 0;
+    }
 }
 
 @media (min-width: 768px) {
     .project-description {
+      /*background: url('/images/portfolio-description-icovia-bgd-2x.png') no-repeat;
+      background-position: 100% top;
+      background-size: 50%;*/
       padding: 0 6rem;
     }
 }
 
 @media (min-width: 992px) {
-    .project-description {
-      padding: 6rem;
-    }
-}
-
-@media (min-width: 992px) {
   .project-description {
-    background: url('/images/portfolio-description-icovia-bgd.png') no-repeat;
-    background-position: 180% top;
+    background: url('/images/portfolio-description-icovia-bgd-2x.png') no-repeat;
+    background-position: 100% top;
+    background-size: 50%;
+    padding: 6rem 6rem 0 6rem;
+    margin-bottom: 0;
   }
 }
 
 @media (min-width: 1200px) {
   .project-description {
-    background-position: 100% top;
+    background-position: right 75px;
     background-size: 42%;
   }
 }
 
-
-@media (min-width: 768px) {
-    .portfolio-image {
-        background-repeat: no-repeat;
-        background-image: url('/images/songbird-carousel-placeholder.png');
-    }
+@media (min-width: 1440px) {
+  .project-description {
+    background-position: 100% top;
+    background-size: contain;
+  }
 }
+
 
 .portfolio-service {
     margin: 40px 0;

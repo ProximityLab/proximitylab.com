@@ -95,20 +95,24 @@
     }
 }
 
-#scheduleme { background-image: url('/images/work-item-background-scheduleme.jpg'); }
-#mosaic { background-image: url('/images/work-item-background-mosaic.jpg'); }
-#icovia { background-image: url('/images/work-item-background-icovia.jpg'); }
-#songbird { background-image: url('/images/work-item-background-songbird.jpg'); }
-#eagle { background-image: url('/images/work-item-background-eagle.jpg'); }
-#solidworks { background-image: url('/images/work-item-background-solidworks.jpg'); }
-#philips { background-image: url('/images/work-item-background-philips.jpg'); }
-#adobe { background-image: url('/images/work-item-background-adobe.jpg'); }
-#minim { background-image: url('/images/work-item-background-minim.jpg'); }
-#rootinsight { background-image: url('/images/work-item-background-insight.jpg'); }
-#scribe { background-image: url('/images/work-item-background-scribe.jpg'); }
-#nye { background-image: url('/images/work-item-background-nye.jpg'); }
-#wagz { background-image: url('/images/work-item-background-wagz.jpg'); }
-#amadeus { background-image: url('/images/work-item-background-amadeus.jpg'); }
+
+
+
+#eagle { background-image: url('/images/work-item-background-eagle-2x.jpg'); }
+#minim { background-image: url('/images/work-item-background-minim-2x.jpg'); }
+#scribe { background-image: url('/images/work-item-background-scribe-2x.jpg'); }
+#wagz { background-image: url('/images/work-item-background-wagz-2x.jpg'); }
+#scheduleme { background-image: url('/images/work-item-background-scheduleme-2x.jpg'); }
+
+#mosaic { background-image: url('/images/work-item-background-mosaic-2x.jpg'); }
+#icovia { background-image: url('/images/work-item-background-icovia-2x.jpg'); }
+#songbird { background-image: url('/images/work-item-background-songbird-2x.jpg'); }
+#solidworks { background-image: url('/images/work-item-background-solidworks-2x.jpg'); }
+#philips { background-image: url('/images/work-item-background-philips-2x.jpg'); }
+#adobe { background-image: url('/images/work-item-background-adobe-2x.jpg'); }
+#rootinsight { background-image: url('/images/work-item-background-insight-2x.jpg'); }
+#nye { background-image: url('/images/work-item-background-nye-2x.jpg'); }
+#amadeus { background-image: url('/images/work-item-background-amadeus-2x.jpg'); }
 
 @media (min-width: 768px){
 .work-item-container:hover .work-item-overlay {
@@ -145,7 +149,7 @@
 
 #scheduleme .work-item-logo { height: 53px; }
 #mosaic .work-item-logo { height: 86px; width: 96px;}
-#icovia .work-item-logo { height: 40px; width: 136px; }
+#icovia .work-item-logo { height: 39px; }
 #songbird .work-item-logo { height: 65px; width: 180px;}
 #eagle .work-item-logo { height: 69px; }
 #solidworks .work-item-logo { height: 32px; width: 155px;}
@@ -154,9 +158,9 @@
 #scribe .work-item-logo { height: 30px; width: 180px;}
 #nye .work-item-logo { height: 70px; }
 #minim .work-item-logo { height: 53px; }
-#wagz .work-item-logo { height: 69px; }
+#wagz .work-item-logo { height: 70px; }
 #amadeus .work-item-logo { height: 21px; }
-#minim .work-item-logo { height: 40px; width: 112px; }
+#minim .work-item-logo { height: 40px;  }
 .work-item-wrapper {
     position: absolute;
     top: 50%;
