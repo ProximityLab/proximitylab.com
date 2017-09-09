@@ -333,7 +333,7 @@ a[name=start] {
 .primary-nav-holder {
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 1000;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     top: 0;
