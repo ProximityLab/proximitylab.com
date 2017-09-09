@@ -122,7 +122,7 @@ $(document).ready(function() {
   });
 
   $('#home-carousel-testimonial.carousel').carousel({
-    interval: 20000
+    interval: 45000
   });
 
   // Select all links with hashes
