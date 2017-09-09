@@ -102,12 +102,14 @@ $(document).ready(function() {
     $(this).carousel({
       interval: 4000
     });
-    $(this).carousel('next');
+    $(this).carousel(1);
     $(this).find('h3').css('top', '10%');
     $(this).find('h3').animateCss('fadeIn');
+    $(this).addClass('slide');
   });
 
   $('.ww-panels .carousel').mouseleave(function() {
+    $(this).removeClass('slide');
     // $(this).find('.carousel-indicators').animateCss('fadeOut');
     $(this).find('.carousel-indicators').css('display', 'none');
     $(this).carousel({
@@ -121,6 +123,14 @@ $(document).ready(function() {
 
   $('#home-carousel-testimonial.carousel').carousel({
     interval: 20000
+  });
+
+  $('#home-carousel-testimonial.carousel').on('slide.bs.carousel', function() {
+    console.log('test slide');
+  });
+
+  $('#home-carousel-testimonial.carousel').on('slid.bs.carousel', function() {
+    console.log('test slid');
   });
 
   // Select all links with hashes

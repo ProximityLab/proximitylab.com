@@ -7,7 +7,7 @@ include('PHPMailer/SMTP.php');
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-if ($_POST['name'] && $_POST['email'] && $_POST['subject'] && $_POST['message']) {
+if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) && isset($_POST['message'])) {
   // email to send to
   $myemail = 'server@proximitylab.com';
 
