@@ -1,0 +1,41 @@
+/**
+ * 404 page
+ */
+
+/* header section */
+
+.page404-header {
+    position: relative;
+    /*margin-top: 100px;*/
+    padding: 10rem 3rem 0;
+    min-height: 400px;
+}
+
+@media (min-width: 768px) {
+    .page404-header {
+        padding-top: 71px;
+    }
+}
+
+.page404-header-message {
+    position: absolute;
+    top: 50%;
+    height: 131px;
+    margin-top: -36px;
+    width: 100%
+}
+
+.page404-header-heading {
+    font-size: 36px;
+    font-weight: 300;
+    color: #282828;
+    margin-bottom: 16px;
+}
+
+.page404-header-text {
+    font-size: 18px;
+    color: #7C7C7C;
+    line-height: 36px;
+    max-width: 578px;
+    margin-bottom: 40px;
+}
