@@ -6,30 +6,20 @@
     clear: both;
 }
 html {
-    font-size: 62.5%}
-@media (min-width:576px) {
-    html {
-    font-size: 62.5%}
-}@media (min-width:768px) {
-    html {
-    font-size: 62.5%}
-}@media (min-width:992px) {
-    html {
-    font-size: 62.5%}
-}@media (min-width:1200px) {
-    html {
-    font-size: 62.5%}
-}body {
-    font-family: Assistant, sans-serif;
-    font-size: 18px;
-    font-size: 1.8rem;
-    line-height: 1.625rem;
-    text-rendering: optimizeLegibility;
-    font-smoothing: antialiased;
-    -webkit-font-kerning: normal;
-    font-kerning: normal;
-    color: #7c7c7c;
-    line-height: 3.6rem;
+  font-size: 62.5%
+}
+
+body {
+  font-family: Assistant, sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 1.625rem;
+  text-rendering: optimizeLegibility;
+  font-smoothing: antialiased;
+  -webkit-font-kerning: normal;
+  font-kerning: normal;
+  color: #7c7c7c;
+  line-height: 3.6rem;
 }
 a[name=start] {
     padding-top: 5rem;
@@ -251,13 +241,13 @@ a[name=start] {
 .page-navigation .site-title-r {
 
 	background: url(/images/logo-proximity-lab-pink-2.svg) no-repeat;
-	
+
 }
 
 .page-navigation.scrolled .site-title-r {
-	
+
 	background: url(/images/logo-proximity-lab-pink-2.svg) no-repeat;
-	
+
 }
 
 .ww-underlay {
@@ -270,32 +260,32 @@ a[name=start] {
     height: 100%;
     background: rgba(30,33,40,0.0);
     z-index: -1;
-		
+
 	-webkit-transition: margin .5s ease-out;
   	     -o-transition: margin .5s ease-out;
     	    transition: margin .5s ease-out;
 }
 
 .ww-underlay.scrolled {
-	
+
 	background: rgba(30,33,40,0.9);
-	
+
 }
 
 .headerScrolledDown .ww-underlay.scrolled {
-		
+
 	-webkit-transition: margin .3s ease-out .2s, background .1s ease-out .4s;
   	     -o-transition: margin .3s ease-out .2s, background .1s ease-out .4s;
     	    transition: margin .3s ease-out .2s, background .1s ease-out .4s;
-	
+
 }
 
 .headerScrolledDown .ww-underlay.scrolled {
-	
+
 }
 
 /* header - chevrons */
-	
+
 .jumbotron-left, .jumbotron-right {
 	margin: -5px 0;
     text-indent: -9999;
@@ -344,7 +334,7 @@ a[name=start] {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-		
+
 	-webkit-transition: margin .5s ease-out .1s;
   	     -o-transition: margin .5s ease-out .1s;
     	    transition: margin .5s ease-out .1s;
@@ -370,27 +360,27 @@ a[name=start] {
 .page-navigation li a.page-navigation-link { color: white !important; opacity: 0.6; }
 
 .headerScrolledDown .page-navigation li a.page-navigation-link {
-		
+
 	-webkit-transition: all 0s ease-out 0s;
   	     -o-transition: all 0s ease-out 0s;
     	    transition: all 0s ease-out 0s;
-	
+
 }
 
 .headerScrolledUp .page-navigation li a.page-navigation-link {
-		
+
 	-webkit-transition: all .5s ease-out .5s;
   	     -o-transition: all .5s ease-out .5s;
     	    transition: all .5s ease-out .5s;
-	
+
 }
 
 .headerScrolledUp .page-navigation.scrolled li a.page-navigation-link {
-		
+
 	-webkit-transition: all 0s ease-out 0s;
   	     -o-transition: all 0s ease-out 0s;
     	    transition: all 0s ease-out 0s;
-	
+
 }
 
 .page-navigation li a.page-navigation-link:hover {
@@ -455,13 +445,13 @@ a[name=start] {
 .ww-portfolio .page-navigation .site-title-r {
 
 	background: url(/images/logo-proximity-lab-white-2.svg) no-repeat;
-	
+
 }
 
 .ww-portfolio .page-navigation.scrolled .site-title-r {
-	
+
 	background: url(/images/logo-proximity-lab-pink-2.svg) no-repeat;
-	
+
 }
 
 
@@ -541,21 +531,21 @@ a[name=start] {
 .home .page-navigation .site-title-r {
 
 	opacity: 0.0 !important;
-		
+
 	-webkit-transition: all 0s ease-out 0s;
   	     -o-transition: all 0s ease-out 0s;
     	    transition: all 0s ease-out 0s;
-	
+
 }
 
 .home .page-navigation.scrolled .site-title-r {
-	
+
 	opacity: 1.0 !important;
-		
+
 	-webkit-transition: all .5s ease-out .5s;
   	     -o-transition: all .5s ease-out .5s;
     	    transition: all .5s ease-out .5s;
-	
+
 }
 
 /* header - home nav links */
@@ -659,18 +649,18 @@ a[name=start] {
 }
 .page-footer .footer-form-step ul {
     margin: 0; padding: 0; width: 100%; max-width: 540px; display: block; float: right; clear: both;
-    
+
 }
 .page-footer .footer-form-step li {
     margin: 0; padding: 0 0 15px 0; width: 100%; display: block;
-    
+
 }
 .page-footer .footer-form-step li a {
 
     color: #7c7c7c; font-size: 2.4rem;
     margin: 0; padding: 0 0 0 45px; width: 100%; height: auto !important;
     position: relative !important;
-    
+
 }
 .page-footer .footer-form-step li a img { position: absolute !important; top: 5px; left: 0px; }
 .page-footer .footer-form-step li a#say-hello img { left: 6px; }
@@ -722,7 +712,7 @@ a[name=start] {
 .ww-portfolio-nav {
     height: 10rem;
 }
-.ww-portfolio .jumbotron {
+/*.ww-portfolio .jumbotron {
     padding-top: 10rem;
 }
 .ww-portfolio .jumbotron .flex-first {
@@ -756,13 +746,15 @@ a[name=start] {
     .jumbotron-padding .home-carousel-header-arrow {
     display: block;
 }
-}.heading-primary {
+}*/
+
+.heading-primary {
     font-size: 36px;
     font-weight: 300;
     color: #282828;
     margin-bottom: 1rem;
 }
-.jumbotron-logo-project {
+/*.jumbotron-logo-project {
     margin: 2rem auto;
     width: 100%;
     position: relative;
@@ -772,7 +764,8 @@ a[name=start] {
     .jumbotron-logo-project {
     position: absolute;
     top: 40%}
-}.heading-secondary {
+}*/
+.heading-secondary {
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 5px;
@@ -791,6 +784,7 @@ a[name=start] {
     line-height: 30px;
     margin: 2rem auto 0;
 }
+/*
 .portfolio-testimonial {
     background: url(/images/portfolio_bgd_wagz.jpg) no-repeat;
     background-size: cover;
@@ -824,15 +818,18 @@ a[name=start] {
     margin-left: 40%}
 }.portfolio-testimonial img {
     margin: 2rem 0 0;
-}
+}*/
+
 .portfolio-header {
     margin: 3rem 0;
 }
 @media (min-width:768px) {
     .portfolio-header {
-    margin: 6rem 0;
+    margin: 6rem 4rem 3rem 4rem;
 }
-}.ww-sub-text {
+}
+
+.ww-sub-text {
     text-align: left;
     line-height: 3rem;
     font-size: 14px;
@@ -843,7 +840,9 @@ a[name=start] {
     .ww-sub-text {
     text-align: right;
     margin-left: 20%}
-}.project-description {
+}
+
+/*.project-description {
     margin-bottom: 3rem;
 }
 .project-description p {
@@ -857,7 +856,9 @@ a[name=start] {
     margin: 6rem 0;
     min-height: 525px;
 }
-}.ww-paragraph {
+}*/
+
+.ww-paragraph {
     padding: 0 0 0 3rem;
     border-left: 4px solid #bb203f;
     line-height: 2rem;
@@ -873,4 +874,3 @@ a[name=start] {
     margin: 6rem 0 0;
 }
 }
-

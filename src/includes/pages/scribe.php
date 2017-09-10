@@ -6,7 +6,7 @@
               <img class="jumbotron-logo-project" src="/images/logo-scribe-white-2x.png" alt="Scribe logo">
               <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-7"><img class="img-fluid" src="/images/website-mockup-scribe.png" alt="Scribe website mockup"></div>
+            <div class="col-lg-7"><img class="img-fluid" src="/images/website-mockup-scribe-2x.png" alt="Scribe website mockup"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
@@ -107,6 +107,5 @@
       <p class="home-carousel-testimonial-author-title">
           <strong>Shawn McGowan,</strong> CEO  Scribe</p>
     </div>
-    <div class="ww-overlay"></div>
   </div>
 </div>

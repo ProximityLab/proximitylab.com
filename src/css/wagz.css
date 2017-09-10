@@ -1,6 +1,6 @@
 /* jumbotron */
 
-.wagz-jumbotron {
+.ww-portfolio .jumbotron {
     background: linear-gradient(to bottom right, #4B940F, #83BA1C);
     margin-bottom: 0;
     position: relative;
@@ -16,28 +16,70 @@
 
 .jumbotron-logo-project {
     width: 199px;
-    padding-bottom: 2rem;
-    margin: auto;
     display: block;
     position: relative;
+    margin: auto;
+    padding-bottom: 2rem;
   }
 
 
 @media (min-width: 992px){
-.jumbotron-project-logo {
-    position: absolute;
+.jumbotron-logo-project {
     margin: auto 0;
-    top: 0;
-    bottom: 0;
-    right:0;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right: 0;
+    padding: 0;
   }
 }
 
+
+.scroll-down-arrow {
+    text-indent: -9999px;
+    width: 40px;
+    height: 20px;
+    background: url(/images/icon-arrow-bottom.svg);
+    opacity: .2;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+    display: none;
+    position: absolute;
+    margin: auto;
+    left: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+.scroll-down-arrow:hover {
+    opacity: 1;
+}
+
+@media (min-width: 992px) {
+    .scroll-down-arrow {
+        display: block;
+        left: 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+      .scroll-down-arrow {
+          left: 40%;
+      }
+}
+
+@media (min-width: 1440px) {
+      .scroll-down-arrow {
+          left: 60%;
+      }
+}
+
+/*
 .home-carousel-header-arrow {
-  /*left:50%;*/
+  left:50%;
   position: absolute;
   margin: 0 auto;
-  /*top: 0;*/
+  top: 0;
   bottom: 0;
   right:30%;
   left:70%;
@@ -46,8 +88,10 @@
 @media (min-width: 992px){
 .home-carousel-header-arrow {
   display: block;
+
+  left: 0;
 }
-}
+}*/
 
 /*.wagz-jumbotron-logo-site {
     width: 27px;
@@ -56,77 +100,31 @@
     left: 45px;
 }*/
 
-.wagz-jumbotron-grid {
-    position: absolute;
-    top: 39px;
-    right: 136px;
-    z-index: 3;
-}
-
-.wagz-jumbotron-left {
-    position: absolute;
-    top: 37px;
-    right: 85px;
-}
-
-.wagz-jumbotron-right {
-    position: absolute;
-    top: 37px;
-    right: 45px;
-}
-
-/*.wagz-jumbotron-heading {
-    font-size: 60px;
-    font-weight: 200;
-    line-height: 60px;
-    color: #FFFFFF;
-}*/
-
-.wagz-jumbotron-text {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
-    color: #FFFFFF;
-}
-
-.wagz-jumbotron-bottom {
-    margin-top: 51px;
-    opacity: 0.3;
-}
-
-/*.wagz-jumbotron .jumbotron-logo-project {
-  width: 199px;
-  position: absolute;
-  top: 40%;
-}*/
-
-/*.wagz-jumbotron-logo-project-text {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    color: #FFFFFF;
-}*/
-
 
 /* portfolio */
 
 .wagz-portfolio {
-    /*padding: 34px 0 0;*/
+    padding: 0 0 3rem 0;
 }
 
-/*@media (min-width: 576px) {
+@media (min-width: 576px) {
     .wagz-portfolio {
-        padding: 34px 0;
+        padding: 0 0 0 0;
     }
 }
 
+@media (min-width: 768px) {
+    .wagz-portfolio {
+        padding: 0 0 3rem 0;
+    }
+}
 @media (min-width: 992px) {
     .wagz-portfolio {
-        padding: 34px 0 34px 110px;
+        padding: 3rem 0 6rem 0;
     }
-}*/
+}
 
-.wagz-portfolio-heading-secondary {
+/*.wagz-portfolio-heading-secondary {
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 5px;
@@ -139,7 +137,7 @@
     font-weight: 300;
     color: #282828;
     margin-bottom: 32px;
-}
+}*/
 
 .wagz-portfolio-paragraph {
     font-size: 18px;

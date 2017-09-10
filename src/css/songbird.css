@@ -4,54 +4,122 @@
 
 /* jumbotron */
 
-.jumbotron {
+.ww-portfolio .jumbotron {
     background-image: linear-gradient(134deg, #29C5B3 0%, #008980 97%);
     margin-bottom: 0;
+  padding-top: 8rem;
     position: relative;
 }
 
-.jumbotron .flex-first img {
-    margin: 0 0 -2rem 0;
-}
-
-@media (min-width: 576px) {
-    .jumbotron .flex-first img {
-        margin: 0 0 -4rem 0;
-    }
-}
-
 @media (min-width: 1200px) {
-    .jumbotron {
-        padding-left: 92px;
-        padding-right: 92px;
+    .ww-portfolio .jumbotron {
+        padding-left: 25rem;
+        padding-right: 25rem;
     }
 }
 
-@media (min-width: 1200px) {
-    .jumbotron-padding {
-        padding-left: 33px;
-        padding-right: 33px;
-    }
+.ww-hero-image {
+  margin-bottom: -2rem;
+  -webkit-box-ordinal-group: 1;
+  -ms-flex-order: 0;
+  order: 0;
 }
+
+@media (min-width: 576px){
+  .ww-hero-image {
+    margin-bottom: -4rem;
+  }
+}
+
+@media (min-width: 992px){
+  .ww-hero-image {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+}
+
 
 .jumbotron-logo-project {
-    /*height: 22px;*/
-    width: 241px;
+    width: 231px;
+    height: 84px;
+    display: block;
+    padding-bottom: 2rem;
+    position: relative;
+    margin: auto;
 }
 
-.home-carousel-header-arrow {
-  left:40%;
+@media (min-width: 992px){
+.jumbotron-logo-project {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 20%;
+    padding: 0;
+  }
+}
+
+.scroll-down-arrow {
+    text-indent: -9999px;
+    width: 40px;
+    height: 20px;
+    background: url(/images/icon-arrow-bottom.svg);
+    opacity: .2;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+    display: none;
+    position: absolute;
+    margin: auto;
+    left: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+.scroll-down-arrow:hover {
+    opacity: 1;
+}
+
+@media (min-width: 992px) {
+    .scroll-down-arrow {
+        display: block;
+        left: 50%;
+    }
+}
+
+@media (min-width: 1440px) {
+      .scroll-down-arrow {
+          left: 25%;
+      }
 }
 
 /* portfolio */
 
 .portfolio {
-    padding: 0 0 3.4rem 0;
+    padding: 0 0 3rem;
 }
 
 @media (min-width: 768px) {
+  .portfolio {
+      padding: 0 3rem 6rem;
+  }
+}
+
+@media (min-width: 992px) {
     .portfolio {
-        padding: 3rem 0 6rem 0;
+        background-repeat: no-repeat;
+        background-image: url('/images/songbird-carousel-placeholder-2x.png');
+        background-size: 50%;
+        background-position: right 6rem;
+        margin: 6rem 0 6rem 0;
+    }
+}
+
+@media (min-width: 1440px) {
+    .portfolio {
+        background-size: 35%;
+        /*background-position: right 6rem;*/
     }
 }
 
@@ -74,7 +142,13 @@
 
 @media (min-width: 992px) {
     .portfolio-paragraph {
-      margin-top: 6rem
+      margin: 6rem 0 6rem 2rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .portfolio-paragraph {
+      margin: 6rem 0 6rem 6rem;
     }
 }
 
@@ -89,12 +163,6 @@
         background-image: url('/images/songbird-carousel-placeholder.png');
     }
 }*/
-@media (min-width: 768px) {
-    .portfolio-image {
-        background-repeat: no-repeat;
-        background-image: url('/images/songbird-carousel-placeholder.png');
-    }
-}
 
 .portfolio-service {
     margin: 40px 0;
@@ -112,7 +180,7 @@
 }
 
 .portfolio-service-text {
-    max-width: 292px;
+    max-width: 100%;
     margin: 0 auto;
     font-size: 16px;
     font-weight: 400;
@@ -120,13 +188,12 @@
     color: #989898;
 }
 
-/*@media (min-width: 992px) {
-  .project-description {
-    background: url('/images/portfolio-description-bgd-map.png') no-repeat;
-    background-position: 140% top;
+@media (min-width: 992px) {
+  .portfolio-service-text {
+      max-width: 325px;
   }
 }
-
+/*
 @media (min-width: 1200px) {
   .project-description {
     background-position: 100% top;
@@ -181,11 +248,11 @@
   }
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .project-more-info p {
     margin-right: 30%;
   }
-}
+}*/
 
 @media (min-width: 768px) {
   .project-more-info p {
@@ -202,13 +269,29 @@
   width: 100%;
 }
 
-.project-services {
-  /*background-color: #1B1C25;*/
-  /*margin-bottom: 0;*/
-  padding: 6rem -15px;
+.ww-portfolio .project-services {
+  padding: 3rem 3rem;
+}
+
+@media (min-width: 576px) {
+  .ww-portfolio .project-services {
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .ww-portfolio .project-services {
+    padding: 3rem 6rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .ww-portfolio .project-services {
+    padding: 6rem 3rem;
+  }
 }
 
 
-.project-service {
-  margin:4rem 0;
+.ww-portfolio .project-service {
+  margin:3rem 0;
 }

@@ -1,10 +1,10 @@
-<div class="jumbotron jumbotron-fluid wagz-jumbotron">
+<div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
         <div class="row">
 
             <div class="col-lg-4">
-              <img class="jumbotron-logo-project jumbotron-project-logo" src="/images/logo-wagz-green-2x.png" alt="Wagz logo">
-              <a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a>
+              <img class="jumbotron-logo-project" src="/images/logo-wagz-green-2x.png" alt="Wagz logo">
+              <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
             </div>
             <div class="col-lg-4"><img class="img-fluid" src="/images/iphone-mockup-wagz-2x.png" alt="Wgz website mockup"></div>
         </div><!-- row -->
@@ -26,7 +26,7 @@
 <section class="wagz-portfolio">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-5">
                 <div class="wagz-portfolio-text">
                     <p class="wagz-portfolio-paragraph">Proximity Lab worked with Wagz to help design an intuitive app / experience allowing dog owners to manage its connected dog collar. While there were other products on the market that helped dog owners monitor certain aspects of their dog’s life (location and activity), none had the range of features and capabilities that had been envisioned for the Wagz connected collar -- including an integrated HD camera to allow users to see what their dogs are seeing.</p>
                 </div>

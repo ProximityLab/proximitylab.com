@@ -11,6 +11,13 @@ background-image: linear-gradient(-134deg, #11478C 0%, #2F86FC 100%);
   padding-top: 8rem;
 }
 
+@media (min-width: 1200px) {
+    .ww-portfolio .jumbotron {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}
+
 .jumbotron-logo-project {
     width: 225px;
     padding-bottom: 2rem;

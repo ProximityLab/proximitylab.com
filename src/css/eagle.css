@@ -4,46 +4,88 @@
 
 /* jumbotron */
 
-.jumbotron {
+.ww-portfolio .jumbotron {
 
   background-image: linear-gradient(-134deg,  #5913BB 0%, #C330FB 100%);
   margin-bottom: 0;
   position: relative;
+  padding-top: 8rem;
 }
-
-/*.jumbotron .flex-first img {
-    margin: 0 0 -2.1rem 0;
-}*/
-
-/*@media (min-width: 576px) {
-    .jumbotron .flex-first img {
-        margin: 0 0 -4rem 0;
+/*
+@media (min-width: 1200px) {
+    .ww-portfolio .jumbotron {
+        padding-left: 20rem;
+        padding-right: 20rem;
     }
 }*/
 
-@media (min-width: 1200px) {
-    .jumbotron {
-        padding-left: 92px;
-        padding-right: 92px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .jumbotron-padding {
-        padding-left: 33px;
-        padding-right: 33px;
+@media (min-width: 992px) {
+    .ww-push-logo {
+      left: 8.33333333%;
     }
 }
 
 .jumbotron-logo-project {
     width: 178px;
-    /*left: 3rem;*/
+    display: block;
+    position: relative;
+    padding-bottom: 2rem;
+    margin: 0 auto;
 }
 
 @media (min-width: 992px) {
     .jumbotron-logo-project {
-        left: 3rem;
+        margin: 0 auto;
+        position: absolute;
+        top:0;
+        /*bottom:0;*/
+        right: 0;
+        left:0;
+        padding: 0;
     }
+}
+
+.ww-hero-image {
+  margin-bottom: -2rem;
+}
+
+@media (min-width: 576px){
+.ww-hero-image {
+  margin-bottom: -4.1rem;
+}
+}
+
+
+.scroll-down-arrow {
+    text-indent: -9999px;
+    width: 40px;
+    height: 20px;
+    background: url(/images/icon-arrow-bottom.svg);
+    opacity: .2;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+    display: none;
+    position: absolute;
+    margin: auto;
+    left: 10%;
+    bottom: 0;
+    /*right: 0;*/
+}
+
+.scroll-down-arrow:hover {
+    opacity: 1;
+}
+
+@media (min-width: 992px) {
+    .scroll-down-arrow {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+      .scroll-down-arrow {
+          /*left: 0;*/
+      }
 }
 
 /* portfolio */
@@ -58,12 +100,7 @@
     }
 }
 
-.portfolio h2 {
-    font-size: 36px;
-    color: #282828;
-    font-weight: 300;
-    margin-bottom: 2rem;
-}
+
 
 .ww-paragraph {
   border-color: #5F97E9;
@@ -93,21 +130,26 @@
 
 @media (min-width: 992px) {
   .project-description {
-    background: url('../images/portfolio-description-eagle-bgd.png') no-repeat;
-    background-position: right 60px;;
-    /*background-size: cover;*/
-    background-size: 100%;
-    min-height: 640px;
-    /*margin-bottom: 0;*/
+    background: url('../images/portfolio-description-eagle-bgd-2x.png') no-repeat;
+    background-position: right 20rem;
+    background-size: contain;
+    min-height: 700px;
 
   }
 }
 
 @media (min-width: 1200px) {
   .project-description {
-    min-height: 900px;
-    background-size: cover;
-    /*min-height: 400px;*/
+    min-height: 800px;
+    background-position: right 10rem;
+
+  }
+}
+
+@media (min-width: 1440px) {
+  .project-description {
+    min-height: 800px;
+    background-position: right top;
 
   }
 }
@@ -120,11 +162,11 @@
 }*/
 
 
+
 @media (min-width: 768px) {
-    .portfolio-image {
-        background-repeat: no-repeat;
-        background-image: url('/images/eagle-carousel-placeholder.png');
-    }
+  .portfolio-paragraph {
+    padding: 6rem 0 0 0;
+  }
 }
 
 .portfolio-service {
@@ -143,85 +185,38 @@
 }
 
 .portfolio-service-text {
-    max-width: 292px;
+    max-width: 325px;
     margin: 0 auto;
     font-size: 16px;
     font-weight: 400;
     line-height: 34px;
     color: #989898;
 }
-.project-more-info {
-  background: url('/images/portfolio_bgd_amadeus.jpg') no-repeat;
-  background-size: cover;
-  background-position: center top;
-  font-size: 1.5rem;
-    color: #282828;
-    /*padding: 0;*/
-}
-
-.project-more-info .top {
-  padding: 4rem 3rem 34rem;
-}
-
-@media (min-width: 576px) {
-  .project-more-info .top {
-    padding: 3rem 3rem 26rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .project-more-info .top {
-    padding: 6rem 6rem 20rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .project-more-info .top {
-    padding: 10rem 10rem 20rem;
-  }
-}
-
-.project-more-info h2 {
-  font-size: 3.4rem;
-  font-weight: 300;
-  margin-bottom: 1.7rem;
-}
-
-.project-more-info p {
-
-}
-
-@media (min-width: 576px) {
-  .project-more-info p {
-    margin-right: 0;
-  }
-}
-
-@media (min-width: 768px) {
-  .project-more-info p {
-    margin-right: 30%;
-  }
-}
-
-@media (min-width: 768px) {
-  .project-more-info p {
-    margin-right: 40%;
-  }
-}
-
-.project-more-info .bottom {
-  padding: 2rem 0 0 0;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.project-more-info .bottom .inner img {
-  width: 100%;
-}
 
 .project-services {
-  /*background-color: #1B1C25;*/
-  /*margin-bottom: 0;*/
-  padding: 6rem -15px;
+  padding: 0 3rem;
+}
+
+@media (min-width: 768px) {
+  .project-services {
+    padding: 0 6rem;
+  }
+}
+
+.project-services h2 {
+    font-size: 36px;
+    color: #282828;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.project-services p {
+  margin-bottom: 2rem;
+}
+
+.project-services .results-row {
+  padding: 2rem 0 4rem;
 }
 
 
@@ -252,32 +247,6 @@ text-align: center;
   margin: 0 auto;
   max-width: 75%;
 }
-
-/*@media (min-width: 576px) {
-    .portfolio-testimonial p {
-        max-width: 90%;
-        text-align: center;
-        margin-left: 20%;
-    }
-}*/
-
-/*@media (min-width: 768px) {
-    .portfolio-testimonial p {
-        max-width: 50%;
-        text-align: center;
-        margin-left: 40%;
-        max-width: 80%;
-    }
-}*/
-
-/*@media (min-width: 992px) {
-    .portfolio-testimonial p {
-        max-width: 50%;
-        text-align: center;
-        margin-left: 40%;
-        max-width: 75%;
-    }
-}*/
 
 .portfolio-testimonial img {
 margin: 2rem 0 0 0;

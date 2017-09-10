@@ -177,7 +177,7 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
 }
 
 .ama-portfolio-service-text {
-    max-width: 292px;
+    max-width: 100%;
     margin: 0 auto;
     font-size: 16px;
     font-weight: 400;
@@ -185,9 +185,47 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
     color: #989898;
 }
 
+@media (min-width: 992px) {
+  .ama-portfolio-service-text {
+      max-width: 350px;
+}
+}
+
+
+.ww-paragraph {
+  border-color: #BB203F;
+  margin: 6rem 0 6rem 2rem;
+}
+
+@media (min-width: 992px) {
+  .ww-paragraph {
+    margin: 4rem 0 4rem 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ww-paragraph {
+    margin: 6rem 0 6rem 2rem;
+  }
+}
+
+.ww-paragraph p {
+  line-height: normal;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 1200px) {
+  .ww-paragraph p {
+    line-height: normal;
+    margin-bottom: 6rem;
+  }
+}
+
+
 @media (min-width: 768px) {
   .project-description {
     padding: 0 6rem;
+    max-width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -297,4 +335,12 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
 .project-services {
   background-color: #1B1C25;
   margin-bottom: 0;
+  padding: 0 3rem;
+}
+
+@media (min-width: 768px) {
+  .project-services {
+    margin-bottom: 0;
+    padding: 0 6rem;
+  }
 }

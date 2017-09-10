@@ -24,27 +24,27 @@
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid about-services">
     <div class="row">
-        <div class="col-12 col-sm-6 col-md-4 text-center about-service-item">
+        <div class="col-12 col-md-4 text-center about-service-item">
             <img class="about-service-item-icon" src="/images/icon-research.svg" alt="Research icon">
             <h5 class="about-service-item-heading">Research</h5>
-            <p class="about-service-item-text">Trendscape Analysis</p>
-            <p class="about-service-item-text">Research &amp; Planning</p>
-            <p class="about-service-item-text">Journey Mapping</p>
+            <p class="about-service-item-text">Market and Competitive Research</p>
+            <p class="about-service-item-text">Customer Interviews</p>
+            <p class="about-service-item-text">Heuristic Evaluation</p>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 text-center about-service-item">
+        <div class="col-12 col-md-4 text-center about-service-item">
             <img class="about-service-item-icon" src="/images/icon-ux.svg" alt="UX icon">
             <h5 class="about-service-item-heading">UX Strategy</h5>
             <p class="about-service-item-text">Persona Development</p>
-            <p class="about-service-item-text">Storyboarding</p>
+            <p class="about-service-item-text">Journey Maps</p>
             <p class="about-service-item-text">Content Strategy</p>
         </div>
         <div class="col-12 col-md-4 text-center about-service-item">
             <img class="about-service-item-icon" src="/images/icon-design.svg" alt="Design icon">
             <h5 class="about-service-item-heading">Design &amp; Development</h5>
-            <p class="about-service-item-text">User Interface &amp; Visual Design</p>
-            <p class="about-service-item-text">Wireframe &amp; Prototyping</p>
+            <p class="about-service-item-text">Wireframes and Prototypes</p>
+            <p class="about-service-item-text">Visual Design</p>
             <p class="about-service-item-text">Front End Develpoment</p>
         </div>
     </div>

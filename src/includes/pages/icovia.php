@@ -6,7 +6,7 @@
               <img class="jumbotron-logo-project" src="/images/logo-icovia-2x.png" alt="Icovia logo">
               <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-7 w-hero-image"><img class="img-fluid" src="/images/website-mockup-icovia-2x.png" alt="Icovia website mockup"></div>
+            <div class="col-lg-7 ww-hero-image"><img class="img-fluid" src="/images/website-mockup-icovia-2x.png" alt="Icovia website mockup"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

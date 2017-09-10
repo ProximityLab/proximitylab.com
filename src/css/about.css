@@ -142,6 +142,11 @@
   }
 }*/
 
+.about-services {
+  max-width: 1200px;
+
+}
+
 .about-service-item {
   margin-bottom: 6rem;
 }

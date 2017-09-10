@@ -2,49 +2,96 @@
  * Schedule Me page
  */
 
+
+
+.ww-portfolio p {
+  margin-bottom: 4rem;
+}
 /* jumbotron */
 
-.jumbotron {
+.ww-portfolio .jumbotron {
   background-image: linear-gradient(44deg, #FFBB00 0%, #D06B02 100%);
   margin-bottom: 0;
   position: relative;
+  padding-top: 8rem;
 }
 
 @media (min-width: 1200px) {
-    .jumbotron {
-        padding-left: 92px;
-        padding-right: 92px;
-    }
-}
-
-.jumbotron .flex-first img {
-    margin: 0 0 -2.1rem 0;
-}
-
-@media (min-width: 576px) {
-    .jumbotron .flex-first img {
-        margin: 0 0 -4rem 0;
-    }
-}
-
-@media (min-width: 1200px) {
-    .jumbotron-padding {
-        padding-left: 33px;
-        padding-right: 33px;
+    .ww-portfolio .jumbotron {
+        padding-left: 20rem;
+        padding-right: 20rem;
     }
 }
 
 .jumbotron-logo-project {
-    width: 241px;
+    width: 229px;
+    display: block;
+    position: relative;
+    padding-bottom: 2rem;
+    margin: auto;
 }
 
 @media (min-width: 992px){
-.jumbotron-project-logo {
+.jumbotron-logo-project {
+    margin: auto;
     position: absolute;
-    top: 40%;
-    left:3rem;
+    top:0;
+    bottom:0;
+    right: 0;
+    left:0;
+    padding: 0;
   }
 }
+
+.ww-hero-image {
+  margin-bottom: -2.1rem;
+}
+
+@media (min-width: 576px){
+.ww-hero-image {
+  margin-bottom: -4.1rem;
+}
+}
+
+
+.scroll-down-arrow {
+    text-indent: -9999px;
+    width: 40px;
+    height: 20px;
+    background: url(/images/icon-arrow-bottom.svg);
+    opacity: .2;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+    display: none;
+    position: absolute;
+    margin: auto;
+    left: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+.scroll-down-arrow:hover {
+    opacity: 1;
+}
+
+@media (min-width: 992px) {
+    .scroll-down-arrow {
+        display: block;
+        left: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+      .scroll-down-arrow {
+          left: 0;
+      }
+}
+
+/*@media (min-width: 1440px) {
+      .scroll-down-arrow {
+          left: 0;
+      }
+}*/
 
 /* portfolio */
 
@@ -83,6 +130,7 @@
 @media (min-width: 768px) {
     .project-description {
       padding: 0 6rem;
+      margin-top: 0;
     }
 }
 
@@ -102,16 +150,15 @@
 @media (min-width: 1200px) {
   .project-description {
     background-position: 100% top;
-    background-size: contain;
+    /*background-size: contain;*/
   }
 }
 
-
-@media (min-width: 768px) {
-    .portfolio-image {
-        background-repeat: no-repeat;
-        background-image: url('/images/songbird-carousel-placeholder.png');
-    }
+@media (min-width: 1440px) {
+  .project-description {
+    background-size: 45%;
+    min-height: 800px;
+  }
 }
 
 .portfolio-service {

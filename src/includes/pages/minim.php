@@ -36,24 +36,24 @@
 
 <div class="container-fluid halfie">
     <div id="map" class="row">
-      <div class="col-md-6 half-image flex-first"></div>
-      <div class="col-md-6 d-flex flex-column flex-first text-container">
+      <div class="col-lg-6 half-image flex-first"></div>
+      <div class="col-lg-6 d-flex flex-column flex-first text-container">
         <h2>Persona & journey map development</h2>
         <p>Understanding who would be using Minim was the most important step in designing the appropriate experiences. On the consumer side, we identified a user with only the most basic technical knowledge, but who would be able to plug in and configure the Minim solution. ISPs have dedicated support teams, but most don’t have tools designed that give a holistic view of the network with the ability to drill down into individual home networks to identify problematic devices and configurations. For both of these personas we created journey maps and typical use cases for how they would interact with the Minim solution.</p>
       </div>
     </div>
 
     <div id="bt" class="row">
-      <div class="col-md-6 half-image flex-first"></div>
-      <div class="col-md-6 d-flex flex-column justify-content-center flex-first text-container">
+      <div class="col-lg-6 half-image flex-first"></div>
+      <div class="col-lg-6 d-flex flex-column justify-content-center flex-first text-container">
         <h2>Responsive web interface for ISPs</h2>
         <p>On the other hand, ISP customer care teams used a variety of browser-based tools to monitor networks and provide support. Their experience would need to provide responsive dashboards that provided a broad view of network health with the ability to drill-down into specific home networks. We designed an experience for ISPs that allowed them to visually explore networks, view alerts and isolate potential security threats, search for problematic IoT devices, and track performance and activity over to time to uncover issues before they could impact their whole network.</p>
       </div>
     </div>
 
     <div id="moms" class="row">
-      <div class="col-md-6 half-image flex-first"></div>
-      <div class="col-md-6 d-flex flex-column justify-content-center flex-first text-container">
+      <div class="col-lg-6 half-image flex-first"></div>
+      <div class="col-lg-6 d-flex flex-column justify-content-center flex-first text-container">
         <h2>Mobile app design for consumers</h2>
         <p>Knowing that consumers have greater success working within tightly constrained mobile apps, we created an app specifically designed to help them set up their new device, associate their home network devices with Minim, and use the customization features to round out their experience. Once configured, the app would trigger security alerts and device notifications for issues that needed their attention. As Minim home users became more comfortable with the app, we included advanced views and configuration tools to allow them to make their networks even more robust.</p>
       </div>

@@ -2,11 +2,11 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-lg-4 jumbotron-padding">
-              <img class="jumbotron-logo-project my-4 my-xl-5" src="/images/logo-eagle.png" alt="Eagle Genomics logo">
-              <a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a>
+            <div class="col-lg-2 ww-push-logo">
+              <img class="jumbotron-logo-project" src="/images/logo-eagle-2x.png" alt="Eagle Genomics logo">
+              <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-8 jumbotron-padding"><img class="img-fluid mt-5" src="/images/website-mockup-eagle.png" alt="Eagle Genomics website mockup"></div>
+            <div class="col-lg-8"><img class="img-fluid ww-hero-image" src="/images/website-mockup-eagle-2x.png" alt="Eagle Genomics website mockup"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
@@ -25,8 +25,8 @@
 
 <div class="container-fluid project-description">
   <div class="row">
-    <div class="col-lg-6">
-      <p>Eagle Genomics is an award-winning provider of software analysis tools to assist with genomics research. Its products are used by some of the largest life science companies in the world. As Eagle looked to expand its product portfolio, it developed a concept for an app that would allow researchers to perform multi-dimensional analyses on massive sets of biological data to allow for greater efficiency in the research process. Because this new app would incorporate new interface concepts and need to accommodate new user types, the Eagle team looked for a design partner who could help and selected our team.</p>
+    <div class="col-xl-5 col-lg-6">
+      <p class="portfolio-paragraph">Eagle Genomics is an award-winning provider of software analysis tools to assist with genomics research. Its products are used by some of the largest life science companies in the world. As Eagle looked to expand its product portfolio, it developed a concept for an app that would allow researchers to perform multi-dimensional analyses on massive sets of biological data to allow for greater efficiency in the research process. Because this new app would incorporate new interface concepts and need to accommodate new user types, the Eagle team looked for a design partner who could help and selected our team.</p>
     </div>
 
   </div>
@@ -57,26 +57,14 @@
                 <p class="portfolio-service-text">There were other solutions in the market designed to aid in the genomic research process. We analyzed each solution to get a clear sense of their strengths and weaknesses to incorporate into our UX roadmap.</p>
             </div>
         </div>
-        <div class="col-lg-12"><p>Our teams worked together to process the research into a product roadmap with prioritized features. The focal point of the work, and one which would offer the most value to our target users, was building the UX around conversational UI and an interactive visual model for genomic researchers and scientists to use to identify new drug discovery insights.</p>
+        <div class="col-lg-12">
+          <h2>Results-oriented UX</h2><p>Our teams worked together to process the research into a product roadmap with prioritized features. The focal point of the work, and one which would offer the most value to our target users, was building the UX around conversational UI and an interactive visual model for genomic researchers and scientists to use to identify new drug discovery insights.</p>
+          <p>The new platform was purpose-built to improve the efficiency of existing processes and allow teams to collaborate and accelerate and manage their research projects as never before. Some highlights of the work include:</p>
+          <div class="row results-row"><div class="col-md-6"><img src="/images/portfolio-eagle-results-left-2x.png" alt="Eagle Genomics" class="img-fluid"></div>
+          <div class="col-md-6"><img src="/images/portfolio-eagle-results-right-2x.png" alt="Eagle Genomics" class="img-fluid"></div></div>
         </div>
     </div>
 </div>
-
-
-
-<section class="portfolio">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <div class="portfolio-text">
-                  <h2>Results-oriented UX</h2>
-                    <p class="portfolio-paragraph">The new platform was purpose-built to improve the efficiency of existing processes and allow teams to collaborate and accelerate and manage their research projects as never before. Some highlights of the work include:</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 portfolio-image"></div>
-        </div>
-    </div>
-</section>
 
 <div class="container-fluid portfolio-testimonial">
   <div class="row">
