@@ -17,7 +17,7 @@
         <div class="col-12 about-service-spacing text-center">
             <h4 class="about-service-heading-secondary">ABOUT PROXIMITY LAB</h4>
             <h3 class="about-service-heading-primary">Our Story (so far . . . )</h3>
-            <p class="about-service-text mx-auto">We are designers, creators, and thinkers. Although we come from various backgrounds, we stand behind a common vision to create products that are designed with clarity for their users. We know that many products are very complex - but we also that doesn't mean they have to be complicated.</p>
+            <p class="about-service-text mx-auto">We are designers, creators, and thinkers. Although we come from various backgrounds, we stand behind a common vision to create products that are designed with clarity for their users. We know that many products are very complex - but that doesn't mean they have to be complicated.</p>
         </div>
 
         <!-- <div class="col-12 col-md-5 about-service-image"></div> -->
