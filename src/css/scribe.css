@@ -481,6 +481,7 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
 }
 
 .portfolio-testimonial {
+  background: none;
   background-color: #139CE4;
   /*min-height: 620px;*/
   color: #fff;
@@ -491,6 +492,31 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
   flex-flow: row;
   /*align-items: center;*/
   /*justify-content: center;*/
+}
+
+/*.ww-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+@media (min-width: 1440px) {
+  .ww-overlay {
+    background-color: rgba(0, 0, 0, 0);
+}
+}
+.ww-content {
+  z-index: 2;
+}*/
+
+@media (min-width: 1440px) {
+  .portfolio-testimonial .ww-content {
+    max-width: 64%;
+    margin: 0 18% 0 18%;
+  }
 }
 
 @media (min-width: 576px) {

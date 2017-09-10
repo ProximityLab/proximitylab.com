@@ -19,7 +19,7 @@
 
   <div class="row ww-panels pt-5">
     <div class="col-lg-4">
-      <div id="home-carousel-enterprise" class="carousel slide" data-interval="false">
+      <div id="home-carousel-enterprise" class="carousel" data-interval="false">
         <ol class="carousel-indicators">
           <li data-target="#home-carousel-enterprise" data-slide-to="0" class="active"></li>
           <li data-target="#home-carousel-enterprise" data-slide-to="1"></li>
@@ -53,7 +53,7 @@
       </div>
     </div>
     <div class="col-lg-4">
-      <div id="home-carousel-startups" class="carousel slide" data-interval="false">
+      <div id="home-carousel-startups" class="carousel" data-interval="false">
         <ol class="carousel-indicators">
           <li data-target="#home-carousel-startups" data-slide-to="0" class="active"></li>
           <li data-target="#home-carousel-startups" data-slide-to="1"></li>
@@ -87,7 +87,7 @@
       </div>
     </div>
     <div class="col-lg-4">
-      <div id="home-carousel-reboots" class="carousel slide">
+      <div id="home-carousel-reboots" class="carousel">
         <ol class="carousel-indicators">
           <li data-target="#home-carousel-reboots" data-slide-to="0" class="active"></li>
           <li data-target="#home-carousel-reboots" data-slide-to="1"></li>
@@ -124,13 +124,13 @@
   </div>
 </div>
 
-<div id="home-carousel-testimonial" class="carousel slide carousel-fade" data-ride="carousel">
+<div id="home-carousel-testimonial" class="carousel carousel-fade" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item home-carousel-testimonial-item home-carousel-testimonial-item-one active">
       <div class="carousel-caption home-carousel-testimonial-caption">
         <h5 class="home-carousel-testimonial-heading d-none d-md-block">THE BOND WITH OUR CLIENTS</h5>
         <img class="home-carousel-testimonial-logo-scribe" src="/images/logo-scribe.png" alt="Scribe logo">
-        <p class="home-carousel-testimonial-text">“Not only did Proximity Lab understand our business, but they challenged our thinking that helped create new paradigms for data integration. The resulting user-centric design is now driving the product roadmap for our SaaS platform, and we're seeing - we are seeing a new category of users performing data integration tasks that would have previously been outside of their skillset.”</p>
+        <p class="home-carousel-testimonial-text">“Proximity Lab understands our business and they challenged our thinking to help create new paradigms for data integration. The resulting user-centric design is now driving the product roadmap for our SaaS platform, and we're seeing - we are seeing a new category of users performing data integration tasks that would have previously been outside of their skillset.”</p>
         <img class="home-carousel-testimonial-author" src="/images/testimonial-author-scribe-2x.png" alt="Testimonial author">
         <p class="home-carousel-testimonial-author-title"><b>Shawn McGowan</b>, CEO Scribe</p>
       </div>

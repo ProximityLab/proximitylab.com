@@ -126,29 +126,34 @@
 
 /* testimonial carousel */
 
+#home-carousel-testimonial,
 .home-carousel-testimonial-item {
     height: 700px;
 }
 
 @media (min-width: 576px) {
+    #home-carousel-testimonial,
     .home-carousel-testimonial-item {
         height: 800px;
     }
 }
 
 @media (min-width: 768px) {
+    #home-carousel-testimonial,
     .home-carousel-testimonial-item {
         height: 750px;
     }
 }
 
 @media (min-width: 992px) {
+    #home-carousel-testimonial,
     .home-carousel-testimonial-item {
         height: 800px;
     }
 }
 
 @media (min-width: 1200px) {
+    #home-carousel-testimonial,
     .home-carousel-testimonial-item {
         height: 800px;
     }

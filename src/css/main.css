@@ -200,20 +200,29 @@ a[name=start] {
     line-height: normal;
     margin: 1.5rem 0;
 }
+
+#home-carousel-testimonial {
+    position: relative;
+    width: 100%;
+}
+
+#home-carousel-testimonial .carousel-inner {
+    overflow: inherit;
+}
+
 #home-carousel-testimonial .carousel-inner .carousel-item {
-    -webkit-transition-property: opacity;
-    transition-property: opacity;
-}
-#home-carousel-testimonial .carousel-inner .active.left, #home-carousel-testimonial .carousel-inner .active.right, #home-carousel-testimonial .carousel-inner .carousel-item {
     opacity: 0;
+    display: block;
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
-#home-carousel-testimonial .carousel-inner .active, #home-carousel-testimonial .carousel-inner .next.left, #home-carousel-testimonial .carousel-inner .prev.right {
+#home-carousel-testimonial .carousel-inner .carousel-item.active {
     opacity: 1;
-}
-#home-carousel-testimonial .carousel-inner .active.left, #home-carousel-testimonial .carousel-inner .active.right, #home-carousel-testimonial .carousel-inner .next, #home-carousel-testimonial .carousel-inner .prev {
-    left: 0;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
+    display: block;
 }
 #home-carousel-testimonial .carousel-control {
     z-index: 9!important;
@@ -314,7 +323,7 @@ a[name=start] {
 .primary-nav-holder {
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 1000;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     top: 0;
