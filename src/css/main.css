@@ -26,10 +26,10 @@ a[name=start] {
     text-decoration: none;
     color: #1e2128;
 }
-.container-fluid {
+/*.container-fluid {
     padding-right: 3rem;
     padding-left: 3rem;
-}
+}*/
 .home header {
     background-color: #1e2128;
     color: #fff;
@@ -593,8 +593,18 @@ a[name=start] {
 
 .page-footer {
     background-color: #1d2028;
-    padding: 50px;
+    padding: 50px 3rem;
     position: relative;
+}
+
+@media (min-width:992px) {
+	.page-footer {
+      padding: 50px 6rem;
+  }
+}
+
+.page-footer .container-fluid {
+    padding: 0;
 }
 .page-footer-heading {
     line-height: 60px;
@@ -656,6 +666,16 @@ a[name=start] {
     flex: none;
     position: relative;
 }
+
+@media (min-width:1440px) {
+	.footer-form-step {
+      width: 80%;
+  }
+}
+.page-navigation li:first-child a { margin-left: 0px; }
+.page-navigation li a:hover {
+    text-decoration: none;
+}
 .page-footer .footer-form-step ul {
     margin: 0; padding: 0; width: 100%; max-width: 540px; display: block; float: right; clear: both;
 
@@ -688,6 +708,7 @@ a[name=start] {
     display: block;
     position: absolute;
     right: 0;
+    top: 12px;
 }
 .page-footer .footer-form-step input {
 	color: #fff; text-align: left;

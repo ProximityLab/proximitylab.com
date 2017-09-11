@@ -1,11 +1,11 @@
 <footer class="page-footer">
     <div class="container-fluid">
         <div class="row mb-5">
-            <div class="col-12 col-md-8">
+            <div class="col-12 col-lg-7 col-md-6">
                 <h1 class="page-footer-heading">Let us help re-think your experience.</h1>
             </div>
 
-            <div class="col-12 col-md-4 mt-5 mt-md-4 mt-xl-3">
+            <div class="col-12 col-lg-5 col-md-6 mt-5 mt-md-4 mt-xl-3">
                 <div class="footer-form-step">
                   <a href="#" class="form-close" role="button">Close</a>
                   <ul>
