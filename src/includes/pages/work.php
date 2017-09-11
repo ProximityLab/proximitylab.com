@@ -143,7 +143,7 @@
             <div id="songbird" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
-                        <img class="work-item-logo" src="/images/logo-songbird-white.svg" alt="Songbird logo">
+                        <img class="work-item-logo" src="/images/logo-songbird.svg" alt="Songbird logo">
                         <!-- <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p> -->
                         <a class="work-item-button" href="?page=/work/songbird">View work</a>
                     </div>
