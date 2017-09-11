@@ -321,7 +321,13 @@
   position: relative;
 }
 
-.about-team-person-overlay:hover  {
+@media (min-width: 768px) {
+  .about-team-person-overlay:hover {
+    opacity: 1;
+  }
+}
+
+.about-team-person-overlay.active  {
   opacity: 1;
 }
 

@@ -47,6 +47,22 @@ $(document).ready(function() {
     }
   });
 
+    // Profile overlays for Mobile
+
+    $(".about-team-person-overlay").click(function() {
+
+      if ($(window).width() < 768) {
+
+        $('.about-team-person-overlay').removeClass('active');
+        $(this).addClass('active');
+
+      } else {
+
+        $('.about-team-person-overlay').removeClass('active');
+
+      }
+    });
+
   // Footer Forms
 
   $(".form-dropdown").click(function() {
