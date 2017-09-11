@@ -46,7 +46,7 @@
         <p>"The Wagz team was blown away by the work by Proximity Lab. While we were originally looking for a UX/UI partner to help improve an app we had in mind to accompany our collar, we ended up with a comprehensive design partner. We couldn’t be happier with the result of our collaboration on this ambitious project."
           <br /><img class="home-carousel-testimonial-author" src="/images/profile_terry_anderton.png" alt="Testimonial author"></p>
       <p class="home-carousel-testimonial-author-title">
-          <b>Terry Anderton</b>, Founder and CEO</p>
+          <b>Terry Anderton</b>, Founder and CEO Wagz</p>
     </div>
   </div>
 </div>

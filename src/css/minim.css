@@ -507,7 +507,7 @@
   background-color: #0CC1D3;
   /*min-height: 620px;*/
   color: #fff;
-  line-height: 4rem;
+  /*line-height: 4rem;*/
   font-size: 2.4rem;
   padding: 3rem 3rem;
   display: flex;
@@ -543,6 +543,15 @@ text-align: center;
   line-height: 3.5rem;
 }
 
+
+
+.portfolio-testimonial .home-carousel-testimonial-author-title {
+  font-size: 2rem;
+  margin-top: 3rem;
+  line-height: normal;
+}
+
+
 @media (min-width: 576px) {
   .portfolio-testimonial p {
     max-width: 95%;
@@ -577,9 +586,4 @@ height: 70px;
 @media (min-width: 576px) {
   .portfolio-testimonial img {
   margin: 8rem auto 0;
-}
-
-.portfolio-testimonial p.home-carousel-testimonial-author-title {
-  font-size: 1.6rem;
-  margin-top: 1rem;
 }

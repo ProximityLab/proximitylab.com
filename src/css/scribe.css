@@ -546,6 +546,13 @@ text-align: center;
   line-height: 3.5rem;
 }
 
+.portfolio-testimonial .home-carousel-testimonial-author-title {
+  font-size: 2rem;
+  margin-top: 2rem;
+  line-height: normal;
+}
+
+
 @media (min-width: 576px) {
   .portfolio-testimonial p {
     max-width: 95%;
@@ -580,9 +587,4 @@ height: 70px;
 @media (min-width: 576px) {
   .portfolio-testimonial img {
   margin: 8rem auto 0;
-}
-
-.portfolio-testimonial p.home-carousel-testimonial-author-title {
-  font-size: 1.6rem;
-  margin-top: 1rem;
 }

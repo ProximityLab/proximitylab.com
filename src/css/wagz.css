@@ -314,6 +314,12 @@
   z-index: 3;
 }
 
+.ww-content .home-carousel-testimonial-author-title {
+  font-size: 2rem;
+  margin-top: 2rem;
+  line-height: normal;
+}
+
 /*.ww-portfolio {
 background-color: #000;
 }*/
