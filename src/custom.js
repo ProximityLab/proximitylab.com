@@ -57,9 +57,13 @@ $(document).ready(function() {
 
     var $bigButton = $('.page-footer-button');
 
+    var formMessages = $('#form-messages');
+
     $bigButton.fadeOut();
 
     $otherForms.slideUp();
+
+    $(formMessages).text('');
 
     $form.fadeIn();
 
@@ -218,5 +222,83 @@ $(document).ready(function() {
   }
 
   setTimeout(setWays, 500);
+
+});
+
+$(function() {
+
+  // Get the messages div.
+  var formMessages = $('#form-messages');
+
+  function hideForm(form) {
+    var $otherForms = $('.form-dropdown').parent();
+
+    var $bigButton = $('.page-footer-button');
+
+    $bigButton.fadeOut();
+
+    $otherForms.show();
+
+    form.hide();
+  }
+
+  function submitContactForm(formName) {
+
+    return function(e) {
+      // Stop the browser from submitting the form.
+      e.preventDefault();
+
+      var form = $('#' + formName);
+
+      // Serialize the form data.
+      var formData = $(form).serialize();
+
+      // Submit the form using AJAX.
+      $.ajax({
+          type: 'POST',
+          url: $(form).attr('action'),
+          data: formData
+        })
+        .done(function(response) {
+          // Make sure that the formMessages div has the 'success' class.
+          $(formMessages).removeClass('error');
+          $(formMessages).addClass('success');
+
+          // Set the message text.
+          $(formMessages).text(response);
+
+          // Clear the form.
+          $('#' + formName + 'name').val('');
+          $('#' + formName + 'email').val('');
+          $('#' + formName + 'message').val('');
+
+          hideForm(form);
+        })
+        .fail(function(data) {
+          // Make sure that the formMessages div has the 'error' class.
+          $(formMessages).removeClass('success');
+          $(formMessages).addClass('error');
+
+          // Set the message text.
+          if (data.responseText !== '') {
+            $(formMessages).text(data.responseText);
+          } else {
+            $(formMessages).text('Oops! An error occured and your message could not be sent.');
+          }
+
+          hideForm(form);
+        });
+    }
+  }
+
+  // Get the form.
+  var newBusinessForm = $('#new-business-form');
+  var sayHelloForm = $('#say-hello-form');
+  var careersForm = $('#careers-form');
+
+  // Set up an event listener for the contact form.
+  $(newBusinessForm).submit(submitContactForm('new-business-form'));
+  $(sayHelloForm).submit(submitContactForm('say-hello-form'));
+  $(careersForm).submit(submitContactForm('careers-form'));
 
 });
