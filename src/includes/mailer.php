@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //Set an alternative reply-to address
     $mail->addReplyTo('info@proximitylab.com', 'Proximity Lab Info');
     //Set who the message is to be sent to
-    $mail->addAddress('josh.rose@proximitylab.com', 'Proximity Lab Info');
+    $mail->addAddress('info@proximitylab.com', 'Proximity Lab Info');
     //Set the subject line
     $mail->Subject = $subject." From:".$name;
     //Read an HTML message body from an external file, convert referenced images to embedded,
