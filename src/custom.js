@@ -183,23 +183,19 @@ $(document).ready(function() {
 
   var $obj = $('.footer-form-step');
   var $btn = $('.page-footer-button');
-  // var $current_form = $('#form-new-business');
 
   $btn.on('click', function(e) {
     e.preventDefault();
 
     var scrollTop = $("body").scrollTop();
 
-    // $this.toggleClass( 'activated' );
-    $obj.stop(true, true).slideToggle({
-      duration: 400,
-      progress: function(animation, progress, remainingMs) {
-        console.log(animation, progress, remainingMs);
-        $("html, body").scrollTop(scrollTop + $obj.height());
-      }
-    });
-    // $btn.hide();
-    $btn.fadeOut(600);
+    $obj.stop(true, true).slideToggle(400);
+
+    $("html, body").animate({
+      scrollTop: $(document).height()
+    }, 700);
+
+    $btn.fadeOut(400);
   });
 
   $('.form-close').on('click', function(e) {
@@ -207,14 +203,13 @@ $(document).ready(function() {
 
     var scrollTop = $("body").scrollTop();
 
-    $obj.stop(true, true).slideToggle({
-      duration: 400,
-      progress: function(animation, progress, remainingMs) {
-        $("html, body").scrollTop(scrollTop + $obj.height());
-      }
-    });
-    // $btn.show();
-    $btn.fadeIn(600);
+    $obj.stop(true, true).slideToggle(400);
+
+    $("html, body").animate({
+      scrollTop: $(document).height()
+    }, 700);
+
+    $btn.fadeIn(400);
     $current_form = $(this);
   });
 
