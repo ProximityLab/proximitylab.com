@@ -142,7 +142,7 @@ $(document).ready(function() {
   });
 
   $('#home-carousel-testimonial.carousel').carousel({
-    interval: 25000
+    interval: 10000
   });
 
   // Select all links with hashes
@@ -187,20 +187,34 @@ $(document).ready(function() {
 
   $btn.on('click', function(e) {
     e.preventDefault();
+
+    var scrollTop = $("body").scrollTop();
+
     // $this.toggleClass( 'activated' );
-    $obj.stop(true, true).slideToggle();
+    $obj.stop(true, true).slideToggle({
+      duration: 400,
+      progress: function(animation, progress, remainingMs) {
+        console.log(animation, progress, remainingMs);
+        $("html, body").scrollTop(scrollTop + $obj.height());
+      }
+    });
     // $btn.hide();
-    $btn.fadeOut();
-    $("html, body").animate({
-      scrollTop: $(document).height()
-    }, 900);
+    $btn.fadeOut(600);
   });
 
   $('.form-close').on('click', function(e) {
     e.preventDefault();
-    $obj.stop(true, true).slideToggle();
+
+    var scrollTop = $("body").scrollTop();
+
+    $obj.stop(true, true).slideToggle({
+      duration: 400,
+      progress: function(animation, progress, remainingMs) {
+        $("html, body").scrollTop(scrollTop + $obj.height());
+      }
+    });
     // $btn.show();
-    $btn.fadeIn();
+    $btn.fadeIn(600);
     $current_form = $(this);
   });
 
@@ -238,10 +252,6 @@ $(document).ready(function() {
   }
 
   setTimeout(setWays, 500);
-
-});
-
-$(function() {
 
   // Get the messages div.
   var formMessages = $('#form-messages');

@@ -740,6 +740,8 @@ a[name=start] {
 
 .page-footer-button {
     display: block;
+    position: absolute;
+    bottom: 0;
     width: 100%;
     max-width: 300px;
     text-align: center;
@@ -796,6 +798,12 @@ a[name=start] {
 
 .page-footer-copyright {
     color: #555;
+}
+
+.footer-form-container {
+    min-height: 76px;
+    max-height: 300px;
+    overflow: hidden;
 }
 
 .footer-form-step {

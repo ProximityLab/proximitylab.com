@@ -5,7 +5,7 @@
                 <h1 class="page-footer-heading">Let us help re-think your experience.</h1>
             </div>
 
-            <div class="col-12 col-lg-5 col-md-6 mt-5 mt-md-4 mt-xl-3">
+            <div class="col-12 col-lg-5 col-md-6 mt-5 mt-md-4 mt-xl-3 footer-form-container">
                 <div class="footer-form-step">
                   <a href="#" class="form-close" role="button">Close</a>
                   <ul>
