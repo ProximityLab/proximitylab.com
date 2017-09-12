@@ -47,21 +47,21 @@ $(document).ready(function() {
     }
   });
 
-    // Profile overlays for Mobile
+  // Profile overlays for Mobile
 
-    $(".about-team-person-overlay").click(function() {
+  $(".about-team-person-overlay").click(function() {
 
-      if ($(window).width() < 768) {
+    if ($(window).width() < 768) {
 
-        $('.about-team-person-overlay').removeClass('active');
-        $(this).addClass('active');
+      $('.about-team-person-overlay').removeClass('active');
+      $(this).addClass('active');
 
-      } else {
+    } else {
 
-        $('.about-team-person-overlay').removeClass('active');
+      $('.about-team-person-overlay').removeClass('active');
 
-      }
-    });
+    }
+  });
 
   // Footer Forms
 
@@ -142,7 +142,7 @@ $(document).ready(function() {
   });
 
   $('#home-carousel-testimonial.carousel').carousel({
-    interval: 45000
+    interval: 25000
   });
 
   // Select all links with hashes
