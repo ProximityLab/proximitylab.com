@@ -6,7 +6,13 @@
               <img class="jumbotron-logo-project" src="/images/logo-amadeus.svg" alt="Amadeus logo">
               <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-7"><img class="img-fluid" src="/images/website-mockup-amadeus-2x.png" alt="Amadeus website mockup"></div>
+            <div class="col-lg-7">
+              <!-- <img class="img-fluid" src="/images/website-mockup-amadeus-2x.png" alt="Amadeus website mockup"> -->
+            <div class="ww-vid-holder"><div class="ww-vid">
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe id="video-iframe" class="embed-responsive-item" src="https://player.vimeo.com/video/230062489?title=0&amp;byline=0&amp;portrait=0" allowfullscreen></iframe>
+              </div>
+            </div></div></div>
         </div><!-- row -->
         <!-- <div class="row"><a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a></div> -->
     </div><!-- container -->
