@@ -193,7 +193,7 @@ $(document).ready(function() {
     $btn.fadeOut();
     $("html, body").animate({
       scrollTop: $(document).height()
-    }, "slow");
+    }, 900);
   });
 
   $('.form-close').on('click', function(e) {
