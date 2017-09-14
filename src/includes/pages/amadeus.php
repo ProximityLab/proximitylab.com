@@ -10,7 +10,13 @@
               <!-- <img class="img-fluid" src="/images/website-mockup-amadeus-2x.png" alt="Amadeus website mockup"> -->
             <div class="ww-vid-holder"><div class="ww-vid">
               <div class="embed-responsive embed-responsive-16by9">
-                  <iframe id="video-iframe" class="embed-responsive-item" src="https://player.vimeo.com/video/230062489?title=0&amp;byline=0&amp;portrait=0" allowfullscreen></iframe>
+                  <!-- <iframe id="video-iframe" class="embed-responsive-item" src="https://player.vimeo.com/video/230062489?title=0&amp;byline=0&amp;portrait=0" allowfullscreen></iframe> -->
+
+                  <video width="320" height="240" autoplay controls>
+                    <source src="/images/minim.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video>
+
               </div>
             </div></div></div>
         </div><!-- row -->

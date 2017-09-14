@@ -323,3 +323,50 @@ $(document).ready(function() {
   $(careersForm).submit(submitContactForm('careers-form'));
 
 });
+var mainVideo = $('#video1');
+
+var medQualVersionSrc = '/video/minim_medium.mp4';
+var highQualVersionSrc = '/video/minim.mp4';
+var webMSrc = '/video/minim.webm';
+
+if ($(window).width() < 576) {
+  mainVideo.append("<source type='video/mp4' src='" + medQualVersionSrc + "' type='video/mp4;codecs=avc1.42E01E, mp4a.40.2' />");
+} else {
+  mainVideo.append("<source type='video/mp4' src='" + highQualVersionSrc + "' type='video/mp4;codecs=avc1.42E01E, mp4a.40.2' />");
+}
+mainVideo.append("<source type='video/webm' src='" + webMSrc + "' type='video/webm;codecs=vp8, vorbis' />Your browser does not support the video tag.");
+
+
+var myVideo = document.getElementById("video1");
+myVideo.onplay = function() {
+    console.log("The video has started to play");
+    $("#ww-play-pause").addClass('ww-init');
+    $("#ww-play-pause").addClass('active');
+};
+
+myVideo.onended = function() {
+    console.log("The video has ended");
+    $("#ww-play-pause").removeClass('active');
+    $("#ww-play-pause").removeClass('ww-init');
+};
+
+
+$("#ww-play-pause").click(function() {
+
+  console.log(myVideo.ended+"^^^^^^");
+
+  if (myVideo.paused){
+      myVideo.play();
+      $("#ww-play-pause").addClass('active');
+      $("#ww-play-pause").addClass('ww-init');
+    }
+    else if (myVideo.ended)
+    {
+        console.log(myVideo.ended+"##############");
+    }
+  else {
+      myVideo.pause();
+      $("#ww-play-pause").removeClass('active');
+      $("#ww-play-pause").removeClass('ww-init');
+    }
+  });

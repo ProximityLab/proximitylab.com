@@ -1,3 +1,5 @@
+AddType video/mp4 mp4 .mp4
+AddType video/webm webm .webm
 AddType text/css css .css
 
 RewriteEngine on
@@ -31,7 +33,7 @@ RewriteRule ^.*$ /work/adobe [L,R=301]
 
 RewriteCond %{QUERY_STRING} !marker
 RewriteCond %{QUERY_STRING} page=([^&]+)
-RewriteRule ^/?(.*)$ %1? [R=302,L] 
+RewriteRule ^/?(.*)$ %1? [R=302,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
