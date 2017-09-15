@@ -23,12 +23,12 @@
                 </div>
               </div>
 
-              <ol class="carousel-indicators scheduleme-carousel-hero-indicators">
+              <!-- ol class="carousel-indicators scheduleme-carousel-hero-indicators">
                 <li data-target="#scheduleme-carousel-hero" data-slide-to="0" class="scheduleme-carousel-hero-indicator active"></li>
                 <li data-target="#scheduleme-carousel-hero" data-slide-to="1" class="scheduleme-carousel-hero-indicator"></li>
                 <li data-target="#scheduleme-carousel-hero" data-slide-to="2" class="scheduleme-carousel-hero-indicator"></li>
                 <li data-target="#scheduleme-carousel-hero" data-slide-to="3" class="scheduleme-carousel-hero-indicator"></li>
-              </ol>
+              </ol -->
             </div>
         </div><!-- row -->
     </div><!-- container -->

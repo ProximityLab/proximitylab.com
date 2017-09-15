@@ -32,7 +32,7 @@
                 </div>
               </div>
 
-              <ol class="carousel-indicators wagz-carousel-hero-indicators">
+              <!-- ol class="carousel-indicators wagz-carousel-hero-indicators">
                 <li data-target="#wagz-carousel-hero" data-slide-to="0" class="wagz-carousel-hero-indicator active"></li>
                 <li data-target="#wagz-carousel-hero" data-slide-to="1" class="wagz-carousel-hero-indicator"></li>
                 <li data-target="#wagz-carousel-hero" data-slide-to="2" class="wagz-carousel-hero-indicator"></li>
@@ -40,7 +40,7 @@
                 <li data-target="#wagz-carousel-hero" data-slide-to="4" class="wagz-carousel-hero-indicator"></li>
                 <li data-target="#wagz-carousel-hero" data-slide-to="5" class="wagz-carousel-hero-indicator"></li>
                 <li data-target="#wagz-carousel-hero" data-slide-to="6" class="wagz-carousel-hero-indicator"></li>
-              </ol>
+              </ol -->
             </div>
         </div><!-- row -->
     </div><!-- container -->

@@ -248,7 +248,10 @@ a[name=start] {
     overflow: inherit;
 }
 
-#home-carousel-testimonial .carousel-inner .carousel-item {
+#home-carousel-testimonial .carousel-inner .carousel-item,
+#icovia-carousel-hero .carousel-inner .carousel-item,
+#scheduleme-carousel-hero .carousel-inner .carousel-item,
+#wagz-carousel-hero .carousel-inner .carousel-item {
     opacity: 0;
     display: block;
     position: absolute;
@@ -259,7 +262,10 @@ a[name=start] {
     transition: opacity 1s ease-in-out;
 }
 
-#home-carousel-testimonial .carousel-inner .carousel-item.active {
+#home-carousel-testimonial .carousel-inner .carousel-item.active,
+#icovia-carousel-hero .carousel-inner .carousel-item.active,
+#scheduleme-carousel-hero .carousel-inner .carousel-item.active,
+#wagz-carousel-hero .carousel-inner .carousel-item.active {
     opacity: 1;
     display: block;
 }

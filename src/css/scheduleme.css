@@ -248,28 +248,27 @@
 #scheduleme-carousel-hero .carousel-inner {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding-bottom: 76%;
+  padding-bottom: 73%;
 }
 
-#scheduleme-carousel-hero .carousel-item {
-  position: relative;
+#scheduleme-carousel-hero .carousel-inner .carousel-item {
   width: 100%;
 }
 
-#scheduleme-carousel-hero .carousel-item:before {
+#scheduleme-carousel-hero .carousel-inner .carousel-item:before {
   display: block;
   content: "";
   width: 100%;
 }
 
-#scheduleme-carousel-hero .carousel-item .img-fluid {
-  position: absolute;
+#scheduleme-carousel-hero .carousel-inner .carousel-item .img-fluid {
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
 }
 
+/*
 .scheduleme-carousel-hero-indicators {
     bottom: 4px;
 }
@@ -322,3 +321,4 @@ li.scheduleme-carousel-hero-indicator {
     margin-left: 6.5px;
     margin-right: 6.5px;
 }
+*/

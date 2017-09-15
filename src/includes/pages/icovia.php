@@ -20,11 +20,11 @@
                 </div>
               </div>
 
-              <ol class="carousel-indicators icovia-carousel-hero-indicators">
+              <!-- ol class="carousel-indicators icovia-carousel-hero-indicators">
                 <li data-target="#icovia-carousel-hero" data-slide-to="0" class="icovia-carousel-hero-indicator active"></li>
                 <li data-target="#icovia-carousel-hero" data-slide-to="1" class="icovia-carousel-hero-indicator"></li>
                 <li data-target="#icovia-carousel-hero" data-slide-to="2" class="icovia-carousel-hero-indicator"></li>
-              </ol>
+              </ol -->
             </div>
         </div><!-- row -->
     </div><!-- container -->
