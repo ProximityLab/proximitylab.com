@@ -6,7 +6,26 @@
               <img class="jumbotron-logo-project" src="/images/logo-icovia-2x.png" alt="Icovia logo">
               <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-7 ww-hero-image"><img class="img-fluid" src="/images/website-mockup-icovia-2x.png" alt="Icovia website mockup"></div>
+
+            <div id="icovia-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item icovia-carousel-testimonial-item icovia-carousel-hero-item-one active">
+                  <img class="img-fluid" src="/images/website-mockup-icovia-1-2x.png" alt="Icovia website mockup">
+                </div>
+                <div class="carousel-item icovia-carousel-testimonial-item icovia-carousel-hero-item-two">
+                  <img class="img-fluid" src="/images/website-mockup-icovia-2-2x.png" alt="Icovia website mockup">
+                </div>
+                <div class="carousel-item icovia-carousel-testimonial-item icovia-carousel-hero-item-three">
+                  <img class="img-fluid" src="/images/website-mockup-icovia-3-2x.png" alt="Icovia website mockup">
+                </div>
+              </div>
+
+              <ol class="carousel-indicators icovia-carousel-hero-indicators">
+                <li data-target="#icovia-carousel-hero" data-slide-to="0" class="icovia-carousel-hero-indicator active"></li>
+                <li data-target="#icovia-carousel-hero" data-slide-to="1" class="icovia-carousel-hero-indicator"></li>
+                <li data-target="#icovia-carousel-hero" data-slide-to="2" class="icovia-carousel-hero-indicator"></li>
+              </ol>
+            </div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
