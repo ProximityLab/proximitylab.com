@@ -48,9 +48,9 @@
 }
 
 @media (min-width: 576px){
-.ww-hero-image {
-  margin-bottom: -4.1rem;
-}
+  .ww-hero-image {
+    margin-bottom: -3.1rem;
+  }
 }
 
 
@@ -109,13 +109,6 @@
   margin-top: 6rem;
 }*/
 
-@media (min-width: 992px) {
-    .portfolio-paragraph {
-      margin-top: 6rem
-    }
-}
-
-
 
 @media (min-width: 992px) {
     .portfolio-paragraph {
@@ -135,13 +128,8 @@
 }
 
 @media (min-width: 992px) {
-    .project-description {
-      padding: 6rem;
-    }
-}
-
-@media (min-width: 992px) {
   .project-description {
+      padding: 6rem;
     background: url('/images/portfolio-description-scheduleme-bgd.png') no-repeat;
     background-position: 140% top;
   }
@@ -233,12 +221,6 @@
 
 @media (min-width: 768px) {
   .project-more-info p {
-    margin-right: 30%;
-  }
-}
-
-@media (min-width: 768px) {
-  .project-more-info p {
     margin-right: 40%;
   }
 }
@@ -261,4 +243,82 @@
 
 .project-service {
   margin:4rem 0;
+}
+
+#scheduleme-carousel-hero .carousel-inner {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 76%;
+}
+
+#scheduleme-carousel-hero .carousel-item {
+  position: relative;
+  width: 100%;
+}
+
+#scheduleme-carousel-hero .carousel-item:before {
+  display: block;
+  content: "";
+  width: 100%;
+}
+
+#scheduleme-carousel-hero .carousel-item .img-fluid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.scheduleme-carousel-hero-indicators {
+    bottom: 4px;
+}
+
+.jumbotron {
+    padding: 4rem 2rem 4rem;
+}
+
+.scheduleme-carousel-hero-indicators {
+  bottom: -8px;
+}
+
+@media (max-width: 575px) {
+  .scheduleme-carousel-hero-indicators {
+    bottom: -18px;
+  }
+}
+
+@media (min-width: 576px) {
+  .scheduleme-carousel-hero-indicators {
+    bottom: -6px;
+  }
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+      padding: 4rem 2rem 3rem;
+  }
+  
+  .scheduleme-carousel-hero-indicators {
+    bottom: 4px;
+  }
+}
+
+@media (min-width: 992px) {
+  .jumbotron {
+      padding: 4rem 2rem 4rem;
+  }
+  
+  .scheduleme-carousel-hero-indicators {
+    bottom: -8px;
+  }
+}
+
+li.scheduleme-carousel-hero-indicator {
+    max-width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.2);
+    margin-left: 6.5px;
+    margin-right: 6.5px;
 }

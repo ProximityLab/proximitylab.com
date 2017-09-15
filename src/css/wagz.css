@@ -383,3 +383,47 @@ padding: 0 3rem;
 .portfolio-testimonial img {
 margin: 2rem 0 0 0;
 }
+
+#wagz-carousel-hero .carousel-inner {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 88%;
+}
+
+#wagz-carousel-hero .carousel-item {
+  position: relative;
+  width: 100%;
+}
+
+#wagz-carousel-hero .carousel-item:before {
+  display: block;
+  content: "";
+  width: 100%;
+}
+
+#wagz-carousel-hero .carousel-item .img-fluid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 575px) {
+  .jumbotron {
+      padding: 4rem 2rem 4rem;
+  }
+}
+
+.wagz-carousel-hero-indicators {
+    bottom: -38px;
+}
+
+li.wagz-carousel-hero-indicator {
+    max-width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.2);
+    margin-left: 6.5px;
+    margin-right: 6.5px;
+}

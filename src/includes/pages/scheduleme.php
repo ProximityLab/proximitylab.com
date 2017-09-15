@@ -6,7 +6,30 @@
               <img class="jumbotron-logo-project" src="/images/logo-scheduleme.svg" alt="Schedule Me logo">
               <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
             </div>
-            <div class="col-lg-7 ww-hero-image"><img class="img-fluid" src="/images/website-mockup-scheduleme-2x.png" alt="Schedule Me website mockup"></div>
+
+            <div id="scheduleme-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item scheduleme-carousel-testimonial-item scheduleme-carousel-hero-item-one active">
+                  <img class="img-fluid" src="/images/website-mockup-scheduleme-2x.png" alt="Schedule website mockup">
+                </div>
+                <div class="carousel-item scheduleme-carousel-testimonial-item scheduleme-carousel-hero-item-two">
+                  <img class="img-fluid" src="/images/website-mockup-scheduleme-2-2x.png" alt="Schedule website mockup">
+                </div>
+                <div class="carousel-item scheduleme-carousel-testimonial-item scheduleme-carousel-hero-item-three">
+                  <img class="img-fluid" src="/images/website-mockup-scheduleme-3-2x.png" alt="Schedule website mockup">
+                </div>
+                <div class="carousel-item scheduleme-carousel-testimonial-item scheduleme-carousel-hero-item-four">
+                  <img class="img-fluid" src="/images/website-mockup-scheduleme-4-2x.png" alt="Schedule website mockup">
+                </div>
+              </div>
+
+              <ol class="carousel-indicators scheduleme-carousel-hero-indicators">
+                <li data-target="#scheduleme-carousel-hero" data-slide-to="0" class="scheduleme-carousel-hero-indicator active"></li>
+                <li data-target="#scheduleme-carousel-hero" data-slide-to="1" class="scheduleme-carousel-hero-indicator"></li>
+                <li data-target="#scheduleme-carousel-hero" data-slide-to="2" class="scheduleme-carousel-hero-indicator"></li>
+                <li data-target="#scheduleme-carousel-hero" data-slide-to="3" class="scheduleme-carousel-hero-indicator"></li>
+              </ol>
+            </div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
