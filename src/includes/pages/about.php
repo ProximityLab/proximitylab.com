@@ -71,9 +71,8 @@
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
                 <img class="about-clients-logo about-clients-logo-solidworks" src="/images/logo-solidworks.svg" alt="Solidworks logo">
             </div>
-
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 offset-xl-1 about-clients-logo-container">
-                <img class="about-clients-logo about-clients-logo-dyn" src="/images/logo-dyn.svg" alt="Dyn logo">
+                <img class="about-clients-logo about-clients-logo-zynga" src="/images/logo-zynga.svg" alt="Zynga logo">
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
                 <img class="about-clients-logo about-clients-logo-amadeus" src="/images/logo-amadeus.svg" alt="Amadeus logo">
@@ -85,7 +84,7 @@
                 <img class="about-clients-logo about-clients-logo-scribe" src="/images/logo-scribe.png" alt="Scribe logo">
             </div>
             <div class="col-12 col-sm-6 col-md-4 offset-md-4 col-lg-3 offset-lg-0 col-xl-2 about-clients-logo-container">
-                <img class="about-clients-logo about-clients-logo-zynga" src="/images/logo-zynga.svg" alt="Zynga logo">
+                <img class="about-clients-logo about-clients-logo-dyn" src="/images/logo-dyn.svg" alt="Dyn logo">
             </div>
         </div>
     </div>

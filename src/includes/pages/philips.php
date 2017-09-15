@@ -16,7 +16,7 @@
     <div class="col-12">
       <h2 class="heading-secondary text-center"><a name="start">ENTERPRISE UX</a></h2>
 
-      <h1 class="heading-primary text-center">Illuminating designs and automating buildings</h1>
+      <h1 class="heading-primary text-center">Illuminating Designs and Automating Buildings</h1>
 
       <p class="header-text text-center">Bringing lighting design and energy management to architecture</p>
     </div>
