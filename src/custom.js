@@ -338,35 +338,35 @@ mainVideo.append("<source type='video/webm' src='" + webMSrc + "' type='video/we
 
 
 var myVideo = document.getElementById("video1");
-myVideo.onplay = function() {
+
+if (myVideo) {
+  myVideo.onplay = function() {
     console.log("The video has started to play");
     $("#ww-play-pause").addClass('ww-init');
     $("#ww-play-pause").addClass('active');
-};
+  };
 
-myVideo.onended = function() {
+  myVideo.onended = function() {
     console.log("The video has ended");
     $("#ww-play-pause").removeClass('active');
     $("#ww-play-pause").removeClass('ww-init');
-};
+  };
+}
 
 
 $("#ww-play-pause").click(function() {
 
-  console.log(myVideo.ended+"^^^^^^");
+  console.log(myVideo.ended + "^^^^^^");
 
-  if (myVideo.paused){
-      myVideo.play();
-      $("#ww-play-pause").addClass('active');
-      $("#ww-play-pause").addClass('ww-init');
-    }
-    else if (myVideo.ended)
-    {
-        console.log(myVideo.ended+"##############");
-    }
-  else {
-      myVideo.pause();
-      $("#ww-play-pause").removeClass('active');
-      $("#ww-play-pause").removeClass('ww-init');
-    }
-  });
+  if (myVideo.paused) {
+    myVideo.play();
+    $("#ww-play-pause").addClass('active');
+    $("#ww-play-pause").addClass('ww-init');
+  } else if (myVideo.ended) {
+    console.log(myVideo.ended + "##############");
+  } else {
+    myVideo.pause();
+    $("#ww-play-pause").removeClass('active');
+    $("#ww-play-pause").removeClass('ww-init');
+  }
+});

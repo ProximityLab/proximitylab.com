@@ -59,16 +59,39 @@
 </div>
 
 <section class="wagz-portfolio">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-lg-5">
-                <div class="wagz-portfolio-text">
-                    <p class="wagz-portfolio-paragraph">Proximity Lab worked with Wagz to help design an intuitive app / experience allowing dog owners to manage its connected dog collar. While there were other products on the market that helped dog owners monitor certain aspects of their dog’s life (location and activity), none had the range of features and capabilities that had been envisioned for the Wagz connected collar -- including an integrated HD camera to allow users to see what their dogs are seeing.</p>
-                </div>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-xl-5 col-md6 col-sm-12">
+            <div class="wagz-portfolio-text">
+                <p class="wagz-portfolio-paragraph">Proximity Lab worked with Wagz to help design an intuitive app / experience allowing dog owners to manage its connected dog collar. While there were other products on the market that helped dog owners monitor certain aspects of their dog’s life (location and activity), none had the range of features and capabilities that had been envisioned for the Wagz connected collar -- including an integrated HD camera to allow users to see what their dogs are seeing.</p>
             </div>
-            <div class="col-12 col-lg -6 wagz-portfolio-image"></div>
+        </div>
+        <div class="col-12 col-xl-7 col-md6 col-sm-12">
+          <div class="wagz-portfolio-services container-fluid">
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="project-service">
+                  <img src="/images/wagz-portfolio-1-2x.png" alt="Visual Experience">
+                  <div class="project-service-body">
+                    <h4 class="portfolio-service-heading">UX &amp; Visual Design</h4>
+                    <p class="portfolio-service-text">With the physical collar collecting data from multiple sensors throughout the collar, the app needed to offer consumers carefully considered views into their data. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="project-service">
+                  <img src="/images/wagz-portfolio-2-2x.png" alt="Visual Experience">
+                  <div class="project-service-body">
+                    <h4 class="portfolio-service-heading">Branding &amp; Identity</h4>
+                    <p class="portfolio-service-text">Proximity Lab also developed the Wagz brand creating a logo and style guide that appeals to consumers and offers a platform for Wagz to use to expand into adjacent markets with new products.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
+  </div>
 </section>
 
 <div class="embed-responsive embed-responsive-16by9">
