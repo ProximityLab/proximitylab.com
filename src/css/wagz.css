@@ -501,11 +501,11 @@ li.wagz-carousel-hero-indicator {
 }
 
 .wagz-portfolio .portfolio-service-heading {
-    font-size: 24px;
-    font-weight: 300;
     color: #4A4A4A;
-    margin-bottom: 16px;
-    padding: 0 3rem 3rem;
+    padding: 0 3rem 1.3rem;
+    font-size: 1.8rem;
+    color: #282828;
+    font-weight: 700;
 }
 
 .wagz-portfolio .portfolio-service-text {
