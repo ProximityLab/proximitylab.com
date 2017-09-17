@@ -23,13 +23,34 @@
   </div>
 </div>
 
-<section class="portfolio">
+<section class="portfolio songbird-portfolio">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-lg-5">
+            <div class="col-12 col-md-5">
                 <div class="portfolio-text">
                     <p class="portfolio-paragraph">Songbird set out to help music aficionados have a more immersive cross-platform music experience. As technology innovators and music lovers themselves, the team at Songbird saw the limitations of mobile music consumption platforms and wanted to offer a more fulfilling experience. To help them on this effort they partnered with our team.</p>
                 </div>
+            </div>
+            <div class="col-12 col-md-7">
+              <div class="songbird-portfolio-services container-fluid">
+                <div class="row">
+                  <div class="col-12 col-sm-3 offset-sm-1">
+                    <div class="project-service">
+                      <img src="/images/songbird-portfolio-1-2x.png" alt="Visual Experience">
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <div class="project-service">
+                      <img src="/images/songbird-portfolio-2-2x.png" alt="Visual Experience">
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-3 songbird-portfolio-services-col3">
+                    <div class="project-service songbird-project-service-3">
+                      <img src="/images/songbird-portfolio-3-2x.png" alt="Visual Experience">
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
     </div>
