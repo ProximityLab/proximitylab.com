@@ -222,13 +222,14 @@ a[name=start] {
     right: 0;
     margin: auto;
     text-align: center;
-    top: 70%
+    top: 76.5%
 }
 
 .ww-panels .carousel-item.ww-panel-icon {
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    margin-top: -2rem;
+    margin-top: -2.5rem;
+    padding: 0;
 }
 
 .ww-panels p {

@@ -123,6 +123,10 @@
     cursor: pointer;
 }*/
 
+.home-portfolio-carousel .btn {
+    line-height: inherit;
+    font-size: inherit;
+}
 
 /* testimonial carousel */
 
