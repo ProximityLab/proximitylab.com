@@ -1,43 +1,97 @@
 /**
- * Root Insight page
+ * Schedule Me page
  */
 
+
+
+.ww-portfolio p {
+  margin-bottom: 4rem;
+}
 /* jumbotron */
 
-.jumbotron {
-  background-image: linear-gradient(44deg, #FFBB00 0%, #D06B02 100%);
+.ww-portfolio .jumbotron {
+  background-image: linear-gradient(-224deg, #60A907 0%, #73CC00 100%);
   margin-bottom: 0;
   position: relative;
-}
-
-/*.jumbotron .flex-first img {
-    margin: 0 0 -2.1rem 0;
-}*/
-
-/*@media (min-width: 576px) {
-    .jumbotron .flex-first img {
-        margin: 0 0 -4rem 0;
-    }
-}*/
-
-@media (min-width: 1200px) {
-    .jumbotron {
-        padding-left: 92px;
-        padding-right: 92px;
-    }
+  padding-top: 8rem;
 }
 
 @media (min-width: 1200px) {
-    .jumbotron-padding {
-        padding-left: 33px;
-        padding-right: 33px;
+    .ww-portfolio .jumbotron {
+        padding-left: 20rem;
+        padding-right: 20rem;
     }
 }
 
 .jumbotron-logo-project {
-    width: 178px;
-    left: 3rem;
+    width: 229px;
+    display: block;
+    position: relative;
+    padding-bottom: 2rem;
+    margin: auto;
 }
+
+@media (min-width: 992px){
+.jumbotron-logo-project {
+    margin: auto;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right: 0;
+    left:0;
+    padding: 0;
+  }
+}
+
+.ww-hero-image {
+  margin-bottom: -2.1rem;
+}
+
+@media (min-width: 576px){
+  .ww-hero-image {
+    margin-bottom: -3.1rem;
+  }
+}
+
+
+.scroll-down-arrow {
+    text-indent: -9999px;
+    width: 40px;
+    height: 20px;
+    background: url(/images/icon-arrow-bottom.svg);
+    opacity: .2;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+    display: none;
+    position: absolute;
+    margin: auto;
+    left: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+.scroll-down-arrow:hover {
+    opacity: 1;
+}
+
+@media (min-width: 992px) {
+    .scroll-down-arrow {
+        display: block;
+        left: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+      .scroll-down-arrow {
+          left: 0;
+      }
+}
+
+/*@media (min-width: 1440px) {
+      .scroll-down-arrow {
+          left: 0;
+      }
+}*/
 
 /* portfolio */
 
@@ -51,13 +105,22 @@
     }
 }
 
-.ww-paragraph {
-  border-color: #5F97E9;
-  margin-bottom: 6rem;
+/*.portfolio-paragraph {
+  margin-top: 6rem;
+}*/
+
+.hidden-md {
+  display: none;
 }
 
-.ww-paragraph p {
-  line-height: normal;
+
+@media (min-width: 992px) {
+    .portfolio-paragraph {
+      margin-top: 6rem
+    }
+    .hidden-md {
+      display: block;
+    }
 }
 
 .project-description {
@@ -67,35 +130,26 @@
 @media (min-width: 768px) {
     .project-description {
       padding: 0 6rem;
-    }
-}
-
-@media (min-width: 992px) {
-    .project-description {
-      padding: 6rem;
+      margin-top: 0;
     }
 }
 
 @media (min-width: 992px) {
   .project-description {
-    background: url('/images/portfolio-description-icovia-bgd.png') no-repeat;
-    background-position: 180% top;
+      padding: 6rem 0 3rem 6rem;
+
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .project-description {
-    background-position: 100% top;
-    background-size: 42%;
+    min-height: 800px;
   }
 }
 
-
-@media (min-width: 768px) {
-    .portfolio-image {
-        background-repeat: no-repeat;
-        background-image: url('/images/songbird-carousel-placeholder.png');
-    }
+.project-description img {
+  max-width: 100%;
+  height: auto;
 }
 
 .portfolio-service {
@@ -122,7 +176,7 @@
     color: #989898;
 }
 .project-more-info {
-  background: url('/images/portfolio_bgd_amadeus.jpg') no-repeat;
+  /* background: url('/images/portfolio_bgd_amadeus.jpg') no-repeat; */
   background-size: cover;
   background-position: center top;
   font-size: 1.5rem;
@@ -170,12 +224,6 @@
 
 @media (min-width: 768px) {
   .project-more-info p {
-    margin-right: 30%;
-  }
-}
-
-@media (min-width: 768px) {
-  .project-more-info p {
     margin-right: 40%;
   }
 }
@@ -189,13 +237,146 @@
   width: 100%;
 }
 
-.project-services {
-  /*background-color: #1B1C25;*/
-  /*margin-bottom: 0;*/
-  padding: 6rem -15px;
+.rootinsight-portfolio {
+  margin: 0 3rem 6rem;
 }
 
-
-.project-service {
-  margin:4rem 0;
+.rootinsight-portfolio .project-service {
+  background: #FFFFFF;
+  box-shadow: 0 2px 15px 0 rgba(0,0,0,0.20);
+  margin: 0;
+  height: 100%;
 }
+
+.rootinsight-portfolio .project-service .container-fluid {
+  padding: 0;
+}
+
+.rootinsight-portfolio .project-service .row > [class*='col-'] {
+  overflow: hidden;
+}
+
+.rootinsight-portfolio .project-service img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  .rootinsight-portfolio .project-service .row {
+    max-height: 350px;
+  }
+  .rootinsight-portfolio .project-service img {
+    max-width: 200%;
+    margin-left: -40%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .rootinsight-portfolio .project-service img {
+    max-width: 100%;
+    margin-left: 0;
+    height: auto;
+  }
+}
+
+.rootinsight-portfolio .portfolio-service-body {
+  margin: 40px 0;
+}
+
+.rootinsight-portfolio .portfolio-service-heading {
+    color: #4A4A4A;
+    margin: 5rem 0 2rem;
+    padding: 0 3rem 0.8rem;
+    font-size: 1.8rem;
+    color: #282828;
+    font-weight: 700;
+}
+
+.rootinsight-portfolio .portfolio-service-text {
+    max-width: 100%;
+    margin: 0 auto 5rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #989898;
+    padding: 0 3rem ;
+}
+
+#rootinsight-carousel-hero .carousel-inner {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+    padding-bottom: 75%;
+}
+
+#rootinsight-carousel-hero .carousel-inner .carousel-item {
+  width: 100%;
+}
+
+#rootinsight-carousel-hero .carousel-inner .carousel-item:before {
+  display: block;
+  content: "";
+  width: 100%;
+}
+
+#rootinsight-carousel-hero .carousel-inner .carousel-item .img-fluid {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/*
+.rootinsight-carousel-hero-indicators {
+    bottom: 4px;
+}
+
+.jumbotron {
+    padding: 4rem 2rem 4rem;
+}
+
+.rootinsight-carousel-hero-indicators {
+  bottom: -8px;
+}
+
+@media (max-width: 575px) {
+  .rootinsight-carousel-hero-indicators {
+    bottom: -18px;
+  }
+}
+
+@media (min-width: 576px) {
+  .rootinsight-carousel-hero-indicators {
+    bottom: -6px;
+  }
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+      padding: 4rem 2rem 3rem;
+  }
+  
+  .rootinsight-carousel-hero-indicators {
+    bottom: 4px;
+  }
+}
+
+@media (min-width: 992px) {
+  .jumbotron {
+      padding: 4rem 2rem 4rem;
+  }
+  
+  .rootinsight-carousel-hero-indicators {
+    bottom: -8px;
+  }
+}
+
+li.rootinsight-carousel-hero-indicator {
+    max-width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.2);
+    margin-left: 6.5px;
+    margin-right: 6.5px;
+}
+*/

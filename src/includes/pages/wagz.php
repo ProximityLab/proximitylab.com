@@ -4,7 +4,7 @@
 
             <div class="col-lg-4">
               <img class="jumbotron-logo-project" src="/images/logo-wagz-green-2x.png" alt="Wagz logo">
-              <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
+              <a href="#start" class="scroll-down-arrow">Read more about Wagz</a>
             </div>
 
             <div id="wagz-carousel-hero" class="col-lg-4 ww-hero-image carousel carousel-fade" data-ride="carousel">

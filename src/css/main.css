@@ -251,6 +251,7 @@ a[name=start] {
 
 #home-carousel-testimonial .carousel-inner .carousel-item,
 #icovia-carousel-hero .carousel-inner .carousel-item,
+#rootinsight-carousel-hero .carousel-inner .carousel-item,
 #scheduleme-carousel-hero .carousel-inner .carousel-item,
 #wagz-carousel-hero .carousel-inner .carousel-item {
     opacity: 0;
@@ -265,6 +266,7 @@ a[name=start] {
 
 #home-carousel-testimonial .carousel-inner .carousel-item.active,
 #icovia-carousel-hero .carousel-inner .carousel-item.active,
+#rootinsight-carousel-hero .carousel-inner .carousel-item.active,
 #scheduleme-carousel-hero .carousel-inner .carousel-item.active,
 #wagz-carousel-hero .carousel-inner .carousel-item.active {
     opacity: 1;

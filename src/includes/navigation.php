@@ -9,9 +9,9 @@ $pagelist = array(
   '/work/songbird',
   '/work/philips',
   '/work/scheduleme',
-  '/work/icovia'
+  '/work/icovia',
   // '/work/mosaic',
-  // '/work/rootinsight',
+  '/work/rootinsight'
   // '/work/billnye',
   // '/work/adobe',
   // '/work/solidworks',
