@@ -10,7 +10,7 @@ $pagelist = array(
   '/work/philips',
   '/work/scheduleme',
   '/work/icovia',
-  // '/work/mosaic',
+  '/work/mosaic',
   '/work/rootinsight'
   // '/work/billnye',
   // '/work/adobe',
