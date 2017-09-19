@@ -65,7 +65,7 @@
         <div class="col-12 col-lg-4 align-self-center text-center">
             <div class="ama-portfolio-service">
                 <img class="ama-portfolio-service-icon" src="/images/icon-visual-experience.png" alt="Visual Experience">
-                <h4 class="ama-portfolio-service-heading">Visual Experience</h4>
+                <h4 class="ama-portfolio-service-heading">Visual Exploration</h4>
                 <p class="ama-portfolio-service-text">Our system gives the ability to manipulate and experiment with various plans and configurations for event spaces with powerful features normally associated with client/server apps - such as 3D space planning.</p>
             </div>
         </div>
