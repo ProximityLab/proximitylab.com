@@ -12,27 +12,6 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
     padding-top: 8rem;
 }
 
-/*@media (min-width: 1200px) {
-    .ama-jumbotron {
-        padding-left: 92px;
-        padding-right: 92px;
-    }
-}*/
-
-
-/*.jumbotron-logo-project {
-    margin: 2rem auto;
-    width: 100%;
-    position: relative;
-    display: block;
-}
-@media (min-width:992px) {
-    .jumbotron-logo-project {
-    position: absolute;
-    top: 40%}
-}*/
-
-
 .jumbotron-logo-project {
     width: 241px;
     padding-bottom: 2rem;
@@ -74,13 +53,6 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
         left: 25%;
     }
 }
-
-/*@media (min-width: 1200px) {
-      .scroll-down-arrow {
-          display: block;
-      }
-}*/
-
 
 .scroll-down-arrow:hover {
     opacity: 1;
@@ -346,15 +318,9 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
 }
 
 .ww-vid-holder {
-  /*width: 330px;*/
   width: 100%;
-  /*height: 218px;*/
-  /*width: 100%;*/
   height: 100%;
-  /*max-width: 747px;
-  max-height: 432px;*/
   position: relative;
-
   margin: 0 auto;
 }
 
@@ -367,13 +333,6 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
   }
 }
 
-/*@media (min-width: 768px) {
-  .ww-vid-holder {
-    width: 700px;
-    height: 350px;
-  }
-}*/
-
 @media (min-width: 1200px) {
   .ww-vid-holder {
     width: 800px;
@@ -382,27 +341,10 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
 }
 
 .ww-vid {
-  /*width: 75%;*/
-  /*height: 77%;*/
-
   position: relative;
-  /*margin: 0 auto;
-  top: 10%;*/
-  /*bottom: 0;*/
-  /*left: 12%;
-  right: 12%;
-  background-color: rgba(0, 0, 0, 1);*/
-  /*padding-top: .7%;*/
+  line-height: 0;
 }
 
-/*@media (min-width:576px) {
-  .ww-vid {
-    position: absolute;
-    margin: 0;
-    top: 7%;
-    left: 7%;
-  }
-}*/
 @media (min-width:768px) {
   .ww-vid {
     position: absolute;
@@ -432,12 +374,6 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
   width: 100%;
 }
 
-/*@media (min-width:576px) {
-  #video-amadeus {
-    width: 330px;
-  }
-}*/
-
 @media (min-width:768px) {
   #video-amadeus {
     width: 420px;
@@ -455,22 +391,16 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
   background: url("/images/icon-play-circle-o-white.svg") no-repeat;
   background-size: 4rem 4.3rem!important;
   background-position: center!important;
-  border:0;
+  border: none;
   padding: 0;
   text-indent: -9999px;
-  /*width: 330px;*/
   width: 100%;
-  height: 500px;
-  /*display: none;*/
+  height: 100%;
   position: absolute;
   margin: 0;
   top: 0;
   left: 0;
-  /*bottom: 0;*/
-  /*left: -.0001%;*/
-  /*right: 0;*/
   outline:0;
-  /*opacity: 0;*/
   -webkit-transition: opacity .25s ease-in-out;
   transition: opacity .25s ease-in-out;
   cursor: pointer;
@@ -479,8 +409,8 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
 
 @media (min-width: 576px) {
   #ww-play-pause {
-    width: 531px;
-    height: 398px;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -490,25 +420,14 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
     height: 315px;
   }
 }
-/*@media (min-width: 992px) {
-  #ww-play-pause {
-    height: 315px;
-  }
-}*/
 
 @media (min-width: 1200px) {
   #ww-play-pause {
-    width: 590px;
+    width: 589px;
     height: 442px;
+    left: 1px;
   }
 }
-
-/*@media (min-width: 1440px) {
-  #ww-play-pause {
-    width: 590px;
-    height: 442px;
-  }
-}*/
 
 #ww-play-pause.ww-init {
   opacity: 0;
