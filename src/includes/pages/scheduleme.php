@@ -15,20 +15,10 @@
                 <div class="carousel-item scheduleme-carousel-testimonial-item scheduleme-carousel-hero-item-two">
                   <img class="img-fluid" src="/images/website-mockup-scheduleme-2-2x.png" alt="Schedule website mockup">
                 </div>
-                <div class="carousel-item scheduleme-carousel-testimonial-item scheduleme-carousel-hero-item-three">
-                  <img class="img-fluid" src="/images/website-mockup-scheduleme-3-2x.png" alt="Schedule website mockup">
-                </div>
                 <div class="carousel-item scheduleme-carousel-testimonial-item scheduleme-carousel-hero-item-four">
                   <img class="img-fluid" src="/images/website-mockup-scheduleme-4-2x.png" alt="Schedule website mockup">
                 </div>
               </div>
-
-              <!-- ol class="carousel-indicators scheduleme-carousel-hero-indicators">
-                <li data-target="#scheduleme-carousel-hero" data-slide-to="0" class="scheduleme-carousel-hero-indicator active"></li>
-                <li data-target="#scheduleme-carousel-hero" data-slide-to="1" class="scheduleme-carousel-hero-indicator"></li>
-                <li data-target="#scheduleme-carousel-hero" data-slide-to="2" class="scheduleme-carousel-hero-indicator"></li>
-                <li data-target="#scheduleme-carousel-hero" data-slide-to="3" class="scheduleme-carousel-hero-indicator"></li>
-              </ol -->
             </div>
         </div><!-- row -->
     </div><!-- container -->
