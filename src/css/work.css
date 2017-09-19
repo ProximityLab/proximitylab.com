@@ -103,7 +103,7 @@
 #scribe { background-image: url('/images/work-item-background-scribe-2x.jpg'); }
 #wagz { background-image: url('/images/work-item-background-wagz-2x.jpg'); }
 #scheduleme { background-image: url('/images/work-item-background-scheduleme-2x.jpg'); }
-
+#massart { background-image: url('/images/work-item-background-massart-2x.jpg'); }
 #mosaic { background-image: url('/images/work-item-background-mosaic-2x.jpg'); }
 #icovia { background-image: url('/images/work-item-background-icovia-2x.jpg'); }
 #songbird { background-image: url('/images/work-item-background-songbird-2x.jpg'); }
@@ -137,6 +137,7 @@
 #icovia .work-item-overlay { background-color: rgba(235, 154, 0, 1) }
 #songbird .work-item-overlay { background-color: rgba(40, 185, 176, 1) }
 #eagle .work-item-overlay { background-color: rgba(178, 55, 231, 1) }
+#massart .work-item-overlay { background-color: rgba(211, 28, 123, 1) }
 #solidworks .work-item-overlay { background-color: rgba(38, 101, 162, 1) }
 #philips .work-item-overlay { background-color: rgba(42, 124, 234, 1) }
 #scribe .work-item-overlay { background-color: rgba(20, 143, 214, 1) }
@@ -152,6 +153,7 @@
 #icovia .work-item-logo { height: 39px; }
 #songbird .work-item-logo { width: 173px;}
 #eagle .work-item-logo { height: 69px; }
+#massart .work-item-logo { height: 55px; width: 248px;}
 #solidworks .work-item-logo { height: 32px; width: 155px;}
 #philips .work-item-logo { height: 33px; width: 180px; }
 #rootinsight .work-item-logo { height: 53px; }
