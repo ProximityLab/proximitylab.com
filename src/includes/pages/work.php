@@ -127,7 +127,7 @@
 
 
 
-        <!-- <div class="work-item col-12 col-sm-6 col-md-4">
+        <div class="work-item col-12 col-sm-6 col-md-4">
             <div id="solidworks" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
@@ -137,7 +137,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <div class="work-item col-sm-12 col-md-4">
             <div id="songbird" class="work-item-container text-center">
@@ -187,7 +187,7 @@
             </div>
         </div>
 
-        <!-- <div class="work-item col-12 col-sm-6 col-md-4">
+        <div class="work-item col-12 col-sm-6 col-md-4">
             <div id="mosaic" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
@@ -197,7 +197,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <!-- <div class="work-item col-12 col-md-8">
             <div id="scheduleme" class="work-item-container text-center">

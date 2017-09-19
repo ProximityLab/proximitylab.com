@@ -1,12 +1,23 @@
-<div class="jumbotron jumbotron-fluid jumbotron">
+<div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-lg-4 jumbotron-padding">
-              <img class="jumbotron-logo-project my-4 my-xl-5" src="/images/icon-project-icovia.png" alt="Icovia logo">
-              <a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a>
+            <div class="col-lg-3">
+              <img class="jumbotron-logo-project img-fluid" src="/images/logo-mosaic.svg" alt="Mosaic logo">
+              <a href="#start" class="scroll-down-arrow">Read more about Mosaic</a>
             </div>
-            <div class="col-lg-8 flex-first jumbotron-padding"><img class="img-fluid mt-5" src="/images/website-mockup-icovia.png" alt="Icovia website mockup"></div>
+
+            <div id="mosaic-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item mosaic-carousel-testimonial-item mosaic-carousel-hero-item-one active">
+                  <img class="img-fluid" src="/images/website-mockup-mosaic-2x.png" alt="Mosaic website mockup">
+                </div>
+              </div>
+
+              <!-- ol class="carousel-indicators mosaic-carousel-hero-indicators">
+                <li data-target="#mosaic-carousel-hero" data-slide-to="0" class="mosaic-carousel-hero-indicator active"></li>
+              </ol -->
+            </div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
@@ -16,28 +27,35 @@
     <div class="col-12">
       <h2 class="heading-secondary text-center"><a name="start">STARTUPS</a></h2>
 
-      <h1 class="heading-primary text-center">Pioneering Virtual Furniture Shopping</h1>
+      <h1 class="heading-primary text-center">Anytime, Anywhere Access to your Digital Portfolio</h1>
 
-      <p class="header-text text-center">Turning a simple space planning app into an industry standard</p>
+      <p class="header-text text-center">A mobile app to manage your photo library</p>
     </div>
   </div>
 </div>
 
 <div class="container-fluid project-description">
   <div class="row">
-    <div class="col-lg-6">
-      <p>Icovia’s space planning app started as a simple project to help create a home theater configuration tool - basically allowing users to position their products on an overhead view of a room. At the time, the team had a vision that this simple tool had much larger potential. The resulting app became the most powerful web-based 2D and 3D space planning app on market - in use by hundreds of retailers. But that’s exactly what happened.</p>
-      <p>The work we completed in order to build and launch the SchduleMe app consisted of competitive research, persona interviews, and concept testing</p>
-      <div class="ww-paragraph">
-        <p><strong>Custom space creation</strong> <br />Consumers could use the app to create accurate floor plans of their spaces.</p>
-        <p><strong>Realtime 3D rendering</strong> <br />This allowed site visitors to pick specific products from their retailers catalog, choose the desired fabric, and drag the icon to the map of their space.</p>
-        <p><strong>Powerful marketing capabilities</strong> <br />Although using the app for consumers was easy and free, the retailers were able to collect valuable marketing information by requiring users to register if they wanted to print, share, or save their room designs.</p>
-      </div>
+    <div class="col-12 col-md-12 col-lg-6">
+      <p>As professional designers and photographers, the founders of Mosaic were frustrated by the limitation of tools to help manage their photo libraries on their mobile devices. While the Adobe Lightroom app was a mainstay of their work, it lacked mobile management features. The Mosaic team reached out to Proximity Lab to help research and design a native companion mobile app for Lightroom to simplify digital asset management for creative professionals. Our work for this project included:</p>
+      <ul>
+        <li>
+          <h4>Research </h4>
+          We evaluated existing apps in the market and interviewed prospective users
+        </li>
+        <li>
+          <h4>Branding</h4>
+          We created a logo and other visual identity materials
+        </li>
+        <li>
+          <h4>UX/UI Design</h4>
+          Our team designed a fully native iOS experience for both phones and tablets
+        </li>
+      </ul>
+      <p>The app successfully became a companion app to Adobe Lightroom - providing professional photographers with anytime, anywhere access to their digital asset libraries on their mobile devices. Mosaic sold to OnOne Software in October 2014.</p>
     </div>
-    <div class="col-lg-12"><p>
-This joint venture was massively successful, and shortly thereafter other leading furniture retailers worked with Icovia to create private labeled instances of the product. Ultimately Icovia was acquired for its market leading technology and is still in use at hundreds of leading U.S. retailers.
-</p>
-</div>
-
+    <div class="col-12 col-lg-5 offset-lg-1 hidden-md">
+      <img src="/images/portfolio-description-mosaic-bgd.png"  class="img-fluid" alt="Visual Experience">
+    </div>
   </div>
 </div>

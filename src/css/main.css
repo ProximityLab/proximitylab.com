@@ -253,7 +253,9 @@ a[name=start] {
 #icovia-carousel-hero .carousel-inner .carousel-item,
 #rootinsight-carousel-hero .carousel-inner .carousel-item,
 #scheduleme-carousel-hero .carousel-inner .carousel-item,
-#wagz-carousel-hero .carousel-inner .carousel-item {
+#wagz-carousel-hero .carousel-inner .carousel-item,
+#mosaic-carousel-hero .carousel-inner .carousel-item,
+#solidworks-carousel-hero .carousel-inner .carousel-item  {
     opacity: 0;
     display: block;
     position: absolute;
@@ -268,7 +270,9 @@ a[name=start] {
 #icovia-carousel-hero .carousel-inner .carousel-item.active,
 #rootinsight-carousel-hero .carousel-inner .carousel-item.active,
 #scheduleme-carousel-hero .carousel-inner .carousel-item.active,
-#wagz-carousel-hero .carousel-inner .carousel-item.active {
+#wagz-carousel-hero .carousel-inner .carousel-item.active,
+#mosaic-carousel-hero .carousel-inner .carousel-item.active,
+#solidworks-carousel-hero .carousel-inner .carousel-item.active  {
     opacity: 1;
     display: block;
 }

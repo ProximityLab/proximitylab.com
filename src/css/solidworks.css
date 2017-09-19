@@ -1,42 +1,104 @@
 /**
- *Solid Works Insight page
+ * Schedule Me page
  */
 
 /* jumbotron */
 
-.jumbotron {
-  background-image: linear-gradient(44deg, #FFBB00 0%, #D06B02 100%);
-  margin-bottom: 0;
+.ww-portfolio .jumbotron {
+  background-image: linear-gradient(-45deg, #55A0D0 0%, #22619F 100%);
   position: relative;
+  padding-top: 8rem;
+  padding-bottom: 0;
 }
 
-/*.jumbotron .flex-first img {
-    margin: 0 0 -2.1rem 0;
-}*/
+@media (min-width: 576px){
+  .ww-portfolio .jumbotron {
+    padding-bottom: 2rem;
+  }
+}
 
-/*@media (min-width: 576px) {
-    .jumbotron .flex-first img {
-        margin: 0 0 -4rem 0;
-    }
-}*/
-
-@media (min-width: 1200px) {
-    .jumbotron {
-        padding-left: 92px;
-        padding-right: 92px;
-    }
+.ww-portfolio .jumbotron [class*='col-'] {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 @media (min-width: 1200px) {
-    .jumbotron-padding {
-        padding-left: 33px;
-        padding-right: 33px;
+    .ww-portfolio .jumbotron {
+        padding-left: 20rem;
+        padding-right: 20rem;
     }
 }
 
 .jumbotron-logo-project {
-    width: 178px;
-    left: 3rem;
+    width: 60%;
+    max-width: 229px;
+    display: block;
+    position: relative;
+    padding-bottom: 2rem;
+    margin: auto;
+}
+
+@media (min-width: 992px){
+.jumbotron-logo-project {
+    margin: auto;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right: 0;
+    left: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1200px){
+  .jumbotron-logo-project {
+    right: 1em;
+    left: -1em;
+  }
+}
+
+.ww-hero-image {
+  margin-bottom: 0;
+}
+
+@media (min-width: 576px){
+  .ww-hero-image {
+    margin-bottom: -2rem;
+  }
+}
+
+
+.scroll-down-arrow {
+    text-indent: -9999px;
+    width: 40px;
+    height: 20px;
+    background: url(/images/icon-arrow-bottom.svg);
+    opacity: .2;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+    display: none;
+    position: absolute;
+    margin: auto;
+    left: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+.scroll-down-arrow:hover {
+    opacity: 1;
+}
+
+@media (min-width: 992px) {
+    .scroll-down-arrow {
+        display: block;
+        left: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+  .scroll-down-arrow {
+      left: 0;
+  }
 }
 
 /* portfolio */
@@ -51,51 +113,80 @@
     }
 }
 
-.ww-paragraph {
-  border-color: #5F97E9;
-  margin-bottom: 6rem;
+.portfolio-header {
+  margin: 3rem 0 3rem;
 }
 
-.ww-paragraph p {
-  line-height: normal;
+@media (min-width: 992px) {
+  .portfolio-header {
+    margin: 3rem 0 10rem;
+  }
+}
+
+.hidden-md {
+  display: none;
+}
+
+.background-image {
+  margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+    .background-image {
+      margin-left: -2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .portfolio-paragraph {
+      margin-top: 6rem
+    }
+    .hidden-md {
+      display: block;
+    }
+    .background-image {
+      margin-top: 0;
+      margin-left: 0;
+      padding-right: 0;
+      overflow: hidden;
+    }
+
+    .background-image img {
+      margin-left: 9%;
+    }
 }
 
 .project-description {
-  min-height: 0;
+  padding: 0 6rem;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 768px) {
     .project-description {
-      padding: 0 6rem;
+      padding: 0 1rem 0 6rem;
+      margin-top: 0;
     }
 }
 
-@media (min-width: 992px) {
-    .project-description {
-      padding: 6rem;
-    }
-}
-
-@media (min-width: 992px) {
-  .project-description {
-    background: url('/images/portfolio-description-icovia-bgd.png') no-repeat;
-    background-position: 180% top;
-  }
-}
-
-@media (min-width: 1200px) {
-  .project-description {
-    background-position: 100% top;
-    background-size: 42%;
-  }
+.project-description ul {
+  border-left: 4px solid #5F97E9;
+  margin: 3rem;
+  list-style: none;
 }
 
 
-@media (min-width: 768px) {
-    .portfolio-image {
-        background-repeat: no-repeat;
-        background-image: url('/images/songbird-carousel-placeholder.png');
-    }
+.project-description ul li {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0.5rem 3rem 2rem 0;
+    line-height: 2.5rem;
+}
+
+.project-description ul li h4 {
+    color: #4A4A4A;
+    font-size: 1.8rem;
+    color: #282828;
+    font-weight: 700;
 }
 
 .portfolio-service {
@@ -126,8 +217,7 @@
   background-size: cover;
   background-position: center top;
   font-size: 1.5rem;
-    color: #282828;
-    /*padding: 0;*/
+  color: #282828;
 }
 
 .project-more-info .top {
@@ -170,12 +260,6 @@
 
 @media (min-width: 768px) {
   .project-more-info p {
-    margin-right: 30%;
-  }
-}
-
-@media (min-width: 768px) {
-  .project-more-info p {
     margin-right: 40%;
   }
 }
@@ -190,12 +274,30 @@
 }
 
 .project-services {
-  /*background-color: #1B1C25;*/
-  /*margin-bottom: 0;*/
   padding: 6rem -15px;
 }
 
 
 .project-service {
   margin:4rem 0;
+}
+
+#solidworks-carousel-hero .carousel-inner {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#solidworks-carousel-hero .carousel-inner .carousel-item {
+  width: 100%;
+  position: relative;
+}
+
+#solidworks-carousel-hero .carousel-inner .carousel-item:before {
+  display: block;
+  content: "";
+  width: 100%;
+}
+
+#solidworks-carousel-hero .carousel-inner .carousel-item .img-fluid {
+  
 }
