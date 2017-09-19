@@ -27,9 +27,9 @@
     <div class="col-12">
       <h2 class="heading-secondary text-center"><a name="start">STARTUPS</a></h2>
 
-      <h1 class="heading-primary text-center">Anytime, Anywhere Access to your Digital Portfolio</h1>
+      <h1 class="heading-primary text-center">Need Heading</h1>
 
-      <p class="header-text text-center">A mobile app to manage your photo library</p>
+      <p class="header-text text-center">An experimental platform to study and visualize social interaction</p>
     </div>
   </div>
 </div>
@@ -52,7 +52,7 @@
           Our team designed a fully native iOS experience for both phones and tablets
         </li>
       </ul>
-      <p>The app successfully became a companion app to Adobe Lightroom - providing professional photographers with anytime, anywhere access to their digital asset libraries on their mobile devices. Mosaic sold to OnOne Software in October 2014.</p>
+      <!-- p>The app successfully became a companion app to Adobe Lightroom - providing professional photographers with anytime, anywhere access to their digital asset libraries on their mobile devices. Mosaic sold to OnOne Software in October 2014.</p -->
     </div>
     <div class="col-12 col-lg-5 offset-lg-1 hidden-md">
       <img src="/images/portfolio-description-massart-bgd.png"  class="img-fluid" alt="Visual Experience">
