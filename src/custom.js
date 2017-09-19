@@ -323,11 +323,29 @@ $(document).ready(function() {
   $(careersForm).submit(submitContactForm('careers-form'));
 
 });
-var mainVideo = $('#video1');
 
-var medQualVersionSrc = '/video/minim_medium.mp4';
-var highQualVersionSrc = '/video/minim.mp4';
-var webMSrc = '/video/minim.webm';
+// window.mainVideo;
+// window.medQualVersionSrc;
+// window.highQualVersionSrc;
+// window.webMSrc;
+
+if($('#video1').length > 0)
+{
+  mainVideo = $('#video1');
+  medQualVersionSrc = '/video/minim_medium.mp4';
+  highQualVersionSrc = '/video/minim.mp4';
+  webMSrc = '/video/minim.webm';
+  myVideo = document.getElementById("video1");
+}
+else if($('#video-amadeus').length > 0)
+{
+  mainVideo = $('#video-amadeus');
+  medQualVersionSrc = '/video/amadeus-small.mp4';
+  highQualVersionSrc = '/video/amadeus-medium.mp4';
+  webMSrc = '/video/amadeus.webm';
+  myVideo = document.getElementById("video-amadeus");
+}
+
 
 if ($(window).width() < 576) {
   mainVideo.append("<source type='video/mp4' src='" + medQualVersionSrc + "' type='video/mp4;codecs=avc1.42E01E, mp4a.40.2' />");
@@ -337,19 +355,32 @@ if ($(window).width() < 576) {
 mainVideo.append("<source type='video/webm' src='" + webMSrc + "' type='video/webm;codecs=vp8, vorbis' />Your browser does not support the video tag.");
 
 
-var myVideo = document.getElementById("video1");
+// var myVideo;
+//
+// if(document.getElementById("video1").length > 0)
+// {
+//   myVideo = document.getElementById("video1");
+// }
+// else if (document.getElementById("video-amadeus").length > 0)
+// {
+//   myVideo = document.getElementById("video-amadeus");
+// }
 
 if (myVideo) {
   myVideo.onplay = function() {
-    console.log("The video has started to play");
+    console.log("Start myVideo.currentTime: " + myVideo.currentTime);
     $("#ww-play-pause").addClass('ww-init');
     $("#ww-play-pause").addClass('active');
   };
 
   myVideo.onended = function() {
-    console.log("The video has ended");
     $("#ww-play-pause").removeClass('active');
     $("#ww-play-pause").removeClass('ww-init');
+    myVideo.currentTime = 10;
+    console.log("End myVideo.currentTime: " + myVideo.currentTime);
+    // myVideo.pause();
+    myVideo.load();
+    myVideo.pause();
   };
 }
 

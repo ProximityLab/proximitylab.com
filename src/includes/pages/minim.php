@@ -10,12 +10,6 @@
               <!-- <img class="img-fluid" src="/images/website-mockup-amadeus-2x.png" alt="Amadeus website mockup"> -->
             <div class="ww-vid-holder"><div class="ww-vid">
                   <video id="video1" poster="/images/video-poster-minim-2x.png" autoplay>
-                    <!-- <source src="/video/minim_small.mp4" type="video/mp4;codecs=avc1.42E01E, mp4a.40.2" media="all and (max-width: 320px)" /> -->
-                    <!-- <source src="/video/minim.webm" type="video/webm;codecs=vp8, vorbis" media="all and (min-width: 480px)" /> -->
-
-                    <!-- <source src="/video/minim.mp4" type="video/mp4;codecs=avc1.42E01E, mp4a.40.2" /> -->
-                    <!-- <source src="/video/minim.webm" type="video/webm;codecs=vp8, vorbis"/> -->
-                  <!-- Your browser does not support the video tag. -->
                   </video>
                     <button id="ww-play-pause">Play/Pause</button>
             </div></div></div>
