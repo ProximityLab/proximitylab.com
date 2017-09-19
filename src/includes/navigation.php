@@ -11,10 +11,10 @@ $pagelist = array(
   '/work/scheduleme',
   '/work/icovia',
   '/work/mosaic',
-  '/work/rootinsight'
+  '/work/rootinsight',
   // '/work/billnye',
   // '/work/adobe',
-  // '/work/solidworks',
+  '/work/solidworks'
 );
 
 $previous;
