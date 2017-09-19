@@ -5,16 +5,36 @@
 /* jumbotron */
 
 .ww-portfolio .jumbotron {
-  background-image: linear-gradient(-134deg, #E02090 0%, #AC0E39 100%);
-  background: #E3198C;
+  background: #E0128A;
   position: relative;
   padding-top: 8rem;
   padding-bottom: 0;
+  margin-top: -80px;
+}
+
+.ww-portfolio .jumbotron .jumbotron-logo-container {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    text-align: center;
 }
 
 @media (min-width: 576px){
   .ww-portfolio .jumbotron {
     padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 996px){
+  .ww-portfolio .jumbotron {
+    margin-top: -80px;
+  }
+
+  .ww-portfolio .jumbotron .jumbotron-logo-container {
+      position: relative;
+      top: inherit;
+      z-index: 10;
+      text-align: inherit;
   }
 }
 
@@ -31,8 +51,8 @@
 }
 
 .jumbotron-logo-project {
-    width: 60%;
-    max-width: 229px;
+    width: 339px;
+    max-width: 90%;
     display: block;
     position: relative;
     padding-bottom: 2rem;
@@ -53,6 +73,7 @@
 
 @media (min-width: 1200px){
   .jumbotron-logo-project {
+    max-width: 100%;
     right: 1em;
     left: -1em;
   }
@@ -266,11 +287,21 @@
 #massart-carousel-hero .carousel-inner {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  overflow: visible;
 }
 
 #massart-carousel-hero .carousel-inner .carousel-item {
   width: 100%;
   position: relative;
+}
+
+@media (min-width: 992px) {
+  #massart-carousel-hero .carousel-inner {
+    margin-left: -25%;
+  }
+  #massart-carousel-hero .carousel-inner .carousel-item {
+    width: 150%;
+  }
 }
 
 #massart-carousel-hero .carousel-inner .carousel-item:before {

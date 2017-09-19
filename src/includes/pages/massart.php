@@ -2,15 +2,15 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-lg-3">
-              <img class="jumbotron-logo-project img-fluid" src="/images/logo-massart.svg" alt="Mosaic logo">
-              <a href="#start" class="scroll-down-arrow">Read more about Mosaic</a>
+            <div class="jumbotron-logo-container col-lg-3">
+              <img class="jumbotron-logo-project img-fluid" src="/images/logo-massart.svg" alt="MassArt logo">
+              <a href="#start" class="scroll-down-arrow">Read more about MassArt</a>
             </div>
 
             <div id="massart-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item massart-carousel-testimonial-item massart-carousel-hero-item-one active">
-                  <img class="img-fluid" src="/images/website-mockup-massart-2x.png" alt="Mosaic website mockup">
+                  <img class="img-fluid" src="/images/website-mockup-massart-2x.png" alt="MassArt website mockup">
                 </div>
               </div>
 
