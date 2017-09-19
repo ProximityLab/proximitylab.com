@@ -5,7 +5,7 @@
 /* jumbotron */
 
 .ww-portfolio .jumbotron {
-  background: #E0128A;
+  background: #E3198C;
   position: relative;
   padding-top: 8rem;
   padding-bottom: 0;
@@ -21,7 +21,7 @@
 
 @media (min-width: 576px){
   .ww-portfolio .jumbotron {
-    padding-bottom: 2rem;
+    padding-bottom: 2.1rem;
   }
 }
 

@@ -9,17 +9,11 @@
 
             <div id="wagz-carousel-hero" class="col-lg-4 ww-hero-image carousel carousel-fade" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
-                <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-one active">
-                  <img class="img-fluid" src="/images/iphone-mockup-wagz-2x.png" alt="Wagz iPhone mockup">
-                </div>
-                <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-two">
+                <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-two active">
                   <img class="img-fluid" src="/images/iphone-mockup-wagz-2-2x.png" alt="Wagz iPhone mockup">
                 </div>
                 <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-three">
                   <img class="img-fluid" src="/images/iphone-mockup-wagz-3-2x.png" alt="Wagz iPhone mockup">
-                </div>
-                <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-four">
-                  <img class="img-fluid" src="/images/iphone-mockup-wagz-4-2x.png" alt="Wagz iPhone mockup">
                 </div>
                 <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-five">
                   <img class="img-fluid" src="/images/iphone-mockup-wagz-5-2x.png" alt="Wagz iPhone mockup">
@@ -31,16 +25,6 @@
                   <img class="img-fluid" src="/images/iphone-mockup-wagz-7-2x.png" alt="Wagz iPhone mockup">
                 </div>
               </div>
-
-              <!-- ol class="carousel-indicators wagz-carousel-hero-indicators">
-                <li data-target="#wagz-carousel-hero" data-slide-to="0" class="wagz-carousel-hero-indicator active"></li>
-                <li data-target="#wagz-carousel-hero" data-slide-to="1" class="wagz-carousel-hero-indicator"></li>
-                <li data-target="#wagz-carousel-hero" data-slide-to="2" class="wagz-carousel-hero-indicator"></li>
-                <li data-target="#wagz-carousel-hero" data-slide-to="3" class="wagz-carousel-hero-indicator"></li>
-                <li data-target="#wagz-carousel-hero" data-slide-to="4" class="wagz-carousel-hero-indicator"></li>
-                <li data-target="#wagz-carousel-hero" data-slide-to="5" class="wagz-carousel-hero-indicator"></li>
-                <li data-target="#wagz-carousel-hero" data-slide-to="6" class="wagz-carousel-hero-indicator"></li>
-              </ol -->
             </div>
         </div><!-- row -->
     </div><!-- container -->

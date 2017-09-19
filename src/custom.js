@@ -322,79 +322,56 @@ $(document).ready(function() {
   $(sayHelloForm).submit(submitContactForm('say-hello-form'));
   $(careersForm).submit(submitContactForm('careers-form'));
 
-});
+  var mainVideo;
 
-// window.mainVideo;
-// window.medQualVersionSrc;
-// window.highQualVersionSrc;
-// window.webMSrc;
+  if ($('#video1').length > 0) {
+    mainVideo = $('#video1');
+    medQualVersionSrc = '/video/minim_medium.mp4';
+    highQualVersionSrc = '/video/minim.mp4';
+    webMSrc = '/video/minim.webm';
+  } else if ($('#video-amadeus').length > 0) {
+    mainVideo = $('#video-amadeus');
+    medQualVersionSrc = '/video/amadeus_590x444_M.mp4';
+    highQualVersionSrc = '/video/amadeus_1920x1440_S.mp4';
+    webMSrc = '/video/amadeus.webm';
+  }
 
-if ($('#video1').length > 0) {
-  mainVideo = $('#video1');
-  medQualVersionSrc = '/video/minim_medium.mp4';
-  highQualVersionSrc = '/video/minim.mp4';
-  webMSrc = '/video/minim.webm';
-  myVideo = document.getElementById("video1");
-} else if ($('#video-amadeus').length > 0) {
-  mainVideo = $('#video-amadeus');
-  medQualVersionSrc = '/video/amadeus_590x444_M.mp4';
-  highQualVersionSrc = '/video/amadeus_1920x1440_S.mp4';
-  webMSrc = '/video/amadeus.webm';
-  myVideo = document.getElementById("video-amadeus");
-}
+  if (mainVideo) {
+    if ($(window).width() < 576) {
+      mainVideo.append("<source type='video/mp4' src='" + medQualVersionSrc + "' type='video/mp4;codecs=avc1.42E01E, mp4a.40.2' />");
+    } else {
+      mainVideo.append("<source type='video/mp4' src='" + highQualVersionSrc + "' type='video/mp4;codecs=avc1.42E01E, mp4a.40.2' />");
+    }
+    mainVideo.append("<source type='video/webm' src='" + webMSrc + "' type='video/webm;codecs=vp8, vorbis' />Your browser does not support the video tag.");
 
+    $("video").prop("volume", 0.25);
 
-if ($(window).width() < 576) {
-  mainVideo.append("<source type='video/mp4' src='" + medQualVersionSrc + "' type='video/mp4;codecs=avc1.42E01E, mp4a.40.2' />");
-} else {
-  mainVideo.append("<source type='video/mp4' src='" + highQualVersionSrc + "' type='video/mp4;codecs=avc1.42E01E, mp4a.40.2' />");
-}
-mainVideo.append("<source type='video/webm' src='" + webMSrc + "' type='video/webm;codecs=vp8, vorbis' />Your browser does not support the video tag.");
+    mainVideo[0].onplay = function() {
+      $("#ww-play-pause").addClass('ww-init');
+      $("#ww-play-pause").addClass('active');
+    };
 
+    mainVideo[0].onended = function() {
+      $("#ww-play-pause").removeClass('active');
+      $("#ww-play-pause").removeClass('ww-init');
+      mainVideo[0].currentTime = 10;
+      mainVideo[0].load();
+      mainVideo[0].pause();
+    };
 
-// var myVideo;
-//
-// if(document.getElementById("video1").length > 0)
-// {
-//   myVideo = document.getElementById("video1");
-// }
-// else if (document.getElementById("video-amadeus").length > 0)
-// {
-//   myVideo = document.getElementById("video-amadeus");
-// }
+    $("#ww-play-pause").click(function() {
 
-if (myVideo) {
-  myVideo.onplay = function() {
-    console.log("Start myVideo.currentTime: " + myVideo.currentTime);
-    $("#ww-play-pause").addClass('ww-init');
-    $("#ww-play-pause").addClass('active');
-  };
-
-  myVideo.onended = function() {
-    $("#ww-play-pause").removeClass('active');
-    $("#ww-play-pause").removeClass('ww-init');
-    myVideo.currentTime = 10;
-    console.log("End myVideo.currentTime: " + myVideo.currentTime);
-    // myVideo.pause();
-    myVideo.load();
-    myVideo.pause();
-  };
-}
-
-
-$("#ww-play-pause").click(function() {
-
-  console.log(myVideo.ended + "^^^^^^");
-
-  if (myVideo.paused) {
-    myVideo.play();
-    $("#ww-play-pause").addClass('active');
-    $("#ww-play-pause").addClass('ww-init');
-  } else if (myVideo.ended) {
-    console.log(myVideo.ended + "##############");
-  } else {
-    myVideo.pause();
-    $("#ww-play-pause").removeClass('active');
-    $("#ww-play-pause").removeClass('ww-init');
+      if (mainVideo[0].paused) {
+        mainVideo[0].play();
+        $("#ww-play-pause").addClass('active');
+        $("#ww-play-pause").addClass('ww-init');
+      } else if (mainVideo[0].ended) {
+        // video ended
+      } else {
+        mainVideo[0].pause();
+        $("#ww-play-pause").removeClass('active');
+        $("#ww-play-pause").removeClass('ww-init');
+      }
+    });
   }
 });
