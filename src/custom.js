@@ -329,19 +329,16 @@ $(document).ready(function() {
 // window.highQualVersionSrc;
 // window.webMSrc;
 
-if($('#video1').length > 0)
-{
+if ($('#video1').length > 0) {
   mainVideo = $('#video1');
   medQualVersionSrc = '/video/minim_medium.mp4';
   highQualVersionSrc = '/video/minim.mp4';
   webMSrc = '/video/minim.webm';
   myVideo = document.getElementById("video1");
-}
-else if($('#video-amadeus').length > 0)
-{
+} else if ($('#video-amadeus').length > 0) {
   mainVideo = $('#video-amadeus');
-  medQualVersionSrc = '/video/amadeus-small.mp4';
-  highQualVersionSrc = '/video/amadeus-medium.mp4';
+  medQualVersionSrc = '/video/amadeus_590x444_M.mp4';
+  highQualVersionSrc = '/video/amadeus_1920x1440_S.mp4';
   webMSrc = '/video/amadeus.webm';
   myVideo = document.getElementById("video-amadeus");
 }
