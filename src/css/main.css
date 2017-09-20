@@ -154,22 +154,74 @@ a[name=start] {
     margin-left: 1rem;
 }
 
-.ww-panels .carousel-indicators li:first-child {
-    display: none;
-    margin-left: 0;
-}
-
 .ww-panels .carousel-indicators li.active {
     background-color: #fff;
     border: 1px solid #ed08d3;
 }
 
+.ww-panel-icon-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: none;
+}
+
+.ww-panel-icon-container.active {
+    display: block;
+}
+
+.ww-panel-icon-container,
 .ww-panels .carousel-inner {
     overflow: hidden !important;
     height: 330px !important;
     max-height: 330px !important;
 }
 
+.ww-panels .carousel-inner {
+    display: none;
+}
+
+.ww-panels .carousel-inner.active {
+    display: block;
+}
+
+.ww-panel-icon-container .ww-panel-icon {
+    position: relative;
+    display: none;
+    width: 100%;
+}
+
+@media (-webkit-transform-3d) {
+    .ww-panel-icon-container .ww-panel-icon {
+        -webkit-transition: -webkit-transform .6s ease-in-out;
+        transition: -webkit-transform .6s ease-in-out;
+        -o-transition: -o-transform .6s ease-in-out;
+        transition: transform .6s ease-in-out;
+        transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out,-o-transform .6s ease-in-out;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-perspective: 1000px;
+        perspective: 1000px;
+    }
+}
+
+.ww-panel-icon-container .ww-panel-icon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: -webkit-transform .6s ease-in-out;
+    transition: -webkit-transform .6s ease-in-out;
+    -o-transition: -o-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out,-o-transform .6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.ww-panel-icon-container .ww-panel-icon,
 .ww-panels .carousel-item {
     height: 330px !important;
     max-height: 330px !important;
@@ -188,27 +240,17 @@ a[name=start] {
 }
 
 .ww-btn {
-    border-radius: 2px;
-    border: 1px solid #4a90e2;
-    background-color: #fff;
-    color: #4a90e2;
-    padding: 1.2rem 1.5rem;
-    font-size: 16px;
-    font-size: 1.6rem;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 40%;
-    text-align: center;
-    top: 70%;
-    z-index: 1;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0.7rem 2.5rem;
+    font-weight: 400;
+    border-color: #4A90E2;
+    color: #4A90E2;
 }
 
 .ww-btn:hover {
-    text-decoration: none;
-    background-color: #4a90e2;
-    color: #fff;
+    background-color: #4A90E2;
+    border-color: #4A90E2;
 }
 
 .ww-panels h3 {
@@ -225,7 +267,7 @@ a[name=start] {
     top: 76.5%
 }
 
-.ww-panels .carousel-item.ww-panel-icon {
+.ww-panels .ww-panel-icon-container .ww-panel-icon {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     margin-top: -2.5rem;

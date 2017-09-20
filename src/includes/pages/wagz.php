@@ -7,7 +7,7 @@
               <a href="#start" class="scroll-down-arrow">Read more about Wagz</a>
             </div>
 
-            <div id="wagz-carousel-hero" class="col-lg-4 ww-hero-image carousel carousel-fade" data-ride="carousel">
+            <div id="wagz-carousel-hero" class="col-lg-4 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-two active">
                   <img class="img-fluid" src="/images/iphone-mockup-wagz-2-2x.png" alt="Wagz iPhone mockup">

@@ -19,103 +19,93 @@
 
   <div class="row ww-panels pt-5">
     <div class="col-lg-4">
-      <div id="home-carousel-enterprise" class="carousel" data-interval="false">
+      <div id="home-carousel-enterprise" class="carousel" data-ride="carousel" data-interval="4000" data-pause="false">
         <ol class="carousel-indicators">
           <li data-target="#home-carousel-enterprise" data-slide-to="0" class="active"></li>
           <li data-target="#home-carousel-enterprise" data-slide-to="1"></li>
-          <li data-target="#home-carousel-enterprise" data-slide-to="2"></li>
-            <!-- <li data-target="#home-carousel-enterprise" data-slide-to="3"></li> -->
         </ol>
         <h3 class="home-workwith-item-heading">Enterprise UX</h3>
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active ww-panel-icon">
-            <img class="" src="/images/icon-building.svg" alt="Desktop icon">
-
+        <div class="ww-panel-icon-container active">
+          <div class="ww-panel-icon animated fadeIn">
+            <img src="/images/icon-building.svg" alt="Desktop icon">
           </div>
-          <!-- <div class="carousel-item">
-            <img src="/images/logo-adobe.png" alt="Proximity Lab - Project">
-            <p>Teaser about the Adobe work that describes briefly what we did</p>
-            <a href="?page=/work/adobe">View Project</a>
-          </div> -->
-          <div class="carousel-item">
-            <img src="/images/logo-eagle-blue.png" alt="Proximity Lab - Project">
+        </div>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img src="/images/logo-eagle-blue.png" class="ww-project-icon animated fadeIn"  alt="Proximity Lab - Project">
             <!-- <p>Teaser about the Eagle Genomics work that describes briefly what we did</p> -->
             <br>
-            <a href="?page=/work/eagle">View Project</a>
+            <a href="?page=/work/eagle" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
           </div>
           <div class="carousel-item">
-            <img src="/images/logo-philips-blue.png" alt="Proximity Lab - Project">
+            <img src="/images/logo-philips-blue.png" class="ww-project-icon animated fadeIn"  alt="Proximity Lab - Project">
             <!-- <p>Teaser about the Philips work that describes briefly what we did</p> -->
             <br>
-            <a href="?page=/work/philips">View Project</a>
+            <a href="?page=/work/philips" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
           </div>
         </div>
       </div>
     </div>
     <div class="col-lg-4">
-      <div id="home-carousel-startups" class="carousel" data-interval="false">
+      <div id="home-carousel-startups" class="carousel" data-ride="carousel" data-interval="4000" data-pause="false">
         <ol class="carousel-indicators">
           <li data-target="#home-carousel-startups" data-slide-to="0" class="active"></li>
           <li data-target="#home-carousel-startups" data-slide-to="1"></li>
-          <li data-target="#home-carousel-startups" data-slide-to="2"></li>
           <!-- <li data-target="#home-carousel-startups" data-slide-to="3"></li> -->
         </ol>
         <h3 class="home-workwith-item-heading text-center">Startups</h3>
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active ww-panel-icon">
-            <img class="" src="/images/icon-desktop.svg" alt="Desktop icon">
-
+        <div class="ww-panel-icon-container active">
+          <div class="ww-panel-icon animated fadeIn">
+            <img src="/images/icon-desktop.svg" alt="Desktop icon">
           </div>
-          <div class="carousel-item">
-            <img src="/images/logo-wagz-blue.png" alt="Proximity Lab - Project">
+        </div>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img src="/images/logo-wagz-blue.png" class="ww-project-icon animated fadeIn" alt="Proximity Lab - Project">
             <!-- <p>Teaser about the Wagz work that describes briefly what we did</p> -->
             <br>
-            <a href="?page=/work/wagz">View Project</a>
+            <a href="?page=/work/wagz" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
           </div>
-          <!-- <div class="carousel-item">
-            <img src="/images/logo-nye-blue.png" alt="Proximity Lab - Project">
-            <p>Teaser about the Bill Nye work that describes briefly what we did</p>
-            <a href="?page=/work/billnye">View Project</a>
-          </div> -->
           <div class="carousel-item">
-            <img src="/images/logo-minim-blue.png" alt="Proximity Lab - Project">
+            <img src="/images/logo-minim-blue.png" class="ww-project-icon animated fadeIn"  alt="Proximity Lab - Project">
             <!-- <p>Teaser about the Minim work that describes briefly what we did</p> -->
             <br>
-            <a href="?page=/work/minim">View Project</a>
+            <a href="?page=/work/minim" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
           </div>
         </div>
       </div>
     </div>
     <div class="col-lg-4">
-      <div id="home-carousel-reboots" class="carousel">
+      <div id="home-carousel-reboots" class="carousel" data-ride="carousel" data-interval="4000" data-pause="false">
         <ol class="carousel-indicators">
           <li data-target="#home-carousel-reboots" data-slide-to="0" class="active"></li>
           <li data-target="#home-carousel-reboots" data-slide-to="1"></li>
           <li data-target="#home-carousel-reboots" data-slide-to="2"></li>
-          <li data-target="#home-carousel-reboots" data-slide-to="3"></li>
         </ol>
         <h3 class="home-workwith-item-heading text-center">Application Reboots</h3>
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active ww-panel-icon">
-            <img class="" src="/images/icon-app.svg" alt="Desktop icon">
+        <div class="ww-panel-icon-container active">
+          <div class="ww-panel-icon animated fadeIn">
+            <img src="/images/icon-app.svg" alt="Desktop icon">
           </div>
-          <div class="carousel-item">
-            <img src="/images/logo-scribe-blue.png" alt="Proximity Lab - Project">
+        </div>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img src="/images/logo-scribe-blue.png" class="ww-project-icon animated fadeIn"  alt="Proximity Lab - Project">
             <!-- <p>Teaser about the Scribe work that describes briefly what we did</p> -->
             <br>
-            <a href="?page=/work/scribe">View Project</a>
+            <a href="?page=/work/scribe" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
           </div>
           <div class="carousel-item">
-            <img src="/images/logo-amadeus-blue.png" alt="Proximity Lab - Project">
+            <img src="/images/logo-amadeus-blue.png" class="ww-project-icon animated fadeIn"  alt="Proximity Lab - Project">
             <!-- <p>Teaser about the Amadeus work that describes briefly what we did</p> -->
             <br>
-            <a href="?page=/work/amadeus">View Project</a>
+            <a href="?page=/work/amadeus" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
           </div>
           <div class="carousel-item">
-            <img src="/images/logo-songbird-blue.png" alt="Proximity Lab - Project">
+            <img src="/images/logo-songbird-blue.png" class="ww-project-icon animated fadeIn"  alt="Proximity Lab - Project">
             <!-- <p>Teaser about the Songbird work that describes briefly what we did</p> -->
             <br>
-            <a href="?page=/work/songbird">View Project</a>
+            <a href="?page=/work/songbird" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
           </div>
         </div>
       </div>
@@ -124,7 +114,7 @@
   </div>
 </div>
 
-<div id="home-carousel-testimonial" class="carousel carousel-fade" data-ride="carousel">
+<div id="home-carousel-testimonial" class="carousel carousel-fade" data-ride="carousel" data-interval="10000" data-pause="false">
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item home-carousel-testimonial-item home-carousel-testimonial-item-one active">
       <div class="carousel-caption home-carousel-testimonial-caption">

@@ -7,7 +7,7 @@
               <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
             </div>
 
-            <div id="scheduleme-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
+            <div id="scheduleme-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item scheduleme-carousel-testimonial-item scheduleme-carousel-hero-item-one active">
                   <img class="img-fluid" src="/images/website-mockup-scheduleme-2x.png" alt="Schedule website mockup">

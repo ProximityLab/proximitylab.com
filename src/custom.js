@@ -112,37 +112,27 @@ $(document).ready(function() {
     }
   });
 
-  $('.ww-panels .carousel').find('.ww-btn').addClass('animated fadeOut');
-  $('.ww-panels h3').find('.ww-panel-icon').addClass('animated fadeInUp');
-
   $('.ww-panels .carousel').mouseenter(function() {
-    // console.log('oh hey, now the home-carousel-enterprise is loaded');
-    $(this).find('.carousel-indicators').animateCss('fadeIn');
     $(this).find('.carousel-indicators').css('display', 'flex');
-    $(this).carousel({
-      interval: 4000
-    });
-    $(this).carousel(1);
+    $(this).find('.carousel-indicators').fadeIn();
+    $(this).carousel(0).carousel();
+    $(this).find('h3').hide();
     $(this).find('h3').css('top', '10%');
-    $(this).find('h3').animateCss('fadeIn');
+    $(this).find('h3').finish().fadeIn();
+    $(this).find('.ww-panel-icon-container').removeClass('active');
+    $(this).find('.carousel-inner').addClass('active');
     $(this).addClass('slide');
   });
 
   $('.ww-panels .carousel').mouseleave(function() {
     $(this).removeClass('slide');
-    // $(this).find('.carousel-indicators').animateCss('fadeOut');
-    $(this).find('.carousel-indicators').css('display', 'none');
-    $(this).carousel({
-      interval: 0
-    });
+    $(this).find('.carousel-indicators').hide();
     $(this).carousel('pause');
-    $(this).carousel(0);
+    $(this).find('h3').hide();
     $(this).find('h3').css('top', '70%');
-    $(this).find('h3').animateCss('fadeIn');
-  });
-
-  $('#home-carousel-testimonial.carousel').carousel({
-    interval: 10000
+    $(this).find('h3').finish().fadeIn();
+    $(this).find('.carousel-inner').removeClass('active');
+    $(this).find('.ww-panel-icon-container').addClass('active');
   });
 
   // Select all links with hashes

@@ -7,7 +7,7 @@
               <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
             </div>
 
-            <div id="icovia-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
+            <div id="icovia-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item icovia-carousel-testimonial-item icovia-carousel-hero-item-one active">
                   <img class="img-fluid" src="/images/website-mockup-icovia-1-2x.png" alt="Icovia website mockup">
