@@ -1,0 +1,600 @@
+/**
+ * Scribe page
+ */
+
+/* jumbotron */
+
+p {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  color: #282828;
+  font-size: 3.4rem;
+  margin-bottom: 3rem;
+  font-weight: 300;
+}
+.ww-portfolio .jumbotron {
+  /* Mask: */
+  background-image: linear-gradient(135deg, #74D561 0%, #11811D 100%);
+  margin-bottom: 0;
+  position: relative;
+  padding-top: 6rem;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.ww-portfolio .jumbotron .billnye-hero-img {
+  /* Mask: */
+  box-shadow: -17px 17px 0 0 rgba(19,19,19,0.08);
+  border-radius: 4px;
+  margin-bottom: -8px;
+}
+
+.jumbotron-logo-project {
+    width: 112px;
+    padding-bottom: 2rem;
+    margin: auto;
+    display: block;
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .jumbotron-logo-project {
+      margin: auto 0;
+      position: absolute;
+      top:0;
+      bottom:0;
+      right: 6rem;
+      padding: 0;
+    }
+}
+
+
+
+/*.jumbotron-padding .home-carousel-header-arrow {
+  margin-left: 22%;
+}*/
+.scroll-down-arrow {
+    text-indent: -9999px;
+    width: 40px;
+    height: 20px;
+    background: url(/images/icon-arrow-bottom.svg);
+    opacity: .2;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+    display: none;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.scroll-down-arrow:hover {
+    opacity: 1;
+}
+
+@media (min-width: 992px) {
+    .scroll-down-arrow {
+        display: block;
+        left: 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+      .scroll-down-arrow {
+          display: block;
+          margin-bottom: 4rem;
+      }
+}
+
+/* portfolio */
+
+.portfolio {
+    padding: 0 0 3.4rem 0;
+}
+
+@media (min-width: 768px) {
+    .portfolio {
+        padding: 3rem 0 6rem 0;
+    }
+}
+
+.portfolio-header {
+  margin: 3rem 0 3rem;
+}
+
+/*@media (min-width: 768px) {
+  .portfolio-header {
+    margin: 3rem 0 10rem;
+  }
+}*/
+
+@media (min-width: 992px) {
+  .portfolio-header {
+    margin: 3rem 0 10rem;
+  }
+}
+
+.ww-paragraph {
+  border-color: #5F97E9;
+  margin-bottom: 6rem;
+}
+
+.ww-paragraph p {
+  line-height: normal;
+}
+
+.project-description {
+  margin: 0;
+  padding: 0 6rem;
+  min-height: 0;
+}
+
+
+@media (min-width: 768px) {
+    .project-description {
+      margin: 0;
+    }
+}
+
+
+.project-description-0 {
+  min-height: 0;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+    .project-description-0 {
+      margin: 0 0 2rem 0;
+    }
+}
+
+
+@media (min-width: 992px) {
+  .project-description-0 {
+    /*padding: 0 6rem 6rem;*/
+    background: url('../images/portfolio-description-nye-bgd-2x.jpg') no-repeat;
+    background-position: right top;
+    background-size: 45%;
+    margin: 6rem 0 0;
+  }
+}
+@media (min-width: 1200px) {
+  .project-description-0 {
+    background-size: 45%;
+  }
+}
+
+.project-description-2 {
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .project-description-2 {
+    margin: 0 auto 4rem;
+  }
+}
+
+.halfie {
+  padding: 0;
+}
+
+.halfie .row {
+  margin: 0;
+}
+
+.halfie .half-image {
+  height: 300px;
+}
+
+.halfie .half-image.flex-first {
+  order: 1;
+}
+
+@media (min-width: 576px) {
+  .halfie .half-image {
+    /*display: flex;*/
+    height: 300px;
+    margin-bottom: 3rem;
+  }
+}
+
+.text-container {
+  padding: 3rem;
+}
+
+@media (min-width: 768px) {
+  .text-container {
+    padding: 3rem 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .text-container {
+    padding: 0 10rem;
+  }
+}
+
+#code-support h2 {
+  color: #fff;
+
+  }
+
+#code-support .half-image {
+  background: url('/images/portfolio-nye-code-support-2x.jpg') no-repeat;
+  background-position: left top;
+  background-size: cover;
+  /*height: 700px;*/
+    /*display: none;*/
+    margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+  #code-support .half-image {
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  #code-support .half-image {
+    background-size: cover;
+    background-position: left top;
+    /*min-height: 700px;*/
+  }
+}
+
+@media (min-width: 992px) {
+  #code-support .half-image {
+    min-height: 700px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #code-support .half-image {
+    background-size: cover;
+    min-height: 800px;
+  }
+}
+
+#code-support .text-container {
+  background-color: #1E2128!important;
+  color: #C3C3C3;
+}
+
+#code-support .text-container h2 {
+  font-size: 3.4rem;
+  font-weight: 300;
+}
+
+#code-support .text-container p {
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  #code-support .text-container {
+    padding: 6rem;
+  }
+}
+/*@media (min-width: 768px) {
+  #code-support .text-container {
+    padding: 6rem;
+  }
+}*/
+
+@media (min-width: 992px) {
+  #code-support .text-container {
+    padding: 6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #code-support .text-container {
+    padding: 10rem 10rem 10rem 10rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  #code-support .text-container {
+    padding: 20rem 10rem 10rem 10rem;
+  }
+}
+
+#design-excellence .half-image {
+  background: url('/images/portfolio-nye-design-excellence-2x.png') no-repeat;
+  background-position: center top;
+  background-size: contain;
+    margin-bottom: 0;
+    /*min-height: 503px;*/
+    background-size: 90%;
+}
+
+@media (min-width: 576px) {
+  #design-excellence .half-image {
+    background-size: 80%;
+    background-position: center top;
+    min-height: 375px;
+  }
+}
+
+@media (min-width: 768px) {
+  #design-excellence .half-image {
+    background-position: 0 120%;
+    background-size: contain;
+    /*min-height: 400px;*/
+  }
+}
+
+@media (min-width: 992px) {
+  #design-excellence .half-image {
+    background-size: 90%;
+    background-position: left 6rem;
+    min-height: 503px;
+  }
+}
+@media (min-width: 1200px) {
+  #design-excellence .half-image {
+    min-height: 560px;
+    background-position: 0 110%;
+  margin: 0 0 6rem 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #design-excellence .half-image {
+    min-height: 560px;
+    background-position: 0 100%;
+    margin: 4rem 0;
+  }
+}
+
+/*#design-excellence .text-container {
+  padding: 3rem 3rem 0;
+}*/
+
+@media (min-width: 576px) {
+  #design-excellence .text-container   {
+    padding: 6rem 6rem 0 6rem;
+  }
+}
+
+/*@media (min-width: 992px) {
+  #design-excellence .text-container   {
+    padding: 6rem;
+  }
+}*/
+/*
+@media (min-width: 768px) {
+  #design-excellence .half-image {
+    background-size: contain;
+    background-position: left top;
+    min-height: 700px;
+  }
+}*/
+
+.project-description h2 {
+  font-size: 3.4rem!important;
+  color: #282828!important;
+  font-weight: 300!important;
+  margin: 2rem 0!important;
+}
+
+
+@media (min-width: 768px) {
+    .portfolio-image {
+        background-repeat: no-repeat;
+        background-image: url('/images/songbird-carousel-placeholder.png');
+    }
+}
+
+.portfolio-service {
+    margin: 40px 0;
+}
+
+.portfolio-service-icon {
+    margin-bottom: 27px;
+}
+
+.portfolio-service-heading {
+    font-size: 24px;
+    font-weight: 300;
+    color: #4A4A4A;
+    margin-bottom: 16px;
+}
+
+.portfolio-service-text {
+    max-width: 292px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #989898;
+}
+.project-more-info {
+  background: url('/images/portfolio_bgd_amadeus.jpg') no-repeat;
+  background-size: cover;
+  background-position: center top;
+  font-size: 1.5rem;
+    color: #282828;
+    /*padding: 0;*/
+}
+
+.project-more-info .top {
+  padding: 4rem 3rem 34rem;
+}
+
+@media (min-width: 576px) {
+  .project-more-info .top {
+    padding: 3rem 3rem 26rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-more-info .top {
+    padding: 6rem 6rem 20rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-more-info .top {
+    padding: 10rem 10rem 20rem;
+  }
+}
+
+.project-more-info h2 {
+  font-size: 3.4rem;
+  font-weight: 300;
+  margin-bottom: 1.7rem;
+}
+
+/*.project-more-info p {
+
+}*/
+
+@media (min-width: 576px) {
+  .project-more-info p {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-more-info p {
+    margin-right: 30%;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-more-info p {
+    margin-right: 40%;
+  }
+}
+
+.project-more-info .bottom {
+  padding: 2rem 0 0 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.project-more-info .bottom .inner img {
+  width: 100%;
+}
+
+.project-services {
+  /*background-color: #1B1C25;*/
+  /*margin-bottom: 0;*/
+  padding: 6rem -15px;
+}
+
+
+.project-service {
+  margin:4rem 0;
+}
+
+.portfolio-testimonial {
+  background: none;
+  background-color: #139CE4;
+  /*min-height: 620px;*/
+  color: #fff;
+  line-height: 4rem;
+  font-size: 2.4rem;
+  padding: 3rem 3rem;
+  display: flex;
+  flex-flow: row;
+  /*align-items: center;*/
+  /*justify-content: center;*/
+}
+
+/*.ww-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+@media (min-width: 1440px) {
+  .ww-overlay {
+    background-color: rgba(0, 0, 0, 0);
+}
+}
+.ww-content {
+  z-index: 2;
+}*/
+
+@media (min-width: 1440px) {
+  .portfolio-testimonial .ww-content {
+    max-width: 64%;
+    margin: 0 18% 0 18%;
+  }
+}
+
+@media (min-width: 576px) {
+    .portfolio-testimonial {
+        padding: 6rem;
+        /*width: 100%;
+        min-height: 724px;*/
+        align-items: center;
+        min-height: 620px;
+    }
+}
+
+@media (min-width: 768px) {
+    .portfolio-testimonial {
+        padding: 10rem 6rem;
+        width: 100%;
+        min-height: 724px;
+    }
+}
+
+.portfolio-testimonial p {
+text-align: center;
+/*margin-left: 0%;*/
+  margin: 0 auto;
+  max-width: 95%;
+  font-size: 2rem;
+  line-height: 3.5rem;
+}
+
+.portfolio-testimonial .home-carousel-testimonial-author-title {
+  font-size: 2rem;
+  margin-top: 2rem;
+  line-height: normal;
+}
+
+
+@media (min-width: 576px) {
+  .portfolio-testimonial p {
+    max-width: 95%;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .portfolio-testimonial p {
+    max-width: 85%;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-testimonial p {
+    max-width: 85%;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+}
+
+.portfolio-testimonial img {
+margin: 3rem auto 2rem;
+display: block;
+width: 70px;
+height: 70px;
+}
+
+@media (min-width: 576px) {
+  .portfolio-testimonial img {
+  margin: 8rem auto 0;
+}

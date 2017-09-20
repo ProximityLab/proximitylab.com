@@ -4,7 +4,7 @@
 
             <div class="col-lg-3">
               <img class="jumbotron-logo-project" src="/images/logo-scheduleme.svg" alt="Schedule Me logo">
-              <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
+              <a href="#start" class="scroll-down-arrow">Read more abouy Schedule Me</a>
             </div>
 
             <div id="scheduleme-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">

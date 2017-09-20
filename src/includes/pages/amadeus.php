@@ -4,7 +4,7 @@
 
             <div class="col-lg-3">
               <img class="jumbotron-logo-project" src="/images/logo-amadeus.svg" alt="Amadeus logo">
-              <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
+              <a href="#start" class="scroll-down-arrow">Read more about Amadeus</a>
             </div>
             <div class="col-lg-7">
               <!-- <img class="img-fluid" src="/images/website-mockup-amadeus-2x.png" alt="Amadeus website mockup"> -->

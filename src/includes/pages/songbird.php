@@ -4,7 +4,7 @@
 
             <div class="col-lg-3">
               <img class="jumbotron-logo-project" src="/images/logo-songbird.svg" alt="Songbird logo">
-              <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
+              <a href="#start" class="scroll-down-arrow">Read more about Songbird</a>
             </div>
             <div class="col-lg-8 flex-first ww-hero-image"><img class="img-fluid" src="/images/website-mockup-songbird-2x.png" alt="Songbird website mockup"></div>
         </div><!-- row -->

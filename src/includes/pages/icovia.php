@@ -4,7 +4,7 @@
 
             <div class="col-lg-3">
               <img class="jumbotron-logo-project" src="/images/logo-icovia-2x.png" alt="Icovia logo">
-              <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
+              <a href="#start" class="scroll-down-arrow">Read more about Icovia</a>
             </div>
 
             <div id="icovia-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">

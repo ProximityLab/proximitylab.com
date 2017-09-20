@@ -4,7 +4,7 @@
 
             <div class="col-lg-2 ww-push-logo">
               <img class="jumbotron-logo-project" src="/images/logo-eagle-2x.png" alt="Eagle Genomics logo">
-              <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
+              <a href="#start" class="scroll-down-arrow">Read more about Eagle Genomics</a>
             </div>
             <div class="col-lg-8"><img class="img-fluid ww-hero-image" src="/images/website-mockup-eagle-2x.png" alt="Eagle Genomics website mockup"></div>
         </div><!-- row -->

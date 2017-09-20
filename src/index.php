@@ -55,7 +55,7 @@
         $activePagePhp = 'includes/pages/songbird.php';
         break;
       case '/work/billnye':
-        $pageCss = '<link rel="stylesheet" href="/css/nye.css">';
+        $pageCss = '<link rel="stylesheet" href="/css/billnye.css">';
         $activePagePhp = 'includes/pages/billnye.php';
         break;
       case '/work/wagz':

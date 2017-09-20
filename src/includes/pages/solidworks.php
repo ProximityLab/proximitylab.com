@@ -3,7 +3,7 @@
         <div class="row">
 
             <div class="col-lg-4">
-              <img class="jumbotron-logo-project img-fluid" src="/images/logo-solidworks.svg" alt="Mosaic logo">
+              <img class="jumbotron-logo-project img-fluid" src="/images/logo-solidworks.svg" alt="Solid Works logo">
               <a href="#start" class="scroll-down-arrow">Read more about Solid Works</a>
             </div>
 

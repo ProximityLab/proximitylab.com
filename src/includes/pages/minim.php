@@ -4,10 +4,9 @@
 
             <div class="col-lg-2 push-xl-3 push-lg-2">
               <img class="jumbotron-logo-project" src="/images/logo-minim-white-169x60.png" alt="Minim logo">
-              <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
+              <a href="#start" class="scroll-down-arrow">Read more about Minim</a>
             </div>
             <div class="col-lg-5 push-xl-2 push-lg-2 ww-hero-image">
-              <!-- <img class="img-fluid" src="/images/website-mockup-amadeus-2x.png" alt="Amadeus website mockup"> -->
             <div class="ww-vid-holder"><div class="ww-vid">
                   <video id="video1" poster="/images/video-poster-minim-2x.png" autoplay>
                   </video>
@@ -16,19 +15,6 @@
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
-<!--
-<div class="jumbotron jumbotron-fluid">
-    <div class="container-fluid">
-        <div class="row">
-
-            <div class="col-lg-2 push-lg-2">
-              <img class="jumbotron-logo-project" src="/images/logo-minim-white-169x60.png" alt="Minim logo">
-              <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
-            </div>
-            <div class="col-lg-4 push-lg-2 ww-hero-image"><img class="img-fluid" src="/images/website-mockup-minim-2x.png" alt="Minim website mockup"></div>
-        </div> --><!-- row -->
-    <!-- </div> --><!-- container -->
-<!-- </div> --><!-- jumbotron -->
 
 <div class="container-fluid 2 portfolio-header">
   <div class="row">

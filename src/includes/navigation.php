@@ -13,7 +13,7 @@ $pagelist = array(
   '/work/mosaic',
   '/work/massart',
   '/work/rootinsight',
-  // '/work/billnye',
+  '/work/billnye',
   // '/work/adobe',
   '/work/solidworks'
 );

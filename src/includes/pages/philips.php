@@ -4,7 +4,7 @@
 
             <div class="col-lg-3">
               <img class="jumbotron-logo-project" src="/images/logo-philips.svg" alt="Philips logo">
-              <a href="#start" class="scroll-down-arrow">Read more abour Proximity Lab</a>
+              <a href="#start" class="scroll-down-arrow">Read more about Philips</a>
             </div>
             <div class="col-lg-7 ww-hero-image"><img class="img-fluid" src="/images/website-mockup-philips-2x.png" alt="Philips website mockup"></div>
         </div><!-- row -->
