@@ -25,87 +25,62 @@
 
 <div class="container-fluid project-description project-description-0">
   <div class="row">
-    <div class="col-lg-5">
-      <p>Bill Nye, “The Science Guy,” is one of the most recognizable faces in science education. Using his status as a science superstar, his organization worked with the Chabot Space & Science Center to develop a concept designed to educate kids and families on the issues related to climate change. Proximity Lab was engaged to lead the research and design of a streamlined experience that would ultimately become a permanent exhibit focused on climate science, global climate change, and green technology and conservation solutions to human impact on the global environment. The objective: to do all of this AND make it fun and engaging for school-aged children.</p>
+    <div class="col-12 col-lg-5">
+      <p>Bill Nye, “The Science Guy,” is one of the most recognizable faces in science education. Using his status as a science superstar, his organization worked with the Chabot Space &amp; Science Center to develop a concept designed to educate kids and families on the issues related to climate change. Proximity Lab was engaged to lead the research and design of a streamlined experience that would ultimately become a permanent exhibit focused on climate science, global climate change, and green technology and conservation solutions to human impact on the global environment. The objective: to do all of this AND make it fun and engaging for school-aged children.</p>
       <p>The team researched and explored many ideas that would help bring the concept to life. We visited other interactive exhibits to learn as much as possible about what worked and what didn’t. We spoke with kids about what they loved most about science, technology, and museums. Working collaboratively with Bill and his team, the vision for the exhibits started to take shape.</p>
     </div>
 
+    <div class="col-lg-6 offset-lg-1 hidden-md">
+        <img src="/images/portfolio-description-billnye-bgd-2x.png" class="img-fluid" alt="Bill Nye Project">
+    </div>
   </div>
 </div>
 
 <div class="container-fluid project-description project-description-1">
   <div class="row">
-    <div class="col-12">
-      <img src="/images/portfolio-description-billnye-bgd-2-2x.png" class="img-fluid my-lg-5">
-      <h2>Focused Research and  User Journeys</h2>
-      <p>Using a combination of market research tools and processes, our team set out to understand the existing Scribe solution - why it existed and what were most useful parts? To answer this, we worked with the internal product teams to understand the mechanics of the product and learn about specific pain points directly from customer interviews.</p>
-      <p>The creation of key persona types, idealized journey maps, and key workflows helped focus on the actionable business and UI needs that required support and to help shape the product roadmap.</p>
+    <div class="col-12 col-lg-6 hidden-md">
+        <img src="/images/portfolio-description-billnye-bgd-2-2x.png" class="img-fluid" alt="Bill Nye Project">
+    </div>
+
+    <div class="col-lg-5 offset-lg-1">
+      <h1 class="heading-primary">Digital content</h1>
+      <p>We designed and developed a web-based experience that featured climate related content and incorporated that into interactive learning-based games. Kids created accounts, selected avatars, and discovered games that allowed them collect points as they moved through each of the climate-based activities focused on air, water, and land in the Earth's environment, the impacts on them by human activity, and challenges its visitors to seek solutions.</p>
     </div>
   </div>
 </div>
 
 <div class="container-fluid project-description project-description-2">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <img src="/images/icon-platform.svg">
-          <h2>Platform Modernization</h2>
-          <p class=" pb-5 mb-5">Prior to designing the new experience, we worked with the Scribe team to identify both the weaknesses of the existing platform and the requirements of the new platform. By shedding the legacy technology and moving to a modern SaaS platform, all of the new features and capabilities required for the key personas could be developed. This new architecture would also allow for new features to be added as needed.</p>
-        </div>
-      </div>
-</div>
-
-<div class="container-fluid halfie">
-  <div id="code-support" class="row">
-    <div class="col-lg-7 half-image"></div>
-    <div class="col-lg-5 text-container">
-      <h2>Visual Coding Support</h2>
-      <p>One unique aspect of the new data integration platform was the support for visual coding. This was a critical feature to support the goal of enabling a cultural shift in how the product was used and who would be able to use it. Ultimately the new Scribe platform included a Scratch-based coding platform that helped fulfill the vision of, “clicks, not code,” enabling non-technical users to perform data integration.</p>
-    </div>
-  </div>
-
-  <div id="design-excellence" class="row">
-    <div class="col-md-6 half-image"></div>
-    <div class="col-md-6 d-flex flex-column justify-content-center text-container flex-first">
-      <h2>Design Excellence</h2>
-      <p>While all of the preceding work was critical in determining the usability of the product, a large part of the challenge was creating a user interface design that would make the vision of simple data integration a reality without compromising the powerful capabilities of the product. The resulting interface was recognized by the leading market research firms as, “the best-in-class,” for data integration.</p>
-    </div>
-  </div>
-
-</div>
-
-<div class="container-fluid project-services">
-    <div class="row">
-      <div class="col-12"><h2 class="text-center">Scribe has been extremely satisfied with the collaboration with Proximity Lab and has reported many impressive results</h2></div>
-        <div class="col-12 col-sm-4 text-center">
-            <div class="project-service">
-                <img class="portfolio-service-icon" src="/images/icon-increased-usage.svg" alt="Visual Experience">
-                <h4 class="portfolio-service-heading">Increased Usage</h4>
-                <p class="portfolio-service-text">An overall increase of 200+% of concurrent use on the Scribe cloud-based platform</p>
-            </div>
-        </div>
-        <div class="col-12 col-sm-4 text-center">
-            <div class="project-service">
-                <img class="portfolio-service-icon" src="/images/icon-customer-satisfaction.svg" alt="Team Collaboration">
-                <h4 class="portfolio-service-heading">Customer Satisfaction</h4>
-                <p class="portfolio-service-text">Heightened customer satisfaction as measured in improvements in customer retention</p>
-            </div>
-        </div>
-        <div class="col-12 col-sm-4 text-center">
-            <div class="project-service">
-                <img class="portfolio-service-icon" src="/images/icon-task-efficiency.svg" alt="Unified Experience">
-                <h4 class="portfolio-service-heading">Task Efficiency</h4>
-                <p class="portfolio-service-text">A 25% improvement in efficiency of integration tasks</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid portfolio-testimonial">
   <div class="row">
-    <div class="ww-content">
-        <p>"Proximity Lab understands our business - they challenged our thinking to help create new paradigms for data integration. The resulting user-centric design is now driving the product roadmap for our SaaS platform, and more importantly - we are seeing a new category of users performing data integration tasks that would have previously been outside of their skillset."</p><img src="/images/testimonial-author-billnye-2x.png" alt="Testimonial author">
-      <p class="home-carousel-testimonial-author-title">
-          <strong>Shawn McGowan,</strong> CEO  Scribe</p>
+
+    <div class="col-12 col-lg-8 offset-lg-2">
+      <h1 class="heading-primary text-center">Interactive exhibit design and development</h1>
+      <p class="text-center">To help kids understand how their daily choices affect and influence climate change, we designed and developed several exhibits, including, "Bike with Bill," which featured a stationary bike hooked up to sensors that allowed kids to virtually pedal and the streets of San Francisco while understanding their carbon footprint. The gallery features an interactive video wall that is dynamically populated with avatars of all of the visitors in the museum. Kids simply scan their badge and their avatar appears and lights up. The system encourages kids to go through all of the exhibit stations to earn points that can be used for, "power ups."</p>
+    </div>
+
+    <div class="col-lg-8 offset-lg-2">
+        <img src="/images/portfolio-description-billnye-bgd-3-2x.jpg" class="img-fluid" alt="Bill Nye Project">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid project-description project-description-3">
+  <div class="row">
+    <div class="col-12 col-lg-6 hidden-md">
+        <img src="/images/portfolio-description-billnye-bgd-4-2x.jpg" class="img-fluid" alt="Bill Nye Project">
+    </div>
+
+    <div class="col-lg-5 offset-lg-1">
+      <h1 class="heading-primary">Beyond the museum</h1>
+      <p>A key finding was that there was an opportunity to improve the overall experience by extending the learning beyond the gallery walls. To do this, our team created a native mobile game called, “Lab Dash,” that was tied into the experience. As kids play the game, they collect points that are also part of the same program so that when they returned to the museum, they could cash them in for more, “power ups,” and unlock new levels in the game -- helping to achieve long-term engagement.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid project-description project-description-4">
+  <div class="row">
+
+    <div class="col-12 col-lg-10 offset-lg-1">
+      <p class="text-center">All of our concepts were tested and validated with kids in the gallery space. We even tested the incentive models - cashing in points for power ups, versus customizing your avatar, unlocking levels. We are proud of this project and how well it was received. The year the exhibit opened it received a "Best of Show," award from MITX for Excellence in Interactive Innovation.  It was also named as a, "Family Favorite," by BayAreaParent in 2016.</p>
     </div>
   </div>
 </div>

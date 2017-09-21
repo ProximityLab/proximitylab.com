@@ -127,54 +127,55 @@ h2 {
 }
 
 .project-description {
-  margin: 0;
+  margin-top: 0;
   padding: 0 6rem;
-  min-height: 0;
 }
 
-
-@media (min-width: 768px) {
-    .project-description {
-      margin: 0;
-    }
+.project-description-4 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
+.hidden-md {
+  display: none;
+}
 
-.project-description-0 {
-  min-height: 0;
-  margin: 0;
+.project-description h1.heading-primary {
+  margin-top: 6rem;
+  margin-bottom: 2.8rem;
 }
 
 @media (min-width: 576px) {
-    .project-description-0 {
-      margin: 0 0 2rem 0;
-    }
+    
 }
 
+@media (min-width: 768px) {
+    
+}
 
 @media (min-width: 992px) {
-  .project-description-0 {
-    /*padding: 0 6rem 6rem;*/
-    background: url('../images/portfolio-description-nye-bgd-2x.jpg') no-repeat;
-    background-position: right top;
-    background-size: 45%;
-    margin: 6rem 0 0;
+  .hidden-md {
+    display: block;
   }
-}
-@media (min-width: 1200px) {
-  .project-description-0 {
-    background-size: 45%;
+  .project-description {
+    margin-top: 8rem;
   }
-}
-
-.project-description-2 {
-  margin: 0 auto;
-}
-
-@media (min-width: 1200px) {
+  .project-description-1 {
+    margin-top: 10rem;
+  }
   .project-description-2 {
-    margin: 0 auto 4rem;
+    margin-top: 0;
   }
+  .project-description-4 {
+    margin-top: 11rem;
+    margin-bottom: 8rem;
+  }
+  .project-description h1.heading-primary {
+    margin-top: 8rem;
+  }
+}
+@media (min-width: 1200px) {
+  
 }
 
 .halfie {
