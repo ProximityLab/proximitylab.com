@@ -145,8 +145,8 @@
 }
 
 .ww-panels .carousel-inner .ww-workwith .ww-workwith-img {
-    height: 7rem;
-    max-height: 7rem;
+    height: 5.4rem;
+    max-height: 5.4rem;
 }
 
 .ww-panels .carousel-inner .ww-workwith .ww-workwith-img > div {
@@ -156,14 +156,19 @@
     justify-content: center;
 }
 
-.ww-panels .carousel-inner .ww-workwith .ww-workwith-img .animated.fadeIn {
-    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
-    animation-delay: 1s;
+.ww-panels .carousel-inner .ww-workwith.animated {
+    -webkit-animation-delay: 0.2s; /* Safari 4.0 - 8.0 */
+    animation-delay: 0.2s;
+}
+
+.ww-panels .carousel-inner .ww-workwith.slowAnimated {
+    -webkit-animation-delay: 1.2s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1.2s;
 }
 
 .ww-panels .carousel-inner .ww-workwith .ww-workwith-teaser {
-    height: 7.5rem;
-    max-height: 7.5rem;
+    height: 8.2rem;
+    max-height: 8.2rem;
 }
 
 .ww-panels .carousel-inner .ww-workwith .ww-workwith-teaser > div {
@@ -175,8 +180,8 @@
 
 @media (min-width:992px) {
     .ww-panels .carousel-inner .ww-workwith .ww-workwith-img {
-        height: 5rem;
-        max-height: 5rem;
+        height: 5.4rem;
+        max-height: 5.4rem;
     }
     .ww-panels .carousel-inner .ww-workwith .ww-workwith-teaser {
         height: 9.3rem;
@@ -186,19 +191,19 @@
 
 @media (min-width:1200px) {
     .ww-panels .carousel-inner .ww-workwith .ww-workwith-img {
-        height: 7rem;
-        max-height: 7rem;
+        height: 5.4rem;
+        max-height: 5.4rem;
     }
     .ww-panels .carousel-inner .ww-workwith .ww-workwith-teaser {
-        height: 7.5rem;
-        max-height: 7.5rem;
+        height: 8.2rem;
+        max-height: 8.2rem;
     }
 }
 
 .ww-btn {
     font-size: 1.6rem;
     line-height: 1.8rem;
-    padding: 1.2rem 2.3rem;
+    padding: 0.8rem 1.9rem;
     font-weight: 400;
     border-color: #4A90E2;
     color: #4A90E2;
@@ -256,6 +261,7 @@
 
 .ww-project-icon {
     max-height: 90%;
+    margin-top: 1.4rem;
 }
 
 /* testimonial carousel */

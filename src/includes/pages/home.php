@@ -32,11 +32,11 @@
           </div>
         </div>
         <div class="carousel-inner" role="listbox">
-          <div class="ww-workwith carousel-item active">
+          <div class="ww-workwith carousel-item animated fadeIn active">
             <div class="container-fluid">
               <div class="ww-workwith-img row">
                   <div class="col-8 offset-2 text-center">
-                    <img src="/images/logo-adobe.png" class="ww-project-icon img-fluid animated fadeIn"  alt="Adobe - Project">
+                    <img src="/images/logo-adobe.png" class="ww-project-icon img-fluid"  alt="Adobe - Project">
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
@@ -46,16 +46,16 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/adobe" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                    <a href="?page=/work/adobe" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
           </div><!-- item -->
-          <div class="ww-workwith carousel-item">
+          <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
               <div class="ww-workwith-img row">
                   <div class="col-8 offset-2 text-center">
-                    <img src="/images/logo-eagle-blue.png" class="ww-project-icon img-fluid animated fadeIn"  alt="Eagle Genomics - Project">
+                    <img src="/images/logo-eagle-blue.png" class="ww-project-icon img-fluid"  alt="Eagle Genomics - Project">
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
@@ -65,16 +65,16 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/eagle" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                    <a href="?page=/work/eagle" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
           </div><!-- item -->
-          <div class="ww-workwith carousel-item">
+          <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
               <div class="ww-workwith-img row">
                   <div class="col-8 offset-2 text-center">
-                    <img src="/images/logo-philips-blue.png" class="ww-project-icon img-fluid animated fadeIn"  alt="Philips - Project">
+                    <img src="/images/logo-philips-blue.png" class="ww-project-icon img-fluid"  alt="Philips - Project">
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
@@ -84,7 +84,7 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/philips" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                    <a href="?page=/work/philips" class="ww-btn btn btn-outline-primary ">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
@@ -101,16 +101,16 @@
         </ol>
         <h3 class="home-workwith-item-heading text-center">Startups</h3>
         <div class="ww-panel-icon-container active">
-          <div class="ww-panel-icon animated fadeIn">
+          <div class="ww-panel-icon animated animated fadeIn fadeIn">
             <img src="/images/icon-desktop.svg" alt="Desktop icon">
           </div>
         </div>
         <div class="carousel-inner" role="listbox">
-          <div class="ww-workwith carousel-item active">
+          <div class="ww-workwith carousel-item animated fadeIn active">
             <div class="container-fluid">
               <div class="ww-workwith-img row">
                   <div class="col-8 offset-2 text-center">
-                    <img src="/images/logo-wagz-blue.png" class="ww-project-icon img-fluid animated fadeIn" alt="Wagz - Project">
+                    <img src="/images/logo-wagz-blue.png" class="ww-project-icon img-fluid" alt="Wagz - Project">
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
@@ -120,16 +120,16 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/wagz" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                    <a href="?page=/work/wagz" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
           </div><!-- item -->
-          <div class="ww-workwith carousel-item">
+          <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
               <div class="ww-workwith-img row">
                   <div class="col-8 offset-2 text-center">
-                    <img src="/images/logo-billnye-blue.png" class="ww-project-icon img-fluid animated fadeIn" alt="Bill Nye - Project">
+                    <img src="/images/logo-billnye-blue.png" class="ww-project-icon img-fluid" alt="Bill Nye - Project">
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
@@ -139,16 +139,16 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/billnye" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                    <a href="?page=/work/billnye" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
           </div><!-- item -->
-          <div class="ww-workwith carousel-item">
+          <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
               <div class="ww-workwith-img row">
                   <div class="col-8 offset-2 text-center">
-                    <img src="/images/logo-minim-blue.png" class="ww-project-icon img-fluid animated fadeIn"  alt="Minim - Project">
+                    <img src="/images/logo-minim-blue.png" class="ww-project-icon img-fluid"  alt="Minim - Project">
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
@@ -158,7 +158,7 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/minim" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                    <a href="?page=/work/minim" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
@@ -180,11 +180,11 @@
           </div>
         </div>
         <div class="carousel-inner" role="listbox">
-          <div class="ww-workwith carousel-item active">
+          <div class="ww-workwith carousel-item animated fadeIn active">
             <div class="container-fluid">
               <div class="ww-workwith-img row">
                   <div class="col-8 offset-2 text-center">
-                    <img src="/images/logo-scribe-blue.png" class="ww-project-icon img-fluid animated fadeIn"  alt="Scribe - Project">
+                    <img src="/images/logo-scribe-blue.png" class="ww-project-icon img-fluid"  alt="Scribe - Project">
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
@@ -194,16 +194,16 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/scribe" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                    <a href="?page=/work/scribe" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
           </div><!-- item -->
-          <div class="ww-workwith carousel-item">
+          <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
               <div class="ww-workwith-img row">
                   <div class="col-8 offset-2 text-center">
-                    <img src="/images/logo-amadeus-blue.png" class="ww-project-icon img-fluid animated fadeIn"  alt="Amadeus - Project">
+                    <img src="/images/logo-amadeus-blue.png" class="ww-project-icon img-fluid"  alt="Amadeus - Project">
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
@@ -213,16 +213,16 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/amadeus" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                    <a href="?page=/work/amadeus" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
           </div><!-- item -->
-          <div class="ww-workwith carousel-item">
+          <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
               <div class="ww-workwith-img row">
                   <div class="col-8 offset-2 text-center">
-                    <img src="/images/logo-songbird-blue.png" class="ww-project-icon img-fluid animated fadeIn"  alt="Songbird - Project">
+                    <img src="/images/logo-songbird-blue.png" class="ww-project-icon img-fluid"  alt="Songbird - Project">
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
@@ -232,7 +232,7 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/songbird" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                    <a href="?page=/work/songbird" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
