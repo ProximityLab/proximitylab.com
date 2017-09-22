@@ -90,7 +90,7 @@
             </div>
         </div>
 
-        <!-- <div class="work-item col-12 col-md-8">
+        <div class="work-item col-12 col-md-8">
             <div id="adobe" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
@@ -100,19 +100,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
-
-        <!-- <div class="work-item col-12 col-md-8">
-            <div id="philips" class="work-item-container text-center">
-                <div class="work-item-overlay">
-                    <div class="work-item-wrapper">
-                        <img class="work-item-logo" src="/images/logo-philips.svg" alt="Philips logo">
-                        <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/philips">View work</a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+        </div>
 
 
         <div class="work-item col-12 col-md-8">
@@ -131,7 +119,7 @@
             <div id="mosaic" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
-                        <img class="work-item-logo" src="/images/logo-mosaic.png" alt="Mosaic logo">
+                        <img class="work-item-logo" src="/images/logo-mosaic.svg" alt="Mosaic logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">A mobile app to manage your photo library</p>
                         <a class="work-item-button" href="?page=/work/mosaic">View work</a>
                     </div>
@@ -210,18 +198,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- <div class="work-item col-12 col-md-8">
-            <div id="scheduleme" class="work-item-container text-center">
-                <div class="work-item-overlay">
-                    <div class="work-item-wrapper">
-                        <img class="work-item-logo" src="/images/logo-scheduleme.svg" alt="Schedule Me logo">
-                        <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/scheduleme">View work</a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
     </div>
 </div>
