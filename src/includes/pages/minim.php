@@ -2,11 +2,11 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-lg-2 push-xl-3 push-lg-2">
+            <div class="col-12 col-lg-2 offset-lg-2">
               <img class="jumbotron-logo-project" src="/images/logo-minim-white-169x60.png" alt="Minim logo">
               <a href="#start" class="scroll-down-arrow">Read more about Minim</a>
             </div>
-            <div class="col-12 col-lg-5 push-xl-2 push-lg-2 ww-hero-image">
+            <div class="col-12 col-lg-4 ww-hero-image">
             <div class="ww-vid-holder"><div class="ww-vid">
                   <video id="video1" poster="/images/video-poster-minim-2x.png" autoplay>
                   </video>
