@@ -56,7 +56,7 @@
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-12 col-lg-5">
-                    <img src="/images/rootinsight-portfolio-1-2x.png" alt="Common data platform">
+                    <img src="/images/rootinsight-portfolio-1-2x.jpg" alt="Common data platform">
                   </div>
                   <div class="col-12 col-lg-7">
                     <h4 class="portfolio-service-heading">Common data platform</h4>

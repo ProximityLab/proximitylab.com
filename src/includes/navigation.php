@@ -6,16 +6,16 @@ $pagelist = array(
   '/work/minim',
   '/work/wagz',
   '/work/eagle',
+  '/work/billnye',
+  '/work/adobe',
+  '/work/rootinsight',
+  '/work/mosaic',
+  '/work/massart',
+  '/work/solidworks',
   '/work/songbird',
   '/work/philips',
   '/work/scheduleme',
-  '/work/icovia',
-  '/work/mosaic',
-  '/work/massart',
-  '/work/rootinsight',
-  '/work/billnye',
-  // '/work/adobe',
-  '/work/solidworks'
+  '/work/icovia'
 );
 
 $previous;

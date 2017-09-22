@@ -6,7 +6,7 @@
               <img class="jumbotron-logo-project" src="/images/logo-billnye-2x.png" alt="Bill Nye logo">
               <a href="#start" class="scroll-down-arrow">Read more about Bill Nye</a>
             </div>
-            <div class="col-lg-7"><img class="billnye-hero-img img-fluid" src="/images/website-mockup-billnye-2x.png" alt="Bill Nye website mockup"></div>
+            <div class="col-lg-7"><img class="billnye-hero-img img-fluid" src="/images/website-mockup-billnye-2x.jpg" alt="Bill Nye website mockup"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
@@ -39,7 +39,7 @@
 <div class="container-fluid project-description project-description-1">
   <div class="row">
     <div class="col-12 col-lg-6 hidden-md">
-        <img src="/images/portfolio-description-billnye-bgd-2-2x.png" class="img-fluid" alt="Bill Nye Project">
+        <img src="/images/portfolio-description-billnye-bgd-2-2x.jpg" class="img-fluid" alt="Bill Nye Project">
     </div>
 
     <div class="col-lg-5 offset-lg-1">
