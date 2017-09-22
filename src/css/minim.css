@@ -9,35 +9,14 @@
   margin-bottom: 0;
   position: relative;
   padding-top: 2rem;
+  padding-bottom: 0;
 }
-
-/*.jumbotron .flex-first img {
-    margin: 0 0 -2.1rem 0;
-}*/
-
-/*@media (min-width: 576px) {
-    .jumbotron .flex-first img {
-        margin: 0 0 -4rem 0;
-    }
-}*/
 
 @media (min-width: 992px) {
     .ww-portfolio .jumbotron {
         padding-top: 8rem;
     }
 }
-
-
-/*.jumbotron-logo-project {
-    width: 169px;
-    left: 0;
-}*/
-
-/*@media (min-width: 992px) {
-    .jumbotron-logo-project {
-        left: 3rem;
-    }
-}*/
 
 
 .jumbotron-logo-project {
@@ -60,41 +39,6 @@
       /*padding: 0;*/
     }
 }
-/*.ww-hero-image {
-  margin: 0 0 -2rem 0;
-  padding: 0 10rem;
-}
-
-@media (min-width: 576px) {
-  .ww-hero-image {
-    margin: 0 0 -4rem 0;
-    padding: 0 14rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .ww-hero-image {
-    padding: 0 20rem;
-  }
-}
-@media (min-width: 992px) {
-  .ww-hero-image {
-    margin: 0 0 -4rem 0;
-    padding: 0 2rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .ww-hero-image {
-    padding: 0 6rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  .ww-hero-image {
-    padding: 0 10rem;
-  }
-}*/
 
 
 .scroll-down-arrow {
@@ -121,6 +65,7 @@
     .scroll-down-arrow {
         display: block;
         left: -25%;
+        margin-bottom: 2rem;
     }
 }
 
@@ -128,6 +73,7 @@
       .scroll-down-arrow {
           display: block;
           left: -25%;
+          margin-bottom: 2rem;
       }
 }
 
@@ -171,12 +117,6 @@
     }
 }
 
-/*@media (min-width: 992px) {
-    .project-description {
-      padding: 0 0 6rem;
-    }
-}*/
-
 
 .project-description h3 {
     font-size: 1.8rem!important;
@@ -184,12 +124,6 @@
     font-weight: 700!important;
     margin: 2rem 0!important;
 }
-/*.project-description img {
-    width: 100%;
-    overflow: hidden;
-    height: 50%;
-    max-height: 100%;
-}*/
 
 .halfie {
   padding: 0;
@@ -215,21 +149,9 @@
   }
 }
 
-/*@media (min-width: 576px) {
-  .halfie .half-image.flex-first {
-    order: 1;
-  }
-}*/
-
 .halfie .text-container {
   padding: 0 3rem 3rem;
 }
-
-/*@media (min-width: 768px) {
-  .halfie .text-container {
-    padding: 3rem 3rem;
-  }
-}*/
 
 @media (min-width: 768px) {
   .halfie .text-container {
@@ -241,8 +163,6 @@
   background: url('/images/portfolio-journey-map.png') no-repeat;
   background-size: 90%;
   background-position: right center;
-    /*display: flex;*/
-    /*height: 300px;*/
     order: -1;
 }
 
@@ -254,7 +174,6 @@
 
 @media (min-width: 768px) {
   .halfie #map .half-image {
-    /*background-position: center;*/
     height: 600px;
   }
 }
@@ -279,7 +198,6 @@
 
 .halfie #map .text-container {
   align-self: center;
-  /*padding: 0 3rem 3rem 3rem;*/
 }
 
 @media (min-width: 992px) {
@@ -298,14 +216,11 @@
 .halfie #bt .half-image {
   background: url('/images/portfolio-minim-bt-screen.jpg') no-repeat;
   background-size: cover;
-  /*height: 760px;*/
-    /*display: none;*/
     order: -1;
 }
 
 @media (min-width: 768px) {
   .halfie #bt .half-image {
-    /*height: 760px;*/
     margin-bottom: 0;
 
   }
@@ -321,8 +236,6 @@
 .halfie #moms .half-image {
   background: url('/images/portfolio-minim-moms-screen.jpg') no-repeat;
   background-size: cover;
-  /*height: 760px;*/
-    /*display: none;*/
     margin-bottom: 0;
     order: -1;
 }
@@ -348,12 +261,6 @@
     margin: 2rem 0!important;
 }
 
-/*@media (min-width: 992px) {
-  .project-description .half-image {
-      display: flex;
-  }
-}*/
-
 @media (min-width: 992px) {
   .project-description {
     background: url('../images/portfolio-description-minim-bgd.png') no-repeat;
@@ -375,11 +282,6 @@
     margin: 0 0 4rem 0;
 }
 
-/*@media (min-width: 576px) {
-  .project-description p:last-child {
-      margin: 0 0 4rem 0;
-  }
-}*/
 @media (min-width: 992px) {
   .project-description p {
       max-width: 50%;
@@ -421,8 +323,7 @@
   background-size: cover;
   background-position: center top;
   font-size: 1.5rem;
-    color: #282828;
-    /*padding: 0;*/
+  color: #282828;
 }
 
 .project-more-info .top {
@@ -485,8 +386,6 @@
 }
 
 .project-services {
-  /*background-color: #1B1C25;*/
-  /*margin-bottom: 0;*/
   padding: 6rem -15px;
 }
 
@@ -505,22 +404,16 @@
 .portfolio-testimonial {
   background: none;
   background-color: #0CC1D3;
-  /*min-height: 620px;*/
   color: #fff;
-  /*line-height: 4rem;*/
   font-size: 2.4rem;
   padding: 3rem 3rem;
   display: flex;
   flex-flow: row;
-  /*align-items: center;*/
-  /*justify-content: center;*/
 }
 
 @media (min-width: 576px) {
     .portfolio-testimonial {
         padding: 6rem;
-        /*width: 100%;
-        min-height: 724px;*/
         align-items: center;
         min-height: 620px;
     }
@@ -536,7 +429,6 @@
 
 .portfolio-testimonial p {
 text-align: center;
-/*margin-left: 0%;*/
   margin: 0 auto;
   max-width: 95%;
   font-size: 2rem;
@@ -589,21 +481,24 @@ height: 70px;
   }
 }
 
+.ww-hero-image {
+  width: 269px;
+  height: 475px;
+  overflow: hidden;
+}
 
 .ww-vid-holder {
   width: 269px;
   height: 480px;
-  /*width: 100%;
-  height: 100%;*/
-  /*max-width: 747px;
-  max-height: 432px;*/
   position: relative;
-  /*background: url("/images/iphone-chrome.svg") no-repeat;
-  background-size: contain;*/
   margin: 0 auto;
 }
 
 @media (min-width: 576px) {
+  .ww-hero-image {
+    width: 269px;
+    height: 454px;
+  }
   .ww-vid-holder {
     height: 523px;
     background: url("/images/iphone-chrome.svg") no-repeat;
@@ -612,6 +507,11 @@ height: 70px;
 }
 
 @media (min-width: 1200px) {
+  .ww-hero-image {
+    width: 300px;
+    height: 544px;
+    margin-top: -40px;
+  }
   .ww-vid-holder {
     width: 300px;
     height: 627px;
@@ -620,9 +520,6 @@ height: 70px;
 
 .ww-vid {
   position: relative;
-  /*margin: 0;
-  top: 11%;
-  left: 5%;*/
 }
 
 @media (min-width:576px) {
@@ -644,6 +541,7 @@ height: 70px;
 
 #video1 {
   width: 269px;
+  border: none;
 }
 
 @media (min-width: 576px) {
@@ -667,15 +565,11 @@ height: 70px;
   text-indent: -9999px;
   width: 269px;
   height: 97.5%;
-  /*display: none;*/
   position: absolute;
   margin: 0;
   top: 0;
-  /*bottom: 0;*/
   left: -.0001%;
-  /*right: 0;*/
   outline:0;
-  /*opacity: 0;*/
   -webkit-transition: opacity .25s ease-in-out;
   transition: opacity .25s ease-in-out;
   cursor: pointer;
