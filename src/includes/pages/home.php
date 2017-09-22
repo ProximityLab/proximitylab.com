@@ -23,6 +23,7 @@
         <ol class="carousel-indicators">
           <li data-target="#home-carousel-enterprise" data-slide-to="0" class="active"></li>
           <li data-target="#home-carousel-enterprise" data-slide-to="1"></li>
+          <li data-target="#home-carousel-enterprise" data-slide-to="2"></li>
         </ol>
         <h3 class="home-workwith-item-heading">Enterprise UX</h3>
         <div class="ww-panel-icon-container active">
@@ -31,18 +32,63 @@
           </div>
         </div>
         <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <img src="/images/logo-eagle-blue.png" class="ww-project-icon animated fadeIn"  alt="Proximity Lab - Project">
-            <!-- <p>Teaser about the Eagle Genomics work that describes briefly what we did</p> -->
-            <br>
-            <a href="?page=/work/eagle" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
-          </div>
-          <div class="carousel-item">
-            <img src="/images/logo-philips-blue.png" class="ww-project-icon animated fadeIn"  alt="Proximity Lab - Project">
-            <!-- <p>Teaser about the Philips work that describes briefly what we did</p> -->
-            <br>
-            <a href="?page=/work/philips" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
-          </div>
+          <div class="ww-workwith carousel-item active">
+            <div class="container-fluid">
+              <div class="ww-workwith-img row">
+                  <div class="col-8 offset-2 text-center">
+                    <img src="/images/logo-adobe.png" class="ww-project-icon img-fluid animated fadeIn"  alt="Adobe - Project">
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-teaser row">
+                  <div class="col-12 text-center">
+                    <p>Helping to improve the best creative design tools in the world</p>
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-btn row">
+                  <div class="col-12 text-center">
+                    <a href="?page=/work/adobe" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                  </div>
+              </div><!-- row -->
+            </div><!-- container -->
+          </div><!-- item -->
+          <div class="ww-workwith carousel-item">
+            <div class="container-fluid">
+              <div class="ww-workwith-img row">
+                  <div class="col-8 offset-2 text-center">
+                    <img src="/images/logo-eagle-blue.png" class="ww-project-icon img-fluid animated fadeIn"  alt="Eagle Genomics - Project">
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-teaser row">
+                  <div class="col-12 text-center">
+                    <p>Using visual insights to accelerate genomics research</p>
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-btn row">
+                  <div class="col-12 text-center">
+                    <a href="?page=/work/eagle" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                  </div>
+              </div><!-- row -->
+            </div><!-- container -->
+          </div><!-- item -->
+          <div class="ww-workwith carousel-item">
+            <div class="container-fluid">
+              <div class="ww-workwith-img row">
+                  <div class="col-8 offset-2 text-center">
+                    <img src="/images/logo-philips-blue.png" class="ww-project-icon img-fluid animated fadeIn"  alt="Philips - Project">
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-teaser row">
+                  <div class="col-12 text-center">
+                    <p>Bringing lighting design and energy management to architecture</p>
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-btn row">
+                  <div class="col-12 text-center">
+                    <a href="?page=/work/philips" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                  </div>
+              </div><!-- row -->
+            </div><!-- container -->
+          </div><!-- item -->
         </div>
       </div>
     </div>
@@ -51,7 +97,7 @@
         <ol class="carousel-indicators">
           <li data-target="#home-carousel-startups" data-slide-to="0" class="active"></li>
           <li data-target="#home-carousel-startups" data-slide-to="1"></li>
-          <!-- <li data-target="#home-carousel-startups" data-slide-to="3"></li> -->
+          <li data-target="#home-carousel-startups" data-slide-to="3"></li>
         </ol>
         <h3 class="home-workwith-item-heading text-center">Startups</h3>
         <div class="ww-panel-icon-container active">
@@ -60,18 +106,63 @@
           </div>
         </div>
         <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <img src="/images/logo-wagz-blue.png" class="ww-project-icon animated fadeIn" alt="Proximity Lab - Project">
-            <!-- <p>Teaser about the Wagz work that describes briefly what we did</p> -->
-            <br>
-            <a href="?page=/work/wagz" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
-          </div>
-          <div class="carousel-item">
-            <img src="/images/logo-minim-blue.png" class="ww-project-icon animated fadeIn"  alt="Proximity Lab - Project">
-            <!-- <p>Teaser about the Minim work that describes briefly what we did</p> -->
-            <br>
-            <a href="?page=/work/minim" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
-          </div>
+          <div class="ww-workwith carousel-item active">
+            <div class="container-fluid">
+              <div class="ww-workwith-img row">
+                  <div class="col-8 offset-2 text-center">
+                    <img src="/images/logo-wagz-blue.png" class="ww-project-icon img-fluid animated fadeIn" alt="Wagz - Project">
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-teaser row">
+                  <div class="col-12 text-center">
+                    <p>An integrated hardware, software, SaaS platform for dog safety, health, and happiness</p>
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-btn row">
+                  <div class="col-12 text-center">
+                    <a href="?page=/work/wagz" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                  </div>
+              </div><!-- row -->
+            </div><!-- container -->
+          </div><!-- item -->
+          <div class="ww-workwith carousel-item">
+            <div class="container-fluid">
+              <div class="ww-workwith-img row">
+                  <div class="col-8 offset-2 text-center">
+                    <img src="/images/logo-billnye-blue.png" class="ww-project-icon img-fluid animated fadeIn" alt="Bill Nye - Project">
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-teaser row">
+                  <div class="col-12 text-center">
+                    <p>An award-winning integrated museum experience</p>
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-btn row">
+                  <div class="col-12 text-center">
+                    <a href="?page=/work/billnye" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                  </div>
+              </div><!-- row -->
+            </div><!-- container -->
+          </div><!-- item -->
+          <div class="ww-workwith carousel-item">
+            <div class="container-fluid">
+              <div class="ww-workwith-img row">
+                  <div class="col-8 offset-2 text-center">
+                    <img src="/images/logo-minim-blue.png" class="ww-project-icon img-fluid animated fadeIn"  alt="Minim - Project">
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-teaser row">
+                  <div class="col-12 text-center">
+                    <p>A much-needed app for simplifying &amp; securing smart homes</p>
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-btn row">
+                  <div class="col-12 text-center">
+                    <a href="?page=/work/minim" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                  </div>
+              </div><!-- row -->
+            </div><!-- container -->
+          </div><!-- item -->
         </div>
       </div>
     </div>
@@ -89,24 +180,63 @@
           </div>
         </div>
         <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <img src="/images/logo-scribe-blue.png" class="ww-project-icon animated fadeIn"  alt="Proximity Lab - Project">
-            <!-- <p>Teaser about the Scribe work that describes briefly what we did</p> -->
-            <br>
-            <a href="?page=/work/scribe" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
-          </div>
-          <div class="carousel-item">
-            <img src="/images/logo-amadeus-blue.png" class="ww-project-icon animated fadeIn"  alt="Proximity Lab - Project">
-            <!-- <p>Teaser about the Amadeus work that describes briefly what we did</p> -->
-            <br>
-            <a href="?page=/work/amadeus" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
-          </div>
-          <div class="carousel-item">
-            <img src="/images/logo-songbird-blue.png" class="ww-project-icon animated fadeIn"  alt="Proximity Lab - Project">
-            <!-- <p>Teaser about the Songbird work that describes briefly what we did</p> -->
-            <br>
-            <a href="?page=/work/songbird" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
-          </div>
+          <div class="ww-workwith carousel-item active">
+            <div class="container-fluid">
+              <div class="ww-workwith-img row">
+                  <div class="col-8 offset-2 text-center">
+                    <img src="/images/logo-scribe-blue.png" class="ww-project-icon img-fluid animated fadeIn"  alt="Scribe - Project">
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-teaser row">
+                  <div class="col-12 text-center">
+                    <p>Expanding the power and usability of SaaS-based Integration</p>
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-btn row">
+                  <div class="col-12 text-center">
+                    <a href="?page=/work/scribe" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                  </div>
+              </div><!-- row -->
+            </div><!-- container -->
+          </div><!-- item -->
+          <div class="ww-workwith carousel-item">
+            <div class="container-fluid">
+              <div class="ww-workwith-img row">
+                  <div class="col-8 offset-2 text-center">
+                    <img src="/images/logo-amadeus-blue.png" class="ww-project-icon img-fluid animated fadeIn"  alt="Amadeus - Project">
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-teaser row">
+                  <div class="col-12 text-center">
+                    <p>A completely re-imagined experience for professional event planners</p>
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-btn row">
+                  <div class="col-12 text-center">
+                    <a href="?page=/work/amadeus" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                  </div>
+              </div><!-- row -->
+            </div><!-- container -->
+          </div><!-- item -->
+          <div class="ww-workwith carousel-item">
+            <div class="container-fluid">
+              <div class="ww-workwith-img row">
+                  <div class="col-8 offset-2 text-center">
+                    <img src="/images/logo-songbird-blue.png" class="ww-project-icon img-fluid animated fadeIn"  alt="Songbird - Project">
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-teaser row">
+                  <div class="col-12 text-center">
+                    <p>An immersive and integrated music appreciation platform</p>
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-btn row">
+                  <div class="col-12 text-center">
+                    <a href="?page=/work/songbird" class="ww-btn btn btn-outline-primary animated fadeIn">View Project</a>
+                  </div>
+              </div><!-- row -->
+            </div><!-- container -->
+          </div><!-- item -->
         </div>
       </div>
     </div>
