@@ -13,7 +13,7 @@
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-scribe.png" alt="Scribe logo">
-                        <p class="work-item-text d-none d-lg-block">Expanding the power and usability of SaaS-based Integration</p>
+                        <p class="work-item-text d-none d-lg-block">Expanding the power and usability of SaaS-based integration</p>
                         <a class="work-item-button" href="?page=/work/scribe">View work</a>
                     </div>
                 </div>
@@ -24,30 +24,19 @@
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-amadeus.svg" alt="Amadeus logo">
-                        <p class="work-item-text d-none d-lg-block">A completely re-imagined experience for professional event planners</p>
+                        <p class="work-item-text d-none d-lg-block">A fully re-imagined experience for professional event planners</p>
                         <a class="work-item-button" href="?page=/work/amadeus">View work</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- <div class="work-item col-12 col-sm-6 col-md-4">
-            <div id = "scribe" class="work-item-container text-center">
-                <div class="work-item-overlay">
-                    <div class="work-item-wrapper">
-                        <img class="work-item-logo" src="/images/logo-scribe.png" alt="Scribe logo">
-                        <p class="work-item-text d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
-                        <a class="work-item-button" href="?page=/work/scribe">View work</a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
         <div class="work-item col-sm-12 col-md-4">
             <div id = "minim" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-minim-white-2x.png" alt="Minim logo">
-                        <p class="work-item-text mx-auto d-none d-lg-block">A much-needed app for simplifying &amp; securing smart homes</p>
+                        <p class="work-item-text mx-auto d-none d-lg-block">Empowering consumers with smart home security</p>
                         <a class="work-item-button" href="?page=/work/minim">View work</a>
                     </div>
                 </div>
@@ -59,7 +48,7 @@
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-wagz-green-2x.png" alt="Wagz logo">
-                        <p class="work-item-text mx-auto d-none d-lg-block">An integrated hardware, software, SaaS platform for dog safety, health, and happiness</p>
+                        <p class="work-item-text mx-auto d-none d-lg-block">An integrated platform for dog safety, health and happiness</p>
                         <a class="work-item-button" href="?page=/work/wagz">View work</a>
                     </div>
                 </div>
@@ -71,7 +60,7 @@
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-eagle-2x.png" alt="Eagle logo">
-                        <p class="work-item-text mx-auto d-none d-lg-block">Using visual insights to accelerate genomics research</p>
+                        <p class="work-item-text mx-auto d-none d-lg-block">Visualization-powered AI to power genomics research and insight</p>
                         <a class="work-item-button" href="?page=/work/eagle">View work</a>
                     </div>
                 </div>
@@ -95,7 +84,7 @@
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-adobe.svg" alt="Adobe logo">
-                        <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
+                        <p class="work-item-text mx-auto d-none d-lg-block">Helping a creative software giant produce best in class products</p>
                         <a class="work-item-button" href="?page=/work/adobe">View work</a>
                     </div>
                 </div>
@@ -108,7 +97,7 @@
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-insight.png" alt="Root Insight logo">
-                        <p class="work-item-text mx-auto d-none d-lg-block">Visualizing real-time business analytics (integrated with Salesforce)</p>
+                        <p class="work-item-text mx-auto d-none d-lg-block">Competitive benchmarking and real-time business analytics</p>
                         <a class="work-item-button" href="?page=/work/rootinsight">View work</a>
                     </div>
                 </div>
@@ -120,7 +109,7 @@
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-mosaic.svg" alt="Mosaic logo">
-                        <p class="work-item-text mx-auto d-none d-lg-block">A mobile app to manage your photo library</p>
+                        <p class="work-item-text mx-auto d-none d-lg-block">A mobile companion to industry-leading photo management software</p>
                         <a class="work-item-button" href="?page=/work/mosaic">View work</a>
                     </div>
                 </div>
@@ -168,7 +157,7 @@
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-philips.svg" alt="Philips logo">
-                        <p class="work-item-text mx-auto d-none d-lg-block">Bringing lighting design and energy management to architecture</p>
+                        <p class="work-item-text mx-auto d-none d-lg-block">Architectural lighting and energy management innovation</p>
                         <a class="work-item-button" href="?page=/work/philips">View work</a>
                     </div>
                 </div>
@@ -180,7 +169,7 @@
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-scheduleme.svg" alt="Schedule Me logo">
-                        <p class="work-item-text mx-auto d-none d-lg-block">Helping people and teams easily schedule meetings</p>
+                        <p class="work-item-text mx-auto d-none d-lg-block">Leveraging availability across platforms for streamline meetings</p>
                         <a class="work-item-button" href="?page=/work/scheduleme">View work</a>
                     </div>
                 </div>
@@ -192,7 +181,7 @@
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-icovia-2x.png" alt="icovia logo">
-                        <p class="work-item-text mx-auto d-none d-lg-block">Turning a simple space planning app into an industry standard</p>
+                        <p class="work-item-text mx-auto d-none d-lg-block">A browser-based space planning app becomes an industry standard</p>
                         <a class="work-item-button" href="?page=/work/icovia">View work</a>
                     </div>
                 </div>

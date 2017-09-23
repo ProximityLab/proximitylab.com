@@ -41,7 +41,7 @@
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
                   <div class="col-12 text-center">
-                    <p>Helping to improve the best creative design tools in the world</p>
+                    <p>Helping a creative software giant produce best in class products</p>
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-btn row">
@@ -60,7 +60,7 @@
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
                   <div class="col-12 text-center">
-                    <p>Using visual insights to accelerate genomics research</p>
+                    <p>Visualization-powered AI to power genomics research and insight</p>
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-btn row">
@@ -79,7 +79,7 @@
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
                   <div class="col-12 text-center">
-                    <p>Bringing lighting design and energy management to architecture</p>
+                    <p>Architectural lighting and energy management innovation</p>
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-btn row">
@@ -115,7 +115,7 @@
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
                   <div class="col-12 text-center">
-                    <p>An integrated hardware, software, SaaS platform for dog safety, health, and happiness</p>
+                    <p>An integrated platform for dog safety, health and happiness</p>
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-btn row">
@@ -153,7 +153,7 @@
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
                   <div class="col-12 text-center">
-                    <p>A much-needed app for simplifying &amp; securing smart homes</p>
+                    <p>Empowering consumers with smart home security</p>
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-btn row">
@@ -189,7 +189,7 @@
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
                   <div class="col-12 text-center">
-                    <p>Expanding the power and usability of SaaS-based Integration</p>
+                    <p>Expanding the power and usability of SaaS-based integration</p>
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-btn row">
@@ -208,7 +208,7 @@
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
                   <div class="col-12 text-center">
-                    <p>A completely re-imagined experience for professional event planners</p>
+                    <p>A fully re-imagined experience for professional event planners</p>
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-btn row">
