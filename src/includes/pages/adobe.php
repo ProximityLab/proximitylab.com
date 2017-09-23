@@ -27,12 +27,12 @@
 
   <div class="container-fluid project-description project-description-0">
     <div class="row">
-      <div class="col-12 col-lg-5">
+      <div class="col-12 col-lg-6 description-text-col">
         <p>Most designers and developers know Adobe for its flagship applications, Photoshop and Illustrator. But beyond those, there are dozens of other powerful creativity software products designed to empower digital designers and simplify the way they work. Over the past ten years, Proximity Lab has worked with Adobe on dozens of high-visibility projects and has become part itself as a trusted partner as Adobe has aggressively shaped the landscape of rich Internet application software development.</p>
         <div class="adobe-carousel container-fluid">
           <div class="row">
             <div class="col-4">
-              <div id="adobe-carousel-1" class="carousel" data-ride="carousel" data-interval="6000" data-pause="false">
+              <div id="adobe-carousel-1" class="carousel" data-interval="6000" data-pause="false">
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item animated fadeIn active">
                     <div class="adobe-product-icon">
@@ -56,7 +56,7 @@
               </div>
             </div>
             <div class="col-4">
-              <div id="adobe-carousel-2" class="carousel" data-ride="carousel" data-interval="6000" data-pause="false">
+              <div id="adobe-carousel-2" class="carousel" data-interval="6000" data-pause="false">
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item animated fadeIn active">
                     <div class="adobe-product-icon">
@@ -80,7 +80,7 @@
               </div>
             </div>
             <div class="col-4">
-              <div id="adobe-carousel-3" class="carousel" data-ride="carousel" data-interval="6000" data-pause="false">
+              <div id="adobe-carousel-3" class="carousel" data-interval="6000" data-pause="false">
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item animated fadeIn active">
                     <div class="adobe-product-icon">
@@ -108,7 +108,7 @@
         <p>Initially our work was focused on helping Adobe showcase apps that were designed and created using their technologies. Since then, our team has helped with:</p>
       </div>
 
-      <div class="col-lg-6 offset-lg-1 hidden-md">
+      <div class="col-lg-6 hidden-md">
           <img src="/images/portfolio-description-adobe-bgd-2x.jpg" class="img-fluid" alt="Adobe Project">
       </div>
 
@@ -151,7 +151,7 @@
 
   <div class="container-fluid project-description project-description-2">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 description-text-col">
         <h1 class="heading-primary text-center">Envisioning the future</h1>
         <p class="text-center">At the strategic level, we have helped the team look more broadly at how Adobe’s products are addressing the changing needs of creative professionals. We also helped create long-term customer journeys and roadmaps designed to help identify the changing needs of creative experts over time - ensuring that they maintain strong ties to Adobe while maintaining their portfolios.</p>
       </div>
@@ -176,6 +176,18 @@
             <h4 class="portfolio-service-heading">Expanding collaboration capabilities</h4>
             <p class="portfolio-service-text">Knowing that creative professionals rely upon sharing and collaboration, we helped identify ways in which teams and individuals can more easily work together in and across Adobe’s applications.</p>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="adobe-carousel-testimonial" class="carousel carousel-fade" data-ride="carousel" data-interval="10000" data-pause="false">
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item adobe-carousel-testimonial-item adobe-carousel-testimonial-item-one active">
+        <div class="carousel-caption adobe-carousel-testimonial-caption">
+          <p class="adobe-carousel-testimonial-text">“As Adobe has grown and expanded its product lines over the years, we have relied on the outside expertise of Proximity Lab to help ensure we are designing and developing the most usable and effective tools possible for the creative marketplace. In many cases, they are not only a trusted partner, but serve as an extension to our design team to help on everything from product-focused UI exercises to executive level vision work.”</p>
+          <img class="adobe-carousel-testimonial-author" src="/images/profile-jamie-myrold-2x.png" alt="amie Myrold">
+          <p class="adobe-carousel-testimonial-author-title"><b>Jamie Myrold</b>, VP of Design Adobe</p>
         </div>
       </div>
     </div>

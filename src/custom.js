@@ -117,6 +117,12 @@ $(document).ready(function() {
   var adobeCarousel2 = $('#adobe-carousel-2');
   var adobeCarousel3 = $('#adobe-carousel-3');
 
+  if (adobeCarousel1) {
+    window.setTimeout(function() {
+      adobeCarousel1.carousel();
+    }, 0);
+  }
+
   if (adobeCarousel2) {
     window.setTimeout(function() {
       adobeCarousel2.carousel();

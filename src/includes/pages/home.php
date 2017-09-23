@@ -282,4 +282,4 @@
     <li data-target="#home-carousel-testimonial" data-slide-to="1" class="home-carousel-testimonial-indicator"></li>
     <li data-target="#home-carousel-testimonial" data-slide-to="2" class="home-carousel-testimonial-indicator"></li>
   </ol>
-  </div>
+</div>
