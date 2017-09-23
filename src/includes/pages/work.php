@@ -2,7 +2,7 @@
 
     <h1 class="work-header-heading text-center">Outcome-based design collaboration</h1>
 
-    <p class="work-header-text text-center mx-auto">Explore our portfolio to learn how we can help advance  your product vision and customer experience.</p>
+    <p class="work-header-text text-center mx-auto">Explore our portfolio to learn how we can help advance your product vision and build a best-in-class experience for your customers.</p>
 </header>
 
 <div class="container-fluid">

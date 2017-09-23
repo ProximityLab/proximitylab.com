@@ -13,7 +13,7 @@
   <div class="row" id="home-headline">
     <div class="col-12">
       <h1 class="home-workwith-header-heading text-center display-1 pb-5"><a name="start">Who we like to work with</a></h1>
-      <p class="home-workwith-header-text text-center pb-5">We've been part of big teams, small teams, and everything in-between.  Having a common appreciation and passion for thoughtful design makes for the best partnerships.</p>
+      <p class="home-workwith-header-text text-center pb-5">We've been involved with large globally distributed enterprise initiatives as well as small and mid-sized multidisciplinary teams. A shared appreciation and passion for thoughtful product design makes for lasting partnerships.</p>
     </div>
   </div>
 

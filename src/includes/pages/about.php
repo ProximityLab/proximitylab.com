@@ -16,8 +16,8 @@
     <div class="row">
         <div class="col-12 about-service-spacing text-center">
             <h4 class="about-service-heading-secondary">ABOUT PROXIMITY LAB</h4>
-            <h3 class="about-service-heading-primary">Our Story (so far . . . )</h3>
-            <p class="about-service-text mx-auto">We are designers, creators, and thinkers. Although we come from various backgrounds, we stand behind a common vision to create products that are designed with clarity for their users. We know that many products are very complex - but that doesn't mean they have to be complicated.</p>
+            <h3 class="about-service-heading-primary">Our Story</h3>
+            <p class="about-service-text mx-auto">We are designers, creators and thinkers. We bring diverse backgrounds together to develop a common vision, creating products that emphasize clarity, simplicity and value.</p>
         </div>
 
         <!-- <div class="col-12 col-md-5 about-service-image"></div> -->
@@ -96,7 +96,7 @@
             <div class="about-team-info-container">
                 <h6 class="about-team-heading-secondary">ABOUT PROXIMITY LAB</h6>
                 <h5 class="about-team-heading-primary">Meet our team</h5>
-                <p class="about-team-text">We are a team of passionate and innovative thinkers, driven to create awesome experiences</p>
+                <p class="about-team-text">We are a team of passionate and innovative thinkers – we live to create experiences that drive results.</p>
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 about-team-person">
@@ -175,8 +175,8 @@
 <div class="container-fluid about-location">
     <div class="row">
         <div class="col-12 col-lg-8 col-xl-5 offset-xl-1">
-            <h4 class="about-location-heading-primary">Changing experiences coast to coast</h4>
-            <p class="about-location-text">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete solutions from concept and design through development, testing and deployment.</p>
+            <h4 class="about-location-heading-primary">Teams coast to coast</h4>
+            <p class="about-location-text">With design teams based in Greater Boston and San Francisco locations, Proximity Lab is perfectly positioned to work side-by-side with your product leadership, design and engineering teams. From research and concept development to UX and interface design, we’ll assemble a team that compliments your in-house capabilities and addresses your specific needs.</p>
         </div>
 
         <div class="col-12 col-sm-6 col-lg-2 offset-xl-1">

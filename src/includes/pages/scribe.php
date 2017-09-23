@@ -26,8 +26,8 @@
 <div class="container-fluid project-description project-description-0">
   <div class="row">
     <div class="col-lg-5">
-      <p>Scribe Software, a market leader in data integration software, embarked on a project to re-imagine is legacy data integration platform. In a market dominated by highly technical products, Scribe was driven by a desire to offer the most approachable integration solution in the market. </p>
-      <p>Where users were typically operating in code snippets and command lines, Scribe set out to build an experience built on, “clicks, not code.”  With hundreds of customers using a legacy product, this was a massive undertaking with many challenges. Scribe worked with Proximity Lab to be involved throughout the process - from business objective definition through design implementation.</p>
+      <p>A market leader in data integration software, Scribe Software set out to re-imagine its legacy data integration platform. In a market dominated by highly technical products, Scribe was driven by a desire to offer the most accessible and approachable integration solution in the market.</p>
+      <p>In contrast to traditional command line and code snippet oriented integration tools aimed at technically advanced users, Scribe set out to build an experience built on “clicks, not code.” With hundreds of customers actively using their legacy product, this ambitious undertaking had a number of challenges. Scribe engaged with Proximity Lab to lead the early research and planning, all phases of UX and UI design and front-end development as well as advanced scripting for the canvas-oriented experience.</p>
     </div>
 
   </div>
@@ -37,9 +37,9 @@
   <div class="row">
     <div class="col-12">
       <img src="/images/portfolio-description-scribe-bgd-2-2x.png" class="img-fluid my-lg-5">
-      <h2>Focused Research and  User Journeys</h2>
-      <p>Using a combination of market research tools and processes, our team set out to understand the existing Scribe solution - why it existed and what were most useful parts? To answer this, we worked with the internal product teams to understand the mechanics of the product and learn about specific pain points directly from customer interviews.</p>
-      <p>The creation of key persona types, idealized journey maps, and key workflows helped focus on the actionable business and UI needs that required support and to help shape the product roadmap.</p>
+      <h2>Focused research and user journeys</h2>
+      <p>Drawing from market research tools and evaluations of the existing product experience, our team set out to understand the legacy solution, existing customer experience and the needs of potential and underserved customers. We worked with the internal product teams to gain understanding of product features and capabilities of the product and conducted customer interviews and observe and discuss challenges with existing workflows and to surface specific pain points and desired features and outcomes.</p>
+      <p>The creation of key persona types, journey maps, and idealized workflows helped focus and drive product UX recommendations and ultimately shaped the strategic direction of the product roadmap.</p>
     </div>
   </div>
 </div>
@@ -48,8 +48,8 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <img src="/images/icon-platform.svg">
-          <h2>Platform Modernization</h2>
-          <p class=" pb-5 mb-5">Prior to designing the new experience, we worked with the Scribe team to identify both the weaknesses of the existing platform and the requirements of the new platform. By shedding the legacy technology and moving to a modern SaaS platform, all of the new features and capabilities required for the key personas could be developed. This new architecture would also allow for new features to be added as needed.</p>
+          <h2>Platform modernization</h2>
+          <p class=" pb-5 mb-5">Leveraging this research and key findings, we worked with the Scribe team to identify both new and modified workflows and to explore new features that would become the centerpiece of the new platform. New features and modified workflows were designed and evaluated to reflect the needs and transitional use by existing customers and those of new customer types including line of business users with markedly different backgrounds.</p>
         </div>
       </div>
 </div>
@@ -58,7 +58,7 @@
   <div id="code-support" class="row">
     <div class="col-lg-7 half-image"></div>
     <div class="col-lg-5 text-container">
-      <h2>Visual Coding Support</h2>
+      <h2>Visual coding support</h2>
       <p>One unique aspect of the new data integration platform was the support for visual coding. This was a critical feature to support the goal of enabling a cultural shift in how the product was used and who would be able to use it. Ultimately the new Scribe platform included a Scratch-based coding platform that helped fulfill the vision of, “clicks, not code,” enabling non-technical users to perform data integration.</p>
     </div>
   </div>
@@ -66,8 +66,8 @@
   <div id="design-excellence" class="row">
     <div class="col-md-6 half-image"></div>
     <div class="col-md-6 d-flex flex-column justify-content-center text-container flex-first">
-      <h2>Design Excellence</h2>
-      <p>While all of the preceding work was critical in determining the usability of the product, a large part of the challenge was creating a user interface design that would make the vision of simple data integration a reality without compromising the powerful capabilities of the product. The resulting interface was recognized by the leading market research firms as, “the best-in-class,” for data integration.</p>
+      <h2>Design excellence</h2>
+      <p>A central challenge was developing a simple and approachable interface for a wide range of user types – creating a visually oriented data integration platform – without compromising the powerful capabilities of the product. Gartner Group, a leading market research firm, recognized Scribe’s re-imagined SaaS-based solution as “the best-in-class” for data integration, a designation that Scribe attributes largely to the research and product design work conducted by Proximity Lab.</p>
     </div>
   </div>
 
@@ -75,28 +75,27 @@
 
 <div class="container-fluid project-services">
     <div class="row">
-      <div class="col-12"><h2 class="text-center">Scribe has been extremely satisfied with the collaboration with Proximity Lab and has reported many impressive results</h2></div>
-        <div class="col-12 col-sm-4 text-center">
-            <div class="project-service">
-                <img class="portfolio-service-icon" src="/images/icon-increased-usage.svg" alt="Visual Experience">
-                <h4 class="portfolio-service-heading">Increased Usage</h4>
-                <p class="portfolio-service-text">An overall increase of 200+% of concurrent use on the Scribe cloud-based platform</p>
-            </div>
-        </div>
-        <div class="col-12 col-sm-4 text-center">
-            <div class="project-service">
-                <img class="portfolio-service-icon" src="/images/icon-customer-satisfaction.svg" alt="Team Collaboration">
-                <h4 class="portfolio-service-heading">Customer Satisfaction</h4>
-                <p class="portfolio-service-text">Heightened customer satisfaction as measured in improvements in customer retention</p>
-            </div>
-        </div>
-        <div class="col-12 col-sm-4 text-center">
-            <div class="project-service">
-                <img class="portfolio-service-icon" src="/images/icon-task-efficiency.svg" alt="Unified Experience">
-                <h4 class="portfolio-service-heading">Task Efficiency</h4>
-                <p class="portfolio-service-text">A 25% improvement in efficiency of integration tasks</p>
-            </div>
-        </div>
+      <div class="col-12 col-sm-4 text-center">
+          <div class="project-service">
+              <img class="portfolio-service-icon" src="/images/icon-increased-usage.svg" alt="Visual Experience">
+              <h4 class="portfolio-service-heading">Increased Usage</h4>
+              <p class="portfolio-service-text">An overall increase of 200+% of concurrent use on the Scribe cloud-based platform</p>
+          </div>
+      </div>
+      <div class="col-12 col-sm-4 text-center">
+          <div class="project-service">
+              <img class="portfolio-service-icon" src="/images/icon-customer-satisfaction.svg" alt="Team Collaboration">
+              <h4 class="portfolio-service-heading">Customer Satisfaction</h4>
+              <p class="portfolio-service-text">Heightened customer satisfaction as measured in improvements in customer retention</p>
+          </div>
+      </div>
+      <div class="col-12 col-sm-4 text-center">
+          <div class="project-service">
+              <img class="portfolio-service-icon" src="/images/icon-task-efficiency.svg" alt="Unified Experience">
+              <h4 class="portfolio-service-heading">Task Efficiency</h4>
+              <p class="portfolio-service-text">A 25% improvement in efficiency of integration tasks</p>
+          </div>
+      </div>
     </div>
 </div>
 

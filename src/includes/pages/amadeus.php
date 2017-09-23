@@ -37,11 +37,11 @@
 <div class="container-fluid project-description">
   <div class="row">
     <div class="col-lg-7">
-      <p>Amadeus Hospitality, formerly Newmarket International, is the world’s leading provider of hospitality management software. It’s range of software applications allow hotel staff to manage virtually every aspect of the hotel experience. When Amadeus was looking to modernize several applications related to event planning and management, it turned to Proximity Lab.</p>
-      <p>Before redesigning the user experience, we researched the market to analyze existing products, understand target users, and evaluate idealized feature sets. That work was critical in driving the focus and direction of the project, including:</p>
+      <p>Amadeus Hospitality is the world’s leading provider of hospitality management software with a suite of tools that empowers hotel staff to manage virtually every aspect of the hotel experience. Amadeus turned to Proximity Lab to modernize several applications related to event planning and management.</p>
+      <p>Before redesigning the user experience, we researched the market and interviewed customers to analyze existing products, understand customer needs and evaluate idealized feature sets. That work was critical in driving the focus and direction of the project including:</p>
       <div class="ww-paragraph">
         <p>Formalizing the target personae who would most benefit from the new experience</p>
-        <p>Prioritizing feature sets & shaping the product roadmap</p>
+        <p>Prioritizing feature sets and shaping the product roadmap</p>
         <p>Identifying areas for integration with other Amadeus Hospitality applications</p>
       </div>
     </div>
@@ -51,7 +51,8 @@
 <div class="project-more-info">
     <div class="top">
       <h2>Re-crafting an integrated experience</h2>
-        <p>As our team moved into the UX/UI design phase with clear vision for how Amadeus wanted to engagement more deeply with event planners, we went to work designing an intuitive and powerful new experience -- one that needed to integrate existing apps with new functionality from software that had been acquired. In order to help improve their experience and possibly change their behavior, the new end-to-end experience for the event planning & management apps would need to support modern features and use cases.</p>
+        <p>As our teams moved into the UX and interface design phases, we collaborated with Amadeus stakeholders to develop a clear vision for an integrated suite of products that would span event planning, event layout and design, sales, operations management and collaboration. The products we designed ranged from a wholesale redesign of Amadeus’ online space planner added to their product portfolio through acquisition to the design of new products including their Planner Portal and Direct Book solutions.</p>
+        <p>In each case, Proximity Lab approached product design with an eye toward improving customer experience and advancing the business goals of Amadeus’ customers. The resulting event planning & management suite features tightly integrated and unified workflows and consistent visual design that provides an effective and seamless end-to-end experience for customers.</p>
     </div>
     <div class="bottom">
         <div class="inner">
