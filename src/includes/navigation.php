@@ -18,6 +18,7 @@ $pagelist = array(
   '/work/icovia'
 );
 
+$isWorkCurrent = false;
 $previous;
 $next;
 $listamount = count($pagelist);
@@ -27,7 +28,12 @@ foreach ($pagelist as $key => $value) {
 
   if($value == $activePage) {
     $currentpagenum = $key;
+    $isWorkCurrent = true;
   }
+}
+
+if (isset($currentpagenum)){
+  $current = $pagelist[$currentpagenum];
 }
 
 if (isset($currentpagenum) && $currentpagenum < $listamount - 1){
@@ -55,7 +61,7 @@ else {
 		<a href="/" id="pl-nav-logo" class="site-title-r">Proximity Lab</a>
 		<ul>
 			<li><a class="page-navigation-link<?php if ($activePage == '/about') echo ' page-navigation-link-active'; ?>" href="?page=/about">About</a></li>
-			<li><a class="page-navigation-link<?php if ($activePage == '/work') echo ' page-navigation-link-active'; ?>" href="?page=/work">Work</a></li>
+			<li><a class="page-navigation-link<?php if ($activePage == '/work' || $isWorkCurrent) echo ' page-navigation-link-active'; ?><?php if ($isWorkCurrent) echo ' work-page'; ?>" href="?page=/work">Work</a></li>
 			<li><a href="?page=<?php echo $previous; ?>" class="jumbotron-left" alt="Previous project"></a></li>
 			<li><a href="?page=<?php echo $next; ?>" class="jumbotron-right" alt="Next project"></a></li>
 		</ul>

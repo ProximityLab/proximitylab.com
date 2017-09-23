@@ -346,6 +346,10 @@ a[name=start] {
     opacity: 1.0 !important;
 }
 
+.page-navigation li a.page-navigation-link-active.work-page {
+    border-bottom: 1px solid #fff;
+}
+
 .page-navigation li a.page-navigation-link-active:hover {
     color: #d11481 !important;
     text-decoration: none;
