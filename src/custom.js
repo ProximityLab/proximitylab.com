@@ -112,6 +112,26 @@ $(document).ready(function() {
     }
   });
 
+  // Adobe Carousels
+  var adobeCarousel1 = $('#adobe-carousel-1');
+  var adobeCarousel2 = $('#adobe-carousel-2');
+  var adobeCarousel3 = $('#adobe-carousel-3');
+
+  if (adobeCarousel2) {
+    window.setTimeout(function() {
+      adobeCarousel2.carousel();
+    }, 3000);
+  }
+
+  if (adobeCarousel3) {
+    window.setTimeout(function() {
+      adobeCarousel3.carousel();
+    }, 2000);
+  }
+
+
+  // Home Page Carousels
+
   $('.ww-panels .carousel').mouseenter(function() {
     $(this).find('.carousel-indicators').css('display', 'flex');
     $(this).find('.carousel-indicators').fadeIn();
