@@ -393,6 +393,12 @@
   height: 110px;
 }
 
+.adobe-carousel .carousel-inner .carousel-item.animated {
+    /* -webkit-animation-delay: 2s;
+    animation-delay: 2s; */
+    animation-duration: 3s;
+}
+
 .adobe-carousel {
   margin-bottom: 2.2rem;
   padding-left: 0;
@@ -428,4 +434,5 @@
   width: 100%;
   font-size: 1.4rem;
   font-weight: 600;
+  white-space: nowrap;
 }

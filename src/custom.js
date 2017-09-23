@@ -120,7 +120,7 @@ $(document).ready(function() {
   if (adobeCarousel2) {
     window.setTimeout(function() {
       adobeCarousel2.carousel();
-    }, 3000);
+    }, 4000);
   }
 
   if (adobeCarousel3) {

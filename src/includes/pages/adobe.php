@@ -31,8 +31,8 @@
         <p>Most designers and developers know Adobe for its flagship applications, Photoshop and Illustrator. But beyond those, there are dozens of other powerful creativity software products designed to empower digital designers and simplify the way they work. Over the past ten years, Proximity Lab has worked with Adobe on dozens of high-visibility projects and has become part itself as a trusted partner as Adobe has aggressively shaped the landscape of rich Internet application software development.</p>
         <div class="adobe-carousel container-fluid">
           <div class="row">
-            <div class="col-6 col-sm-4">
-              <div id="adobe-carousel-1" class="carousel" data-ride="carousel" data-interval="4000" data-pause="false">
+            <div class="col-4">
+              <div id="adobe-carousel-1" class="carousel" data-ride="carousel" data-interval="6000" data-pause="false">
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item animated fadeIn active">
                     <div class="adobe-product-icon">
@@ -52,113 +52,41 @@
                     </div>
                     <h4>Acrobat</h4>
                   </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-lightroom.svg" class="img-fluid" alt="Adobe Lightroom">
-                    </div>
-                    <h4>Lightroom</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-enterprise.svg" class="img-fluid" alt="Adobe Enterprise">
-                    </div>
-                    <h4>Enterprise</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-after-effects.svg" class="img-fluid" alt="Adobe After Effects">
-                    </div>
-                    <h4>After Effects</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-bridge.png" class="img-fluid" alt="Adobe Bridge">
-                    </div>
-                    <h4>Bridge</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-air.png" class="img-fluid" alt="Adobe Air">
-                    </div>
-                    <h4>Air</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-document-cloud.png" class="img-fluid" alt="Adobe Document Cloud">
-                    </div>
-                    <h4>Document Cloud</h4>
-                  </div><!-- item -->
                 </div>
               </div>
             </div>
-            <div class="col-6 col-sm-4">
-              <div id="adobe-carousel-2" class="carousel" data-interval="4300" data-pause="false">
-                <div class="carousel-inner" role="listbox">
-                   <div class="carousel-item animated fadeIn active">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-creative-cloud.svg" class="img-fluid" alt="Adobe Creative Cloud">
-                    </div>
-                    <h4>Creative Cloud</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-document-cloud.png" class="img-fluid" alt="Adobe Document Cloud">
-                    </div>
-                    <h4>Document Cloud</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-bridge.png" class="img-fluid" alt="Adobe Bridge">
-                    </div>
-                    <h4>Bridge</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-photoshop.svg" class="img-fluid" alt="Adobe Photoshop">
-                    </div>
-                    <h4>Photoshop</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-after-effects.svg" class="img-fluid" alt="Adobe After Effects">
-                    </div>
-                    <h4>After Effects</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-acrobat.svg" alt="Adobe Acrobat">
-                    </div>
-                    <h4>Acrobat</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-enterprise.svg" class="img-fluid" alt="Adobe Enterprise">
-                    </div>
-                    <h4>Enterprise</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-lightroom.svg" class="img-fluid" alt="Adobe Lightroom">
-                    </div>
-                    <h4>Lightroom</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-air.png" class="img-fluid" alt="Adobe Air">
-                    </div>
-                    <h4>Air</h4>
-                  </div><!-- item -->
-                </div>
-              </div>
-            </div>
-            <div class="col-6 col-sm-4 hidden-xs">
-              <div id="adobe-carousel-3" class="carousel" data-interval="4600" data-pause="false">
+            <div class="col-4">
+              <div id="adobe-carousel-2" class="carousel" data-ride="carousel" data-interval="6000" data-pause="false">
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item animated fadeIn active">
                     <div class="adobe-product-icon">
-                      <img src="/images/icon-document-cloud.png" class="img-fluid" alt="Adobe Document Cloud">
+                      <img src="/images/icon-lightroom.svg" class="img-fluid" alt="Adobe Lightroom">
                     </div>
-                    <h4>Document Cloud</h4>
+                    <h4>Lightroom</h4>
+                  </div><!-- item -->
+                  <div class="carousel-item animated fadeIn">
+                    <div class="adobe-product-icon">
+                      <img src="/images/icon-enterprise.svg" class="img-fluid" alt="Adobe Enterprise">
+                    </div>
+                    <h4>Enterprise</h4>
+                  </div><!-- item -->
+                  <div class="carousel-item animated fadeIn">
+                    <div class="adobe-product-icon">
+                      <img src="/images/icon-after-effects.svg" class="img-fluid" alt="Adobe After Effects">
+                    </div>
+                    <h4>After Effects</h4>
+                  </div><!-- item -->
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div id="adobe-carousel-3" class="carousel" data-ride="carousel" data-interval="6000" data-pause="false">
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item animated fadeIn active">
+                    <div class="adobe-product-icon">
+                      <img src="/images/icon-bridge.png" class="img-fluid" alt="Adobe Bridge">
+                    </div>
+                    <h4>Bridge</h4>
                   </div><!-- item -->
                   <div class="carousel-item animated fadeIn">
                     <div class="adobe-product-icon">
@@ -168,45 +96,9 @@
                   </div><!-- item -->
                   <div class="carousel-item animated fadeIn">
                     <div class="adobe-product-icon">
-                      <img src="/images/icon-after-effects.svg" class="img-fluid" alt="Adobe After Effects">
+                      <img src="/images/icon-document-cloud.png" class="img-fluid" alt="Adobe Document Cloud">
                     </div>
-                    <h4>After Effects</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-bridge.png" class="img-fluid" alt="Adobe Bridge">
-                    </div>
-                    <h4>Bridge</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-lightroom.svg" class="img-fluid" alt="Adobe Lightroom">
-                    </div>
-                    <h4>Lightroom</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-creative-cloud.svg" class="img-fluid" alt="Adobe Creative Cloud">
-                    </div>
-                    <h4>Creative Cloud</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-acrobat.svg" alt="Adobe Acrobat">
-                    </div>
-                    <h4>Acrobat</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-photoshop.svg" class="img-fluid" alt="Adobe Photoshop">
-                    </div>
-                    <h4>Photoshop</h4>
-                  </div><!-- item -->
-                  <div class="carousel-item animated fadeIn">
-                    <div class="adobe-product-icon">
-                      <img src="/images/icon-enterprise.svg" class="img-fluid" alt="Adobe Enterprise">
-                    </div>
-                    <h4>Enterprise</h4>
+                    <h4>Document Cloud</h4>
                   </div><!-- item -->
                 </div>
               </div>
