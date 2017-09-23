@@ -356,6 +356,11 @@ a[name=start] {
     border-bottom: 1px solid #cf0c7d;
 }
 
+.page-navigation li a.page-navigation-link-active.work-page:hover {
+    color: white !important;
+    border-bottom: 1px solid white;
+}
+
 
 /* header - standard nav links – scrolled */
 
