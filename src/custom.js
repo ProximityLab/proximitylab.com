@@ -117,19 +117,19 @@ $(document).ready(function() {
   var adobeCarousel2 = $('#adobe-carousel-2');
   var adobeCarousel3 = $('#adobe-carousel-3');
 
-  if (adobeCarousel1) {
+  if (adobeCarousel1 && adobeCarousel1.carousel) {
     window.setTimeout(function() {
       adobeCarousel1.carousel();
     }, 0);
   }
 
-  if (adobeCarousel2) {
+  if (adobeCarousel2 && adobeCarousel2.carousel) {
     window.setTimeout(function() {
       adobeCarousel2.carousel();
     }, 4000);
   }
 
-  if (adobeCarousel3) {
+  if (adobeCarousel3 && adobeCarousel3.carousel) {
     window.setTimeout(function() {
       adobeCarousel3.carousel();
     }, 2000);

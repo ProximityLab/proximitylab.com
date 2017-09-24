@@ -123,10 +123,6 @@
   }
 }
 
-.hidden-md {
-  display: none;
-}
-
 .background-image {
   margin-top: 3rem;
 }
@@ -140,9 +136,6 @@
 @media (min-width: 992px) {
     .portfolio-paragraph {
       margin-top: 6rem
-    }
-    .hidden-md {
-      display: block;
     }
     .background-image {
       margin-top: 0;

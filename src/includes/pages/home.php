@@ -97,7 +97,7 @@
         <ol class="carousel-indicators">
           <li data-target="#home-carousel-startups" data-slide-to="0" class="active"></li>
           <li data-target="#home-carousel-startups" data-slide-to="1"></li>
-          <li data-target="#home-carousel-startups" data-slide-to="3"></li>
+          <li data-target="#home-carousel-startups" data-slide-to="2"></li>
         </ol>
         <h3 class="home-workwith-item-heading text-center">Startups</h3>
         <div class="ww-panel-icon-container active">

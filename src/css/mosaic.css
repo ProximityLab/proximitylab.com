@@ -123,16 +123,9 @@
   }
 }
 
-.hidden-md {
-  display: none;
-}
-
 @media (min-width: 992px) {
     .portfolio-paragraph {
       margin-top: 6rem
-    }
-    .hidden-md {
-      display: block;
     }
 }
 

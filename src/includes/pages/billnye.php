@@ -30,7 +30,7 @@
       <p>The team researched and explored many ideas that would help bring the concept to life. We visited other interactive exhibits to learn as much as possible about what worked and what didn’t. We spoke with kids about what they loved most about science, technology, and museums. Working collaboratively with Bill and his team, the vision for the exhibits started to take shape.</p>
     </div>
 
-    <div class="col-lg-6 offset-lg-1 hidden-md">
+    <div class="col-lg-6 offset-lg-1 hidden-md-down">
         <img src="/images/portfolio-description-billnye-bgd-2x.png" class="img-fluid" alt="Bill Nye Project">
     </div>
   </div>
@@ -38,7 +38,7 @@
 
 <div class="container-fluid project-description project-description-1">
   <div class="row">
-    <div class="col-12 col-lg-6 hidden-md">
+    <div class="col-12 col-lg-6 hidden-md-down">
         <img src="/images/portfolio-description-billnye-bgd-2-2x.jpg" class="img-fluid" alt="Bill Nye Project">
     </div>
 
@@ -58,14 +58,16 @@
     </div>
 
     <div class="col-lg-8 offset-lg-2">
-        <img src="/images/portfolio-description-billnye-bgd-3-2x.jpg" class="img-fluid" alt="Bill Nye Project">
+        <div class="aspect-ratio">
+          <iframe src="https://player.vimeo.com/video/17790325" class="img-fluid" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
     </div>
   </div>
 </div>
 
 <div class="container-fluid project-description project-description-3">
   <div class="row">
-    <div class="col-12 col-lg-6 hidden-md">
+    <div class="col-12 col-lg-6 hidden-md-down">
         <img src="/images/portfolio-description-billnye-bgd-4-2x.jpg" class="img-fluid" alt="Bill Nye Project">
     </div>
 

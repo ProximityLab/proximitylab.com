@@ -89,7 +89,7 @@ a[name=start] {
 .home header h2 {
     font-size: 24px;
     font-size: 2.4rem;
-    margin: -1rem 0 10rem;
+    margin: 0 0 10rem;
     line-height: 5rem;
     z-index: 99999!important;
     font-weight: 300;
@@ -669,6 +669,7 @@ a[name=start] {
     font-weight: 400;
     line-height: 20px;
     color: #7c7c7c;
+    white-space: nowrap;
 }
 
 .page-footer-credits a {
@@ -684,15 +685,15 @@ a[name=start] {
     margin-right: 1.3rem;
 }
 
-.page-footer-credits a.twitter img { 
-    height: 18px;
-    max-height: 18px;
+.page-footer-credits a img { 
+    height: 15px;
+    max-height: 15px;
 }
 
 .page-footer-separator {
-    margin: 0 15px;
+    margin: 0 12px;
     color: #404f60;
-    opacity: .3;
+    opacity: 0.3;
 }
 
 .page-footer-copyright {

@@ -53,14 +53,21 @@
         <div class="row">
             <div class="col-12">
                 <p class="page-footer-credits">
-                  <span class="page-footer-copyright">© 2008-2017 Proximity Lab</span>
-                  <span class="page-footer-separator">|</span> 855.776.9522
+                  <span class="page-footer-copyright hidden-xs-down">© 2008-2017 Proximity Lab</span>
+                  <span class="page-footer-separator hidden-xs-down">|</span> 855.776.9522
                   <span class="page-footer-separator">|</span>
                   <a href="mailto:info@proximitylab.com">info@proximitylab.com</a>
                   <span class="page-footer-separator">|</span>
                   <a href="https://twitter.com/proximitylab" target="_blank" class="twitter"><img src="/images/logo-twitter.png" class="img-fluid"></a>
                   <a href="https://www.behance.net/proximitylab" target="_blank"><img src="/images/logo-be.svg"></a>
                 </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+              <p class="page-footer-credits hidden-sm-up">
+                  <span class="page-footer-copyright">© 2008-2017 Proximity Lab</span>
+              </p>
             </div>
         </div>
     </div>
