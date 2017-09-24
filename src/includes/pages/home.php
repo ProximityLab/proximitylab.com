@@ -110,6 +110,25 @@
             <div class="container-fluid">
               <div class="ww-workwith-img row">
                   <div class="col-8 offset-2 text-center">
+                    <img src="/images/logo-minim-blue.png" class="ww-project-icon minim img-fluid"  alt="Minim - Project">
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-teaser row">
+                  <div class="col-12 text-center">
+                    <p>Empowering consumers with smart home security</p>
+                  </div>
+              </div><!-- row -->
+              <div class="ww-workwith-btn row">
+                  <div class="col-12 text-center">
+                    <a href="?page=/work/minim" class="ww-btn btn btn-outline-primary">View Project</a>
+                  </div>
+              </div><!-- row -->
+            </div><!-- container -->
+          </div><!-- item -->
+          <div class="ww-workwith carousel-item animated fadeIn">
+            <div class="container-fluid">
+              <div class="ww-workwith-img row">
+                  <div class="col-8 offset-2 text-center">
                     <img src="/images/logo-wagz-blue.png" class="ww-project-icon img-fluid" alt="Wagz - Project">
                   </div>
               </div><!-- row -->
@@ -140,25 +159,6 @@
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
                     <a href="?page=/work/billnye" class="ww-btn btn btn-outline-primary">View Project</a>
-                  </div>
-              </div><!-- row -->
-            </div><!-- container -->
-          </div><!-- item -->
-          <div class="ww-workwith carousel-item animated fadeIn">
-            <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
-                    <img src="/images/logo-minim-blue.png" class="ww-project-icon img-fluid"  alt="Minim - Project">
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-teaser row">
-                  <div class="col-12 text-center">
-                    <p>Empowering consumers with smart home security</p>
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-btn row">
-                  <div class="col-12 text-center">
-                    <a href="?page=/work/minim" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->

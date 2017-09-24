@@ -191,12 +191,12 @@
 
 @media (min-width:1200px) {
     .ww-panels .carousel-inner .ww-workwith .ww-workwith-img {
-        height: 5.4rem;
-        max-height: 5.4rem;
+        height: 5.6rem;
+        max-height: 5.6rem;
     }
     .ww-panels .carousel-inner .ww-workwith .ww-workwith-teaser {
-        height: 8.2rem;
-        max-height: 8.2rem;
+        height: 7.8rem;
+        max-height: 7.8rem;
     }
 }
 
@@ -216,7 +216,6 @@
 
 .ww-panels h3 {
     margin: 0 0 2rem;
-    font-size: 24px;
     font-size: 2.4rem;
     font-weight: 400;
     color: #7c7c7c;
@@ -226,6 +225,11 @@
     margin: auto;
     text-align: center;
     top: 76.5%
+}
+
+.ww-panels h3.active {
+    font-size: 1.8rem;
+    top: 10%
 }
 
 .ww-panels .ww-panel-icon-container .ww-panel-icon {
@@ -261,6 +265,13 @@
 
 .ww-project-icon {
     max-height: 90%;
+    max-width: 75%;
+    margin-top: 1.4rem;
+}
+
+.ww-project-icon.minim {
+    max-height: 75%;
+    max-width: 70%;
     margin-top: 1.4rem;
 }
 
