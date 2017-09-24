@@ -680,6 +680,15 @@ a[name=start] {
     text-decoration: none;
 }
 
+.page-footer-credits a.twitter { 
+    margin-right: 1.3rem;
+}
+
+.page-footer-credits a.twitter img { 
+    height: 18px;
+    max-height: 18px;
+}
+
 .page-footer-separator {
     margin: 0 15px;
     color: #404f60;
