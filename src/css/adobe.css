@@ -14,13 +14,13 @@
 
 @media (min-width: 992px) {
     .ww-portfolio .jumbotron {
-        padding-top: 6rem;
+        padding-top: 7rem;
     }
 }
 
 @media (min-width: 1200px) {
     .ww-portfolio .jumbotron {
-        padding-top: 4rem;
+        padding-top: 7rem;
     }
     .ww-portfolio .jumbotron {
         padding-left: 10rem;
