@@ -158,12 +158,12 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
 }
 
 .project-description-2 {
-  margin: 0 auto;
+  margin: 2rem auto 0;
 }
 
 @media (min-width: 1200px) {
   .project-description-2 {
-    margin: 0 auto 4rem;
+    margin: 6.5rem auto 4rem;
   }
 }
 
@@ -367,7 +367,7 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
   font-size: 3.4rem!important;
   color: #282828!important;
   font-weight: 300!important;
-  margin: 2rem 0!important;
+  margin: 5.8rem 0 4.6rem!important;
 }
 
 

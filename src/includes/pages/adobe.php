@@ -32,7 +32,7 @@
         <div class="adobe-carousel container-fluid">
           <div class="row">
             <div class="col-4">
-              <div id="adobe-carousel-1" class="carousel" data-interval="6000" data-pause="false">
+              <div id="adobe-carousel-1" class="carousel" data-interval="9750" data-pause="false">
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
                     <div class="adobe-product-icon">
@@ -56,7 +56,7 @@
               </div>
             </div>
             <div class="col-4">
-              <div id="adobe-carousel-2" class="carousel" data-interval="6000" data-pause="false">
+              <div id="adobe-carousel-2" class="carousel" data-interval="9750" data-pause="false">
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
                     <div class="adobe-product-icon">
@@ -80,7 +80,7 @@
               </div>
             </div>
             <div class="col-4">
-              <div id="adobe-carousel-3" class="carousel" data-interval="6000" data-pause="false">
+              <div id="adobe-carousel-3" class="carousel" data-interval="9750" data-pause="false">
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
                     <div class="adobe-product-icon">
