@@ -130,11 +130,11 @@
 
 @media (min-width: 992px) {
   .project-description {
-    background: url('../images/portfolio-description-eagle-bgd-2x.png') no-repeat;
+    background: url('../images/portfolio-description-eagle-bgd-2x.jpg') no-repeat;
     background-position: right 20rem;
     background-size: contain;
     min-height: 700px;
-
+    overflow: visible;
   }
 }
 

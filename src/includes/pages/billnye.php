@@ -31,7 +31,7 @@
     </div>
 
     <div class="col-lg-6 offset-lg-1 hidden-md-down">
-        <img src="/images/portfolio-description-billnye-bgd-2x.png" class="img-fluid" alt="Bill Nye Project">
+        <img src="/images/portfolio-description-billnye-bgd-2x.jpg" class="img-fluid" alt="Bill Nye Project">
     </div>
   </div>
 </div>

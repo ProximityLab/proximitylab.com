@@ -10,7 +10,7 @@
             <div id="massart-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item massart-carousel-testimonial-item massart-carousel-hero-item-one active">
-                  <img class="img-fluid" src="/images/website-mockup-massart-2x.png" alt="MassArt website mockup">
+                  <img class="img-fluid" src="/images/website-mockup-massart-2x.jpg" alt="MassArt website mockup">
                 </div>
               </div>
 
@@ -55,7 +55,7 @@
       <!-- p>The app successfully became a companion app to Adobe Lightroom - providing professional photographers with anytime, anywhere access to their digital asset libraries on their mobile devices. Mosaic sold to OnOne Software in October 2014.</p -->
     </div>
     <div class="col-12 col-lg-5 offset-lg-1 hidden-md-down">
-      <img src="/images/portfolio-description-massart-bgd.png"  class="img-fluid" alt="Visual Experience">
+      <img src="/images/portfolio-description-massart-bgd.jpg"  class="img-fluid" alt="Visual Experience">
     </div>
   </div>
 </div>
