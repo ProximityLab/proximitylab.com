@@ -52,7 +52,7 @@
     <div class="top">
       <h2>Re-crafting an integrated experience</h2>
         <p>As our teams moved into the UX and interface design phases, we collaborated with Amadeus stakeholders to develop a clear vision for an integrated suite of products that would span event planning, event layout and design, sales, operations management and collaboration. The products we designed ranged from a wholesale redesign of Amadeus’ online space planner added to their product portfolio through acquisition to the design of new products including their Planner Portal and Direct Book solutions.</p>
-        <p>In each case, Proximity Lab approached product design with an eye toward improving customer experience and advancing the business goals of Amadeus’ customers. The resulting event planning & management suite features tightly integrated and unified workflows and consistent visual design that provides an effective and seamless end-to-end experience for customers.</p>
+        <p>In each case, Proximity Lab approached product design with an eye toward improving customer experience and advancing the business goals of Amadeus’ customers. The resulting event planning &amp; management suite features tightly integrated and unified workflows and consistent visual design that provides an effective and seamless end-to-end experience for customers.</p>
     </div>
     <div class="bottom">
         <div class="inner">

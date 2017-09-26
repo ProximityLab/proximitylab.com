@@ -26,7 +26,7 @@
 <div class="container-fluid project-description">
   <div class="row">
     <div class="col-xl-5 col-lg-6">
-      <p class="portfolio-paragraph">Eagle Genomics is an award-winning provider of software analysis tools to assist with genomics research. Its products are used by some of the largest life science companies in the world. As Eagle looked to expand its product portfolio, it developed a concept for an app that would allow researchers to perform multi-dimensional analyses on massive sets of biological data to allow for greater efficiency in the research process. Because this new app would incorporate new interface concepts and need to accommodate new user types, the Eagle team looked for a design partner who could help and selected our team.</p>
+      <p class="portfolio-paragraph">Cambridge UK based Eagle Genomics is an award-winning provider of AI-powered analysis tools designed to drive and accelerate genomics research. Its products are used by some of the largest and most-respected life science companies in the world.  In an effort to expand their product portfolio, Eagle developed a concept for an app that allows researchers to perform multi-dimensional analyses on massive sets of biological data and allow for increased efficiencies in the research process. Understanding that this new product would require innovative interface concepts and a specialized UX and interface design team, Eagle looked for a design partner and selected Proximity Lab to help drive the vision and experience.</p>
     </div>
 
   </div>
@@ -47,21 +47,44 @@
             <div class="project-service">
                 <img class="portfolio-service-icon" src="/images/icon-use-case.svg" alt="Team Collaboration">
                 <h4 class="portfolio-service-heading">Use case modeling</h4>
-                <p class="portfolio-service-text">Journey maps and or visual models helped us identify points of integration with other tools in the suite and streamline the workflows between them.</p>
+                <p class="portfolio-service-text">Journey maps, user flows and data visualization sketching helped us identify points of integration with other tools in the suite and streamline the workflows between them.</p>
             </div>
         </div>
         <div class="col-12 col-sm-4 text-center">
             <div class="project-service">
                 <img class="portfolio-service-icon" src="/images/icon-simple-full.svg" alt="Unified Experience">
                 <h4 class="portfolio-service-heading">Competitive analysis</h4>
-                <p class="portfolio-service-text">There were other solutions in the market designed to aid in the genomic research process. We analyzed each solution to get a clear sense of their strengths and weaknesses to incorporate into our UX roadmap.</p>
+                <p class="portfolio-service-text">We analyzed existing market solutions designed to aid in the genomic research process to get a clear sense of their strengths and weaknesses. This helped to surface common approaches and workflows.</p>
             </div>
         </div>
-        <div class="col-lg-12">
-          <h2>Results-oriented UX</h2><p>Our teams worked together to process the research into a product roadmap with prioritized features. The focal point of the work, and one which would offer the most value to our target users, was building the UX around conversational UI and an interactive visual model for genomic researchers and scientists to use to identify new drug discovery insights.</p>
+        <div class="col-12">
+          <h2>Results-oriented UX</h2>
+          <p>Our teams worked together to process the research, explore feature and workflow ideas and develop a set of UX recommendations. The centerpiece of this work, one that offered the greatest value to target users, involved a concept for conversational UI and an interactive canvas-based visual modeling experience for genomic researchers and scientists to use to identify new drug discovery insights.</p>
           <p>The new platform was purpose-built to improve the efficiency of existing processes and allow teams to collaborate and accelerate and manage their research projects as never before. Some highlights of the work include:</p>
-          <div class="row results-row"><div class="col-md-6"><img src="/images/portfolio-eagle-results-left-2x.png" alt="Eagle Genomics" class="img-fluid"></div>
-          <div class="col-md-6"><img src="/images/portfolio-eagle-results-right-2x.png" alt="Eagle Genomics" class="img-fluid"></div></div>
+        </div>
+        <div class="col-12">
+          <div class="eagle-portfolio-services container-fluid">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="project-service">
+                  <img src="/images/eagle-portfolio-1-2x.png" alt="Visual Experience">
+                  <div class="project-service-body">
+                    <h4 class="portfolio-service-heading">Reduction in time to discovery</h4>
+                    <p class="portfolio-service-text">Visual explorations of the connections between conditions, treatments, and other attributes dramatically reduces the time typically required for discovery and hitting product development milestones.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="project-service">
+                  <img src="/images/eagle-portfolio-2-2x.png" alt="Visual Experience">
+                  <div class="project-service-body">
+                    <h4 class="portfolio-service-heading">Increase in research productivity</h4>
+                    <p class="portfolio-service-text">An estimated annual efficiency improvement of 30% or more for data scientist’s productivity. This level of improvement will effectively double a scientist’s available time over a maximum period of 3 years.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
 </div>

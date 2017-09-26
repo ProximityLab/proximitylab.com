@@ -12,7 +12,7 @@
 <div class="container home-workwith">
   <div class="row" id="home-headline">
     <div class="col-12">
-      <h1 class="home-workwith-header-heading text-center display-1 pb-5"><a name="start">Who we like to work with</a></h1>
+      <h1 class="home-workwith-header-heading text-center display-1 pb-5"><a name="start">What does design collaboration look like?</a></h1>
       <p class="home-workwith-header-text text-center pb-5">We've been involved with large globally distributed enterprise initiatives as well as small and mid-sized multidisciplinary teams. A shared appreciation and passion for thoughtful product design makes for lasting partnerships.</p>
     </div>
   </div>
@@ -60,7 +60,7 @@
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
                   <div class="col-12 text-center">
-                    <p>Visualization-powered AI to power genomics research and insight</p>
+                    <p>Visualization-based AI to power genomics research and insight</p>
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-btn row">

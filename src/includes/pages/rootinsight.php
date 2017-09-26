@@ -68,3 +68,33 @@
         </div>
     </div>
 </div>
+
+<div class="container-fluid project project-services">
+    <div class="row">
+        <div class="col-12">
+          <div class="rootinsight-portfolio-services container-fluid">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="project-service">
+                  <img src="/images/rootinsight-portfolio-2-2x.png" alt="Visual Experience">
+                  <div class="project-service-body">
+                    <h4 class="portfolio-service-heading">Reduction in time to discovery</h4>
+                    <p class="portfolio-service-text">Visual explorations of the connections between conditions, treatments, and other attributes dramatically reduces the time typically required for discovery and hitting product development milestones.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="project-service">
+                  <img src="/images/rootinsight-portfolio-3-2x.png" alt="Visual Experience">
+                  <div class="project-service-body">
+                    <h4 class="portfolio-service-heading">Increase in research productivity</h4>
+                    <p class="portfolio-service-text">An estimated annual efficiency improvement of 30% or more for data scientist’s productivity. This level of improvement will effectively double a scientist’s available time over a maximum period of 3 years.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+

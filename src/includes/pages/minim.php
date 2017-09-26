@@ -31,12 +31,12 @@
 <div class="container-fluid project-description">
   <div class="row">
     <div class="col-12">
-      <p>With the dramatic increase of IoT devices on home networks comes an even greater need to manage and protect them. The problem is two-fold. First, every device has it’s own unique settings and methods for managing permissions and security protocols. And each device can introduce vulnerabilities that can affect the home network performance and data security. Second, if devices are unsecured on home networks, they have the potential to interrupt network operations for ISPs and impact Internet service for millions of users. As Minim looked to create a solution that would help protect consumers and ISPs, they turned to Proximity Lab to help them think through the user experiences and product interfaces.</p>
-      <p>As partners with the Minim team, we worked closely with the product strategy and engineering teams to help understand, clarify and shape the both the consumer needs and business drivers to be addressed by this initial product release.</p>
-      <h3>ISPs have limited visibility into home networks.</h3>
-      <p> While their job is to provide a reliable service to customers at all times, there are many factors out of their control. Most ISPs can only tell if a the cable modem is on-line or off-line - limiting their ability to assist customers in troubleshooting problems or diagnosing broader network or device problems. They required a view that would aggregate information from different systems about the customer and their networked devices.</p>
-      <h3>Consumers are not technical experts.</h3>
-      <p>Sometimes smart homes aren’t really that smart. Although many consumers are quite adept at working with their personal devices, the sheer number and type of devices on home networks can be baffling. Each manufacturer has their own set-up and configuration instructions for their devices. Making matters more complex is that each device needs to be updated periodically to help keep it operational and secure. These steps are overwhelming for average home network users.</p>
+      <p>With the dramatic increase of IoT devices on home networks comes an even greater need to manage and protect them. The problem is two-fold. First, every device has it’s own unique settings and methods for managing permissions and security protocols. And each device can introduce vulnerabilities that can affect the home network performance and data security. Second, if devices are unsecured on home networks, they have the potential to interrupt network operations for Internet Service Providers (ISPs) and impact Internet service for millions of users. As Minim looked to create a solution that would help protect consumers and ISPs, they turned to Proximity Lab to help them think through the user experiences and product interfaces.</p>
+      <p>As partners with the Minim team, we worked closely with the product strategy and engineering teams to help understand, clarify and shape both the consumer needs and business drivers to be addressed by this initial product release.</p>
+      <h3>ISPs have limited visibility into home networks</h3>
+      <p> ISPs are responsible for providing reliable service to customers at all times. The ability to gain insight into what is happening at specific customer sites and the ability to quickly identify patterns across large numbers of customers is central to fulfilling this responsibility. Unfortunately, most ISPs can only tell if the cable modem is on-line or off-line, limiting their ability to assist customers in troubleshooting problems or diagnosing broader network or device problems. Any next generation solution to this problem must include views that aggregate information from different systems about the customer and their networked devices.</p>
+      <h3>Consumers are not technical experts</h3>
+      <p>Sometimes smart homes aren’t really that smart. Although many consumers are quite adept at working with their personal devices, the number and type of devices on home networks can be baffling. Each manufacturer has their own set-up and configuration instructions for their devices. Making matters worse, each device needs to be updated periodically to help keep it operational and secure. These steps are overwhelming for average home network users.</p>
       <p>Our approach to designing an experience with Minim included multiple steps, including:</p>
     </div>
 
@@ -49,8 +49,8 @@
     <div id="map" class="row">
       <div class="col-lg-6 half-image flex-first"></div>
       <div class="col-lg-6 d-flex flex-column flex-first text-container">
-        <h2>Persona &amp; journey map development</h2>
-        <p>Understanding who would be using Minim was the most important step in designing the appropriate experiences. On the consumer side, we identified a user with only the most basic technical knowledge, but who would be able to plug in and configure the Minim solution. ISPs have dedicated support teams, but most don’t have tools designed that give a holistic view of the network with the ability to drill down into individual home networks to identify problematic devices and configurations. For both of these personas we created journey maps and typical use cases for how they would interact with the Minim solution.</p>
+        <h2>Persona and journey map development</h2>
+        <p>A comprehensive understanding the users and stakeholders that need to be served by Minim’s offering was fundamental to the design process. On the consumer side, we focused on users with only the most basic technical knowledge to ensure the solution would be easy enough for mass-market usage and adoption. ISPs have dedicated support teams, but most don’t have tools designed that give a holistic view of the network with the ability to drill down into individual home networks to identify problematic devices and configurations. To inform a thoughtful set of design recommendations, personas and journey maps for onboarding and first time setup as well as workflows for sustained usage showing how users would interact with Minim services and with each other.</p>
       </div>
     </div>
 
@@ -58,7 +58,7 @@
       <div class="col-lg-6 half-image flex-first"></div>
       <div class="col-lg-6 d-flex flex-column justify-content-center flex-first text-container">
         <h2>Responsive web interface for ISPs</h2>
-        <p>On the other hand, ISP customer care teams used a variety of browser-based tools to monitor networks and provide support. Their experience would need to provide responsive dashboards that provided a broad view of network health with the ability to drill-down into specific home networks. We designed an experience for ISPs that allowed them to visually explore networks, view alerts and isolate potential security threats, search for problematic IoT devices, and track performance and activity over to time to uncover issues before they could impact their whole network.</p>
+        <p>Unlike consumers, the ISP customer care teams use a variety of browser-based tools to monitor networks and provide support. Their experience requires responsive dashboards that provide a broad view of network health with the ability to drill-down into specific home networks. We designed an experience for ISPs that allowed them to visually explore networks, view alerts and isolate potential security threats, search for problematic IoT devices and track performance and activity over to time to uncover issues before they impact the entire network.</p>
       </div>
     </div>
 
@@ -66,7 +66,7 @@
       <div class="col-lg-6 half-image flex-first"></div>
       <div class="col-lg-6 d-flex flex-column justify-content-center flex-first text-container">
         <h2>Mobile app design for consumers</h2>
-        <p>Knowing that consumers have greater success working within tightly constrained mobile apps, we created an app specifically designed to help them set up their new device, associate their home network devices with Minim, and use the customization features to round out their experience. Once configured, the app would trigger security alerts and device notifications for issues that needed their attention. As Minim home users became more comfortable with the app, we included advanced views and configuration tools to allow them to make their networks even more robust.</p>
+        <p>The most effective native mobile applications succeed by leveraging insight into the customer’s greatest pain points and needs to address a focused app that delivers on those needs with clarity and simplicity. We developed an app specifically designed to help them set up new IoT devices and manage them in a way that provides a high level of home network security and insights into usage and performance. Security alerts and notifications surface issues that need immediate attention. And for consumers with more advanced needs, we included expert controls and configuration tools to allow them to make their networks even more robust.</p>
       </div>
     </div>
 </div>

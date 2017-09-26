@@ -45,10 +45,37 @@
 <section class="wagz-portfolio">
   <div class="container-fluid">
     <div class="row">
-        <div class="col-12 col-xl-5 col-md6 col-sm-12">
-            <div class="wagz-portfolio-text">
-                <p class="wagz-portfolio-paragraph">Proximity Lab worked with Wagz to help design an intuitive app / experience allowing dog owners to manage its connected dog collar. While there were other products on the market that helped dog owners monitor certain aspects of their dog’s life (location and activity), none had the range of features and capabilities that had been envisioned for the Wagz connected collar -- including an integrated HD camera to allow users to see what their dogs are seeing.</p>
-            </div>
+        <div class="col-12 col-xl-5 col-md6 col-sm-12 project-description">
+          <div class="wagz-portfolio-text">
+            <p class="wagz-portfolio-paragraph">Proximity Lab worked with Wagz to design a feature rich native mobile app and responsive web experience to accompany their connected dog collar. While there were other products on the market that helped dog owners monitor certain aspects of their dog’s life, none had the range of features and capabilities envisioned for the Wagz connected collar which features an integrated HD camera to allow users to see what their dogs are seeing.</p>
+            <p class="wagz-portfolio-paragraph">Indeed, the Wagz collar combines an impressive set of technologies and innovations to advance the health and happiness of dogs and their owners. We led the UX and visual design of the following features and flows:</p>
+            <ul>
+              <li>
+                <h4>Health and Fitness</h4>
+                Monitoring and trend-based insight into your dog’s activities and health
+              </li>
+              <li>
+                <h4>Find my dog</h4>
+                GPS-based tracking to help you locate your lost dog
+              </li>
+              <li>
+                <h4>Geofencing</h4>
+                Create dedicated areas for your dog to safely roam with shock-free deterrents
+              </li>
+              <li>
+                <h4>Invisible leash</h4>
+                Helping owners safely walk their dog without a physical leash
+              </li>
+              <li>
+                <h4>Bark alerts</h4>
+                Mobile notifications for excessive levels of barking
+              </li>
+              <li>
+                <h4>Smart ID</h4>
+                Manage display your dog’s vital information on your Wagz collar
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col-12 col-xl-7 col-md6 col-sm-12">
           <div class="wagz-portfolio-services container-fluid">
@@ -58,7 +85,7 @@
                   <img src="/images/wagz-portfolio-1-2x.png" alt="Visual Experience">
                   <div class="project-service-body">
                     <h4 class="portfolio-service-heading">UX &amp; Visual Design</h4>
-                    <p class="portfolio-service-text">With the physical collar collecting data from multiple sensors throughout the collar, the app needed to offer consumers carefully considered views into their data. </p>
+                    <p class="portfolio-service-text">With a physical collar that collects data from multiple sensors, the app offers consumers easy-to-use controls and carefully considered views of their data.</p>
                   </div>
                 </div>
               </div>
@@ -67,7 +94,7 @@
                   <img src="/images/wagz-portfolio-2-2x.png" alt="Visual Experience">
                   <div class="project-service-body">
                     <h4 class="portfolio-service-heading">Branding &amp; Identity</h4>
-                    <p class="portfolio-service-text">Proximity Lab also developed the Wagz brand creating a logo and style guide that appeals to consumers and offers a platform for Wagz to use to expand into adjacent markets with new products.</p>
+                    <p class="portfolio-service-text">Proximity Lab also helped re-envision the Wagz brand with a logo and style guide that appeals to consumers and offers a platform to enable the company to expand into adjacent markets.</p>
                   </div>
                 </div>
               </div>

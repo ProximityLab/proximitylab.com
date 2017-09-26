@@ -264,3 +264,66 @@ margin: 2rem 0 0 0;
   font-size: 1.6rem;
   margin-top: 1rem;
 }
+
+.eagle-portfolio-services {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.eagle-portfolio-services .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+
+.eagle-portfolio-services .row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px){
+  .eagle-portfolio-services .row > [class*='col-']:first-child {
+    padding-right: 3rem;
+  }
+
+  .eagle-portfolio-services .row > [class*='col-']:last-child {
+    padding-left: 3rem;
+  }
+}
+
+.eagle-portfolio-services .project-service {
+  background: #FFFFFF;
+  box-shadow: 0 2px 15px 0 rgba(0,0,0,0.20);
+  margin: 0 0 3rem;
+  height: 100%;
+}
+
+.eagle-portfolio-services .project-service img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 27px;
+}
+
+.eagle-portfolio-services .portfolio-service-body {
+  margin: 40px 0;
+}
+
+.eagle-portfolio-services .portfolio-service-heading {
+    color: #4A4A4A;
+    padding: 0 3rem 1.3rem;
+    font-size: 1.8rem;
+    color: #282828;
+    font-weight: 700;
+}
+
+.eagle-portfolio-services .portfolio-service-text {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #989898;
+    padding: 0 3rem 3rem;
+}

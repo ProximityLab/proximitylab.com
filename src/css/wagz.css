@@ -109,18 +109,18 @@
 
 @media (min-width: 576px) {
     .wagz-portfolio {
-        padding: 0 0 0 0;
+        padding: 0;
     }
 }
 
 @media (min-width: 768px) {
     .wagz-portfolio {
-        padding: 0 0 3rem 0;
+        padding: 0;
     }
 }
 @media (min-width: 992px) {
     .wagz-portfolio {
-        padding: 3rem 0 6rem 0;
+        padding: 3rem 0 0 0;
     }
 }
 
@@ -204,29 +204,25 @@
 }
 
 .wagz-portfolio-text {
-    margin-bottom: 2rem;
-    /*min-height: 636px;*/
+    margin-bottom: 0;
 }
 
 @media (min-width: 576px) {
     .wagz-portfolio-text {
         margin-bottom: 4rem;
-        /*min-height: 636px;*/
     }
 }
 
 @media (min-width: 768px) {
     .wagz-portfolio-text {
-        /*margin-bottom: 0;*/
-        /*min-height: 636px;*/
-        padding: 0 3rem;
+        padding: 0 3rem 0 0;
         margin-bottom: 0;
     }
 }
 
 @media (min-width: 992px) {
     .wagz-portfolio-text {
-        padding: 0 3rem 6rem 3rem;
+        padding: 0 3rem 6rem 0;
         margin-bottom: 0;
 
     }
@@ -234,13 +230,12 @@
 
 @media (min-width: 1200px) {
     .wagz-portfolio-text {
-        padding: 0 3rem 0 8rem;
+        padding: 0 3rem 0 0;
     }
 }
 
 @media (min-width: 1440px) {
     .wagz-portfolio-text {
-        /*min-height: 570px;*/
     }
 }
 
@@ -515,5 +510,63 @@ li.wagz-carousel-hero-indicator {
     line-height: 34px;
     color: #989898;
     padding: 0 3rem 3rem;
+}
+
+.project-description {
+  padding: 0 6rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+    .project-description {
+      padding: 0 1rem 0 6rem;
+      margin-top: 0;
+    }
+}
+
+.project-description ul {
+  border-left: 4px solid #83BA1C;
+  margin: 6rem 0 6rem 2rem;
+  list-style: none;
+}
+
+@media (min-width: 992px) {
+  .project-description ul {
+    margin: 4rem 0 4rem 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-description ul {
+    margin: 6rem 0 6rem 2rem;
+  }
+}
+
+.project-description ul li {
+    max-width: 100%;
+    margin: 0 auto 3rem;
+    padding: 0.5rem 3rem 0 0;
+    line-height: 2rem;
+    font-size: 1.8rem;
+    color: #1e2128;
+    font-weight: 200;
+}
+
+.project-description ul li:last-child {
+    padding-bottom: 0;
+}
+
+@media (min-width: 1200px) {
+  .project-description ul li {
+    line-height: normal;
+    margin-bottom: 6rem;
+  }
+}
+
+.project-description ul li h4 {
+    color: #1e2128;
+    font-size: 1.8rem;
+    font-weight: 200;
+    font-weight: bolder;
 }
 

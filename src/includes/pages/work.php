@@ -60,7 +60,7 @@
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-eagle-2x.png" alt="Eagle logo">
-                        <p class="work-item-text mx-auto d-none d-lg-block">Visualization-powered AI to power genomics research and insight</p>
+                        <p class="work-item-text mx-auto d-none d-lg-block">Visualization-based AI to power genomics research and insight</p>
                         <a class="work-item-button" href="?page=/work/eagle">View work</a>
                     </div>
                 </div>
