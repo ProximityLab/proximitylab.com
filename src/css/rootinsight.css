@@ -241,6 +241,7 @@
   box-shadow: 0 2px 15px 0 rgba(0,0,0,0.20);
   margin: 0;
   height: 100%;
+  overflow: hidden;
 }
 
 .rootinsight-portfolio .project-service .container-fluid {
@@ -322,13 +323,13 @@
 }
 
 .project-services {
-  padding: 0 3rem;
+  padding: 5px 3rem 0;
   overflow: hidden;
 }
 
 @media (min-width: 768px) {
   .project-services {
-    padding: 0 6rem;
+    padding: 5px 6rem 0;
   }
 }
 
