@@ -4,7 +4,6 @@
 
             <div class="col-lg-4">
               <img class="jumbotron-logo-project img-fluid" src="/images/logo-solidworks.svg" alt="Solid Works logo">
-              <a href="#start" class="scroll-down-arrow">Read more about Solid Works</a>
             </div>
 
             <div id="solidworks-carousel-hero" class="col-8 col-lg-3 col-md-4 col-sm-6 offset-lg-0 offset-md-4 offset-sm-3 offset-2 ww-hero-image carousel carousel-fade" data-ride="carousel">

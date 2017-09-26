@@ -4,7 +4,6 @@
 
             <div class="jumbotron-logo-container col-lg-3">
               <img class="jumbotron-logo-project img-fluid" src="/images/logo-massart.svg" alt="MassArt logo">
-              <a href="#start" class="scroll-down-arrow">Read more about MassArt</a>
             </div>
 
             <div id="massart-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">

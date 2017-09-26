@@ -4,7 +4,6 @@
 
             <div class="col-lg-3">
               <img class="jumbotron-logo-project" src="/images/logo-billnye-2x.png" alt="Bill Nye logo">
-              <a href="#start" class="scroll-down-arrow">Read more about Bill Nye</a>
             </div>
             <div class="col-lg-7"><img class="billnye-hero-img img-fluid" src="/images/website-mockup-billnye-2x.jpg" alt="Bill Nye website mockup"></div>
         </div><!-- row -->
@@ -18,7 +17,7 @@
 
       <h1 class="heading-primary text-center">Immersive Learning: Beyond Hands-On</h1>
 
-      <p class="header-text text-center">An award-winning integrated museum experience</p>
+      <p class="header-text text-center">An award-winning multi-platform climate change exhibit</p>
     </div>
   </div>
 </div>

@@ -4,7 +4,6 @@
 
             <div class="col-lg-4">
               <img class="jumbotron-logo-project" src="/images/logo-wagz-green-2x.png" alt="Wagz logo">
-              <a href="#start" class="scroll-down-arrow">Read more about Wagz</a>
             </div>
 
             <div id="wagz-carousel-hero" class="col-lg-4 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
@@ -37,7 +36,7 @@
 
     <h1 class="heading-primary text-center">Canine Innovation: From the Whiteboard to the Retail Market</h1>
 
-    <p class="header-text text-center">An integrated hardware, software, SaaS platform for dog safety, health, and happiness</p>
+    <p class="header-text text-center">An integrated platform for dog safety, health and happiness</p>
   </div>
 </div>
 </div>

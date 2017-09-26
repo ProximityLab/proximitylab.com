@@ -4,7 +4,6 @@
 
             <div class="col-lg-3">
               <img class="jumbotron-logo-project" src="/images/logo-adobe.svg" alt="Adobe logo">
-              <a href="#start" class="scroll-down-arrow">Read more about Adobe</a>
             </div>
             <div class="col-lg-8 ww-hero-image"><img class="img-fluid" src="/images/website-mockup-adobe-2x.png" alt="Adobe mobile mockup"></div>
         </div><!-- row -->
@@ -18,7 +17,7 @@
 
       <h1 class="heading-primary text-center">Enabling Creative Inspiration</h1>
 
-      <p class="header-text text-center">Helping to improve the best creative design tools in the world</p>
+      <p class="header-text text-center">Helping a creative software giant produce best in class products</p>
     </div>
   </div>
 </div>

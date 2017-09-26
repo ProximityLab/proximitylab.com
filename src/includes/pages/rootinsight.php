@@ -4,7 +4,6 @@
 
             <div class="col-lg-3">
               <img class="jumbotron-logo-project" src="/images/logo-rootinsight.svg" alt="Root Insight logo">
-              <a href="#start" class="scroll-down-arrow">Read more about Root Insight</a>
             </div>
 
             <div id="rootinsight-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
@@ -32,7 +31,7 @@
 
       <h1 class="heading-primary text-center">Performance-Driven Metrics</h1>
 
-      <p class="header-text text-center">Visualizing real-time business analytics (integrated with Salesforce)</p>
+      <p class="header-text text-center">Competitive benchmarking and real-time business analytics</p>
     </div>
   </div>
 </div>

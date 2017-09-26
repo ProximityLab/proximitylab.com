@@ -4,7 +4,6 @@
 
             <div class="col-lg-3">
               <img class="jumbotron-logo-project" src="/images/logo-philips.svg" alt="Philips logo">
-              <a href="#start" class="scroll-down-arrow">Read more about Philips</a>
             </div>
             <div class="col-lg-7 ww-hero-image"><img class="img-fluid" src="/images/website-mockup-philips-2x.png" alt="Philips website mockup"></div>
         </div><!-- row -->
@@ -18,7 +17,7 @@
 
       <h1 class="heading-primary text-center">Illuminating Designs and Automating Buildings</h1>
 
-      <p class="header-text text-center">Bringing lighting design and energy management to architecture</p>
+      <p class="header-text text-center">Architectural lighting and energy management innovation</p>
     </div>
   </div>
 </div>

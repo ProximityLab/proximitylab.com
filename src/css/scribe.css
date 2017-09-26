@@ -394,7 +394,7 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
 }
 
 .portfolio-service-text {
-    max-width: 292px;
+    max-width: 260px;
     margin: 0 auto;
     font-size: 16px;
     font-weight: 400;
@@ -571,7 +571,7 @@ text-align: center;
 
 @media (min-width: 992px) {
   .portfolio-testimonial p {
-    max-width: 85%;
+    max-width: 86%;
     font-size: 3rem;
     line-height: 5rem;
   }

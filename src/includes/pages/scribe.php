@@ -4,7 +4,6 @@
 
             <div class="col-lg-3">
               <img class="jumbotron-logo-project" src="/images/logo-scribe-white-2x.png" alt="Scribe logo">
-              <a href="#start" class="scroll-down-arrow">Read more abouy Scribe</a>
             </div>
             <div class="col-lg-7"><img class="img-fluid" src="/images/website-mockup-scribe-2x.png" alt="Scribe website mockup"></div>
         </div><!-- row -->
@@ -18,7 +17,7 @@
 
       <h1 class="heading-primary text-center">Clicks, not Code: Modernizing Data Integration</h1>
 
-      <p class="header-text text-center">Expanding the power and usability of SaaS-based Integration</p>
+      <p class="header-text text-center">Expanding the power and usability of SaaS-based integration</p>
     </div>
   </div>
 </div>

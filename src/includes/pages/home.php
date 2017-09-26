@@ -5,7 +5,7 @@
 		width="89" height="182" rel:auto_play="0" rel:rubbable="0" /> -->
     <h1>Proximity Lab</h1>
   <h2>Proximity Lab is an interaction design studio. We're experts in realizing, rethinking, and rebooting product strategy and user experience.</h2>
-  <a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a>
+  <a href="#start" class="home-carousel-header-arrow">Read more about Proximity Lab</a>
   </div>
 </header>
 
@@ -153,7 +153,7 @@
               </div><!-- row -->
               <div class="ww-workwith-teaser row">
                   <div class="col-12 text-center">
-                    <p>An award-winning integrated museum experience</p>
+                    <p>An award-winning multi-platform climate change exhibit</p>
                   </div>
               </div><!-- row -->
               <div class="ww-workwith-btn row">

@@ -4,7 +4,6 @@
 
             <div class="col-12 col-lg-2 offset-lg-2">
               <img class="jumbotron-logo-project" src="/images/logo-minim-white-169x60.png" alt="Minim logo">
-              <a href="#start" class="scroll-down-arrow">Read more about Minim</a>
             </div>
             <div class="col-12 col-lg-4 ww-hero-image">
             <div class="ww-vid-holder"><div class="ww-vid">
@@ -23,7 +22,7 @@
 
       <h1 class="heading-primary text-center">Demystifying the IoT</h1>
 
-      <p class="header-text text-center">A much-needed app for simplifying &amp; securing smart homes</p>
+      <p class="header-text text-center">Empowering consumers with smart home security</p>
     </div>
   </div>
 </div>

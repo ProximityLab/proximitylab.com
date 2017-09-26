@@ -650,6 +650,12 @@ a[name=start] {
     outline: 0;
 }
 
+@media (min-width:768px) {
+    .page-footer-button {
+        right: 46px;
+    }
+}
+
 .page-footer-button:focus {
     outline: 0;
 }

@@ -188,6 +188,60 @@
     margin-bottom: 42px;
 }
 
+@media (min-width: 992px) {
+    .col-md-4 .work-item-text {
+        max-width: 240px;
+    }
+
+    .col-md-8 .work-item-text {
+        max-width: 425px;
+    }
+
+    .col-md-4 #mosaic .work-item-text {
+        max-width: 200px;
+    }
+
+    .col-md-4 #songbird .work-item-text {
+        max-width: 190px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-md-4 .work-item-text {
+        max-width: 300px;
+    }
+
+    .col-md-4 #nye .work-item-text {
+        max-width: 270px;
+    }
+
+    .col-md-4 #minim .work-item-text {
+        max-width: 230px;
+    }
+
+    .col-md-4 #solidworks .work-item-text {
+        max-width: 260px;
+    }
+
+    .col-md-4 #wagz .work-item-text {
+        max-width: 260px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .col-md-4 .work-item-text {
+        max-width: 300px;
+    }
+
+    .col-md-4 #minim .work-item-text {
+        max-width: 360px;
+    }
+
+    .col-md-4 #solidworks .work-item-text {
+        max-width: 370px;
+    }
+}
+
 .work-item-button {
     font-size: 18px;
     font-weight: 600;
