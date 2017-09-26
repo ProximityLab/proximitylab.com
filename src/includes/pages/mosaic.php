@@ -4,7 +4,6 @@
 
             <div class="col-lg-3">
               <img class="jumbotron-logo-project img-fluid" src="/images/logo-mosaic.svg" alt="Mosaic logo">
-              <a href="#start" class="scroll-down-arrow">Read more about Mosaic</a>
             </div>
 
             <div id="mosaic-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
@@ -29,7 +28,7 @@
 
       <h1 class="heading-primary text-center">Anytime, Anywhere Access to your Digital Portfolio</h1>
 
-      <p class="header-text text-center">A mobile app to manage your photo library</p>
+      <p class="header-text text-center">A mobile companion to industry-leading photo management software</p>
     </div>
   </div>
 </div>

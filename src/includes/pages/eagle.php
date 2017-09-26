@@ -4,7 +4,6 @@
 
             <div class="col-lg-2 ww-push-logo">
               <img class="jumbotron-logo-project" src="/images/logo-eagle-2x.png" alt="Eagle Genomics logo">
-              <a href="#start" class="scroll-down-arrow">Read more about Eagle Genomics</a>
             </div>
             <div class="col-lg-8"><img class="img-fluid ww-hero-image" src="/images/website-mockup-eagle-2x.png" alt="Eagle Genomics website mockup"></div>
         </div><!-- row -->
@@ -18,7 +17,7 @@
 
       <h1 class="heading-primary text-center">Accelerating Data Driven Discovery</h1>
 
-      <p class="header-text text-center">Using visual insights to accelerate genomics research</p>
+      <p class="header-text text-center">Visualization-based AI to power genomics research and insight</p>
     </div>
   </div>
 </div>

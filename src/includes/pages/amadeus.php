@@ -4,7 +4,6 @@
 
             <div class="col-lg-3">
               <img class="jumbotron-logo-project" src="/images/logo-amadeus.svg" alt="Amadeus logo">
-              <a href="#start" class="scroll-down-arrow">Read more about Amadeus</a>
             </div>
             <div class="col-lg-7">
               <!-- <img class="img-fluid" src="/images/website-mockup-amadeus-2x.png" alt="Amadeus website mockup"> -->
@@ -29,7 +28,7 @@
 
       <h1 class="heading-primary text-center">Best Laid Plans: Building a Modern and Unified System</h1>
 
-      <p class="header-text text-center">A completely re-imagined experience for professional event planners</p>
+      <p class="header-text text-center">A fully re-imagined experience for professional event planners</p>
     </div>
   </div>
 </div>

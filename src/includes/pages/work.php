@@ -72,7 +72,7 @@
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-nye.png" alt="Nye logo">
-                        <p class="work-item-text mx-auto d-none d-lg-block">Our team can support your initiatives by developing design concepts, detailed interface designs and templates or by producing complete</p>
+                        <p class="work-item-text mx-auto d-none d-lg-block">An award-winning multi-platform climate change exhibit</p>
                         <a class="work-item-button" href="?page=/work/billnye">View work</a>
                     </div>
                 </div>

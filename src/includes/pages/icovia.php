@@ -4,7 +4,6 @@
 
             <div class="col-lg-3">
               <img class="jumbotron-logo-project" src="/images/logo-icovia-2x.png" alt="Icovia logo">
-              <a href="#start" class="scroll-down-arrow">Read more about Icovia</a>
             </div>
 
             <div id="icovia-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
@@ -37,7 +36,7 @@
 
       <h1 class="heading-primary text-center">Pioneering Virtual Furniture Shopping</h1>
 
-      <p class="header-text text-center">Turning a simple space planning app into an industry standard</p>
+      <p class="header-text text-center">A browser-based space planning app becomes an industry standard</p>
     </div>
   </div>
 </div>
