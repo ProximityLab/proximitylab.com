@@ -323,6 +323,7 @@
 
 .project-services {
   padding: 0 3rem;
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
