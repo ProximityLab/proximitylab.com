@@ -544,7 +544,7 @@ li.wagz-carousel-hero-indicator {
 
 .project-description ul li {
     max-width: 100%;
-    margin: 0 auto 3rem;
+    margin: 0 auto 2rem;
     padding: 0.5rem 3rem 0 0;
     line-height: 2rem;
     font-size: 1.8rem;
@@ -559,7 +559,6 @@ li.wagz-carousel-hero-indicator {
 @media (min-width: 1200px) {
   .project-description ul li {
     line-height: normal;
-    margin-bottom: 6rem;
   }
 }
 
@@ -568,5 +567,6 @@ li.wagz-carousel-hero-indicator {
     font-size: 1.8rem;
     font-weight: 200;
     font-weight: bolder;
+    display: inline;
 }
 

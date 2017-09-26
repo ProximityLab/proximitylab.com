@@ -47,32 +47,32 @@
     <div class="row">
         <div class="col-12 col-xl-5 col-md6 col-sm-12 project-description">
           <div class="wagz-portfolio-text">
-            <p class="wagz-portfolio-paragraph">Proximity Lab worked with Wagz to design a feature rich native mobile app and responsive web experience to accompany their connected dog collar. While there were other products on the market that helped dog owners monitor certain aspects of their dog’s life, none had the range of features and capabilities envisioned for the Wagz connected collar which features an integrated HD camera to allow users to see what their dogs are seeing.</p>
+            <p class="wagz-portfolio-paragraph">Proximity Lab worked with Wagz to design a feature rich native mobile app and responsive web experience to accompany their connected dog collar. While there were other products on the market that helped dog owners monitor certain aspects of their dog’s life, none had the range of features and capabilities envisioned for the Wagz connected collar.</p>
             <p class="wagz-portfolio-paragraph">Indeed, the Wagz collar combines an impressive set of technologies and innovations to advance the health and happiness of dogs and their owners. We led the UX and visual design of the following features and flows:</p>
             <ul>
               <li>
-                <h4>Health and Fitness</h4>
-                Monitoring and trend-based insight into your dog’s activities and health
+                <h4>Health and fitness</h4>
+                - monitoring and trend-based insight into your dog’s activities and health
               </li>
               <li>
                 <h4>Find my dog</h4>
-                GPS-based tracking to help you locate your lost dog
+                - GPS-based tracking to help you locate your lost dog
               </li>
               <li>
                 <h4>Geofencing</h4>
-                Create dedicated areas for your dog to safely roam with shock-free deterrents
+                - create dedicated areas for your dog to safely roam with shock-free deterrents
               </li>
               <li>
                 <h4>Invisible leash</h4>
-                Helping owners safely walk their dog without a physical leash
+                - helping owners safely walk their dog without a physical leash
               </li>
               <li>
                 <h4>Bark alerts</h4>
-                Mobile notifications for excessive levels of barking
+                - mobile notifications for excessive barking
               </li>
               <li>
                 <h4>Smart ID</h4>
-                Manage display your dog’s vital information on your Wagz collar
+                - manage display your dog’s vital information on your Wagz collar
               </li>
             </ul>
           </div>
