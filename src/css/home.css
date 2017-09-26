@@ -224,7 +224,7 @@
     right: 0;
     margin: auto;
     text-align: center;
-    top: 76.5%
+    top: 67%;
 }
 
 .ww-panels h3.active {
@@ -247,7 +247,19 @@
     font-size: 1.6rem;
     color: #7c7c7c;
     line-height: normal;
-    margin: 1.5rem 0;
+    margin: 1.5rem 3rem;
+}
+
+@media (min-width:992px) {
+    .ww-panels p {
+        margin: 1.5rem 3rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .ww-panels p {
+        margin: 1.5rem 3rem;
+    }
 }
 
 /* workwith section */

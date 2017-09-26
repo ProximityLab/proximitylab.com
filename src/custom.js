@@ -161,6 +161,14 @@ $(document).ready(function() {
     $(this).find('.ww-panel-icon-container').addClass('active');
   });
 
+  $('.ww-panels .carousel').swiperight(function() {
+    $(this).carousel('prev');
+  });
+
+  $('.ww-panels .carousel').swipeleft(function() {
+    $(this).carousel('next');
+  });
+
   // Select all links with hashes
   $('a[href*="#"]')
     // Remove links that don't actually link to anything
