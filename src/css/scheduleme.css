@@ -120,7 +120,7 @@
   min-height: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .project-description {
       padding: 0 6rem;
       margin-top: 0;

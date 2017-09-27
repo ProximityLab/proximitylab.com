@@ -148,8 +148,6 @@
     margin-bottom: 3rem;
 }
 
-
-
 .wagz-portfolio-image {
     background-repeat: no-repeat;
     background-size: contain;
@@ -330,9 +328,9 @@ background-color: #fff;
 }
 
 .portfolio-testimonial p {
-text-align: center;
-margin-left: 0%;
-padding: 0 3rem;
+  text-align: center;
+  margin-left: 0%;
+  padding: 0 3rem;
 }
 
 @media (min-width: 576px) {
@@ -513,8 +511,14 @@ li.wagz-carousel-hero-indicator {
 }
 
 .project-description {
-  padding: 0 6rem;
+  padding: 0 15px;
   margin-bottom: 3rem;
+}
+
+@media (min-width: 576px) {
+    .project-description {
+      padding: 0 6rem;
+    }
 }
 
 @media (min-width: 768px) {

@@ -128,7 +128,13 @@ h2 {
 
 .project-description {
   margin-top: 0;
-  padding: 0 6rem;
+  padding: 0 15px;
+}
+
+@media (min-width: 576px) {
+  .project-description {
+    padding: 0 6rem;
+  }
 }
 
 .project-description-4 {
@@ -139,14 +145,6 @@ h2 {
 .project-description h1.heading-primary {
   margin-top: 6rem;
   margin-bottom: 2.8rem;
-}
-
-@media (min-width: 576px) {
-    
-}
-
-@media (min-width: 768px) {
-    
 }
 
 @media (min-width: 992px) {

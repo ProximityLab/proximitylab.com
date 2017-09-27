@@ -98,10 +98,10 @@
   margin: 0;
 }
 
-@media (min-width: 768px) {
-    .project-description {
-      padding: 0 6rem;
-    }
+@media (min-width: 576px) {
+  .project-description {
+    padding: 0 6rem;
+  }
 }
 
 
@@ -137,7 +137,13 @@
 }
 
 .halfie .text-container {
-  padding: 0 3rem 3rem;
+  padding: 0 15px 3rem;
+}
+
+@media (min-width: 576px) {
+  .halfie .text-container {
+    padding: 0 6rem 3rem;
+  }
 }
 
 @media (min-width: 768px) {

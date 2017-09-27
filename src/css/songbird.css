@@ -283,35 +283,14 @@
 }
 
 .songbird-portfolio .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 @media (min-width: 576px) {
   .songbird-portfolio .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-@media (min-width: 768px) {
-  .songbird-portfolio .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-@media (min-width: 992px) {
-  .songbird-portfolio .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-@media (min-width: 1200px) {
-  .songbird-portfolio .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 6rem;
+    padding-left: 6rem;
   }
 }
 

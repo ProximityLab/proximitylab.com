@@ -90,13 +90,13 @@
 
 @media (min-width: 576px) {
     .project-description {
+      padding: 0 6rem 0;
       margin-bottom: 2rem;
     }
 }
 
 @media (min-width: 768px) {
     .project-description {
-      padding: 0 6rem 0;
       margin-bottom: 3rem;
     }
 
@@ -293,10 +293,12 @@
 }
 
 .container-fluid.portfolio-services {
+    padding: 0 15px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .container-fluid.portfolio-services {
+    padding: 0 6rem;
   }
 }
 
