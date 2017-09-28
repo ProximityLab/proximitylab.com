@@ -55,8 +55,8 @@
     <p class="about-clients-text mx-auto">We bring focused research and impactful creative together to develop best-in-class web and mobile experiences that emphasize customer value and deep engagement.</p></div>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 offset-xl-1 about-clients-logo-container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
                 <img class="about-clients-logo about-clients-logo-oracle" src="/images/logo-oracle.svg" alt="Oracle logo">
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
@@ -68,10 +68,12 @@
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
                 <img class="about-clients-logo about-clients-logo-eagle" src="/images/logo-eagle.png" alt="Eagle logo">
             </div>
+            <div class="w-100 d-none d-lg-block d-xl-none"></div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
                 <img class="about-clients-logo about-clients-logo-solidworks" src="/images/logo-solidworks.svg" alt="Solidworks logo">
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 offset-xl-1 about-clients-logo-container">
+            <div class="w-100 d-none d-xl-block"></div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
                 <img class="about-clients-logo about-clients-logo-zynga" src="/images/logo-zynga.svg" alt="Zynga logo">
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
@@ -80,10 +82,11 @@
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
                 <img class="about-clients-logo about-clients-logo-nye" src="/images/logo-nye.png" alt="Nye logo">
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 offset-lg-3 col-xl-2 offset-xl-0 about-clients-logo-container">
+            <div class="w-100 d-none d-lg-block d-xl-none"></div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
                 <img class="about-clients-logo about-clients-logo-scribe" src="/images/logo-scribe.png" alt="Scribe logo">
             </div>
-            <div class="col-12 col-sm-6 col-md-4 offset-md-4 col-lg-3 offset-lg-0 col-xl-2 about-clients-logo-container">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about-clients-logo-container">
                 <img class="about-clients-logo about-clients-logo-dyn" src="/images/logo-dyn.svg" alt="Dyn logo">
             </div>
         </div>
@@ -174,12 +177,14 @@
 
 <div class="container-fluid about-location">
     <div class="row">
-        <div class="col-12 col-lg-8 col-xl-5 offset-xl-1">
+        <div class="col-xl-1 d-none d-xl-block"></div>
+        <div class="col-12 col-lg-8 col-xl-5">
             <h4 class="about-location-heading-primary">Teams coast to coast</h4>
             <p class="about-location-text">With design teams based in Greater Boston and San Francisco locations, Proximity Lab is perfectly positioned to work side-by-side with your product leadership, design and engineering teams. From research and concept development to UX and interface design, we’ll assemble a team that compliments your in-house capabilities and addresses your specific needs.</p>
         </div>
 
-        <div class="col-12 col-sm-6 col-lg-2 offset-xl-1">
+        <div class="col-xl-1 d-none d-xl-block"></div>
+        <div class="col-12 col-sm-6 col-lg-2">
             <h6 class="about-location-heading-tertiary">WEST COAST</h6>
             <h5 class="about-location-heading-secondary">SF Bay Area</h5>
             <address class="about-location-address">

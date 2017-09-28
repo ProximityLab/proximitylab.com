@@ -34,8 +34,8 @@
         <div class="carousel-inner" role="listbox">
           <div class="ww-workwith carousel-item animated fadeIn active">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-adobe.png" class="ww-project-icon img-fluid"  alt="Adobe - Project">
                   </div>
               </div><!-- row -->
@@ -53,8 +53,8 @@
           </div><!-- item -->
           <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-eagle-blue.png" class="ww-project-icon img-fluid"  alt="Eagle Genomics - Project">
                   </div>
               </div><!-- row -->
@@ -72,8 +72,8 @@
           </div><!-- item -->
           <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-philips-blue.png" class="ww-project-icon img-fluid"  alt="Philips - Project">
                   </div>
               </div><!-- row -->
@@ -108,8 +108,8 @@
         <div class="carousel-inner" role="listbox">
           <div class="ww-workwith carousel-item animated fadeIn active">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-minim-blue.png" class="ww-project-icon minim img-fluid"  alt="Minim - Project">
                   </div>
               </div><!-- row -->
@@ -127,8 +127,8 @@
           </div><!-- item -->
           <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-wagz-blue.png" class="ww-project-icon img-fluid" alt="Wagz - Project">
                   </div>
               </div><!-- row -->
@@ -146,8 +146,8 @@
           </div><!-- item -->
           <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-billnye-blue.png" class="ww-project-icon img-fluid" alt="Bill Nye - Project">
                   </div>
               </div><!-- row -->
@@ -182,8 +182,8 @@
         <div class="carousel-inner" role="listbox">
           <div class="ww-workwith carousel-item animated fadeIn active">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-scribe-blue.png" class="ww-project-icon img-fluid"  alt="Scribe - Project">
                   </div>
               </div><!-- row -->
@@ -201,8 +201,8 @@
           </div><!-- item -->
           <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-amadeus-blue.png" class="ww-project-icon img-fluid"  alt="Amadeus - Project">
                   </div>
               </div><!-- row -->
@@ -220,8 +220,8 @@
           </div><!-- item -->
           <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-songbird-blue.png" class="ww-project-icon img-fluid"  alt="Songbird - Project">
                   </div>
               </div><!-- row -->

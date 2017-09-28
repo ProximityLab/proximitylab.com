@@ -49,12 +49,6 @@
 }
 /* portfolio */
 
-@media (min-width: 992px) {
-    .hidden-md {
-      display: block;
-    }
-}
-
 .portfolio {
     padding: 0 0 3.4rem 0;
 }

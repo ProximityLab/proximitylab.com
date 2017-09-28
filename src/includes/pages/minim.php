@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-12 col-lg-2 offset-lg-2">
+            <div class="col-12 col-lg-4">
               <img class="jumbotron-logo-project" src="/images/logo-minim-white-169x60.png" alt="Minim logo">
             </div>
             <div class="col-12 col-lg-4 ww-hero-image">

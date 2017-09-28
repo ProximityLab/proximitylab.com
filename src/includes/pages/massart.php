@@ -40,8 +40,8 @@
         <a href="#">Exhibit images and visual studies</a> 
       </p>
     </div>
-
-    <div class="col-12 col-lg-5 offset-lg-1 hidden-md-down">
+    <div class="col-lg-1 d-none d-lg-block"></div>
+    <div class="col-12 col-lg-5 d-none d-lg-block">
       <img src="/images/portfolio-description-massart-bgd.jpg"  class="img-fluid" alt="Visual Experience">
     </div>
   </div>
