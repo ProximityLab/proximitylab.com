@@ -144,6 +144,7 @@ h2 {
 @media (min-width: 576px) {
   .project-description {
     padding: 0;
+    margin-top: 6rem;
   }
   .description-copy {
     padding-right: 6rem;
@@ -161,8 +162,19 @@ h2 {
   .project-description-0 {
     padding-right: 0;
   }
+  .project-description-0 .flex-image {
+    padding-left: 0;
+  }
   .project-description-1 {
-    margin-top: 10rem;
+    margin-top: 0;
+  }
+  .project-description-1 .flex-image {
+    padding-right: 0;
+    overflow: hidden;
+  }
+  .project-description-1 .flex-image img {
+    height: auto;
+    width: auto;
   }
   .project-description-2 {
     margin-top: 0;
