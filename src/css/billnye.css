@@ -143,7 +143,11 @@ h2 {
 
 @media (min-width: 576px) {
   .project-description {
-    padding: 0 6rem;
+    padding: 0;
+  }
+  .description-copy {
+    padding-right: 6rem;
+    padding-left: 6rem;
   }
   .project-description-4 {
     margin-top: 6rem;
