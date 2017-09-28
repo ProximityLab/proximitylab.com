@@ -1,5 +1,5 @@
 /**
- * Schedule Me page
+ * MassArt page
  */
 
 /* jumbotron */
@@ -153,7 +153,13 @@
 
 .project-description {
   padding: 0 15px;
-  margin-bottom: 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.project-description h1.heading-primary {
+  margin-top: 6rem;
+  margin-bottom: 2.8rem;
 }
 
 @media (min-width: 576px) {
@@ -163,10 +169,14 @@
 }
 
 @media (min-width: 768px) {
-    .project-description {
-      padding: 0 1rem 0 6rem;
-      margin-top: 0;
-    }
+  .project-description {
+    padding: 0 6rem;
+    margin-top: 0;
+  }
+  .project-description h1.heading-primary {
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;
+  }
 }
 
 .project-description ul {
@@ -189,7 +199,7 @@
 
 .project-description ul li {
     max-width: 100%;
-    margin: 0 auto 3rem;
+    margin: 0 auto 2rem;
     padding: 0.5rem 3rem 0 0;
     line-height: 2rem;
     font-size: 1.8rem;
@@ -204,7 +214,6 @@
 @media (min-width: 1200px) {
   .project-description ul li {
     line-height: normal;
-    margin-bottom: 6rem;
   }
 }
 
@@ -213,6 +222,7 @@
     font-size: 1.8rem;
     font-weight: 200;
     font-weight: bolder;
+    display: inline;
 }
 
 .portfolio-service {

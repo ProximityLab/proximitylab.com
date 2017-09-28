@@ -5,7 +5,7 @@
     <p class="work-header-text text-center mx-auto">Explore our portfolio to learn how we can help advance your product vision and build a best-in-class experience for your customers.</p>
 </header>
 
-<div class="container-fluid">
+<div class="container-fluid work-tems">
     <div class="row">
 
         <div class="work-item col-sm-12 col-md-8">
