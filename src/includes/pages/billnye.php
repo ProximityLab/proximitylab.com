@@ -38,7 +38,7 @@
 
 <div class="container-fluid project-description project-description-1">
   <div class="row">
-    <div class="col-12 col-lg-6 hidden-md-down">
+    <div class="col-12 col-lg-6">
         <img src="/images/portfolio-description-billnye-bgd-2-2x.jpg" class="img-fluid" alt="Bill Nye Project">
     </div>
 
@@ -74,6 +74,10 @@
     <div class="col-lg-5 offset-lg-1">
       <h1 class="heading-primary">Lab Dash!</h1>
       <p>Following the success of the first phase of the museum exhibit and companion website, the Proximity Lab team was asked to extend the experience and explore new entry points for potential visitors. A number of concepts were developed and tested with museum visitors. The result was “Lab Dash” – a touch-based mobile game that was fully integrated with the exhibit and web experiences including visitor accounts, avatars and accumulated point totals. Kids play the game to collect points with bonuses and levels that can be unlocked only by returning to the museum, incentives that helped drive repeat visits and longer-term engagement.</p>
+    </div>
+
+    <div class="col-12 hidden-lg-up">
+        <img src="/images/portfolio-description-billnye-bgd-4-2x.jpg" class="img-fluid" alt="Bill Nye Project">
     </div>
   </div>
 </div>
