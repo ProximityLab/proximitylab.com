@@ -529,6 +529,12 @@ li.wagz-carousel-hero-indicator {
     }
 }
 
+@media (min-width: 992px) {
+    .project-description {
+      padding: 0 1rem 0 10rem;
+    }
+}
+
 .project-description ul {
   border-left: 4px solid #83BA1C;
   margin: 6rem 0 6rem 2rem;

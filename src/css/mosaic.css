@@ -132,6 +132,7 @@
 .project-description {
   padding: 0 15px;
   margin-bottom: 3rem;
+  overflow: hidden;
 }
 
 @media (min-width: 576px) {
@@ -146,6 +147,13 @@
       margin-top: 0;
     }
 }
+
+@media (min-width: 992px) {
+    .project-description {
+      padding: 0 1rem 0 10rem;
+    }
+}
+
 
 .project-description ul {
   border-left: 4px solid #D31C7B;

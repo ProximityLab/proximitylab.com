@@ -129,7 +129,7 @@
 
 @media (min-width: 992px) {
   .project-description {
-      padding: 6rem;
+    padding: 6rem 10rem;
     background: url('/images/portfolio-description-scheduleme-bgd.png') no-repeat;
     background-position: 140% top;
   }

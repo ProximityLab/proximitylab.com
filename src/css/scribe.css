@@ -134,6 +134,12 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
     }
 }
 
+@media (min-width: 992px) {
+  .project-description {
+    padding: 0 10rem;
+  }
+}
+
 .project-description-0 {
   min-height: 0;
   margin: 0;
@@ -353,11 +359,11 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
   }
 }
 
-/*@media (min-width: 992px) {
+@media (min-width: 992px) {
   #design-excellence .text-container   {
-    padding: 6rem;
+    padding: 6rem 10rem 0 6rem;
   }
-}*/
+}
 /*
 @media (min-width: 768px) {
   #design-excellence .half-image {

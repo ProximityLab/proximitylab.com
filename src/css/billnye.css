@@ -216,6 +216,14 @@ h2 {
   .description-copy {
     padding-bottom: 3rem;
   }
+
+  .description-copy.right {
+    padding-right: 10rem;
+  }
+
+  .description-copy.left {
+    padding-left: 10rem;
+  }
 }
 @media (min-width: 1440px) {
   .project-description .flex-image {

@@ -107,7 +107,7 @@
         <p>Initially our work was focused on helping Adobe showcase apps that were designed and created using their technologies. Since then, our team has helped with:</p>
       </div>
 
-      <div class="col-lg-6 d-none d-lg-block">
+      <div class="col-lg-6 d-none d-lg-block p-0">
           <img src="/images/portfolio-description-adobe-bgd-2x.jpg" class="img-fluid" alt="Adobe Project">
       </div>
 
@@ -142,7 +142,7 @@
 
   <div class="container-fluid project-description project-description-1">
     <div class="row">
-          <div class="col-12">
+          <div class="col-12 p-0">
               <img class="img-fluid" src="/images/portfolio-description-adobe-bgd-2-2x.jpg" alt="Adobe Project">
           </div>
       </div>

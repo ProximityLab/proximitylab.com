@@ -47,7 +47,7 @@
 <div class="container-fluid halfie">
     <div id="map" class="row">
       <div class="col-lg-6 half-image flex-first"></div>
-      <div class="col-lg-6 d-flex flex-column flex-first text-container">
+      <div class="col-lg-6 d-flex flex-column flex-first text-container right">
         <h2>Persona and journey map development</h2>
         <p>A comprehensive understanding the users and stakeholders that need to be served by Minim’s offering was fundamental to the design process. On the consumer side, we focused on users with only the most basic technical knowledge to ensure the solution would be easy enough for mass-market usage and adoption. ISPs have dedicated support teams, but most don’t have tools designed that give a holistic view of the network with the ability to drill down into individual home networks to identify problematic devices and configurations. To inform a thoughtful set of design recommendations, personas and journey maps for onboarding and first time setup as well as workflows for sustained usage showing how users would interact with Minim services and with each other.</p>
       </div>
@@ -55,7 +55,7 @@
 
     <div id="bt" class="row">
       <div class="col-lg-6 half-image flex-first"></div>
-      <div class="col-lg-6 d-flex flex-column justify-content-center flex-first text-container">
+      <div class="col-lg-6 d-flex flex-column justify-content-center flex-first text-container left">
         <h2>Responsive web interface for ISPs</h2>
         <p>Unlike consumers, the ISP customer care teams use a variety of browser-based tools to monitor networks and provide support. Their experience requires responsive dashboards that provide a broad view of network health with the ability to drill-down into specific home networks. We designed an experience for ISPs that allowed them to visually explore networks, view alerts and isolate potential security threats, search for problematic IoT devices and track performance and activity over to time to uncover issues before they impact the entire network.</p>
       </div>
@@ -63,7 +63,7 @@
 
     <div id="moms" class="row">
       <div class="col-lg-6 half-image flex-first"></div>
-      <div class="col-lg-6 d-flex flex-column justify-content-center flex-first text-container">
+      <div class="col-lg-6 d-flex flex-column justify-content-center flex-first text-container right">
         <h2>Mobile app design for consumers</h2>
         <p>The most effective native mobile applications succeed by leveraging insight into the customer’s greatest pain points and needs to address a focused app that delivers on those needs with clarity and simplicity. We developed an app specifically designed to help them set up new IoT devices and manage them in a way that provides a high level of home network security and insights into usage and performance. Security alerts and notifications surface issues that need immediate attention. And for consumers with more advanced needs, we included expert controls and configuration tools to allow them to make their networks even more robust.</p>
       </div>

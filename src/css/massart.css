@@ -155,6 +155,7 @@
   padding: 0 15px;
   margin-top: 0;
   margin-bottom: 0;
+  overflow: hidden;
 }
 
 .project-description h1.heading-primary {
@@ -176,6 +177,16 @@
   .project-description h1.heading-primary {
     margin-top: 3rem;
     margin-bottom: 2.8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-description {
+    padding: 0 10rem;
+  }
+
+  .project-description-0 {
+    padding-right: 0;
   }
 }
 

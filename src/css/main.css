@@ -255,6 +255,7 @@ a[name=start] {
     position: fixed;
     width: 100%;
     z-index: 1000;
+    top: 0;
 }
 
 .page-navigation {
@@ -286,6 +287,10 @@ a[name=start] {
     margin: 0;
 }
 
+.ww-portfolio .page-navigation ul {
+    margin-right: -15px;
+}
+
 .page-navigation li {
     display: inline-block;
 }
@@ -295,15 +300,25 @@ a[name=start] {
     margin-left: 30px;
 }
 
-.page-navigation li a.jumbotron-left,
 .page-navigation li a.jumbotron-right {
     margin-left: 20px;
+    margin-right: 0;
+}
+
+.page-navigation li a.jumbotron-left {
+    margin-left: 5px;
     margin-right: 0;
 }
 
 @media (max-width:375px) {
     .page-navigation li a {
         margin-left: 15px;
+    }
+    .page-navigation li a.jumbotron-right {
+        margin-left: 20px;
+    }
+    .page-navigation li a.jumbotron-left {
+        margin-left: 5px;
     }
 }
 
@@ -317,9 +332,12 @@ a[name=start] {
         margin-right: 15px;
     }
 
-    .page-navigation li a.jumbotron-left,
     .page-navigation li a.jumbotron-right {
         margin-left: 20px;
+        margin-right: 0;
+    }
+    .page-navigation li a.jumbotron-left {
+        margin-left: 5px;
         margin-right: 0;
     }
 }
@@ -916,12 +934,12 @@ a[name=start] {
 }*/
 
 .portfolio-header {
-    margin: 3rem 0;
+    padding: 3rem 0;
 }
 
 @media (min-width:768px) {
     .portfolio-header {
-        margin: 6rem 4rem 3rem 4rem;
+        padding: 6rem 4rem 3rem 4rem;
     }
 }
 

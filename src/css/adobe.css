@@ -68,6 +68,7 @@
 .project-description {
   min-height: 0;
   margin-bottom: 2rem;
+  overflow: hidden;
 }
 
 .project-description-1 {

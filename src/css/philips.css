@@ -61,6 +61,7 @@ background-image: linear-gradient(-134deg, #11478C 0%, #2F86FC 100%);
 .project-description {
   min-height: 0;
   margin-bottom: 2rem;
+  overflow: hidden;;
 }
 
 
@@ -82,7 +83,7 @@ background-image: linear-gradient(-134deg, #11478C 0%, #2F86FC 100%);
     background: url('../images/portfolio-description-philips-bgd.png') no-repeat;
     background-position: 100% top;
     background-size: 50%;
-    padding: 6rem 6rem 0;
+    padding: 6rem 10rem 0;
     margin-bottom: 3rem;
 
   }

@@ -152,6 +152,7 @@
 .project-description {
   padding: 0 15px;
   margin-bottom: 3rem;
+  overflow: hidden;
 }
 
 @media (min-width: 576px) {
@@ -164,6 +165,12 @@
     .project-description {
       padding: 0 1rem 0 6rem;
       margin-top: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .project-description {
+      padding: 0 1rem 0 10rem;
     }
 }
 

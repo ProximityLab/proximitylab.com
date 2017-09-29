@@ -32,7 +32,7 @@
 
 <div class="container-fluid project-description project-description-0">
   <div class="row">
-    <div class="col-12 col-lg-5">
+    <div class="col-12 col-lg-6">
       <p>Proximity Lab is a participatory installation and experimental interface platform designed to visualize relationships between users and mediated spaces. Built on the premise that physical proximity is a basic unit of social communication, this study examines the role that unconscious and dynamically created personal space plays in social interaction. The experiment also studies user engagement and response where interface conventions and rules are not explicitly disclosed.</p>
       <p>Built on the premise that physical proximity is a basic unit of social communication, this study examines the role that unconscious and dynamically created personal space plays in social interaction. The experiment also studies user engagement and response where interface conventions and rules are not explicitly disclosed.</p>
       <p>

@@ -135,6 +135,7 @@
     background-size: contain;
     min-height: 700px;
     overflow: visible;
+    padding: 0 10rem;
   }
 }
 
@@ -200,6 +201,12 @@
 @media (min-width: 576px) {
   .project-services {
     padding: 0 6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-services {
+    padding: 0 10rem;
   }
 }
 

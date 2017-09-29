@@ -118,6 +118,7 @@
 
 .project-description {
   min-height: 0;
+  overflow: hidden;
 }
 
 @media (min-width: 576px) {
@@ -129,8 +130,7 @@
 
 @media (min-width: 992px) {
   .project-description {
-      padding: 6rem 0 3rem 6rem;
-
+      padding: 6rem 0 3rem 10rem;
   }
 }
 
@@ -236,6 +236,12 @@
   }
 }
 
+@media (min-width: 992px) {
+  .rootinsight-portfolio {
+    padding: 0 10rem;
+  }
+}
+
 .rootinsight-portfolio .project-service {
   background: #FFFFFF;
   box-shadow: 0 2px 15px 0 rgba(0,0,0,0.20);
@@ -330,6 +336,12 @@
 @media (min-width: 768px) {
   .project-services {
     padding: 5px 6rem 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-services {
+    padding: 5px 10rem 0;
   }
 }
 

@@ -93,25 +93,6 @@
   line-height: normal;
 }
 
-.project-description {
-  min-height: 0;
-  margin: 0;
-}
-
-@media (min-width: 576px) {
-  .project-description {
-    padding: 0 6rem;
-  }
-}
-
-
-.project-description h3 {
-    font-size: 1.8rem!important;
-    color: #282828!important;
-    font-weight: 700!important;
-    margin: 2rem 0!important;
-}
-
 .halfie {
   padding: 0;
 }
@@ -149,6 +130,15 @@
 @media (min-width: 768px) {
   .halfie .text-container {
     padding: 3rem 6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .halfie .text-container.left {
+    padding: 3rem 6rem 3rem 10rem;
+  }
+  .halfie .text-container.right {
+    padding: 3rem 10rem 3rem 6rem;
   }
 }
 
@@ -196,7 +186,7 @@
 @media (min-width: 992px) {
   .halfie #map .text-container {
     align-self: flex-start;
-    padding: 0 6rem 0 2rem;
+    padding: 0 10rem 0 2rem;
   }
 }
 
@@ -254,11 +244,22 @@
     margin: 2rem 0!important;
 }
 
+.project-description {
+  min-height: 0;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  .project-description {
+    padding: 0 6rem;
+  }
+}
+
 @media (min-width: 992px) {
   .project-description {
     background: url('../images/portfolio-description-minim-bgd.png') no-repeat;
     background-position: 180% top;
-
+    padding: 0 10rem;
   }
 }
 
@@ -269,6 +270,13 @@
     /*background-size: contain;*/
     min-height: 1225px;
   }
+}
+
+.project-description h3 {
+    font-size: 1.8rem!important;
+    color: #282828!important;
+    font-weight: 700!important;
+    margin: 2rem 0!important;
 }
 
 .project-description p {
