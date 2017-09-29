@@ -305,7 +305,7 @@ a[name=start] {
 
 @media (min-width:992px) {
     .page-navigation {
-        padding: 35px 45px;
+        padding: 35px 45px 20px;
     }
     .page-navigation li a {
         color: #1e2128;
