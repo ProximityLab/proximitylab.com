@@ -131,6 +131,11 @@ h2 {
   padding: 0 15px;
 }
 
+.project-description .flex-image {
+    overflow: hidden;
+    height: 300px;
+}
+
 .project-description-4 {
   margin-top: 6rem;
   margin-bottom: 3rem;
@@ -146,6 +151,12 @@ h2 {
     padding: 0;
     margin-top: 6rem;
   }
+  .project-description .flex-image img {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    top: -50%;
+  }
   .description-copy {
     padding-right: 6rem;
     padding-left: 6rem;
@@ -159,6 +170,20 @@ h2 {
   .project-description {
     margin-top: 8rem;
   }
+
+  .project-description .flex-image {
+    min-height: 725px;
+    height: unset;
+  }
+
+  .project-description .flex-image img {
+    position: absolute;
+    max-height: 100%;
+    width: auto;
+    max-width: unset;
+    top: 0;
+  }
+
   .project-description-0 {
     padding-right: 0;
   }
@@ -170,14 +195,15 @@ h2 {
   }
   .project-description-1 .flex-image {
     padding-right: 0;
-    overflow: hidden;
   }
   .project-description-1 .flex-image img {
-    height: auto;
-    width: auto;
+    right: 0;
   }
   .project-description-2 {
     margin-top: 0;
+  }
+  .project-description-3 .flex-image img {
+    right: 0;
   }
   .project-description-4 {
     margin-top: 11rem;
@@ -186,9 +212,22 @@ h2 {
   .project-description h1.heading-primary {
     margin-top: 8rem;
   }
+
+  .description-copy {
+    padding-bottom: 3rem;
+  }
 }
-@media (min-width: 1200px) {
-  
+@media (min-width: 1440px) {
+  .project-description .flex-image {
+    min-height: unset;
+  }
+  .project-description .flex-image img {
+    position: relative;
+    height: auto;
+    max-height: unset;
+    width: unset;
+    max-width: 100%;
+  }
 }
 
 .halfie {

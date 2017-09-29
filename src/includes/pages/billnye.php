@@ -30,7 +30,7 @@
       <p>The team researched and explored a broad set of ideas to engage kids before, during and after their visit to the museum and we met with kids about the kinds of activities and digital experiences that got them excited. We sketched early ideas for the exhibit and shared them with a wide range of kids at the museum to validate initial concepts. Working collaboratively with Bill and his team, the vision for the exhibits started to take shape.</p>
     </div>
 
-    <div class="col-lg-6 hidden-md-down flex-image">
+    <div class="col-lg-6 d-none d-lg-block flex-image">
         <img src="/images/portfolio-description-billnye-bgd-2x.jpg" class="img-fluid" alt="Bill Nye Project">
     </div>
   </div>
@@ -50,20 +50,14 @@
 </div>
 
 <div class="container-fluid project-description project-description-2">
-  <div class="row">
+  <div class="row justify-content-center">
 
-    <div class="col-12 hidden-lg-up">
-        <div class="aspect-ratio">
-          <iframe src="https://player.vimeo.com/video/17790325" class="img-fluid" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
-    </div>
-
-    <div class="col-12 col-lg-8 offset-lg-2 description-copy">
+    <div class="col-12 col-lg-8 order-12 order-lg-1 description-copy">
       <h1 class="heading-primary text-center">Sensors, badges and pixels</h1>
       <p class="text-center">To help kids understand how their daily choices affect and influence climate change, we designed and developed several exhibits including "Bike with Bill" which featured a stationary bike hooked up to sensors that allowed kids to virtually ride through the streets of San Francisco while learning about ways to minimize their carbon footprint. The exhibit gallery features an interactive video wall dynamically populated with the avatars of every active visitor in the museum. Kids simply scan their badge and their avatar appears and lights up.</p>
     </div>
 
-    <div class="col-lg-8 offset-lg-2 hidden-md-down">
+    <div class="col-12 col-lg-8 order-1 order-lg-12">
         <div class="aspect-ratio">
           <iframe src="https://player.vimeo.com/video/17790325" class="img-fluid" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
