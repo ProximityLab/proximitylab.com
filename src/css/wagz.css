@@ -271,6 +271,7 @@
 }
 
 .portfolio-testimonial {
+  position: relative;
   background: url('/images/portfolio_bgd_wagz.jpg') no-repeat;
   background-size: cover;
   background-position: 10% center;
