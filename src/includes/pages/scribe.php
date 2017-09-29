@@ -1,11 +1,12 @@
 <div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center">
 
-            <div class="col-lg-3">
+            <div class="col-lg-2">
               <img class="jumbotron-logo-project" src="/images/logo-scribe-white-2x.png" alt="Scribe logo">
             </div>
             <div class="col-lg-7"><img class="img-fluid" src="/images/website-mockup-scribe-2x.png" alt="Scribe website mockup"></div>
+            <div class="col-lg-2"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

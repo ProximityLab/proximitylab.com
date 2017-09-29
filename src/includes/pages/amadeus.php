@@ -1,23 +1,19 @@
 <div class="jumbotron jumbotron-fluid ama-jumbotron">
     <div class="container-fluid">
-        <div class="row">
-
-            <div class="col-lg-3">
+        <div class="row justify-content-center">
+            <div class="col-lg-2">
               <img class="jumbotron-logo-project" src="/images/logo-amadeus.svg" alt="Amadeus logo">
             </div>
-            <div class="col-lg-7">
-              <!-- <img class="img-fluid" src="/images/website-mockup-amadeus-2x.png" alt="Amadeus website mockup"> -->
-            <div class="ww-vid-holder"><div class="ww-vid">
-              <!-- <div class="embed-responsive embed-responsive-16by9"> -->
-                  <!-- <iframe id="video-iframe" class="embed-responsive-item" src="https://player.vimeo.com/video/230062489?title=0&amp;byline=0&amp;portrait=0" allowfullscreen></iframe> -->
-
-                  <video id="video-amadeus" class="ww-vid" poster="/images/video-poster-amadeus-2x.png" autoplay>
-                  </video>
+            <div class="col-lg-7 justify-content-center">
+              <div class="ww-vid-holder d-flex justify-content-center">
+                <div class="ww-vid d-flex align-self-center">
+                  <video id="video-amadeus" class="ww-vid" poster="/images/video-poster-amadeus-2x.png" autoplay></video>
                   <button id="ww-play-pause">Play/Pause</button>
-              <!-- </div> -->
-            </div></div></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2"></div>
         </div><!-- row -->
-        <!-- <div class="row"><a href="#start" class="home-carousel-header-arrow">Read more abour Proximity Lab</a></div> -->
     </div><!-- container -->
 </div><!-- jumbotron -->
 

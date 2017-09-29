@@ -1,9 +1,9 @@
 <div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center">
 
-            <div class="jumbotron-logo-container col-lg-3">
-              <img class="jumbotron-logo-project img-fluid" src="/images/logo-massart.svg" alt="MassArt logo">
+            <div class="jumbotron-logo-container col-lg-2">
+              <img class="jumbotron-logo-project" src="/images/logo-massart.svg" alt="MassArt logo">
             </div>
 
             <div id="massart-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
@@ -17,6 +17,8 @@
                 <li data-target="#massart-carousel-hero" data-slide-to="0" class="massart-carousel-hero-indicator active"></li>
               </ol -->
             </div>
+
+            <div class="col-lg-2"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

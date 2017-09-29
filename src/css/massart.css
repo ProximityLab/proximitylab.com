@@ -10,6 +10,7 @@
   padding-top: 8rem;
   padding-bottom: 0;
   margin-top: -80px;
+  min-height: 300px;
 }
 
 .ww-portfolio .jumbotron .jumbotron-logo-container {
@@ -52,7 +53,6 @@
 
 .jumbotron-logo-project {
     width: 339px;
-    max-width: 90%;
     display: block;
     position: relative;
     padding-bottom: 2rem;
@@ -73,7 +73,6 @@
 
 @media (min-width: 1200px){
   .jumbotron-logo-project {
-    max-width: 100%;
     right: 1em;
     left: -1em;
   }

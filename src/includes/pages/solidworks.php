@@ -1,6 +1,6 @@
 <div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center">
 
             <div class="col-lg-4">
               <img class="jumbotron-logo-project img-fluid" src="/images/logo-solidworks.svg" alt="Solid Works logo">
@@ -19,6 +19,8 @@
                 <li data-target="#solidworks-carousel-hero" data-slide-to="0" class="solidworks-carousel-hero-indicator active"></li>
               </ol -->
             </div>
+
+            <div class="col-lg-4"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

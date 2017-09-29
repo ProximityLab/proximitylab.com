@@ -1,11 +1,13 @@
 <div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center">
 
-            <div class="col-lg-3">
+            <div class="col-lg-2">
               <img class="jumbotron-logo-project" src="/images/logo-billnye-2x.png" alt="Bill Nye logo">
             </div>
             <div class="col-lg-7"><img class="billnye-hero-img img-fluid" src="/images/website-mockup-billnye-2x.jpg" alt="Bill Nye website mockup"></div>
+
+            <div class="col-lg-2"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

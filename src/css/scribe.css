@@ -36,7 +36,7 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
       position: absolute;
       top:0;
       bottom:0;
-      right: 0;
+      right: -40px;
       padding: 0;
     }
 }

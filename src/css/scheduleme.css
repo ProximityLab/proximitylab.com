@@ -16,13 +16,6 @@
   padding-top: 8rem;
 }
 
-@media (min-width: 1200px) {
-    .ww-portfolio .jumbotron {
-        padding-left: 20rem;
-        padding-right: 20rem;
-    }
-}
-
 .jumbotron-logo-project {
     width: 229px;
     display: block;
@@ -37,8 +30,7 @@
     position: absolute;
     top:0;
     bottom:0;
-    right: 0;
-    left:0;
+    right: 20px;
     padding: 0;
   }
 }

@@ -1,11 +1,13 @@
 <div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center">
 
-            <div class="col-lg-3">
+            <div class="col-lg-2">
               <img class="jumbotron-logo-project" src="/images/logo-philips.svg" alt="Philips logo">
             </div>
             <div class="col-lg-7 ww-hero-image"><img class="img-fluid" src="/images/website-mockup-philips-2x.png" alt="Philips website mockup"></div>
+        
+            <div class="col-lg-2"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

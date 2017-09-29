@@ -1,8 +1,8 @@
 <div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center">
 
-            <div class="col-lg-3">
+            <div class="col-lg-2">
               <img class="jumbotron-logo-project img-fluid" src="/images/logo-mosaic.svg" alt="Mosaic logo">
             </div>
 
@@ -17,6 +17,8 @@
                 <li data-target="#mosaic-carousel-hero" data-slide-to="0" class="mosaic-carousel-hero-indicator active"></li>
               </ol -->
             </div>
+
+            <div class="col-lg-2"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

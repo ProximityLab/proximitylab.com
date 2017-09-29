@@ -1,12 +1,12 @@
 <div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center">
 
-            <div class="col-lg-3">
+            <div class="col-lg-2">
               <img class="jumbotron-logo-project" src="/images/logo-rootinsight.svg" alt="Root Insight logo">
             </div>
 
-            <div id="rootinsight-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
+            <div id="rootinsight-carousel-hero" class="col-lg-5 ww-hero-image carousel carousel-fade" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item rootinsight-carousel-testimonial-item rootinsight-carousel-hero-item-one active">
                   <img class="img-fluid" src="/images/website-mockup-rootinsight-2x.png" alt="Schedule website mockup">
@@ -20,6 +20,8 @@
                 <li data-target="#rootinsight-carousel-hero" data-slide-to="3" class="rootinsight-carousel-hero-indicator"></li>
               </ol -->
             </div>
+
+            <div class="col-lg-2"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

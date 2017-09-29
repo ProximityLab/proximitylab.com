@@ -26,7 +26,7 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
       position: absolute;
       top:0;
       bottom:0;
-      right: 0;
+      right: -30px;
       padding: 0;
     }
 }
@@ -340,6 +340,7 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
     height: 350px;
     background: url("/images/ipad-chrome.svg") no-repeat;
     background-size: contain;
+    background-position: center;
   }
 }
 
@@ -355,38 +356,16 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
   line-height: 0;
 }
 
-@media (min-width:768px) {
-  .ww-vid {
-    position: absolute;
-    margin: 0;
-    top: 5%;
-    left: 7%;
-  }
-}
-@media (min-width:1200px) {
-  .ww-vid {
-    position: absolute;
-    margin: 0;
-    top: 7%;
-    left: 7%;
-  }
-}
-@media (min-width:1440px) {
-  .ww-vid {
-    position: absolute;
-    margin: 0;
-    top: 7%;
-    left: 7%;
-  }
-}
-
 #video-amadeus {
   width: 100%;
+  height: 100%;
 }
 
 @media (min-width:768px) {
   #video-amadeus {
     width: 420px;
+    height: 315px;
+    top: 1px;
   }
 }
 
@@ -428,6 +407,8 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
   #ww-play-pause {
     width: 420px;
     height: 315px;
+    left: 0;
+    top: 1px;
   }
 }
 
@@ -436,7 +417,7 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
     width: 590px;
     height: 442px;
     left: 0;
-    top: 1px;
+    top: 2px;
   }
 }
 

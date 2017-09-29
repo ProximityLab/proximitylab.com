@@ -25,19 +25,6 @@
     }
 }*/
 
-@media (min-width: 1200px) {
-    .jumbotron {
-        padding-left: 92px;
-        padding-right: 92px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .jumbotron-padding {
-        padding-left: 33px;
-        padding-right: 33px;
-    }
-}
 .jumbotron-logo-project {
     width: 179px;
     display: block;
