@@ -216,12 +216,18 @@ a[name=start] {
 
 .jumbotron-left,
 .jumbotron-right {
-    margin: -5px 0;
-    text-indent: -9999;
-    width: 2.3rem;
-    height: 2.3rem;
+    width: 3.6rem;
+    height: 3.6rem;
     display: none;
+}
+
+.jumbotron-left span,
+.jumbotron-right span {
+    text-indent: -9999;
+    width: 1.2rem;
+    height: 2.3rem;
     opacity: .3;
+    display: block;
 }
 
 .ww-portfolio .jumbotron-left,
@@ -229,19 +235,19 @@ a[name=start] {
     display: block;
 }
 
-.page-navigation .jumbotron-left {
+.page-navigation .jumbotron-left span {
     background: url(/images/nav-prev-white.svg) no-repeat;
 }
 
-.page-navigation.scrolled .jumbotron-left {
+.page-navigation.scrolled .jumbotron-left span {
     background: url(/images/nav-prev.svg) no-repeat;
 }
 
-.page-navigation .jumbotron-right {
+.page-navigation .jumbotron-right span {
     background: url(/images/nav-next-white.svg) no-repeat;
 }
 
-.page-navigation.scrolled .jumbotron-right {
+.page-navigation.scrolled .jumbotron-right span {
     background: url(/images/nav-next.svg) no-repeat;
 }
 
@@ -297,6 +303,12 @@ a[name=start] {
     margin-left: 30px;
 }
 
+.page-navigation li a.jumbotron-left,
+.page-navigation li a.jumbotron-right {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
 @media (max-width:375px) {
     .page-navigation li a {
         margin-left: 15px;
@@ -315,7 +327,7 @@ a[name=start] {
 
     .page-navigation li a.jumbotron-left,
     .page-navigation li a.jumbotron-right {
-        margin-left: 30px;
+        margin-left: 20px;
         margin-right: 0;
     }
 }

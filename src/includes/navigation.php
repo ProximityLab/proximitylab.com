@@ -59,11 +59,11 @@ else {
  <div class="primary-nav-holder">
 	<nav class="page-navigation">
 		<a href="/" id="pl-nav-logo" class="site-title-r">Proximity Lab</a>
-		<ul>
-			<li><a class="page-navigation-link<?php if ($activePage == '/about') echo ' page-navigation-link-active'; ?>" href="?page=/about">About</a></li>
-			<li><a class="page-navigation-link<?php if ($activePage == '/work' || $isWorkCurrent) echo ' page-navigation-link-active'; ?><?php if ($isWorkCurrent) echo ' work-page'; ?>" href="?page=/work">Work</a></li>
-			<li><a href="?page=<?php echo $previous; ?>" class="jumbotron-left" alt="Previous project"></a></li>
-			<li><a href="?page=<?php echo $next; ?>" class="jumbotron-right" alt="Next project"></a></li>
+		<ul class="d-flex">
+			<li class="align-self-center"><a class="page-navigation-link<?php if ($activePage == '/about') echo ' page-navigation-link-active'; ?>" href="?page=/about">About</a></li>
+			<li class="align-self-center"><a class="page-navigation-link<?php if ($activePage == '/work' || $isWorkCurrent) echo ' page-navigation-link-active'; ?><?php if ($isWorkCurrent) echo ' work-page'; ?>" href="?page=/work">Work</a></li>
+			<li class="align-self-center"><a href="?page=<?php echo $previous; ?>" class="jumbotron-left d-flex justify-content-center" alt="Previous project"><span class="align-self-center"></span></a></li>
+			<li class="align-self-center"><a href="?page=<?php echo $next; ?>" class="jumbotron-right d-flex justify-content-center" alt="Next project"><span class="align-self-center"></span></a></li>
 		</ul>
 	</nav>
 	<div class="ww-underlay"></div>
