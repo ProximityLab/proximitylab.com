@@ -17,15 +17,11 @@ $(document).ready(function() {
 
     if (scroll > 5) {
 
-      $headerContainer.addClass("headerScrolledUp");
-      $headerNav.addClass("scrolled");
-      $headerPanel.addClass("scrolled");
+      $headerContainer.addClass("scrolled");
 
     } else {
 
-      $headerContainer.removeClass("headerScrolledUp");
-      $headerNav.removeClass("scrolled");
-      $headerPanel.removeClass("scrolled");
+      $headerContainer.removeClass("scrolled");
 
     }
 
@@ -246,6 +242,7 @@ $(document).ready(function() {
       handler: function(direction) {
         if (direction === 'down') {
           $headerContainer.addClass("headerScrolledDown");
+          $headerContainer.removeClass("headerScrolledUp");
         }
       }
     });
@@ -256,7 +253,13 @@ $(document).ready(function() {
       offset: '<-75%',
       handler: function(direction) {
         if (direction === 'up') {
+          var scroll = $(document).scrollTop();
           $headerContainer.removeClass("headerScrolledDown");
+          if (scroll < 5) {
+            $headerContainer.removeClass("headerScrolledUp");
+          } else {
+            $headerContainer.addClass("headerScrolledUp");
+          }
         }
       }
     });
