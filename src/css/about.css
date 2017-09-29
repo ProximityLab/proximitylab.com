@@ -4,6 +4,10 @@
 
 /* navigation */
 
+.page-navigation .site-title-r {
+    background: url(/images/logo-proximity-lab-white-2.svg) no-repeat;
+}
+
 .page-navigation-link {
   color: #B6B6B6;
 }

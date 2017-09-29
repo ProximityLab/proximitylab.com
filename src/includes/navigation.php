@@ -56,7 +56,7 @@ else {
 // unset($currentpagenum);
 
  ?>
- <div id="home-carousel-header" class="primary-nav-holder carousel slide home-carousel-header ">
+ <div class="primary-nav-holder">
 	<nav class="page-navigation">
 		<a href="/" id="pl-nav-logo" class="site-title-r">Proximity Lab</a>
 		<ul>
