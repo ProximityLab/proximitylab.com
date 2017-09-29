@@ -33,7 +33,8 @@
             <div class="col-12 col-md-7">
               <div class="songbird-portfolio-services container-fluid">
                 <div class="row">
-                  <div class="col-12 col-sm-3 offset-sm-1">
+                  <div class="col-md-1 d-none d-md-block"></div>
+                  <div class="col-12 col-sm-3">
                     <div class="project-service">
                       <img src="/images/songbird-portfolio-1-2x.png" alt="Visual Experience">
                     </div>

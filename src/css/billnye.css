@@ -131,14 +131,13 @@ h2 {
   padding: 0 15px;
 }
 
-@media (min-width: 576px) {
-  .project-description {
-    padding: 0 6rem;
-  }
+.project-description .flex-image {
+    overflow: hidden;
+    height: 300px;
 }
 
 .project-description-4 {
-  margin-top: 3rem;
+  margin-top: 6rem;
   margin-bottom: 3rem;
 }
 
@@ -147,15 +146,64 @@ h2 {
   margin-bottom: 2.8rem;
 }
 
+@media (min-width: 576px) {
+  .project-description {
+    padding: 0;
+    margin-top: 6rem;
+  }
+  .project-description .flex-image img {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    top: -50%;
+  }
+  .description-copy {
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
+  .project-description-4 {
+    margin-top: 6rem;
+  }
+}
+
 @media (min-width: 992px) {
   .project-description {
     margin-top: 8rem;
   }
+
+  .project-description .flex-image {
+    min-height: 725px;
+    height: unset;
+  }
+
+  .project-description .flex-image img {
+    position: absolute;
+    max-height: 100%;
+    width: auto;
+    max-width: unset;
+    top: 0;
+  }
+
+  .project-description-0 {
+    padding-right: 0;
+  }
+  .project-description-0 .flex-image {
+    padding-left: 0;
+  }
   .project-description-1 {
-    margin-top: 10rem;
+    margin-top: 0;
+  }
+  .project-description-1 .flex-image {
+    padding-right: 0;
+  }
+  .project-description-1 .flex-image img {
+    right: 0;
   }
   .project-description-2 {
     margin-top: 0;
+  }
+  .project-description-3 .flex-image img {
+    right: 0;
   }
   .project-description-4 {
     margin-top: 11rem;
@@ -164,9 +212,22 @@ h2 {
   .project-description h1.heading-primary {
     margin-top: 8rem;
   }
+
+  .description-copy {
+    padding-bottom: 3rem;
+  }
 }
-@media (min-width: 1200px) {
-  
+@media (min-width: 1440px) {
+  .project-description .flex-image {
+    min-height: unset;
+  }
+  .project-description .flex-image img {
+    position: relative;
+    height: auto;
+    max-height: unset;
+    width: unset;
+    max-width: 100%;
+  }
 }
 
 .halfie {
