@@ -129,6 +129,7 @@ h2 {
 .project-description {
   margin-top: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .description-copy {
@@ -195,20 +196,26 @@ h2 {
   .project-description-0 .flex-image {
     padding-left: 0;
   }
+  .project-description-0 .flex-image img {
+    left: 0;
+    padding-left: 3rem;
+  }
   .project-description-1 {
-    margin-top: 0;
+    margin-top: 10rem;
   }
   .project-description-1 .flex-image {
     padding-right: 0;
   }
   .project-description-1 .flex-image img {
     right: 0;
+    padding-right: 3rem;
   }
   .project-description-2 {
     margin-top: 0;
   }
   .project-description-3 .flex-image img {
     right: 0;
+    padding-right: 3rem;
   }
   .project-description-4 {
     margin-top: 11rem;
@@ -222,11 +229,9 @@ h2 {
     padding-bottom: 3rem;
   }
 
-  .description-copy.right {
-    padding-right: 10rem;
-  }
-
+  .description-copy.right,
   .description-copy.left {
+    padding-right: 10rem;
     padding-left: 10rem;
   }
 }
