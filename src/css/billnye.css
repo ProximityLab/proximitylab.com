@@ -128,7 +128,12 @@ h2 {
 
 .project-description {
   margin-top: 0;
-  padding: 0 15px;
+  padding: 0;
+}
+
+.description-copy {
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 
 .project-description .flex-image {
@@ -543,7 +548,7 @@ h2 {
 .project-services {
   /*background-color: #1B1C25;*/
   /*margin-bottom: 0;*/
-  padding: 6rem -15px;
+  padding: 6rem 0;
 }
 
 
@@ -559,29 +564,7 @@ h2 {
   line-height: 4rem;
   font-size: 2.4rem;
   padding: 3rem 3rem;
-  display: flex;
-  flex-flow: row;
-  /*align-items: center;*/
-  /*justify-content: center;*/
 }
-
-/*.ww-overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-@media (min-width: 1440px) {
-  .ww-overlay {
-    background-color: rgba(0, 0, 0, 0);
-}
-}
-.ww-content {
-  z-index: 2;
-}*/
 
 @media (min-width: 1440px) {
   .portfolio-testimonial .ww-content {

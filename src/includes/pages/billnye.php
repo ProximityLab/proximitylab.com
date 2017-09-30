@@ -25,7 +25,7 @@
 </div>
 
 <div class="container-fluid project-description project-description-0">
-  <div class="row">
+  <div class="row m-0">
     <div class="col-12 col-lg-6 description-copy left">
       <p>Bill Nye “The Science Guy” is one of the most recognizable faces in science. Leveraging the power of his profile and status, Proximity Lab was selected by the Chabot Space & Science Center to lead the research, design and implementation of an ambitious project to educate kids and families about climate science and the power of individual choice. The result is Bill Nye’s Climate Lab – an integrated web, mobile and museum-based experience.</p>
       <p>The learning experience had to be fun and engaging for kids aged 4 to 14 and a key business driver for the organization was to increase repeat visitation to the museum.</p>
@@ -39,8 +39,8 @@
 </div>
 
 <div class="container-fluid project-description project-description-1">
-  <div class="row">
-    <div class="col-12 col-lg-6 flex-image">
+  <div class="row m-0">
+    <div class="col-12 col-lg-6 flex-image p-0">
         <img src="/images/portfolio-description-billnye-bgd-2-2x.jpg" class="img-fluid" alt="Bill Nye Project">
     </div>
 
@@ -52,14 +52,14 @@
 </div>
 
 <div class="container-fluid project-description project-description-2">
-  <div class="row justify-content-center">
+  <div class="row justify-content-center m-0">
 
     <div class="col-12 col-lg-8 order-12 order-lg-1 description-copy">
       <h1 class="heading-primary text-center">Sensors, badges and pixels</h1>
       <p class="text-center">To help kids understand how their daily choices affect and influence climate change, we designed and developed several exhibits including "Bike with Bill" which featured a stationary bike hooked up to sensors that allowed kids to virtually ride through the streets of San Francisco while learning about ways to minimize their carbon footprint. The exhibit gallery features an interactive video wall dynamically populated with the avatars of every active visitor in the museum. Kids simply scan their badge and their avatar appears and lights up.</p>
     </div>
 
-    <div class="col-12 col-lg-8 order-1 order-lg-12">
+    <div class="col-12 col-lg-8 order-1 order-lg-12 p-0">
         <div class="aspect-ratio">
           <iframe src="https://player.vimeo.com/video/17790325" class="img-fluid" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
@@ -68,8 +68,8 @@
 </div>
 
 <div class="container-fluid project-description project-description-3">
-  <div class="row">
-    <div class="col-12 col-lg-6 flex-image">
+  <div class="row m-0">
+    <div class="col-12 col-lg-6 flex-image p-0">
         <img src="/images/portfolio-description-billnye-bgd-4-2x.jpg" class="img-fluid" alt="Bill Nye Project">
     </div>
 

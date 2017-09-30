@@ -130,7 +130,7 @@
 }
 
 .project-description {
-  padding: 0 15px;
+  padding: 0 3rem;
   margin-bottom: 3rem;
   overflow: hidden;
 }
@@ -286,7 +286,7 @@
 }
 
 .project-services {
-  padding: 6rem -15px;
+  padding: 6rem 0;
 }
 
 

@@ -118,7 +118,7 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
 
 .project-description {
   margin: 0;
-  padding: 0 15px;
+  padding: 0 3rem;
   min-height: 0;
 }
 
@@ -498,29 +498,8 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
   line-height: 4rem;
   font-size: 2.4rem;
   padding: 3rem 3rem;
-  display: flex;
-  flex-flow: row;
-  /*align-items: center;*/
-  /*justify-content: center;*/
 }
 
-/*.ww-overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-@media (min-width: 1440px) {
-  .ww-overlay {
-    background-color: rgba(0, 0, 0, 0);
-}
-}
-.ww-content {
-  z-index: 2;
-}*/
 
 @media (min-width: 1440px) {
   .portfolio-testimonial .ww-content {

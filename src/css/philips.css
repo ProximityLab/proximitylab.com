@@ -61,7 +61,8 @@ background-image: linear-gradient(-134deg, #11478C 0%, #2F86FC 100%);
 .project-description {
   min-height: 0;
   margin-bottom: 2rem;
-  overflow: hidden;;
+  overflow: hidden;
+  padding: 0 3rem;
 }
 
 

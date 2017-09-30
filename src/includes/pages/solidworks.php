@@ -6,8 +6,6 @@
               <img class="jumbotron-logo-project img-fluid" src="/images/logo-solidworks.svg" alt="Solid Works logo">
             </div>
 
-            <div class="col-2 col-md-4 col-sm-3 d-lg-none"></div>
-
             <div id="solidworks-carousel-hero" class="col-8 col-lg-3 col-md-4 col-sm-6 ww-hero-image carousel carousel-fade" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item solidworks-carousel-testimonial-item solidworks-carousel-hero-item-one active">

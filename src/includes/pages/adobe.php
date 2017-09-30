@@ -26,7 +26,7 @@
 <section class="adobe-portfolio">
 
   <div class="container-fluid project-description project-description-0">
-    <div class="row">
+    <div class="row m-0">
       <div class="col-12 col-lg-6 description-text-col">
         <p>Most designers and developers know Adobe for its flagship applications, Photoshop and Illustrator. But beyond those, there are dozens of other powerful creativity software products designed to empower digital designers and simplify the way they work. Over the past ten years, Proximity Lab has worked with Adobe on dozens of high-visibility projects and has become part itself as a trusted partner as Adobe has aggressively shaped the landscape of rich Internet application software development.</p>
         <div class="adobe-carousel container-fluid">
@@ -116,7 +116,7 @@
   </div>
 
   <div class="container-fluid portfolio-services">
-      <div class="row">
+      <div class="row m-0">
           <div class="col-12 col-sm-4 text-center">
               <div class="portfolio-service">
                   <img class="portfolio-service-icon" src="/images/icon-analysis-research.svg" alt="Analysis and research">
@@ -142,7 +142,7 @@
   </div>
 
   <div class="container-fluid project-description project-description-1">
-    <div class="row">
+    <div class="row m-0">
           <div class="col-12 p-0">
               <img class="img-fluid" src="/images/portfolio-description-adobe-bgd-2-2x.jpg" alt="Adobe Project">
           </div>
@@ -150,7 +150,7 @@
   </div>
 
   <div class="container-fluid project-description project-description-2">
-    <div class="row">
+    <div class="row m-0">
       <div class="col-12 description-text-col">
         <h1 class="heading-primary text-center">Envisioning the future</h1>
         <p class="text-center">At the strategic level, we have helped the team look more broadly at how Adobe’s products are addressing the changing needs of creative professionals. We also helped create long-term customer journeys and roadmaps designed to help identify the changing needs of creative experts over time - ensuring that they maintain strong ties to Adobe while maintaining their portfolios.</p>
@@ -159,7 +159,7 @@
   </div>
 
   <div class="container-fluid project-description project-description-3 adobe-portfolio-services">
-    <div class="row">
+    <div class="row m-0">
       <div class="col-12 col-md-6">
         <div class="project-service">
           <img src="/images/portfolio-description-adobe-bgd-3-2x.jpg" class="img-fluid" alt="Visual Experience">

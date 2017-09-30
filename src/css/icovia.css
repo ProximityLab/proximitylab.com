@@ -127,6 +127,7 @@
 .project-description {
   min-height: 0;
   margin-bottom: 0;
+  padding: 0 3rem;
 }
 
 #last-paragraph {
@@ -277,7 +278,7 @@
 .project-services {
   /*background-color: #1B1C25;*/
   /*margin-bottom: 0;*/
-  padding: 6rem -15px;
+  padding: 6rem 0;
 }
 
 

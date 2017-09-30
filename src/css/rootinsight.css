@@ -111,6 +111,7 @@
 .project-description {
   min-height: 0;
   overflow: hidden;
+  padding: 0 3rem;
 }
 
 @media (min-width: 576px) {

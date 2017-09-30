@@ -118,7 +118,7 @@
 }
 
 .halfie .text-container {
-  padding: 0 15px 3rem;
+  padding: 0 3rem 3rem;
 }
 
 @media (min-width: 576px) {
@@ -247,6 +247,8 @@
 .project-description {
   min-height: 0;
   margin: 0;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 @media (min-width: 576px) {

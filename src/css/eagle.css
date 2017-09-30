@@ -113,7 +113,8 @@
 
 .project-description {
   min-height: 0;
-  /*margin-bottom: 0;*/
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 /*.project-description p {
@@ -195,7 +196,7 @@
 }
 
 .project-services {
-  padding: 0 15px;
+  padding: 0 3rem;
 }
 
 @media (min-width: 576px) {
@@ -276,6 +277,8 @@ margin: 2rem 0 0 0;
   margin-top: 3rem;
   margin-bottom: 3rem;
   padding-bottom: 3rem;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .eagle-portfolio-services .row > [class*='col-']:last-child {
