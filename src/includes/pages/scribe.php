@@ -64,11 +64,11 @@
   </div>
 
   <div id="design-excellence" class="row">
-    <div class="col-md-6 half-image"></div>
     <div class="col-md-6 d-flex flex-column justify-content-center text-container flex-first">
       <h2>Design excellence</h2>
       <p>A central challenge was developing a simple and approachable interface for a wide range of user types – creating a visually oriented data integration platform – without compromising the powerful capabilities of the product. Gartner Group, a leading market research firm, recognized Scribe’s re-imagined SaaS-based solution as “the best-in-class” for data integration, a designation that Scribe attributes largely to the research and product design work conducted by Proximity Lab.</p>
     </div>
+    <div class="col-md-6 half-image"></div>
   </div>
 
 </div>
