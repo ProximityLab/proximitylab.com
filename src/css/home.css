@@ -325,6 +325,7 @@
 .home-carousel-testimonial-item-one { background-color: #139CE4; }
 .home-carousel-testimonial-item-two { background-color: #896BC2; }
 .home-carousel-testimonial-item-three { background-color: #0CC1D3; }
+.home-carousel-testimonial-item-four { background-color: #F01928; }
 
 .home-carousel-testimonial-caption {
     bottom: auto;
@@ -355,6 +356,11 @@
 .home-carousel-testimonial-item-three .home-carousel-testimonial-logo {
     height: 45px;
     margin: 44px 0;
+}
+
+.home-carousel-testimonial-item-four .home-carousel-testimonial-logo {
+    height: 60px;
+    margin: 36px 0;
 }
 
 .home-carousel-testimonial-text {

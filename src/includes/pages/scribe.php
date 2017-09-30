@@ -102,7 +102,8 @@
 <div class="container-fluid portfolio-testimonial">
   <div class="row">
     <div class="ww-content">
-        <p>"Proximity Lab understands our business - they challenged our thinking to help create new paradigms for data integration. The resulting user-centric design is now driving the product roadmap for our SaaS platform, and more importantly - we are seeing a new category of users performing data integration tasks that would have previously been outside of their skillset."</p><img src="/images/testimonial-author-scribe-2x.png" alt="Testimonial author">
+      <p>“Proximity Lab understands our business - they challenged our thinking to help create new paradigms for data integration. The resulting user-centric design is now driving the product roadmap for our SaaS platform - we are seeing a new category of users performing data integration tasks that would have previously been outside of their skillset.”</p>
+      <img src="/images/testimonial-author-scribe-2x.png" alt="Testimonial author">
       <p class="home-carousel-testimonial-author-title">
           <strong>Shawn McGowan,</strong> CEO  Scribe</p>
     </div>

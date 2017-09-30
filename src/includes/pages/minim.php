@@ -73,7 +73,8 @@
 <div class="container-fluid portfolio-testimonial">
   <div class="row">
     <div class="ww-content">
-        <p>"Proximity Lab is at the top of the game for user experience and design. Having worked with them on multiple occasions and projects, they have proven to be a firm that goes way beyond producing simple mock-ups. They take the time to understand the core solution a product is to deliver."</p><img src="/images/profile-jeremy-hitchcock-2x.png" alt="Testimonial author">
+      <p>“Proximity Lab is at the top of the game for user experience and design. Having worked with them on multiple occasions and projects, they have proven to be a firm that goes way beyond producing simple mock-ups. They take the time to understand the core solution a product needs to deliver.”</p>
+      <img src="/images/profile-jeremy-hitchcock-2x.png" alt="Testimonial author">
       <p class="home-carousel-testimonial-author-title">
           <strong>Jeremy Hitchcock,</strong> Founder &amp; CEO  (Minim &amp; Dyn)</p>
     </div>

@@ -272,7 +272,17 @@
         <img class="home-carousel-testimonial-logo" src="/images/logo-minim-white-169x60.png" alt="Minim logo">
         <p class="home-carousel-testimonial-text">“Proximity Lab is at the top of the game for user experience and design. Having worked with them on multiple occasions and projects, they have proven to be a firm that goes way beyond producing simple mock-ups. They take the time to understand the core solution a product needs to deliver.”</p>
         <img class="home-carousel-testimonial-author" src="/images/profile-jeremy-hitchcock-2x.png" alt="Testimonial author">
-        <p class="home-carousel-testimonial-author-title"><b>Jeremy Hitchcock</b>, Founder & COO Minim</p>
+        <p class="home-carousel-testimonial-author-title"><b>Jeremy Hitchcock</b>, Founder &amp; COO Minim</p>
+      </div>
+    </div>
+
+    <div class="carousel-item home-carousel-testimonial-item home-carousel-testimonial-item-four">
+      <div class="carousel-caption home-carousel-testimonial-caption">
+        <h5 class="home-carousel-testimonial-heading d-none d-md-block">THE BOND WITH OUR CLIENTS</h5>
+        <img class="home-carousel-testimonial-logo" src="/images/logo-adobe.svg" alt="Adobe logo">
+        <p class="home-carousel-testimonial-text">“As Adobe has grown and expanded its product lines over the years, we have relied on the outside expertise of Proximity Lab to help ensure we are designing and developing the most usable and effective tools possible for the creative marketplace. In many cases, they are not only a trusted partner, but serve as an extension to our design team to help on everything from product-focused UI exercises to executive level vision work.”</p>
+        <img class="home-carousel-testimonial-author" src="/images/profile-jamie-myrold-2x.png" alt="Testimonial author">
+        <p class="home-carousel-testimonial-author-title"><b>Jamie Myrold</b>, VP of Design Adobe</p>
       </div>
     </div>
   </div>
@@ -281,5 +291,6 @@
     <li data-target="#home-carousel-testimonial" data-slide-to="0" class="home-carousel-testimonial-indicator active"></li>
     <li data-target="#home-carousel-testimonial" data-slide-to="1" class="home-carousel-testimonial-indicator"></li>
     <li data-target="#home-carousel-testimonial" data-slide-to="2" class="home-carousel-testimonial-indicator"></li>
+    <li data-target="#home-carousel-testimonial" data-slide-to="3" class="home-carousel-testimonial-indicator"></li>
   </ol>
 </div>
