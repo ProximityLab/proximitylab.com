@@ -44,8 +44,7 @@
       <p>Measuring and comparing the health of start-up businesses is challenging. Often times, each uses slightly different metrics to report progress, and they use different reporting tools to consolidate them. The founders of Root Insight suspected that if platform that was specifically built to normalize company performance metrics, then investors and board members would have a much clearer perspective. The team at Root Insight chose Proximity Lab to design and develop this platform.</p>
       <p>To ensure that the platform would deliver the most value, our team worked with leading business analysts to better understand vital business metrics - how they are measured, and how they are reported. We evaluated existing business intelligence platforms and data visualization tools to understand the best methods to convey and compare business performance. The resulting Root Insight platform included:</p>
     </div>
-    <div class="col-xl-1 d-none d-xl-block"></div>
-    <div class="col-xl-5 col-lg-6 d-none d-lg-block p-0">
+    <div class="col-lg-6 d-none d-lg-block p-0">
       <img src="/images/portfolio-description-rootinsight-bgd.png" alt="Visual Experience">
     </div>
   </div>
