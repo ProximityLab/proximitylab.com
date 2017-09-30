@@ -344,18 +344,18 @@
   padding-right: 0;
 }
 
-.rootinsight-portfolio-services .row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-  flex-wrap: wrap;
+.rootinsight-portfolio-services .row > [class*='col-'] {
+  margin-bottom: 3rem;
 }
 
-.rootinsight-portfolio-services .row > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 3rem;
+.rootinsight-portfolio-services .row > [class*='col-']:last-child {
+  padding-top: 3rem;
+}
+
+@media (min-width: 576px) {
+  .rootinsight-portfolio-services {
+    padding-bottom: 3rem;
+  }
 }
 
 @media (min-width: 768px){
@@ -365,6 +365,7 @@
 
   .rootinsight-portfolio-services .row > [class*='col-']:last-child {
     padding-left: 4rem;
+    padding-top: 0;
   }
 }
 

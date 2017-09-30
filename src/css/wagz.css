@@ -442,38 +442,22 @@ margin: 2rem 0 0 0;
   }
 }
 
-/*
-@media (max-width: 575px) {
-  .jumbotron {
-      padding: 4rem 2rem 4rem;
+.wagz-portfolio .wagz-portfolio-services {
+  padding-bottom: 3rem;
+}
+
+.wagz-portfolio .wagz-portfolio-services .row > [class*='col-']:last-child {
+  padding-top: 6rem;
+}
+
+@media (min-width: 576px) {
+  .wagz-portfolio .wagz-portfolio-services {
+    padding-bottom: 6rem;
   }
-}
 
-.wagz-carousel-hero-indicators {
-    bottom: -38px;
-}
-
-li.wagz-carousel-hero-indicator {
-    max-width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background-color: rgba(0,0,0,.2);
-    margin-left: 6.5px;
-    margin-right: 6.5px;
-}
-*/
-
-.wagz-portfolio .wagz-portfolio-services .row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-  flex-wrap: wrap;
-}
-
-.wagz-portfolio .wagz-portfolio-services .row > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
+  .wagz-portfolio .wagz-portfolio-services .row > [class*='col-']:last-child {
+    padding-top: 0;
+  }
 }
 
 .wagz-portfolio .project-service {
