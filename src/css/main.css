@@ -301,12 +301,12 @@ a[name=start] {
 }
 
 .page-navigation li a.jumbotron-right {
-    margin-left: 20px;
+    margin-left: 25px;
     margin-right: 0;
 }
 
 .page-navigation li a.jumbotron-left {
-    margin-left: 5px;
+    margin-left: 20px;
     margin-right: 0;
 }
 
@@ -315,16 +315,16 @@ a[name=start] {
         margin-left: 15px;
     }
     .page-navigation li a.jumbotron-right {
-        margin-left: 20px;
+        margin-left: 25px;
     }
     .page-navigation li a.jumbotron-left {
-        margin-left: 5px;
+        margin-left: 20px;
     }
 }
 
 @media (min-width:992px) {
     .page-navigation {
-        padding: 35px 45px 20px;
+        padding: 25px 45px 22px;
     }
     .page-navigation li a {
         color: #1e2128;
