@@ -226,7 +226,8 @@ a[name=start] {
     display: block;
 }
 
-.page-navigation .jumbotron-left span {
+.page-navigation .jumbotron-left span,
+.scrolled.headerScrolledDown .page-navigation .jumbotron-left span {
     background: url(/images/nav-prev-white.svg) no-repeat;
 }
 
@@ -234,7 +235,8 @@ a[name=start] {
     background: url(/images/nav-prev.svg) no-repeat;
 }
 
-.page-navigation .jumbotron-right span {
+.page-navigation .jumbotron-right span,
+.scrolled.headerScrolledDown .page-navigation .jumbotron-right span {
     background: url(/images/nav-next-white.svg) no-repeat;
 }
 
@@ -350,33 +352,11 @@ a[name=start] {
     text-decoration: none;
 }
 
-.page-navigation li a.page-navigation-link {
+.page-navigation li a.page-navigation-link,
+.scrolled.headerScrolledDown .page-navigation li a.page-navigation-link {
     color: white !important;
     opacity: 0.6;
 }
-
-/*
-.headerScrolledDown .page-navigation li a.page-navigation-link {
-
-    -webkit-transition: all 0s ease-out 0s;
-    -o-transition: all 0s ease-out 0s;
-    transition: all 0s ease-out 0s;
-}
-
-.headerScrolledUp .page-navigation li a.page-navigation-link {
-
-    -webkit-transition: all .5s ease-out .5s;
-    -o-transition: all .5s ease-out .5s;
-    transition: all .5s ease-out .5s;
-}
-
-.headerScrolledUp .page-navigation.scrolled li a.page-navigation-link {
-
-    -webkit-transition: all 0s ease-out 0s;
-    -o-transition: all 0s ease-out 0s;
-    transition: all 0s ease-out 0s;
-}
-*/
 
 .page-navigation li a.page-navigation-link:hover {
     color: white !important;
@@ -390,7 +370,8 @@ a[name=start] {
     opacity: 1.0 !important;
 }
 
-.page-navigation li a.page-navigation-link-active.work-page {
+.page-navigation li a.page-navigation-link-active.work-page,
+.scrolled.headerScrolledDown .page-navigation li a.page-navigation-link-active.work-page {
     border-bottom: 1px solid #fff;
 }
 
@@ -462,7 +443,8 @@ a[name=start] {
 
 /* logo */
 
-.ww-portfolio .page-navigation .site-title-r {
+.ww-portfolio .page-navigation .site-title-r,
+.ww-portfolio .scrolled.headerScrolledDown .page-navigation .site-title-r {
 
     background: url(/images/logo-proximity-lab-white-2.svg) no-repeat;
 }

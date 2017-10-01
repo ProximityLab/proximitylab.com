@@ -15,13 +15,14 @@ $(document).ready(function() {
 
     var scroll = $(document).scrollTop();
 
-    if (scroll > 5) {
+    if (scroll > 40) {
 
       $headerContainer.addClass("scrolled");
 
     } else {
 
       $headerContainer.removeClass("scrolled");
+      $headerContainer.removeClass("headerScrolledUp");
 
     }
 
@@ -253,9 +254,12 @@ $(document).ready(function() {
       offset: '<-75%',
       handler: function(direction) {
         if (direction === 'up') {
-          var scroll = $(document).scrollTop();
+          var scrollTop = $(document).scrollTop();
+          var winHeight = $(window).height();
+          var docHeight = $(document).height();
+          var scrollBottom = docHeight - scrollTop - winHeight;
           $headerContainer.removeClass("headerScrolledDown");
-          if (scroll < 5) {
+          if (scrollTop < 40 || scrollBottom < 5) {
             $headerContainer.removeClass("headerScrolledUp");
           } else {
             $headerContainer.addClass("headerScrolledUp");
