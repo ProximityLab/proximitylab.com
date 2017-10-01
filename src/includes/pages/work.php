@@ -14,7 +14,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-scribe.png" alt="Scribe logo">
                         <p class="work-item-text d-none d-lg-block">Expanding the power and usability of SaaS-based integration</p>
-                        <a class="work-item-button" href="?page=/work/scribe">View work</a>
+                        <a class="work-item-button" href="/work/scribe">View work</a>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-amadeus.svg" alt="Amadeus logo">
                         <p class="work-item-text d-none d-lg-block">A fully re-imagined experience for professional event planners</p>
-                        <a class="work-item-button" href="?page=/work/amadeus">View work</a>
+                        <a class="work-item-button" href="/work/amadeus">View work</a>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-minim-white-2x.png" alt="Minim logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Empowering consumers with smart home security</p>
-                        <a class="work-item-button" href="?page=/work/minim">View work</a>
+                        <a class="work-item-button" href="/work/minim">View work</a>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-wagz-green-2x.png" alt="Wagz logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">An integrated platform for dog safety, health and happiness</p>
-                        <a class="work-item-button" href="?page=/work/wagz">View work</a>
+                        <a class="work-item-button" href="/work/wagz">View work</a>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-eagle-2x.png" alt="Eagle logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Visualization-based AI to power genomics research and insight</p>
-                        <a class="work-item-button" href="?page=/work/eagle">View work</a>
+                        <a class="work-item-button" href="/work/eagle">View work</a>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-nye.png" alt="Nye logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">An award-winning multi-platform climate change exhibit</p>
-                        <a class="work-item-button" href="?page=/work/billnye">View work</a>
+                        <a class="work-item-button" href="/work/billnye">View work</a>
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-adobe.svg" alt="Adobe logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Helping a creative software giant produce best in class products</p>
-                        <a class="work-item-button" href="?page=/work/adobe">View work</a>
+                        <a class="work-item-button" href="/work/adobe">View work</a>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-insight.png" alt="Root Insight logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Competitive benchmarking and real-time business analytics</p>
-                        <a class="work-item-button" href="?page=/work/rootinsight">View work</a>
+                        <a class="work-item-button" href="/work/rootinsight">View work</a>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-mosaic.svg" alt="Mosaic logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">A mobile companion to industry-leading photo management software</p>
-                        <a class="work-item-button" href="?page=/work/mosaic">View work</a>
+                        <a class="work-item-button" href="/work/mosaic">View work</a>
                     </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-massart.svg" alt="MassArt logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">An experimental platform to study and visualize social interaction</p>
-                        <a class="work-item-button" href="?page=/work/massart">View work</a>
+                        <a class="work-item-button" href="/work/massart">View work</a>
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-solidworks.svg" alt="Solid Works logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">A community portal to support and foster collaboration</p>
-                        <a class="work-item-button" href="?page=/work/solidworks">View work</a>
+                        <a class="work-item-button" href="/work/solidworks">View work</a>
                     </div>
                 </div>
             </div>
@@ -146,7 +146,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-songbird.svg" alt="Songbird logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Building an immersive and integrated music appreciation platform</p>
-                        <a class="work-item-button" href="?page=/work/songbird">View work</a>
+                        <a class="work-item-button" href="/work/songbird">View work</a>
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-philips.svg" alt="Philips logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Architectural lighting and energy management innovation</p>
-                        <a class="work-item-button" href="?page=/work/philips">View work</a>
+                        <a class="work-item-button" href="/work/philips">View work</a>
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-scheduleme.svg" alt="Schedule Me logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Leveraging availability across platforms for streamline meetings</p>
-                        <a class="work-item-button" href="?page=/work/scheduleme">View work</a>
+                        <a class="work-item-button" href="/work/scheduleme">View work</a>
                     </div>
                 </div>
             </div>
@@ -182,7 +182,7 @@
                     <div class="work-item-wrapper">
                         <img class="work-item-logo" src="/images/logo-icovia-2x.png" alt="icovia logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">A browser-based space planning app becomes an industry standard</p>
-                        <a class="work-item-button" href="?page=/work/icovia">View work</a>
+                        <a class="work-item-button" href="/work/icovia">View work</a>
                     </div>
                 </div>
             </div>

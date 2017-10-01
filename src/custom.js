@@ -6,94 +6,108 @@ $(document).ready(function() {
   // Header Scroll State
 
   $(document).scroll(function() {
-
     var $headerContainer = $('.primary-nav-holder');
-
     var $headerNav = $('.primary-nav-holder .page-navigation');
-
     var $headerPanel = $('.primary-nav-holder .ww-underlay');
-
     var scroll = $(document).scrollTop();
 
     if (scroll > 40) {
-
       $headerContainer.addClass("scrolled");
 
     } else {
-
       $headerContainer.removeClass("scrolled");
       $headerContainer.removeClass("headerScrolledUp");
-
     }
 
+  });
+
+  function navigatePrevious(event) {
+    if (event.handled !== true) // This will prevent event triggering more then once
+    {
+      var nextpage = $('[data-role="next-page"]');
+      // swipe using id of next page if exists
+      if (nextpage.length > 0) {
+        window.location.href = nextpage.attr('href');
+      }
+      event.handled = true;
+    }
+    return false;
+  }
+
+  function navigateNext(event) {
+    if (event.handled !== true) // This will prevent event triggering more then once
+    {
+      var prevpage = $('[data-role="previous-page"]');
+      // swipe using id of next page if exists
+      if (prevpage.length > 0) {
+        window.location.href = prevpage.attr('href');
+      }
+      event.handled = true;
+    }
+    return false;
+  }
+
+  $('.ww-portfolio').swipe({
+    swipeLeft: function(event, direction, distance, duration, fingerCount) {
+      navigatePrevious(event);
+    },
+    swipeRight: function(event, direction, distance, duration, fingerCount) {
+      navigateNext(event);
+    }
+  });
+
+  $('.ww-portfolio').keyup(function(event) {
+    if (event.keyCode == 39) {
+      navigateNext(event);
+    }
+    if (event.keyCode == 37) {
+      navigatePrevious(event);
+    }
   });
 
   // Work items for Mobile
 
   $(".work-item-overlay").click(function() {
-
     if ($(window).width() < 768) {
-
       $('.work-item-container').removeClass('active');
       $(this).parent().addClass('active');
-
     } else {
-
       $('.work-item-container').removeClass('active');
-
     }
   });
 
   // Profile overlays for Mobile
 
   $(".about-team-person-overlay").click(function() {
-
     if ($(window).width() < 768) {
-
       $('.about-team-person-overlay').removeClass('active');
       $(this).addClass('active');
-
     } else {
-
       $('.about-team-person-overlay').removeClass('active');
-
     }
   });
 
   // Footer Forms
 
   $(".form-dropdown").click(function() {
-
     var $form = $(this).siblings('.ww-form');
-
     var $otherForms = $(this).parent().siblings();
-
     var $bigButton = $('.page-footer-button');
-
     var formMessages = $('#form-messages');
 
     $bigButton.fadeOut();
-
     $otherForms.slideUp();
-
     $(formMessages).text('');
-
     $form.fadeIn();
-
   });
 
   $(".form-close").click(function() {
-
     var $form = $('.ww-form');
-
     var $otherForms = $('.form-dropdown').parent();
-
     var $bigButton = $('.page-footer-button');
 
     $bigButton.fadeIn();
-
     $otherForms.show();
-
     $form.fadeOut();
 
   });
@@ -131,7 +145,6 @@ $(document).ready(function() {
       adobeCarousel3.carousel();
     }, 2000);
   }
-
 
   // Home Page Carousels
 
@@ -276,13 +289,10 @@ $(document).ready(function() {
 
   function hideForm(form) {
     var $otherForms = $('.form-dropdown').parent();
-
     var $bigButton = $('.page-footer-button');
 
     $bigButton.fadeOut();
-
     $otherForms.show();
-
     form.hide();
   }
 

@@ -93,7 +93,7 @@
           $pageCss = '<link rel="stylesheet" href="/css/home.css">';
           $activePagePhp = 'includes/pages/home.php';
         } else { // If activePage isn't empty, but doesn't match anything else then it's 404
-          header('Location: /?page=/404');
+          header('Location: /404');
           exit;
         }
         break;
@@ -146,6 +146,7 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
       <script src="/js/carousel-swipe.js"></script>
       <script src="/js/jquery.waypoints.min.js"></script>
+      <script src="/js/jquery.touchSwipe.min.js"></script>
       <!-- <script>
         if ('registerElement' in document
           && 'createShadowRoot' in HTMLElement.prototype

@@ -46,7 +46,7 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/adobe" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/adobe" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
@@ -65,7 +65,7 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/eagle" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/eagle" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
@@ -84,7 +84,7 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/philips" class="ww-btn btn btn-outline-primary ">View Project</a>
+                    <a href="/work/philips" class="ww-btn btn btn-outline-primary ">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
@@ -120,7 +120,7 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/minim" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/minim" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
@@ -139,7 +139,7 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/wagz" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/wagz" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
@@ -158,7 +158,7 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/billnye" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/billnye" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
@@ -194,7 +194,7 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/scribe" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/scribe" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
@@ -213,7 +213,7 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/amadeus" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/amadeus" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
@@ -232,7 +232,7 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/songbird" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/songbird" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
