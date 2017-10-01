@@ -58,10 +58,10 @@ $(document).ready(function() {
 
   $('.ww-portfolio').keyup(function(event) {
     if (event.keyCode == 39) {
-      navigateNext(event);
+      navigatePrevious(event);
     }
     if (event.keyCode == 37) {
-      navigatePrevious(event);
+      navigateNext(event);
     }
   });
 
