@@ -291,10 +291,10 @@
 
 #home-carousel-testimonial,
 .home-carousel-testimonial-item {
-    height: 700px;
+    height: 850px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 375px) {
     #home-carousel-testimonial,
     .home-carousel-testimonial-item {
         height: 800px;
@@ -304,14 +304,14 @@
 @media (min-width: 768px) {
     #home-carousel-testimonial,
     .home-carousel-testimonial-item {
-        height: 750px;
+        height: 800px;
     }
 }
 
 @media (min-width: 992px) {
     #home-carousel-testimonial,
     .home-carousel-testimonial-item {
-        height: 800px;
+        height: 850px;
     }
 }
 

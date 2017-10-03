@@ -92,9 +92,8 @@
   <div class="row">
     <div class="ww-content">
       <p>“Proximity Lab was an excellent UX/UI product strategy and design partner. They helped us accelerate our understanding of user journeys and user profiles, and ultimately created stunning visual designs that enabled us to demonstrate the power of our product to current and new customers.”</p>
-      <img class="home-carousel-testimonial-author d-sm-inline-block" src="/images/profile_ureta_vidal.png" alt="Testimonial author">
-      <p class="home-carousel-testimonial-author-title">
-          <b>Abel Ureta-Vidal</b>, CEO Eagle Genomics</p>
+      <img class="home-carousel-testimonial-author" src="/images/profile_ureta_vidal.png" alt="Testimonial author">
+      <p class="home-carousel-testimonial-author-title"><b>Abel Ureta-Vidal</b>, CEO Eagle Genomics</p>
     </div>
   </div>
 </div>

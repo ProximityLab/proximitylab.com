@@ -559,6 +559,14 @@ a[name=start] {
     background-color: #1d2028;
     padding: 50px 3rem;
     position: relative;
+    /* Allows content to fill the viewport and go beyond the bottom */
+    height: 100%;
+
+    /* Allows you to scroll below the viewport; default value is visible */
+    overflow-y: scroll;
+
+    /* To smooth any scrolling behavior */
+    -webkit-overflow-scrolling: touch;
 }
 
 @media (min-width:992px) {

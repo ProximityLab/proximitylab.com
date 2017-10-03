@@ -573,13 +573,14 @@ text-align: center;
 }
 
 .portfolio-testimonial img {
-margin: 3rem auto 2rem;
-display: block;
-width: 70px;
-height: 70px;
+  margin: 3rem auto 2rem;
+  display: block;
+  width: 70px;
+  height: 70px;
 }
 
 @media (min-width: 576px) {
   .portfolio-testimonial img {
-  margin: 8rem auto 0;
+    margin: 8rem auto 0;
+  }
 }

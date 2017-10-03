@@ -148,6 +148,8 @@ $(document).ready(function() {
 
   // Home Page Carousels
 
+  $('#home-carousel-testimonial').carousel();
+
   $('.ww-panels .carousel').mouseenter(function() {
     $(this).find('.carousel-indicators').css('display', 'flex');
     $(this).find('.carousel-indicators').fadeIn();

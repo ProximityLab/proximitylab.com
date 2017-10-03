@@ -242,7 +242,6 @@
 .portfolio-testimonial {
   background: none;
   background-color: #896BC2;
-  min-height: 620px;
   color: #fff;
   line-height: 4rem;
   font-size: 2.4rem;
@@ -257,20 +256,57 @@
     }
 }
 
-.portfolio-testimonial p {
-text-align: center;
-/*margin-left: 0%;*/
-  margin: 0 auto;
-  max-width: 75%;
-}
-
 .portfolio-testimonial img {
-margin: 2rem 0 0 0;
+margin: 3rem auto 2rem;
+display: block;
+width: 70px;
+height: 70px;
 }
 
-.portfolio-testimonial p.home-carousel-testimonial-author-title {
-  font-size: 1.6rem;
-  margin-top: 1rem;
+@media (min-width: 576px) {
+  .portfolio-testimonial img {
+    margin: 8rem auto 0;
+  }
+}
+
+.portfolio-testimonial p {
+  text-align: center;
+  /*margin-left: 0%;*/
+    margin: 0 auto;
+    max-width: 95%;
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+
+.portfolio-testimonial .home-carousel-testimonial-author-title {
+    font-size: 2rem;
+    margin-top: 2rem;
+    line-height: normal;
+}
+
+
+@media (min-width: 576px) {
+  .portfolio-testimonial p {
+    max-width: 95%;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .portfolio-testimonial p {
+    max-width: 85%;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-testimonial p {
+    max-width: 86%;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
 }
 
 .eagle-portfolio-services {
