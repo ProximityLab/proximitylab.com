@@ -250,17 +250,16 @@
 
 @media (min-width: 768px) {
     .portfolio-testimonial {
-        padding: 10rem 6rem;
+        padding: 8rem 6rem;
         width: 100%;
-        min-height: 420px;
     }
 }
 
 .portfolio-testimonial img {
-margin: 3rem auto 2rem;
-display: block;
-width: 70px;
-height: 70px;
+  margin: 3rem auto 2rem;
+  display: block;
+  width: 70px;
+  height: 70px;
 }
 
 @media (min-width: 576px) {

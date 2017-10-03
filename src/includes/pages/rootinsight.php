@@ -79,8 +79,8 @@
                 <div class="project-service">
                   <img src="/images/rootinsight-portfolio-2-2x.png" alt="Visual Experience">
                   <div class="project-service-body">
-                    <h4 class="portfolio-service-heading">Reduction in time to discovery</h4>
-                    <p class="portfolio-service-text">Visual explorations of the connections between conditions, treatments, and other attributes dramatically reduces the time typically required for discovery and hitting product development milestones.</p>
+                    <h4 class="portfolio-service-heading">Interactive guidance</h4>
+                    <p class="portfolio-service-text">As a result of the variations in how metrics were being calculated, the Root Insight system featured an intuitive system for users of the system to better understand metrics and to provide them with guidance on how to align their systems to streamline reporting.</p>
                   </div>
                 </div>
               </div>
@@ -88,8 +88,8 @@
                 <div class="project-service">
                   <img src="/images/rootinsight-portfolio-3-2x.png" alt="Visual Experience">
                   <div class="project-service-body">
-                    <h4 class="portfolio-service-heading">Increase in research productivity</h4>
-                    <p class="portfolio-service-text">An estimated annual efficiency improvement of 30% or more for data scientist’s productivity. This level of improvement will effectively double a scientist’s available time over a maximum period of 3 years.</p>
+                    <h4 class="portfolio-service-heading">Power to compare</h4>
+                    <p class="portfolio-service-text">As a result of the variations in how metrics were being calculated, the Root Insight system featured an intuitive system for users of the system to better understand metrics and to provide them with guidance on how to align their systems to streamline reporting.</p>
                   </div>
                 </div>
               </div>

@@ -5,10 +5,16 @@ $(document).ready(function() {
   // Function to change elements on document scroll
   // Header Scroll State
 
+  var $headerContainer = $('.primary-nav-holder');
+  var $headerNav = $('.primary-nav-holder .page-navigation');
+  var $headerPanel = $('.primary-nav-holder .ww-underlay');
+  var initialScroll = $(document).scrollTop();
+
+  if (initialScroll > 40) {
+    $headerContainer.addClass("scrolled");
+  }
+
   $(document).scroll(function() {
-    var $headerContainer = $('.primary-nav-holder');
-    var $headerNav = $('.primary-nav-holder .page-navigation');
-    var $headerPanel = $('.primary-nav-holder .ww-underlay');
     var scroll = $(document).scrollTop();
 
     if (scroll > 40) {
@@ -69,19 +75,31 @@ $(document).ready(function() {
 
   $(".work-item-overlay").click(function() {
     if ($(window).width() < 768) {
-      $('.work-item-container').removeClass('active');
-      $(this).parent().addClass('active');
+      if ($(this).parent().hasClass('active')) {
+        $('.work-item-container').removeClass('active');
+      } else {
+        $('.work-item-container').removeClass('active');
+        $(this).parent().addClass('active');
+      }
     } else {
       $('.work-item-container').removeClass('active');
     }
+  });
+
+  $(".work-item-overlay a").click(function(event) {
+    event.stopPropagation();
   });
 
   // Profile overlays for Mobile
 
   $(".about-team-person-overlay").click(function() {
     if ($(window).width() < 768) {
-      $('.about-team-person-overlay').removeClass('active');
-      $(this).addClass('active');
+      if ($(this).hasClass('active')) {
+        $('.about-team-person-overlay').removeClass('active');
+      } else {
+        $('.about-team-person-overlay').removeClass('active');
+        $(this).addClass('active');
+      }
     } else {
       $('.about-team-person-overlay').removeClass('active');
     }

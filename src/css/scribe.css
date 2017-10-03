@@ -307,51 +307,29 @@ h2 {
   }
 }
 
-#design-excellence .half-image {
-  background: url('/images/portfolio-scribe-design-excellence-2x.png') no-repeat;
-  background-position: center top;
-  background-size: contain;
-    margin-bottom: 0;
-    /*min-height: 503px;*/
-    background-size: 90%;
+#design-excellence .flex-image {
+    margin: 0;
+    padding: 0 3rem;
 }
 
 @media (min-width: 576px) {
-  #design-excellence .half-image {
-    background-size: 80%;
-    background-position: center top;
-    min-height: 450px;
+  #design-excellence .flex-image {
+    padding: 0 6rem;
   }
 }
 
 @media (min-width: 768px) {
-  #design-excellence .half-image {
-    background-position: 0 3rem;
-    background-size: contain;
-    /*min-height: 400px;*/
+  #design-excellence .flex-image {
+    margin: 4rem 0 0;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
 @media (min-width: 992px) {
-  #design-excellence .half-image {
-    background-size: 90%;
-    background-position: left 6rem;
-    min-height: 503px;
-  }
-}
-@media (min-width: 1200px) {
-  #design-excellence .half-image {
-    min-height: 600px;
-    background-position: left 6rem;
-    margin: 0 0 6rem 0;
-  }
-}
-
-@media (min-width: 1440px) {
-  #design-excellence .half-image {
-    min-height: 560px;
-    background-position: 0 100%;
-    margin: 4rem 0;
+  #design-excellence .flex-image {
+    margin: 6rem 0 0;
+    padding-right: 6rem;
   }
 }
 
@@ -365,9 +343,19 @@ h2 {
   }
 }
 
+@media (min-width: 768px) {
+  #design-excellence .text-container p   {
+    margin-bottom: 0;
+  }
+}
+
 @media (min-width: 992px) {
   #design-excellence .text-container   {
     padding: 6rem 10rem 0 6rem;
+  }
+
+  #design-excellence .text-container p   {
+    margin-bottom: 0;
   }
 }
 /*
@@ -491,6 +479,11 @@ h2 {
   padding: 6rem -15px;
 }
 
+@media (min-width: 768px) {
+  .project-services {
+    margin-bottom: 3rem;
+  }
+}
 
 .project-service {
   margin:4rem 0;
@@ -516,19 +509,17 @@ h2 {
 
 @media (min-width: 576px) {
     .portfolio-testimonial {
-        padding: 6rem;
-        /*width: 100%;
-        min-height: 724px;*/
-        align-items: center;
-        min-height: 620px;
+      padding: 6rem;
+      /*width: 100%;
+      min-height: 724px;*/
+      align-items: center;
     }
 }
 
 @media (min-width: 768px) {
     .portfolio-testimonial {
-        padding: 10rem 6rem;
+        padding: 8rem 6rem;
         width: 100%;
-        min-height: 724px;
     }
 }
 
