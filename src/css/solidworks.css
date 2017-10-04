@@ -209,7 +209,6 @@
 @media (min-width: 1200px) {
   .project-description ul li {
     line-height: normal;
-    margin-bottom: 6rem;
   }
 }
 
@@ -218,6 +217,7 @@
     font-size: 1.8rem;
     font-weight: 200;
     font-weight: bolder;
+    display: inline;
 }
 
 .portfolio-service {

@@ -38,22 +38,22 @@
 <div class="container-fluid project-description">
   <div class="row">
     <div class="col-12 col-md-12 col-lg-6">
-      <p>As a global leader in computer-aided design (CAD) technologies, SolidWorks built an extremely large network of users around the world. To support and accelerate their work, SolidWorks partnered with Proximity Lab to design a community portal. What started as a simple project to share basic resources turned into a comprehensive experience for SolidWorks users to:</p>
+      <p>As a global leader in computer-aided design (CAD) technologies, SolidWorks has developed a large network of dedicated users around the world. To support and accelerate their work, SolidWorks partnered with Proximity Lab to develop concepts for a community portal. What started as a simple project to share basic resources turned into a comprehensive experience for SolidWorks users to:</p>
       <ul>
         <li>
           <h4>Learn</h4>
-          All the relevant industry, company, and product news you need
+          – relevant industry, company and product news
         </li>
         <li>
           <h4>Connect</h4>
-          Access to global, regional, and virtual events for CAD practitioners
+          – access to global, regional and virtual events for CAD designers and practitioners
         </li>
         <li>
           <h4>Collaborate</h4>
-          A platform to share ideas with peers and get help from experts
+          – a platform to share ideas with peers and get help from experts
         </li>
       </ul>
-      <p>The platform was designed as a responsive desktop experience. After the browser-based version was successfully launched, our team completely redesigned dedicated experiences for mobile devices.</p>
+      <p>The platform was initially designed as a responsive desktop experience. Following the design of the browser-based version, our team designed native mobile for touch devices.</p>
     </div>
     <div class="background-image col-12 col-lg-6">
       <img src="/images/portfolio-description-solidworks-bgd.png"  class="img-fluid" alt="Visual Experience">

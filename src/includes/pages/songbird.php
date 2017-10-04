@@ -15,7 +15,7 @@
     <div class="col-12">
       <h2 class="heading-secondary text-center"><a name="start">APPLICATION REBOOTS</a></h2>
 
-      <h1 class="heading-primary text-center">Redefining Consumer’s Expectations of Modern Music Consumption</h1>
+      <h1 class="heading-primary text-center">Redefining Expectations of Modern Music Consumption</h1>
 
       <p class="header-text text-center">Building an immersive and integrated music appreciation platform</p>
     </div>
@@ -27,7 +27,7 @@
         <div class="row">
             <div class="col-12 col-md-5">
                 <div class="portfolio-text">
-                    <p class="portfolio-paragraph">Songbird set out to help music aficionados have a more immersive cross-platform music experience. As technology innovators and music lovers themselves, the team at Songbird saw the limitations of mobile music consumption platforms and wanted to offer a more fulfilling experience. To help them on this effort they partnered with our team.</p>
+                    <p class="portfolio-paragraph">Songbird set out to help music aficionados have a more immersive cross-platform music experience. As technology innovators and music lovers themselves, the team at Songbird saw the limitations of mobile music consumption platforms and wanted to offer a more fulfilling experience. They partnered with Proximity Lab to help conduct research, develop concepts and workflows and to design new product experiences that would make up this product relaunch.</p>
                 </div>
             </div>
             <div class="col-12 col-md-7">
@@ -68,21 +68,21 @@
             <div class="project-service">
                 <img class="portfolio-service-icon" src="/images/icon-custom-research.svg" alt="Visual Experience">
                 <h4 class="portfolio-service-heading">Custom Research</h4>
-                <p class="portfolio-service-text">Before identifying the features that would differentiate Songbird from the competition and compel new users to try the platform, the Proximity Lab team competed a in-depth analysis of competitive products and surveyed prospective consumers on their tastes, habits, and desires.</p>
+                <p class="portfolio-service-text">Before identifying the features that would differentiate Songbird from the competition and compel new users to try the platform, the Proximity Lab team analyzed competitive products and surveyed prospective consumers on their tastes, habits and desires.</p>
             </div>
         </div>
         <div class="col-12 col-lg-4 text-center">
             <div class="project-service">
                 <img class="portfolio-service-icon pt-3" src="/images/icon-optimized-design.svg" alt="Team Collaboration">
                 <h4 class="portfolio-service-heading">Mobile-first Product Design</h4>
-                <p class="portfolio-service-text">In a target market demographic heavy with mobile users, we prioritized the redevelopment of the Songbird mobile platforms for iOS and Android. Our design imperative was to give users intuitive controls for music but to also enrich their experience with music discovery features.</p>
+                <p class="portfolio-service-text">In a target market demographic heavy with mobile users, we prioritized the redevelopment of the Songbird mobile platforms for iOS and Android. Our design imperative was to go beyond music management and playback and to explore enriched social and artist discovery experiences.</p>
             </div>
         </div>
         <div class="col-12 col-lg-4 text-center">
             <div class="project-service">
                 <img class="portfolio-service-icon pt-3" src="/images/icon-simple-full.svg" alt="Unified Experience">
                 <h4 class="portfolio-service-heading">Social Media Integration</h4>
-                <p class="portfolio-service-text">To help support the goals of customer growth, our team designed and customized specific content modules for each of the core social platforms -- helping Songbird test and improve its social marketing strategies.</p>
+                <p class="portfolio-service-text">Our team developed concepts for social media integration including competitive poll-based content to help Songbird pursue new customer acquisition strategies by leveraging the reach of existing customers and their passion for specific artists and genres.</p>
             </div>
         </div>
     </div>

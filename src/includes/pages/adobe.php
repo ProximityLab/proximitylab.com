@@ -28,7 +28,8 @@
   <div class="container-fluid project-description project-description-0">
     <div class="row m-0">
       <div class="col-12 col-lg-6 description-text-col">
-        <p>Most designers and developers know Adobe for its flagship applications, Photoshop and Illustrator. But beyond those, there are dozens of other powerful creativity software products designed to empower digital designers and simplify the way they work. Over the past ten years, Proximity Lab has worked with Adobe on dozens of high-visibility projects and has become part itself as a trusted partner as Adobe has aggressively shaped the landscape of rich Internet application software development.</p>
+        <p>Most people equate Adobe to their flagship applications like Photoshop, Illustrator and Acrobat. But the reality is that Adobe produces a wide range of consumer and enterprise tools designed to empower creative businesses.</p>
+        <p>Over the past ten years, Proximity Lab has worked with Adobe on more than 40 critical projects spanning strategic vision work and UX and visual design work for Adobe’s core desktop, mobile and web-based products. Over the course of this collaboration, Proximity lab has become a trusted partner as Adobe has shaped the landscape of content creation, collaboration and the design and development of online digital experiences.</p>
         <div class="adobe-carousel container-fluid">
           <div class="row">
             <div class="col-4">
@@ -105,7 +106,7 @@
             </div>
           </div>
         </div>
-        <p>Initially our work was focused on helping Adobe showcase apps that were designed and created using their technologies. Since then, our team has helped with:</p>
+        <p>Our work was initially focused on designing and developing showcase apps for Adobe to demonstrate the kinds of experiences and features enabled by their tools and technologies. As our teams continued working together, Proximity Lab was given more responsibility to help shape the customer experiences and interfaces for dozens of Adobe products.</p>
       </div>
 
       <div class="col-lg-6 d-none d-lg-block p-0">
@@ -121,21 +122,21 @@
               <div class="portfolio-service">
                   <img class="portfolio-service-icon" src="/images/icon-analysis-research.svg" alt="Analysis and research">
                   <h4 class="portfolio-service-heading">Analysis and research</h4>
-                  <p class="portfolio-service-text">Our team analyzed user behaviors and experiences to better understand Adobe’s products and how are they are being used. We evaluated the consistency of specific functions and features across the product catalog as well as many internal tools. </p>
+                  <p class="portfolio-service-text">Our team informed Adobe’s strategic planning and product roadmap, analyzing user behaviors and experiences to better understand Adobe’s customers, their needs and how the products can better serve those needs. We have evaluated features and workflows across Adobe’s product suite and internal enterprise tools.</p>
               </div>
           </div>
           <div class="col-12 col-sm-4 text-center">
               <div class="portfolio-service">
                   <img class="portfolio-service-icon" src="/images/icon-ux-ui-development.svg" alt="UX and UI development">
                   <h4 class="portfolio-service-heading">UX and UI development</h4>
-                  <p class="portfolio-service-text">Next, we helped create the UX/UI within certain releases. This included developing 3D capabilities in Photoshop and factoring product experiences to mobile and other touch devices.</p>
+                  <p class="portfolio-service-text">We have designed the experiences for key features and workflows for a number of desktop and touch-based consumer and enterprise products including Photoshop, Acrobat, After Effects, Lightroom Mobile, Bridge, Creative Cloud, Document Cloud and OneConsole for enterprise customers.</p>
               </div>
           </div>
           <div class="col-12 col-sm-4 text-center">
               <div class="portfolio-service">
                   <img class="portfolio-service-icon" src="/images/icon-features-roadmaps.svg" alt="Product features and roadmaps">
-                  <h4 class="portfolio-service-heading">Product features and roadmaps</h4>
-                  <p class="portfolio-service-text">As our teams made improvements across individual products, we helped identify areas to build new features and increase use by a broader set of users.</p>
+                  <h4 class="portfolio-service-heading">Features, workflows and roadmaps</h4>
+                  <p class="portfolio-service-text">Because our teams have been involved in the design of product features spanning multiple product domains at Adobe, we’ve found ourselves in the unique position of helping Adobe bring greater consistency to common patterns and workflows, also identifying and leveraging features across projects.</p>
               </div>
           </div>
       </div>
@@ -153,7 +154,7 @@
     <div class="row m-0">
       <div class="col-12 description-text-col">
         <h1 class="heading-primary text-center">Envisioning the future</h1>
-        <p class="text-center">At the strategic level, we have helped the team look more broadly at how Adobe’s products are addressing the changing needs of creative professionals. We also helped create long-term customer journeys and roadmaps designed to help identify the changing needs of creative experts over time - ensuring that they maintain strong ties to Adobe while maintaining their portfolios.</p>
+        <p class="text-center">We have helped the Adobe team look more broadly at how Adobe’s products are addressing the changing needs of creative professionals. We have also helped create long-term customer journeys and roadmaps to identify and anticipate the changing needs of creative experts over time, ensuring that customers maintain strong ties to Adobe as their needs and professional demands change.</p>
       </div>
     </div>
   </div>
@@ -165,7 +166,7 @@
           <img src="/images/portfolio-description-adobe-bgd-3-2x.jpg" class="img-fluid" alt="Visual Experience">
           <div class="project-service-body">
             <h4 class="portfolio-service-heading">Visualizing multi-device experiences and workflows</h4>
-            <p class="portfolio-service-text">With the dramatic increase in the variety and volume of touch-based devices, our goal was to help think through how customers would make the move from desktops to touch-based devices and ensure common experiences.</p>
+            <p class="portfolio-service-text">With the dramatic increase in the variety and volume of touch-based devices, we helped Adobe consider how customers’ needs span desktops and touch-based devices to create fully integrated end-to-end experiences.</p>
           </div>
         </div>
       </div>
