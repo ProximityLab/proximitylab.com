@@ -213,7 +213,13 @@
   color: #7C7C7C;
   line-height: 36px;
   max-width: 644px;
-  margin-bottom: 90px;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 576px) {
+  .about-clients-text {
+    margin-bottom: 90px;
+  }
 }
 
 .about-clients-logo-container {

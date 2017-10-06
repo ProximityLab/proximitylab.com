@@ -383,6 +383,12 @@
     font-weight: 700;
 }
 
+@media (max-width: 575px) {
+  .adobe-portfolio .adobe-portfolio-services .portfolio-service-heading {
+    padding-bottom: 0;
+  }
+}
+
 .adobe-portfolio .adobe-portfolio-services .portfolio-service-text {
     max-width: 100%;
     margin: 0 auto;
