@@ -144,12 +144,6 @@
   }
 }
 
-@media (min-width: 992px) {
-    .portfolio-paragraph {
-      margin-top: 6rem
-    }
-}
-
 .project-description {
   padding: 0 3rem;
   margin-top: 0;
@@ -157,21 +151,37 @@
   overflow: hidden;
 }
 
+.project-description-0 {
+  padding-bottom: 1.5rem
+}
+
+.project-description-1 {
+  padding: 3rem 0 0;
+}
+
 .project-description h1.heading-primary {
-  margin-top: 6rem;
+  margin-top: 3rem;
   margin-bottom: 2.8rem;
 }
 
 @media (min-width: 576px) {
     .project-description {
-      padding: 0 6rem;
+      padding: 0 6rem 3rem;
     }
+
+  .project-description-1 {
+    padding: 3rem 0;
+  }
 }
 
 @media (min-width: 768px) {
   .project-description {
-    padding: 0 6rem;
+    padding: 0 6rem 6rem;
     margin-top: 0;
+  }
+  .project-description-1 {
+    padding-bottom: 0;
+    padding: 0;
   }
   .project-description h1.heading-primary {
     margin-top: 3rem;
@@ -181,7 +191,7 @@
 
 @media (min-width: 992px) {
   .project-description {
-    padding: 0 10rem;
+    padding: 0 10rem 6rem;
   }
 
   .project-description-0 {
@@ -189,25 +199,62 @@
   }
 }
 
-.project-description ul {
+.project-description-0 ul {
+  list-style: none;
+  margin-top: 3rem;
+}
+
+.project-description-0 ul li {
+    max-width: 100%;
+    min-height: 6rem;
+}
+
+.project-description-0 ul li:first-child {
+    padding-bottom: 2rem;
+}
+
+
+.project-description-0 ul li::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 24px;
+  height: 31px;
+  left: 17px;
+  background-image: url('/images/icon-pdf.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.project-description-0 ul li a {
+  line-height: 2rem;
+}
+
+.project-description-2 ul {
   border-left: 4px solid #D31C7B;
-  margin: 6rem 0 6rem 2rem;
+  margin: 3rem 0 6rem 2rem;
   list-style: none;
 }
 
+@media (min-width: 768px) {
+  .project-description-2 ul {
+    margin: 3rem 0 6rem 2rem;
+  }
+}
+
 @media (min-width: 992px) {
-  .project-description ul {
-    margin: 4rem 0 4rem 2rem;
+  .project-description-2 ul {
+    margin: 10rem 0 4rem 2rem;
   }
 }
 
 @media (min-width: 1200px) {
-  .project-description ul {
-    margin: 6rem 0 6rem 2rem;
+  .project-description-2 ul {
+    margin: 10rem 0 6rem 2rem;
   }
 }
 
-.project-description ul li {
+.project-description-2 ul li {
     max-width: 100%;
     margin: 0 auto 2rem;
     padding: 0.5rem 3rem 0 0;
@@ -217,17 +264,17 @@
     font-weight: 200;
 }
 
-.project-description ul li:last-child {
+.project-description-2 ul li:last-child {
     padding-bottom: 0;
 }
 
 @media (min-width: 1200px) {
-  .project-description ul li {
+  .project-description-2 ul li {
     line-height: normal;
   }
 }
 
-.project-description ul li h4 {
+.project-description-2 ul li h4 {
     color: #1e2128;
     font-size: 1.8rem;
     font-weight: 200;
@@ -356,4 +403,41 @@
 
 #massart-carousel-hero .carousel-inner .carousel-item .img-fluid {
   
+}
+
+.description-copy {
+  padding: 0 3rem;
+}
+
+@media (min-width: 576px) {
+  .description-copy {
+    padding: 0 6rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .description-copy {
+    padding: 0 6rem 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .description-copy {
+    padding: 0 0 3rem;
+  }
+}
+
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 51%;
+}
+
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
 }

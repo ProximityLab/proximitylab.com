@@ -37,10 +37,10 @@
     <div class="col-12 col-lg-6">
       <p>Proximity Lab is a participatory installation and experimental interface platform designed to visualize relationships between users and mediated spaces. Built on the premise that physical proximity is a basic unit of social communication, this study examines the role that unconscious and dynamically created personal space plays in social interaction. The experiment also studies user engagement and response where interface conventions and rules are not explicitly disclosed.</p>
       <p>Built on the premise that physical proximity is a basic unit of social communication, this study examines the role that unconscious and dynamically created personal space plays in social interaction. The experiment also studies user engagement and response where interface conventions and rules are not explicitly disclosed.</p>
-      <p>
-        <a href="#">Proximity and Experience: New Rules for User Interface</a><br>
-        <a href="#">Exhibit images and visual studies</a> 
-      </p>
+      <ul>
+        <li><a href="#">Proximity and Experience: New Rules for User Interface</a></li>
+        <li><a href="#">Exhibit images and visual studies</a></li>
+      </ul>
     </div>
     <div class="col-lg-1 d-none d-lg-block"></div>
     <div class="col-12 col-lg-5 d-none d-lg-block">
@@ -50,20 +50,29 @@
 </div>
 
 <div class="container-fluid project-description project-description-1">
-  <div class="row">
-    <div class="col-12">
-      <h1 class="heading-primary">A unique platform for experimentation</h1>
-      <p>RFID tagged slippers which, combined with RFID sensors in the platform surface, allows the changing positions and movements of individual users to be tracked in real time. Images projected directly onto the floor are accompanied by stereo sound as a continuous response to the actions and interactions of participants.</p>
+  <div class="row justify-content-center m-0">
+    <div class="col-12 col-lg-8 order-12 order-lg-1 description-copy">
+      <h1 class="heading-primary text-sm-center">A unique platform for experimentation</h1>
+      <p class="text-sm-center">RFID tagged slippers which, combined with RFID sensors in the platform surface, allows the changing positions and movements of individual users to be tracked in real time. Images projected directly onto the floor are accompanied by stereo sound as a continuous response to the actions and interactions of participants.</p>
+    </div>
+
+    <div class="col-12 col-lg-8 order-1 order-lg-12 p-0">
+        <div class="aspect-ratio justify-content-center">
+          <iframe src="https://player.vimeo.com/video/6549332" width="640" height="352" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
     </div>
   </div>
 </div>
 
 <div class="container-fluid project-description project-description-2">
   <div class="row">
-    <div class="col-12">
+    <div class="col-12 col-lg-6">
       <h1 class="heading-primary">Areas of investigation</h1>
       <p>The study explores the relationships between disclosure and participation through interfaces that promote self-directed exploration. Do increased levels of participation and collaboration occur when users are allowed to innovate and create new relationships with the system? Can interactive systems leave room for users to interpret and adopt new uses not envisioned by the designer?</p>
       <p>Such collaborations between system architect and participant are explored as a model for elevating interactive experience design and self-directed exploration. The study explores a number of interaction design issues including:</p>
+     </div>
+     <div class="col-lg-1 d-none d-lg-block"></div>
+     <div class="col-12 col-lg-5">
       <ul>
         <li>
           <h4>natural interface</h4>

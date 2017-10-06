@@ -32,7 +32,13 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  padding-top: 230px;
+  padding-top: 190px;
+}
+
+@media (min-width: 576px) {
+  .about-header {
+    padding-top: 230px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -73,6 +79,7 @@
   line-height: 30px;
   max-width: 494px;
   margin: 35px auto 0;
+  padding: 0 4.1rem;
 }
 
 

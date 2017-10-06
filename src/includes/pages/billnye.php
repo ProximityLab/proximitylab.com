@@ -55,8 +55,8 @@
   <div class="row justify-content-center m-0">
 
     <div class="col-12 col-lg-8 order-12 order-lg-1 description-copy">
-      <h1 class="heading-primary text-center">Sensors, badges and pixels</h1>
-      <p class="text-center">To help kids understand how their daily choices affect and influence climate change, we designed and developed several exhibits including "Bike with Bill" which featured a stationary bike hooked up to sensors that allowed kids to virtually ride through the streets of San Francisco while learning about ways to minimize their carbon footprint. The exhibit gallery features an interactive video wall dynamically populated with the avatars of every active visitor in the museum. Kids simply scan their badge and their avatar appears and lights up.</p>
+      <h1 class="heading-primary text-sm-center">Sensors, badges and pixels</h1>
+      <p class="text-sm-center">To help kids understand how their daily choices affect and influence climate change, we designed and developed several exhibits including "Bike with Bill" which featured a stationary bike hooked up to sensors that allowed kids to virtually ride through the streets of San Francisco while learning about ways to minimize their carbon footprint. The exhibit gallery features an interactive video wall dynamically populated with the avatars of every active visitor in the museum. Kids simply scan their badge and their avatar appears and lights up.</p>
     </div>
 
     <div class="col-12 col-lg-8 order-1 order-lg-12 p-0">
@@ -82,8 +82,8 @@
 
 <div class="container-fluid project-description project-description-4">
   <div class="row justify-content-center">
-    <div class="col-12 col-lg-10 description-copy">
-      <p class="text-center">All of our concepts were tested and validated with kids in the gallery space. We even tested the incentive models - cashing in points for power ups, versus customizing your avatar, unlocking levels. We are proud of this project and how well it was received. The year the exhibit opened it received a "Best of Show" award from MITX for Excellence in Interactive Innovation.</p>
+    <div class="col-12 col-lg-10">
+      <p class="text-sm-center">All of our concepts were tested and validated with kids in the gallery space. We even tested the incentive models - cashing in points for power ups, versus customizing your avatar, unlocking levels. We are proud of this project and how well it was received. The year the exhibit opened it received a "Best of Show" award from MITX for Excellence in Interactive Innovation.</p>
     </div>
   </div>
 </div>

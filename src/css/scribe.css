@@ -101,12 +101,6 @@ h2 {
   margin: 3rem 0 3rem;
 }
 
-/*@media (min-width: 768px) {
-  .portfolio-header {
-    margin: 3rem 0 10rem;
-  }
-}*/
-
 @media (min-width: 992px) {
   .portfolio-header {
     margin: 3rem 0 10rem;

@@ -15,6 +15,12 @@
   margin-bottom: 2rem;
 }
 
+@media (max-width: 575px){
+  .ww-portfolio p.header-text {
+    margin-bottom: 0;
+  }
+}
+
 /*.jumbotron .flex-first img {
     margin: 0 0 -2.1rem 0;
 }*/
@@ -81,6 +87,12 @@
       .scroll-down-arrow {
           left: 50%;
       }
+}
+
+@media (max-width: 575px) {
+  .portfolio-header {
+    margin: 3rem 0 3rem;
+  }
 }
 
 /* portfolio */

@@ -93,6 +93,12 @@
       }
 }
 
+@media (max-width: 575px) {
+  .portfolio-header {
+    margin: 3rem 0 3rem;
+  }
+}
+
 /* portfolio */
 
 .portfolio {
@@ -258,6 +264,10 @@
   padding: 3rem 3rem;
 }
 
+.ww-portfolio .project-service {
+  padding: 3rem 0 0;
+}
+
 @media (min-width: 576px) {
   .ww-portfolio .project-services {
     padding: 3rem;
@@ -267,6 +277,9 @@
 @media (min-width: 768px) {
   .ww-portfolio .project-services {
     padding: 3rem 6rem;
+  }
+  .ww-portfolio .project-service {
+    padding: 0;
   }
 }
 
@@ -302,7 +315,7 @@
 }
 
 .songbird-portfolio .project-service {
-  margin: 3rem 0 0;
+  margin: 0;
   height: 100%;
   text-align: center;
 }
@@ -310,6 +323,7 @@
 @media (min-width: 576px) {
   .songbird-portfolio .project-service {
     text-align: inherit;
+    margin: 3rem 0 0;
   }
 }
 

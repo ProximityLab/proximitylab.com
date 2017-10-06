@@ -153,8 +153,8 @@
   <div class="container-fluid project-description project-description-2">
     <div class="row m-0">
       <div class="col-12 description-text-col">
-        <h1 class="heading-primary text-center">Envisioning the future</h1>
-        <p class="text-center">We have helped the Adobe team look more broadly at how Adobe’s products are addressing the changing needs of creative professionals. We have also helped create long-term customer journeys and roadmaps to identify and anticipate the changing needs of creative experts over time, ensuring that customers maintain strong ties to Adobe as their needs and professional demands change.</p>
+        <h1 class="heading-primary text-sm-center">Envisioning the future</h1>
+        <p class="text-sm-center">We have helped the Adobe team look more broadly at how Adobe’s products are addressing the changing needs of creative professionals. We have also helped create long-term customer journeys and roadmaps to identify and anticipate the changing needs of creative experts over time, ensuring that customers maintain strong ties to Adobe as their needs and professional demands change.</p>
       </div>
     </div>
   </div>

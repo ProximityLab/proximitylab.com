@@ -34,19 +34,19 @@
               <div class="songbird-portfolio-services container-fluid">
                 <div class="row">
                   <div class="col-md-1 d-none d-md-block"></div>
-                  <div class="col-12 col-sm-3">
+                  <div class="col-6 col-sm-3">
                     <div class="project-service">
                       <img src="/images/songbird-portfolio-1-2x.png" alt="Visual Experience">
+                    </div>
+                  </div>
+                  <div class="col-6 col-sm-3 songbird-portfolio-services-col3 order-sm-12">
+                    <div class="project-service songbird-project-service-3">
+                      <img src="/images/songbird-portfolio-3-2x.png" alt="Visual Experience">
                     </div>
                   </div>
                   <div class="col-12 col-sm-6">
                     <div class="project-service">
                       <img src="/images/songbird-portfolio-2-2x.png" alt="Visual Experience">
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-3 songbird-portfolio-services-col3">
-                    <div class="project-service songbird-project-service-3">
-                      <img src="/images/songbird-portfolio-3-2x.png" alt="Visual Experience">
                     </div>
                   </div>
                 </div>

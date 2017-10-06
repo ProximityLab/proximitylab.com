@@ -7,6 +7,13 @@
 .ww-portfolio p {
   margin-bottom: 4rem;
 }
+
+@media (max-width: 575px){
+  .ww-portfolio p.header-text {
+    margin-bottom: 0;
+  }
+}
+
 /* jumbotron */
 
 .ww-portfolio .jumbotron {
@@ -84,6 +91,12 @@
           left: 0;
       }
 }*/
+
+@media (max-width: 575px) {
+  .portfolio-header {
+    margin: 3rem 0 3rem;
+  }
+}
 
 /* portfolio */
 
