@@ -138,7 +138,7 @@
 @media (min-width: 992px) {
   .project-description {
     background: url('../images/portfolio-description-eagle-bgd-2x.jpg') no-repeat;
-    background-position: right 20rem;
+    background-position: right 23rem;
     background-size: contain;
     min-height: 700px;
     overflow: visible;
@@ -149,7 +149,7 @@
 @media (min-width: 1200px) {
   .project-description {
     min-height: 800px;
-    background-position: right 10rem;
+    background-position: right 12rem;
 
   }
 }
@@ -157,7 +157,7 @@
 @media (min-width: 1440px) {
   .project-description {
     min-height: 800px;
-    background-position: right top;
+    background-position: right 3rem;
 
   }
 }
@@ -173,7 +173,7 @@
 
 @media (min-width: 768px) {
   .portfolio-paragraph {
-    padding: 6rem 0 0 0;
+    padding: 3rem 0 0 0;
   }
 }
 
@@ -189,6 +189,8 @@
     font-size: 24px;
     font-weight: 300;
     color: #4A4A4A;
+    max-width: 250px;
+    margin: 0 auto;
     margin-bottom: 16px;
 }
 
@@ -362,10 +364,18 @@
 
 .eagle-portfolio-services .portfolio-service-heading {
     color: #4A4A4A;
-    padding: 0 3rem 1.3rem;
+    padding: 0 0 0.8rem;
     font-size: 1.8rem;
     color: #282828;
     font-weight: 700;
+    margin-bottom: 0.8rem
+}
+
+@media (min-width: 576px){
+  .eagle-portfolio-services .portfolio-service-heading {
+    padding: 0 0 1.3rem;
+    margin-bottom: 2rem
+  }
 }
 
 .eagle-portfolio-services .portfolio-service-text {

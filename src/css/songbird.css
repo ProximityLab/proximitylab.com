@@ -107,9 +107,15 @@
     overflow: hidden;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) {
     .portfolio {
-        margin: 6rem 0;
+        margin: 3rem 0 6rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .portfolio {
+        margin: 0 0 6rem;
     }
 }
 
@@ -120,40 +126,11 @@
     }
 }
 
-/*@media (min-width: 576px) {
-    .portfolio-text {
-        margin-bottom: 8rem;
-        min-height: 636px;
-    }
+@media (min-width: 768px) {
+  .portfolio-paragraph {
+    margin: 3rem 0;
+  }
 }
-
-@media (min-width: 992px) {
-    .portfolio-text {
-        padding: 0 75px;
-    }
-}*/
-
-/*.portfolio-paragraph {
-  margin-top: 6rem;
-}*/
-
-@media (min-width: 992px) {
-    .portfolio-paragraph {
-      margin: 6rem 0;
-    }
-}
-
-/*.portfolio-image {
-    background-repeat: no-repeat;
-    background-image: url('/images/songbird-carousel-placeholder.png');
-}*/
-
-/*@media (min-width: 576px) {
-    .portfolio-image {
-        background-repeat: no-repeat;
-        background-image: url('/images/songbird-carousel-placeholder.png');
-    }
-}*/
 
 .portfolio-service {
     margin: 40px 0;

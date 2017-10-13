@@ -39,25 +39,25 @@
             <div class="project-service">
                 <img class="portfolio-service-icon" src="/images/icon-user-research.svg" alt="Visual Experience">
                 <h4 class="portfolio-service-heading">User research</h4>
-                <p class="portfolio-service-text">Interviews with prospective users helped us identify a broad set of user types who would interact with the Eagle system at various stages of the research process.</p>
+                <p class="portfolio-service-text text-left text-sm-center">Interviews with prospective users helped us identify a broad set of user types who would interact with the Eagle system at various stages of the research process.</p>
             </div>
         </div>
         <div class="col-12 col-sm-4 text-center">
             <div class="project-service">
                 <img class="portfolio-service-icon" src="/images/icon-use-case.svg" alt="Team Collaboration">
                 <h4 class="portfolio-service-heading">Use case modeling</h4>
-                <p class="portfolio-service-text">Journey maps, user flows and data visualization sketching helped us identify points of integration with other tools in the suite and streamline the workflows between them.</p>
+                <p class="portfolio-service-text text-left text-sm-center">Journey maps, user flows and data visualization sketching helped us identify points of integration with other tools in the suite and streamline the workflows between them.</p>
             </div>
         </div>
         <div class="col-12 col-sm-4 text-center">
             <div class="project-service">
                 <img class="portfolio-service-icon" src="/images/icon-simple-full.svg" alt="Unified Experience">
                 <h4 class="portfolio-service-heading">Competitive analysis</h4>
-                <p class="portfolio-service-text">We analyzed existing market solutions designed to aid in the genomic research process to get a clear sense of their strengths and weaknesses. This helped to surface common approaches and workflows.</p>
+                <p class="portfolio-service-text text-left text-sm-center">We analyzed existing market solutions designed to aid in the genomic research process to get a clear sense of their strengths and weaknesses. This helped to surface common approaches and workflows.</p>
             </div>
         </div>
         <div class="col-12">
-          <h2>Results-oriented UX</h2>
+          <h2 class="text-left text-md-center">Results-oriented UX</h2>
           <p>Our teams worked together to process the research, explore feature and workflow ideas and develop a set of UX recommendations. The centerpiece of this work, one that offered the greatest value to target users, involved a concept for conversational UI and an interactive canvas-based visual modeling experience for genomic researchers and scientists to use to identify new drug discovery insights.</p>
           <p>The new platform was purpose-built to improve the efficiency of existing processes and allow teams to collaborate and accelerate and manage their research projects as never before. Some highlights of the work include:</p>
         </div>

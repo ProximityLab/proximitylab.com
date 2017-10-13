@@ -45,7 +45,7 @@
 
 <div class="container-fluid project-description">
   <div class="row">
-    <div class="col-12 col-lg-5">
+    <div class="col-12 col-xl-7 col-lg-5 pr-xl-5">
       <p>The Icovia Space Planner started as a web-based home theater configuration tool for the Bose Corporation. The interactive tool allowed customers to position Bose home theater products on an overhead view of a room and get real-time recommendations for product configuration and setup.</p>
       <p>We developed a furniture-focused version for Jordan’s Furniture next and this became the catalyst for the development of branded SaaS-based product that would become the Icovia Space Planner.</p>
       <div class="ww-paragraph">
@@ -60,7 +60,7 @@
 </div>
 <div id="last-paragraph" class="container-fluid">
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-lg-12 col-xl-10">
       <p>Icovia was acquired in 2008 for its innovative design and lead-generation capabilities and its wide adoption throughout the home furnishing industry. It remains the industry-leading private labeled room planner on the market and is used by hundreds of retailers and manufacturers today.</p>
     </div>
   </div>

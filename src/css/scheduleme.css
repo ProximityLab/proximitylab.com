@@ -8,10 +8,8 @@
   margin-bottom: 4rem;
 }
 
-@media (max-width: 575px){
-  .ww-portfolio p.header-text {
-    margin-bottom: 0;
-  }
+.ww-portfolio .portfolio-header p {
+  margin-bottom: 0;
 }
 
 /* jumbotron */
@@ -128,22 +126,22 @@
 
 @media (min-width: 576px) {
     .project-description {
-      padding: 0 6rem;
+      padding: 3rem 6rem;
       margin-top: 0;
     }
 }
 
 @media (min-width: 992px) {
   .project-description {
-    padding: 6rem 10rem;
+    padding: 3rem 10rem;
     background: url('/images/portfolio-description-scheduleme-bgd.png') no-repeat;
-    background-position: 140% top;
+    background-position: 140% 3rem;
   }
 }
 
 @media (min-width: 1200px) {
   .project-description {
-    background-position: 100% top;
+    background-position: 100% 3rem;
     /*background-size: contain;*/
   }
 }

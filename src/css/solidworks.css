@@ -113,13 +113,9 @@
     }
 }
 
-.portfolio-header {
-  margin: 3rem 0 3rem;
-}
-
-@media (min-width: 992px) {
+@media (max-width: 575px) {
   .portfolio-header {
-    margin: 3rem 0 10rem;
+    margin: 3rem 0 3rem;
   }
 }
 
@@ -157,20 +153,20 @@
 
 @media (min-width: 576px) {
     .project-description {
-      padding: 0 6rem;
+      padding: 3rem 6rem 0;
     }
 }
 
 @media (min-width: 768px) {
     .project-description {
-      padding: 0 1rem 0 6rem;
+      padding: 3rem 1rem 0 6rem;
       margin-top: 0;
     }
 }
 
 @media (min-width: 992px) {
     .project-description {
-      padding: 0 1rem 0 10rem;
+      padding: 3rem 1rem 0 10rem;
     }
 }
 

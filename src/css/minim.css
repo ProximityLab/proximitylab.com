@@ -65,13 +65,9 @@
 }
 
 /* portfolio */
-.portfolio-header {
-  margin: 3rem 0;
-}
-
-@media (min-width: 992px) {
+@media (max-width: 575px) {
   .portfolio-header {
-    margin: 6rem 0 10rem;
+    margin: 3rem 0 3rem;
   }
 }
 
@@ -262,6 +258,7 @@
     background: url('../images/portfolio-description-minim-bgd.png') no-repeat;
     background-position: 180% top;
     padding: 0 10rem;
+    margin-top: 3rem;
   }
 }
 

@@ -38,8 +38,8 @@
       <p>Proximity Lab is a participatory installation and experimental interface platform designed to visualize relationships between users and mediated spaces. Built on the premise that physical proximity is a basic unit of social communication, this study examines the role that unconscious and dynamically created personal space plays in social interaction. The experiment also studies user engagement and response where interface conventions and rules are not explicitly disclosed.</p>
       <p>Built on the premise that physical proximity is a basic unit of social communication, this study examines the role that unconscious and dynamically created personal space plays in social interaction. The experiment also studies user engagement and response where interface conventions and rules are not explicitly disclosed.</p>
       <ul>
-        <li><a href="#">Proximity and Experience: New Rules for User Interface</a></li>
-        <li><a href="#">Exhibit images and visual studies</a></li>
+        <li><a href="/docs/proximity_lab_thesis.pdf" target="_blank">Proximity and Experience: New Rules for User Interface</a></li>
+        <li><a href="/docs/proximity_lab_images.pdf" target="_blank">Exhibit Images and Visual Studies</a></li>
       </ul>
     </div>
     <div class="col-lg-1 d-none d-lg-block"></div>
@@ -75,23 +75,23 @@
      <div class="col-12 col-lg-5">
       <ul>
         <li>
-          <h4>natural interface</h4>
+          <h4>Natural interface</h4>
           – utilizing the natural abilities of user as foundation for core user-system interface as opposed to additional interface layers  
         </li>
         <li>
-          <h4>visibility of interface</h4>
+          <h4>Visibility of interface</h4>
           – minimized to focus experience on essential content and activity
         </li>
         <li>
-          <h4>disclosure of system rules</h4>
+          <h4>Disclosure of system rules</h4>
           – reduced to exploit the widest range of user responses
         </li>
         <li>
-          <h4>pluralistic interaction</h4>
+          <h4>Pluralistic interaction</h4>
           – allowing users to observe and respond to other participants to create new opportunities for discovery and re-appropriation 
         </li>
         <li>
-          <h4>human scale</h4>
+          <h4>Human scale</h4>
           – explored to elevate immersive qualities of experience and interaction
         </li>
       </ul>

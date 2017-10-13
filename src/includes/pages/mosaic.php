@@ -3,7 +3,8 @@
         <div class="row justify-content-center">
 
             <div class="col-lg-2">
-              <img class="jumbotron-logo-project img-fluid" src="/images/logo-mosaic.svg" alt="Mosaic logo">
+              <img class="jumbotron-logo-project img-fluid d-none d-md-block" src="/images/logo-mosaic.svg" alt="Mosaic logo">
+              <img class="jumbotron-logo-project img-fluid d-block d-md-none" src="/images/logo-mosaic-sm.svg" alt="Mosaic logo">
             </div>
 
             <div id="mosaic-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
