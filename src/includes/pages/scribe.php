@@ -1,11 +1,12 @@
 <div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center">
 
-            <div class="col-lg-3">
+            <div class="col-lg-2">
               <img class="jumbotron-logo-project" src="/images/logo-scribe-white-2x.png" alt="Scribe logo">
             </div>
             <div class="col-lg-7"><img class="img-fluid" src="/images/website-mockup-scribe-2x.png" alt="Scribe website mockup"></div>
+            <div class="col-lg-2"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
@@ -63,32 +64,34 @@
   </div>
 
   <div id="design-excellence" class="row">
-    <div class="col-md-6 half-image"></div>
     <div class="col-md-6 d-flex flex-column justify-content-center text-container flex-first">
       <h2>Design excellence</h2>
       <p>A central challenge was developing a simple and approachable interface for a wide range of user types – creating a visually oriented data integration platform – without compromising the powerful capabilities of the product. Gartner Group, a leading market research firm, recognized Scribe’s re-imagined SaaS-based solution as “the best-in-class” for data integration, a designation that Scribe attributes largely to the research and product design work conducted by Proximity Lab.</p>
+    </div>
+    <div class="flex-image col-12 col-md-6">
+      <img src="/images/portfolio-scribe-design-excellence-2x.png"  class="img-fluid" alt="Visual Experience">
     </div>
   </div>
 
 </div>
 
 <div class="container-fluid project-services">
-    <div class="row">
-      <div class="col-12 col-sm-4 text-center">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-4 text-center">
           <div class="project-service">
               <img class="portfolio-service-icon" src="/images/icon-increased-usage.svg" alt="Visual Experience">
               <h4 class="portfolio-service-heading">Increased Usage</h4>
               <p class="portfolio-service-text">An overall increase of 200+% of concurrent use on the Scribe cloud-based platform</p>
           </div>
       </div>
-      <div class="col-12 col-sm-4 text-center">
+      <div class="col-12 col-lg-4 text-center">
           <div class="project-service">
               <img class="portfolio-service-icon" src="/images/icon-customer-satisfaction.svg" alt="Team Collaboration">
               <h4 class="portfolio-service-heading">Customer Satisfaction</h4>
               <p class="portfolio-service-text">Heightened customer satisfaction as measured in improvements in customer retention</p>
           </div>
       </div>
-      <div class="col-12 col-sm-4 text-center">
+      <div class="col-12 col-lg-4 text-center">
           <div class="project-service">
               <img class="portfolio-service-icon" src="/images/icon-task-efficiency.svg" alt="Unified Experience">
               <h4 class="portfolio-service-heading">Task Efficiency</h4>
@@ -101,7 +104,8 @@
 <div class="container-fluid portfolio-testimonial">
   <div class="row">
     <div class="ww-content">
-        <p>"Proximity Lab understands our business - they challenged our thinking to help create new paradigms for data integration. The resulting user-centric design is now driving the product roadmap for our SaaS platform, and more importantly - we are seeing a new category of users performing data integration tasks that would have previously been outside of their skillset."</p><img src="/images/testimonial-author-scribe-2x.png" alt="Testimonial author">
+      <p>“Proximity Lab understands our business - they challenged our thinking to help create new paradigms for data integration. The resulting user-centric design is now driving the product roadmap for our SaaS platform - we are seeing a new category of users performing data integration tasks that would have previously been outside of their skillset.”</p>
+      <img src="/images/testimonial-author-scribe-2x.png" alt="Testimonial author">
       <p class="home-carousel-testimonial-author-title">
           <strong>Shawn McGowan,</strong> CEO  Scribe</p>
     </div>

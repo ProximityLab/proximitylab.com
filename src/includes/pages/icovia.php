@@ -1,12 +1,12 @@
 <div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center">
 
-            <div class="col-lg-3">
+            <div class="col-lg-2">
               <img class="jumbotron-logo-project" src="/images/logo-icovia-2x.png" alt="Icovia logo">
             </div>
 
-            <div id="icovia-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
+            <div id="icovia-carousel-hero" class="col-lg-6 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item icovia-carousel-testimonial-item icovia-carousel-hero-item-one active">
                   <img class="img-fluid" src="/images/website-mockup-icovia-1-2x.png" alt="Icovia website mockup">
@@ -25,6 +25,8 @@
                 <li data-target="#icovia-carousel-hero" data-slide-to="2" class="icovia-carousel-hero-indicator"></li>
               </ol -->
             </div>
+
+            <div class="col-lg-2"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
@@ -43,13 +45,13 @@
 
 <div class="container-fluid project-description">
   <div class="row">
-    <div class="col-12 col-lg-5">
-      <p>Icovia’s space planning app started as a simple project to help create a home theater configuration tool - basically allowing users to position their products on an overhead view of a room. At the time, the team had a vision that this simple tool had much larger potential. The resulting app became the most powerful web-based 2D and 3D space planning app on market - in use by hundreds of retailers. But that’s exactly what happened.</p>
-      <p>The work we completed in order to build and launch the SchduleMe app consisted of competitive research, persona interviews, and concept testing</p>
+    <div class="col-12 col-xl-7 col-lg-5 pr-xl-5">
+      <p>The Icovia Space Planner started as a web-based home theater configuration tool for the Bose Corporation. The interactive tool allowed customers to position Bose home theater products on an overhead view of a room and get real-time recommendations for product configuration and setup.</p>
+      <p>We developed a furniture-focused version for Jordan’s Furniture next and this became the catalyst for the development of branded SaaS-based product that would become the Icovia Space Planner.</p>
       <div class="ww-paragraph">
-        <p><strong>Custom space creation</strong> <br />Consumers could use the app to create accurate floor plans of their spaces.</p>
-        <p><strong>Realtime 3D rendering</strong> <br />This allowed site visitors to pick specific products from their retailers catalog, choose the desired fabric, and drag the icon to the map of their space.</p>
-        <p><strong>Powerful marketing capabilities</strong> <br />Although using the app for consumers was easy and free, the retailers were able to collect valuable marketing information by requiring users to register if they wanted to print, share, or save their room designs.</p>
+        <p><strong>Custom space creation</strong> <br />Consumers can use the app to create accurate floor plans of their spaces and drag products into their rooms to experiment with layout and to see how things fit.</p>
+        <p><strong>Real-time 3D rendering</strong> <br />Visitors can browse and preview custom fabrics and finishes in photorealistic detail to see how these combinations work in the context of the actual floor, wall and window treatments that define the look of their rooms.</p>
+        <p><strong>Powerful marketing capabilities</strong> <br />Using the app for consumers was easy and free, but the true business value for retailers is generated from the sales and marketing data that results when users register to print, share and save their room designs.</p>
       </div>
     </div>
   </div>
@@ -58,7 +60,8 @@
 </div>
 <div id="last-paragraph" class="container-fluid">
   <div class="row">
-    <div class="col-lg-12"><p>This joint venture was massively successful, and shortly thereafter other leading furniture retailers worked with Icovia to create private labeled instances of the product. Ultimately Icovia was acquired for its market leading technology and is still in use at hundreds of leading U.S. retailers.</p>
+    <div class="col-lg-12 col-xl-10">
+      <p>Icovia was acquired in 2008 for its innovative design and lead-generation capabilities and its wide adoption throughout the home furnishing industry. It remains the industry-leading private labeled room planner on the market and is used by hundreds of retailers and manufacturers today.</p>
     </div>
   </div>
 </div>

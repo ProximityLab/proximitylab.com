@@ -14,14 +14,11 @@
 
 @media (min-width: 992px) {
     .ww-portfolio .jumbotron {
-        padding-top: 7rem;
+        padding-top: 8rem;
     }
 }
 
 @media (min-width: 1200px) {
-    .ww-portfolio .jumbotron {
-        padding-top: 7rem;
-    }
     .ww-portfolio .jumbotron {
         padding-left: 10rem;
         padding-right: 10rem;
@@ -47,13 +44,14 @@
       /*left: 3rem;*/
     }
 }
-/* portfolio */
 
-@media (min-width: 992px) {
-    .hidden-md {
-      display: block;
-    }
+@media (max-width: 575px) {
+  .portfolio-header {
+    margin: 3rem 0 3rem;
+  }
 }
+
+/* portfolio */
 
 .portfolio {
     padding: 0 0 3.4rem 0;
@@ -77,6 +75,8 @@
 .project-description {
   min-height: 0;
   margin-bottom: 2rem;
+  overflow: hidden;
+  padding: 0 3rem;
 }
 
 .project-description-1 {
@@ -90,18 +90,21 @@
 
 @media (min-width: 576px) {
     .project-description {
+      padding: 0 6rem 0;
       margin-bottom: 2rem;
+    }
+    .project-description-0 {
+      padding-top: 3rem;
     }
 }
 
 @media (min-width: 768px) {
     .project-description {
-      padding: 0 6rem 0;
       margin-bottom: 3rem;
     }
 
     .project-description-0 {
-      padding: 0 6rem;
+      padding: 3rem 6rem 0;
     }
 
     .project-description-1 {
@@ -125,7 +128,7 @@
   }
 
   .project-description-0 {
-      padding: 6rem 0 0 6rem;
+      padding: 3rem 0 0 6rem;
       margin-bottom: 6rem;
   }
 
@@ -217,13 +220,19 @@
 }
 
 .portfolio-service-text {
-    max-width: 292px;
     margin: 0 auto;
     font-size: 16px;
     font-weight: 400;
     line-height: 34px;
     color: #989898;
 }
+
+@media (min-width: 992px) {
+  .portfolio-service-text {
+    max-width: 292px;
+  }
+}
+
 .project-more-info {
   background: url('/images/portfolio_bgd_amadeus.jpg') no-repeat;
   background-size: cover;
@@ -293,10 +302,12 @@
 }
 
 .container-fluid.portfolio-services {
+    padding: 0 3rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .container-fluid.portfolio-services {
+    padding: 0 6rem;
   }
 }
 
@@ -310,31 +321,32 @@
   margin: 0 0 6rem;
 }
 
-@media (min-width: 576px) {
-  .portfolio-service {
-    margin: 0 0 2rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .portfolio-service {
-    margin: 0 0 6rem;
-  }
-}
-
-.adobe-portfolio .adobe-portfolio-services .row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-  flex-wrap: wrap;
+.adobe-portfolio .adobe-portfolio-services {
+  padding-bottom: 3rem;
 }
 
 .adobe-portfolio .adobe-portfolio-services .row > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
   margin-top: 3rem;
-  padding: 0 4rem;
+  padding: 0;
+}
+
+.adobe-portfolio .adobe-portfolio-services .row > [class*='col-']:last-child {
+  padding-top: 3rem;
+}
+
+@media (min-width: 576px) {
+  .adobe-portfolio .adobe-portfolio-services {
+    padding-bottom: 6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .adobe-portfolio .adobe-portfolio-services .row > [class*='col-']:last-child {
+    padding-top: 0;
+  }
+  .adobe-portfolio .adobe-portfolio-services .row > [class*='col-'] {
+    padding: 0 3rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -361,11 +373,12 @@
 }
 
 .adobe-portfolio .adobe-portfolio-services .portfolio-service-heading {
-    color: #4A4A4A;
     padding: 0 3rem 1.3rem;
     font-size: 1.8rem;
     color: #282828;
     font-weight: 700;
+    margin-bottom: 0;
+    max-width: unset;
 }
 
 .adobe-portfolio .adobe-portfolio-services .portfolio-service-text {
@@ -382,7 +395,7 @@
 .adobe-carousel .carousel-inner,
 .adobe-carousel .carousel-inner .carousel-item {
   width: 100%;
-  height: 110px;
+  height: 80px;
 }
 
 .adobe-carousel .carousel-inner .carousel-item {
@@ -425,8 +438,8 @@
 }
 
 .adobe-carousel .adobe-product-icon img {
-  max-width: 80px;
-  max-height: 80px;
+  max-width: 100%;
+  max-height: 100%;
   margin: auto;
   position: absolute;
   left: 0;
@@ -436,12 +449,32 @@
 }
 
 .adobe-carousel h4 {
+  display: none;
   text-align: center;
   margin-top: 90px;
   width: 100%;
   font-size: 1.4rem;
   font-weight: 600;
   white-space: nowrap;
+}
+
+@media (min-width: 576px) {
+
+  .adobe-carousel,
+  .adobe-carousel .carousel-inner,
+  .adobe-carousel .carousel-inner .carousel-item {
+    width: 100%;
+    height: 110px;
+  }
+
+  .adobe-carousel .adobe-product-icon img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+
+  .adobe-carousel h4 {
+    display: block;
+  }
 }
 
 /* testimonial carousel */
@@ -482,10 +515,6 @@
 }
 
 @media (min-width: 992px) {
-  #adobe-carousel-testimonial {
-    margin-top: 6rem;
-  }
-
   .adobe-carousel-testimonial-item-one {
     padding-top: 6rem;
     padding-bottom: 5rem;

@@ -224,7 +224,7 @@
     right: 0;
     margin: auto;
     text-align: center;
-    top: 76.5%
+    top: 67%;
 }
 
 .ww-panels h3.active {
@@ -247,7 +247,19 @@
     font-size: 1.6rem;
     color: #7c7c7c;
     line-height: normal;
-    margin: 1.5rem 0;
+    margin: 1.5rem 3rem;
+}
+
+@media (min-width:992px) {
+    .ww-panels p {
+        margin: 1.5rem 3rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .ww-panels p {
+        margin: 1.5rem 3rem;
+    }
 }
 
 /* workwith section */
@@ -279,10 +291,10 @@
 
 #home-carousel-testimonial,
 .home-carousel-testimonial-item {
-    height: 700px;
+    height: 850px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 375px) {
     #home-carousel-testimonial,
     .home-carousel-testimonial-item {
         height: 800px;
@@ -292,14 +304,14 @@
 @media (min-width: 768px) {
     #home-carousel-testimonial,
     .home-carousel-testimonial-item {
-        height: 750px;
+        height: 800px;
     }
 }
 
 @media (min-width: 992px) {
     #home-carousel-testimonial,
     .home-carousel-testimonial-item {
-        height: 800px;
+        height: 850px;
     }
 }
 
@@ -313,6 +325,7 @@
 .home-carousel-testimonial-item-one { background-color: #139CE4; }
 .home-carousel-testimonial-item-two { background-color: #896BC2; }
 .home-carousel-testimonial-item-three { background-color: #0CC1D3; }
+.home-carousel-testimonial-item-four { background-color: #F01928; }
 
 .home-carousel-testimonial-caption {
     bottom: auto;
@@ -343,6 +356,11 @@
 .home-carousel-testimonial-item-three .home-carousel-testimonial-logo {
     height: 45px;
     margin: 44px 0;
+}
+
+.home-carousel-testimonial-item-four .home-carousel-testimonial-logo {
+    height: 60px;
+    margin: 36px 0;
 }
 
 .home-carousel-testimonial-text {

@@ -15,6 +15,10 @@
   margin-bottom: 2rem;
 }
 
+.ww-portfolio .portfolio-header p {
+  margin-bottom: 0;
+}
+
 /*.jumbotron .flex-first img {
     margin: 0 0 -2.1rem 0;
 }*/
@@ -25,19 +29,6 @@
     }
 }*/
 
-@media (min-width: 1200px) {
-    .jumbotron {
-        padding-left: 92px;
-        padding-right: 92px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .jumbotron-padding {
-        padding-left: 33px;
-        padding-right: 33px;
-    }
-}
 .jumbotron-logo-project {
     width: 179px;
     display: block;
@@ -96,6 +87,12 @@
       }
 }
 
+@media (max-width: 575px) {
+  .portfolio-header {
+    margin: 3rem 0 3rem;
+  }
+}
+
 /* portfolio */
 
 .portfolio {
@@ -140,6 +137,7 @@
 .project-description {
   min-height: 0;
   margin-bottom: 0;
+  padding: 0 3rem;
 }
 
 #last-paragraph {
@@ -154,20 +152,8 @@
 
 @media (min-width: 576px) {
     .project-description {
-      /*background: url('/images/portfolio-description-icovia-bgd-2x.png') no-repeat;
-      background-position: 100% top;
-      background-size: 50%;*/
-      padding: 0 6rem;
+      padding: 3rem 6rem;
       margin-bottom: 0;
-    }
-}
-
-@media (min-width: 768px) {
-    .project-description {
-      /*background: url('/images/portfolio-description-icovia-bgd-2x.png') no-repeat;
-      background-position: 100% top;
-      background-size: 50%;*/
-      padding: 0 6rem;
     }
 }
 
@@ -176,7 +162,7 @@
     background: url('/images/portfolio-description-icovia-bgd-2x.png') no-repeat;
     background-position: 100% top;
     background-size: 50%;
-    padding: 6rem 6rem 0 6rem;
+    padding: 3rem 10rem 0;
     margin-bottom: 0;
   }
 }
@@ -290,7 +276,7 @@
 .project-services {
   /*background-color: #1B1C25;*/
   /*margin-bottom: 0;*/
-  padding: 6rem -15px;
+  padding: 6rem 0;
 }
 
 

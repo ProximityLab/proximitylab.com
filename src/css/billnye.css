@@ -19,7 +19,7 @@ h2 {
   background-image: linear-gradient(135deg, #74D561 0%, #11811D 100%);
   margin-bottom: 0;
   position: relative;
-  padding-top: 7rem;
+  padding-top: 8rem;
   padding-bottom: 0;
   overflow: hidden;
 }
@@ -101,19 +101,9 @@ h2 {
     }
 }
 
-.portfolio-header {
-  margin: 3rem 0 3rem;
-}
-
-/*@media (min-width: 768px) {
+@media (max-width: 575px) {
   .portfolio-header {
-    margin: 3rem 0 10rem;
-  }
-}*/
-
-@media (min-width: 992px) {
-  .portfolio-header {
-    margin: 3rem 0 10rem;
+    margin: 3rem 0 3rem;
   }
 }
 
@@ -128,12 +118,28 @@ h2 {
 
 .project-description {
   margin-top: 0;
-  padding: 0 6rem;
+  padding: 0;
+  overflow: hidden;
+}
+
+.description-copy {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.project-description .flex-image {
+    overflow: hidden;
+    height: 300px;
+}
+
+.project-description-2 {
+  margin-bottom: 3rem;
 }
 
 .project-description-4 {
-  margin-top: 3rem;
+  margin-top: 6rem;
   margin-bottom: 3rem;
+  padding: 0 3rem;
 }
 
 .project-description h1.heading-primary {
@@ -142,22 +148,74 @@ h2 {
 }
 
 @media (min-width: 576px) {
-    
-}
-
-@media (min-width: 768px) {
-    
+  .project-description {
+    padding: 0;
+    margin-top: 3rem;
+  }
+  .project-description .flex-image img {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    top: -50%;
+  }
+  .description-copy {
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
+  .project-description-2 {
+    margin-bottom: 6rem;
+  }
+  .project-description-4 {
+    margin-top: 6rem;
+    padding: 0 6rem;
+  }
 }
 
 @media (min-width: 992px) {
   .project-description {
-    margin-top: 8rem;
+    margin-top: 3rem;
+  }
+
+  .project-description .flex-image {
+    min-height: 725px;
+    height: unset;
+  }
+
+  .project-description .flex-image img {
+    position: absolute;
+    max-height: 100%;
+    width: auto;
+    max-width: unset;
+    top: 0;
+  }
+
+  .project-description-0 {
+    padding-right: 0;
+  }
+  .project-description-0 .flex-image {
+    padding-left: 0;
+  }
+  .project-description-0 .flex-image img {
+    left: 0;
+    padding-left: 3rem;
   }
   .project-description-1 {
     margin-top: 10rem;
   }
+  .project-description-1 .flex-image {
+    padding-right: 0;
+  }
+  .project-description-1 .flex-image img {
+    right: 0;
+    padding-right: 3rem;
+  }
   .project-description-2 {
     margin-top: 0;
+    margin-bottom: 12rem;
+  }
+  .project-description-3 .flex-image img {
+    right: 0;
+    padding-right: 3rem;
   }
   .project-description-4 {
     margin-top: 11rem;
@@ -166,9 +224,28 @@ h2 {
   .project-description h1.heading-primary {
     margin-top: 8rem;
   }
+
+  .description-copy {
+    padding-bottom: 3rem;
+  }
+
+  .description-copy.right,
+  .description-copy.left {
+    padding-right: 10rem;
+    padding-left: 10rem;
+  }
 }
-@media (min-width: 1200px) {
-  
+@media (min-width: 1440px) {
+  .project-description .flex-image {
+    min-height: unset;
+  }
+  .project-description .flex-image img {
+    position: relative;
+    height: auto;
+    max-height: unset;
+    width: unset;
+    max-width: 100%;
+  }
 }
 
 .halfie {
@@ -476,7 +553,7 @@ h2 {
 .project-services {
   /*background-color: #1B1C25;*/
   /*margin-bottom: 0;*/
-  padding: 6rem -15px;
+  padding: 6rem 0;
 }
 
 
@@ -492,29 +569,7 @@ h2 {
   line-height: 4rem;
   font-size: 2.4rem;
   padding: 3rem 3rem;
-  display: flex;
-  flex-flow: row;
-  /*align-items: center;*/
-  /*justify-content: center;*/
 }
-
-/*.ww-overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-@media (min-width: 1440px) {
-  .ww-overlay {
-    background-color: rgba(0, 0, 0, 0);
-}
-}
-.ww-content {
-  z-index: 2;
-}*/
 
 @media (min-width: 1440px) {
   .portfolio-testimonial .ww-content {
@@ -594,16 +649,17 @@ height: 70px;
 }
 
 .aspect-ratio {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 51%;
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
 }
 
-.aspect-ratio iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0; top: 0;
+.aspect-ratio iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 

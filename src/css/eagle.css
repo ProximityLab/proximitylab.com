@@ -88,6 +88,12 @@
       }
 }
 
+@media (max-width: 575px) {
+  .portfolio-header {
+    margin: 3rem 0 3rem;
+  }
+}
+
 /* portfolio */
 
 .portfolio {
@@ -113,14 +119,15 @@
 
 .project-description {
   min-height: 0;
-  /*margin-bottom: 0;*/
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 /*.project-description p {
   margin-bottom: 6rem;
 }*/
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .project-description {
       padding: 0 6rem;
       min-height: 0;
@@ -131,17 +138,18 @@
 @media (min-width: 992px) {
   .project-description {
     background: url('../images/portfolio-description-eagle-bgd-2x.jpg') no-repeat;
-    background-position: right 20rem;
+    background-position: right 23rem;
     background-size: contain;
     min-height: 700px;
     overflow: visible;
+    padding: 0 10rem;
   }
 }
 
 @media (min-width: 1200px) {
   .project-description {
     min-height: 800px;
-    background-position: right 10rem;
+    background-position: right 12rem;
 
   }
 }
@@ -149,7 +157,7 @@
 @media (min-width: 1440px) {
   .project-description {
     min-height: 800px;
-    background-position: right top;
+    background-position: right 3rem;
 
   }
 }
@@ -165,7 +173,7 @@
 
 @media (min-width: 768px) {
   .portfolio-paragraph {
-    padding: 6rem 0 0 0;
+    padding: 3rem 0 0 0;
   }
 }
 
@@ -181,11 +189,12 @@
     font-size: 24px;
     font-weight: 300;
     color: #4A4A4A;
+    max-width: 250px;
+    margin: 0 auto;
     margin-bottom: 16px;
 }
 
 .portfolio-service-text {
-    max-width: 250px;
     margin: 0 auto;
     font-size: 16px;
     font-weight: 400;
@@ -193,13 +202,25 @@
     color: #989898;
 }
 
-.project-services {
-  padding: 0 3rem;
+@media (min-width: 992px) {
+  .portfolio-service-text {
+    max-width: 250px;
+  }
 }
 
-@media (min-width: 768px) {
+.project-services {
+  padding: 3rem 3rem 0;
+}
+
+@media (min-width: 576px) {
   .project-services {
     padding: 0 6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-services {
+    padding: 0 10rem;
   }
 }
 
@@ -234,7 +255,6 @@
 .portfolio-testimonial {
   background: none;
   background-color: #896BC2;
-  min-height: 620px;
   color: #fff;
   line-height: 4rem;
   font-size: 2.4rem;
@@ -243,44 +263,80 @@
 
 @media (min-width: 768px) {
     .portfolio-testimonial {
-        padding: 10rem 6rem;
+        padding: 8rem 6rem;
         width: 100%;
-        min-height: 420px;
     }
 }
 
-.portfolio-testimonial p {
-text-align: center;
-/*margin-left: 0%;*/
-  margin: 0 auto;
-  max-width: 75%;
-}
-
 .portfolio-testimonial img {
-margin: 2rem 0 0 0;
+  margin: 3rem auto 2rem;
+  display: block;
+  width: 70px;
+  height: 70px;
 }
 
-.portfolio-testimonial p.home-carousel-testimonial-author-title {
-  font-size: 1.6rem;
-  margin-top: 1rem;
+@media (min-width: 576px) {
+  .portfolio-testimonial img {
+    margin: 8rem auto 0;
+  }
+}
+
+.portfolio-testimonial p {
+  text-align: center;
+  /*margin-left: 0%;*/
+    margin: 0 auto;
+    max-width: 95%;
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+
+.portfolio-testimonial .home-carousel-testimonial-author-title {
+    font-size: 2rem;
+    margin-top: 2rem;
+    line-height: normal;
+}
+
+
+@media (min-width: 576px) {
+  .portfolio-testimonial p {
+    max-width: 95%;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .portfolio-testimonial p {
+    max-width: 85%;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-testimonial p {
+    max-width: 86%;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
 }
 
 .eagle-portfolio-services {
   margin-top: 3rem;
   margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.eagle-portfolio-services .row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-  flex-wrap: wrap;
+.eagle-portfolio-services .row > [class*='col-']:last-child {
+  padding-top: 6rem;
 }
 
-.eagle-portfolio-services .row > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
+@media (min-width: 576px) {
+  .eagle-portfolio-services {
+    padding-bottom: 6rem;
+  }
 }
 
 @media (min-width: 768px){
@@ -290,6 +346,7 @@ margin: 2rem 0 0 0;
 
   .eagle-portfolio-services .row > [class*='col-']:last-child {
     padding-left: 3rem;
+    padding-top: 0;
   }
 }
 
@@ -311,11 +368,12 @@ margin: 2rem 0 0 0;
 }
 
 .eagle-portfolio-services .portfolio-service-heading {
-    color: #4A4A4A;
     padding: 0 3rem 1.3rem;
     font-size: 1.8rem;
     color: #282828;
     font-weight: 700;
+    margin-bottom: 0;
+    max-width: unset;
 }
 
 .eagle-portfolio-services .portfolio-service-text {

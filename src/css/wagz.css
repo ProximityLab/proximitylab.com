@@ -100,6 +100,11 @@
     left: 45px;
 }*/
 
+@media (max-width: 575px) {
+  .portfolio-header {
+    margin: 3rem 0 3rem;
+  }
+}
 
 /* portfolio */
 
@@ -147,8 +152,6 @@
     line-height: 36px;
     margin-bottom: 3rem;
 }
-
-
 
 .wagz-portfolio-image {
     background-repeat: no-repeat;
@@ -273,6 +276,7 @@
 }
 
 .portfolio-testimonial {
+  position: relative;
   background: url('/images/portfolio_bgd_wagz.jpg') no-repeat;
   background-size: cover;
   background-position: 10% center;
@@ -330,9 +334,9 @@ background-color: #fff;
 }
 
 .portfolio-testimonial p {
-text-align: center;
-margin-left: 0%;
-padding: 0 3rem;
+  text-align: center;
+  margin-left: 0%;
+  padding: 0 3rem;
 }
 
 @media (min-width: 576px) {
@@ -443,38 +447,22 @@ margin: 2rem 0 0 0;
   }
 }
 
-/*
-@media (max-width: 575px) {
-  .jumbotron {
-      padding: 4rem 2rem 4rem;
+.wagz-portfolio .wagz-portfolio-services {
+  padding-bottom: 3rem;
+}
+
+.wagz-portfolio .wagz-portfolio-services .row > [class*='col-']:last-child {
+  padding-top: 6rem;
+}
+
+@media (min-width: 576px) {
+  .wagz-portfolio .wagz-portfolio-services {
+    padding-bottom: 6rem;
   }
-}
 
-.wagz-carousel-hero-indicators {
-    bottom: -38px;
-}
-
-li.wagz-carousel-hero-indicator {
-    max-width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background-color: rgba(0,0,0,.2);
-    margin-left: 6.5px;
-    margin-right: 6.5px;
-}
-*/
-
-.wagz-portfolio .wagz-portfolio-services .row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-  flex-wrap: wrap;
-}
-
-.wagz-portfolio .wagz-portfolio-services .row > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
+  .wagz-portfolio .wagz-portfolio-services .row > [class*='col-']:last-child {
+    padding-top: 0;
+  }
 }
 
 .wagz-portfolio .project-service {
@@ -495,7 +483,6 @@ li.wagz-carousel-hero-indicator {
 }
 
 .wagz-portfolio .portfolio-service-heading {
-    color: #4A4A4A;
     padding: 0 3rem 1.3rem;
     font-size: 1.8rem;
     color: #282828;
@@ -513,14 +500,26 @@ li.wagz-carousel-hero-indicator {
 }
 
 .project-description {
-  padding: 0 6rem;
+  padding: 0 3rem;
   margin-bottom: 3rem;
+}
+
+@media (min-width: 576px) {
+    .project-description {
+      padding: 0 6rem;
+    }
 }
 
 @media (min-width: 768px) {
     .project-description {
       padding: 0 1rem 0 6rem;
       margin-top: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .project-description {
+      padding: 0 1rem 0 10rem;
     }
 }
 

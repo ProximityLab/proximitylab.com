@@ -35,29 +35,29 @@
 
 <div class="container-fluid project-services">
     <div class="row">
-        <div class="col-12 col-sm-4 text-center">
+        <div class="col-12 col-lg-4 text-center">
             <div class="project-service">
                 <img class="portfolio-service-icon" src="/images/icon-user-research.svg" alt="Visual Experience">
                 <h4 class="portfolio-service-heading">User research</h4>
-                <p class="portfolio-service-text">Interviews with prospective users helped us identify a broad set of user types who would interact with the Eagle system at various stages of the research process.</p>
+                <p class="portfolio-service-text text-left text-sm-center">Interviews with prospective users helped us identify a broad set of user types who would interact with the Eagle system at various stages of the research process.</p>
             </div>
         </div>
-        <div class="col-12 col-sm-4 text-center">
+        <div class="col-12 col-lg-4 text-center">
             <div class="project-service">
                 <img class="portfolio-service-icon" src="/images/icon-use-case.svg" alt="Team Collaboration">
                 <h4 class="portfolio-service-heading">Use case modeling</h4>
-                <p class="portfolio-service-text">Journey maps, user flows and data visualization sketching helped us identify points of integration with other tools in the suite and streamline the workflows between them.</p>
+                <p class="portfolio-service-text text-left text-sm-center">Journey maps, user flows and data visualization sketching helped us identify points of integration with other tools in the suite and streamline the workflows between them.</p>
             </div>
         </div>
-        <div class="col-12 col-sm-4 text-center">
+        <div class="col-12 col-lg-4 text-center">
             <div class="project-service">
                 <img class="portfolio-service-icon" src="/images/icon-simple-full.svg" alt="Unified Experience">
                 <h4 class="portfolio-service-heading">Competitive analysis</h4>
-                <p class="portfolio-service-text">We analyzed existing market solutions designed to aid in the genomic research process to get a clear sense of their strengths and weaknesses. This helped to surface common approaches and workflows.</p>
+                <p class="portfolio-service-text text-left text-sm-center">We analyzed existing market solutions designed to aid in the genomic research process to get a clear sense of their strengths and weaknesses. This helped to surface common approaches and workflows.</p>
             </div>
         </div>
         <div class="col-12">
-          <h2>Results-oriented UX</h2>
+          <h2 class="text-left">Results-oriented UX</h2>
           <p>Our teams worked together to process the research, explore feature and workflow ideas and develop a set of UX recommendations. The centerpiece of this work, one that offered the greatest value to target users, involved a concept for conversational UI and an interactive canvas-based visual modeling experience for genomic researchers and scientists to use to identify new drug discovery insights.</p>
           <p>The new platform was purpose-built to improve the efficiency of existing processes and allow teams to collaborate and accelerate and manage their research projects as never before. Some highlights of the work include:</p>
         </div>
@@ -68,7 +68,7 @@
                 <div class="project-service">
                   <img src="/images/eagle-portfolio-1-2x.png" alt="Visual Experience">
                   <div class="project-service-body">
-                    <h4 class="portfolio-service-heading">Reduction in time to discovery</h4>
+                    <h4 class="portfolio-service-heading text-left">Reduction in time to discovery</h4>
                     <p class="portfolio-service-text">Visual explorations of the connections between conditions, treatments, and other attributes dramatically reduces the time typically required for discovery and hitting product development milestones.</p>
                   </div>
                 </div>
@@ -77,7 +77,7 @@
                 <div class="project-service">
                   <img src="/images/eagle-portfolio-2-2x.png" alt="Visual Experience">
                   <div class="project-service-body">
-                    <h4 class="portfolio-service-heading">Increase in research productivity</h4>
+                    <h4 class="portfolio-service-heading text-left">Increase in research productivity</h4>
                     <p class="portfolio-service-text">An estimated annual efficiency improvement of 30% or more for data scientist’s productivity. This level of improvement will effectively double a scientist’s available time over a maximum period of 3 years.</p>
                   </div>
                 </div>
@@ -91,10 +91,9 @@
 <div class="container-fluid portfolio-testimonial">
   <div class="row">
     <div class="ww-content">
-        <p>"Proximity Lab was an excellent UX/UI product strategy and design partner. They helped us accelerate our understanding of user journeys and user profiles, and ultimately created stunning visual designs that enabled us to demonstrate the power of our product to current and new customers. Although the Proximity Lab is US based and we are UK based, the project ran smoothly with effective communications that kept all the team members on both sides constantly in the loop, as if it were one single team."
-          <br /><img class="home-carousel-testimonial-author d-sm-inline-block" src="/images/profile_ureta_vidal.png" alt="Testimonial author"></p>
-      <p class="home-carousel-testimonial-author-title">
-          <b>Abel Ureta-Vidal</b>, CEO Eagle Genomics</p>
+      <p>“Proximity Lab was an excellent UX/UI product strategy and design partner. They helped us accelerate our understanding of user journeys and user profiles, and ultimately created stunning visual designs that enabled us to demonstrate the power of our product to current and new customers.”</p>
+      <img class="home-carousel-testimonial-author" src="/images/profile_ureta_vidal.png" alt="Testimonial author">
+      <p class="home-carousel-testimonial-author-title"><b>Abel Ureta-Vidal</b>, CEO Eagle Genomics</p>
     </div>
   </div>
 </div>

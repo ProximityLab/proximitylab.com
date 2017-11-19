@@ -4,7 +4,7 @@
     <!-- <img class="ww-main-logo" src="/images/logo_animated_darkgray.gif" rel:animated_src="/images/logo_animated_darkgray.gif"
 		width="89" height="182" rel:auto_play="0" rel:rubbable="0" /> -->
     <h1>Proximity Lab</h1>
-  <h2>Proximity Lab is an interaction design studio. We're experts in realizing, rethinking, and rebooting product strategy and user experience.</h2>
+  <h2>Proximity Lab is an interaction design studio. We're experts in realizing, rethinking and rebooting product strategy and user experience.</h2>
   <a href="#start" class="home-carousel-header-arrow">Read more about Proximity Lab</a>
   </div>
 </header>
@@ -34,8 +34,8 @@
         <div class="carousel-inner" role="listbox">
           <div class="ww-workwith carousel-item animated fadeIn active">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-adobe.png" class="ww-project-icon img-fluid"  alt="Adobe - Project">
                   </div>
               </div><!-- row -->
@@ -46,15 +46,15 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/adobe" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/adobe" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
           </div><!-- item -->
           <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-eagle-blue.png" class="ww-project-icon img-fluid"  alt="Eagle Genomics - Project">
                   </div>
               </div><!-- row -->
@@ -65,15 +65,15 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/eagle" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/eagle" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
           </div><!-- item -->
           <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-philips-blue.png" class="ww-project-icon img-fluid"  alt="Philips - Project">
                   </div>
               </div><!-- row -->
@@ -84,7 +84,7 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/philips" class="ww-btn btn btn-outline-primary ">View Project</a>
+                    <a href="/work/philips" class="ww-btn btn btn-outline-primary ">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
@@ -108,8 +108,8 @@
         <div class="carousel-inner" role="listbox">
           <div class="ww-workwith carousel-item animated fadeIn active">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-minim-blue.png" class="ww-project-icon minim img-fluid"  alt="Minim - Project">
                   </div>
               </div><!-- row -->
@@ -120,15 +120,15 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/minim" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/minim" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
           </div><!-- item -->
           <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-wagz-blue.png" class="ww-project-icon img-fluid" alt="Wagz - Project">
                   </div>
               </div><!-- row -->
@@ -139,15 +139,15 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/wagz" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/wagz" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
           </div><!-- item -->
           <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-billnye-blue.png" class="ww-project-icon img-fluid" alt="Bill Nye - Project">
                   </div>
               </div><!-- row -->
@@ -158,7 +158,7 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/billnye" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/billnye" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
@@ -182,8 +182,8 @@
         <div class="carousel-inner" role="listbox">
           <div class="ww-workwith carousel-item animated fadeIn active">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-scribe-blue.png" class="ww-project-icon img-fluid"  alt="Scribe - Project">
                   </div>
               </div><!-- row -->
@@ -194,15 +194,15 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/scribe" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/scribe" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
           </div><!-- item -->
           <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-amadeus-blue.png" class="ww-project-icon img-fluid"  alt="Amadeus - Project">
                   </div>
               </div><!-- row -->
@@ -213,15 +213,15 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/amadeus" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/amadeus" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
           </div><!-- item -->
           <div class="ww-workwith carousel-item animated fadeIn">
             <div class="container-fluid">
-              <div class="ww-workwith-img row">
-                  <div class="col-8 offset-2 text-center">
+              <div class="ww-workwith-img row justify-content-center">
+                  <div class="col-8 text-center">
                     <img src="/images/logo-songbird-blue.png" class="ww-project-icon img-fluid"  alt="Songbird - Project">
                   </div>
               </div><!-- row -->
@@ -232,7 +232,7 @@
               </div><!-- row -->
               <div class="ww-workwith-btn row">
                   <div class="col-12 text-center">
-                    <a href="?page=/work/songbird" class="ww-btn btn btn-outline-primary">View Project</a>
+                    <a href="/work/songbird" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
             </div><!-- container -->
@@ -244,9 +244,19 @@
   </div>
 </div>
 
-<div id="home-carousel-testimonial" class="carousel carousel-fade" data-ride="carousel" data-interval="10000" data-pause="false">
+<div id="home-carousel-testimonial" class="carousel carousel-fade" data-ride="carousel" data-interval="10000">
   <div class="carousel-inner" role="listbox">
-    <div class="carousel-item home-carousel-testimonial-item home-carousel-testimonial-item-one active">
+    <div class="carousel-item home-carousel-testimonial-item home-carousel-testimonial-item-four active">
+      <div class="carousel-caption home-carousel-testimonial-caption">
+        <h5 class="home-carousel-testimonial-heading d-none d-md-block">THE BOND WITH OUR CLIENTS</h5>
+        <img class="home-carousel-testimonial-logo" src="/images/logo-adobe.svg" alt="Adobe logo">
+        <p class="home-carousel-testimonial-text">“As Adobe has grown and expanded its product lines over the years, we have relied on the outside expertise of Proximity Lab to help ensure we are designing and developing the most usable and effective tools possible for the creative marketplace. In many cases, they are not only a trusted partner, but serve as an extension to our design team to help on everything from product-focused UI exercises to executive level vision work.”</p>
+        <img class="home-carousel-testimonial-author" src="/images/profile-jamie-myrold-2x.png" alt="Testimonial author">
+        <p class="home-carousel-testimonial-author-title"><b>Jamie Myrold</b>, VP of Design Adobe</p>
+      </div>
+    </div>
+
+    <div class="carousel-item home-carousel-testimonial-item home-carousel-testimonial-item-one">
       <div class="carousel-caption home-carousel-testimonial-caption">
         <h5 class="home-carousel-testimonial-heading d-none d-md-block">THE BOND WITH OUR CLIENTS</h5>
         <img class="home-carousel-testimonial-logo-scribe" src="/images/logo-scribe.png" alt="Scribe logo">
@@ -272,7 +282,7 @@
         <img class="home-carousel-testimonial-logo" src="/images/logo-minim-white-169x60.png" alt="Minim logo">
         <p class="home-carousel-testimonial-text">“Proximity Lab is at the top of the game for user experience and design. Having worked with them on multiple occasions and projects, they have proven to be a firm that goes way beyond producing simple mock-ups. They take the time to understand the core solution a product needs to deliver.”</p>
         <img class="home-carousel-testimonial-author" src="/images/profile-jeremy-hitchcock-2x.png" alt="Testimonial author">
-        <p class="home-carousel-testimonial-author-title"><b>Jeremy Hitchcock</b>, Founder & COO Minim</p>
+        <p class="home-carousel-testimonial-author-title"><b>Jeremy Hitchcock</b>, Founder &amp; COO Minim</p>
       </div>
     </div>
   </div>
@@ -281,5 +291,6 @@
     <li data-target="#home-carousel-testimonial" data-slide-to="0" class="home-carousel-testimonial-indicator active"></li>
     <li data-target="#home-carousel-testimonial" data-slide-to="1" class="home-carousel-testimonial-indicator"></li>
     <li data-target="#home-carousel-testimonial" data-slide-to="2" class="home-carousel-testimonial-indicator"></li>
+    <li data-target="#home-carousel-testimonial" data-slide-to="3" class="home-carousel-testimonial-indicator"></li>
   </ol>
 </div>

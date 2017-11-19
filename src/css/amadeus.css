@@ -26,7 +26,7 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
       position: absolute;
       top:0;
       bottom:0;
-      right: 0;
+      right: -30px;
       padding: 0;
     }
 }
@@ -107,6 +107,11 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
     opacity: 0.3;
 }
 
+@media (max-width: 575px) {
+  .portfolio-header {
+    margin: 3rem 0 3rem;
+  }
+}
 
 /* portfolio */
 
@@ -163,6 +168,18 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
 }
 }
 
+.project-description {
+  min-height: 0;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+@media (min-width: 576px) {
+    .project-description {
+      padding: 0 6rem;
+      margin-top: 0;
+    }
+}
 
 .ww-paragraph {
   border-color: #BB203F;
@@ -251,13 +268,13 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
 
 @media (min-width: 576px) {
   .project-more-info .top {
-    padding: 3rem;
+    padding: 3rem 6rem;
   }
 }
 
 @media (min-width: 768px) {
   .project-more-info .top {
-    padding: 6rem 6rem 20rem;
+    padding: 6rem;
   }
 }
 
@@ -283,13 +300,7 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
   }
 }
 
-@media (min-width: 768px) {
-  .project-more-info p {
-    margin-right: 30%;
-  }
-}
-
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .project-more-info p {
     margin-right: 40%;
   }
@@ -330,6 +341,7 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
     height: 350px;
     background: url("/images/ipad-chrome.svg") no-repeat;
     background-size: contain;
+    background-position: center;
   }
 }
 
@@ -345,38 +357,16 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
   line-height: 0;
 }
 
-@media (min-width:768px) {
-  .ww-vid {
-    position: absolute;
-    margin: 0;
-    top: 5%;
-    left: 7%;
-  }
-}
-@media (min-width:1200px) {
-  .ww-vid {
-    position: absolute;
-    margin: 0;
-    top: 7%;
-    left: 7%;
-  }
-}
-@media (min-width:1440px) {
-  .ww-vid {
-    position: absolute;
-    margin: 0;
-    top: 7%;
-    left: 7%;
-  }
-}
-
 #video-amadeus {
   width: 100%;
+  height: 100%;
 }
 
 @media (min-width:768px) {
   #video-amadeus {
     width: 420px;
+    height: 315px;
+    top: 1px;
   }
 }
 
@@ -418,6 +408,8 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
   #ww-play-pause {
     width: 420px;
     height: 315px;
+    left: 0;
+    top: 1px;
   }
 }
 
@@ -426,7 +418,7 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
     width: 590px;
     height: 442px;
     left: 0;
-    top: 1px;
+    top: 2px;
   }
 }
 

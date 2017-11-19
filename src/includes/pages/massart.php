@@ -1,9 +1,9 @@
 <div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center">
 
-            <div class="jumbotron-logo-container col-lg-3">
-              <img class="jumbotron-logo-project img-fluid" src="/images/logo-massart.svg" alt="MassArt logo">
+            <div class="jumbotron-logo-container col-lg-2">
+              <img class="jumbotron-logo-project" src="/images/logo-massart.svg" alt="MassArt logo">
             </div>
 
             <div id="massart-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
@@ -17,6 +17,8 @@
                 <li data-target="#massart-carousel-hero" data-slide-to="0" class="massart-carousel-hero-indicator active"></li>
               </ol -->
             </div>
+
+            <div class="col-lg-2"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
@@ -24,37 +26,75 @@
 <div class="container-fluid 2 portfolio-header">
   <div class="row">
     <div class="col-12">
-      <h2 class="heading-secondary text-center"><a name="start">STARTUPS</a></h2>
-
-      <h1 class="heading-primary text-center">Need Heading</h1>
-
+      <h1 class="heading-primary text-center">MassArt Installation</h1>
       <p class="header-text text-center">An experimental platform to study and visualize social interaction</p>
     </div>
   </div>
 </div>
 
-<div class="container-fluid project-description">
+<div class="container-fluid project-description project-description-0">
   <div class="row">
-    <div class="col-12 col-md-12 col-lg-6">
-      <p>As professional designers and photographers, the founders of Mosaic were frustrated by the limitation of tools to help manage their photo libraries on their mobile devices. While the Adobe Lightroom app was a mainstay of their work, it lacked mobile management features. The Mosaic team reached out to Proximity Lab to help research and design a native companion mobile app for Lightroom to simplify digital asset management for creative professionals. Our work for this project included:</p>
+    <div class="col-12 col-lg-6">
+      <p>Proximity Lab is a participatory installation and experimental interface platform designed to visualize relationships between users and mediated spaces. Built on the premise that physical proximity is a basic unit of social communication, this study examines the role that unconscious and dynamically created personal space plays in social interaction. The experiment also studies user engagement and response where interface conventions and rules are not explicitly disclosed.</p>
+      <p>Built on the premise that physical proximity is a basic unit of social communication, this study examines the role that unconscious and dynamically created personal space plays in social interaction. The experiment also studies user engagement and response where interface conventions and rules are not explicitly disclosed.</p>
+      <ul>
+        <li><a href="/docs/proximity_lab_thesis.pdf" target="_blank">Proximity and Experience: New Rules for User Interface</a></li>
+        <li><a href="/docs/proximity_lab_images.pdf" target="_blank">Exhibit Images and Visual Studies</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-1 d-none d-lg-block"></div>
+    <div class="col-12 col-lg-5">
+      <img src="/images/portfolio-description-massart-bgd.jpg"  class="img-fluid" alt="Visual Experience">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid project-description project-description-1">
+  <div class="row justify-content-center m-0">
+    <div class="col-12 col-lg-10 order-12 order-lg-1 description-copy">
+      <h1 class="heading-primary text-sm-center">A unique platform for experimentation</h1>
+      <p class="text-sm-center">RFID tagged slippers which, combined with RFID sensors in the platform surface, allows the changing positions and movements of individual users to be tracked in real time. Images projected directly onto the floor are accompanied by stereo sound as a continuous response to the actions and interactions of participants.</p>
+    </div>
+
+    <div class="col-12 col-lg-8 order-1 order-lg-12 p-0">
+        <div class="aspect-ratio justify-content-center">
+          <iframe src="https://player.vimeo.com/video/6549332" width="640" height="352" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid project-description project-description-2">
+  <div class="row">
+    <div class="col-12 col-lg-6">
+      <h1 class="heading-primary">Areas of investigation</h1>
+      <p>The study explores the relationships between disclosure and participation through interfaces that promote self-directed exploration. Do increased levels of participation and collaboration occur when users are allowed to innovate and create new relationships with the system? Can interactive systems leave room for users to interpret and adopt new uses not envisioned by the designer?</p>
+      <p>Such collaborations between system architect and participant are explored as a model for elevating interactive experience design and self-directed exploration. The study explores a number of interaction design issues including:</p>
+     </div>
+     <div class="col-lg-1 d-none d-lg-block"></div>
+     <div class="col-12 col-lg-5">
       <ul>
         <li>
-          <h4>Research </h4>
-          We evaluated existing apps in the market and interviewed prospective users
+          <h4>Natural interface</h4>
+          – utilizing the natural abilities of user as foundation for core user-system interface as opposed to additional interface layers  
         </li>
         <li>
-          <h4>Branding</h4>
-          We created a logo and other visual identity materials
+          <h4>Visibility of interface</h4>
+          – minimized to focus experience on essential content and activity
         </li>
         <li>
-          <h4>UX/UI Design</h4>
-          Our team designed a fully native iOS experience for both phones and tablets
+          <h4>Disclosure of system rules</h4>
+          – reduced to exploit the widest range of user responses
+        </li>
+        <li>
+          <h4>Pluralistic interaction</h4>
+          – allowing users to observe and respond to other participants to create new opportunities for discovery and re-appropriation 
+        </li>
+        <li>
+          <h4>Human scale</h4>
+          – explored to elevate immersive qualities of experience and interaction
         </li>
       </ul>
-      <!-- p>The app successfully became a companion app to Adobe Lightroom - providing professional photographers with anytime, anywhere access to their digital asset libraries on their mobile devices. Mosaic sold to OnOne Software in October 2014.</p -->
-    </div>
-    <div class="col-12 col-lg-5 offset-lg-1 hidden-md-down">
-      <img src="/images/portfolio-description-massart-bgd.jpg"  class="img-fluid" alt="Visual Experience">
     </div>
   </div>
 </div>

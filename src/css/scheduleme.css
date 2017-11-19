@@ -7,6 +7,11 @@
 .ww-portfolio p {
   margin-bottom: 4rem;
 }
+
+.ww-portfolio .portfolio-header p {
+  margin-bottom: 0;
+}
+
 /* jumbotron */
 
 .ww-portfolio .jumbotron {
@@ -14,13 +19,6 @@
   margin-bottom: 0;
   position: relative;
   padding-top: 8rem;
-}
-
-@media (min-width: 1200px) {
-    .ww-portfolio .jumbotron {
-        padding-left: 20rem;
-        padding-right: 20rem;
-    }
 }
 
 .jumbotron-logo-project {
@@ -37,19 +35,35 @@
     position: absolute;
     top:0;
     bottom:0;
-    right: 0;
-    left:0;
+    right: 20px;
     padding: 0;
   }
 }
 
 .ww-hero-image {
   margin-bottom: -2.1rem;
+  max-height: 138px;
+  overflow: hidden;
 }
 
 @media (min-width: 576px){
   .ww-hero-image {
+    margin-bottom: -4.1rem;
+    max-height: 248px;
+  }
+}
+
+@media (min-width: 768px){
+  .ww-hero-image {
+    margin-bottom: -4.1rem;
+    max-height: 298px;
+  }
+}
+
+@media (min-width: 992px){
+  .ww-hero-image {
     margin-bottom: -3.1rem;
+    max-height: unset;
   }
 }
 
@@ -93,6 +107,12 @@
       }
 }*/
 
+@media (max-width: 575px) {
+  .portfolio-header {
+    margin: 3rem 0 3rem;
+  }
+}
+
 /* portfolio */
 
 .portfolio {
@@ -118,34 +138,34 @@
 
 .project-description {
   min-height: 0;
+  padding: 0 3rem 3rem;
 }
 
-@media (min-width: 768px) {
+.project-description p {
+  padding-right: 0;
+}
+
+.project-description .product-image .img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 576px) {
     .project-description {
-      padding: 0 6rem;
+      padding: 3rem 6rem;
       margin-top: 0;
     }
 }
 
 @media (min-width: 992px) {
   .project-description {
-      padding: 6rem;
-    background: url('/images/portfolio-description-scheduleme-bgd.png') no-repeat;
-    background-position: 140% top;
+    padding: 3rem 0 3rem 10rem;
   }
-}
-
-@media (min-width: 1200px) {
-  .project-description {
-    background-position: 100% top;
-    /*background-size: contain;*/
+  .project-description p {
+    padding-right: 5rem;
   }
-}
-
-@media (min-width: 1440px) {
-  .project-description {
-    background-size: 45%;
-    min-height: 800px;
+  .project-description .product-image {
+    padding-left: 3rem;
   }
 }
 
@@ -171,14 +191,6 @@
     font-weight: 400;
     line-height: 34px;
     color: #989898;
-}
-.project-more-info {
-  background: url('/images/portfolio_bgd_amadeus.jpg') no-repeat;
-  background-size: cover;
-  background-position: center top;
-  font-size: 1.5rem;
-    color: #282828;
-    /*padding: 0;*/
 }
 
 .project-more-info .top {
@@ -237,7 +249,7 @@
 .project-services {
   /*background-color: #1B1C25;*/
   /*margin-bottom: 0;*/
-  padding: 6rem -15px;
+  padding: 6rem 0;
 }
 
 

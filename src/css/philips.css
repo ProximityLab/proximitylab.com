@@ -32,11 +32,18 @@ background-image: linear-gradient(-134deg, #11478C 0%, #2F86FC 100%);
       position: absolute;
       top:0;
       bottom:0;
-      right: 0;
+      right: -30px;
       padding: 0;
       /*left: 3rem;*/
     }
 }
+
+@media (max-width: 575px) {
+  .portfolio-header {
+    margin: 3rem 0 3rem;
+  }
+}
+
 /* portfolio */
 
 .portfolio {
@@ -61,38 +68,47 @@ background-image: linear-gradient(-134deg, #11478C 0%, #2F86FC 100%);
 .project-description {
   min-height: 0;
   margin-bottom: 2rem;
+  overflow: hidden;
+  padding: 0 3rem;
 }
 
+.project-description .product-image {
+  padding-top: 3rem;
+}
+.project-description .product-image .img-fluid {
+  margin-right: -6rem;
+}
 
 @media (min-width: 576px) {
     .project-description {
+      padding: 3rem 6rem 0;
       margin-bottom: 2rem;
     }
 }
 
 @media (min-width: 768px) {
     .project-description {
-      padding: 0 6rem 0;
       margin-bottom: 0;
     }
 }
 
 @media (min-width: 992px) {
   .project-description {
-    background: url('../images/portfolio-description-philips-bgd.png') no-repeat;
-    background-position: 100% top;
-    background-size: 50%;
-    padding: 6rem 6rem 0;
+    padding: 3rem 0 0 10rem;
     margin-bottom: 3rem;
-
+  }
+    .project-description .product-image {
+      padding-top: 0;
+    }
+  .project-description .product-image .img-fluid {
+    margin-top: -3rem;
+    margin-right: 0;
   }
 }
 
 @media (min-width: 1440px) {
   .project-description {
     margin-bottom: 0;
-    min-height: 850px;
-
   }
 }
 
@@ -188,13 +204,19 @@ background-image: linear-gradient(-134deg, #11478C 0%, #2F86FC 100%);
 }
 
 .portfolio-service-text {
-    max-width: 292px;
     margin: 0 auto;
     font-size: 16px;
     font-weight: 400;
     line-height: 34px;
     color: #989898;
 }
+
+@media (min-width: 992px) {
+  .portfolio-service-text {
+    max-width: 292px;
+  }
+}
+
 .project-more-info {
   background: url('/images/portfolio_bgd_amadeus.jpg') no-repeat;
   background-size: cover;
@@ -264,12 +286,12 @@ background-image: linear-gradient(-134deg, #11478C 0%, #2F86FC 100%);
 }
 
 .container-fluid.project-services {
-  padding: 3rem;
+  padding: 0;
 }
 
 @media (min-width: 768px) {
   .container-fluid.project-services {
-    padding: 6rem 6rem 0;
+    padding: 0 6rem 0;
   }
 }
 
@@ -279,19 +301,6 @@ background-image: linear-gradient(-134deg, #11478C 0%, #2F86FC 100%);
   }
 }
 
-
-
-
 .project-service {
   margin: 0 0 6rem;
 }
-
-@media (min-width: 576px) {
-  .project-service {
-    margin: 0 0 2rem;
-  }
-
-  @media (min-width: 1200px) {
-    .project-service {
-      margin: 0 0 6rem;
-    }

@@ -16,7 +16,7 @@ h2 {
 }
 .ww-portfolio .jumbotron {
   /* Rectangle: */
-background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
+  background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
   margin-bottom: 0;
   position: relative;
   padding-top: 8rem;
@@ -30,15 +30,21 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
     position: relative;
 }
 
+@media (min-width: 576px) {
+  .ww-portfolio .jumbotron {
+    padding-top: 50px;
+  }
+}
+
 @media (min-width: 992px) {
-    .jumbotron-logo-project {
-      margin: auto 0;
-      position: absolute;
-      top:0;
-      bottom:0;
-      right: 0;
-      padding: 0;
-    }
+  .jumbotron-logo-project {
+    margin: auto 0;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right: -40px;
+    padding: 0;
+  }
 }
 
 
@@ -91,19 +97,9 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
     }
 }
 
-.portfolio-header {
-  margin: 3rem 0 3rem;
-}
-
-/*@media (min-width: 768px) {
+@media (max-width: 575px) {
   .portfolio-header {
-    margin: 3rem 0 10rem;
-  }
-}*/
-
-@media (min-width: 992px) {
-  .portfolio-header {
-    margin: 3rem 0 10rem;
+    margin: 3rem 0 3rem;
   }
 }
 
@@ -118,10 +114,15 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
 
 .project-description {
   margin: 0;
-  padding: 0 6rem;
+  padding: 0 3rem;
   min-height: 0;
 }
 
+@media (min-width: 576px) {
+    .project-description {
+      padding: 0 6rem;
+    }
+}
 
 @media (min-width: 768px) {
     .project-description {
@@ -129,6 +130,11 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
     }
 }
 
+@media (min-width: 992px) {
+  .project-description {
+    padding: 0 10rem;
+  }
+}
 
 .project-description-0 {
   min-height: 0;
@@ -144,11 +150,10 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
 
 @media (min-width: 992px) {
   .project-description-0 {
-    /*padding: 0 6rem 6rem;*/
     background: url('../images/portfolio-description-scribe-bgd-2x.jpg') no-repeat;
     background-position: right top;
     background-size: 45%;
-    margin: 6rem 0 0;
+    margin: 3rem 0 0;
   }
 }
 @media (min-width: 1200px) {
@@ -161,9 +166,28 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
   margin: 2rem auto 0;
 }
 
+.project-description-2 img {
+    max-width: 100px;
+    max-height: 100%;
+}
+
 @media (min-width: 1200px) {
   .project-description-2 {
     margin: 6.5rem auto 4rem;
+  }
+  .project-description-2 img {
+      max-width: 100%;
+      max-height: 100%;
+  }
+}
+
+#design-excellence h2 {
+  margin-bottom: 1.6rem;
+}
+
+@media (min-width: 768px) {
+  #design-excellence h2 {
+    margin-bottom: 3rem;
   }
 }
 
@@ -291,51 +315,29 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
   }
 }
 
-#design-excellence .half-image {
-  background: url('/images/portfolio-scribe-design-excellence-2x.png') no-repeat;
-  background-position: center top;
-  background-size: contain;
-    margin-bottom: 0;
-    /*min-height: 503px;*/
-    background-size: 90%;
+#design-excellence .flex-image {
+    margin: 0;
+    padding: 0 3rem;
 }
 
 @media (min-width: 576px) {
-  #design-excellence .half-image {
-    background-size: 80%;
-    background-position: center top;
-    min-height: 375px;
+  #design-excellence .flex-image {
+    padding: 0 6rem;
   }
 }
 
 @media (min-width: 768px) {
-  #design-excellence .half-image {
-    background-position: 0 120%;
-    background-size: contain;
-    /*min-height: 400px;*/
+  #design-excellence .flex-image {
+    margin: 4rem 0 0;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
 @media (min-width: 992px) {
-  #design-excellence .half-image {
-    background-size: 90%;
-    background-position: left 6rem;
-    min-height: 503px;
-  }
-}
-@media (min-width: 1200px) {
-  #design-excellence .half-image {
-    min-height: 560px;
-    background-position: 0 110%;
-  margin: 0 0 6rem 0;
-  }
-}
-
-@media (min-width: 1440px) {
-  #design-excellence .half-image {
-    min-height: 560px;
-    background-position: 0 100%;
-    margin: 4rem 0;
+  #design-excellence .flex-image {
+    margin: 6rem 0 0;
+    padding-right: 6rem;
   }
 }
 
@@ -349,11 +351,21 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
   }
 }
 
-/*@media (min-width: 992px) {
-  #design-excellence .text-container   {
-    padding: 6rem;
+@media (min-width: 768px) {
+  #design-excellence .text-container p   {
+    margin-bottom: 0;
   }
-}*/
+}
+
+@media (min-width: 992px) {
+  #design-excellence .text-container   {
+    padding: 6rem 10rem 0 6rem;
+  }
+
+  #design-excellence .text-container p   {
+    margin-bottom: 0;
+  }
+}
 /*
 @media (min-width: 768px) {
   #design-excellence .half-image {
@@ -367,15 +379,27 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
   font-size: 3.4rem!important;
   color: #282828!important;
   font-weight: 300!important;
-  margin: 5.8rem 0 4.6rem!important;
+  margin: 5.8rem 0 2rem!important;
+}
+
+.project-description-2 h2 {
+  margin: 2rem 0 2rem!important;
 }
 
 
 @media (min-width: 768px) {
-    .portfolio-image {
-        background-repeat: no-repeat;
-        background-image: url('/images/songbird-carousel-placeholder.png');
-    }
+  .project-description h2 {
+    margin: 5.8rem 0 4.6rem!important;
+  }
+  .project-description-2 h2 {
+    margin: 2rem 0 2rem!important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-description-2 h2 {
+    margin: 5.8rem 0 4.6rem!important;
+  }
 }
 
 .portfolio-service {
@@ -394,13 +418,19 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
 }
 
 .portfolio-service-text {
-    max-width: 260px;
     margin: 0 auto;
     font-size: 16px;
     font-weight: 400;
     line-height: 34px;
     color: #989898;
 }
+
+@media (min-width: 992px) {
+  .portfolio-service-text {
+    max-width: 260px;
+  }
+}
+
 .project-more-info {
   background: url('/images/portfolio_bgd_amadeus.jpg') no-repeat;
   background-size: cover;
@@ -475,6 +505,11 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
   padding: 6rem -15px;
 }
 
+@media (min-width: 768px) {
+  .project-services {
+    margin-bottom: 3rem;
+  }
+}
 
 .project-service {
   margin:4rem 0;
@@ -488,29 +523,8 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
   line-height: 4rem;
   font-size: 2.4rem;
   padding: 3rem 3rem;
-  display: flex;
-  flex-flow: row;
-  /*align-items: center;*/
-  /*justify-content: center;*/
 }
 
-/*.ww-overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-@media (min-width: 1440px) {
-  .ww-overlay {
-    background-color: rgba(0, 0, 0, 0);
-}
-}
-.ww-content {
-  z-index: 2;
-}*/
 
 @media (min-width: 1440px) {
   .portfolio-testimonial .ww-content {
@@ -521,19 +535,17 @@ background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
 
 @media (min-width: 576px) {
     .portfolio-testimonial {
-        padding: 6rem;
-        /*width: 100%;
-        min-height: 724px;*/
-        align-items: center;
-        min-height: 620px;
+      padding: 6rem;
+      /*width: 100%;
+      min-height: 724px;*/
+      align-items: center;
     }
 }
 
 @media (min-width: 768px) {
     .portfolio-testimonial {
-        padding: 10rem 6rem;
+        padding: 8rem 6rem;
         width: 100%;
-        min-height: 724px;
     }
 }
 
@@ -578,13 +590,14 @@ text-align: center;
 }
 
 .portfolio-testimonial img {
-margin: 3rem auto 2rem;
-display: block;
-width: 70px;
-height: 70px;
+  margin: 3rem auto 2rem;
+  display: block;
+  width: 70px;
+  height: 70px;
 }
 
 @media (min-width: 576px) {
   .portfolio-testimonial img {
-  margin: 8rem auto 0;
+    margin: 8rem auto 0;
+  }
 }

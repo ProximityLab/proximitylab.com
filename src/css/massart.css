@@ -1,5 +1,5 @@
 /**
- * Schedule Me page
+ * MassArt page
  */
 
 /* jumbotron */
@@ -10,6 +10,7 @@
   padding-top: 8rem;
   padding-bottom: 0;
   margin-top: -80px;
+  min-height: 300px;
 }
 
 .ww-portfolio .jumbotron .jumbotron-logo-container {
@@ -22,6 +23,7 @@
 @media (min-width: 576px){
   .ww-portfolio .jumbotron {
     padding-bottom: 2.1rem;
+    margin-bottom: 0;
   }
 }
 
@@ -52,7 +54,6 @@
 
 .jumbotron-logo-project {
     width: 339px;
-    max-width: 90%;
     display: block;
     position: relative;
     padding-bottom: 2rem;
@@ -73,7 +74,6 @@
 
 @media (min-width: 1200px){
   .jumbotron-logo-project {
-    max-width: 100%;
     right: 1em;
     left: -1em;
   }
@@ -135,55 +135,137 @@
     }
 }
 
-.portfolio-header {
-  margin: 3rem 0 3rem;
+@media (max-width: 575px) {
+  .portfolio-header {
+    margin: 3rem 0 3rem;
+  }
 }
 
-@media (min-width: 992px) {
-  .portfolio-header {
-    margin: 3rem 0 10rem;
+.project-description {
+  padding: 0 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.project-description-0 {
+  padding-bottom: 1.5rem
+}
+
+.project-description-1 {
+  padding: 3rem 0 0;
+}
+
+.project-description h1.heading-primary {
+  margin-top: 3rem;
+  margin-bottom: 2.8rem;
+}
+
+@media (min-width: 576px) {
+  .project-description {
+    padding: 0 6rem 3rem;
+  }
+  .project-description-0 {
+    padding-top: 3rem;
+  }
+  .project-description-1 {
+    padding: 3rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-description {
+    padding: 0 6rem 6rem;
+    margin-top: 0;
+  }
+  .project-description-0 {
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+  }
+  .project-description-1 {
+    padding-bottom: 0;
+    padding: 0;
+  }
+  .project-description h1.heading-primary {
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;
   }
 }
 
 @media (min-width: 992px) {
-    .portfolio-paragraph {
-      margin-top: 6rem
-    }
+  .project-description {
+    padding: 0 10rem 6rem;
+  }
+
+  .project-description-0 {
+    padding-right: 0;
+    padding-top: 3rem;
+    padding-bottom: 0;
+  }
 }
 
-.project-description {
-  padding: 0 6rem;
-  margin-bottom: 3rem;
+.project-description-0 ul {
+  list-style: none;
+  margin-top: 3rem;
 }
 
-@media (min-width: 768px) {
-    .project-description {
-      padding: 0 1rem 0 6rem;
-      margin-top: 0;
-    }
+.project-description-0 ul li {
+    max-width: 100%;
+    min-height: 6rem;
+    line-height: 2.6rem;
 }
 
-.project-description ul {
+.project-description-0 ul li:first-child {
+    padding-bottom: 2rem;
+}
+
+
+.project-description-0 ul li::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 24px;
+  height: 31px;
+  left: 17px;
+  background-image: url('/images/icon-pdf.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.project-description-0 ul li a {
+  color: #d11481;
+  vertical-align: top;
+  position: relative;
+  top: 0.4rem;
+}
+
+.project-description-2 ul {
   border-left: 4px solid #D31C7B;
-  margin: 6rem 0 6rem 2rem;
+  margin: 3rem 0 6rem 2rem;
   list-style: none;
 }
 
+@media (min-width: 768px) {
+  .project-description-2 ul {
+    margin: 3rem 0 6rem 2rem;
+  }
+}
+
 @media (min-width: 992px) {
-  .project-description ul {
-    margin: 4rem 0 4rem 2rem;
+  .project-description-2 ul {
+    margin: 10rem 0 4rem 2rem;
   }
 }
 
 @media (min-width: 1200px) {
-  .project-description ul {
-    margin: 6rem 0 6rem 2rem;
+  .project-description-2 ul {
+    margin: 10rem 0 6rem 2rem;
   }
 }
 
-.project-description ul li {
+.project-description-2 ul li {
     max-width: 100%;
-    margin: 0 auto 3rem;
+    margin: 0 auto 2rem;
     padding: 0.5rem 3rem 0 0;
     line-height: 2rem;
     font-size: 1.8rem;
@@ -191,22 +273,22 @@
     font-weight: 200;
 }
 
-.project-description ul li:last-child {
+.project-description-2 ul li:last-child {
     padding-bottom: 0;
 }
 
 @media (min-width: 1200px) {
-  .project-description ul li {
+  .project-description-2 ul li {
     line-height: normal;
-    margin-bottom: 6rem;
   }
 }
 
-.project-description ul li h4 {
+.project-description-2 ul li h4 {
     color: #1e2128;
     font-size: 1.8rem;
     font-weight: 200;
     font-weight: bolder;
+    display: inline;
 }
 
 .portfolio-service {
@@ -294,7 +376,7 @@
 }
 
 .project-services {
-  padding: 6rem -15px;
+  padding: 6rem 0;
 }
 
 
@@ -330,4 +412,42 @@
 
 #massart-carousel-hero .carousel-inner .carousel-item .img-fluid {
   
+}
+
+.description-copy {
+  padding: 0 3rem;
+}
+
+@media (min-width: 576px) {
+  .description-copy {
+    padding: 0 6rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .description-copy {
+    padding: 0 6rem 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .description-copy {
+    padding: 0 0 5rem;
+  }
+}
+
+.aspect-ratio {
+  overflow:hidden;
+  padding-bottom:56%;
+  position:relative;
+  height:0;
+}
+
+.aspect-ratio iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
