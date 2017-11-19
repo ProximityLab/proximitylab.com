@@ -118,21 +118,21 @@
 
   <div class="container-fluid portfolio-services">
       <div class="row m-0">
-          <div class="col-12 col-sm-4 text-center">
+          <div class="col-12 col-lg-4 text-center">
               <div class="portfolio-service">
                   <img class="portfolio-service-icon" src="/images/icon-analysis-research.svg" alt="Analysis and research">
                   <h4 class="portfolio-service-heading">Analysis and research</h4>
                   <p class="portfolio-service-text">Our team informed Adobe’s strategic planning and product roadmap, analyzing user behaviors and experiences to better understand Adobe’s customers, their needs and how the products can better serve those needs. We have evaluated features and workflows across Adobe’s product suite and internal enterprise tools.</p>
               </div>
           </div>
-          <div class="col-12 col-sm-4 text-center">
+          <div class="col-12 col-lg-4 text-center">
               <div class="portfolio-service">
                   <img class="portfolio-service-icon" src="/images/icon-ux-ui-development.svg" alt="UX and UI development">
                   <h4 class="portfolio-service-heading">UX and UI development</h4>
                   <p class="portfolio-service-text">We have designed the experiences for key features and workflows for a number of desktop and touch-based consumer and enterprise products including Photoshop, Acrobat, After Effects, Lightroom Mobile, Bridge, Creative Cloud, Document Cloud and OneConsole for enterprise customers.</p>
               </div>
           </div>
-          <div class="col-12 col-sm-4 text-center">
+          <div class="col-12 col-lg-4 text-center">
               <div class="portfolio-service">
                   <img class="portfolio-service-icon" src="/images/icon-features-roadmaps.svg" alt="Product features and roadmaps">
                   <h4 class="portfolio-service-heading">Features, workflows and roadmaps</h4>

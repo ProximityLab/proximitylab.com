@@ -58,7 +58,7 @@
       <p>The app launched as a powerful companion app to Adobe Lightroom to provide professional photographers with anytime, anywhere access to their digital asset libraries on their mobile devices. Mosaic sold to OnOne Software in 2014, the same year Adobe released Lightroom Mobile to extend the reach of Lightroom’s capabilities to touch devices.</p>
     </div>
     <div class="col-lg-1 d-none d-lg-block"></div>
-    <div class="col-12 col-lg-5 d-none d-lg-block">
+    <div class="col-12 col-lg-5 product-image">
       <img src="/images/portfolio-description-mosaic-bgd.png"  class="img-fluid" alt="Visual Experience">
     </div>
   </div>

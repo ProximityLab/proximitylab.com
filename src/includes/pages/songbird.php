@@ -2,10 +2,10 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-lg-3">
+            <div class="col-12 col-md-3 order-md-12">
               <img class="jumbotron-logo-project" src="/images/logo-songbird.svg" alt="Songbird logo">
             </div>
-            <div class="col-lg-8 flex-first ww-hero-image"><img class="img-fluid" src="/images/website-mockup-songbird-2x.png" alt="Songbird website mockup"></div>
+            <div class="col-10 col-sm-8 col-md-8 flex-first ww-hero-image"><img class="img-fluid" src="/images/website-mockup-songbird-2x.png" alt="Songbird website mockup"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
@@ -25,15 +25,15 @@
 <section class="portfolio songbird-portfolio">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-5">
+            <div class="col-12 col-lg-5">
                 <div class="portfolio-text">
                     <p class="portfolio-paragraph">Songbird set out to help music aficionados have a more immersive cross-platform music experience. As technology innovators and music lovers themselves, the team at Songbird saw the limitations of mobile music consumption platforms and wanted to offer a more fulfilling experience. They partnered with Proximity Lab to help conduct research, develop concepts and workflows and to design new product experiences that would make up this product relaunch.</p>
                 </div>
             </div>
-            <div class="col-12 col-md-7">
+            <div class="col-12 col-lg-7">
               <div class="songbird-portfolio-services container-fluid">
                 <div class="row">
-                  <div class="col-md-1 d-none d-md-block"></div>
+                  <div class="col-lg-1 d-none d-lg-block"></div>
                   <div class="col-6 col-sm-3">
                     <div class="project-service">
                       <img src="/images/songbird-portfolio-1-2x.png" alt="Visual Experience">
@@ -44,7 +44,7 @@
                       <img src="/images/songbird-portfolio-3-2x.png" alt="Visual Experience">
                     </div>
                   </div>
-                  <div class="col-12 col-sm-6">
+                  <div class="col-12 col-sm-6 d-none d-sm-block">
                     <div class="project-service">
                       <img src="/images/songbird-portfolio-2-2x.png" alt="Visual Experience">
                     </div>

@@ -147,10 +147,10 @@
 }
 
 .portfolio-service-heading {
-    font-size: 24px;
-    font-weight: 300;
-    color: #4A4A4A;
-    margin-bottom: 16px;
+    padding: 0 3rem 1.3rem;
+    font-size: 1.8rem;
+    color: #282828;
+    font-weight: 700;
 }
 
 .portfolio-service-text {
@@ -275,9 +275,10 @@
 
 @media (min-width: 1440px) {
   .rootinsight-portfolio .project-service img {
-    max-width: 100%;
+    max-width: 120%;
     margin-left: 0;
-    height: auto;
+    max-height: 100%;
+    width: auto;
   }
 }
 
@@ -286,12 +287,13 @@
 }
 
 .rootinsight-portfolio .portfolio-service-heading {
-    color: #4A4A4A;
-    margin: 5rem 0 2rem;
-    padding: 0 3rem 0.8rem;
-    font-size: 1.8rem;
-    color: #282828;
-    font-weight: 700;
+    margin-top: 27px;
+}
+
+@media (min-width: 992px) {
+  .rootinsight-portfolio .portfolio-service-heading {
+    margin-top: 5rem;
+  }
 }
 
 .rootinsight-portfolio .portfolio-service-text {
@@ -391,22 +393,6 @@
 
 .rootinsight-portfolio-services .portfolio-service-body {
   margin: 40px 0;
-}
-
-.rootinsight-portfolio-services .portfolio-service-heading {
-    color: #4A4A4A;
-    padding: 0 3rem 0.8rem;
-    font-size: 1.8rem;
-    color: #282828;
-    font-weight: 700;
-    margin-bottom: 0.8rem
-}
-
-@media (min-width: 576px) {
-  .rootinsight-portfolio-services .portfolio-service-heading {
-    padding: 0 3rem 1.3rem;
-    margin-bottom: 2rem
-  }
 }
 
 .rootinsight-portfolio-services .portfolio-service-text {

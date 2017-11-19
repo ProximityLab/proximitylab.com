@@ -43,7 +43,7 @@
       </ul>
     </div>
     <div class="col-lg-1 d-none d-lg-block"></div>
-    <div class="col-12 col-lg-5 d-none d-lg-block">
+    <div class="col-12 col-lg-5">
       <img src="/images/portfolio-description-massart-bgd.jpg"  class="img-fluid" alt="Visual Experience">
     </div>
   </div>
@@ -51,7 +51,7 @@
 
 <div class="container-fluid project-description project-description-1">
   <div class="row justify-content-center m-0">
-    <div class="col-12 col-lg-8 order-12 order-lg-1 description-copy">
+    <div class="col-12 col-lg-10 order-12 order-lg-1 description-copy">
       <h1 class="heading-primary text-sm-center">A unique platform for experimentation</h1>
       <p class="text-sm-center">RFID tagged slippers which, combined with RFID sensors in the platform surface, allows the changing positions and movements of individual users to be tracked in real time. Images projected directly onto the floor are accompanied by stereo sound as a continuous response to the actions and interactions of participants.</p>
     </div>

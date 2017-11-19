@@ -42,11 +42,28 @@
 
 .ww-hero-image {
   margin-bottom: -2.1rem;
+  max-height: 138px;
+  overflow: hidden;
 }
 
 @media (min-width: 576px){
   .ww-hero-image {
+    margin-bottom: -4.1rem;
+    max-height: 248px;
+  }
+}
+
+@media (min-width: 768px){
+  .ww-hero-image {
+    margin-bottom: -4.1rem;
+    max-height: 298px;
+  }
+}
+
+@media (min-width: 992px){
+  .ww-hero-image {
     margin-bottom: -3.1rem;
+    max-height: unset;
   }
 }
 
@@ -121,7 +138,16 @@
 
 .project-description {
   min-height: 0;
-  padding: 0 3rem;
+  padding: 0 3rem 3rem;
+}
+
+.project-description p {
+  padding-right: 0;
+}
+
+.project-description .product-image .img-fluid {
+    width: 100%;
+    height: auto;
 }
 
 @media (min-width: 576px) {
@@ -133,23 +159,13 @@
 
 @media (min-width: 992px) {
   .project-description {
-    padding: 3rem 10rem;
-    background: url('/images/portfolio-description-scheduleme-bgd.png') no-repeat;
-    background-position: 140% 3rem;
+    padding: 3rem 0 3rem 10rem;
   }
-}
-
-@media (min-width: 1200px) {
-  .project-description {
-    background-position: 100% 3rem;
-    /*background-size: contain;*/
+  .project-description p {
+    padding-right: 5rem;
   }
-}
-
-@media (min-width: 1440px) {
-  .project-description {
-    background-size: 45%;
-    min-height: 800px;
+  .project-description .product-image {
+    padding-left: 3rem;
   }
 }
 
@@ -175,14 +191,6 @@
     font-weight: 400;
     line-height: 34px;
     color: #989898;
-}
-.project-more-info {
-  background: url('/images/portfolio_bgd_amadeus.jpg') no-repeat;
-  background-size: cover;
-  background-position: center top;
-  font-size: 1.5rem;
-    color: #282828;
-    /*padding: 0;*/
 }
 
 .project-more-info .top {

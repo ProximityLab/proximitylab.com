@@ -171,16 +171,13 @@ h2 {
     max-height: 100%;
 }
 
-@media (min-width: 768px) {
-  .project-description-2 img {
-      max-width: 100%;
-      max-height: 100%;
-  }
-}
-
 @media (min-width: 1200px) {
   .project-description-2 {
     margin: 6.5rem auto 4rem;
+  }
+  .project-description-2 img {
+      max-width: 100%;
+      max-height: 100%;
   }
 }
 
@@ -394,10 +391,14 @@ h2 {
   .project-description h2 {
     margin: 5.8rem 0 4.6rem!important;
   }
+  .project-description-2 h2 {
+    margin: 2rem 0 2rem!important;
+  }
+}
 
-  .portfolio-image {
-      background-repeat: no-repeat;
-      background-image: url('/images/songbird-carousel-placeholder.png');
+@media (min-width: 1200px) {
+  .project-description-2 h2 {
+    margin: 5.8rem 0 4.6rem!important;
   }
 }
 
@@ -417,13 +418,19 @@ h2 {
 }
 
 .portfolio-service-text {
-    max-width: 260px;
     margin: 0 auto;
     font-size: 16px;
     font-weight: 400;
     line-height: 34px;
     color: #989898;
 }
+
+@media (min-width: 992px) {
+  .portfolio-service-text {
+    max-width: 260px;
+  }
+}
+
 .project-more-info {
   background: url('/images/portfolio_bgd_amadeus.jpg') no-repeat;
   background-size: cover;

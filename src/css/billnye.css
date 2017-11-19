@@ -132,6 +132,10 @@ h2 {
     height: 300px;
 }
 
+.project-description-2 {
+  margin-bottom: 3rem;
+}
+
 .project-description-4 {
   margin-top: 6rem;
   margin-bottom: 3rem;
@@ -157,6 +161,9 @@ h2 {
   .description-copy {
     padding-right: 6rem;
     padding-left: 6rem;
+  }
+  .project-description-2 {
+    margin-bottom: 6rem;
   }
   .project-description-4 {
     margin-top: 6rem;
@@ -204,6 +211,7 @@ h2 {
   }
   .project-description-2 {
     margin-top: 0;
+    margin-bottom: 12rem;
   }
   .project-description-3 .flex-image img {
     right: 0;

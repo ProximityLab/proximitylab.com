@@ -29,7 +29,7 @@
 
 <div class="container-fluid project-description">
   <div class="row">
-    <div class="col-12">
+    <div class="col-12 col-lg-7 col-xl-6">
       <p>With the dramatic increase of IoT devices on home networks comes an even greater need to manage and protect them. The problem is two-fold. First, every device has it’s own unique settings and methods for managing permissions and security protocols. And each device can introduce vulnerabilities that can affect the home network performance and data security. Second, if devices are unsecured on home networks, they have the potential to interrupt network operations for Internet Service Providers (ISPs) and impact Internet service for millions of users. As Minim looked to create a solution that would help protect consumers and ISPs, they turned to Proximity Lab to help them think through the user experiences and product interfaces.</p>
       <p>As partners with the Minim team, we worked closely with the product strategy and engineering teams to help understand, clarify and shape both the consumer needs and business drivers to be addressed by this initial product release.</p>
       <h3>ISPs have limited visibility into home networks</h3>
@@ -38,7 +38,9 @@
       <p>Sometimes smart homes aren’t really that smart. Although many consumers are quite adept at working with their personal devices, the number and type of devices on home networks can be baffling. Each manufacturer has their own set-up and configuration instructions for their devices. Making matters worse, each device needs to be updated periodically to help keep it operational and secure. These steps are overwhelming for average home network users.</p>
       <p>Our approach to designing an experience with Minim included multiple steps, including:</p>
     </div>
-
+    <div class="col-5 col-xl-6 d-none d-lg-block product-image">
+      <img src="/images/portfolio-description-minim-bgd.png" class="img-fluid">
+    </div>
   </div>
 
 
