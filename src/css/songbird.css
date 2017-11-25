@@ -5,12 +5,12 @@
 /* jumbotron */
 
 .ww-portfolio .jumbotron {
-    background-image: linear-gradient(134deg, #29C5B3 0%, #008980 97%);
-    margin-bottom: 0;
-    padding-top: 8rem;
-    position: relative;
-    padding-left: 10%;
-    padding-right: 10%;
+  background-image: linear-gradient(-90deg, #038B82 0%, #37E2D6 46%, #048A81 96%);
+  margin-bottom: 0;
+  padding-top: 8rem;
+  position: relative;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 @media (min-width: 576px) {

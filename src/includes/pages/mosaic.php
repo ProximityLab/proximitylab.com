@@ -10,7 +10,7 @@
             <div id="mosaic-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item mosaic-carousel-testimonial-item mosaic-carousel-hero-item-one active">
-                  <img class="img-fluid" src="/images/website-mockup-mosaic-2x.jpg" alt="Mosaic website mockup">
+                  <img class="img-fluid" src="/images/website-mockup-mosaic-2x.png" alt="Mosaic website mockup">
                 </div>
               </div>
 

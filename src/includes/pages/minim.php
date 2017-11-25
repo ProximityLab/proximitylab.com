@@ -2,15 +2,20 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-3">
               <img class="jumbotron-logo-project" src="/images/logo-minim-white-169x60.png" alt="Minim logo">
             </div>
-            <div class="col-12 col-lg-4 ww-hero-image">
-            <div class="ww-vid-holder"><div class="ww-vid">
+            <div class="col-12 col-lg-6 ww-hero-image">
+              <div class="ww-vid-holder">
+                <div class="ww-vid text-center">
+                  <img src="/images/container-minim.png" class="img-fluid">
                   <video id="video1" poster="/images/video-poster-minim-2x.png" autoplay>
                   </video>
-                    <button id="ww-play-pause">Play/Pause</button>
-            </div></div></div>
+                  <button id="ww-play-pause">Play/Pause</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

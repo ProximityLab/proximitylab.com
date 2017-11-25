@@ -15,11 +15,11 @@ h2 {
   font-weight: 300;
 }
 .ww-portfolio .jumbotron {
-  /* Rectangle: */
-  background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
+  background-image: linear-gradient(-90deg, #0080C4 3%, #88BEFF 49%, #7DC6FF 72%, #0083C9 99%);
   margin-bottom: 0;
   position: relative;
   padding-top: 8rem;
+  padding-bottom: 0;
 }
 
 .jumbotron-logo-project {

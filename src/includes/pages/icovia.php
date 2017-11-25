@@ -3,7 +3,7 @@
         <div class="row justify-content-center">
 
             <div class="col-lg-2">
-              <img class="jumbotron-logo-project" src="/images/logo-icovia-2x.png" alt="Icovia logo">
+              <img class="jumbotron-logo-project" src="/images/logo-icovia.svg" alt="Icovia logo">
             </div>
 
             <div id="icovia-carousel-hero" class="col-lg-6 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">

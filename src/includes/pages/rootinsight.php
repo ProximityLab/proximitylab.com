@@ -2,26 +2,15 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
 
-            <div class="col-lg-2">
+            <div class="col col-lg-2">
               <img class="jumbotron-logo-project" src="/images/logo-rootinsight.svg" alt="Root Insight logo">
             </div>
 
-            <div id="rootinsight-carousel-hero" class="col-lg-5 ww-hero-image carousel carousel-fade" data-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item rootinsight-carousel-testimonial-item rootinsight-carousel-hero-item-one active">
-                  <img class="img-fluid" src="/images/website-mockup-rootinsight-2x.png" alt="Schedule website mockup">
-                </div>
-              </div>
-
-              <!-- ol class="carousel-indicators rootinsight-carousel-hero-indicators">
-                <li data-target="#rootinsight-carousel-hero" data-slide-to="0" class="rootinsight-carousel-hero-indicator active"></li>
-                <li data-target="#rootinsight-carousel-hero" data-slide-to="1" class="rootinsight-carousel-hero-indicator"></li>
-                <li data-target="#rootinsight-carousel-hero" data-slide-to="2" class="rootinsight-carousel-hero-indicator"></li>
-                <li data-target="#rootinsight-carousel-hero" data-slide-to="3" class="rootinsight-carousel-hero-indicator"></li>
-              </ol -->
+            <div class="col col-lg-6 ww-hero-image">
+              <img class="img-fluid" src="/images/website-mockup-rootinsight-2x.png" alt="Schedule website mockup">
             </div>
 
-            <div class="col-lg-2"></div>
+            <div class="col col-lg-2"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
