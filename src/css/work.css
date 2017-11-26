@@ -145,7 +145,7 @@
 #nye .work-item-overlay { background-color: rgba(60, 161, 94, 1) }
 #wagz .work-item-overlay { background-color: rgba(87, 155, 18, 1) }
 #amadeus .work-item-overlay { background-color: rgba(205, 25, 64, 1) }
-#minim .work-item-overlay { background-color: rgba(28, 113, 179, 1) }
+#minim .work-item-overlay { background-color: #21C6D6; }
 #adobe .work-item-overlay { background-color: rgba(246, 26, 52, 1) }
 
 #scheduleme .work-item-logo { height: 53px; }

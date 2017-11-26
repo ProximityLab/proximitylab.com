@@ -45,7 +45,7 @@
             <h5 class="about-service-item-heading">Design &amp; Development</h5>
             <p class="about-service-item-text">Wireframes and Prototypes</p>
             <p class="about-service-item-text">Visual Design</p>
-            <p class="about-service-item-text">Front End Develpoment</p>
+            <p class="about-service-item-text">Front End Development</p>
         </div>
     </div>
 </div>
