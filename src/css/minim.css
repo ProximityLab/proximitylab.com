@@ -21,7 +21,6 @@
 .jumbotron-logo-project {
     width: 169px;
     padding: 6rem 0 3rem 0;
-    /*margin: auto;*/
     display: block;
     position: relative;
     margin: 0 auto;
@@ -107,7 +106,6 @@
 
 @media (min-width: 576px) {
   .halfie .half-image {
-    /*display: flex;*/
     height: 300px;
     margin-bottom: 3rem;
   }
