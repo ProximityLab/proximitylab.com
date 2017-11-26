@@ -27,9 +27,9 @@
 .jumbotron-logo-project {
     margin: auto 0;
     position: absolute;
-    top:0;
+    top:-4rem;
     bottom:0;
-    right: 0;
+    right: -3rem;
     padding: 0;
   }
 }
@@ -378,8 +378,63 @@ background-color: #fff;
 }
 
 .portfolio-testimonial img {
-margin: 2rem 0 0 0;
+  margin: 2rem 0 0 0;
 }
+
+#wagz-carousel-hero {
+  margin: 1rem 4rem 0 4rem;
+  padding: 0;
+}
+
+@media (min-width:576px) {
+  #wagz-carousel-hero {
+    margin: 2rem auto -2rem auto;
+    max-width: 400px;
+  }
+}
+
+@media (min-width:992px) {
+  #wagz-carousel-hero {
+    margin: -3rem 0 -2rem 0;
+    max-width: none;
+  }
+}
+
+#wagz-carousel-hero > .img-fluid {
+  display: block;
+  position: absolute;
+  margin: 0;
+  top: -2.3%;
+  left: 50%;
+  margin-left: -50%;
+  width: 100%;
+  height: 100%;
+}
+
+/*@media (min-width:576px) {
+  #wagz-carousel-hero > .img-fluid {
+    left: 50%;
+    margin-left: -125px;
+    width: 280px;
+    height: 363px;
+  }
+}
+
+@media (min-width:992px) {
+  #wagz-carousel-hero > .img-fluid {
+    top: -30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #wagz-carousel-hero > .img-fluid {
+    top: -10px;
+    left: 50%;
+    margin-left: -50%;
+    width: 100%;
+    height: 100%;
+  }
+}*/
 
 #wagz-carousel-hero .carousel-inner {
   -moz-box-sizing: border-box;
@@ -390,21 +445,24 @@ margin: 2rem 0 0 0;
 
 #wagz-carousel-hero .carousel-inner .carousel-item {
   width: 100%;
+  top: 10.2%;
 }
 
-#wagz-carousel-hero .carousel-inner .carousel-item:before {
+/*#wagz-carousel-hero .carousel-inner .carousel-item:before {
   display: block;
   content: "";
   width: 100%;
-}
+}*/
 
 #wagz-carousel-hero .carousel-inner .carousel-item .img-fluid {
   position: relative;
+  width: 36.5%;
+  left: 1.37%;
 }
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   #wagz-carousel-hero .carousel-inner .carousel-item {
-    left: 50%;
+    
   }
 
   #wagz-carousel-hero .carousel-inner .carousel-item {
@@ -413,11 +471,23 @@ margin: 2rem 0 0 0;
   }
 
   #wagz-carousel-hero .carousel-inner .carousel-item .img-fluid {
-    left: -50%;
+    
   }
-}
+}*/
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
+  #wagz-carousel-hero .carousel-inner .carousel-item {
+    width: 100%;
+    top: 10.2%;
+  }
+
+  #wagz-carousel-hero .carousel-inner .carousel-item .img-fluid {
+    width: 39%;
+    left: 1.3%;
+  }
+}*/
+
+/*@media (min-width: 1440px) {
   #wagz-carousel-hero .carousel-inner .carousel-item {
     left: 50%;
   }
@@ -430,22 +500,7 @@ margin: 2rem 0 0 0;
   #wagz-carousel-hero .carousel-inner .carousel-item .img-fluid {
     left: -50%;
   }
-}
-
-@media (min-width: 1440px) {
-  #wagz-carousel-hero .carousel-inner .carousel-item {
-    left: 50%;
-  }
-
-  #wagz-carousel-hero .carousel-inner .carousel-item {
-    width: 115%;
-    top: -3em;
-  }
-
-  #wagz-carousel-hero .carousel-inner .carousel-item .img-fluid {
-    left: -50%;
-  }
-}
+}*/
 
 .wagz-portfolio .wagz-portfolio-services {
   padding-bottom: 3rem;

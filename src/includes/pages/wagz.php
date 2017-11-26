@@ -8,22 +8,23 @@
 
             <div id="wagz-carousel-hero" class="col-lg-4 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
               <div class="carousel-inner" role="listbox">
-                <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-two active">
-                  <img class="img-fluid" src="/images/iphone-mockup-wagz-2-2x.png" alt="Wagz iPhone mockup">
+                <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-two text-center active">
+                  <img class="img-fluid" src="/images/hero-image-wagz1.png" alt="Wagz iPhone mockup">
                 </div>
-                <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-three">
-                  <img class="img-fluid" src="/images/iphone-mockup-wagz-3-2x.png" alt="Wagz iPhone mockup">
+                <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-three text-center">
+                  <img class="img-fluid" src="/images/hero-image-wagz2.png" alt="Wagz iPhone mockup">
                 </div>
-                <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-five">
-                  <img class="img-fluid" src="/images/iphone-mockup-wagz-5-2x.png" alt="Wagz iPhone mockup">
+                <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-five text-center">
+                  <img class="img-fluid" src="/images/hero-image-wagz3.png" alt="Wagz iPhone mockup">
                 </div>
-                <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-six">
-                  <img class="img-fluid" src="/images/iphone-mockup-wagz-6-2x.png" alt="Wagz iPhone mockup">
+                <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-six text-center">
+                  <img class="img-fluid" src="/images/hero-image-wagz4.png" alt="Wagz iPhone mockup">
                 </div>
-                <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-seven">
-                  <img class="img-fluid" src="/images/iphone-mockup-wagz-7-2x.png" alt="Wagz iPhone mockup">
+                <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-seven text-center">
+                  <img class="img-fluid" src="/images/hero-image-wagz5.png" alt="Wagz iPhone mockup">
                 </div>
               </div>
+              <img src="/images/container-wagz.png" class="img-fluid">
             </div>
         </div><!-- row -->
     </div><!-- container -->
