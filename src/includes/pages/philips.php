@@ -3,7 +3,7 @@
         <div class="row justify-content-center">
 
             <div class="col-lg-3">
-              <img class="jumbotron-logo-project" src="/images/logo-philips-white-2x.png" alt="Philips logo">
+              <img class="jumbotron-logo-project" src="/images/logo-philips.svg" alt="Philips logo">
             </div>
             
             <div id="philips-carousel-hero" class="col-lg-6 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">

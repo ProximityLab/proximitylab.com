@@ -11,19 +11,7 @@
                 <div class="carousel-item icovia-carousel-testimonial-item icovia-carousel-hero-item-one active">
                   <img class="img-fluid" src="/images/website-mockup-icovia-1-2x.png" alt="Icovia website mockup">
                 </div>
-                <div class="carousel-item icovia-carousel-testimonial-item icovia-carousel-hero-item-two">
-                  <img class="img-fluid" src="/images/website-mockup-icovia-2-2x.png" alt="Icovia website mockup">
-                </div>
-                <div class="carousel-item icovia-carousel-testimonial-item icovia-carousel-hero-item-three">
-                  <img class="img-fluid" src="/images/website-mockup-icovia-3-2x.png" alt="Icovia website mockup">
-                </div>
               </div>
-
-              <!-- ol class="carousel-indicators icovia-carousel-hero-indicators">
-                <li data-target="#icovia-carousel-hero" data-slide-to="0" class="icovia-carousel-hero-indicator active"></li>
-                <li data-target="#icovia-carousel-hero" data-slide-to="1" class="icovia-carousel-hero-indicator"></li>
-                <li data-target="#icovia-carousel-hero" data-slide-to="2" class="icovia-carousel-hero-indicator"></li>
-              </ol -->
             </div>
 
             <div class="col-lg-2"></div>

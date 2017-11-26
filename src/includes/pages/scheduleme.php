@@ -11,12 +11,6 @@
                 <div class="carousel-item scheduleme-carousel-testimonial-item scheduleme-carousel-hero-item-one active">
                   <img class="img-fluid" src="/images/website-mockup-scheduleme-2x.png" alt="Schedule website mockup">
                 </div>
-                <div class="carousel-item scheduleme-carousel-testimonial-item scheduleme-carousel-hero-item-two">
-                  <img class="img-fluid" src="/images/website-mockup-scheduleme-2-2x.png" alt="Schedule website mockup">
-                </div>
-                <div class="carousel-item scheduleme-carousel-testimonial-item scheduleme-carousel-hero-item-four">
-                  <img class="img-fluid" src="/images/website-mockup-scheduleme-4-2x.png" alt="Schedule website mockup">
-                </div>
               </div>
             </div>
 

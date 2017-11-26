@@ -20,6 +20,7 @@
   margin-bottom: 0;
   position: relative;
   padding-top: 8rem;
+  overflow: hidden;
 }
 
 .jumbotron-logo-project {
@@ -63,11 +64,10 @@
 
 @media (min-width: 992px){
   .ww-hero-image {
-    margin-bottom: -3.1rem;
+    margin-bottom: -4.1rem;
     max-height: unset;
   }
 }
-
 
 .scroll-down-arrow {
     text-indent: -9999px;
@@ -102,12 +102,6 @@
       }
 }
 
-/*@media (min-width: 1440px) {
-      .scroll-down-arrow {
-          left: 0;
-      }
-}*/
-
 @media (max-width: 575px) {
   .portfolio-header {
     margin: 3rem 0 3rem;
@@ -125,11 +119,6 @@
         padding: 3rem 0 6rem 0;
     }
 }
-
-/*.portfolio-paragraph {
-  margin-top: 6rem;
-}*/
-
 
 @media (min-width: 992px) {
     .portfolio-paragraph {
@@ -248,8 +237,6 @@
 }
 
 .project-services {
-  /*background-color: #1B1C25;*/
-  /*margin-bottom: 0;*/
   padding: 6rem 0;
 }
 
@@ -261,7 +248,7 @@
 #scheduleme-carousel-hero .carousel-inner {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding-bottom: 73%;
+  padding-bottom: 51%;
 }
 
 #scheduleme-carousel-hero .carousel-inner .carousel-item {
@@ -280,58 +267,3 @@
   right: 0;
   bottom: 0;
 }
-
-/*
-.scheduleme-carousel-hero-indicators {
-    bottom: 4px;
-}
-
-.jumbotron {
-    padding: 4rem 2rem 4rem;
-}
-
-.scheduleme-carousel-hero-indicators {
-  bottom: -8px;
-}
-
-@media (max-width: 575px) {
-  .scheduleme-carousel-hero-indicators {
-    bottom: -18px;
-  }
-}
-
-@media (min-width: 576px) {
-  .scheduleme-carousel-hero-indicators {
-    bottom: -6px;
-  }
-}
-
-@media (min-width: 768px) {
-  .jumbotron {
-      padding: 4rem 2rem 3rem;
-  }
-  
-  .scheduleme-carousel-hero-indicators {
-    bottom: 4px;
-  }
-}
-
-@media (min-width: 992px) {
-  .jumbotron {
-      padding: 4rem 2rem 4rem;
-  }
-  
-  .scheduleme-carousel-hero-indicators {
-    bottom: -8px;
-  }
-}
-
-li.scheduleme-carousel-hero-indicator {
-    max-width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background-color: rgba(0,0,0,.2);
-    margin-left: 6.5px;
-    margin-right: 6.5px;
-}
-*/

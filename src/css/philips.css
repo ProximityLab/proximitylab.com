@@ -33,6 +33,11 @@
     position: relative;
 }
 
+.philips-logo {
+  color: #ffffff;
+  fill: #ffffff;
+}
+
 @media (min-width: 992px) {
     .jumbotron-logo-project {
       margin: auto 0;
