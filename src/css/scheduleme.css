@@ -156,6 +156,7 @@
   }
   .project-description .product-image {
     padding-left: 3rem;
+    margin-right: -20px;
   }
 }
 
