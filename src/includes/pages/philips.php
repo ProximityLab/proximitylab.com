@@ -2,12 +2,26 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
 
-            <div class="col-lg-2">
-              <img class="jumbotron-logo-project" src="/images/logo-philips.svg" alt="Philips logo">
+            <div class="col-lg-3">
+              <img class="jumbotron-logo-project" src="/images/logo-philips-white-2x.png" alt="Philips logo">
             </div>
-            <div class="col-lg-7 ww-hero-image"><img class="img-fluid" src="/images/website-mockup-philips-2x.png" alt="Philips website mockup"></div>
+            
+            <div id="philips-carousel-hero" class="col-lg-6 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item philips-carousel-testimonial-item philips-carousel-hero-item-two text-center active">
+                  <img class="img-fluid" src="/images/hero-image-philips1.jpg" alt="Philips Website mockup">
+                </div>
+                <div class="carousel-item philips-carousel-testimonial-item philips-carousel-hero-item-three text-center">
+                  <img class="img-fluid" src="/images/hero-image-philips2.jpg" alt="Philips Website mockup">
+                </div>
+                <div class="carousel-item philips-carousel-testimonial-item philips-carousel-hero-item-five text-center">
+                  <img class="img-fluid" src="/images/hero-image-philips3.jpg" alt="Philips Website mockup">
+                </div>
+              </div>
+              <img src="/images/container-philips.png" class="img-fluid">
+            </div>
         
-            <div class="col-lg-2"></div>
+            <div class="col-lg-3"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

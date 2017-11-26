@@ -122,7 +122,8 @@ a[name=start] {
 #wagz-carousel-hero .carousel-inner .carousel-item,
 #mosaic-carousel-hero .carousel-inner .carousel-item,
 #solidworks-carousel-hero .carousel-inner .carousel-item,
-#massart-carousel-hero .carousel-inner .carousel-item  {
+#massart-carousel-hero .carousel-inner .carousel-item,
+#philips-carousel-hero .carousel-inner .carousel-item  {
     opacity: 0;
     display: block;
     position: absolute;
@@ -140,7 +141,8 @@ a[name=start] {
 #wagz-carousel-hero .carousel-inner .carousel-item.active,
 #mosaic-carousel-hero .carousel-inner .carousel-item.active,
 #solidworks-carousel-hero .carousel-inner .carousel-item.active,
-#massart-carousel-hero .carousel-inner .carousel-item.active   {
+#massart-carousel-hero .carousel-inner .carousel-item.active,
+#philips-carousel-hero .carousel-inner .carousel-item.active   {
     opacity: 1;
     display: block;
 }
