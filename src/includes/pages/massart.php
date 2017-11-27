@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
 
-            <div class="jumbotron-logo-container col-lg-2">
+            <div class="jumbotron-logo-container col-12 col-lg-2">
               <img class="jumbotron-logo-project" src="/images/logo-massart.svg" alt="MassArt logo">
             </div>
 
@@ -18,7 +18,7 @@
               </ol -->
             </div>
 
-            <div class="col-lg-2"></div>
+            <div class="col-lg-2 d-none d-lg-block"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

@@ -373,6 +373,7 @@
   #video-amadeus {
     width: 596px;
     height: 450px;
+    left: 1px;
   }
 }
 
@@ -394,6 +395,7 @@
   transition: opacity .25s ease-in-out;
   cursor: pointer;
   background-color: rgba(0, 0, 0, .3);
+  border-radius: 0;
 }
 
 @media (min-width: 576px) {
@@ -408,16 +410,16 @@
     width: 420px;
     height: 315px;
     left: 0;
-    top: 1px;
+    top: -1px;
   }
 }
 
 @media (min-width: 1200px) {
   #ww-play-pause {
-    width: 590px;
-    height: 442px;
-    left: 0;
-    top: 2px;
+    width: 596px;
+    height: 448px;
+    left: 1px;
+    top: 0;
   }
 }
 

@@ -26,28 +26,28 @@
 }
 
 .jumbotron-logo-project {
-    width: 225px;
+    max-width: 165px;
     padding-bottom: 2rem;
     margin: auto;
     display: block;
     position: relative;
 }
 
-.philips-logo {
-  color: #ffffff;
-  fill: #ffffff;
-}
-
 @media (min-width: 992px) {
     .jumbotron-logo-project {
-      margin: auto 0;
+      margin: auto 4rem auto auto;
       position: absolute;
       top:0;
       bottom:0;
       right: 0;
       left: 0;
       padding: 0;
-      /*left: 3rem;*/
+    }
+}
+
+@media (min-width: 1200px) {
+    .jumbotron-logo-project {
+      margin: auto 6rem auto auto;
     }
 }
 

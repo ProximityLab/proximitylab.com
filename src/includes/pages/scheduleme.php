@@ -2,11 +2,11 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
 
-            <div class="col-lg-2">
-              <img class="jumbotron-logo-project" src="/images/logo-scheduleme.svg" alt="Schedule Me logo">
+            <div class="col-12 col-lg-2">
+              <img class="jumbotron-logo-project img-fluid" src="/images/logo-scheduleme.svg" alt="Schedule Me logo">
             </div>
 
-            <div id="scheduleme-carousel-hero" class="col-10 col-lg-5 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
+            <div id="scheduleme-carousel-hero" class="col-12 col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item scheduleme-carousel-testimonial-item scheduleme-carousel-hero-item-one active">
                   <img class="img-fluid" src="/images/website-mockup-scheduleme-2x.png" alt="Schedule website mockup">
@@ -14,7 +14,7 @@
               </div>
             </div>
 
-            <div class="col-lg-2"></div>
+            <div class="col-lg-1 d-none d-lg-block"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

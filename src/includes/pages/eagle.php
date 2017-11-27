@@ -1,11 +1,12 @@
 <div class="jumbotron jumbotron-fluid jumbotron">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center">
 
             <div class="col-lg-2 ww-push-logo">
               <img class="jumbotron-logo-project" src="/images/logo-eagle-2x.png" alt="Eagle Genomics logo">
             </div>
-            <div class="col-lg-8"><img class="img-fluid ww-hero-image" src="/images/website-mockup-eagle-2x.png" alt="Eagle Genomics website mockup"></div>
+            <div class="col-12 col-sm-8"><img class="img-fluid ww-hero-image" src="/images/website-mockup-eagle-2x.png" alt="Eagle Genomics website mockup"></div>
+            <div class="col-lg-2 d-none d-lg-block"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

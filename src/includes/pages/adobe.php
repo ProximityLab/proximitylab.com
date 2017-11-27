@@ -2,11 +2,11 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
 
-            <div class="col-lg-2">
+            <div class="col-12 col-lg-2">
               <img class="jumbotron-logo-project" src="/images/logo-adobe.svg" alt="Adobe logo">
             </div>
-            <div class="col-lg-8 ww-hero-image"><img class="img-fluid" src="/images/website-mockup-adobe-2x.png" alt="Adobe mobile mockup"></div>
-            <div class="col-lg-2"></div>
+            <div class="col-12 col-sm-8 ww-hero-image"><img class="img-fluid" src="/images/website-mockup-adobe-2x.png" alt="Adobe mobile mockup"></div>
+            <div class="col-lg-2 d-none d-lg-block"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

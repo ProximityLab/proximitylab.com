@@ -24,7 +24,7 @@
 }
 
 .jumbotron-logo-project {
-    width: 229px;
+    max-width: 229px;
     display: block;
     position: relative;
     padding-bottom: 2rem;

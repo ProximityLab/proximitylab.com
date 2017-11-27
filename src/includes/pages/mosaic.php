@@ -2,12 +2,12 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
 
-            <div class="col-lg-2">
-              <img class="jumbotron-logo-project img-fluid d-none d-md-block" src="/images/logo-mosaic.svg" alt="Mosaic logo">
-              <img class="jumbotron-logo-project img-fluid d-block d-md-none" src="/images/logo-mosaic-sm.svg" alt="Mosaic logo">
+            <div class="col-12 col-lg-2">
+              <img class="jumbotron-logo-project img-fluid d-none d-lg-block" src="/images/logo-mosaic.svg" alt="Mosaic logo">
+              <img class="jumbotron-logo-project img-fluid d-block d-lg-none" src="/images/logo-mosaic-sm.svg" alt="Mosaic logo">
             </div>
 
-            <div id="mosaic-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
+            <div id="mosaic-carousel-hero" class="col-12 px-5 px-md-0 col-sm-7 ww-hero-image carousel carousel-fade" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item mosaic-carousel-testimonial-item mosaic-carousel-hero-item-one active">
                   <img class="img-fluid" src="/images/website-mockup-mosaic-2x.png" alt="Mosaic website mockup">
@@ -19,7 +19,7 @@
               </ol -->
             </div>
 
-            <div class="col-lg-2"></div>
+            <div class="col-lg-2 d-none d-lg-block"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

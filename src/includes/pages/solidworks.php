@@ -2,11 +2,11 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
 
-            <div class="col-lg-4">
+            <div class="col-12 col-lg-4">
               <img class="jumbotron-logo-project img-fluid" src="/images/logo-solidworks.svg" alt="Solid Works logo">
             </div>
 
-            <div id="solidworks-carousel-hero" class="col-8 col-lg-4 col-md-4 col-sm-6 ww-hero-image carousel carousel-fade" data-ride="carousel">
+            <div id="solidworks-carousel-hero" class="col-8 col-lg-4 col-md-5 col-sm-6 ww-hero-image carousel carousel-fade" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item solidworks-carousel-testimonial-item solidworks-carousel-hero-item-one active">
                   <img class="img-fluid" src="/images/iphone-mockup-solidworks-2x.png" alt="Solid Works website mockup">
@@ -18,7 +18,7 @@
               </ol -->
             </div>
 
-            <div class="col-lg-4"></div>
+            <div class="col-lg-4 d-none d-lg-block"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

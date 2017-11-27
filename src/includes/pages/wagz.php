@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-lg-4">
+            <div class="col-12 col-lg-4">
               <img class="jumbotron-logo-project" src="/images/logo-wagz-green-2x.png" alt="Wagz logo">
             </div>
 

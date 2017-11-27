@@ -2,11 +2,11 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
 
-            <div class="col-lg-3">
-              <img class="jumbotron-logo-project" src="/images/logo-philips.svg" alt="Philips logo">
+            <div class="col-12 col-lg-2">
+              <img class="jumbotron-logo-project img-fluid" src="/images/logo-philips.svg" alt="Philips logo">
             </div>
             
-            <div id="philips-carousel-hero" class="col-lg-6 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
+            <div id="philips-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item philips-carousel-testimonial-item philips-carousel-hero-item-two text-center active">
                   <img class="img-fluid" src="/images/hero-image-philips1.jpg" alt="Philips Website mockup">
@@ -21,7 +21,7 @@
               <img src="/images/container-philips.png" class="img-fluid">
             </div>
         
-            <div class="col-lg-3"></div>
+            <div class="col-lg-2 d-none d-lg-block"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

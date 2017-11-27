@@ -2,11 +2,11 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
 
-            <div class="col-lg-2">
+            <div class="col-12 col-lg-2">
               <img class="jumbotron-logo-project" src="/images/logo-icovia.svg" alt="Icovia logo">
             </div>
 
-            <div id="icovia-carousel-hero" class="col-lg-6 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
+            <div id="icovia-carousel-hero" class="col-12 col-sm-6 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item icovia-carousel-testimonial-item icovia-carousel-hero-item-one active">
                   <img class="img-fluid" src="/images/website-mockup-icovia-1-2x.png" alt="Icovia website mockup">
@@ -14,7 +14,7 @@
               </div>
             </div>
 
-            <div class="col-lg-2"></div>
+            <div class="col-lg-2 d-none d-lg-block"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

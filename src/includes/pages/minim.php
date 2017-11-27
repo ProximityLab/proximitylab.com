@@ -15,7 +15,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-3"></div>
+            <div class="col-lg-3 d-none d-lg-block"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

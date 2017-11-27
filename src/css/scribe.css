@@ -32,7 +32,7 @@ h2 {
 
 @media (min-width: 576px) {
   .ww-portfolio .jumbotron {
-    padding-top: 50px;
+    padding-top: 8rem;
   }
 }
 
@@ -44,6 +44,9 @@ h2 {
     bottom:0;
     right: -25px;
     padding: 0;
+  }
+  .ww-portfolio .jumbotron {
+    padding-top: 3rem;
   }
 }
 

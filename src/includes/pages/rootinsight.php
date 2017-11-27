@@ -2,15 +2,15 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
 
-            <div class="col col-lg-2">
-              <img class="jumbotron-logo-project" src="/images/logo-rootinsight.svg" alt="Root Insight logo">
+            <div class="col-12 col-lg-2">
+              <img class="jumbotron-logo-project img-fluid" src="/images/logo-rootinsight.svg" alt="Root Insight logo">
             </div>
 
-            <div class="col col-lg-6 ww-hero-image">
+            <div class="col-12 col-sm-8 col-md-6 ww-hero-image">
               <img class="img-fluid" src="/images/website-mockup-rootinsight-2x.png" alt="Schedule website mockup">
             </div>
 
-            <div class="col col-lg-2"></div>
+            <div class="col col-lg-2 d-none d-lg-block"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

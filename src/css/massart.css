@@ -18,12 +18,17 @@
     top: 50%;
     z-index: 10;
     text-align: center;
+    margin-top: 3rem;
 }
 
 @media (min-width: 576px){
   .ww-portfolio .jumbotron {
     padding-bottom: 2.1rem;
     margin-bottom: 0;
+  }
+
+  .ww-portfolio .jumbotron .jumbotron-logo-container {
+      margin-top: 0;
   }
 }
 
