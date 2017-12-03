@@ -5,7 +5,7 @@
 /* jumbotron */
 
 .ww-portfolio .ama-jumbotron {
-  background-image: radial-gradient(#CC082B 4%, #F04261 48%, #CC082B 97%);
+  background-image: linear-gradient(-90deg, #CC082B 4%, #F04261 48%, #CC082B 97%);
   margin-bottom: 0;
   position: relative;
   padding-top: 7rem;
