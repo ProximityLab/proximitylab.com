@@ -316,13 +316,13 @@ a[name=start] {
 
 @media (max-width:375px) {
     .page-navigation li a {
-        margin-left: 15px;
-    }
-    .page-navigation li a.jumbotron-right {
         margin-left: 25px;
     }
+    .page-navigation li a.jumbotron-right {
+        margin-left: 11px;
+    }
     .page-navigation li a.jumbotron-left {
-        margin-left: 20px;
+        margin-left: 17px;
     }
 }
 
