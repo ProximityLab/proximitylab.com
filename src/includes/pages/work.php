@@ -96,7 +96,7 @@
             <div id="rootinsight" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
-                        <img class="work-item-logo" src="/images/logo-insight.png" alt="Root Insight logo">
+                        <img class="work-item-logo" src="/images/logo-rootinsight.svg" alt="Root Insight logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Competitive benchmarking and real-time business analytics</p>
                         <a class="work-item-button" href="/work/rootinsight">View work</a>
                     </div>
@@ -180,7 +180,7 @@
             <div id="icovia" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
-                        <img class="work-item-logo" src="/images/logo-icovia-2x.png" alt="icovia logo">
+                        <img class="work-item-logo" src="/images/logo-icovia.svg" alt="icovia logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">A browser-based space planning app becomes an industry standard</p>
                         <a class="work-item-button" href="/work/icovia">View work</a>
                     </div>

@@ -1,12 +1,12 @@
 <div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center">
 
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-3">
               <img class="jumbotron-logo-project" src="/images/logo-wagz-green-2x.png" alt="Wagz logo">
             </div>
 
-            <div id="wagz-carousel-hero" class="col-lg-4 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
+            <div id="wagz-carousel-hero" class="col-lg-5 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-two text-center active">
                   <img class="img-fluid" src="/images/hero-image-wagz1.png" alt="Wagz iPhone mockup">
@@ -26,6 +26,7 @@
               </div>
               <img src="/images/container-wagz.png" class="img-fluid">
             </div>
+            <div class="col-lg-3 d-none d-lg-block"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->

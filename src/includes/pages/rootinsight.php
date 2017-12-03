@@ -6,7 +6,7 @@
               <img class="jumbotron-logo-project img-fluid" src="/images/logo-rootinsight.svg" alt="Root Insight logo">
             </div>
 
-            <div class="col-12 col-sm-8 col-md-6 ww-hero-image">
+            <div class="col-12 col-sm-8 col-md-7 ww-hero-image">
               <img class="img-fluid" src="/images/website-mockup-rootinsight-2x.png" alt="Schedule website mockup">
             </div>
 

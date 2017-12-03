@@ -5,10 +5,10 @@
 /* jumbotron */
 
 .ww-portfolio .ama-jumbotron {
-  background-image: linear-gradient(-90deg, #CC082B 4%, #F04261 48%, #CC082B 97%);
+  background-image: radial-gradient(#CC082B 4%, #F04261 48%, #CC082B 97%);
   margin-bottom: 0;
   position: relative;
-  padding-top: 8rem;
+  padding-top: 7rem;
 }
 
 .jumbotron-logo-project {
@@ -20,6 +20,9 @@
 }
 
 @media (min-width: 992px) {
+  .ww-portfolio .ama-jumbotron {
+    padding-top: 4rem;
+  }
     .jumbotron-logo-project {
       margin: auto 0;
       position: absolute;
@@ -143,6 +146,7 @@
 
 .ama-portfolio-service-icon {
     margin-bottom: 27px;
+    height: 50px;
 }
 
 .ama-portfolio-service-heading {

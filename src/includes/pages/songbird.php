@@ -80,7 +80,7 @@
         </div>
         <div class="col-12 col-lg-4 text-center">
             <div class="project-service">
-                <img class="portfolio-service-icon pt-3" src="/images/icon-simple-full.svg" alt="Unified Experience">
+                <img class="portfolio-service-icon pt-3" src="/images/icon-social-media.png" alt="Unified Experience">
                 <h4 class="portfolio-service-heading">Social Media Integration</h4>
                 <p class="portfolio-service-text">Our team developed concepts for social media integration including competitive poll-based content to help Songbird pursue new customer acquisition strategies by leveraging the reach of existing customers and their passion for specific artists and genres.</p>
             </div>

@@ -1,7 +1,7 @@
 /* jumbotron */
 
 .ww-portfolio .jumbotron {
-    background-image: linear-gradient(-90deg, #4B940F 0%, #85D444 48%, #4B940F 100%);
+    background-image: radial-gradient(#4B940F 0%, #85D444 48%, #4B940F 100%);
     margin-bottom: 0;
     position: relative;
     padding-top: 8rem;
@@ -20,13 +20,12 @@
 .jumbotron-logo-project {
     margin: auto 0;
     position: absolute;
-    top:-4rem;
-    bottom:0;
-    right: -3rem;
+    top: -13rem;
+    bottom: 0;
+    right: -1rem;
     padding: 0;
   }
 }
-
 
 .scroll-down-arrow {
     text-indent: -9999px;
@@ -314,7 +313,7 @@
 
 @media (min-width:992px) {
   #wagz-carousel-hero {
-    margin: -3rem 0 -2rem 0;
+    margin: -3.6rem 0 -2rem 0;
     max-width: none;
   }
 }
@@ -325,27 +324,27 @@
   margin: 0;
   top: -2.3%;
   left: 50%;
-  margin-left: -50%;
-  width: 100%;
-  height: 100%;
+  margin-left: -50.5%;
+  width: 93.5%;
+  height: 98%;
 }
 
 #wagz-carousel-hero .carousel-inner {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding-bottom: 80%;
+  padding-bottom: 78%;
   overflow: visible;
 }
 
 #wagz-carousel-hero .carousel-inner .carousel-item {
   width: 100%;
-  top: 10.2%;
+  top: 9.9%;
 }
 
 #wagz-carousel-hero .carousel-inner .carousel-item .img-fluid {
   position: relative;
-  width: 36.5%;
-  left: 1.37%;
+  width: 33.8%;
+  left: -2.4%;
 }
 
 .wagz-portfolio .wagz-portfolio-services {

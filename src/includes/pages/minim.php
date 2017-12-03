@@ -3,7 +3,7 @@
         <div class="row">
 
             <div class="col-12 col-lg-3">
-              <img class="jumbotron-logo-project" src="/images/logo-minim-white-169x60.png" alt="Minim logo">
+              <img class="jumbotron-logo-project" src="/images/logo-minim-white-2x.png" alt="Minim logo">
             </div>
             <div class="col-12 col-lg-6 ww-hero-image">
               <div class="ww-vid-holder">
