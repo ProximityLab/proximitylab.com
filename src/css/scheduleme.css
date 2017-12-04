@@ -15,7 +15,7 @@
 /* jumbotron */
 
 .ww-portfolio .jumbotron {
-  background-image: linear-gradient(-90deg, #E48104 0%, #FFD151 49%, #E37D00 98%);
+  background-image: linear-gradient(-90deg, #E48104 0%, #FFD151 50%, #E48104 100%);
   margin-bottom: 0;
   position: relative;
   padding-top: 8rem;
@@ -31,13 +31,18 @@
 }
 
 @media (min-width: 992px){
-.jumbotron-logo-project {
+  .ww-portfolio .jumbotron {
+    padding-top: 9rem;
+  }
+
+  .jumbotron-logo-project {
     margin: auto;
     position: absolute;
-    top:0;
-    bottom:0;
-    right: -2rem;
+    top: -3.2rem;
+    bottom: 0;
+    right: -1.4rem;
     padding: 0;
+    width: 100%;
   }
 }
 
@@ -61,7 +66,7 @@
 @media (min-width: 992px){
   .ww-hero-image {
     margin-bottom: -4.1rem;
-    padding: 0 6rem;
+    padding: 0 5.6rem 0 6rem;
   }
 }
 
@@ -125,6 +130,7 @@
 .project-description {
   min-height: 0;
   padding: 0 3rem 3rem;
+  overflow: hidden;
 }
 
 .project-description p {

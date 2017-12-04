@@ -5,15 +5,15 @@
 /* jumbotron */
 
 .ww-portfolio .ama-jumbotron {
-  background-image: linear-gradient(-90deg, #CC082B 4%, #F04261 48%, #CC082B 97%);
+  background-image: linear-gradient(-90deg, #CC082B 0%, #F04261 50%, #CC082B 100%);
   margin-bottom: 0;
   position: relative;
-  padding-top: 7rem;
+  padding-top: 8rem;
 }
 
 .jumbotron-logo-project {
     width: 241px;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     margin: auto;
     display: block;
     position: relative;

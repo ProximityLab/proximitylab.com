@@ -5,7 +5,7 @@
 /* jumbotron */
 
 .ww-portfolio .jumbotron {
-  background-image: linear-gradient(-90deg, #C70D79 17%, #F044CA 49%, #E02090 80%);
+  background-image: linear-gradient(-90deg, #C70D79 0%, #F044CA 50%, #E02090 100%);
   position: relative;
   padding-top: 8rem;
   padding-bottom: 0;
@@ -30,9 +30,10 @@
 }
 
 .jumbotron-logo-project {
+    width: 237px;
     display: block;
     position: relative;
-    padding-bottom: 3.5rem;
+    padding-bottom: 3rem;
     margin: auto;
 }
 
@@ -46,10 +47,10 @@
 .jumbotron-logo-project {
     margin: auto;
     position: absolute;
-    top:0;
+    top:-6rem;
     bottom:0;
     right: 0;
-    left: 0;
+    left: -5rem;
     padding: 0;
     width: inherit;
     padding-right: 2rem;

@@ -11,24 +11,26 @@
   padding-bottom: 0;
   margin-top: -80px;
   min-height: 300px;
+  overflow: hidden;
 }
 
-.ww-portfolio .jumbotron .jumbotron-logo-container {
-    position: absolute;
-    top: 50%;
-    z-index: 10;
-    text-align: center;
-    margin-top: 3rem;
+.ww-portfolio .jumbotron-logo-container {
+  position: absolute;
+  padding: 0 3rem !important;
+  margin: 3rem auto auto;
+  min-height: 0;
+  text-align: center;
+  top:50%;
+  bottom:0;
+  right: 0;
+  left: 0;
+  z-index: 100;
 }
 
 @media (min-width: 576px){
   .ww-portfolio .jumbotron {
     padding-bottom: 2.1rem;
     margin-bottom: 0;
-  }
-
-  .ww-portfolio .jumbotron .jumbotron-logo-container {
-      margin-top: 0;
   }
 }
 
@@ -37,11 +39,11 @@
     margin-top: -80px;
   }
 
-  .ww-portfolio .jumbotron .jumbotron-logo-container {
-      position: relative;
-      top: inherit;
-      z-index: 10;
-      text-align: inherit;
+  .ww-portfolio .jumbotron-logo-container {
+    position: relative;
+    margin: 0;
+    top: 0;
+    min-height: inherit;
   }
 }
 
@@ -58,22 +60,26 @@
 }
 
 .jumbotron-logo-project {
-    width: 339px;
-    display: block;
-    position: relative;
-    padding-bottom: 2rem;
-    margin: auto;
+    width: 100%;
 }
 
-@media (min-width: 992px){
-.jumbotron-logo-project {
-    margin: auto;
+@media (min-width: 576px){
+  .jumbotron-logo-project {
+    width: 339px;
+    max-width: 339px;
+  }
+}
+
+@media (min-width: 992px) {
+  .jumbotron-logo-project {
     position: absolute;
-    top:0;
+    top:50%;
     bottom:0;
     right: 0;
     left: 0;
     padding: 0;
+    z-index: 100;
+    margin-top: -25%;
   }
 }
 
@@ -86,11 +92,29 @@
 
 .ww-hero-image {
   margin-bottom: 0;
+  overflow: hidden;
+}
+
+.ww-hero-image img {
+  width: 100%;
+  position: relative;
 }
 
 @media (min-width: 576px){
   .ww-hero-image {
     margin-bottom: -2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .ww-hero-image {
+    overflow: visible;
+  }
+
+  .ww-hero-image img {
+    margin-left: -25%;
+    width: 150%;
+    max-width: 150%;
   }
 }
 
@@ -387,36 +411,6 @@
 
 .project-service {
   margin:4rem 0;
-}
-
-#massart-carousel-hero .carousel-inner {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  overflow: visible;
-}
-
-#massart-carousel-hero .carousel-inner .carousel-item {
-  width: 100%;
-  position: relative;
-}
-
-@media (min-width: 992px) {
-  #massart-carousel-hero .carousel-inner {
-    margin-left: -25%;
-  }
-  #massart-carousel-hero .carousel-inner .carousel-item {
-    width: 150%;
-  }
-}
-
-#massart-carousel-hero .carousel-inner .carousel-item:before {
-  display: block;
-  content: "";
-  width: 100%;
-}
-
-#massart-carousel-hero .carousel-inner .carousel-item .img-fluid {
-  
 }
 
 .description-copy {
