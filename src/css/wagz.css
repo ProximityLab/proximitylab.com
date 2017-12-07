@@ -1,7 +1,9 @@
 /* jumbotron */
 
 .ww-portfolio .jumbotron {
-    background-image: linear-gradient(-90deg, #4B940F 0%, #85D444 50%, #4B940F 100%);
+    background-image:
+      linear-gradient(180deg, rgba(75, 148, 15, 0.6) 0%, rgba(75, 148, 15, 0) 40%),
+      linear-gradient(-90deg, #4B940F 0%, #85D444 50%, #4B940F 100%);
     margin-bottom: 0;
     position: relative;
     padding-top: 8rem;
