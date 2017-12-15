@@ -106,13 +106,15 @@
             <img class="img-fluid" src="/images/about-team-member1.jpg" alt="Team member photo">
             <div class="about-team-person-overlay">
                 <div class="about-team-person-wrapper">
-                    <h1 class="about-team-person-name">Evan Karatzas</h1>
-                    <h2 class="about-team-person-title">Founder &amp; CEO</h2>
-                    <hr class="about-team-person-separator">
-                </div>
-                <div class="about-team-person-linkedin-wrapper text-center">
-                    <a href="http://www.linkedin.com/in/ekaratzas/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
-                    <hr class="about-team-person-linkedin-separator">
+                    <div class="about-team-person-detail-wrapper">
+                        <h1 class="about-team-person-name">Evan Karatzas</h1>
+                        <h2 class="about-team-person-title">Founder &amp; CEO</h2>
+                        <hr class="about-team-person-separator">
+                    </div>
+                    <div class="about-team-person-linkedin-wrapper text-center">
+                        <a href="http://www.linkedin.com/in/ekaratzas/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
+                        <hr class="about-team-person-linkedin-separator">
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,13 +122,15 @@
             <img class="img-fluid" src="/images/about-team-member2.jpg" alt="Team member photo">
             <div class="about-team-person-overlay">
                 <div class="about-team-person-wrapper">
-                    <h1 class="about-team-person-name">Nick Allen</h1>
-                    <h2 class="about-team-person-title">Director of Research &amp; Strategy</h2>
-                    <hr class="about-team-person-separator">
-                </div>
-                <div class="about-team-person-linkedin-wrapper text-center">
-                    <a href="http://www.linkedin.com/in/nickallen/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
-                    <hr class="about-team-person-linkedin-separator">
+                    <div class="about-team-person-detail-wrapper">
+                        <h1 class="about-team-person-name">Nick Allen</h1>
+                        <h2 class="about-team-person-title">Dir. of Research &amp; Strategy</h2>
+                        <hr class="about-team-person-separator">
+                    </div>
+                    <div class="about-team-person-linkedin-wrapper text-center">
+                        <a href="http://www.linkedin.com/in/nickallen/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
+                        <hr class="about-team-person-linkedin-separator">
+                    </div>
                 </div>
             </div>
         </div>
@@ -134,13 +138,15 @@
             <img class="img-fluid" src="/images/about-team-member3.jpg" alt="Team member photo">
             <div class="about-team-person-overlay">
                 <div class="about-team-person-wrapper">
-                    <h1 class="about-team-person-name">Ryan Szepan</h1>
-                    <h2 class="about-team-person-title">Senior UX Designer</h2>
-                    <hr class="about-team-person-separator">
-                </div>
-                <div class="about-team-person-linkedin-wrapper text-center">
-                    <a href="http://www.linkedin.com/in/szepan/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
-                    <hr class="about-team-person-linkedin-separator">
+                    <div class="about-team-person-detail-wrapper">
+                        <h1 class="about-team-person-name">Ryan Szepan</h1>
+                        <h2 class="about-team-person-title">Senior UX Designer</h2>
+                        <hr class="about-team-person-separator">
+                    </div>
+                    <div class="about-team-person-linkedin-wrapper text-center">
+                        <a href="http://www.linkedin.com/in/szepan/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
+                        <hr class="about-team-person-linkedin-separator">
+                    </div>
                 </div>
             </div>
         </div>
@@ -148,13 +154,15 @@
             <img class="img-fluid" src="/images/about-team-member4.jpg" alt="Team member photo">
             <div class="about-team-person-overlay">
                 <div class="about-team-person-wrapper">
-                    <h1 class="about-team-person-name">Brian Lucid</h1>
-                    <h2 class="about-team-person-title">SENIOR UX Designer</h2>
-                    <hr class="about-team-person-separator">
-                </div>
-                <div class="about-team-person-linkedin-wrapper text-center">
-                    <a href="http://www.linkedin.com/in/brianlucid/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
-                    <hr class="about-team-person-linkedin-separator">
+                    <div class="about-team-person-detail-wrapper">
+                        <h1 class="about-team-person-name">Brian Lucid</h1>
+                        <h2 class="about-team-person-title">SENIOR UX Designer</h2>
+                        <hr class="about-team-person-separator">
+                    </div>
+                    <div class="about-team-person-linkedin-wrapper text-center">
+                        <a href="http://www.linkedin.com/in/brianlucid/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
+                        <hr class="about-team-person-linkedin-separator">
+                    </div>
                 </div>
             </div>
         </div>
@@ -162,13 +170,15 @@
             <img class="img-fluid" src="/images/about-team-member5.jpg" alt="Team member photo">
             <div class="about-team-person-overlay">
                 <div class="about-team-person-wrapper">
-                    <h1 class="about-team-person-name">Yanjun Lyu</h1>
-                    <h2 class="about-team-person-title">Visual Designer</h2>
-                    <hr class="about-team-person-separator">
-                </div>
-                <div class="about-team-person-linkedin-wrapper text-center">
-                    <a href="http://www.linkedin.com/in/yanjun-lyu-193782a4/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
-                    <hr class="about-team-person-linkedin-separator">
+                    <div class="about-team-person-detail-wrapper">
+                        <h1 class="about-team-person-name">Yanjun Lyu</h1>
+                        <h2 class="about-team-person-title">Visual Designer</h2>
+                        <hr class="about-team-person-separator">
+                    </div>
+                    <div class="about-team-person-linkedin-wrapper text-center">
+                        <a href="http://www.linkedin.com/in/yanjun-lyu-193782a4/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
+                        <hr class="about-team-person-linkedin-separator">
+                    </div>
                 </div>
             </div>
         </div>
@@ -176,13 +186,15 @@
             <img class="img-fluid" src="/images/about-team-member6.jpg" alt="Team member photo">
             <div class="about-team-person-overlay">
                 <div class="about-team-person-wrapper">
-                    <h1 class="about-team-person-name">Tom Rhinelander</h1>
-                    <h2 class="about-team-person-title">SENIOR RESEARCHER</h2>
-                    <hr class="about-team-person-separator">
-                </div>
-                <div class="about-team-person-linkedin-wrapper text-center">
-                    <a href="http://www.linkedin.com/in/rhinelander/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
-                    <hr class="about-team-person-linkedin-separator">
+                    <div class="about-team-person-detail-wrapper">
+                        <h1 class="about-team-person-name">Tom Rhinelander</h1>
+                        <h2 class="about-team-person-title">SENIOR RESEARCHER</h2>
+                        <hr class="about-team-person-separator">
+                    </div>
+                    <div class="about-team-person-linkedin-wrapper text-center">
+                        <a href="http://www.linkedin.com/in/rhinelander/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
+                        <hr class="about-team-person-linkedin-separator">
+                    </div>
                 </div>
             </div>
         </div>
@@ -190,13 +202,15 @@
             <img class="img-fluid" src="/images/about-team-member7.jpg" alt="Team member photo">
             <div class="about-team-person-overlay">
                 <div class="about-team-person-wrapper">
-                    <h1 class="about-team-person-name">Jason Fernald</h1>
-                    <h2 class="about-team-person-title">FRONT-END DEVELOPER</h2>
-                    <hr class="about-team-person-separator">
-                </div>
-                <div class="about-team-person-linkedin-wrapper text-center">
-                    <a href="http://www.linkedin.com/in/jason-fernald-b49b542/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
-                    <hr class="about-team-person-linkedin-separator">
+                    <div class="about-team-person-detail-wrapper">
+                        <h1 class="about-team-person-name">Jason Fernald</h1>
+                        <h2 class="about-team-person-title">FRONT-END DEVELOPER</h2>
+                        <hr class="about-team-person-separator">
+                    </div>
+                    <div class="about-team-person-linkedin-wrapper text-center">
+                        <a href="http://www.linkedin.com/in/jason-fernald-b49b542/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
+                        <hr class="about-team-person-linkedin-separator">
+                    </div>
                 </div>
             </div>
         </div>
