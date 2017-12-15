@@ -394,12 +394,35 @@
   margin-bottom: 55.84px;
 }
 
+.about-team-person-linkedin-wrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0 30px;
+}
+
+.about-team-person-linkedin {
+  text-decoration: none;
+  margin-bottom: 15.5px;
+}
+
+.about-team-person-linkedin img {
+  width: 25px;
+}
+
+.about-team-person-linkedin-separator {
+  width: 27px;
+  border-color: #EF2198;
+  margin-left: 0;
+  margin-bottom: 17.5px;
+}
+
 
 /* location section */
 
 .about-location {
   margin-top: 109px;
-  background-image: url('/images/about-location-background.jpg');
+  background-image: url('/images/about-location-background.gif');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center 95%;

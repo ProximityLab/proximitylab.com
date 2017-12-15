@@ -110,6 +110,10 @@
                     <h2 class="about-team-person-title">Founder &amp; CEO</h2>
                     <hr class="about-team-person-separator">
                 </div>
+                <div class="about-team-person-linkedin-wrapper text-center">
+                    <a href="http://www.linkedin.com/in/ekaratzas/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
+                    <hr class="about-team-person-linkedin-separator">
+                </div>
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 about-team-person">
@@ -119,6 +123,10 @@
                     <h1 class="about-team-person-name">Nick Allen</h1>
                     <h2 class="about-team-person-title">Director of Research &amp; Strategy</h2>
                     <hr class="about-team-person-separator">
+                </div>
+                <div class="about-team-person-linkedin-wrapper text-center">
+                    <a href="http://www.linkedin.com/in/nickallen/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
+                    <hr class="about-team-person-linkedin-separator">
                 </div>
             </div>
         </div>
@@ -130,6 +138,10 @@
                     <h2 class="about-team-person-title">Senior UX Designer</h2>
                     <hr class="about-team-person-separator">
                 </div>
+                <div class="about-team-person-linkedin-wrapper text-center">
+                    <a href="http://www.linkedin.com/in/szepan/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
+                    <hr class="about-team-person-linkedin-separator">
+                </div>
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 about-team-person">
@@ -139,6 +151,10 @@
                     <h1 class="about-team-person-name">Brian Lucid</h1>
                     <h2 class="about-team-person-title">SENIOR UX Designer</h2>
                     <hr class="about-team-person-separator">
+                </div>
+                <div class="about-team-person-linkedin-wrapper text-center">
+                    <a href="http://www.linkedin.com/in/brianlucid/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
+                    <hr class="about-team-person-linkedin-separator">
                 </div>
             </div>
         </div>
@@ -150,6 +166,10 @@
                     <h2 class="about-team-person-title">Visual Designer</h2>
                     <hr class="about-team-person-separator">
                 </div>
+                <div class="about-team-person-linkedin-wrapper text-center">
+                    <a href="http://www.linkedin.com/in/yanjun-lyu-193782a4/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
+                    <hr class="about-team-person-linkedin-separator">
+                </div>
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 about-team-person">
@@ -160,6 +180,10 @@
                     <h2 class="about-team-person-title">SENIOR RESEARCHER</h2>
                     <hr class="about-team-person-separator">
                 </div>
+                <div class="about-team-person-linkedin-wrapper text-center">
+                    <a href="http://www.linkedin.com/in/rhinelander/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
+                    <hr class="about-team-person-linkedin-separator">
+                </div>
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 about-team-person">
@@ -169,6 +193,10 @@
                     <h1 class="about-team-person-name">Jason Fernald</h1>
                     <h2 class="about-team-person-title">FRONT-END DEVELOPER</h2>
                     <hr class="about-team-person-separator">
+                </div>
+                <div class="about-team-person-linkedin-wrapper text-center">
+                    <a href="http://www.linkedin.com/in/jason-fernald-b49b542/" class="about-team-person-linkedin"><img src="/images/icon-linkedin.svg"></a>
+                    <hr class="about-team-person-linkedin-separator">
                 </div>
             </div>
         </div>
@@ -186,10 +214,10 @@
         <div class="col-xl-1 d-none d-xl-block"></div>
         <div class="col-12 col-sm-6 col-lg-2">
             <h6 class="about-location-heading-tertiary">WEST COAST</h6>
-            <h5 class="about-location-heading-secondary">SF Bay Area</h5>
+            <h5 class="about-location-heading-secondary">San Francisco</h5>
             <address class="about-location-address">
-                510 3rd Street<br>
-                Oakland, CA 94607
+                1161 Mission Street<br>
+                San Francisco, CA 94103
             </address>
         </div>
 

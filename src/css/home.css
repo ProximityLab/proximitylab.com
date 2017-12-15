@@ -2,6 +2,30 @@
  * Home page
  */
 
+h2.intro {
+    opacity: 0;
+    position: relative;
+}
+
+ h2.intro .line {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+ }
+
+h2.intro .word {
+    white-space: nowrap;
+    position: relative;
+    display: inline-block
+}
+
+ h2.intro .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
 .home-workwith {
     padding-top: 100px;
     padding-bottom: 100px;

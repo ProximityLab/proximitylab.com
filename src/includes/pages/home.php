@@ -4,8 +4,15 @@
     <!-- <img class="ww-main-logo" src="/images/logo_animated_darkgray.gif" rel:animated_src="/images/logo_animated_darkgray.gif"
 		width="89" height="182" rel:auto_play="0" rel:rubbable="0" /> -->
     <h1>Proximity Lab</h1>
-  <h2>Proximity Lab is an interaction design studio. We're experts in realizing, rethinking and rebooting product strategy and user experience.</h2>
-  <a href="#start" class="home-carousel-header-arrow">Read more about Proximity Lab</a>
+    <h2 class="intro">
+      <div class="line line1">
+        <span class="letters">Proximity Lab is an interaction design studio.</span>
+      </div>
+      <div class="line line2">
+        <span class="letters">We're experts in realizing, rethinking and rebooting product strategy and user experience.</span>
+      </div>
+    </h2>
+    <a href="#start" class="home-carousel-header-arrow">Read more about Proximity Lab</a>
   </div>
 </header>
 

@@ -166,16 +166,8 @@
       <script src="/js/carousel-swipe.js"></script>
       <script src="/js/jquery.waypoints.min.js"></script>
       <script src="/js/jquery.touchSwipe.min.js"></script>
-      <!-- <script>
-        if ('registerElement' in document
-          && 'createShadowRoot' in HTMLElement.prototype
-          && 'import' in document.createElement('link')
-          && 'content' in document.createElement('template')) {
-          // We're using a browser with native WC support!
-        } else {
-          document.write('<script src="https:\/\/cdnjs.cloudflare.com/ajax/libs/polymer/0.3.4/platform.js"><\/script>')
-        }
-      </script> -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      <script src="/js/jquery.isvisible.js"></script>
       <script src="/custom.js"></script>
     </body>
 </html>
