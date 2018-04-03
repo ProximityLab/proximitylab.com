@@ -8,6 +8,33 @@ $(document).ready(function() {
   var allMods = $(".module");
   var fadeMods = $(".module-fade");
 
+  $('.jumbotron').imagesLoaded()
+    .done(function(instance) {
+      var headerImages = $(".header-image-fade");
+
+      headerImages.each(function(i, el) {
+        var el = $(el);
+        if (el.visible(true)) {
+          el.addClass("header-image-fade-in");
+        }
+      });
+    });
+
+  $('.about-header').imagesLoaded({
+      background: true
+    })
+    .done(function(instance) {
+      var headerImages = $(".header-image-fade");
+
+      headerImages.each(function(i, el) {
+        var el = $(el);
+        if (el.visible(true)) {
+          el.addClass("header-image-fade-in");
+        }
+      });
+    });
+
+
   allMods.each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {

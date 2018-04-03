@@ -2,23 +2,23 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
 
-            <div class="col-lg-2 ww-push-logo module-fade">
+            <div class="col-lg-2 ww-push-logo header-image-fade">
               <img class="jumbotron-logo-project" src="/images/logo-eagle.svg" alt="Eagle Genomics logo">
             </div>
-            <div class="col-12 col-sm-8 module-fade"><img class="img-fluid ww-hero-image" src="/images/website-mockup-eagle-2x.png" alt="Eagle Genomics website mockup"></div>
+            <div class="col-12 col-sm-8 header-image-fade"><img class="img-fluid ww-hero-image" src="/images/website-mockup-eagle-2x.png" alt="Eagle Genomics website mockup"></div>
             <div class="col-lg-2 d-none d-lg-block"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
 
-<div class="container-fluid 2 portfolio-header module-fade">
+<div class="container-fluid 2 portfolio-header">
   <div class="row">
     <div class="col-12">
-      <h2 class="heading-secondary text-center"><a name="start">ENTERPRISE UX</a></h2>
+      <h2 class="heading-secondary text-center module-fade"><a name="start">ENTERPRISE UX</a></h2>
 
-      <h1 class="heading-primary text-center">Accelerating Data Driven Discovery</h1>
+      <h1 class="heading-primary text-center module-fade">Accelerating Data Driven Discovery</h1>
 
-      <p class="header-text text-center">Visualization-based AI to power genomics research and insight</p>
+      <p class="header-text text-center module-fade">Visualization-based AI to power genomics research and insight</p>
     </div>
   </div>
 </div>
@@ -58,9 +58,9 @@
             </div>
         </div>
         <div class="col-12 module-fade">
-          <h2 class="text-left">Results-oriented UX</h2>
-          <p>Our teams worked together to process the research, explore feature and workflow ideas and develop a set of UX recommendations. The centerpiece of this work, one that offered the greatest value to target users, involved a concept for conversational UI and an interactive canvas-based visual modeling experience for genomic researchers and scientists to use to identify new drug discovery insights.</p>
-          <p>The new platform was purpose-built to improve the efficiency of existing processes and allow teams to collaborate and accelerate and manage their research projects as never before. Some highlights of the work include:</p>
+          <h2 class="text-left module-fade">Results-oriented UX</h2>
+          <p class="module-fade">Our teams worked together to process the research, explore feature and workflow ideas and develop a set of UX recommendations. The centerpiece of this work, one that offered the greatest value to target users, involved a concept for conversational UI and an interactive canvas-based visual modeling experience for genomic researchers and scientists to use to identify new drug discovery insights.</p>
+          <p class="module-fade">The new platform was purpose-built to improve the efficiency of existing processes and allow teams to collaborate and accelerate and manage their research projects as never before. Some highlights of the work include:</p>
         </div>
         <div class="col-12">
           <div class="eagle-portfolio-services container-fluid">
@@ -92,10 +92,10 @@
 <div class="container-fluid portfolio-testimonial module">
   <div class="row">
     <div class="ww-content">
-      <p class=" module-fade">“Proximity Lab was an excellent UX/UI product strategy and design partner. They helped us accelerate our understanding of user journeys and user profiles, and ultimately created stunning visual designs that enabled us to demonstrate the power of our product to current and new customers.”</p>
+      <p class="module-fade">“Proximity Lab was an excellent UX/UI product strategy and design partner. They helped us accelerate our understanding of user journeys and user profiles, and ultimately created stunning visual designs that enabled us to demonstrate the power of our product to current and new customers.”</p>
       <div class="module-fade">
         <img class="home-carousel-testimonial-author" src="/images/profile_ureta_vidal.png" alt="Testimonial author">
-        <p class="home-carousel-testimonial-author-title"><b>Abel Ureta-Vidal</b>, CEO Eagle Genomics</p>
+        <p class="home-carousel-testimonial-author-title"><b>Abel Ureta-Vidal</b><br>CEO Eagle Genomics</p>
       </div>
     </div>
   </div>

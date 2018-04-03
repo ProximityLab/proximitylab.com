@@ -2,11 +2,11 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
 
-            <div class="col-12 col-lg-2 module-fade">
+            <div class="col-12 col-lg-2 header-image-fade">
               <img class="jumbotron-logo-project img-fluid" src="/images/logo-philips.svg" alt="Philips logo">
             </div>
             
-            <div id="philips-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade module-fade" data-ride="carousel" data-interval="6000" data-pause="false">
+            <div id="philips-carousel-hero" class="col-lg-7 ww-hero-image carousel carousel-fade header-image-fade" data-ride="carousel" data-interval="6000" data-pause="false">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item philips-carousel-testimonial-item philips-carousel-hero-item-two text-center active">
                   <img class="img-fluid" src="/images/hero-image-philips1.jpg" alt="Philips Website mockup">
@@ -26,23 +26,23 @@
     </div><!-- container -->
 </div><!-- jumbotron -->
 
-<div class="container-fluid 2 portfolio-header module-fade">
+<div class="container-fluid 2 portfolio-header">
   <div class="row">
     <div class="col-12">
-      <h2 class="heading-secondary text-center"><a name="start">ENTERPRISE UX</a></h2>
+      <h2 class="heading-secondary text-center module-fade"><a name="start">ENTERPRISE UX</a></h2>
 
-      <h1 class="heading-primary text-center">Illuminating Designs and Automating Buildings</h1>
+      <h1 class="heading-primary text-center module-fade">Illuminating Designs and Automating Buildings</h1>
 
-      <p class="header-text text-center">Architectural lighting and energy management innovation</p>
+      <p class="header-text text-center module-fade">Architectural lighting and energy management innovation</p>
     </div>
   </div>
 </div>
 
 <div class="container-fluid project-description">
   <div class="row">
-    <div class="col-lg-5 module-fade">
-        <p>Philips Lighting is the world’s leading provider of architectural lighting design and energy management systems. Its technologies have given building owners the power and creativity to illuminate their buildings and landmarks with unlimited combinations of luminaires and color schemes. Philips has also created a software-based lighting &amp; energy management system that allows building owners to realize significant energy savings by centrally monitoring and controlling their systems.</p>
-        <p>
+    <div class="col-lg-5">
+        <p class="module-fade">Philips Lighting is the world’s leading provider of architectural lighting design and energy management systems. Its technologies have given building owners the power and creativity to illuminate their buildings and landmarks with unlimited combinations of luminaires and color schemes. Philips has also created a software-based lighting &amp; energy management system that allows building owners to realize significant energy savings by centrally monitoring and controlling their systems.</p>
+        <p class="module-fade">
             <strong style="color:#1E2128">Proof of concept to production</strong> <br />
             Like many enterprise applications, the software used to support these applications have been shaped by engineers with a specific perspective of the products and their capabilities.  The existing tools also lacked the ability to manage multiple buildings or to address individual controls with the level of flexibility that customers need. Similarly, while the energy management system was powerful, the interfaces initially envisioned by the product team was overly complex, lacked customer-centric design approach and didn’t allow building owners and operators to modify the energy use of thousands of buildings simultaneously. Our team was selected by Philips to help design a suite of applications that would support these product features across multiple customer personas.
         </p>

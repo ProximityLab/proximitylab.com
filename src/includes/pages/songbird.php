@@ -2,22 +2,22 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-12 col-md-3 order-md-12">
+            <div class="col-12 col-md-3 order-md-12 header-image-fade">
               <img class="jumbotron-logo-project" src="/images/logo-songbird.svg" alt="Songbird logo">
             </div>
-            <div class="col-10 col-sm-8 col-md-8 flex-first ww-hero-image"><img class="img-fluid" src="/images/website-mockup-songbird-2x.png" alt="Songbird website mockup"></div>
+            <div class="col-10 col-sm-8 col-md-8 flex-first ww-hero-image header-image-fade"><img class="img-fluid" src="/images/website-mockup-songbird-2x.png" alt="Songbird website mockup"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
 
-<div class="container-fluid 2 portfolio-header module-fade">
+<div class="container-fluid 2 portfolio-header">
   <div class="row">
     <div class="col-12">
-      <h2 class="heading-secondary text-center"><a name="start">APPLICATION REBOOTS</a></h2>
+      <h2 class="heading-secondary text-center module-fade"><a name="start">APPLICATION REBOOTS</a></h2>
 
-      <h1 class="heading-primary text-center">Redefining Expectations of Modern Music Consumption</h1>
+      <h1 class="heading-primary text-center module-fade">Redefining Expectations of Modern Music Consumption</h1>
 
-      <p class="header-text text-center">Building an immersive and integrated music appreciation platform</p>
+      <p class="header-text text-center module-fade">Building an immersive and integrated music appreciation platform</p>
     </div>
   </div>
 </div>

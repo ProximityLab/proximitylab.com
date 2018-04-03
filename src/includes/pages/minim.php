@@ -2,9 +2,9 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-3">
-              <img class="jumbotron-logo-project module-fade" src="/images/logo-minim.svg" alt="Minim logo">
+              <img class="jumbotron-logo-project header-image-fade" src="/images/logo-minim.svg" alt="Minim logo">
             </div>
-            <div class="col-12 col-lg-6 ww-hero-image module-fade">
+            <div class="col-12 col-lg-6 ww-hero-image header-image-fade">
               <div class="ww-vid-holder">
                 <div class="ww-vid text-center">
                   <img src="/images/container-minim.png" class="img-fluid">
@@ -19,28 +19,28 @@
     </div><!-- container -->
 </div><!-- jumbotron -->
 
-<div class="container-fluid 2 portfolio-header module-fade">
+<div class="container-fluid 2 portfolio-header">
   <div class="row">
     <div class="col-12">
-      <h2 class="heading-secondary text-center"><a name="start">STARTUPS</a></h2>
+      <h2 class="heading-secondary text-center module-fade"><a name="start">STARTUPS</a></h2>
 
-      <h1 class="heading-primary text-center">Demystifying the IoT</h1>
+      <h1 class="heading-primary text-center module-fade">Demystifying the IoT</h1>
 
-      <p class="header-text text-center">Empowering consumers with smart home security</p>
+      <p class="header-text text-center module-fade">Empowering consumers with smart home security</p>
     </div>
   </div>
 </div>
 
 <div class="container-fluid project-description">
   <div class="row">
-    <div class="col-12 col-lg-7 col-xl-6 module-fade">
-      <p>With the dramatic increase of IoT devices on home networks comes an even greater need to manage and protect them. The problem is two-fold. First, every device has it’s own unique settings and methods for managing permissions and security protocols. And each device can introduce vulnerabilities that can affect the home network performance and data security. Second, if devices are unsecured on home networks, they have the potential to interrupt network operations for Internet Service Providers (ISPs) and impact Internet service for millions of users. As Minim looked to create a solution that would help protect consumers and ISPs, they turned to Proximity Lab to help them think through the user experiences and product interfaces.</p>
-      <p>As partners with the Minim team, we worked closely with the product strategy and engineering teams to help understand, clarify and shape both the consumer needs and business drivers to be addressed by this initial product release.</p>
-      <h3>ISPs have limited visibility into home networks</h3>
-      <p> ISPs are responsible for providing reliable service to customers at all times. The ability to gain insight into what is happening at specific customer sites and the ability to quickly identify patterns across large numbers of customers is central to fulfilling this responsibility. Unfortunately, most ISPs can only tell if the cable modem is on-line or off-line, limiting their ability to assist customers in troubleshooting problems or diagnosing broader network or device problems. Any next generation solution to this problem must include views that aggregate information from different systems about the customer and their networked devices.</p>
-      <h3>Consumers are not technical experts</h3>
-      <p>Sometimes smart homes aren’t really that smart. Although many consumers are quite adept at working with their personal devices, the number and type of devices on home networks can be baffling. Each manufacturer has their own set-up and configuration instructions for their devices. Making matters worse, each device needs to be updated periodically to help keep it operational and secure. These steps are overwhelming for average home network users.</p>
-      <p>Our approach to designing an experience with Minim included multiple steps, including:</p>
+    <div class="col-12 col-lg-7 col-xl-6">
+      <p class="module-fade">With the dramatic increase of IoT devices on home networks comes an even greater need to manage and protect them. The problem is two-fold. First, every device has it’s own unique settings and methods for managing permissions and security protocols. And each device can introduce vulnerabilities that can affect the home network performance and data security. Second, if devices are unsecured on home networks, they have the potential to interrupt network operations for Internet Service Providers (ISPs) and impact Internet service for millions of users. As Minim looked to create a solution that would help protect consumers and ISPs, they turned to Proximity Lab to help them think through the user experiences and product interfaces.</p>
+      <p class="module-fade">As partners with the Minim team, we worked closely with the product strategy and engineering teams to help understand, clarify and shape both the consumer needs and business drivers to be addressed by this initial product release.</p>
+      <h3 class="module-fade">ISPs have limited visibility into home networks</h3>
+      <p class="module-fade"> ISPs are responsible for providing reliable service to customers at all times. The ability to gain insight into what is happening at specific customer sites and the ability to quickly identify patterns across large numbers of customers is central to fulfilling this responsibility. Unfortunately, most ISPs can only tell if the cable modem is on-line or off-line, limiting their ability to assist customers in troubleshooting problems or diagnosing broader network or device problems. Any next generation solution to this problem must include views that aggregate information from different systems about the customer and their networked devices.</p>
+      <h3 class="module-fade">Consumers are not technical experts</h3>
+      <p class="module-fade">Sometimes smart homes aren’t really that smart. Although many consumers are quite adept at working with their personal devices, the number and type of devices on home networks can be baffling. Each manufacturer has their own set-up and configuration instructions for their devices. Making matters worse, each device needs to be updated periodically to help keep it operational and secure. These steps are overwhelming for average home network users.</p>
+      <p class="module-fade">Our approach to designing an experience with Minim included multiple steps, including:</p>
     </div>
     <div class="col-5 col-xl-6 d-none d-lg-block product-image module-fade">
       <img src="/images/portfolio-description-minim-bgd.png" class="img-fluid">
@@ -82,7 +82,7 @@
       <p class="module-fade">“Proximity Lab is at the top of the game for user experience and design. Having worked with them on multiple occasions and projects, they have proven to be a firm that goes way beyond producing simple mock-ups. They take the time to understand the core solution a product needs to deliver.”</p>
       <div class="module-fade">
         <img src="/images/profile-jeremy-hitchcock-2x.png" alt="Testimonial author">
-        <p class="home-carousel-testimonial-author-title"><strong>Jeremy Hitchcock,</strong> Founder &amp; CEO  (Minim &amp; Dyn)</p>
+        <p class="home-carousel-testimonial-author-title"><strong>Jeremy Hitchcock</strong><br>Founder &amp; CEO  (Minim &amp; Dyn)</p>
       </div>
     </div>
   </div>

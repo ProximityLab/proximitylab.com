@@ -3,31 +3,31 @@
         <div class="row justify-content-center">
 
             <div class="col-md-12 col-lg-2">
-              <img class="jumbotron-logo-project module-fade" src="/images/logo-scribe-white-2x.png" alt="Scribe logo">
+              <img class="jumbotron-logo-project header-image-fade" src="/images/logo-scribe-white-2x.png" alt="Scribe logo">
             </div>
-            <div class="col-12 col-sm-7 jumbotron-hero-container module-fade"><img class="img-fluid" src="/images/website-mockup-scribe-2x.png" alt="Scribe website mockup"></div>
+            <div class="col-12 col-sm-7 jumbotron-hero-container header-image-fade"><img class="img-fluid" src="/images/website-mockup-scribe-2x.png" alt="Scribe website mockup"></div>
             <div class="col-lg-2 d-none d-lg-block"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
 
-<div class="container-fluid 2 portfolio-header module-fade">
+<div class="container-fluid 2 portfolio-header">
   <div class="row">
     <div class="col-12">
-      <h2 class="heading-secondary text-center"><a name="start">APPLICATION REBOOTS</a></h2>
+      <h2 class="heading-secondary text-center module-fade"><a name="start">APPLICATION REBOOTS</a></h2>
 
-      <h1 class="heading-primary text-center">Clicks, not Code: Modernizing Data Integration</h1>
+      <h1 class="heading-primary text-center module-fade">Clicks, not Code: Modernizing Data Integration</h1>
 
-      <p class="header-text text-center">Expanding the power and usability of SaaS-based integration</p>
+      <p class="header-text text-center module-fade">Expanding the power and usability of SaaS-based integration</p>
     </div>
   </div>
 </div>
 
-<div class="container-fluid project-description project-description-0 module-fade">
+<div class="container-fluid project-description project-description-0">
   <div class="row">
     <div class="col-lg-5">
-      <p>A market leader in data integration software, Scribe Software set out to re-imagine its legacy data integration platform. In a market dominated by highly technical products, Scribe was driven by a desire to offer the most accessible and approachable integration solution in the market.</p>
-      <p>In contrast to traditional command line and code snippet oriented integration tools aimed at technically advanced users, Scribe set out to build an experience built on “clicks, not code.” With hundreds of customers actively using their legacy product, this ambitious undertaking had a number of challenges. Scribe engaged with Proximity Lab to lead the early research and planning, all phases of UX and UI design and front-end development as well as advanced scripting for the canvas-oriented experience.</p>
+      <p class="module-fade">A market leader in data integration software, Scribe Software set out to re-imagine its legacy data integration platform. In a market dominated by highly technical products, Scribe was driven by a desire to offer the most accessible and approachable integration solution in the market.</p>
+      <p class="module-fade">In contrast to traditional command line and code snippet oriented integration tools aimed at technically advanced users, Scribe set out to build an experience built on “clicks, not code.” With hundreds of customers actively using their legacy product, this ambitious undertaking had a number of challenges. Scribe engaged with Proximity Lab to lead the early research and planning, all phases of UX and UI design and front-end development as well as advanced scripting for the canvas-oriented experience.</p>
     </div>
 
   </div>
@@ -37,10 +37,10 @@
   <div class="row">
     <div class="col-12">
       <img src="/images/portfolio-description-scribe-bgd-2-2x.png" class="img-fluid my-lg-5 module-fade">
-      <div class="module-fade">
-        <h2>Focused research and user journeys</h2>
-        <p>Drawing from market research tools and evaluations of the existing product experience, our team set out to understand the legacy solution, existing customer experience and the needs of potential and underserved customers. We worked with the internal product teams to gain understanding of product features and capabilities of the product and conducted customer interviews and observe and discuss challenges with existing workflows and to surface specific pain points and desired features and outcomes.</p>
-        <p>The creation of key persona types, journey maps, and idealized workflows helped focus and drive product UX recommendations and ultimately shaped the strategic direction of the product roadmap.</p>
+      <div>
+        <h2 class="module-fade">Focused research and user journeys</h2>
+        <p class="module-fade">Drawing from market research tools and evaluations of the existing product experience, our team set out to understand the legacy solution, existing customer experience and the needs of potential and underserved customers. We worked with the internal product teams to gain understanding of product features and capabilities of the product and conducted customer interviews and observe and discuss challenges with existing workflows and to surface specific pain points and desired features and outcomes.</p>
+        <p class="module-fade">The creation of key persona types, journey maps, and idealized workflows helped focus and drive product UX recommendations and ultimately shaped the strategic direction of the product roadmap.</p>
       </div>
     </div>
   </div>
@@ -111,7 +111,7 @@
       <p>“Proximity Lab understands our business - they challenged our thinking to help create new paradigms for data integration. The resulting user-centric design is now driving the product roadmap for our SaaS platform - we are seeing a new category of users performing data integration tasks that would have previously been outside of their skillset.”</p>
       <img src="/images/testimonial-author-scribe-2x.png" alt="Testimonial author">
       <p class="home-carousel-testimonial-author-title">
-          <strong>Shawn McGowan,</strong> CEO  Scribe</p>
+          <strong>Shawn McGowan</strong><br>CEO  Scribe</p>
     </div>
   </div>
 </div>

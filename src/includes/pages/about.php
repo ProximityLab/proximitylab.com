@@ -1,15 +1,15 @@
-<header class="about-header">
+<header class="about-header module-fade">
     <!-- <a href="/"><img class="about-logo" src="/images/logo-proximity-lab-white.svg" alt="Proximity Lab logo"></a> -->
 
 
 
-    <h2 class="about-header-heading-secondary text-center module-fade">ABOUT PROXIMITY LAB</h2>
+    <h2 class="about-header-heading-secondary text-center header-image-fade">ABOUT PROXIMITY LAB</h2>
 
-    <h1 class="about-header-heading-primary text-center module-fade">Our Passion</h1>
+    <h1 class="about-header-heading-primary text-center header-image-fade">Our Passion</h1>
 
-    <hr class="about-separator module-fade">
+    <hr class="about-separator header-image-fade">
 
-    <p class="about-header-text text-center module-fade">Proximity Lab is an award-winning interaction design studio with a 25-year track record providing product strategy, user experience design and front-end development to trusted brands and startups.</p>
+    <p class="about-header-text text-center header-image-fade">Proximity Lab is an award-winning interaction design studio with a 25-year track record providing product strategy, user experience design and front-end development to trusted brands and startups.</p>
 </header>
 
 <div class="container-fluid about-service module-fade">
@@ -127,21 +127,6 @@
                     </div>
                     <div class="about-team-person-linkedin-wrapper text-center">
                         <a href="http://www.linkedin.com/in/nickallen/" class="about-team-person-linkedin" target="_blank"><img src="/images/icon-linkedin.svg"></a>
-                    </div>
-                    <hr class="about-team-person-separator">
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 about-team-person module-fade">
-            <img class="img-fluid" src="/images/about-team-member8.jpg" alt="Team member photo">
-            <div class="about-team-person-overlay">
-                <div class="about-team-person-wrapper">
-                    <div class="about-team-person-detail-wrapper">
-                        <h1 class="about-team-person-name">Laura Fish</h1>
-                        <h2 class="about-team-person-title">Dir. of Design &amp; Creative Strategy</h2>
-                    </div>
-                    <div class="about-team-person-linkedin-wrapper text-center">
-                        <a href="http://www.linkedin.com/in/lauraalisonfish/" class="about-team-person-linkedin" target="_blank"><img src="/images/icon-linkedin.svg"></a>
                     </div>
                     <hr class="about-team-person-separator">
                 </div>
