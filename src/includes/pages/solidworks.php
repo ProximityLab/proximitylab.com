@@ -1,4 +1,4 @@
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron jumbotron-fluid module-fade">
     <div class="container-fluid">
         <div class="row justify-content-center">
 
@@ -23,7 +23,7 @@
     </div><!-- container -->
 </div><!-- jumbotron -->
 
-<div class="container-fluid 2 portfolio-header">
+<div class="container-fluid 2 portfolio-header module-fade">
   <div class="row">
     <div class="col-12">
       <h2 class="heading-secondary text-center"><a name="start">APPLICATION REBOOTS</a></h2>
@@ -37,7 +37,7 @@
 
 <div class="container-fluid project-description">
   <div class="row">
-    <div class="col-12 col-md-12 col-lg-6">
+    <div class="col-12 col-md-12 col-lg-6 module-fade">
       <p>As a global leader in computer-aided design (CAD) technologies, SolidWorks has developed a large network of dedicated users around the world. To support and accelerate their work, SolidWorks partnered with Proximity Lab to develop concepts for a community portal. What started as a simple project to share basic resources turned into a comprehensive experience for SolidWorks users to:</p>
       <ul>
         <li>
@@ -53,9 +53,9 @@
           – a platform to share ideas with peers and get help from experts
         </li>
       </ul>
-      <p>The platform was initially designed as a responsive desktop experience. Following the design of the browser-based version, our team designed native mobile for touch devices.</p>
+      <p class="module-fade">The platform was initially designed as a responsive desktop experience. Following the design of the browser-based version, our team designed native mobile for touch devices.</p>
     </div>
-    <div class="background-image col-12 col-lg-6">
+    <div class="background-image col-12 col-lg-6 module-fade">
       <img src="/images/portfolio-description-solidworks-bgd.png"  class="img-fluid" alt="Visual Experience">
     </div>
   </div>

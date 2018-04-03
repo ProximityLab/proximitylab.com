@@ -1,4 +1,4 @@
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron jumbotron-fluid module-fade">
     <div class="container-fluid">
         <div class="row">
 
@@ -10,7 +10,7 @@
     </div><!-- container -->
 </div><!-- jumbotron -->
 
-<div class="container-fluid 2 portfolio-header">
+<div class="container-fluid 2 portfolio-header module-fade">
   <div class="row">
     <div class="col-12">
       <h2 class="heading-secondary text-center"><a name="start">APPLICATION REBOOTS</a></h2>
@@ -27,11 +27,11 @@
         <div class="row">
             <div class="col-12 col-lg-5">
                 <div class="portfolio-text">
-                    <p class="portfolio-paragraph">Songbird set out to help music aficionados have a more immersive cross-platform music experience. As technology innovators and music lovers themselves, the team at Songbird saw the limitations of mobile music consumption platforms and wanted to offer a more fulfilling experience. They partnered with Proximity Lab to help conduct research, develop concepts and workflows and to design new product experiences that would make up this product relaunch.</p>
+                    <p class="portfolio-paragraph module-fade">Songbird set out to help music aficionados have a more immersive cross-platform music experience. As technology innovators and music lovers themselves, the team at Songbird saw the limitations of mobile music consumption platforms and wanted to offer a more fulfilling experience. They partnered with Proximity Lab to help conduct research, develop concepts and workflows and to design new product experiences that would make up this product relaunch.</p>
                 </div>
             </div>
             <div class="col-12 col-lg-7">
-              <div class="songbird-portfolio-services container-fluid">
+              <div class="songbird-portfolio-services container-fluid module-fade">
                 <div class="row">
                   <div class="col-lg-1 d-none d-lg-block"></div>
                   <div class="col-6 col-sm-3">
@@ -56,7 +56,7 @@
     </div>
 </section>
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-16by9 module-fade">
     <iframe id="video-iframe" class="embed-responsive-item" src="https://player.vimeo.com/video/226451580?title=0&amp;byline=0&amp;portrait=0" allowfullscreen></iframe>
 
     <iframe id="video-iframe" class="embed-responsive-item" src="https://player.vimeo.com/video/25350079" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -64,21 +64,21 @@
 
 <div class="container-fluid project-services">
     <div class="row">
-        <div class="col-12 col-lg-4 text-center">
+        <div class="col-12 col-lg-4 text-center module">
             <div class="project-service">
                 <img class="portfolio-service-icon" src="/images/icon-custom-research.svg" alt="Visual Experience">
                 <h4 class="portfolio-service-heading">Custom Research</h4>
                 <p class="portfolio-service-text">Before identifying the features that would differentiate Songbird from the competition and compel new users to try the platform, the Proximity Lab team analyzed competitive products and surveyed prospective consumers on their tastes, habits and desires.</p>
             </div>
         </div>
-        <div class="col-12 col-lg-4 text-center">
+        <div class="col-12 col-lg-4 text-center module">
             <div class="project-service">
                 <img class="portfolio-service-icon pt-3" src="/images/icon-optimized-design.svg" alt="Team Collaboration">
                 <h4 class="portfolio-service-heading">Mobile-first Product Design</h4>
                 <p class="portfolio-service-text">In a target market demographic heavy with mobile users, we prioritized the redevelopment of the Songbird mobile platforms for iOS and Android. Our design imperative was to go beyond music management and playback and to explore enriched social and artist discovery experiences.</p>
             </div>
         </div>
-        <div class="col-12 col-lg-4 text-center">
+        <div class="col-12 col-lg-4 text-center module">
             <div class="project-service">
                 <img class="portfolio-service-icon pt-3" src="/images/icon-social-media.png" alt="Unified Experience">
                 <h4 class="portfolio-service-heading">Social Media Integration</h4>

@@ -16,7 +16,7 @@
   </div>
 </header>
 
-<div class="container home-workwith">
+<div class="container home-workwith module-fade">
   <div class="row" id="home-headline">
     <div class="col-12">
       <h1 class="home-workwith-header-heading text-center display-1 pb-5"><a name="start">What does design collaboration look like?</a></h1>
@@ -24,8 +24,8 @@
     </div>
   </div>
 
-  <div class="row ww-panels pt-5">
-    <div class="col-lg-4">
+  <div class="row ww-panels pt-5 module">
+    <div class="col-lg-4 module">
       <div id="home-carousel-enterprise" class="carousel" data-ride="carousel" data-interval="4000" data-pause="false">
         <ol class="carousel-indicators">
           <li data-target="#home-carousel-enterprise" data-slide-to="0" class="active"></li>
@@ -99,7 +99,7 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-4 module">
       <div id="home-carousel-startups" class="carousel" data-ride="carousel" data-interval="4000" data-pause="false">
         <ol class="carousel-indicators">
           <li data-target="#home-carousel-startups" data-slide-to="0" class="active"></li>
@@ -173,7 +173,7 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-4 module">
       <div id="home-carousel-reboots" class="carousel" data-ride="carousel" data-interval="4000" data-pause="false">
         <ol class="carousel-indicators">
           <li data-target="#home-carousel-reboots" data-slide-to="0" class="active"></li>
@@ -251,45 +251,53 @@
   </div>
 </div>
 
-<div id="home-carousel-testimonial" class="carousel carousel-fade" data-ride="carousel" data-interval="10000">
+<div id="home-carousel-testimonial" class="carousel carousel-fade module" data-ride="carousel" data-interval="10000">
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item home-carousel-testimonial-item home-carousel-testimonial-item-four active">
       <div class="carousel-caption home-carousel-testimonial-caption">
         <h5 class="home-carousel-testimonial-heading d-none d-md-block">THE BOND WITH OUR CLIENTS</h5>
-        <img class="home-carousel-testimonial-logo" src="/images/logo-adobe.svg" alt="Adobe logo">
-        <p class="home-carousel-testimonial-text">“As Adobe has grown and expanded its product lines over the years, we have relied on the outside expertise of Proximity Lab to help ensure we are designing and developing the most usable and effective tools possible for the creative marketplace. In many cases, they are not only a trusted partner, but serve as an extension to our design team to help on everything from product-focused UI exercises to executive level vision work.”</p>
-        <img class="home-carousel-testimonial-author" src="/images/profile-jamie-myrold-2x.png" alt="Testimonial author">
-        <p class="home-carousel-testimonial-author-title"><b>Jamie Myrold</b>, VP of Design Adobe</p>
+        <img class="home-carousel-testimonial-logo module-fade" src="/images/logo-adobe.svg" alt="Adobe logo">
+        <p class="home-carousel-testimonial-text module-fade">“As Adobe has grown and expanded its product lines over the years, we have relied on the outside expertise of Proximity Lab to help ensure we are designing and developing the most usable and effective tools possible for the creative marketplace. In many cases, they are not only a trusted partner, but serve as an extension to our design team to help on everything from product-focused UI exercises to executive level vision work.”</p>
+        <div class="module-fade">
+          <img class="home-carousel-testimonial-author" src="/images/profile-jamie-myrold-2x.png" alt="Testimonial author">
+          <p class="home-carousel-testimonial-author-title"><b>Jamie Myrold</b>, VP of Design Adobe</p>
+        </div>
       </div>
     </div>
 
     <div class="carousel-item home-carousel-testimonial-item home-carousel-testimonial-item-one">
       <div class="carousel-caption home-carousel-testimonial-caption">
         <h5 class="home-carousel-testimonial-heading d-none d-md-block">THE BOND WITH OUR CLIENTS</h5>
-        <img class="home-carousel-testimonial-logo-scribe" src="/images/logo-scribe.png" alt="Scribe logo">
-        <p class="home-carousel-testimonial-text">“Proximity Lab understands our business - they challenged our thinking to help create new paradigms for data integration. The resulting user-centric design is now driving the product roadmap for our SaaS platform - we are seeing a new category of users performing data integration tasks that would have previously been outside of their skillset.”</p>
-        <img class="home-carousel-testimonial-author" src="/images/testimonial-author-scribe-2x.png" alt="Testimonial author">
-        <p class="home-carousel-testimonial-author-title"><b>Shawn McGowan</b>, CEO Scribe</p>
+        <img class="home-carousel-testimonial-logo-scribe module-fade" src="/images/logo-scribe.png" alt="Scribe logo">
+        <p class="home-carousel-testimonial-text module-fade">“Proximity Lab understands our business - they challenged our thinking to help create new paradigms for data integration. The resulting user-centric design is now driving the product roadmap for our SaaS platform - we are seeing a new category of users performing data integration tasks that would have previously been outside of their skillset.”</p>
+        <div class="module-fade">
+          <img class="home-carousel-testimonial-author" src="/images/testimonial-author-scribe-2x.png" alt="Testimonial author">
+          <p class="home-carousel-testimonial-author-title"><b>Shawn McGowan</b>, CEO Scribe</p>
+        </div>
       </div>
     </div>
 
     <div class="carousel-item home-carousel-testimonial-item home-carousel-testimonial-item-two">
       <div class="carousel-caption home-carousel-testimonial-caption">
         <h5 class="home-carousel-testimonial-heading">THE BOND WITH OUR CLIENTS</h5>
-        <img class="home-carousel-testimonial-logo" src="/images/logo-eagle-2x.png" alt="Eagle logo">
-        <p class="home-carousel-testimonial-text">“Proximity Lab was an excellent UX/UI product strategy and design partner. They helped us accelerate our understanding of user journeys and user profiles, and ultimately created stunning visual designs that enabled us to demonstrate the power of our product to current and new customers.”</p>
-        <img class="home-carousel-testimonial-author" src="/images/profile_ureta_vidal_2x.png" alt="Testimonial author">
-        <p class="home-carousel-testimonial-author-title"><b>Abel Ureta-Vidal</b>, CEO Eagle Genomics</p>
+        <img class="home-carousel-testimonial-logo module-fade" src="/images/logo-eagle-2x.png" alt="Eagle logo">
+        <p class="home-carousel-testimonial-text module-fade">“Proximity Lab was an excellent UX/UI product strategy and design partner. They helped us accelerate our understanding of user journeys and user profiles, and ultimately created stunning visual designs that enabled us to demonstrate the power of our product to current and new customers.”</p>
+        <div class="module-fade">
+          <img class="home-carousel-testimonial-author" src="/images/profile_ureta_vidal_2x.png" alt="Testimonial author">
+          <p class="home-carousel-testimonial-author-title"><b>Abel Ureta-Vidal</b>, CEO Eagle Genomics</p>
+        </div>
       </div>
     </div>
 
     <div class="carousel-item home-carousel-testimonial-item home-carousel-testimonial-item-three">
       <div class="carousel-caption home-carousel-testimonial-caption">
         <h5 class="home-carousel-testimonial-heading d-none d-md-block">THE BOND WITH OUR CLIENTS</h5>
-        <img class="home-carousel-testimonial-logo" src="/images/logo-minim-white-169x60.png" alt="Minim logo">
-        <p class="home-carousel-testimonial-text">“Proximity Lab is at the top of the game for user experience and design. Having worked with them on multiple occasions and projects, they have proven to be a firm that goes way beyond producing simple mock-ups. They take the time to understand the core solution a product needs to deliver.”</p>
-        <img class="home-carousel-testimonial-author" src="/images/profile-jeremy-hitchcock-2x.png" alt="Testimonial author">
-        <p class="home-carousel-testimonial-author-title"><b>Jeremy Hitchcock</b>, Founder &amp; COO Minim</p>
+        <img class="home-carousel-testimonial-logo module-fade" src="/images/logo-minim-white-169x60.png" alt="Minim logo">
+        <p class="home-carousel-testimonial-text module-fade">“Proximity Lab is at the top of the game for user experience and design. Having worked with them on multiple occasions and projects, they have proven to be a firm that goes way beyond producing simple mock-ups. They take the time to understand the core solution a product needs to deliver.”</p>
+        <div class="module-fade">
+          <img class="home-carousel-testimonial-author" src="/images/profile-jeremy-hitchcock-2x.png" alt="Testimonial author">
+          <p class="home-carousel-testimonial-author-title"><b>Jeremy Hitchcock</b>, Founder &amp; COO Minim</p>
+        </div>
       </div>
     </div>
   </div>

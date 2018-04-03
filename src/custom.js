@@ -6,23 +6,38 @@ $(document).ready(function() {
   var win = $(window);
 
   var allMods = $(".module");
+  var fadeMods = $(".module-fade");
 
   allMods.each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("already-visible"); 
-    } 
+      el.addClass("already-visible");
+    }
+  });
+
+  fadeMods.each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("fade-in");
+    }
   });
 
   win.scroll(function(event) {
-    
+
+    fadeMods.each(function(i, el) {
+      var el = $(el);
+      if (el.visible(true)) {
+        el.addClass("fade-in");
+      }
+    });
+
     allMods.each(function(i, el) {
       var el = $(el);
       if (el.visible(true)) {
-        el.addClass("come-in"); 
-      } 
+        el.addClass("come-in");
+      }
     });
-    
+
   });
 
   // Function to change elements on document scroll
@@ -96,17 +111,19 @@ $(document).ready(function() {
 
   // Home screen header building
   // Wrap every letter in a span
-  $('h2.intro .letters').each(function(){
+  $('h2.intro .letters').each(function() {
     var result = "";
     var words = $(this).text().split(" ");
-    for(var i = 0; i < words.length; i++) {
+    for (var i = 0; i < words.length; i++) {
       var word = '<span class="word">' + words[i].replace(/([a-zA-Z-9,\'\.])/g, '<span class="letter">$&</span>') + '</span> ';
       result = result + word;
     }
     $(this).html(result);
   });
 
-  anime.timeline({loop: true})
+  anime.timeline({
+      loop: true
+    })
     .add({
       targets: 'h2.intro',
       opacity: [0, 1],
@@ -116,13 +133,13 @@ $(document).ready(function() {
     })
     .add({
       targets: 'h2.intro .line1 .letter',
-      opacity: [0,1],
+      opacity: [0, 1],
       easing: "easeOutExpo",
       duration: 600,
       offset: '-=775',
       delay: function(el, i) {
         console.log(i);
-        return 50 * (i+1) + 1000
+        return 50 * (i + 1) + 1000
       }
     }).add({
       targets: 'h2.intro .line1',
@@ -132,12 +149,12 @@ $(document).ready(function() {
       delay: 1000
     }).add({
       targets: 'h2.intro .line2 .letter',
-      opacity: [0,1],
+      opacity: [0, 1],
       easing: "easeOutExpo",
       duration: 600,
       offset: '-=775',
       delay: function(el, i) {
-        return 50 * (i+1)
+        return 50 * (i + 1)
       }
     }).add({
       targets: 'h2.intro .line2',
@@ -152,6 +169,14 @@ $(document).ready(function() {
       duration: 1000,
       easing: "easeOutExpo",
       delay: 900
+    });
+
+  $(".about-team-person-wrapper .about-team-person-linkedin-wrapper").hover(
+    function() {
+      $(this).parent(".about-team-person-wrapper").addClass("hover");
+    },
+    function() {
+      $(this).parent(".about-team-person-wrapper").removeClass("hover");
     });
 
   // Work items for Mobile

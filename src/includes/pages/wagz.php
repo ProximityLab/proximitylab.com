@@ -1,12 +1,12 @@
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron jumbotron-fluid module-fade">
     <div class="container-fluid">
         <div class="row justify-content-center">
 
-            <div class="col-12 col-lg-3">
+            <div class="col-12 col-lg-3 module-fade">
               <img class="jumbotron-logo-project" src="/images/logo-wagz-green-2x.png" alt="Wagz logo">
             </div>
 
-            <div id="wagz-carousel-hero" class="col-lg-5 ww-hero-image carousel carousel-fade" data-ride="carousel" data-interval="6000" data-pause="false">
+            <div id="wagz-carousel-hero" class="col-lg-5 ww-hero-image carousel carousel-fade module-fade" data-ride="carousel" data-interval="6000" data-pause="false">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-two text-center active">
                   <img class="img-fluid" src="/images/hero-image-wagz1.png" alt="Wagz iPhone mockup">
@@ -24,14 +24,14 @@
                   <img class="img-fluid" src="/images/hero-image-wagz5.png" alt="Wagz iPhone mockup">
                 </div>
               </div>
-              <img src="/images/container-wagz.png" class="img-fluid">
+              <img src="/images/container-wagz.png" class="img-fluid module-fade">
             </div>
             <div class="col-lg-3 d-none d-lg-block"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
 
-<div class="container-fluid 2 portfolio-header">
+<div class="container-fluid 2 portfolio-header module-fade">
   <div class="row">
     <div class="col-12">
     <h2 class="heading-secondary text-center"><a name="start">STARTUPS</a></h2>
@@ -46,7 +46,7 @@
 <section class="wagz-portfolio">
   <div class="container-fluid">
     <div class="row">
-        <div class="col-12 col-xl-5 col-md6 col-sm-12 project-description">
+        <div class="col-12 col-xl-5 col-md6 col-sm-12 project-description module-fade">
           <div class="wagz-portfolio-text">
             <p class="wagz-portfolio-paragraph">Proximity Lab worked with Wagz to design a feature rich native mobile app and responsive web experience to accompany their connected dog collar. While there were other products on the market that helped dog owners monitor certain aspects of their dog’s life, none had the range of features and capabilities envisioned for the Wagz connected collar.</p>
             <p class="wagz-portfolio-paragraph">Indeed, the Wagz collar combines an impressive set of technologies and innovations to advance the health and happiness of dogs and their owners. We led the UX and visual design of the following features and flows:</p>
@@ -81,7 +81,7 @@
         <div class="col-12 col-xl-7 col-md6 col-sm-12">
           <div class="wagz-portfolio-services container-fluid">
             <div class="row">
-              <div class="col-12 col-sm-6">
+              <div class="col-12 col-sm-6 module">
                 <div class="project-service">
                   <img src="/images/wagz-portfolio-1-2x.png" alt="Visual Experience">
                   <div class="project-service-body">
@@ -90,7 +90,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-sm-6">
+              <div class="col-12 col-sm-6 module">
                 <div class="project-service">
                   <img src="/images/wagz-portfolio-2-2x.png" alt="Visual Experience">
                   <div class="project-service-body">
@@ -106,17 +106,18 @@
   </div>
 </section>
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-16by9 module-fade">
     <iframe id="video-iframe" class="embed-responsive-item" src="https://player.vimeo.com/video/226451580?title=0&amp;byline=0&amp;portrait=0" allowfullscreen></iframe>
 </div>
 
-<div class="container-fluid portfolio-testimonial">
+<div class="container-fluid portfolio-testimonial module">
   <div class="row">
     <div class="ww-content">
-        <p>"The Wagz team was blown away by the work by Proximity Lab. While we were originally looking for a UX/UI partner to help improve an app we had in mind to accompany our collar, we ended up with a comprehensive design partner. We couldn’t be happier with the result of our collaboration on this ambitious project."
-          <br /><img class="home-carousel-testimonial-author" src="/images/profile_terry_anderton.png" alt="Testimonial author"></p>
-      <p class="home-carousel-testimonial-author-title">
-          <b>Terry Anderton</b>, Founder and CEO Wagz</p>
+      <p class="module-fade">"The Wagz team was blown away by the work by Proximity Lab. While we were originally looking for a UX/UI partner to help improve an app we had in mind to accompany our collar, we ended up with a comprehensive design partner. We couldn’t be happier with the result of our collaboration on this ambitious project."</p>
+      <div class="module-fade">
+        <p><img class="home-carousel-testimonial-author" src="/images/profile_terry_anderton.png" alt="Testimonial author"></p>
+        <p class="home-carousel-testimonial-author-title"><b>Terry Anderton</b>, Founder and CEO Wagz</p>
+      </div>
     </div>
   </div>
 </div>

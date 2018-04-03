@@ -1,17 +1,17 @@
-<div class="jumbotron jumbotron-fluid jumbotron">
+<div class="jumbotron jumbotron-fluid jumbotron module-fade">
     <div class="container-fluid">
         <div class="row justify-content-center">
 
-            <div class="col-lg-2 ww-push-logo">
-              <img class="jumbotron-logo-project" src="/images/logo-eagle-2x.png" alt="Eagle Genomics logo">
+            <div class="col-lg-2 ww-push-logo module-fade">
+              <img class="jumbotron-logo-project" src="/images/logo-eagle.svg" alt="Eagle Genomics logo">
             </div>
-            <div class="col-12 col-sm-8"><img class="img-fluid ww-hero-image" src="/images/website-mockup-eagle-2x.png" alt="Eagle Genomics website mockup"></div>
+            <div class="col-12 col-sm-8 module-fade"><img class="img-fluid ww-hero-image" src="/images/website-mockup-eagle-2x.png" alt="Eagle Genomics website mockup"></div>
             <div class="col-lg-2 d-none d-lg-block"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
 
-<div class="container-fluid 2 portfolio-header">
+<div class="container-fluid 2 portfolio-header module-fade">
   <div class="row">
     <div class="col-12">
       <h2 class="heading-secondary text-center"><a name="start">ENTERPRISE UX</a></h2>
@@ -23,7 +23,7 @@
   </div>
 </div>
 
-<div class="container-fluid project-description">
+<div class="container-fluid project-description module-fade">
   <div class="row">
     <div class="col-xl-5 col-lg-6">
       <p class="portfolio-paragraph">Cambridge UK based Eagle Genomics is an award-winning provider of AI-powered analysis tools designed to drive and accelerate genomics research. Its products are used by some of the largest and most-respected life science companies in the world.  In an effort to expand their product portfolio, Eagle developed a concept for an app that allows researchers to perform multi-dimensional analyses on massive sets of biological data and allow for increased efficiencies in the research process. Understanding that this new product would require innovative interface concepts and a specialized UX and interface design team, Eagle looked for a design partner and selected Proximity Lab to help drive the vision and experience.</p>
@@ -36,28 +36,28 @@
 
 <div class="container-fluid project-services">
     <div class="row">
-        <div class="col-12 col-lg-4 text-center">
+        <div class="col-12 col-lg-4 text-center module">
             <div class="project-service">
                 <img class="portfolio-service-icon" src="/images/icon-user-research.svg" alt="Visual Experience">
                 <h4 class="portfolio-service-heading">User research</h4>
                 <p class="portfolio-service-text text-left text-sm-center">Interviews with prospective users helped us identify a broad set of user types who would interact with the Eagle system at various stages of the research process.</p>
             </div>
         </div>
-        <div class="col-12 col-lg-4 text-center">
+        <div class="col-12 col-lg-4 text-center module">
             <div class="project-service">
                 <img class="portfolio-service-icon" src="/images/icon-use-case.svg" alt="Team Collaboration">
                 <h4 class="portfolio-service-heading">Use case modeling</h4>
                 <p class="portfolio-service-text text-left text-sm-center">Journey maps, user flows and data visualization sketching helped us identify points of integration with other tools in the suite and streamline the workflows between them.</p>
             </div>
         </div>
-        <div class="col-12 col-lg-4 text-center">
+        <div class="col-12 col-lg-4 text-center module">
             <div class="project-service">
                 <img class="portfolio-service-icon" src="/images/icon-simple-full.svg" alt="Unified Experience">
                 <h4 class="portfolio-service-heading">Competitive analysis</h4>
                 <p class="portfolio-service-text text-left text-sm-center">We analyzed existing market solutions designed to aid in the genomic research process to get a clear sense of their strengths and weaknesses. This helped to surface common approaches and workflows.</p>
             </div>
         </div>
-        <div class="col-12">
+        <div class="col-12 module-fade">
           <h2 class="text-left">Results-oriented UX</h2>
           <p>Our teams worked together to process the research, explore feature and workflow ideas and develop a set of UX recommendations. The centerpiece of this work, one that offered the greatest value to target users, involved a concept for conversational UI and an interactive canvas-based visual modeling experience for genomic researchers and scientists to use to identify new drug discovery insights.</p>
           <p>The new platform was purpose-built to improve the efficiency of existing processes and allow teams to collaborate and accelerate and manage their research projects as never before. Some highlights of the work include:</p>
@@ -65,7 +65,7 @@
         <div class="col-12">
           <div class="eagle-portfolio-services container-fluid">
             <div class="row">
-              <div class="col-12 col-md-6">
+              <div class="col-12 col-md-6 module">
                 <div class="project-service">
                   <img src="/images/eagle-portfolio-1-2x.png" alt="Visual Experience">
                   <div class="project-service-body">
@@ -74,7 +74,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md-6">
+              <div class="col-12 col-md-6 module">
                 <div class="project-service">
                   <img src="/images/eagle-portfolio-2-2x.png" alt="Visual Experience">
                   <div class="project-service-body">
@@ -89,12 +89,14 @@
     </div>
 </div>
 
-<div class="container-fluid portfolio-testimonial">
+<div class="container-fluid portfolio-testimonial module">
   <div class="row">
     <div class="ww-content">
-      <p>“Proximity Lab was an excellent UX/UI product strategy and design partner. They helped us accelerate our understanding of user journeys and user profiles, and ultimately created stunning visual designs that enabled us to demonstrate the power of our product to current and new customers.”</p>
-      <img class="home-carousel-testimonial-author" src="/images/profile_ureta_vidal.png" alt="Testimonial author">
-      <p class="home-carousel-testimonial-author-title"><b>Abel Ureta-Vidal</b>, CEO Eagle Genomics</p>
+      <p class=" module-fade">“Proximity Lab was an excellent UX/UI product strategy and design partner. They helped us accelerate our understanding of user journeys and user profiles, and ultimately created stunning visual designs that enabled us to demonstrate the power of our product to current and new customers.”</p>
+      <div class="module-fade">
+        <img class="home-carousel-testimonial-author" src="/images/profile_ureta_vidal.png" alt="Testimonial author">
+        <p class="home-carousel-testimonial-author-title"><b>Abel Ureta-Vidal</b>, CEO Eagle Genomics</p>
+      </div>
     </div>
   </div>
 </div>
