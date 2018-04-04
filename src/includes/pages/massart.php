@@ -43,12 +43,12 @@
 
 <div class="container-fluid project-description project-description-1">
   <div class="row justify-content-center m-0">
-    <div class="col-12 col-lg-10 order-12 order-lg-1 description-copy module-fade">
+    <div class="col-12 col-lg-10 description-copy module-fade">
       <h1 class="heading-primary text-sm-center">A unique platform for experimentation</h1>
       <p class="text-sm-center">RFID tagged slippers which, combined with RFID sensors in the platform surface, allows the changing positions and movements of individual users to be tracked in real time. Images projected directly onto the floor are accompanied by stereo sound as a continuous response to the actions and interactions of participants.</p>
     </div>
 
-    <div class="col-12 col-lg-8 order-1 order-lg-12 p-0 module-fade">
+    <div class="col-12 col-lg-8 mt-5 mt-lg-0 p-0 module-fade">
         <div class="aspect-ratio justify-content-center">
           <iframe src="https://player.vimeo.com/video/6549332" width="640" height="352" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>

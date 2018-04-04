@@ -276,7 +276,13 @@
 }
 
 .project-description p {
+    margin: 0 0 4rem 0;
+}
+
+@media (min-width: 576px) {
+  .project-description p {
     margin: 0 6rem 4rem 0;
+  }
 }
 
 .project-description .product-image .img-fluid {

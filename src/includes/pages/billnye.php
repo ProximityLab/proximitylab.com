@@ -59,10 +59,8 @@
       <p class="text-sm-center module-fade">To help kids understand how their daily choices affect and influence climate change, we designed and developed several exhibits including "Bike with Bill" which featured a stationary bike hooked up to sensors that allowed kids to virtually ride through the streets of San Francisco while learning about ways to minimize their carbon footprint. The exhibit gallery features an interactive video wall dynamically populated with the avatars of every active visitor in the museum. Kids simply scan their badge and their avatar appears and lights up.</p>
     </div>
 
-    <div class="col-12 col-lg-8 order-1 order-lg-12 p-0 module-fade">
-        <div class="aspect-ratio">
-          <iframe src="https://player.vimeo.com/video/17790325" class="img-fluid" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
+    <div class="col-12 col-lg-8 order-1 order-lg-12 p-0 module-fade embed-responsive embed-responsive-16by9">
+        <iframe src="https://player.vimeo.com/video/17790325" class="img-fluid" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
   </div>
 </div>

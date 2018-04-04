@@ -22,45 +22,43 @@
   </div>
 </div>
 
-<section class="portfolio songbird-portfolio">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-lg-5">
-                <div class="portfolio-text">
-                    <p class="portfolio-paragraph module-fade">Songbird set out to help music aficionados have a more immersive cross-platform music experience. As technology innovators and music lovers themselves, the team at Songbird saw the limitations of mobile music consumption platforms and wanted to offer a more fulfilling experience. They partnered with Proximity Lab to help conduct research, develop concepts and workflows and to design new product experiences that would make up this product relaunch.</p>
-                </div>
+<section class="col-12 portfolio songbird-portfolio">
+    <div class="row">
+        <div class="content-column-left col-12 col-lg-5">
+            <div class="portfolio-text">
+                <p class="portfolio-paragraph module-fade">Songbird set out to help music aficionados have a more immersive cross-platform music experience. As technology innovators and music lovers themselves, the team at Songbird saw the limitations of mobile music consumption platforms and wanted to offer a more fulfilling experience. They partnered with Proximity Lab to help conduct research, develop concepts and workflows and to design new product experiences that would make up this product relaunch.</p>
             </div>
-            <div class="col-12 col-lg-7">
-              <div class="songbird-portfolio-services container-fluid module-fade">
-                <div class="row">
-                  <div class="col-lg-1 d-none d-lg-block"></div>
-                  <div class="col-6 col-sm-3">
-                    <div class="project-service">
-                      <img src="/images/songbird-portfolio-1-2x.png" alt="Visual Experience">
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-3 songbird-portfolio-services-col3 order-sm-12">
-                    <div class="project-service songbird-project-service-3">
-                      <img src="/images/songbird-portfolio-3-2x.png" alt="Visual Experience">
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-6 d-none d-sm-block">
-                    <div class="project-service">
-                      <img src="/images/songbird-portfolio-2-2x.png" alt="Visual Experience">
-                    </div>
-                  </div>
+        </div>
+        <div class="col-12 col-lg-7 order-2 order-lg-1 mb-0 mt-5 mb-lg-5 mt-lg-0">
+          <div class="content-column-right songbird-portfolio-services container-fluid module-fade">
+            <div class="row">
+              <div class="col-lg-1 d-none d-lg-block"></div>
+              <div class="col-6 col-sm-3">
+                <div class="project-service">
+                  <img src="/images/songbird-portfolio-1-2x.png" alt="Visual Experience">
+                </div>
+              </div>
+              <div class="col-6 col-sm-3 songbird-portfolio-services-col3 order-sm-12">
+                <div class="project-service songbird-project-service-3">
+                  <img src="/images/songbird-portfolio-3-2x.png" alt="Visual Experience">
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 d-none d-sm-block">
+                <div class="project-service">
+                  <img src="/images/songbird-portfolio-2-2x.png" alt="Visual Experience">
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div class="col-12 embed-responsive embed-responsive-16by9 module-fade order-1 order-lg-2 mt-5 mt-lg-5">
+            <iframe id="video-iframe" class="embed-responsive-item" src="https://player.vimeo.com/video/226451580?title=0&amp;byline=0&amp;portrait=0" allowfullscreen></iframe>
+            <iframe id="video-iframe" class="embed-responsive-item" src="https://player.vimeo.com/video/25350079" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
     </div>
+
 </section>
-
-<div class="embed-responsive embed-responsive-16by9 module-fade">
-    <iframe id="video-iframe" class="embed-responsive-item" src="https://player.vimeo.com/video/226451580?title=0&amp;byline=0&amp;portrait=0" allowfullscreen></iframe>
-
-    <iframe id="video-iframe" class="embed-responsive-item" src="https://player.vimeo.com/video/25350079" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
 
 <div class="container-fluid project-services">
     <div class="row">

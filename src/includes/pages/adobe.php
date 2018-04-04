@@ -26,7 +26,7 @@
 <section class="adobe-portfolio">
 
   <div class="container-fluid project-description project-description-0">
-    <div class="row m-0">
+    <div class="row m-lg-0">
       <div class="col-12 col-lg-6 description-text-col">
         <div class="module-fade">
           <p class="module-fade">Most people equate Adobe to their flagship applications like Photoshop, Illustrator and Acrobat. But the reality is that Adobe produces a wide range of consumer and enterprise tools designed to empower creative businesses.</p>
@@ -119,7 +119,7 @@
   </div>
 
   <div class="container-fluid portfolio-services">
-      <div class="row m-0">
+      <div class="row m-lg-0">
           <div class="col-12 col-lg-4 text-center module">
               <div class="portfolio-service">
                   <img class="portfolio-service-icon" src="/images/icon-analysis-research.svg" alt="Analysis and research">
@@ -153,7 +153,7 @@
   </div>
 
   <div class="container-fluid project-description project-description-2 module-fade">
-    <div class="row m-0">
+    <div class="row m-lg-0">
       <div class="col-12 description-text-col">
         <h1 class="heading-primary text-sm-center module-fade">Envisioning the future</h1>
         <p class="text-sm-center module-fade">We have helped the Adobe team look more broadly at how Adobe’s products are addressing the changing needs of creative professionals. We have also helped create long-term customer journeys and roadmaps to identify and anticipate the changing needs of creative experts over time, ensuring that customers maintain strong ties to Adobe as their needs and professional demands change.</p>

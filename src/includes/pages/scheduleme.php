@@ -29,11 +29,14 @@
 
 <div class="container-fluid project-description">
   <div class="row justify-content-center">
-    <div class="col-12 col-md-12 col-lg-6">
-      <p class="module-fade">The ScheduleMe team had an innovative idea for taking the frustration and complexity out of scheduling meetings. It’s difficult to identify days and times that work for multiple people to schedule meetings when team members use different calendar systems. ScheduleMe surfaces this availability regardless of the calendar system used by attendees and leverages it to make visual recommendations for the best dates and times to hold a meeting.</p>
+    <div class="col-12 col-lg-6">
+      <p class="module-fade mb-3 mb-md-5">The ScheduleMe team had an innovative idea for taking the frustration and complexity out of scheduling meetings. It’s difficult to identify days and times that work for multiple people to schedule meetings when team members use different calendar systems. ScheduleMe surfaces this availability regardless of the calendar system used by attendees and leverages it to make visual recommendations for the best dates and times to hold a meeting.</p>
+      <div class="d-block d-lg-none my-5">
+        <img src="/images/portfolio-description-scheduleme-bgd.png"  class="img-fluid" alt="Visual Experience">
+      </div>
       <p class="module-fade">They chose Proximity Lab as a design partner to help bring their vision to life. Working closely with product and engineering teams, Proximity Lab provided competitive research, persona and workflow development, UX design, visual design and fully responsive front-end development of key templates.</p>
     </div>
-    <div class="col-12 col-md-8 col-lg-6 product-image text-center text-lg-right module">
+    <div class="col-12 col-md-8 col-lg-6 product-image text-center text-lg-right module d-none d-lg-block">
       <img src="/images/portfolio-description-scheduleme-bgd.png"  class="img-fluid" alt="Visual Experience">
     </div>
   </div>

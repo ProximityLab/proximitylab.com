@@ -317,7 +317,13 @@
 }
 
 .project-more-info .bottom .inner img {
-  width: 100%;
+  width: 190%;
+}
+
+@media (min-width: 576px) {
+  .project-more-info .bottom .inner img {
+    width: 100%;
+  }
 }
 
 .project-services {

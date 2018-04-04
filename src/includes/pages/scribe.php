@@ -68,11 +68,14 @@
   </div>
 
   <div id="design-excellence" class="row module-fade">
-    <div class="col-md-6 d-flex flex-column justify-content-center text-container flex-first">
+    <div class="col-md-6 d-flex flex-column justify-content-center text-container flex-first pb-0 pb-md-auto">
       <h2>Design excellence</h2>
-      <p>A central challenge was developing a simple and approachable interface for a wide range of user types – creating a visually oriented data integration platform – without compromising the powerful capabilities of the product. Gartner Group, a leading market research firm, recognized Scribe’s re-imagined SaaS-based solution as “the best-in-class” for data integration, a designation that Scribe attributes largely to the research and product design work conducted by Proximity Lab.</p>
+      <div class="d-block d-md-none my-3">
+        <img src="/images/portfolio-scribe-design-excellence-2x.png"  class="img-fluid" alt="Visual Experience">
+      </div>
+      <p class="mb-0 mb-md-auto">A central challenge was developing a simple and approachable interface for a wide range of user types – creating a visually oriented data integration platform – without compromising the powerful capabilities of the product. Gartner Group, a leading market research firm, recognized Scribe’s re-imagined SaaS-based solution as “the best-in-class” for data integration, a designation that Scribe attributes largely to the research and product design work conducted by Proximity Lab.</p>
     </div>
-    <div class="flex-image col-12 col-md-6">
+    <div class="flex-image col-12 col-md-6 d-none d-md-block">
       <img src="/images/portfolio-scribe-design-excellence-2x.png"  class="img-fluid" alt="Visual Experience">
     </div>
   </div>

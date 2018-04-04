@@ -7,11 +7,10 @@ $(document).ready(function() {
 
   var allMods = $(".module");
   var fadeMods = $(".module-fade");
+  var headerImages = $(".header-image-fade");
 
   $('.jumbotron').imagesLoaded()
     .done(function(instance) {
-      var headerImages = $(".header-image-fade");
-
       headerImages.each(function(i, el) {
         var el = $(el);
         if (el.visible(true)) {
@@ -24,8 +23,6 @@ $(document).ready(function() {
       background: true
     })
     .done(function(instance) {
-      var headerImages = $(".header-image-fade");
-
       headerImages.each(function(i, el) {
         var el = $(el);
         if (el.visible(true)) {
@@ -62,6 +59,13 @@ $(document).ready(function() {
       var el = $(el);
       if (el.visible(true)) {
         el.addClass("come-in");
+      }
+    });
+
+    headerImages.each(function(i, el) {
+      var el = $(el);
+      if (el.visible(true)) {
+        el.addClass("header-image-fade-in");
       }
     });
 
