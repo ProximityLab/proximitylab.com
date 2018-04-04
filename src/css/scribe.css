@@ -15,35 +15,42 @@ h2 {
   font-weight: 300;
 }
 .ww-portfolio .jumbotron {
-  /* Rectangle: */
-  background-image: linear-gradient(-135deg, #037DC3 0%, #11ACF5 100%);
+  background-image:
+      linear-gradient(180deg, rgba(0, 128, 196, 0.6) 0%, rgba(0, 128, 196, 0) 40%),
+      linear-gradient(-90deg, #0080C4 0%, #88BEFF 50%, #0080C4 100%);
   margin-bottom: 0;
   position: relative;
   padding-top: 8rem;
+  padding-bottom: 0;
 }
 
 .jumbotron-logo-project {
-    width: 225px;
-    padding-bottom: 2rem;
+    width: 200px;
+    padding-bottom: 3rem;
     margin: auto;
     display: block;
     position: relative;
 }
 
-@media (min-width: 576px) {
-  .ww-portfolio .jumbotron {
-    padding-top: 50px;
-  }
-}
-
 @media (min-width: 992px) {
+  .jumbotron-hero-container {
+      padding: 0 6rem;
+  }
+
+  .jumbotron-hero-container > img {
+      margin-left: 3.3rem;
+  }
   .jumbotron-logo-project {
+    width: 225px;
     margin: auto 0;
     position: absolute;
-    top:0;
+    top:-6rem;
     bottom:0;
-    right: -40px;
+    right: -5.5rem;
     padding: 0;
+  }
+  .ww-portfolio .jumbotron {
+    padding-top: 6rem;
   }
 }
 

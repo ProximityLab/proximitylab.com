@@ -5,7 +5,9 @@
 /* jumbotron */
 
 .ww-portfolio .jumbotron {
-  background-image: linear-gradient(-134deg, #FF1D2B 0%, #A50217 100%);
+  background-image:
+      linear-gradient(180deg, rgba(190, 13, 24, 0.6) 0%, rgba(190, 13, 24, 0) 40%),
+      linear-gradient(-90deg, #BE0D18 0%, #FF5560 50%, #DA131F 100%);
   margin-bottom: 0;
   position: relative;
   padding-bottom: 0;
@@ -26,8 +28,8 @@
 }
 
 .jumbotron-logo-project {
-    width: 89px;
-    padding-bottom: 2rem;
+    width: 75px;
+    padding-bottom: 3rem;
     margin: auto;
     display: block;
     position: relative;
@@ -35,13 +37,14 @@
 
 @media (min-width: 992px) {
     .jumbotron-logo-project {
+      width: 110px;
       margin: auto 0;
       position: absolute;
       top:0;
       bottom:0;
-      right: 55px;
+      right: 0;
       padding: 0;
-      /*left: 3rem;*/
+      left: 3rem;
     }
 }
 
@@ -550,7 +553,7 @@
 
 .adobe-carousel-testimonial-author-title {
     font-size: 1.6rem;
-    line-height: 44px;
+    line-height: 2.4rem;
 }
 
 @media (min-width: 576px) {

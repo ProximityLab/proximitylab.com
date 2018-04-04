@@ -5,7 +5,9 @@
 /* jumbotron */
 
 .ww-portfolio .jumbotron {
-  background-image: linear-gradient(-134deg, #E02090 0%, #AC0E39 100%);
+  background-image:
+      linear-gradient(180deg, rgba(199, 13, 121, 0.6) 0%, rgba(199, 13, 121, 0) 40%),
+      linear-gradient(-90deg, #C70D79 0%, #F044CA 50%, #E02090 100%);
   position: relative;
   padding-top: 8rem;
   padding-bottom: 0;
@@ -24,22 +26,21 @@
 
 @media (min-width: 1200px) {
     .ww-portfolio .jumbotron {
-        padding-left: 20rem;
-        padding-right: 20rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
     }
 }
 
 .jumbotron-logo-project {
+    width: 237px;
     display: block;
     position: relative;
-    padding-bottom: 3.5rem;
+    padding-bottom: 3rem;
     margin: auto;
 }
 
 @media (min-width: 768px){
   .jumbotron-logo-project {
-    width: 60%;
-    max-width: 229px;
     padding-bottom: 2rem;
   }
 }
@@ -48,11 +49,14 @@
 .jumbotron-logo-project {
     margin: auto;
     position: absolute;
-    top:0;
+    top:-6rem;
     bottom:0;
     right: 0;
-    left: 0;
+    left: -5rem;
     padding: 0;
+    width: inherit;
+    padding-right: 2rem;
+    max-width: 175px;
   }
 }
 

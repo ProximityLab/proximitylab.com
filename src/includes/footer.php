@@ -2,10 +2,10 @@
     <div class="container-fluid">
         <div class="row mb-5">
             <div class="col-12 col-lg-7 col-md-6">
-                <h1 class="page-footer-heading">Let us help re-think your experience.</h1>
+                <h1 class="page-footer-heading module-fade">Let us help re-think your experience.</h1>
             </div>
 
-            <div class="col-12 col-lg-5 col-md-6 mt-5 mt-md-4 mt-xl-3 footer-form-container">
+            <div class="col-12 col-lg-5 col-md-6 mt-5 mt-md-4 mt-xl-3 footer-form-container module-fade">
                 <div class="footer-form-step">
                   <a href="#" class="form-close" role="button">Close</a>
                   <ul>
@@ -50,7 +50,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row module-fade">
             <div class="col-12">
                 <p class="page-footer-credits">
                   <span class="page-footer-copyright d-none d-sm-inline">© 2008-2017 Proximity Lab</span>
@@ -63,7 +63,7 @@
                 </p>
             </div>
         </div>
-        <div class="row">
+        <div class="row module-fade">
             <div class="col-12">
               <p class="page-footer-credits d-block d-sm-none">
                   <span class="page-footer-copyright">© 2008-2017 Proximity Lab</span>

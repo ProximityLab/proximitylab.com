@@ -5,22 +5,26 @@
 /* jumbotron */
 
 .ww-portfolio .ama-jumbotron {
-  /* Rectangle: */
-background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
-    margin-bottom: 0;
-    position: relative;
-    padding-top: 8rem;
+  background-image:
+      linear-gradient(180deg, rgba(204, 8, 43, 0.6) 0%, rgba(204, 8, 43, 0) 40%),
+      linear-gradient(-90deg, #CC082B 0%, #F04261 50%, #CC082B 100%);
+  margin-bottom: 0;
+  position: relative;
+  padding-top: 8rem;
 }
 
 .jumbotron-logo-project {
     width: 241px;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     margin: auto;
     display: block;
     position: relative;
 }
 
 @media (min-width: 992px) {
+  .ww-portfolio .ama-jumbotron {
+    padding-top: 4rem;
+  }
     .jumbotron-logo-project {
       margin: auto 0;
       position: absolute;
@@ -144,6 +148,7 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
 
 .ama-portfolio-service-icon {
     margin-bottom: 27px;
+    height: 50px;
 }
 
 .ama-portfolio-service-heading {
@@ -312,7 +317,13 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
 }
 
 .project-more-info .bottom .inner img {
-  width: 100%;
+  width: 190%;
+}
+
+@media (min-width: 576px) {
+  .project-more-info .bottom .inner img {
+    width: 100%;
+  }
 }
 
 .project-services {
@@ -339,7 +350,7 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
   .ww-vid-holder {
     width: 500px;
     height: 350px;
-    background: url("/images/ipad-chrome.svg") no-repeat;
+    background: url("/images/container-amadeus.png") no-repeat;
     background-size: contain;
     background-position: center;
   }
@@ -366,14 +377,15 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
   #video-amadeus {
     width: 420px;
     height: 315px;
-    top: 1px;
+    top: -1px;
   }
 }
 
 @media (min-width:1200px) {
   #video-amadeus {
-    width: 590px;
-    height: 444px;
+    width: 596px;
+    height: 450px;
+    left: 1px;
   }
 }
 
@@ -395,6 +407,7 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
   transition: opacity .25s ease-in-out;
   cursor: pointer;
   background-color: rgba(0, 0, 0, .3);
+  border-radius: 0;
 }
 
 @media (min-width: 576px) {
@@ -409,16 +422,16 @@ background-image: linear-gradient(-134deg, #AA1030 0%, #D91B3D 100%);
     width: 420px;
     height: 315px;
     left: 0;
-    top: 1px;
+    top: -1px;
   }
 }
 
 @media (min-width: 1200px) {
   #ww-play-pause {
-    width: 590px;
-    height: 442px;
-    left: 0;
-    top: 2px;
+    width: 596px;
+    height: 448px;
+    left: 1px;
+    top: 0;
   }
 }
 

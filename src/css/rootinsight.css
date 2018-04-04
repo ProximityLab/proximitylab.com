@@ -16,10 +16,13 @@
 /* jumbotron */
 
 .ww-portfolio .jumbotron {
-  background-image: linear-gradient(-224deg, #60A907 0%, #73CC00 100%);
+  background-image:
+      linear-gradient(180deg, rgba(99, 178, 5, 0.6) 0%, rgba(99, 178, 5, 0) 40%),
+      linear-gradient(-90deg, #63B205 0%, #A3E259 50%, #63B205 100%);
   margin-bottom: 0;
   position: relative;
-  padding-top: 8rem;
+  padding-top: 7rem;
+  padding-bottom: 0;
 }
 
 .jumbotron-logo-project {
@@ -31,23 +34,16 @@
 }
 
 @media (min-width: 992px){
-.jumbotron-logo-project {
-    margin: auto;
-    position: absolute;
-    top:0;
-    bottom:0;
-    right: 20px;
-    padding: 0;
+  .ww-portfolio .jumbotron {
+    padding-top: 5rem;
   }
-}
 
-.ww-hero-image {
-  margin-bottom: -2.1rem;
-}
-
-@media (min-width: 576px){
-  .ww-hero-image {
-    margin-bottom: -3.1rem;
+  .jumbotron-logo-project {
+    margin: auto -3.6rem auto 3rem;
+    position: absolute;
+    top: -6.4rem;
+    bottom: 0;
+    padding: 0;
   }
 }
 

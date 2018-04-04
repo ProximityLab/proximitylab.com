@@ -45,7 +45,13 @@
     font-size: 36px;
     font-weight: 300;
     color: #282828;
-    margin-bottom: 16px;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 576px) {
+    .work-header-heading {
+        margin-bottom: 1.6rem;
+    }
 }
 
 .work-header-text {
@@ -53,7 +59,7 @@
     color: #7C7C7C;
     line-height: 36px;
     max-width: 578px;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 .ww-work .work-tems {
@@ -145,7 +151,7 @@
 #nye .work-item-overlay { background-color: rgba(60, 161, 94, 1) }
 #wagz .work-item-overlay { background-color: rgba(87, 155, 18, 1) }
 #amadeus .work-item-overlay { background-color: rgba(205, 25, 64, 1) }
-#minim .work-item-overlay { background-color: rgba(28, 113, 179, 1) }
+#minim .work-item-overlay { background-color: #21C6D6; }
 #adobe .work-item-overlay { background-color: rgba(246, 26, 52, 1) }
 
 #scheduleme .work-item-logo { height: 53px; }
@@ -266,3 +272,20 @@
 }
 
 .work-item-container.active .work-item-button { display: inline-block !important; }
+
+@media (min-width: 768px) {
+    .work-tems .work-item:nth-child(2) { transition-delay: .5s }
+
+    .work-tems .work-item:nth-child(4) { transition-delay: .5s }
+    .work-tems .work-item:nth-child(5) { transition-delay: 1s }
+
+    .work-tems .work-item:nth-child(7) { transition-delay: .5s }
+
+    .work-tems .work-item:nth-child(9) { transition-delay: .5s }
+
+    .work-tems .work-item:nth-child(11) { transition-delay: .5s }
+    .work-tems .work-item:nth-child(12) { transition-delay: 1s }
+
+    .work-tems .work-item:nth-child(14) { transition-delay: .5s }
+    .work-tems .work-item:nth-child(15) { transition-delay: 1s }
+}

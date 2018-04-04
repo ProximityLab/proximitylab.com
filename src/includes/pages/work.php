@@ -1,14 +1,14 @@
-<header class="work-header">
+<header class="work-header module-fade">
 
     <h1 class="work-header-heading text-center">Outcome-based design collaboration</h1>
 
-    <p class="work-header-text text-center mx-auto">Explore our portfolio to learn how we can help advance your product vision and build a best-in-class experience for your customers.</p>
+    <p class="work-header-text text-center mx-auto d-none d-sm-block">Explore our portfolio to learn how we can help advance your product vision and build a best-in-class experience for your customers.</p>
 </header>
 
 <div class="container-fluid work-tems">
     <div class="row">
 
-        <div class="work-item col-sm-12 col-md-8">
+        <div class="work-item col-sm-12 col-md-8 module-fade module-mobile">
             <div id = "scribe" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
@@ -19,7 +19,7 @@
                 </div>
             </div>
         </div>
-        <div class="work-item col-sm-12 col-md-4">
+        <div class="work-item col-sm-12 col-md-4 module-fade module-mobile">
             <div id="amadeus" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
@@ -31,11 +31,11 @@
             </div>
         </div>
 
-        <div class="work-item col-sm-12 col-md-4">
+        <div class="work-item col-sm-12 col-md-4 module-fade module-mobile">
             <div id = "minim" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
-                        <img class="work-item-logo" src="/images/logo-minim-white-2x.png" alt="Minim logo">
+                        <img class="work-item-logo" src="/images/logo-minim.svg" alt="Minim logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Empowering consumers with smart home security</p>
                         <a class="work-item-button" href="/work/minim">View work</a>
                     </div>
@@ -43,7 +43,7 @@
             </div>
         </div>
 
-        <div class="work-item col-sm-12 col-md-4">
+        <div class="work-item col-sm-12 col-md-4 module-fade module-mobile">
             <div  id = "wagz" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
@@ -55,11 +55,11 @@
             </div>
         </div>
 
-        <div class="work-item col-sm-12 col-md-4">
+        <div class="work-item col-sm-12 col-md-4 module-fade module-mobile">
             <div id="eagle" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
-                        <img class="work-item-logo" src="/images/logo-eagle-2x.png" alt="Eagle logo">
+                        <img class="work-item-logo" src="/images/logo-eagle.svg" alt="Eagle logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Visualization-based AI to power genomics research and insight</p>
                         <a class="work-item-button" href="/work/eagle">View work</a>
                     </div>
@@ -67,11 +67,11 @@
             </div>
         </div>
 
-        <div class="work-item col-12 col-sm-6 col-md-4">
+        <div class="work-item col-12 col-sm-6 col-md-4 module-fade module-mobile">
             <div  id = "nye" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
-                        <img class="work-item-logo" src="/images/logo-nye.png" alt="Nye logo">
+                        <img class="work-item-logo" src="/images/logo-billnye.svg" alt="Nye logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">An award-winning multi-platform climate change exhibit</p>
                         <a class="work-item-button" href="/work/billnye">View work</a>
                     </div>
@@ -79,7 +79,7 @@
             </div>
         </div>
 
-        <div class="work-item col-12 col-md-8">
+        <div class="work-item col-12 col-md-8 module-fade module-mobile">
             <div id="adobe" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
@@ -92,11 +92,11 @@
         </div>
 
 
-        <div class="work-item col-12 col-md-8">
+        <div class="work-item col-12 col-md-8 module-fade module-mobile">
             <div id="rootinsight" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
-                        <img class="work-item-logo" src="/images/logo-insight.png" alt="Root Insight logo">
+                        <img class="work-item-logo" src="/images/logo-rootinsight.svg" alt="Root Insight logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">Competitive benchmarking and real-time business analytics</p>
                         <a class="work-item-button" href="/work/rootinsight">View work</a>
                     </div>
@@ -104,7 +104,7 @@
             </div>
         </div>
 
-        <div class="work-item col-12 col-sm-6 col-md-4">
+        <div class="work-item col-12 col-sm-6 col-md-4 module-fade module-mobile">
             <div id="mosaic" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
@@ -116,7 +116,7 @@
             </div>
         </div>
 
-        <!-- div class="work-item col-12 col-sm-6 col-md-4">
+        <div class="work-item col-12 col-sm-6 col-md-4 module-fade module-mobile">
             <div id="massart" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
@@ -126,9 +126,9 @@
                     </div>
                 </div>
             </div>
-        </div -->
+        </div>
 
-        <div class="work-item col-12 col-sm-6 col-md-4">
+        <div class="work-item col-12 col-sm-6 col-md-4 module-fade module-mobile">
             <div id="solidworks" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
@@ -140,7 +140,7 @@
             </div>
         </div>
 
-        <div class="work-item col-sm-12 col-md-4">
+        <div class="work-item col-sm-12 col-md-4 module-fade module-mobile">
             <div id="songbird" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
@@ -152,7 +152,7 @@
             </div>
         </div>
 
-        <div class="work-item col-sm-12 col-md-4">
+        <div class="work-item col-sm-12 col-md-4 module-fade module-mobile">
             <div id="philips" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
@@ -164,7 +164,7 @@
             </div>
         </div>
 
-        <div class="work-item col-sm-12 col-md-4">
+        <div class="work-item col-sm-12 col-md-4 module-fade module-mobile">
             <div id="scheduleme" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
@@ -176,11 +176,11 @@
             </div>
         </div>
 
-        <div class="work-item col-sm-12 col-md-4">
+        <div class="work-item col-sm-12 col-md-4 module-fade module-mobile">
             <div id="icovia" class="work-item-container text-center">
                 <div class="work-item-overlay">
                     <div class="work-item-wrapper">
-                        <img class="work-item-logo" src="/images/logo-icovia-2x.png" alt="icovia logo">
+                        <img class="work-item-logo" src="/images/logo-icovia.svg" alt="icovia logo">
                         <p class="work-item-text mx-auto d-none d-lg-block">A browser-based space planning app becomes an industry standard</p>
                         <a class="work-item-button" href="/work/icovia">View work</a>
                     </div>

@@ -31,6 +31,106 @@ a[name=start] {
     color: #1e2128;
 }
 
+.module, .module-fade, .header-image-fade {
+  opacity: 0;
+}
+
+.come-in {
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+    transition: opacity 1s ease-in;
+    -webkit-transform: translateY(150px);
+    -moz-transform: translateY(150px);
+    -ms-transform: translateY(150px);
+    -o-transform: translateY(150px);
+    transform: translateY(150px);
+    animation: come-in 1s ease forwards;
+}
+
+.come-in:nth-child(odd) {
+  animation-duration: 0.8s;
+}
+
+.fade-in {
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+    transition: opacity 1s ease-in;
+}
+
+@media (max-width:768px) {
+    .module-mobile.fade-in {
+        opacity: 1;
+        -webkit-transition: opacity 1s ease-in;
+        -moz-transition: opacity 1s ease-in;
+        -ms-transition: opacity 1s ease-in;
+        -o-transition: opacity 1s ease-in;
+        transition: opacity 1s ease-in;
+        -webkit-transform: translateY(150px);
+        -moz-transform: translateY(150px);
+        -ms-transform: translateY(150px);
+        -o-transform: translateY(150px);
+        transform: translateY(150px);
+        animation: come-in 1s ease forwards;
+    }
+}
+
+.header-image-fade-in {
+    opacity: 1;
+    -webkit-transition: opacity 1.5s ease-in 1s;
+    -moz-transition: opacity 1.5s ease-in 1s;
+    -ms-transition: opacity 1.5s ease-in 1s;
+    -o-transition: opacity 1.5s ease-in 1s;
+    transition: opacity 1.5s ease-in 1s;
+}
+
+@media (max-width:768px) {
+    .module-mobile.header-image-fade-in {
+        opacity: 1;
+        -webkit-transition: opacity 1.5s ease-in 1s;
+        -moz-transition: opacity 1.5s ease-in 1s;
+        -ms-transition: opacity 1.5s ease-in 1s;
+        -o-transition: opacity 1.5s ease-in 1s;
+        transition: opacity 1.5s ease-in 1s;
+        -webkit-transform: translateY(150px);
+        -moz-transform: translateY(150px);
+        -ms-transform: translateY(150px);
+        -o-transform: translateY(150px);
+        transform: translateY(150px);
+        animation: come-in 1.5s ease forwards;
+    }
+}
+
+.already-visible {
+    opacity: 1;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: opacity none;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    animation: none;
+}
+
+@keyframes come-in {
+  to {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
 
 /*.container-fluid {
     padding-right: 3rem;
@@ -89,8 +189,8 @@ a[name=start] {
 .home header h2 {
     font-size: 24px;
     font-size: 2.4rem;
-    margin: 0 0 10rem;
-    line-height: 5rem;
+    margin: 0 0 20rem;
+    line-height: 4.2rem;
     z-index: 99999!important;
     font-weight: 300;
 }
@@ -102,7 +202,8 @@ a[name=start] {
     .home header h2 {
         font-size: 36px;
         font-size: 3.6rem;
-        margin: 2rem 0 20rem;
+        margin: 4.5rem auto 30rem;
+        max-width: 800px
     }
 }
 
@@ -122,7 +223,8 @@ a[name=start] {
 #wagz-carousel-hero .carousel-inner .carousel-item,
 #mosaic-carousel-hero .carousel-inner .carousel-item,
 #solidworks-carousel-hero .carousel-inner .carousel-item,
-#massart-carousel-hero .carousel-inner .carousel-item  {
+#massart-carousel-hero .carousel-inner .carousel-item,
+#philips-carousel-hero .carousel-inner .carousel-item  {
     opacity: 0;
     display: block;
     position: absolute;
@@ -140,7 +242,8 @@ a[name=start] {
 #wagz-carousel-hero .carousel-inner .carousel-item.active,
 #mosaic-carousel-hero .carousel-inner .carousel-item.active,
 #solidworks-carousel-hero .carousel-inner .carousel-item.active,
-#massart-carousel-hero .carousel-inner .carousel-item.active   {
+#massart-carousel-hero .carousel-inner .carousel-item.active,
+#philips-carousel-hero .carousel-inner .carousel-item.active   {
     opacity: 1;
     display: block;
 }
@@ -314,13 +417,13 @@ a[name=start] {
 
 @media (max-width:375px) {
     .page-navigation li a {
-        margin-left: 15px;
-    }
-    .page-navigation li a.jumbotron-right {
         margin-left: 25px;
     }
+    .page-navigation li a.jumbotron-right {
+        margin-left: 11px;
+    }
     .page-navigation li a.jumbotron-left {
-        margin-left: 20px;
+        margin-left: 17px;
     }
 }
 

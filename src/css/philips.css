@@ -5,10 +5,20 @@
 /* jumbotron */
 
 .ww-portfolio .jumbotron {
-background-image: linear-gradient(-134deg, #11478C 0%, #2F86FC 100%);
+  background-image:
+      linear-gradient(180deg, rgba(12, 93, 203, 0.6) 0%, rgba(12, 93, 203, 0) 40%),
+      linear-gradient(-90deg, #0C5DCB 0%, #6DA7F5 50%, #0C5DCB 100%);
   margin-bottom: 0;
   position: relative;
   padding-top: 8rem;
+  overflow: hidden;
+}
+
+@media (min-width: 992px) {
+    .ww-portfolio .jumbotron {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -19,7 +29,7 @@ background-image: linear-gradient(-134deg, #11478C 0%, #2F86FC 100%);
 }
 
 .jumbotron-logo-project {
-    width: 225px;
+    max-width: 165px;
     padding-bottom: 2rem;
     margin: auto;
     display: block;
@@ -28,13 +38,19 @@ background-image: linear-gradient(-134deg, #11478C 0%, #2F86FC 100%);
 
 @media (min-width: 992px) {
     .jumbotron-logo-project {
-      margin: auto 0;
+      margin: auto 4rem auto auto;
       position: absolute;
       top:0;
       bottom:0;
-      right: -30px;
+      right: 0;
+      left: 0;
       padding: 0;
-      /*left: 3rem;*/
+    }
+}
+
+@media (min-width: 1200px) {
+    .jumbotron-logo-project {
+      margin: auto 6rem auto auto;
     }
 }
 
@@ -42,6 +58,54 @@ background-image: linear-gradient(-134deg, #11478C 0%, #2F86FC 100%);
   .portfolio-header {
     margin: 3rem 0 3rem;
   }
+}
+
+#philips-carousel-hero {
+  margin: 1rem 4rem -2.1rem 4rem;
+  padding: 0;
+  overflow: hidden;
+}
+
+@media (min-width:576px) {
+  #philips-carousel-hero {
+    margin: 1rem auto -4.1rem auto;
+    max-width: 400px;
+  }
+}
+
+@media (min-width:992px) {
+  #philips-carousel-hero {
+    margin: 0 0 -4rem 0;
+    max-width: none;
+  }
+}
+
+#philips-carousel-hero > .img-fluid {
+  display: block;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 50%;
+  margin-left: -50%;
+  width: 100%;
+  height: 100%;
+}
+
+#philips-carousel-hero .carousel-inner {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 57.1%;
+  overflow: visible;
+}
+
+#philips-carousel-hero .carousel-inner .carousel-item {
+  width: 100%;
+  top: 6.8%;
+}
+
+#philips-carousel-hero .carousel-inner .carousel-item .img-fluid {
+  position: relative;
+  width: 93.5%;
 }
 
 /* portfolio */
@@ -286,7 +350,7 @@ background-image: linear-gradient(-134deg, #11478C 0%, #2F86FC 100%);
 }
 
 .container-fluid.project-services {
-  padding: 0;
+  padding: 0 3rem;
 }
 
 @media (min-width: 768px) {

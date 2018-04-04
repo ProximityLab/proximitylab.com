@@ -1,21 +1,16 @@
 /* jumbotron */
 
 .ww-portfolio .jumbotron {
-    background: linear-gradient(to bottom right, #4B940F, #83BA1C);
+    background-image:
+      linear-gradient(180deg, rgba(75, 148, 15, 0.6) 0%, rgba(75, 148, 15, 0) 40%),
+      linear-gradient(-90deg, #4B940F 0%, #85D444 50%, #4B940F 100%);
     margin-bottom: 0;
     position: relative;
     padding-top: 8rem;
 }
 
-/*@media (min-width: 1200px) {
-    .wagz-jumbotron {
-        padding-left: 92px;
-        padding-right: 92px;
-    }
-}*/
-
 .jumbotron-logo-project {
-    width: 199px;
+    width: 179px;
     display: block;
     position: relative;
     margin: auto;
@@ -25,15 +20,15 @@
 
 @media (min-width: 992px){
 .jumbotron-logo-project {
+    width: 199px;
     margin: auto 0;
     position: absolute;
-    top:0;
-    bottom:0;
-    right: 0;
+    top: -13rem;
+    bottom: 0;
+    right: -1rem;
     padding: 0;
   }
 }
-
 
 .scroll-down-arrow {
     text-indent: -9999px;
@@ -74,32 +69,6 @@
       }
 }
 
-/*
-.home-carousel-header-arrow {
-  left:50%;
-  position: absolute;
-  margin: 0 auto;
-  top: 0;
-  bottom: 0;
-  right:30%;
-  left:70%;
-  display: none;
-}
-@media (min-width: 992px){
-.home-carousel-header-arrow {
-  display: block;
-
-  left: 0;
-}
-}*/
-
-/*.wagz-jumbotron-logo-site {
-    width: 27px;
-    position: absolute;
-    top: 37px;
-    left: 45px;
-}*/
-
 @media (max-width: 575px) {
   .portfolio-header {
     margin: 3rem 0 3rem;
@@ -128,21 +97,6 @@
         padding: 3rem 0 0 0;
     }
 }
-
-/*.wagz-portfolio-heading-secondary {
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 5px;
-    color: #7C7C7C;
-    margin-bottom: 17px;
-}
-
-.wagz-portfolio-heading-primary {
-    font-size: 36px;
-    font-weight: 300;
-    color: #282828;
-    margin-bottom: 32px;
-}*/
 
 .wagz-portfolio-paragraph {
     font-size: 18px;
@@ -198,8 +152,6 @@
 
 @media (min-width: 1440px) {
     .wagz-portfolio-image {
-        /*background-position: 100% top;
-        background-size: 98%;*/
         margin-bottom: 2rem;
         min-height: 600px;
         background-size: contain;
@@ -234,11 +186,6 @@
 @media (min-width: 1200px) {
     .wagz-portfolio-text {
         padding: 0 3rem 0 0;
-    }
-}
-
-@media (min-width: 1440px) {
-    .wagz-portfolio-text {
     }
 }
 
@@ -289,8 +236,6 @@
 
 .portfolio-testimonial:before {
   content: "";
-  /*background:  url('/images/portfolio_bgd_wagz.jpg') no-repeat;
-  background-size: cover;*/
   opacity: 0.65;
   background-color: #000;
   top: 0;
@@ -317,14 +262,6 @@
   line-height: normal;
 }
 
-/*.ww-portfolio {
-background-color: #000;
-}*/
-
-/*.portfolio-header {
-background-color: #fff;
-}*/
-
 @media (min-width: 768px) {
     .portfolio-testimonial {
         padding: 10rem 6rem;
@@ -347,25 +284,9 @@ background-color: #fff;
     }
 }
 
-/*@media (min-width: 768px) {
-    .portfolio-testimonial p {
-        max-width: 50%;
-        text-align: center;
-        margin-left: 40%;
-    }
-}*/
-
-@media (min-width: 768px) {
-    .portfolio-testimonial p {
-        /*max-width: 46%;*/
-        /*margin-left: 45%;*/
-    }
-}
-
 @media (min-width: 992px) {
     .portfolio-testimonial p {
         max-width: 70%;
-        /*margin-left: 45%;*/
         margin: 0 auto;
     }
 }
@@ -378,73 +299,55 @@ background-color: #fff;
 }
 
 .portfolio-testimonial img {
-margin: 2rem 0 0 0;
+  margin: 2rem 0 0 0;
+}
+
+#wagz-carousel-hero {
+  margin: 1rem 4rem 0 4rem;
+  padding: 0;
+}
+
+@media (min-width:576px) {
+  #wagz-carousel-hero {
+    margin: 2rem auto -2rem auto;
+    max-width: 400px;
+  }
+}
+
+@media (min-width:992px) {
+  #wagz-carousel-hero {
+    margin: -3.6rem 0 -2rem 0;
+    max-width: none;
+  }
+}
+
+#wagz-carousel-hero > .img-fluid {
+  display: block;
+  position: absolute;
+  margin: 0;
+  top: -2.3%;
+  left: 50%;
+  margin-left: -50.5%;
+  width: 93.5%;
+  height: 98%;
 }
 
 #wagz-carousel-hero .carousel-inner {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding-bottom: 88%;
+  padding-bottom: 78%;
   overflow: visible;
 }
 
 #wagz-carousel-hero .carousel-inner .carousel-item {
   width: 100%;
-}
-
-#wagz-carousel-hero .carousel-inner .carousel-item:before {
-  display: block;
-  content: "";
-  width: 100%;
+  top: 9.9%;
 }
 
 #wagz-carousel-hero .carousel-inner .carousel-item .img-fluid {
   position: relative;
-}
-
-@media (min-width: 992px) {
-  #wagz-carousel-hero .carousel-inner .carousel-item {
-    left: 50%;
-  }
-
-  #wagz-carousel-hero .carousel-inner .carousel-item {
-    width: 126%;
-    top: -3em;
-  }
-
-  #wagz-carousel-hero .carousel-inner .carousel-item .img-fluid {
-    left: -50%;
-  }
-}
-
-@media (min-width: 1200px) {
-  #wagz-carousel-hero .carousel-inner .carousel-item {
-    left: 50%;
-  }
-
-  #wagz-carousel-hero .carousel-inner .carousel-item {
-    width: 115%;
-    top: -3em;
-  }
-
-  #wagz-carousel-hero .carousel-inner .carousel-item .img-fluid {
-    left: -50%;
-  }
-}
-
-@media (min-width: 1440px) {
-  #wagz-carousel-hero .carousel-inner .carousel-item {
-    left: 50%;
-  }
-
-  #wagz-carousel-hero .carousel-inner .carousel-item {
-    width: 115%;
-    top: -3em;
-  }
-
-  #wagz-carousel-hero .carousel-inner .carousel-item .img-fluid {
-    left: -50%;
-  }
+  width: 33.8%;
+  left: -2.4%;
 }
 
 .wagz-portfolio .wagz-portfolio-services {
