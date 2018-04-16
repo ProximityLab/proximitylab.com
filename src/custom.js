@@ -311,11 +311,11 @@ $(document).ready(function() {
     $(this).find('.carousel-indicators').css('display', 'flex');
     $(this).find('.carousel-indicators').fadeIn();
     $(this).carousel(0).carousel();
-    $(this).find('h3').hide();
-    $(this).find('h3').addClass('active');
-    $(this).find('h3').finish().fadeIn();
+    //$(this).find('h3').hide();
+    //$(this).find('h3').addClass('active');
+    //$(this).find('h3').finish().fadeIn();
     $(this).find('.ww-panel-icon-container').removeClass('active');
-    $(this).find('.carousel-inner').addClass('active');
+    //$(this).find('.carousel-inner').addClass('active');
     $(this).addClass('slide');
   });
 
@@ -323,10 +323,10 @@ $(document).ready(function() {
     $(this).removeClass('slide');
     $(this).find('.carousel-indicators').hide();
     $(this).carousel('pause');
-    $(this).find('h3').hide();
-    $(this).find('h3').removeClass('active');
-    $(this).find('h3').finish().fadeIn();
-    $(this).find('.carousel-inner').removeClass('active');
+    //$(this).find('h3').hide();
+    //$(this).find('h3').removeClass('active');
+    //$(this).find('h3').finish().fadeIn();
+    //$(this).find('.carousel-inner').removeClass('active');
     $(this).find('.ww-panel-icon-container').addClass('active');
   });
 

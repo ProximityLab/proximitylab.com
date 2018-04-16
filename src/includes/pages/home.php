@@ -26,19 +26,10 @@
 
   <div class="row ww-panels pt-5 module">
     <div class="col-lg-4 module">
-      <div id="home-carousel-enterprise" class="carousel" data-ride="carousel" data-interval="4000" data-pause="false">
-        <ol class="carousel-indicators">
-          <li data-target="#home-carousel-enterprise" data-slide-to="0" class="active"></li>
-          <li data-target="#home-carousel-enterprise" data-slide-to="1"></li>
-          <li data-target="#home-carousel-enterprise" data-slide-to="2"></li>
-        </ol>
-        <h3 class="home-workwith-item-heading">Enterprise UX</h3>
-        <div class="ww-panel-icon-container active">
-          <div class="ww-panel-icon animated fadeIn">
-            <img src="/images/icon-building.svg" alt="Desktop icon">
-          </div>
-        </div>
-        <div class="carousel-inner" role="listbox">
+      <div class="carousel">
+
+        <h3 class="home-workwith-item-heading active">Enterprise UX</h3>
+        <div class="carousel-inner active" role="listbox">
           <div class="ww-workwith carousel-item animated fadeIn active">
             <div class="container-fluid">
               <div class="ww-workwith-img row justify-content-center">
@@ -56,63 +47,18 @@
                     <a href="/work/adobe" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
-            </div><!-- container -->
-          </div><!-- item -->
-          <div class="ww-workwith carousel-item animated fadeIn">
-            <div class="container-fluid">
-              <div class="ww-workwith-img row justify-content-center">
-                  <div class="col-8 text-center">
-                    <img src="/images/logo-eagle-blue.png" class="ww-project-icon img-fluid"  alt="Eagle Genomics - Project">
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-teaser row">
-                  <div class="col-12 text-center">
-                    <p>Visualization-based AI to power genomics research and insight</p>
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-btn row">
-                  <div class="col-12 text-center">
-                    <a href="/work/eagle" class="ww-btn btn btn-outline-primary">View Project</a>
-                  </div>
-              </div><!-- row -->
-            </div><!-- container -->
-          </div><!-- item -->
-          <div class="ww-workwith carousel-item animated fadeIn">
-            <div class="container-fluid">
-              <div class="ww-workwith-img row justify-content-center">
-                  <div class="col-8 text-center">
-                    <img src="/images/logo-philips-blue.png" class="ww-project-icon img-fluid"  alt="Philips - Project">
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-teaser row">
-                  <div class="col-12 text-center">
-                    <p>Architectural lighting and energy management innovation</p>
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-btn row">
-                  <div class="col-12 text-center">
-                    <a href="/work/philips" class="ww-btn btn btn-outline-primary ">View Project</a>
-                  </div>
-              </div><!-- row -->
-            </div><!-- container -->
-          </div><!-- item -->
-        </div>
+            </div><!-- container-fluid -->
+          </div><!-- ww-workwith -->
+        </div><!-- carousel-inner -->
+
       </div>
     </div>
+
     <div class="col-lg-4 module">
-      <div id="home-carousel-startups" class="carousel" data-ride="carousel" data-interval="4000" data-pause="false">
-        <ol class="carousel-indicators">
-          <li data-target="#home-carousel-startups" data-slide-to="0" class="active"></li>
-          <li data-target="#home-carousel-startups" data-slide-to="1"></li>
-          <li data-target="#home-carousel-startups" data-slide-to="2"></li>
-        </ol>
-        <h3 class="home-workwith-item-heading text-center">Startups</h3>
-        <div class="ww-panel-icon-container active">
-          <div class="ww-panel-icon animated animated fadeIn fadeIn">
-            <img src="/images/icon-desktop.svg" alt="Desktop icon">
-          </div>
-        </div>
-        <div class="carousel-inner" role="listbox">
+      <div class="carousel">
+
+        <h3 class="home-workwith-item-heading active">Startups</h3> 
+        <div class="carousel-inner active" role="listbox">
           <div class="ww-workwith carousel-item animated fadeIn active">
             <div class="container-fluid">
               <div class="ww-workwith-img row justify-content-center">
@@ -130,63 +76,18 @@
                     <a href="/work/minim" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
-            </div><!-- container -->
-          </div><!-- item -->
-          <div class="ww-workwith carousel-item animated fadeIn">
-            <div class="container-fluid">
-              <div class="ww-workwith-img row justify-content-center">
-                  <div class="col-8 text-center">
-                    <img src="/images/logo-wagz-blue.png" class="ww-project-icon img-fluid" alt="Wagz - Project">
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-teaser row">
-                  <div class="col-12 text-center">
-                    <p>An integrated platform for dog safety, health and happiness</p>
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-btn row">
-                  <div class="col-12 text-center">
-                    <a href="/work/wagz" class="ww-btn btn btn-outline-primary">View Project</a>
-                  </div>
-              </div><!-- row -->
-            </div><!-- container -->
-          </div><!-- item -->
-          <div class="ww-workwith carousel-item animated fadeIn">
-            <div class="container-fluid">
-              <div class="ww-workwith-img row justify-content-center">
-                  <div class="col-8 text-center">
-                    <img src="/images/logo-billnye-blue.png" class="ww-project-icon img-fluid" alt="Bill Nye - Project">
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-teaser row">
-                  <div class="col-12 text-center">
-                    <p>An award-winning multi-platform climate change exhibit</p>
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-btn row">
-                  <div class="col-12 text-center">
-                    <a href="/work/billnye" class="ww-btn btn btn-outline-primary">View Project</a>
-                  </div>
-              </div><!-- row -->
-            </div><!-- container -->
-          </div><!-- item -->
-        </div>
+            </div><!-- container-fluid -->
+          </div><!-- ww-workwith -->
+        </div><!-- carousel-inner -->
+
       </div>
     </div>
+
     <div class="col-lg-4 module">
-      <div id="home-carousel-reboots" class="carousel" data-ride="carousel" data-interval="4000" data-pause="false">
-        <ol class="carousel-indicators">
-          <li data-target="#home-carousel-reboots" data-slide-to="0" class="active"></li>
-          <li data-target="#home-carousel-reboots" data-slide-to="1"></li>
-          <li data-target="#home-carousel-reboots" data-slide-to="2"></li>
-        </ol>
-        <h3 class="home-workwith-item-heading text-center">Application Reboots</h3>
-        <div class="ww-panel-icon-container active">
-          <div class="ww-panel-icon animated fadeIn">
-            <img src="/images/icon-app.svg" alt="Desktop icon">
-          </div>
-        </div>
-        <div class="carousel-inner" role="listbox">
+      <div class="carousel">
+
+        <h3 class="home-workwith-item-heading active">Application Reboots</h3> 
+        <div class="carousel-inner active" role="listbox">
           <div class="ww-workwith carousel-item animated fadeIn active">
             <div class="container-fluid">
               <div class="ww-workwith-img row justify-content-center">
@@ -204,47 +105,10 @@
                     <a href="/work/scribe" class="ww-btn btn btn-outline-primary">View Project</a>
                   </div>
               </div><!-- row -->
-            </div><!-- container -->
-          </div><!-- item -->
-          <div class="ww-workwith carousel-item animated fadeIn">
-            <div class="container-fluid">
-              <div class="ww-workwith-img row justify-content-center">
-                  <div class="col-8 text-center">
-                    <img src="/images/logo-amadeus-blue.png" class="ww-project-icon img-fluid"  alt="Amadeus - Project">
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-teaser row">
-                  <div class="col-12 text-center">
-                    <p>A fully re-imagined experience for professional event planners</p>
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-btn row">
-                  <div class="col-12 text-center">
-                    <a href="/work/amadeus" class="ww-btn btn btn-outline-primary">View Project</a>
-                  </div>
-              </div><!-- row -->
-            </div><!-- container -->
-          </div><!-- item -->
-          <div class="ww-workwith carousel-item animated fadeIn">
-            <div class="container-fluid">
-              <div class="ww-workwith-img row justify-content-center">
-                  <div class="col-8 text-center">
-                    <img src="/images/logo-songbird-blue.png" class="ww-project-icon img-fluid"  alt="Songbird - Project">
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-teaser row">
-                  <div class="col-12 text-center">
-                    <p>An immersive and integrated music appreciation platform</p>
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-btn row">
-                  <div class="col-12 text-center">
-                    <a href="/work/songbird" class="ww-btn btn btn-outline-primary">View Project</a>
-                  </div>
-              </div><!-- row -->
-            </div><!-- container -->
-          </div><!-- item -->
-        </div>
+            </div><!-- container-fluid -->
+          </div><!-- ww-workwith -->
+        </div><!-- carousel-inner -->
+
       </div>
     </div>
 
