@@ -169,7 +169,7 @@ $(document).ready(function() {
       duration: 600,
       offset: '-=775',
       delay: function(el, i) {
-        console.log(i);
+        // console.log(i);
         return 50 * (i + 1) + 1000
       }
     }).add({
