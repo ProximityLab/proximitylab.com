@@ -24,94 +24,33 @@
     </div>
   </div>
 
-  <div class="row ww-panels pt-5 module">
+  <div class="row pt-5 module">
     <div class="col-lg-4 module">
-      <div class="carousel">
-
-        <h3 class="home-workwith-item-heading active">Enterprise UX</h3>
-        <div class="carousel-inner active" role="listbox">
-          <div class="ww-workwith carousel-item animated fadeIn active">
-            <div class="container-fluid">
-              <div class="ww-workwith-img row justify-content-center">
-                  <div class="col-8 text-center">
-                    <img src="/images/logo-adobe.png" class="ww-project-icon img-fluid"  alt="Adobe - Project">
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-teaser row">
-                  <div class="col-12 text-center">
-                    <p>Helping a creative software giant produce best in class products</p>
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-btn row">
-                  <div class="col-12 text-center">
-                    <a href="/work/adobe" class="ww-btn btn btn-outline-primary">View Project</a>
-                  </div>
-              </div><!-- row -->
-            </div><!-- container-fluid -->
-          </div><!-- ww-workwith -->
-        </div><!-- carousel-inner -->
-
+      <div class="home-workwith-item">
+        <h3 class="home-workwith-item-heading">Enterprise UX</h3>
+        <img src="/images/logo-adobe.png" class="home-workwith-item-logo-adobe"  alt="Adobe - Project">
+        <p class="home-workwith-item-teaser">Helping a creative software giant produce best in class products</p>
+        <a href="/work/adobe" class="btn btn-outline-primary home-workwith-item-button">View Project</a>
       </div>
     </div>
 
     <div class="col-lg-4 module">
-      <div class="carousel">
-
-        <h3 class="home-workwith-item-heading active">Startups</h3> 
-        <div class="carousel-inner active" role="listbox">
-          <div class="ww-workwith carousel-item animated fadeIn active">
-            <div class="container-fluid">
-              <div class="ww-workwith-img row justify-content-center">
-                  <div class="col-8 text-center">
-                    <img src="/images/logo-minim-blue.png" class="ww-project-icon minim img-fluid"  alt="Minim - Project">
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-teaser row">
-                  <div class="col-12 text-center">
-                    <p>Empowering consumers with smart home security</p>
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-btn row">
-                  <div class="col-12 text-center">
-                    <a href="/work/minim" class="ww-btn btn btn-outline-primary">View Project</a>
-                  </div>
-              </div><!-- row -->
-            </div><!-- container-fluid -->
-          </div><!-- ww-workwith -->
-        </div><!-- carousel-inner -->
-
+      <div class="home-workwith-item">
+        <h3 class="home-workwith-item-heading">Startups</h3>
+        <img src="/images/logo-minim-blue.png" class="home-workwith-item-logo-minim"  alt="Minim - Project">
+        <p class="home-workwith-item-teaser">Empowering consumers with smart home security</p>
+        <a href="/work/minim" class="btn btn-outline-primary home-workwith-item-button">View Project</a>
       </div>
     </div>
 
     <div class="col-lg-4 module">
-      <div class="carousel">
-
-        <h3 class="home-workwith-item-heading active">Application Reboots</h3> 
-        <div class="carousel-inner active" role="listbox">
-          <div class="ww-workwith carousel-item animated fadeIn active">
-            <div class="container-fluid">
-              <div class="ww-workwith-img row justify-content-center">
-                  <div class="col-8 text-center">
-                    <img src="/images/logo-scribe-blue.png" class="ww-project-icon img-fluid"  alt="Scribe - Project">
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-teaser row">
-                  <div class="col-12 text-center">
-                    <p>Expanding the power and usability of SaaS-based integration</p>
-                  </div>
-              </div><!-- row -->
-              <div class="ww-workwith-btn row">
-                  <div class="col-12 text-center">
-                    <a href="/work/scribe" class="ww-btn btn btn-outline-primary">View Project</a>
-                  </div>
-              </div><!-- row -->
-            </div><!-- container-fluid -->
-          </div><!-- ww-workwith -->
-        </div><!-- carousel-inner -->
-
+      <div class="home-workwith-item">
+        <h3 class="home-workwith-item-heading">Application Reboots</h3>
+        <img src="/images/logo-scribe-blue.png" class="home-workwith-item-logo-scribe"  alt="Scribe - Project">
+        <p class="home-workwith-item-teaser">Expanding the power and usability of SaaS-based integration</p>
+        <a href="/work/scribe" class="btn btn-outline-primary home-workwith-item-button">View Project</a>
       </div>
     </div>
-
   </div>
 </div>
 

@@ -294,6 +294,66 @@ h2.intro .word {
     color: #4A4A4A;
 }
 
+.home-workwith-item {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .15);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .15);
+    height: 309px;
+    max-height: 309px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 992px) {
+    .home-workwith-item {
+        margin-bottom: 0;
+    }
+}
+
+.home-workwith-item-heading {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #7c7c7c;
+    padding-top: 3rem;
+    margin-bottom: 45px;
+}
+
+.home-workwith-item-logo-adobe {
+    height: 50px;
+}
+
+.home-workwith-item-logo-minim {
+    height: 42px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.home-workwith-item-logo-scribe {
+    height: 27px;
+    margin-top: 11.5px;
+    margin-bottom: 11.5px;
+}
+
+.home-workwith-item-teaser {
+    font-size: 1.6rem;
+    color: #7c7c7c;
+    line-height: normal;
+    margin: 1.5rem 3rem;
+}
+
+.home-workwith-item-button {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    padding: 0.8rem 1.9rem;
+    font-weight: 400;
+    border-color: #4A90E2;
+    color: #4A90E2;
+}
+
+.home-workwith-item-button:hover {
+    background-color: #4A90E2;
+    border-color: #4A90E2;
+}
+
 .home-portfolio-carousel .btn {
     line-height: inherit;
     font-size: inherit;
