@@ -82,12 +82,6 @@
         $activePagePhp = 'includes/pages/amadeus.php';
         $pageTitle = 'Proximity Lab | Portfolio | Amadeus';
         break;
-      case '':
-      case '/home':
-        $bodyclass = 'home';
-        $pageCss = '<link rel="stylesheet" href="/css/home.css">';
-        $activePagePhp = 'includes/pages/home.php';
-        break;
       case '/about':
         $bodyclass = 'about';
         $pageCss = '<link rel="stylesheet" href="/css/about.css">';
@@ -106,11 +100,17 @@
         $activePagePhp = 'includes/pages/404.php';
         $pageTitle = 'Proximity Lab | Portfolio | 404';
         break;
+      case '':
+      case '/home':
+        $bodyclass = 'home';
+        $pageCss = '<link rel="stylesheet" href="/css/home-new.css">';
+        $activePagePhp = 'includes/pages/home-new.php';
+        break;
       default:
         if (empty($activePage)) { // If activePage is empty then we assume it's home
           $bodyclass = 'home';
-          $pageCss = '<link rel="stylesheet" href="/css/home.css">';
-          $activePagePhp = 'includes/pages/home.php';
+          $pageCss = '<link rel="stylesheet" href="/css/home-new.css">';
+          $activePagePhp = 'includes/pages/home-new.php';
         } else { // If activePage isn't empty, but doesn't match anything else then it's 404
           header('Location: /404');
           exit;
@@ -127,6 +127,7 @@
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
         <link rel="stylesheet" href="/css/main.css">
         <?= $pageCss ?>
@@ -153,7 +154,9 @@
     </head>
     <body id="waypoint" class="animated fadeIn <?php echo $bodyclass ?>">
       <?php
-        include('includes/navigation.php');
+        // navigation for all sub pages
+        if (!empty($activePage)) include('includes/navigation.php');
+
         include($activePagePhp);
         include('includes/footer.php');
       ?>

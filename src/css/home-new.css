@@ -1,0 +1,17 @@
+/**
+ * Header
+ */
+
+.home-proximity-lab-logo {
+    width: 250px;
+}
+
+.home-navbar-link {
+    font-size: 22px;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 2.7;
+}
+
+.home-navbar-link:link {
+    color: rgb(0, 0, 0);
+}
