@@ -27,22 +27,37 @@
 <!-- Services -->
 <div class="container">
     <div class="row text-center text-md-left">
-        <div class="col-12 col-md-4 my-5 py-4 my-md-0 py-md-0">
+        <div class="col-12 col-md-4 my-5 py-4 mt-md-0 pt-md-0">
             <img src="/images/icon-service-research.png" class="home-icon-service">
             <h2 class="home-service-heading">Research for Deep Understanding</h2>
             <a class="home-service-link" href="#">+ Learn More</a>
         </div>
 
-        <div class="col-12 col-md-4 my-5 py-4 my-md-0 py-md-0">
+        <div class="col-12 col-md-4 my-5 py-4 mt-md-0 pt-md-0">
             <img src="/images/icon-service-strategy.svg" class="home-icon-service">
             <h2 class="home-service-heading mr-xl-5">Business-centric Product Strategy</h2>
             <a class="home-service-link" href="#">+ Learn More</a>
         </div>
 
-        <div class="col-12 col-md-4 my-5 py-4 my-md-0 py-md-0">
+        <div class="col-12 col-md-4 my-5 py-4 mt-md-0 pt-md-0">
             <img src="/images/icon-service-design.svg" class="home-icon-service">
             <h2 class="home-service-heading mr-xl-5">Results-based UX and UI Design</h2>
             <a class="home-service-link" href="#">+ Learn More</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Minim -->
+<div class="container mt-lg-5">
+    <div class="row">
+        <div class="col-12 col-md col-lg-6">
+            <img class="img-fluid" src="/images/minim-mobile-app-mockup.png" alt="Minim mobile app mockup">
+        </div>
+        <div class="col-12 col-md col-lg-5 align-self-center">
+            <h1 class="home-minim-heading-primary mb-5">Demystifying the Internet of Things</h1>
+            <h2 class="home-minim-heading-secondary mb-4">Empowering consumers with smart home security</h2>
+            <a class="home-minin-link" href="#">+ Read the Case Study</a>
         </div>
     </div>
 </div>

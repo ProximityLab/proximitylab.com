@@ -77,3 +77,30 @@
 .home-service-link:link {
     color: rgb(220, 67, 150);
 }
+
+
+/**
+ * Minim
+ */
+
+.home-minim-heading-primary {
+    font-size: 50px;
+    font-family: 'aleobold';
+    color: rgb(0, 0, 0);
+}
+
+.home-minim-heading-secondary {
+    font-size: 29px;
+    font-family: 'aleoregular';
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+}
+
+.home-minin-link {
+    font-size: 20px;
+    font-family: 'aleobold';
+}
+
+.home-minin-link:link {
+    color: rgb(220, 67, 150);
+}
