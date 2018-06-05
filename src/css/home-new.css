@@ -51,3 +51,29 @@
         margin: 145px 0 127.5px;
     }
 }
+
+
+/**
+ * Services
+ */
+
+.home-icon-service {
+    height: 92.25px;
+}
+
+.home-service-heading {
+    font-size: 29px;
+    font-family: 'aleobold';
+    color: rgb(0, 0, 0);
+    margin-top: 39.5px;
+}
+
+.home-service-link {
+    font-size: 20px;
+    font-family: 'aleobold';
+    line-height: 2.6;
+}
+
+.home-service-link:link {
+    color: rgb(220, 67, 150);
+}

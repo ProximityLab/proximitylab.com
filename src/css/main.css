@@ -1098,3 +1098,10 @@ a[name=start] {
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'aleobold';
+    src: url('fonts/Aleo-Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
