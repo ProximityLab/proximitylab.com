@@ -12,3 +12,13 @@
         </div>
     </div>
 </div>
+
+
+<!-- Main heading -->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="home-main-heading">Listen. Create. Reboot.</h1>
+        </div>
+    </div>
+</div>

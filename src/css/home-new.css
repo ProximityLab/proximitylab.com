@@ -15,3 +15,39 @@
 .home-navbar-link:link {
     color: rgb(0, 0, 0);
 }
+
+
+/**
+ * Main heading
+ */
+
+.home-main-heading {
+    font-size: 75px;
+    font-family: 'aleoregular';
+    color: rgb(0, 0, 0);
+    margin: 29px 0 25.5px;
+}
+
+@media (min-width: 576px) {
+    .home-main-heading {
+        margin: 58px 0 51px;
+    }
+}
+
+@media (min-width: 768px) {
+    .home-main-heading {
+        margin: 87px 0 76.5px;
+    }
+}
+
+@media (min-width: 992px) {
+    .home-main-heading {
+        margin: 116px 0 102px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-main-heading {
+        margin: 145px 0 127.5px;
+    }
+}
