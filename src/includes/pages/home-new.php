@@ -52,7 +52,12 @@
 <div class="container mt-lg-5">
     <div class="row">
         <div class="col-12 col-md col-lg-6">
-            <img class="img-fluid" src="/images/minim-mobile-app-mockup.png" alt="Minim mobile app mockup">
+            <img class="home-minim-mobile-app-mockup d-block m-auto" src="/images/minim-mobile-app-mockup.png" alt="Minim mobile app mockup">
+            <div class="home-minim-hover-overlay m-auto d-flex align-items-center">
+                <div class="home-minim-play-wrapper m-auto d-flex align-items-center">
+                    <img class="home-minim-play-icon d-block" src="/images/icon-minim-play.gif" alt="Play button">
+                </div>
+            </div>
         </div>
         <div class="col-12 col-md col-lg-5 align-self-center">
             <h1 class="home-minim-heading-primary mb-5">Demystifying the Internet of Things</h1>
