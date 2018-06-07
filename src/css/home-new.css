@@ -87,6 +87,13 @@
     width: 370px;
 }
 
+.home-minim-video {
+    position: absolute;
+    top: 104px;
+    left: 0;
+    right: 0;
+}
+
 .home-minim-hover-overlay {
     width: 240px;
     height: 430px;

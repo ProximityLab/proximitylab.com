@@ -105,12 +105,14 @@
         $bodyclass = 'home';
         $pageCss = '<link rel="stylesheet" href="/css/home-new.css">';
         $activePagePhp = 'includes/pages/home-new.php';
+        $pageJs = '<script src="/js/home.js"></script>';
         break;
       default:
         if (empty($activePage)) { // If activePage is empty then we assume it's home
           $bodyclass = 'home';
           $pageCss = '<link rel="stylesheet" href="/css/home-new.css">';
           $activePagePhp = 'includes/pages/home-new.php';
+          $pageJs = '<script src="/js/home.js"></script>';
         } else { // If activePage isn't empty, but doesn't match anything else then it's 404
           header('Location: /404');
           exit;
@@ -171,5 +173,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
       <script src="/js/jquery.isvisible.js"></script>
       <script src="/custom.js"></script>
+      <?= $pageJs ?>
     </body>
 </html>

@@ -53,9 +53,15 @@
     <div class="row">
         <div class="col-12 col-md col-lg-6">
             <img class="home-minim-mobile-app-mockup d-block m-auto" src="/images/minim-mobile-app-mockup.png" alt="Minim mobile app mockup">
+            <video id="minim-video" class="home-minim-video m-auto" height="430" poster="/images/home-minim-video-poster.jpg">
+                <source type="video/mp4" src="/video/minim.mp4">
+                <source type="video/webm" src="/video/minim.webm">
+                Your browser does not support the video tag.
+            </video>
+
             <div class="home-minim-hover-overlay m-auto d-flex align-items-center">
                 <div class="home-minim-play-wrapper m-auto d-flex align-items-center">
-                    <img class="home-minim-play-icon d-block" src="/images/icon-minim-play.gif" alt="Play button">
+                    <img id="minim-video-play" class="home-minim-play-icon d-block" src="/images/icon-minim-play.gif" alt="Play button">
                 </div>
             </div>
         </div>
