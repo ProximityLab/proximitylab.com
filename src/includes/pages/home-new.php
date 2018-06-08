@@ -72,3 +72,18 @@
         </div>
     </div>
 </div>
+
+
+<!-- Oracle -->
+<div class="container-fluid my-5 py-5">
+    <div class="row">
+        <div class="col-12 col-lg-7 col-xl-8">
+            <img class="img-fluid home-oracle-image" src="/images/home-oracle-image.png" alt="Oracle image">
+        </div>
+        <div class="col-12 col-lg-5 col-xl-3 align-self-center">
+            <h1 class="home-oracle-heading-primary mb-5">Platform Storytelling</h1>
+            <h2 class="home-oracle-heading-secondary mb-4">Helping a software giant persuade with compelling stories of transformation</h2>
+            <a class="home-oracle-link" href="#">► Play the Video</a>
+        </div>
+    </div>
+</div>

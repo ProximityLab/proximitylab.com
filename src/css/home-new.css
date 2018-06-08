@@ -145,3 +145,42 @@
 .home-minin-link:link {
     color: rgb(220, 67, 150);
 }
+
+
+/**
+ * Oracle
+ */
+
+@media (min-width: 992px) {
+    .home-oracle-image {
+        margin-left: -70px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-oracle-image {
+        margin-left: -90px;
+    }
+}
+
+.home-oracle-heading-primary {
+    font-size: 50px;
+    font-family: 'aleobold';
+    color: rgb(0, 0, 0);
+}
+
+.home-oracle-heading-secondary {
+    font-size: 29px;
+    font-family: 'aleoregular';
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+}  
+
+.home-oracle-link {
+    font-size: 20px;
+    font-family: 'aleobold';
+}
+
+.home-oracle-link:link {
+    color: rgb(220, 67, 150);
+}
