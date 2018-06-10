@@ -61,14 +61,14 @@
 
             <div class="home-minim-hover-overlay m-auto d-flex align-items-center">
                 <div class="home-minim-play-wrapper m-auto d-flex align-items-center">
-                    <img id="minim-video-play" class="home-minim-play-icon d-block" src="/images/icon-minim-play.gif" alt="Play button">
+                    <img id="minim-video-play" class="home-minim-play-icon d-block" src="/images/home-play-icon.gif" alt="Play button">
                 </div>
             </div>
         </div>
         <div class="col-12 col-md col-lg-5 align-self-center">
             <h1 class="home-minim-heading-primary mb-5">Demystifying the Internet of Things</h1>
             <h2 class="home-minim-heading-secondary mb-4">Empowering consumers with smart home security</h2>
-            <a class="home-minin-link" href="#">+ Read the Case Study</a>
+            <a class="home-minim-link" href="#">+ Read the Case Study</a>
         </div>
     </div>
 </div>
@@ -78,7 +78,13 @@
 <div class="container-fluid my-5 py-5">
     <div class="row">
         <div class="col-12 col-lg-7 col-xl-8">
-            <img class="img-fluid home-oracle-image" src="/images/home-oracle-image.png" alt="Oracle image">
+            <img class="home-oracle-image d-block" src="/images/home-oracle-image.png" alt="Oracle image">
+
+            <div class="home-oracle-hover-overlay d-flex align-items-center">
+                <div class="home-oracle-play-wrapper m-auto d-flex align-items-center">
+                    <img class="home-oracle-play-icon d-block" src="/images/home-play-icon.gif" alt="Play button">
+                </div>
+            </div>
         </div>
         <div class="col-12 col-lg-5 col-xl-3 align-self-center">
             <h1 class="home-oracle-heading-primary mb-5">Platform Storytelling</h1>
