@@ -93,3 +93,19 @@
         </div>
     </div>
 </div>
+
+
+<!-- Eagle -->
+<div class="container-fluid my-5 py-5">
+    <div class="row">
+        <div class="col-lg-8 order-lg-2 home-eagle-image-wrapper">
+            <img class="img-fluid home-eagle-image" src="/images/home-eagle-image.png" alt="Eagle image">
+        </div>
+
+        <div class="col-lg-4 order-lg-1 col-xl-3 offset-xl-1 align-self-center">
+            <h1 class="home-eagle-heading-primary mb-5">Accelerating Data Driven Discovery</h1>
+            <h2 class="home-eagle-heading-secondary mb-4">Visualization based AI to power genomic research and insights</h2>
+            <a class="home-eagle-link" href="#">+ Read the Case Study</a>
+        </div>
+    </div>
+</div>

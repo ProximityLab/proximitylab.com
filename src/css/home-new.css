@@ -267,3 +267,47 @@
 .home-oracle-link:link {
     color: rgb(220, 67, 150);
 }
+
+
+/**
+ * Eagle
+ */
+
+@media (min-width: 992px) {
+    .home-eagle-image-wrapper {
+        overflow-x: hidden;
+    }
+
+    .home-eagle-image {
+        float: right;
+        margin-right: -85px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-eagle-image {
+        margin-right: -100px;
+    }
+}
+
+.home-eagle-heading-primary {
+    font-size: 50px;
+    font-family: 'aleobold';
+    color: rgb(0, 0, 0);
+}
+
+.home-eagle-heading-secondary {
+    font-size: 29px;
+    font-family: 'aleoregular';
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+}
+
+.home-eagle-link {
+    font-size: 20px;
+    font-family: 'aleobold';
+}
+
+.home-eagle-link:link {
+    color: rgb(220, 67, 150);
+}
