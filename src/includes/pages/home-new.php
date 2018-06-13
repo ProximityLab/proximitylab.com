@@ -109,3 +109,19 @@
         </div>
     </div>
 </div>
+
+
+<!-- Amadeus -->
+<div class="container-fluid my-5 py-5">
+    <div class="row">
+        <div class="col-12 col-lg-7 col-xl-8">
+            <img class="img-fluid home-amadeus-image" src="/images/home-amadeus-image.png" alt="Amadeus image">
+        </div>
+
+        <div class="col-12 col-lg-5 col-xl-3 align-self-center">
+            <h1 class="home-amadeus-heading-primary mb-5">Best Laid Plans</h1>
+            <h2 class="home-amadeus-heading-secondary mb-4">Designing a cohesive SaaS product suite for professional event planners</h2>
+            <a class="home-amadeus-link" href="#">+ Read the Case Study</a>
+        </div>
+    </div>
+</div>
