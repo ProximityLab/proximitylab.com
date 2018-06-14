@@ -382,7 +382,7 @@
 @media (min-width: 576px) {
     .home-amadeus-hover-overlay {
         width: 376px;
-        height: 281px;
+        height: 282px;
         top: 63px;
     }
 }
@@ -399,7 +399,7 @@
 @media (min-width: 992px) {
     .home-amadeus-hover-overlay {
         width: 384px;
-        height: 282px;
+        height: 288px;
         top: 64px;
         margin: 0;
     }
@@ -408,7 +408,46 @@
 @media (min-width: 1200px) {
     .home-amadeus-hover-overlay {
         width: 536px;
-        height: 397px;
+        height: 402px;
+        top: 89px;
+    }
+}
+
+.home-amadeus-video {
+    width: 255px;
+    position: absolute;
+    top: 43px;
+    left: -4px;
+    right: 0;
+    margin: auto;
+}
+
+@media (min-width: 576px) {
+    .home-amadeus-video {
+        width: 376px;
+        top: 63px;
+    }
+}
+
+@media (min-width: 768px) {
+    .home-amadeus-video {
+        width: 508px;
+        top: 85px;
+        left: -6px;
+    }
+}
+
+@media (min-width: 992px) {
+    .home-amadeus-video {
+        width: 384px;
+        top: 64px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-amadeus-video {
+        width: 536px;
         top: 89px;
     }
 }
