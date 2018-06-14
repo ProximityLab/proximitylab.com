@@ -434,3 +434,19 @@
 .home-amadeus-link:link {
     color: rgb(220, 67, 150);
 }
+
+
+/**
+ * More work
+ */
+
+.home-more-work-button {
+    font-size: 20px;
+    font-family: 'aleobold';
+    background-color: #bec7c8;
+    border-radius: 25px;
+}
+
+.home-more-work-button:link {
+    color: rgb(255, 255, 255);
+}

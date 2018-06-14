@@ -131,3 +131,13 @@
         </div>
     </div>
 </div>
+
+
+<!-- More Work -->
+<div class="container my-5">
+    <div class="row">
+        <div class="col text-center">
+            <a href="#" class="home-more-work-button px-5 py-3">+ More Work</a>
+        </div>
+    </div>
+</div>
