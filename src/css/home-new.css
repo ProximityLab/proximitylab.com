@@ -317,15 +317,99 @@
  * Amadeus
  */
 
+.home-amadeus-image {
+    width: 370px;
+    margin: auto;
+}
+
+@media (min-width: 576px) {
+    .home-amadeus-image {
+        width: 546px;
+    }
+}
+
+@media (min-width: 768px) {
+    .home-amadeus-image {
+        width: 738px;
+    }
+}
+
 @media (min-width: 992px) {
     .home-amadeus-image {
-        margin-left: -116px;
+        width: 548px;
+        margin-left: -98px;
     }
 }
 
 @media (min-width: 1200px) {
     .home-amadeus-image {
-        margin-left: -155px;
+        width: 770px;
+        margin-left: -132px;
+    }
+}
+
+.home-amadeus-hover-overlay {
+    width: 255px;
+    height: 191px;
+    position: absolute;
+    top: 43px;
+    left: -4px;
+    right: 0;
+    margin: auto;
+}
+
+.home-amadeus-hover-overlay:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.home-amadeus-hover-overlay:hover .home-amadeus-play-wrapper {
+    visibility: visible;
+}
+
+.home-amadeus-play-wrapper {
+    visibility: hidden;
+    width: 130px;
+    height: 130px;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+}
+
+.home-amadeus-play-icon {
+    width: 65px;
+    margin-left: 40px;
+}
+
+@media (min-width: 576px) {
+    .home-amadeus-hover-overlay {
+        width: 376px;
+        height: 281px;
+        top: 63px;
+    }
+}
+
+@media (min-width: 768px) {
+    .home-amadeus-hover-overlay {
+        width: 508px;
+        height: 381px;
+        top: 85px;
+        left: -6px;
+    }
+}
+
+@media (min-width: 992px) {
+    .home-amadeus-hover-overlay {
+        width: 384px;
+        height: 282px;
+        top: 64px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-amadeus-hover-overlay {
+        width: 536px;
+        height: 397px;
+        top: 89px;
     }
 }
 

@@ -115,7 +115,13 @@
 <div class="container-fluid my-5 py-5">
     <div class="row">
         <div class="col-12 col-lg-7 col-xl-8">
-            <img class="img-fluid home-amadeus-image" src="/images/home-amadeus-image.png" alt="Amadeus image">
+            <img class="home-amadeus-image d-block" src="/images/home-amadeus-image.png" alt="Amadeus image">
+
+            <div class="home-amadeus-hover-overlay d-flex align-items-center">
+                <div class="home-amadeus-play-wrapper m-auto d-flex align-items-center">
+                    <img class="home-amadeus-play-icon d-block" src="/images/home-play-icon.gif" alt="Play button">
+                </div>
+            </div>
         </div>
 
         <div class="col-12 col-lg-5 col-xl-3 align-self-center">
