@@ -489,3 +489,28 @@
 .home-more-work-button:link {
     color: rgb(255, 255, 255);
 }
+
+
+/**
+ * Clients
+ */
+
+.home-clients {
+    background-color: #1e2128;
+}
+
+.home-clients-heading {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 45px;
+    font-family: 'aleoregular';
+}
+
+.home-clients-logo-oracle { height: 25px; }
+.home-clients-logo-adobe { height: 90px; }
+.home-clients-logo-philips { height: 28px; }
+.home-clients-logo-frustum { height: 45px; }
+.home-clients-logo-citrix { height: 55px; }
+.home-clients-logo-zynga { height: 44px; }
+.home-clients-logo-solidworks { height: 32px; }
+.home-clients-logo-scribe { height: 28px; }
+.home-clients-logo-eagle { height: 62px; }
