@@ -160,7 +160,7 @@
         if (!empty($activePage)) include('includes/navigation.php');
 
         include($activePagePhp);
-        include('includes/footer.php');
+        include('includes/footer-new.php');
       ?>
 
       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

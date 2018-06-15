@@ -1105,3 +1105,46 @@ a[name=start] {
     font-weight: normal;
     font-style: normal;
 }
+
+
+/**
+ * Global Footer
+ */
+
+.global-footer-link {
+    font-size: 20px;
+    font-family: 'aleobold';
+}
+
+.global-footer-link:link {
+    color: rgb(220, 67, 150);
+}
+
+.global-footer-heading {
+    font-size: 45px;
+    font-family: 'aleoregular';
+    color: rgb(0, 0, 0);
+}
+
+.global-footer-info {
+    font-size: 1.4rem;
+    color: #7c7c7c;
+}
+
+.global-footer-separator {
+    margin: 0 12px;
+    color: #404f60;
+    opacity: 0.3;   
+}
+
+.global-footer-phone {
+    color: #000;
+}
+
+.global-footer-email:link {
+    color: #04c3ed;
+}
+
+.global-footer-social-logo {
+    height: 16px;
+}
