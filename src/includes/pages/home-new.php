@@ -1,5 +1,5 @@
 <!-- Header -->
-<div class="container mt-5">
+<div class="container mt-5 pt-4">
     <div class="row text-center">
         <div class="col-sm-12 col-md-6 text-md-left">
             <img src="/images/logo-proximity-lab-pink@1x.png" class="home-proximity-lab-logo">

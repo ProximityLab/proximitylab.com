@@ -25,30 +25,30 @@
     font-size: 75px;
     font-family: 'aleoregular';
     color: rgb(0, 0, 0);
-    margin: 29px 0 25.5px;
+    margin: 18px 0 16px;
 }
 
 @media (min-width: 576px) {
     .home-main-heading {
-        margin: 58px 0 51px;
+        margin: 36px 0 32px;
     }
 }
 
 @media (min-width: 768px) {
     .home-main-heading {
-        margin: 87px 0 76.5px;
+        margin: 54px 0 48px;
     }
 }
 
 @media (min-width: 992px) {
     .home-main-heading {
-        margin: 116px 0 102px;
+        margin: 72px 0 64px;
     }
 }
 
 @media (min-width: 1200px) {
     .home-main-heading {
-        margin: 145px 0 127.5px;
+        margin: 90px 0 80px;
     }
 }
 
@@ -58,19 +58,20 @@
  */
 
 .home-icon-service {
-    height: 92.25px;
+    height: 70px;
 }
 
 .home-service-heading {
     font-size: 29px;
     font-family: 'aleobold';
     color: rgb(0, 0, 0);
-    margin-top: 39.5px;
+    margin-top: 25px;
+    margin-bottom: 0;
 }
 
 .home-service-link {
     font-size: 20px;
-    font-family: 'aleobold';
+    font-family: 'aleoregular';
     line-height: 2.6;
 }
 
