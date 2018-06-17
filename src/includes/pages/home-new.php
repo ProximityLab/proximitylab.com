@@ -27,19 +27,19 @@
 <!-- Services -->
 <div class="container">
     <div class="row text-center text-md-left">
-        <div class="col-12 col-md-4 my-5 py-4 mt-md-0 pt-md-0">
+        <div class="col-12 col-md-4 my-4 py-4 mt-md-0 pt-md-0">
             <img src="/images/icon-service-research.png" class="home-icon-service">
             <h2 class="home-service-heading">Research for Deep Understanding</h2>
             <a class="home-service-link" href="#">+ Learn More</a>
         </div>
 
-        <div class="col-12 col-md-4 my-5 py-4 mt-md-0 pt-md-0">
+        <div class="col-12 col-md-4 my-4 py-4 mt-md-0 pt-md-0">
             <img src="/images/icon-service-strategy.svg" class="home-icon-service">
             <h2 class="home-service-heading mr-xl-5">Business-centric Product Strategy</h2>
             <a class="home-service-link" href="#">+ Learn More</a>
         </div>
 
-        <div class="col-12 col-md-4 my-5 py-4 mt-md-0 pt-md-0">
+        <div class="col-12 col-md-4 my-4 py-4 mt-md-0 pt-md-0">
             <img src="/images/icon-service-design.svg" class="home-icon-service">
             <h2 class="home-service-heading mr-xl-5">Results-based UX and UI Design</h2>
             <a class="home-service-link" href="#">+ Learn More</a>
@@ -49,11 +49,11 @@
 
 
 <!-- Minim -->
-<div class="container mt-lg-5">
+<div class="container">
     <div class="row">
-        <div class="col-12 col-md col-lg-6">
+        <div class="col-12 col-md col-lg-6 offset-xl-1 pr-xl-0">
             <img class="home-minim-mobile-app-mockup d-block m-auto" src="/images/minim-mobile-app-mockup.png" alt="Minim mobile app mockup">
-            <video id="minim-video" class="home-minim-video m-auto" height="430" poster="/images/home-minim-video-poster.jpg">
+            <video id="minim-video" class="home-minim-video m-auto" poster="/images/home-minim-video-poster.jpg">
                 <source type="video/mp4" src="/video/minim.mp4">
                 <source type="video/webm" src="/video/minim.webm">
                 Your browser does not support the video tag.
@@ -65,7 +65,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md col-lg-5 align-self-center">
+        <div class="col-12 col-md col-lg-5 col-xl-4 pl-xl-0 align-self-center">
             <h1 class="home-minim-heading-primary mb-5">Demystifying the Internet of Things</h1>
             <h2 class="home-minim-heading-secondary mb-4">Empowering consumers with smart home security</h2>
             <a class="home-minim-link" href="#">+ Read the Case Study</a>
