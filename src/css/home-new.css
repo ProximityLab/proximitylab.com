@@ -176,6 +176,19 @@
  * Oracle
  */
 
+@media (min-width: 992px) {
+    .home-oracle-row {
+        position: relative;
+        left: -58px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-oracle-row {
+        left: -85px;
+    }
+}
+
 .home-oracle-image {
     width: 370px;
     margin: auto;
@@ -196,14 +209,12 @@
 @media (min-width: 992px) {
     .home-oracle-image {
         width: 548px;
-        margin-left: -59px;
     }
 }
 
 @media (min-width: 1200px) {
     .home-oracle-image {
-        width: 770px;
-        margin-left: -76px;
+        width: 870px;
     }
 }
 
@@ -259,15 +270,14 @@
         width: 462px;
         height: 261px;
         top: 41px;
-        margin: 0;
     }
 }
 
 @media (min-width: 1200px) {
     .home-oracle-hover-overlay {
-        width: 650px;
-        height: 366px;
-        top: 58px;
+        width: 735px;
+        height: 413px;
+        top: 65px;
     }
 }
 
@@ -286,7 +296,7 @@
 
 .home-oracle-link {
     font-size: 20px;
-    font-family: 'aleobold';
+    font-family: 'aleoregular';
 }
 
 .home-oracle-link:link {

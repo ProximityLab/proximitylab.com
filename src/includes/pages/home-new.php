@@ -75,9 +75,9 @@
 
 
 <!-- Oracle -->
-<div class="container-fluid my-5 py-5">
-    <div class="row">
-        <div class="col-12 col-lg-7 col-xl-8">
+<div class="container-fluid my-5 py-5 my-lg-0 py-lg-0">
+    <div class="row home-oracle-row">
+        <div class="col-12 col-lg-auto">
             <img class="home-oracle-image d-block" src="/images/home-oracle-image.png" alt="Oracle image">
 
             <div class="home-oracle-hover-overlay d-flex align-items-center">
