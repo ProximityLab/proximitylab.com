@@ -309,19 +309,19 @@
  */
 
 @media (min-width: 992px) {
-    .home-eagle-image-wrapper {
-        overflow-x: hidden;
+    .home-eagle-container {
+        overflow: hidden;
     }
 
-    .home-eagle-image {
-        float: right;
-        margin-right: -85px;
+    .home-eagle-row {
+        position: relative;
+        right: -85px;
     }
 }
 
 @media (min-width: 1200px) {
-    .home-eagle-image {
-        margin-right: -100px;
+    .home-eagle-row {
+        right: -100px;
     }
 }
 
@@ -340,7 +340,7 @@
 
 .home-eagle-link {
     font-size: 20px;
-    font-family: 'aleobold';
+    font-family: 'aleoregular';
 }
 
 .home-eagle-link:link {
