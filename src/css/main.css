@@ -1106,6 +1106,13 @@ a[name=start] {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'aleolight';
+    src: url('fonts/Aleo-Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /**
  * Global Footer
