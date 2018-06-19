@@ -139,8 +139,8 @@
 
 
 <!-- More Work -->
-<div class="container my-5 pb-5">
-    <div class="row">
+<div class="container my-5 py-5">
+    <div class="row mb-5">
         <div class="col text-center">
             <a href="#" class="home-more-work-button px-5 py-3">+ More Work</a>
         </div>
@@ -149,7 +149,7 @@
 
 
 <!-- Clients -->
-<div class="container-fluid text-center py-5 home-clients">
+<div class="container-fluid text-center mt-5 py-5 home-clients">
     <div class="row">
         <div class="col">
             <h3 class="pt-5 home-clients-heading">Our Clients</h3>
