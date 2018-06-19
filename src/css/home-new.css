@@ -352,6 +352,19 @@
  * Amadeus
  */
 
+@media (min-width: 992px) {
+    .home-amadeus-row {
+        position: relative;
+        left: -95px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-amadeus-row {
+        left: -150px;
+    }
+}
+
 .home-amadeus-image {
     width: 370px;
     margin: auto;
@@ -372,14 +385,12 @@
 @media (min-width: 992px) {
     .home-amadeus-image {
         width: 548px;
-        margin-left: -98px;
     }
 }
 
 @media (min-width: 1200px) {
     .home-amadeus-image {
-        width: 770px;
-        margin-left: -132px;
+        width: 870px;
     }
 }
 
@@ -435,16 +446,16 @@
     .home-amadeus-hover-overlay {
         width: 384px;
         height: 288px;
-        top: 64px;
-        margin: 0;
+        top: 60px;
+        
     }
 }
 
 @media (min-width: 1200px) {
     .home-amadeus-hover-overlay {
-        width: 536px;
-        height: 402px;
-        top: 89px;
+        width: 595px;
+        height: 446px;
+        top: 100px;
     }
 }
 
@@ -475,15 +486,14 @@
 @media (min-width: 992px) {
     .home-amadeus-video {
         width: 384px;
-        top: 64px;
-        margin: 0;
+        top: 60px;
     }
 }
 
 @media (min-width: 1200px) {
     .home-amadeus-video {
-        width: 536px;
-        top: 89px;
+        width: 595px;
+        top: 100px;
     }
 }
 
@@ -502,7 +512,7 @@
 
 .home-amadeus-link {
     font-size: 20px;
-    font-family: 'aleobold';
+    font-family: 'aleoregular';
 }
 
 .home-amadeus-link:link {

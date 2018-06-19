@@ -112,9 +112,9 @@
 
 
 <!-- Amadeus -->
-<div class="container-fluid my-5 py-5">
-    <div class="row">
-        <div class="col-12 col-lg-7 col-xl-8">
+<div class="container-fluid my-5 py-5 my-lg-0 py-lg-0">
+    <div class="row home-amadeus-row">
+        <div class="col-12 col-lg-auto">
             <img class="home-amadeus-image d-block" src="/images/home-amadeus-image.png" alt="Amadeus image">
             <video id="amadeus-video" class="home-amadeus-video" poster="/images/home-amadeus-video-poster.jpg">
                 <source type="video/mp4" src="/video/amadeus_590x444_M.mp4">
