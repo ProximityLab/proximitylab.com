@@ -61,7 +61,7 @@
 
             <div class="home-minim-hover-overlay m-auto d-flex align-items-center">
                 <div class="home-minim-play-wrapper m-auto d-flex align-items-center">
-                    <img id="minim-video-play" class="home-minim-play-icon d-block" src="/images/home-play-icon.gif" alt="Play button">
+                    <img id="minim-video-play" class="home-minim-play-icon d-block" src="/images/home-play-icon.svg" alt="Play button">
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@
 
             <div class="home-oracle-hover-overlay d-flex align-items-center">
                 <div class="home-oracle-play-wrapper m-auto d-flex align-items-center">
-                    <img class="home-oracle-play-icon d-block" src="/images/home-play-icon.gif" alt="Play button">
+                    <img class="home-oracle-play-icon d-block" src="/images/home-play-icon.svg" alt="Play button">
                 </div>
             </div>
         </div>
@@ -124,7 +124,7 @@
 
             <div class="home-amadeus-hover-overlay d-flex align-items-center">
                 <div class="home-amadeus-play-wrapper m-auto d-flex align-items-center">
-                    <img id="amadeus-video-play" class="home-amadeus-play-icon d-block" src="/images/home-play-icon.gif" alt="Play button">
+                    <img id="amadeus-video-play" class="home-amadeus-play-icon d-block" src="/images/home-play-icon.svg" alt="Play button">
                 </div>
             </div>
         </div>
