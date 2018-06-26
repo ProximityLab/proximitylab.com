@@ -142,11 +142,16 @@
     height: 130px;
     background-color: rgba(0, 0, 0, 0.15);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .home-minim-play-icon {
     width: 65px;
     margin-left: 40px;
+}
+
+.home-minim-pause-icon {
+    width: 65px;
 }
 
 .home-minim-heading-primary {

@@ -60,8 +60,9 @@
             </video>
 
             <div class="home-minim-hover-overlay m-auto d-flex align-items-center">
-                <div class="home-minim-play-wrapper m-auto d-flex align-items-center">
+                <div id="minim-video-toggle" class="home-minim-play-wrapper m-auto d-flex align-items-center">
                     <img id="minim-video-play" class="home-minim-play-icon d-block" src="/images/home-play-icon.svg" alt="Play button">
+                    <img id="minim-video-pause" class="home-minim-pause-icon m-auto d-none" src="/images/home-pause-icon.svg" alt="Pause button">
                 </div>
             </div>
         </div>
