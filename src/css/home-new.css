@@ -423,11 +423,16 @@
     height: 130px;
     background-color: rgba(0, 0, 0, 0.15);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .home-amadeus-play-icon {
     width: 65px;
     margin-left: 40px;
+}
+
+.home-amadeus-pause-icon {
+    width: 65px;
 }
 
 @media (min-width: 576px) {

@@ -124,8 +124,9 @@
             </video>
 
             <div class="home-amadeus-hover-overlay d-flex align-items-center">
-                <div class="home-amadeus-play-wrapper m-auto d-flex align-items-center">
+                <div id="amadeus-video-toggle" class="home-amadeus-play-wrapper m-auto d-flex align-items-center">
                     <img id="amadeus-video-play" class="home-amadeus-play-icon d-block" src="/images/home-play-icon.svg" alt="Play button">
+                    <img id="amadeus-video-pause" class="home-amadeus-pause-icon m-auto d-none" src="/images/home-pause-icon.svg" alt="Pause button">
                 </div>
             </div>
         </div>
