@@ -8,12 +8,16 @@
 
 .home-navbar-link {
     font-size: 22px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 2.7;
 }
 
 .home-navbar-link:link {
     color: rgb(0, 0, 0);
+}
+
+.home-navbar-link:hover {
+    text-decoration: none;
 }
 
 
