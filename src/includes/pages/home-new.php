@@ -1,11 +1,12 @@
 <!-- Header -->
 <div class="container mt-5 pt-4">
-    <div class="row text-center">
-        <div class="col-sm-12 col-md-6 text-md-left">
-            <img src="/images/logo-proximity-lab-2018.svg" class="home-proximity-lab-logo" alt="Proximity Lab logo">
+    <div class="row">
+        <div class="col-3 col-md-5">
+            <img src="/images/logo-proximity-lab-2018.svg" class="home-proximity-lab-logo d-md-none" alt="Proximity Lab logo">
+            <img src="/images/logo-and-name-proximity-lab-2018.svg" class="home-proximity-lab-logo d-none d-md-inline" alt="Proximity Lab logo">
         </div>
 
-        <div class="col-sm-12 col-md-6 text-md-right">
+        <div class="col-9 col-md-7 text-right">
             <a class="home-navbar-link" href="#">Studio</a>
             <a class="home-navbar-link ml-5" href="#">Case&nbsp;Studies</a>
             <a class="home-navbar-link ml-5" href="#">Contact</a>

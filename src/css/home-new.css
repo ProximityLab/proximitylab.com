@@ -3,13 +3,19 @@
  */
 
 .home-proximity-lab-logo {
-    width: 250px;
+    height: 64px;
 }
 
 .home-navbar-link {
-    font-size: 22px;
+    font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     line-height: 2.7;
+}
+
+@media (min-width: 576px) {
+    .home-navbar-link {
+        font-size: 22px;
+    }
 }
 
 .home-navbar-link:link {
