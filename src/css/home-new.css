@@ -72,11 +72,17 @@
 }
 
 .home-service-heading {
-    font-size: 29px;
+    font-size: 26px;
     font-family: 'aleobold';
     color: rgb(0, 0, 0);
     margin-top: 25px;
     margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .home-service-heading {
+        font-size: 29px;
+    }
 }
 
 .home-service-link {
@@ -89,6 +95,9 @@
     color: rgb(220, 67, 150);
 }
 
+.home-service-link:hover {
+    text-decoration: none;
+}
 
 /**
  * Minim
