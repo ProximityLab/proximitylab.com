@@ -19,7 +19,7 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1 class="home-main-heading">Listen. Create. Reboot.</h1>
+            <h1 class="home-main-heading text-center text-md-left">Listen. Create. Reboot.</h1>
         </div>
     </div>
 </div>
