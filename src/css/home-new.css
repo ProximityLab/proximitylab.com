@@ -115,7 +115,7 @@
 
 .home-minim-video {
     position: absolute;
-    height: 430px;
+    width: 215px;
     top: 104px;
     left: 0;
     right: 0;
@@ -123,54 +123,10 @@
 
 @media (min-width: 1200px) {
     .home-minim-video {
+        width: 325px;
         top: 138px;
         left: 15px;
-        height: 575px;
     }
-}
-
-.home-minim-hover-overlay {
-    width: 240px;
-    height: 430px;
-    position: absolute;
-    top: 104px;
-    left: 0;
-    right: 0;
-}
-
-@media (min-width: 1200px) {
-    .home-minim-hover-overlay {
-        top: 138px;
-        left: 15px;
-        width: 321px;
-        height: 575px;
-    }
-}
-
-.home-minim-hover-overlay:hover {
-    background-color: rgba(0, 0, 0, 0.15);
-}
-
-.home-minim-hover-overlay:hover .home-minim-play-wrapper {
-    visibility: visible;
-}
-
-.home-minim-play-wrapper {
-    visibility: hidden;
-    width: 130px;
-    height: 130px;
-    background-color: rgba(0, 0, 0, 0.15);
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.home-minim-play-icon {
-    width: 65px;
-    margin-left: 40px;
-}
-
-.home-minim-pause-icon {
-    width: 65px;
 }
 
 .home-minim-heading-primary {
@@ -193,6 +149,10 @@
 
 .home-minim-link:link {
     color: rgb(220, 67, 150);
+}
+
+.home-minim-link:hover {
+    text-decoration: none;
 }
 
 

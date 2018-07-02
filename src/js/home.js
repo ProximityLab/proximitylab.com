@@ -3,27 +3,6 @@
  */
 $(document).ready(function() {
 
-    // Minim video
-    var minimVideo = $("#minim-video");
-    var minimPlay = $("#minim-video-play");
-    var minimPause = $("#minim-video-pause");
-
-    $("#minim-video-toggle").click(function() {
-        if (minimVideo[0].paused)
-            minimVideo[0].play();
-        else
-            minimVideo[0].pause();
-    });
-
-    function toggleVideoControlMinim() {
-        minimPlay.toggleClass("d-block").toggleClass("d-none");
-        minimPause.toggleClass("d-block").toggleClass("d-none");
-    }
-
-    minimVideo.on('play pause', toggleVideoControlMinim);
-    minimVideo[0].onended = function() { toggleVideoControlMinim };
-
-
     // Amadeus video
     var amadeusVideo = $("#amadeus-video");
     var amadeusPlay = $("#amadeus-video-play");
