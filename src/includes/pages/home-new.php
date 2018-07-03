@@ -74,17 +74,11 @@
     <div class="row home-oracle-row">
         <div class="col-12 col-lg-auto">
             <img class="home-oracle-image d-block" src="/images/home-oracle-image.png" alt="Oracle image">
-
-            <div class="home-oracle-hover-overlay d-flex align-items-center">
-                <div class="home-oracle-play-wrapper m-auto d-flex align-items-center">
-                    <img class="home-oracle-play-icon d-block" src="/images/home-play-icon.svg" alt="Play button">
-                </div>
-            </div>
         </div>
         <div class="col-12 col-lg-5 col-xl-3 align-self-center">
             <h1 class="home-oracle-heading-primary mb-5">Platform Storytelling</h1>
             <h2 class="home-oracle-heading-secondary mb-4">Helping a software giant persuade with compelling stories of transformation</h2>
-            <a class="home-oracle-link" href="#">► Play the Video</a>
+            <a class="home-oracle-link" href="#"><i class="material-icons">play_arrow</i> Play the Video</a>
         </div>
     </div>
 </div>

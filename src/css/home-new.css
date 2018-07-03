@@ -202,69 +202,6 @@
     }
 }
 
-.home-oracle-hover-overlay {
-    width: 313px;
-    height: 175px;
-    position: absolute;
-    top: 28px;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-.home-oracle-hover-overlay:hover {
-    background-color: rgba(0, 0, 0, 0.15);
-}
-
-.home-oracle-hover-overlay:hover .home-oracle-play-wrapper {
-    visibility: visible;
-}
-
-.home-oracle-play-wrapper {
-    visibility: hidden;
-    width: 130px;
-    height: 130px;
-    background-color: rgba(0, 0, 0, 0.15);
-    border-radius: 50%;
-}
-
-.home-oracle-play-icon {
-    width: 65px;
-    margin-left: 40px;
-}
-
-@media (min-width: 576px) {
-    .home-oracle-hover-overlay {
-        width: 461px;
-        height: 260px;
-        top: 41px;
-    }
-}
-
-@media (min-width: 768px) {
-    .home-oracle-hover-overlay {
-        width: 623px;
-        height: 351px;
-        top: 55px;
-    }
-}
-
-@media (min-width: 992px) {
-    .home-oracle-hover-overlay {
-        width: 462px;
-        height: 261px;
-        top: 41px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .home-oracle-hover-overlay {
-        width: 735px;
-        height: 413px;
-        top: 65px;
-    }
-}
-
 .home-oracle-heading-primary {
     font-size: 50px;
     font-family: 'aleobold';
@@ -285,6 +222,14 @@
 
 .home-oracle-link:link {
     color: rgb(220, 67, 150);
+}
+
+.home-oracle-link:hover {
+    text-decoration: none;
+}
+
+.home-oracle-link .material-icons {
+    vertical-align: middle;
 }
 
 
