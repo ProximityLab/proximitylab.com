@@ -105,18 +105,11 @@
     <div class="row home-amadeus-row">
         <div class="col-12 col-lg-auto">
             <img class="home-amadeus-image d-block" src="/images/home-amadeus-image.png" alt="Amadeus image">
-            <video id="amadeus-video" class="home-amadeus-video" poster="/images/home-amadeus-video-poster.jpg">
+            <video controls class="home-amadeus-video" poster="/images/home-amadeus-video-poster.jpg">
                 <source type="video/mp4" src="/video/amadeus_590x444_M.mp4">
                 <source type="video/webm" src="/video/amadeus.webm">
                 Your browser does not support the video tag.
             </video>
-
-            <div class="home-amadeus-hover-overlay d-flex align-items-center">
-                <div id="amadeus-video-toggle" class="home-amadeus-play-wrapper m-auto d-flex align-items-center">
-                    <img id="amadeus-video-play" class="home-amadeus-play-icon d-block" src="/images/home-play-icon.svg" alt="Play button">
-                    <img id="amadeus-video-pause" class="home-amadeus-pause-icon m-auto d-none" src="/images/home-pause-icon.svg" alt="Pause button">
-                </div>
-            </div>
         </div>
 
         <div class="col-12 col-lg-5 col-xl-3 align-self-center">

@@ -327,80 +327,10 @@
     }
 }
 
-.home-amadeus-hover-overlay {
-    width: 255px;
-    height: 191px;
-    position: absolute;
-    top: 43px;
-    left: -4px;
-    right: 0;
-    margin: auto;
-}
-
-.home-amadeus-hover-overlay:hover {
-    background-color: rgba(0, 0, 0, 0.15);
-}
-
-.home-amadeus-hover-overlay:hover .home-amadeus-play-wrapper {
-    visibility: visible;
-}
-
-.home-amadeus-play-wrapper {
-    visibility: hidden;
-    width: 130px;
-    height: 130px;
-    background-color: rgba(0, 0, 0, 0.15);
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.home-amadeus-play-icon {
-    width: 65px;
-    margin-left: 40px;
-}
-
-.home-amadeus-pause-icon {
-    width: 65px;
-}
-
-@media (min-width: 576px) {
-    .home-amadeus-hover-overlay {
-        width: 376px;
-        height: 282px;
-        top: 63px;
-    }
-}
-
-@media (min-width: 768px) {
-    .home-amadeus-hover-overlay {
-        width: 508px;
-        height: 381px;
-        top: 85px;
-        left: -6px;
-    }
-}
-
-@media (min-width: 992px) {
-    .home-amadeus-hover-overlay {
-        width: 384px;
-        height: 288px;
-        top: 60px;
-        
-    }
-}
-
-@media (min-width: 1200px) {
-    .home-amadeus-hover-overlay {
-        width: 595px;
-        height: 446px;
-        top: 100px;
-    }
-}
-
 .home-amadeus-video {
-    width: 255px;
+    width: 240px;
     position: absolute;
-    top: 43px;
+    top: 39px;
     left: -4px;
     right: 0;
     margin: auto;
@@ -455,6 +385,10 @@
 
 .home-amadeus-link:link {
     color: rgb(220, 67, 150);
+}
+
+.home-amadeus-link:hover {
+    text-decoration: none;
 }
 
 
