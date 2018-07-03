@@ -276,6 +276,10 @@
     color: rgb(220, 67, 150);
 }
 
+.home-eagle-link:hover {
+    text-decoration: none;
+}
+
 
 /**
  * Amadeus
