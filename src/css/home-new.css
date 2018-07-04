@@ -3,7 +3,13 @@
  */
 
 .home-proximity-lab-logo {
-    height: 64px;
+    height: 54px;
+}
+
+@media (min-width: 576px) {
+    .home-proximity-lab-logo{
+        height: 64px;
+    }
 }
 
 .home-navbar-link {
