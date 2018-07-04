@@ -1127,6 +1127,10 @@ a[name=start] {
     color: rgb(220, 67, 150);
 }
 
+.global-footer-link:hover {
+    text-decoration: none;
+}
+
 .global-footer-heading {
     font-size: 45px;
     font-family: 'aleoregular';
@@ -1144,12 +1148,20 @@ a[name=start] {
     opacity: 0.3;   
 }
 
-.global-footer-phone {
+.global-footer-phone:link {
     color: #000;
+}
+
+.global-footer-phone:hover {
+    text-decoration: none;
 }
 
 .global-footer-email:link {
     color: #04c3ed;
+}
+
+.global-footer-email:hover {
+    text-decoration: none;
 }
 
 .global-footer-social-logo {

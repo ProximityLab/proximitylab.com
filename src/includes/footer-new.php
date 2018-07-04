@@ -13,7 +13,7 @@
             <p class="global-footer-info">
                 © 2008-2018 Proximity Lab
                 <span class="global-footer-separator">|</span>
-                <span class="global-footer-phone">855.776.9522</span>
+                <a href="tel:8557769522" class="global-footer-phone">855.776.9522</a>
                 <span class="global-footer-separator">|</span>
                 <a class="global-footer-email" href="mailto:info@proximitylab.com">info@proximitylab.com</a>
                 <span class="global-footer-separator">|</span>
