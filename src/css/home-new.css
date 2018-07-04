@@ -38,14 +38,15 @@
  */
 
 .home-main-heading {
-    font-size: 75px;
+    font-size: 45px;
     font-family: 'aleoregular';
     color: rgb(0, 0, 0);
-    margin: 18px 0 16px;
+    margin: 35px 0 10px;
 }
 
 @media (min-width: 576px) {
     .home-main-heading {
+        font-size: 75px;
         margin: 36px 0 32px;
     }
 }
