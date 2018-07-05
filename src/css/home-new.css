@@ -139,17 +139,29 @@
 }
 
 .home-minim-heading-primary {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'aleobold';
     color: rgb(0, 0, 0);
 }
 
+@media (min-width: 576px) { 
+    .home-minim-heading-primary { 
+        font-size: 50px; 
+    }
+} 
+
 .home-minim-heading-secondary {
-    font-size: 29px;
+    font-size: 25px;
     font-family: 'aleolight';
     color: rgb(0, 0, 0);
     line-height: 1.5;
 }
+
+@media (min-width: 576px) { 
+    .home-minim-heading-secondary { 
+        font-size: 29px; 
+    } 
+} 
 
 .home-minim-link {
     font-size: 20px;
@@ -212,17 +224,29 @@
 }
 
 .home-oracle-heading-primary {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'aleobold';
     color: rgb(0, 0, 0);
 }
 
+@media (min-width: 576px) {
+    .home-oracle-heading-primary {
+        font-size: 50px;
+    }
+}
+
 .home-oracle-heading-secondary {
-    font-size: 29px;
+    font-size: 25px;
     font-family: 'aleolight';
     color: rgb(0, 0, 0);
     line-height: 1.5;
-}  
+}
+
+@media (min-width: 576px) {
+    .home-oracle-heading-secondary {
+        font-size: 29px;
+    }
+}
 
 .home-oracle-link {
     font-size: 20px;
@@ -238,7 +262,7 @@
 }
 
 .home-oracle-link .material-icons {
-    vertical-align: middle;
+    vertical-align: sub;
 }
 
 
@@ -264,16 +288,28 @@
 }
 
 .home-eagle-heading-primary {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'aleobold';
     color: rgb(0, 0, 0);
 }
 
+@media (min-width: 576px) { 
+    .home-eagle-heading-primary {
+        font-size: 50px; 
+    } 
+} 
+
 .home-eagle-heading-secondary {
-    font-size: 29px;
+    font-size: 25px;
     font-family: 'aleolight';
     color: rgb(0, 0, 0);
     line-height: 1.5;
+}
+
+@media (min-width: 576px) { 
+    .home-eagle-heading-secondary { 
+        font-size: 29px; 
+    } 
 }
 
 .home-eagle-link {
@@ -375,17 +411,29 @@
 }
 
 .home-amadeus-heading-primary {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'aleobold';
     color: rgb(0, 0, 0);
 }
 
+@media (min-width: 576px) {  
+    .home-amadeus-heading-primary { 
+        font-size: 50px;  
+    }  
+}  
+
 .home-amadeus-heading-secondary {
-    font-size: 29px;
+    font-size: 25px;
     font-family: 'aleolight';
     color: rgb(0, 0, 0);
     line-height: 1.5;
-}  
+}
+
+@media (min-width: 576px) {  
+    .home-amadeus-heading-secondary {  
+        font-size: 29px;  
+    }  
+}
 
 .home-amadeus-link {
     font-size: 20px;

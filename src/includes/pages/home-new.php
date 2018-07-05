@@ -61,9 +61,9 @@
             </video>
         </div>
         <div class="col-12 col-md col-lg-5 col-xl-4 pl-xl-0 align-self-center">
-            <h1 class="home-minim-heading-primary mb-5">Demystifying the Internet of Things</h1>
-            <h2 class="home-minim-heading-secondary mb-4">Empowering consumers with smart home security</h2>
-            <a class="home-minim-link" href="#">+ Read the Case Study</a>
+            <h1 class="home-minim-heading-primary ml-4 ml-md-0 mb-4 mb-md-5">Demystifying the Internet of Things</h1>
+            <h2 class="home-minim-heading-secondary ml-4 ml-md-0 mb-2 mb-md-4">Empowering consumers with smart home security</h2>
+            <a class="home-minim-link ml-3 ml-md-0" href="#">+ Read the Case Study</a>
         </div>
     </div>
 </div>
@@ -76,9 +76,9 @@
             <img class="home-oracle-image d-block" src="/images/home-oracle-image.png" alt="Oracle image">
         </div>
         <div class="col-12 col-lg-5 col-xl-3 align-self-center">
-            <h1 class="home-oracle-heading-primary mb-5">Platform Storytelling</h1>
-            <h2 class="home-oracle-heading-secondary mb-4">Helping a software giant persuade with compelling stories of transformation</h2>
-            <a class="home-oracle-link" href="#"><i class="material-icons">play_arrow</i> Play the Video</a>
+            <h1 class="home-oracle-heading-primary ml-4 ml-md-0 mb-4 mb-md-5">Platform Storytelling</h1>
+            <h2 class="home-oracle-heading-secondary ml-4 ml-md-0 mb-2 mb-md-4">Helping a software giant persuade with compelling stories of transformation</h2>
+            <a class="home-oracle-link ml-3 ml-md-0" href="#"><i class="material-icons">play_arrow</i> Play the Video</a>
         </div>
     </div>
 </div>
@@ -92,9 +92,9 @@
         </div>
 
         <div class="col-lg-4 order-lg-1 align-self-center">
-            <h1 class="home-eagle-heading-primary mb-5">Accelerating Data Driven Discovery</h1>
-            <h2 class="home-eagle-heading-secondary mb-4">Visualization based AI to power genomic research and insights</h2>
-            <a class="home-eagle-link" href="#">+ Read the Case Study</a>
+            <h1 class="home-eagle-heading-primary ml-4 ml-md-0 mb-4 mb-md-5">Accelerating Data Driven Discovery</h1>
+            <h2 class="home-eagle-heading-secondary ml-4 ml-md-0 mb-2 mb-md-4">Visualization based AI to power genomic research and insights</h2>
+            <a class="home-eagle-link ml-3 ml-md-0" href="#">+ Read the Case Study</a>
         </div>
     </div>
 </div>
@@ -113,9 +113,9 @@
         </div>
 
         <div class="col-12 col-lg-5 col-xl-3 align-self-center">
-            <h1 class="home-amadeus-heading-primary mb-5">Best Laid Plans</h1>
-            <h2 class="home-amadeus-heading-secondary mb-4">Designing a cohesive SaaS product suite for professional event planners</h2>
-            <a class="home-amadeus-link" href="#">+ Read the Case Study</a>
+            <h1 class="home-amadeus-heading-primary ml-4 ml-md-0 mb-4 mb-md-5">Best Laid Plans</h1>
+            <h2 class="home-amadeus-heading-secondary ml-4 ml-md-0 mb-2 mb-md-4">Designing a cohesive SaaS product suite for professional event planners</h2>
+            <a class="home-amadeus-link ml-3 ml-md-0" href="#">+ Read the Case Study</a>
         </div>
     </div>
 </div>
