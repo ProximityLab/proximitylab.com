@@ -50,7 +50,7 @@
 
 
 <!-- Minim -->
-<div class="container">
+<div class="container mb-4 pb-4 mb-lg-0 pb-lg-0">
     <div class="row">
         <div class="col-12 col-md col-lg-6 offset-xl-1 pr-xl-0">
             <img class="home-minim-mobile-app-mockup d-block m-auto" src="/images/minim-mobile-app-mockup.png" alt="Minim mobile app mockup">
@@ -70,7 +70,7 @@
 
 
 <!-- Oracle -->
-<div class="container-fluid my-5 py-5 my-lg-0 py-lg-0">
+<div class="container-fluid my-4 py-4 my-lg-0 py-lg-0">
     <div class="row home-oracle-row">
         <div class="col-12 col-lg-auto">
             <img class="home-oracle-image d-block" src="/images/home-oracle-image.png" alt="Oracle image">
@@ -85,7 +85,7 @@
 
 
 <!-- Eagle -->
-<div class="container-fluid my-5 py-5 my-lg-3 py-lg-3 home-eagle-container">
+<div class="container-fluid my-4 py-4 my-lg-3 py-lg-3 home-eagle-container">
     <div class="row home-eagle-row">
         <div class="col-lg-8 order-lg-2">
             <img class="img-fluid home-eagle-image" src="/images/home-eagle-image.png" alt="Eagle image">
@@ -101,7 +101,7 @@
 
 
 <!-- Amadeus -->
-<div class="container-fluid my-5 py-5 my-lg-0 py-lg-0">
+<div class="container-fluid my-4 py-4 my-lg-0 py-lg-0">
     <div class="row home-amadeus-row">
         <div class="col-12 col-lg-auto">
             <img class="home-amadeus-image d-block" src="/images/home-amadeus-image.png" alt="Amadeus image">
