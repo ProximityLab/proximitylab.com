@@ -80,15 +80,17 @@
 
 .home-service-heading {
     font-size: 26px;
-    font-family: 'aleobold';
+    font-family: 'aleoregular';
     color: rgb(0, 0, 0);
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
     .home-service-heading {
         font-size: 29px;
+        font-family: 'aleobold';
+        margin-top: 25px;
     }
 }
 
