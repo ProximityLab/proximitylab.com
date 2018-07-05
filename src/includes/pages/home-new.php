@@ -139,40 +139,40 @@
         </div>
     </div>
 
-    <div class="row align-items-center">
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 offset-xl-1 my-5 py-5">
+    <div class="row align-items-center mb-5">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 offset-xl-1 my-4 py-4">
             <img class="home-clients-logo-oracle" src="/images/logo-oracle.svg" alt="Oracle logo">
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-5 py-5">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-4 py-4">
             <img class="home-clients-logo-adobe" src="/images/logo-adobe.svg" alt="Adobe logo">
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-5 py-5">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-4 py-4">
             <img class="home-clients-logo-philips" src="/images/logo-philips.svg" alt="Philips logo">
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-5 py-5">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-4 py-4">
             <img class="home-clients-logo-frustum" src="/images/logo-frustum.png" alt="Frustum logo">
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-5 py-5">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-4 py-4">
             <img class="home-clients-logo-citrix" src="/images/logo-citrix.svg" alt="Citrix logo">
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 offset-xl-2 my-5 py-5">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 offset-xl-2 my-4 py-4">
             <img class="home-clients-logo-zynga" src="/images/logo-zynga.svg" alt="Zynga logo">
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-5 py-5">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-4 py-4">
             <img class="home-clients-logo-solidworks" src="/images/logo-solidworks.svg" alt="Solidworks logo">
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-5 py-5">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-4 py-4">
             <img class="home-clients-logo-scribe" src="/images/logo-scribe.png" alt="Scribe logo">
         </div>
 
-        <div class="col-12 col-md-4 col-lg-12 col-xl-2 my-5 py-5">
+        <div class="col-12 col-md-4 col-lg-12 col-xl-2 my-4 py-4">
             <img class="home-clients-logo-eagle" src="/images/logo-eagle.svg" alt="Eagle logo">
         </div>
     </div>
