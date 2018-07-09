@@ -13,4 +13,15 @@ $(document).ready(function() {
         $("#minim-video-overlay").removeClass("d-flex").addClass("d-none");
     });
 
+
+    // Amadeus video
+    var amadeusVideo = $("#amadeus-video"); 
+
+    $("#amadeus-video-play").click(function() { 
+        amadeusVideo[0].play();
+        amadeusVideo[0].controls = true;
+
+        $("#amadeus-video-overlay").removeClass("d-flex").addClass("d-none");
+    });
+
 });

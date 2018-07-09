@@ -114,11 +114,20 @@
     <div class="row home-amadeus-row">
         <div class="col-12 col-lg-auto">
             <img class="home-amadeus-image d-block" src="/images/home-amadeus-image.png" alt="Amadeus image">
-            <video controls class="home-amadeus-video" poster="/images/home-amadeus-video-poster.jpg">
-                <source type="video/mp4" src="/video/amadeus_590x444_M.mp4">
-                <source type="video/webm" src="/video/amadeus.webm">
-                Your browser does not support the video tag.
-            </video>
+
+            <div class="home-amadeus-video-wrapper m-auto">
+                <video id="amadeus-video" class="home-amadeus-video" poster="/images/home-amadeus-video-poster.jpg">
+                    <source type="video/mp4" src="/video/amadeus_590x444_M.mp4">
+                    <source type="video/webm" src="/video/amadeus.webm">
+                    Your browser does not support the video tag.
+                </video>
+
+                <div id="amadeus-video-overlay" class="home-amadeus-video-overlay d-flex align-items-center"> 
+                    <div id="amadeus-video-play" class="home-amadeus-play-wrapper m-auto d-flex align-items-center">  
+                        <img class="home-amadeus-play-icon d-block" src="/images/home-play-icon.svg" alt="Play button">  
+                    </div> 
+                </div>
+            </div>
         </div>
 
         <div class="col-12 col-lg-5 col-xl-3 align-self-center">
