@@ -83,11 +83,25 @@
     <div class="row home-oracle-row">
         <div class="col-12 col-lg-auto">
             <img class="home-oracle-image d-block" src="/images/home-oracle-image.png" alt="Oracle image">
+
+            <div class="home-oracle-video-wrapper m-auto">
+                <video id="oracle-video" class="img-fluid" poster="/images/home-oracle-video-poster.jpg"> 
+                    <source type="video/mp4" src="/video/oracle.mp4">
+                    <source type="video/webm" src="/video/oracle.webm">
+                    Your browser does not support the video tag. 
+                </video>
+
+                <div id="oracle-video-overlay" class="home-oracle-video-overlay d-flex align-items-center">  
+                    <div id="oracle-video-play" class="home-oracle-play-wrapper m-auto d-flex align-items-center">   
+                        <img class="home-oracle-play-icon d-block" src="/images/home-play-icon.svg" alt="Play button">   
+                    </div>  
+                </div>
+            </div>
         </div>
         <div class="col-12 col-lg-5 col-xl-3 align-self-center">
             <h1 class="home-oracle-heading-primary ml-4 ml-md-0 mb-4 mb-md-5">Platform Storytelling</h1>
             <h2 class="home-oracle-heading-secondary ml-4 ml-md-0 mb-2 mb-md-4">Helping a software giant persuade with compelling stories of transformation</h2>
-            <a class="home-oracle-link ml-3 ml-md-0" href="#"><i class="material-icons">play_arrow</i> Play the Video</a>
+            <a class="home-oracle-link ml-3 ml-md-0" href="#" id="oracle-video-play-link"><i class="material-icons">play_arrow</i> Play the Video</a>
         </div>
     </div>
 </div>

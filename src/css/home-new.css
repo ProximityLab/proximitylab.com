@@ -262,6 +262,74 @@
     }
 }
 
+.home-oracle-video-wrapper { 
+    position: absolute; 
+    width: 292px; 
+    height: 164px; 
+    top: 26px; 
+    left: 0; 
+    right: 0;
+}
+
+@media (min-width: 576px) {
+    .home-oracle-video-wrapper {
+        width: 461px;
+        height: 259px;
+        top: 41px;
+    }
+}
+
+@media (min-width: 768px) {
+    .home-oracle-video-wrapper {
+        width: 623px;
+        height: 350px;
+        top: 56px;
+    }
+}
+
+@media (min-width: 992px) {
+    .home-oracle-video-wrapper {
+        width: 463px;
+        height: 261px;
+        top: 41px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-oracle-video-wrapper {
+        width: 735px;
+        height: 414px;
+        top: 65px;
+    }
+}
+
+.home-oracle-video-overlay {  
+    position: absolute;  
+    top: 0;  
+    right: 0;  
+    bottom: 0;  
+    left: 0;  
+    background-color: rgba(0, 0, 0, 0.15);  
+    visibility: hidden;  
+}
+
+.home-oracle-play-wrapper {  
+    width: 130px;   
+    height: 130px;   
+    background-color: rgba(0, 0, 0, 0.15);   
+    border-radius: 50%;   
+    cursor: pointer;   
+}
+
+.home-oracle-play-icon {   
+    width: 65px;   
+    margin-left: 40px;   
+}  
+  
+.home-oracle-video-wrapper:hover .home-oracle-video-overlay {
+    visibility: visible;  
+}
+
 .home-oracle-heading-primary {
     font-size: 40px;
     font-family: 'aleobold';

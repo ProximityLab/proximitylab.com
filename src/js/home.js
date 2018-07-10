@@ -14,6 +14,19 @@ $(document).ready(function() {
     });
 
 
+    // Oracle video
+    var oracleVideo = $("#oracle-video"); 
+
+    $("#oracle-video-play, #oracle-video-play-link").click(function() { 
+        oracleVideo[0].play();
+        oracleVideo[0].controls = true;
+
+        $("#oracle-video-overlay").removeClass("d-flex").addClass("d-none");
+
+        return false; // Prevents default behavior from link
+    });
+
+
     // Amadeus video
     var amadeusVideo = $("#amadeus-video"); 
 
