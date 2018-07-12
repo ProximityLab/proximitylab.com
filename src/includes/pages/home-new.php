@@ -25,8 +25,27 @@
 </div>
 
 
-<!-- Services -->
-<div class="container mt-2">
+<!-- Services carousel xs and sm -->
+<div class="carousel slide mt-4 d-md-none" data-ride="carousel">
+  <div class="carousel-inner text-center">
+    <div class="carousel-item active">
+        <img src="/images/icon-service-research.svg" class="home-icon-service">
+        <h2 class="home-service-heading px-5 mx-5">Research for Deep Understanding</h2>
+    </div>
+    <div class="carousel-item">
+        <img src="/images/icon-service-strategy.svg" class="home-icon-service">
+        <h2 class="home-service-heading px-5 mx-5">Business-centric Product Strategy</h2>
+    </div>
+    <div class="carousel-item">
+        <img src="/images/icon-service-design.svg" class="home-icon-service">
+        <h2 class="home-service-heading px-5 mx-5">Results-based UX and UI Design</h2>
+    </div>
+  </div>
+</div>
+
+
+<!-- Services md and up -->
+<div class="container mt-2 d-none d-md-block">
     <div class="row text-center text-md-left">
         <div class="col-12 col-md-4 py-4 pt-md-0">
             <img src="/images/icon-service-research.svg" class="home-icon-service">
