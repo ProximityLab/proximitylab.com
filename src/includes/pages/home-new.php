@@ -26,23 +26,23 @@
 
 
 <!-- Services -->
-<div class="container">
+<div class="container mt-2">
     <div class="row text-center text-md-left">
-        <div class="col-12 col-md-4 my-4 py-4 mt-md-0 pt-md-0">
+        <div class="col-12 col-md-4 py-4 pt-md-0">
             <img src="/images/icon-service-research.svg" class="home-icon-service">
-            <h2 class="home-service-heading">Research for Deep Understanding</h2>
+            <h2 class="home-service-heading px-5 px-md-0">Research for Deep Understanding</h2>
             <a class="home-service-link" href="#">+ Learn More</a>
         </div>
 
-        <div class="col-12 col-md-4 my-4 py-4 mt-md-0 pt-md-0">
+        <div class="col-12 col-md-4 py-4 pt-md-0">
             <img src="/images/icon-service-strategy.svg" class="home-icon-service">
-            <h2 class="home-service-heading mr-xl-5">Business-centric Product Strategy</h2>
+            <h2 class="home-service-heading px-5 px-md-0 mr-xl-5">Business-centric Product Strategy</h2>
             <a class="home-service-link" href="#">+ Learn More</a>
         </div>
 
-        <div class="col-12 col-md-4 my-4 py-4 mt-md-0 pt-md-0">
+        <div class="col-12 col-md-4 py-4 pt-md-0">
             <img src="/images/icon-service-design.svg" class="home-icon-service">
-            <h2 class="home-service-heading mr-xl-5">Results-based UX and UI Design</h2>
+            <h2 class="home-service-heading px-5 px-md-0 mr-xl-5">Results-based UX and UI Design</h2>
             <a class="home-service-link" href="#">+ Learn More</a>
         </div>
     </div>
