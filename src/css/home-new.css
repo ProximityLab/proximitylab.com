@@ -21,14 +21,12 @@
 @media (min-width: 576px) {
     .home-navbar-link {
         font-size: 22px;
+        color: rgb(0, 0, 0);
     }
 }
 
-.home-navbar-link:link {
-    color: rgb(0, 0, 0);
-}
-
 .home-navbar-link:hover {
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -98,13 +96,11 @@
     font-size: 20px;
     font-family: 'aleoregular';
     line-height: 2.6;
-}
-
-.home-service-link:link {
     color: rgb(220, 67, 150);
 }
 
 .home-service-link:hover {
+    color: rgb(220, 67, 150);
     text-decoration: none;
 }
 
@@ -205,13 +201,11 @@
 .home-minim-link {
     font-size: 20px;
     font-family: 'aleoregular';
-}
-
-.home-minim-link:link {
     color: rgb(220, 67, 150);
 }
 
 .home-minim-link:hover {
+    color: rgb(220, 67, 150);
     text-decoration: none;
 }
 
@@ -358,13 +352,11 @@
 .home-oracle-link {
     font-size: 20px;
     font-family: 'aleoregular';
-}
-
-.home-oracle-link:link {
     color: rgb(220, 67, 150);
 }
 
 .home-oracle-link:hover {
+    color: rgb(220, 67, 150);
     text-decoration: none;
 }
 
@@ -422,14 +414,12 @@
 .home-eagle-link {
     font-size: 20px;
     font-family: 'aleoregular';
-}
-
-.home-eagle-link:link {
     color: rgb(220, 67, 150);
 }
 
 .home-eagle-link:hover {
     text-decoration: none;
+    color: rgb(220, 67, 150);
 }
 
 
@@ -596,14 +586,12 @@
 .home-amadeus-link {
     font-size: 20px;
     font-family: 'aleoregular';
-}
-
-.home-amadeus-link:link {
     color: rgb(220, 67, 150);
 }
 
 .home-amadeus-link:hover {
     text-decoration: none;
+    color: rgb(220, 67, 150);
 }
 
 
@@ -616,14 +604,12 @@
     font-family: 'aleoregular';
     background-color: #bec7c8;
     border-radius: 25px;
-}
-
-.home-more-work-button:link {
     color: rgb(255, 255, 255);
 }
 
 .home-more-work-button:hover {
     text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 
