@@ -129,11 +129,11 @@
 <!-- Eagle -->
 <div class="container-fluid my-4 py-4 my-lg-3 py-lg-3 home-eagle-container">
     <div class="row home-eagle-row">
-        <div class="col-lg-8 order-lg-2">
+        <div class="col-lg-8 order-lg-2 pl-lg-0">
             <img class="img-fluid home-eagle-image" src="/images/home-eagle-image.png" alt="Eagle image">
         </div>
 
-        <div class="col-lg-4 order-lg-1 align-self-center">
+        <div class="col-lg-4 order-lg-1 px-lg-0 col-xl-3 offset-xl-1 align-self-center">
             <h1 class="home-eagle-heading-primary ml-4 ml-md-0 mb-4 mb-md-5">Accelerating Data Driven Discovery</h1>
             <h2 class="home-eagle-heading-secondary ml-4 ml-md-0 mb-2 mb-md-4">Visualization based AI to power genomic research and insights</h2>
             <a class="home-eagle-link ml-3 ml-md-0" href="#">+ Read the Case Study</a>
