@@ -163,7 +163,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-lg-5 col-xl-3 align-self-center">
+        <div class="col-12 col-lg-5 col-xl-3 px-xl-0 align-self-center">
             <h1 class="home-amadeus-heading-primary ml-4 ml-md-0 mb-4 mb-md-5">Best Laid Plans</h1>
             <h2 class="home-amadeus-heading-secondary ml-4 ml-md-0 mb-2 mb-md-4">Designing a cohesive SaaS product suite for professional event planners</h2>
             <a class="home-amadeus-link ml-3 ml-md-0" href="#">+ Read the Case Study</a>
