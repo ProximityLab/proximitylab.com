@@ -26,7 +26,7 @@
 
 
 <!-- Services carousel xs and sm -->
-<div class="carousel slide mt-4 d-md-none" data-ride="carousel">
+<div class="carousel slide mt-4 d-md-none" data-ride="carousel" data-interval="3000">
   <div class="carousel-inner text-center">
     <div class="carousel-item active">
         <img src="/images/icon-service-research.svg" class="home-icon-service">
