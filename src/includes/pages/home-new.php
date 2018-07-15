@@ -71,7 +71,7 @@
 <!-- Minim -->
 <div class="container mb-4 pb-4 mb-lg-0 pb-lg-0">
     <div class="row">
-        <div class="col-12 col-md col-lg-6 offset-xl-1 pr-xl-0">
+        <div class="col-12 col-md col-lg-5 offset-lg-1 col-xl-6 pr-xl-0">
             <img class="home-minim-mobile-app-mockup d-block m-auto" src="/images/minim-mobile-app-mockup.png" alt="Minim mobile app mockup">
 
             <div class="home-minim-video-wrapper m-auto">
@@ -88,7 +88,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md col-lg-5 col-xl-4 pl-xl-0 align-self-center">
+        <div class="col-12 col-md col-lg-5 col-xl-4 pl-sm-0 align-self-center">
             <h1 class="home-minim-heading-primary ml-4 ml-md-0 mb-4 mb-md-5">Demystifying the Internet of Things</h1>
             <h2 class="home-minim-heading-secondary ml-4 ml-md-0 mb-2 mb-md-4">Empowering consumers with smart home security</h2>
             <a class="home-minim-link ml-3 ml-md-0" href="#">+ Read the Case Study</a>
