@@ -89,9 +89,9 @@
             </div>
         </div>
         <div class="col-12 col-md col-lg-5 col-xl-4 pl-sm-0 align-self-center">
-            <h1 class="home-minim-heading-primary ml-4 ml-md-0 mb-4 mb-md-5">Demystifying the Internet of Things</h1>
-            <h2 class="home-minim-heading-secondary ml-4 ml-md-0 mb-2 mb-md-4">Empowering consumers with smart home security</h2>
-            <a class="home-minim-link ml-3 ml-md-0" href="#">+ Read the Case Study</a>
+            <h1 class="home-minim-heading-primary ml-4 pl-5 pl-sm-0 ml-md-0 mb-4 mb-md-5">Demystifying the Internet of Things</h1>
+            <h2 class="home-minim-heading-secondary ml-4 pl-5 pl-sm-0 ml-md-0 mb-2 mb-md-4">Empowering consumers with smart home security</h2>
+            <a class="home-minim-link ml-3 pl-5 pl-sm-0 ml-md-0" href="#">+ Read the Case Study</a>
         </div>
     </div>
 </div>
