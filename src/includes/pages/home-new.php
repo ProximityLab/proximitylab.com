@@ -117,7 +117,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-lg-5 col-xl-3 align-self-center">
+        <div class="col-12 col-lg-5 col-xl-3 pl-xl-0 align-self-center">
             <h1 class="home-oracle-heading-primary ml-4 ml-md-0 mb-4 mb-md-5">Platform Storytelling</h1>
             <h2 class="home-oracle-heading-secondary ml-4 ml-md-0 mb-2 mb-md-4">Helping a software giant persuade with compelling stories of transformation</h2>
             <a class="home-oracle-link ml-3 ml-md-0" href="#" id="oracle-video-play-link"><i class="material-icons">play_arrow</i> Play the Video</a>
