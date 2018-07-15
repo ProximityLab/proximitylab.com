@@ -159,7 +159,8 @@
     bottom: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.15);
-    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
 }
 
 .home-minim-play-wrapper {
@@ -176,7 +177,7 @@
 }
 
 .home-minim-video-wrapper:hover .home-minim-video-overlay {
-    visibility: visible;
+    opacity: 1;
 }
 
 .home-minim-heading-primary {
@@ -310,7 +311,8 @@
     bottom: 0;  
     left: 0;  
     background-color: rgba(0, 0, 0, 0.15);  
-    visibility: hidden;  
+    opacity: 0;
+    transition: .5s;
 }
 
 .home-oracle-play-wrapper {  
@@ -327,7 +329,7 @@
 }  
   
 .home-oracle-video-wrapper:hover .home-oracle-video-overlay {
-    visibility: visible;  
+    opacity: 1; 
 }
 
 .home-oracle-heading-primary {
@@ -544,7 +546,8 @@
     bottom: 0; 
     left: 0; 
     background-color: rgba(0, 0, 0, 0.15); 
-    visibility: hidden; 
+    opacity: 0;
+    transition: .5s;
 } 
  
 .home-amadeus-play-wrapper { 
@@ -561,7 +564,7 @@
 } 
  
 .home-amadeus-video-wrapper:hover .home-amadeus-video-overlay { 
-    visibility: visible; 
+    opacity: 1;
 } 
 
 .home-amadeus-heading-primary {
