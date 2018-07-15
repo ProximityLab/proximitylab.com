@@ -159,8 +159,13 @@
     bottom: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.15);
-    opacity: 0;
     transition: .5s;
+}
+
+@media (min-width: 768px) {
+    .home-minim-video-overlay {
+        opacity: 0;
+    }
 }
 
 .home-minim-play-wrapper {
@@ -311,8 +316,13 @@
     bottom: 0;  
     left: 0;  
     background-color: rgba(0, 0, 0, 0.15);  
-    opacity: 0;
     transition: .5s;
+}
+
+@media (min-width: 768px) {
+    .home-oracle-video-overlay {
+        opacity: 0;
+    }
 }
 
 .home-oracle-play-wrapper {  
@@ -546,9 +556,14 @@
     bottom: 0; 
     left: 0; 
     background-color: rgba(0, 0, 0, 0.15); 
-    opacity: 0;
     transition: .5s;
-} 
+}
+
+@media (min-width: 768px) {
+    .home-amadeus-video-overlay {
+        opacity: 0;
+    }
+}
  
 .home-amadeus-play-wrapper { 
     width: 130px;  
