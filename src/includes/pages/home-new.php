@@ -30,15 +30,15 @@
   <div class="carousel-inner text-center">
     <div class="carousel-item active">
         <img src="/images/icon-service-research.svg" class="home-icon-service">
-        <h2 class="home-service-heading px-5 mx-5">Research for Deep Understanding</h2>
+        <h2 class="home-service-heading">Research for<br>Deep Understanding</h2>
     </div>
     <div class="carousel-item">
         <img src="/images/icon-service-strategy.svg" class="home-icon-service">
-        <h2 class="home-service-heading px-5 mx-5">Business-centric Product Strategy</h2>
+        <h2 class="home-service-heading">Business-centric<br>Product Strategy</h2>
     </div>
     <div class="carousel-item">
         <img src="/images/icon-service-design.svg" class="home-icon-service">
-        <h2 class="home-service-heading px-5 mx-5">Results-based UX and UI Design</h2>
+        <h2 class="home-service-heading">Results-based UX<br>and UI Design</h2>
     </div>
   </div>
 </div>
