@@ -185,6 +185,16 @@
     opacity: 1;
 }
 
+.home-minim-copy {
+    margin-top: -25px;
+}
+
+@media (min-width: 768px) {
+    .home-minim-copy {
+        margin-top: unset;
+    }
+}
+
 .home-minim-heading-primary {
     font-size: 36px;
     font-family: 'aleobold';

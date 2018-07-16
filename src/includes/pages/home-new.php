@@ -88,7 +88,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md col-lg-5 col-xl-4 pl-sm-0 align-self-center">
+        <div class="col-12 col-md col-lg-5 col-xl-4 pl-sm-0 align-self-center home-minim-copy">
             <h1 class="home-minim-heading-primary mx-4 px-2 mx-md-0 px-md-0 mb-4 mb-md-5">Demystifying the Internet of Things</h1>
             <h2 class="home-minim-heading-secondary mx-4 px-2 mx-md-0 px-md-0 mb-2 mb-md-4">Empowering consumers with smart home security</h2>
             <a class="home-minim-link mx-4 px-2 mx-md-0 px-md-0" href="#">+ Read the Case Study</a>
