@@ -184,7 +184,7 @@
 
 <!-- Clients -->
 <div class="container-fluid text-center mt-5 py-5 home-clients">
-    <div class="row">
+    <div class="row d-none d-md-block">
         <div class="col">
             <h3 class="my-5 py-5 home-clients-heading">Our Clients</h3>
         </div>
