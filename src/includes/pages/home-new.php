@@ -7,7 +7,7 @@
         </div>
 
         <div class="col-9 col-md-7 text-right">
-            <a class="home-navbar-link" href="#">Studio</a>
+            <a class="home-navbar-link" href="/studio">Studio</a>
             <a class="home-navbar-link ml-4 ml-sm-5" href="#">Case&nbsp;Studies</a>
             <a class="home-navbar-link mx-4 ml-sm-5 mr-sm-0" href="#">Contact</a>
         </div>

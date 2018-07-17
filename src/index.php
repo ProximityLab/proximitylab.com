@@ -100,6 +100,10 @@
         $activePagePhp = 'includes/pages/404.php';
         $pageTitle = 'Proximity Lab | Portfolio | 404';
         break;
+      case '/studio':
+        $pageCss = '<link rel="stylesheet" href="/css/studio.css">';
+        $activePagePhp = 'includes/pages/studio.php';
+        break;
       case '':
       case '/home':
         $bodyclass = 'home';
