@@ -1115,6 +1115,39 @@ a[name=start] {
 
 
 /**
+ * New navigation
+ */
+
+.newnav-proximity-lab-logo {
+    height: 54px;
+}
+
+@media (min-width: 576px) {
+    .newnav-proximity-lab-logo{
+        height: 64px;
+    }
+}
+
+.newnav-link {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2.7;
+    color: rgb(0, 0, 0);
+}
+
+@media (min-width: 576px) {
+    .newnav-link {
+        font-size: 22px;
+    }
+}
+
+.newnav-link:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+/**
  * Global Footer
  */
 
