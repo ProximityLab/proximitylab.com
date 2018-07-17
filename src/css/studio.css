@@ -1,0 +1,16 @@
+/**
+ * Studio info
+ */
+
+.studio-heading {
+    font-size: 45px;
+    font-family: "aleobold";
+    color: rgb(0, 0, 0);
+}
+
+.studio-copy {
+    font-size: 27px;
+    font-family: "aleoregular";
+    color: rgb(0, 0, 0);
+    line-height: 2.074;
+}
