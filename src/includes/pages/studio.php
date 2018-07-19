@@ -1,5 +1,5 @@
 <!-- Studio info -->
-<div class="container">
+<div class="container studio-container">
     <div class="row">
         <div class="col">
             <h1 class="studio-heading mb-5">Strategic Research &amp; UX Design Studio</h1>

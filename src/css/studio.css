@@ -2,6 +2,16 @@
  * Studio info
  */
 
+.studio-container {
+    margin-top: 35px;
+}
+
+@media (min-width: 576px) {
+    .studio-container {
+        margin-top: 130px;
+    }
+}
+
 .studio-heading {
     font-size: 45px;
     font-family: "aleobold";
@@ -12,5 +22,11 @@
     font-size: 27px;
     font-family: "aleoregular";
     color: rgb(0, 0, 0);
-    line-height: 2.074;
+    line-height: 1.5;
+}
+
+@media (min-width: 576px) {
+    .studio-copy {
+        line-height: 2.074;
+    }
 }
