@@ -8,3 +8,28 @@
         </div>
     </div>
 </div>
+
+<!-- Team -->
+<div class="container studio-team-container">
+    <div class="row">
+        <div class="col">
+            <h2 class="studio-team-heading mb-5 pb-4">Our Team</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+            <div class="studio-team-person">
+                <img class="img-fluid" src="/images/team/evan_2x.jpg" alt="Evan photo">
+                <div class="studio-team-overlay">test</div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5"><img class="img-fluid" src="/images/team/nick_2x.jpg" alt="Nick photo"></div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5"><img class="img-fluid" src="/images/team/ryan_2x.jpg" alt="Ryan photo"></div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5"><img class="img-fluid" src="/images/team/tom_2x.jpg" alt="Tom photo"></div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5"><img class="img-fluid" src="/images/team/brian_2x.jpg" alt="Brian photo"></div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5"><img class="img-fluid" src="/images/team/eric_2x.jpg" alt="Eric photo"></div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5"><img class="img-fluid" src="/images/team/kim_2x.jpg" alt="Kim photo"></div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5"><img class="img-fluid" src="/images/team/rusty_2x.jpg" alt="Rusty photo"></div>
+    </div>
+</div>

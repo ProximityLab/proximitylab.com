@@ -30,3 +30,41 @@
         line-height: 2.074;
     }
 }
+
+
+/**
+ * Team info
+ */
+
+.studio-team-container {
+    margin-top: 130px;
+}
+
+.studio-team-heading {
+    font-size: 45px;
+    font-family: "aleobold";
+    color: rgb(0, 0, 0);
+}
+
+.studio-team-person {
+    position: relative;
+}
+
+.studio-team-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+        to top,
+        black,
+        rgba(0, 0, 0, 0)
+    );
+    opacity: 0;
+    transition: .5s;
+}
+
+.studio-team-overlay:hover {
+    opacity: 1;
+}
