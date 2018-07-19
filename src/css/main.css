@@ -1146,6 +1146,12 @@ a[name=start] {
     text-decoration: none;
 }
 
+.newnav-link-active {
+    color: #dc4396 !important;
+    border-bottom: 2px solid #dc4396;
+    padding-bottom: 8px;
+}
+
 
 /**
  * Global Footer
