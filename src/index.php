@@ -161,7 +161,7 @@
     </head>
     <body id="waypoint" class="animated fadeIn <?php echo $bodyclass ?>">
       <?php
-        if (empty($activePage) || $activePage == 'home' || $activePage == 'studio') {
+        if (empty($activePage) || $activePage == '/home' || $activePage == '/studio') {
           include('includes/navigation-new.php');
         } else {
           include('includes/navigation.php');
