@@ -68,3 +68,65 @@
 .studio-team-overlay:hover {
     opacity: 1;
 }
+
+.studio-team-person-wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    padding: 0 30px;
+    width: 100%;
+}
+
+.studio-team-person-detail-wrapper {
+    flex-grow: 1;
+}
+
+.studio-team-person-name {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 4px;
+}
+
+.studio-team-person-title {
+    font-size: 21px;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+.studio-team-person-linkedin-wrapper {
+    flex-grow: 0;
+    align-self: flex-end;
+    margin-left: 30px;
+}
+
+.studio-team-person-linkedin {
+    text-decoration: none;
+}
+
+.studio-team-person-linkedin img {
+    width: 25px;
+    margin-bottom: 37px;
+}
+
+.studio-team-person-rule {
+    width: 50px;
+    border-color: #EF2198;
+    opacity: 1;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 29px;
+    left: 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.studio-team-person-linkedin-wrapper:hover + .studio-team-person-rule {
+    width: 27px;
+    left: 100%;
+    margin-left: -56px;
+}
