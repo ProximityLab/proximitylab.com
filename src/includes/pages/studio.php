@@ -78,7 +78,26 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-4 mb-5"><img class="img-fluid" src="/images/team/tom_2x.jpg" alt="Tom photo"></div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+            <div class="studio-team-person">
+                <img class="img-fluid" src="/images/team/tom_2x.jpg" alt="Tom photo">
+                <div class="studio-team-overlay">
+                    <div class="studio-team-person-wrapper">
+                        <div class="studio-team-person-detail-wrapper">
+                            <h3 class="studio-team-person-name">Tom Rhinelander</h3>
+                            <h4 class="studio-team-person-title">SENIOR RESEARCHER</h3>
+                        </div>
+
+                        <div class="studio-team-person-linkedin-wrapper text-center">
+                            <a class="studio-team-person-linkedin" href="https://www.linkedin.com/in/rhinelander/" target="_blank"><img src="/images/icon-linkedin.svg"></a>
+                        </div>
+
+                        <hr class="studio-team-person-rule">
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="col-12 col-md-6 col-lg-4 mb-5"><img class="img-fluid" src="/images/team/brian_2x.jpg" alt="Brian photo"></div>
         <div class="col-12 col-md-6 col-lg-4 mb-5"><img class="img-fluid" src="/images/team/eric_2x.jpg" alt="Eric photo"></div>
         <div class="col-12 col-md-6 col-lg-4 mb-5"><img class="img-fluid" src="/images/team/kim_2x.jpg" alt="Kim photo"></div>
