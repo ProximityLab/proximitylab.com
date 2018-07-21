@@ -158,6 +158,24 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-4 mb-5"><img class="img-fluid" src="/images/team/rusty_2x.jpg" alt="Rusty photo"></div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+            <div class="studio-team-person">
+                <img class="img-fluid" src="/images/team/rusty_2x.jpg" alt="Rusty photo">
+                <div class="studio-team-overlay">
+                    <div class="studio-team-person-wrapper">
+                        <div class="studio-team-person-detail-wrapper">
+                            <h3 class="studio-team-person-name">Rusty ???</h3>
+                            <h4 class="studio-team-person-title">???</h3>
+                        </div>
+
+                        <div class="studio-team-person-linkedin-wrapper text-center">
+                            <a class="studio-team-person-linkedin" href="???" target="_blank"><img src="/images/icon-linkedin.svg"></a>
+                        </div>
+
+                        <hr class="studio-team-person-rule">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
