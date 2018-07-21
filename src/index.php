@@ -133,7 +133,7 @@
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
         <link rel="stylesheet" href="/css/main.css">

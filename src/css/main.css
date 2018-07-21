@@ -1131,6 +1131,7 @@ a[name=start] {
 .newnav-link {
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     line-height: 2.7;
     color: rgb(0, 0, 0);
 }
@@ -1150,6 +1151,13 @@ a[name=start] {
     color: #dc4396 !important;
     border-bottom: 2px solid #dc4396;
     padding-bottom: 8px;
+    font-weight: 400;
+}
+
+@media (min-width: 576px) {
+    .newnav-link-active {
+        font-weight: 300;
+    }
 }
 
 
