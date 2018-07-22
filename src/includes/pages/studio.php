@@ -1,7 +1,7 @@
 <!-- Studio info -->
-<div class="container studio-container">
+<div class="container studio-container module-fade">
     <div class="row">
-        <div class="col">
+        <div class="col module">
             <div class="mx-4 mx-md-0">
                 <h1 class="studio-heading mb-3 mb-sm-5">Strategic Research &amp; UX Design Studio</h1>
                 <p class="studio-copy">Proximity Lab is an award-winning interaction design studio with deep experienced in research, product strategy and UX design. We are designers, creators and thinkers who bring diverse backgrounds together to develop a common vision – to create products that emphasize clarity, simplicity and value.</p>
@@ -14,15 +14,15 @@
 <!-- Team -->
 <div class="container studio-team-container">
     <div class="mx-4 mx-md-0">
-        <div class="row">
-            <div class="col">
+        <div class="row module-fade">
+            <div class="col module">
                 <h2 class="studio-team-heading mb-3 mb-sm-5 pb-4">Our Team</h2>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 mb-5">
-                <div class="studio-team-person">
+            <div class="col-12 col-md-6 col-lg-4 mb-5 module-fade">
+                <div class="studio-team-person module">
                     <img class="img-fluid" src="/images/team/evan_2x.jpg" alt="Evan photo">
                     <div class="studio-team-overlay">
                         <div class="studio-team-person-wrapper">
@@ -41,8 +41,8 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-5">
-                <div class="studio-team-person">
+            <div class="col-12 col-md-6 col-lg-4 mb-5 module-fade">
+                <div class="studio-team-person module">
                     <img class="img-fluid" src="/images/team/nick_2x.jpg" alt="Nick photo">
                     <div class="studio-team-overlay">
                         <div class="studio-team-person-wrapper">
@@ -61,8 +61,8 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-5">
-                <div class="studio-team-person">
+            <div class="col-12 col-md-6 col-lg-4 mb-5 module-fade">
+                <div class="studio-team-person module">
                     <img class="img-fluid" src="/images/team/ryan_2x.jpg" alt="Ryan photo">
                     <div class="studio-team-overlay">
                         <div class="studio-team-person-wrapper">
@@ -81,8 +81,8 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-5">
-                <div class="studio-team-person">
+            <div class="col-12 col-md-6 col-lg-4 mb-5 module-fade">
+                <div class="studio-team-person module">
                     <img class="img-fluid" src="/images/team/tom_2x.jpg" alt="Tom photo">
                     <div class="studio-team-overlay">
                         <div class="studio-team-person-wrapper">
@@ -101,8 +101,8 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-5">
-                <div class="studio-team-person">
+            <div class="col-12 col-md-6 col-lg-4 mb-5 module-fade">
+                <div class="studio-team-person module">
                     <img class="img-fluid" src="/images/team/brian_2x.jpg" alt="Brian photo">
                     <div class="studio-team-overlay">
                         <div class="studio-team-person-wrapper">
@@ -121,8 +121,8 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-5">
-                <div class="studio-team-person">
+            <div class="col-12 col-md-6 col-lg-4 mb-5 module-fade">
+                <div class="studio-team-person module">
                     <img class="img-fluid" src="/images/team/eric_2x.jpg" alt="Eric photo">
                     <div class="studio-team-overlay">
                         <div class="studio-team-person-wrapper">
@@ -141,8 +141,8 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-5">
-                <div class="studio-team-person">
+            <div class="col-12 col-md-6 col-lg-4 mb-5 module-fade">
+                <div class="studio-team-person module">
                     <img class="img-fluid" src="/images/team/kim_2x.jpg" alt="Kim photo">
                     <div class="studio-team-overlay">
                         <div class="studio-team-person-wrapper">
@@ -161,8 +161,8 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-5">
-                <div class="studio-team-person">
+            <div class="col-12 col-md-6 col-lg-4 mb-5 module-fade">
+                <div class="studio-team-person module">
                     <img class="img-fluid" src="/images/team/rusty_2x.jpg" alt="Rusty photo">
                     <div class="studio-team-overlay">
                         <div class="studio-team-person-wrapper">
