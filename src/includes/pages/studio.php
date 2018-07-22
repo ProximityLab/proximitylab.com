@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col module">
             <div class="mx-4 mx-md-0">
-                <h1 class="studio-heading mb-3 mb-sm-5">Strategic Research &amp; UX Design Studio</h1>
+                <h1 class="studio-heading mb-3 mb-sm-5">Strategic Research &amp; UX Design</h1>
                 <p class="studio-copy">Proximity Lab is an award-winning interaction design studio with deep experienced in research, product strategy and UX design. We are designers, creators and thinkers who bring diverse backgrounds together to develop a common vision – to create products that emphasize clarity, simplicity and value.</p>
                 <img class="img-fluid mt-3 pt-3 mt-md-5 pt-md-5" src="/images/flow-diagram.png" alt="Flow diagram">
             </div>
@@ -103,6 +103,26 @@
 
             <div class="col-12 col-md-6 col-lg-4 mb-5 module-fade">
                 <div class="studio-team-person module">
+                    <img class="img-fluid" src="/images/team/kim_2x.jpg" alt="Kim photo">
+                    <div class="studio-team-overlay">
+                        <div class="studio-team-person-wrapper">
+                            <div class="studio-team-person-detail-wrapper">
+                                <h3 class="studio-team-person-name">Kim Tortoriello</h3>
+                                <h4 class="studio-team-person-title">Mgr. of Operations &amp; Client Projects</h3>
+                            </div>
+
+                            <div class="studio-team-person-linkedin-wrapper text-center">
+                                <a class="studio-team-person-linkedin" href="https://www.linkedin.com/in/kimtortoriello/" target="_blank"><img src="/images/icon-linkedin.svg"></a>
+                            </div>
+
+                            <hr class="studio-team-person-rule">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-5 module-fade">
+                <div class="studio-team-person module">
                     <img class="img-fluid" src="/images/team/brian_2x.jpg" alt="Brian photo">
                     <div class="studio-team-overlay">
                         <div class="studio-team-person-wrapper">
@@ -123,56 +143,36 @@
 
             <div class="col-12 col-md-6 col-lg-4 mb-5 module-fade">
                 <div class="studio-team-person module">
-                    <img class="img-fluid" src="/images/team/eric_2x.jpg" alt="Eric photo">
-                    <div class="studio-team-overlay">
-                        <div class="studio-team-person-wrapper">
-                            <div class="studio-team-person-detail-wrapper">
-                                <h3 class="studio-team-person-name">Eric ???</h3>
-                                <h4 class="studio-team-person-title">???</h3>
-                            </div>
-
-                            <div class="studio-team-person-linkedin-wrapper text-center">
-                                <a class="studio-team-person-linkedin" href="???" target="_blank"><img src="/images/icon-linkedin.svg"></a>
-                            </div>
-
-                            <hr class="studio-team-person-rule">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 mb-5 module-fade">
-                <div class="studio-team-person module">
-                    <img class="img-fluid" src="/images/team/kim_2x.jpg" alt="Kim photo">
-                    <div class="studio-team-overlay">
-                        <div class="studio-team-person-wrapper">
-                            <div class="studio-team-person-detail-wrapper">
-                                <h3 class="studio-team-person-name">Kim ???</h3>
-                                <h4 class="studio-team-person-title">???</h3>
-                            </div>
-
-                            <div class="studio-team-person-linkedin-wrapper text-center">
-                                <a class="studio-team-person-linkedin" href="???" target="_blank"><img src="/images/icon-linkedin.svg"></a>
-                            </div>
-
-                            <hr class="studio-team-person-rule">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 mb-5 module-fade">
-                <div class="studio-team-person module">
                     <img class="img-fluid" src="/images/team/rusty_2x.jpg" alt="Rusty photo">
                     <div class="studio-team-overlay">
                         <div class="studio-team-person-wrapper">
                             <div class="studio-team-person-detail-wrapper">
-                                <h3 class="studio-team-person-name">Rusty ???</h3>
-                                <h4 class="studio-team-person-title">???</h3>
+                                <h3 class="studio-team-person-name">Rusty Jones</h3>
+                                <h4 class="studio-team-person-title">UI Designer</h3>
                             </div>
 
                             <div class="studio-team-person-linkedin-wrapper text-center">
-                                <a class="studio-team-person-linkedin" href="???" target="_blank"><img src="/images/icon-linkedin.svg"></a>
+                                <a class="studio-team-person-linkedin" href="https://www.linkedin.com/in/rusty-jones-8b362064/" target="_blank"><img src="/images/icon-linkedin.svg"></a>
+                            </div>
+
+                            <hr class="studio-team-person-rule">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-5 module-fade">
+                <div class="studio-team-person module">
+                    <img class="img-fluid" src="/images/team/eric_2x.jpg" alt="Eric photo">
+                    <div class="studio-team-overlay">
+                        <div class="studio-team-person-wrapper">
+                            <div class="studio-team-person-detail-wrapper">
+                                <h3 class="studio-team-person-name">Erik Bettencourt</h3>
+                                <h4 class="studio-team-person-title">UX Designer</h3>
+                            </div>
+
+                            <div class="studio-team-person-linkedin-wrapper text-center">
+                                <a class="studio-team-person-linkedin" href="https://www.linkedin.com/in/erikbettencourt/" target="_blank"><img src="/images/icon-linkedin.svg"></a>
                             </div>
 
                             <hr class="studio-team-person-rule">
