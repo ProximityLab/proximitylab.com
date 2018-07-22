@@ -13,20 +13,26 @@
 }
 
 .studio-heading {
-    font-size: 45px;
+    font-size: 36px;
     font-family: "aleobold";
     color: rgb(0, 0, 0);
 }
 
+@media (min-width: 576px) {
+    .studio-heading {
+        font-size: 43px;
+    }
+}
+
 .studio-copy {
-    font-size: 27px;
-    font-family: "aleoregular";
+    font-size: 25px;
     color: rgb(0, 0, 0);
     line-height: 1.5;
 }
 
 @media (min-width: 576px) {
     .studio-copy {
+        font-family: "aleoregular";
         line-height: 2.074;
     }
 }
