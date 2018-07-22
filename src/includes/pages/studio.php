@@ -13,7 +13,7 @@
 <div class="container studio-team-container">
     <div class="row">
         <div class="col">
-            <h2 class="studio-team-heading mb-5 pb-4">Our Team</h2>
+            <h2 class="studio-team-heading mb-3 mb-sm-5 pb-4">Our Team</h2>
         </div>
     </div>
 

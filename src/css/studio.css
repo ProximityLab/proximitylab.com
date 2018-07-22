@@ -43,13 +43,25 @@
  */
 
 .studio-team-container {
-    margin-top: 130px;
+    margin-top: 70px;
+}
+
+@media (min-width: 576px) {
+    .studio-team-container {
+        margin-top: 130px;
+    }
 }
 
 .studio-team-heading {
-    font-size: 45px;
+    font-size: 40px;
     font-family: "aleobold";
     color: rgb(0, 0, 0);
+}
+
+@media (min-width: 576px) {
+    .studio-team-heading {
+        font-size: 45px;
+    }
 }
 
 .studio-team-person {
