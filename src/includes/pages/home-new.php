@@ -65,7 +65,7 @@
                 </video>
 
                 <div id="minim-video-overlay" class="home-minim-video-overlay d-flex align-items-center">
-                    <div id="minim-video-play" class="home-minim-play-wrapper m-auto d-flex align-items-center"> 
+                    <div class="home-minim-play-wrapper m-auto d-flex align-items-center"> 
                         <img class="home-minim-play-icon d-block" src="/images/home-play-icon.svg" alt="Play button"> 
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                 </video>
 
                 <div id="oracle-video-overlay" class="home-oracle-video-overlay d-flex align-items-center">  
-                    <div id="oracle-video-play" class="home-oracle-play-wrapper m-auto d-flex align-items-center">   
+                    <div class="home-oracle-play-wrapper m-auto d-flex align-items-center">   
                         <img class="home-oracle-play-icon d-block" src="/images/home-play-icon.svg" alt="Play button">   
                     </div>  
                 </div>
@@ -139,7 +139,7 @@
                 </video>
 
                 <div id="amadeus-video-overlay" class="home-amadeus-video-overlay d-flex align-items-center"> 
-                    <div id="amadeus-video-play" class="home-amadeus-play-wrapper m-auto d-flex align-items-center">  
+                    <div class="home-amadeus-play-wrapper m-auto d-flex align-items-center">  
                         <img class="home-amadeus-play-icon d-block" src="/images/home-play-icon.svg" alt="Play button">  
                     </div> 
                 </div>
