@@ -83,8 +83,14 @@
     transition: .5s;
 }
 
-.studio-team-overlay:hover {
+.studio-team-overlay.active {
     opacity: 1;
+}
+
+@media (min-width: 768px) {
+    .studio-team-overlay:hover {
+        opacity: 1;
+    }
 }
 
 .studio-team-person-wrapper {

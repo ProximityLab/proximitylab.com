@@ -103,6 +103,7 @@
       case '/studio':
         $pageCss = '<link rel="stylesheet" href="/css/studio.css">';
         $activePagePhp = 'includes/pages/studio.php';
+        $pageJs = '<script src="/js/studio.js"></script>';
         break;
       case '':
       case '/home':
