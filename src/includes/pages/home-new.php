@@ -28,24 +28,46 @@
 
 
 <!-- Services md and up -->
-<div class="container mt-2 d-none d-md-block module-fade">
+<div class="container mt-2 d-none d-md-block module-fade" id="blurbs">
     <div class="row text-center text-md-left module">
-        <div class="col-12 col-md-4 py-4 pt-md-0 module">
+        <div class="col-12 col-md-4 py-4 pt-md-0 module" id="headingOne">
             <img src="/images/icon-service-research.svg" class="home-icon-service">
             <h2 class="home-service-heading px-5 px-md-0">Research for Deep Understanding</h2>
-            <a class="home-service-link" href="#">+ Learn More</a>
+            <a class="home-service-link" data-toggle="collapse" data-target="#blurbResearch" href="#0" role="button" aria-expanded="false" aria-controls="blurbResearch">+ Learn More</a>
         </div>
 
-        <div class="col-12 col-md-4 py-4 pt-md-0 module">
+        <div class="col-12 col-md-4 py-4 pt-md-0 module" id="headingTwo">
             <img src="/images/icon-service-strategy.svg" class="home-icon-service">
             <h2 class="home-service-heading px-5 px-md-0 mr-xl-5">Business-centric Product Strategy</h2>
-            <a class="home-service-link" href="#">+ Learn More</a>
+            <a class="home-service-link" data-toggle="collapse" data-target="#blurbStrategy" href="#0" role="button" aria-expanded="false" aria-controls="blurbStrategy">+ Learn More</a>
         </div>
 
-        <div class="col-12 col-md-4 py-4 pt-md-0 module">
+        <div class="col-12 col-md-4 py-4 pt-md-0 module" id="headingThree">
             <img src="/images/icon-service-design.svg" class="home-icon-service">
             <h2 class="home-service-heading px-5 px-md-0 mr-xl-5">Results-based UX and UI Design</h2>
-            <a class="home-service-link" href="#">+ Learn More</a>
+            <a class="home-service-link" data-toggle="collapse" data-target="#blurbDesign" href="#0" role="button" aria-expanded="false" aria-controls="blurbDesign">+ Learn More</a>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="collapse" id="blurbResearch" data-parent="#blurbs">
+                <img class="home-service-blurb-arrow" src="/images/arrow-blurb.svg" class="Blurb arrow">
+                <h3 class="home-service-blurb-heading mb-4">UX Research</h3>
+                <p class="home-service-blurb-text">Proximity Lab is an award-winning interaction design studio with deep experienced in research, product strategy and UX design. We are designers, creators and thinkers who bring diverse backgrounds together to develop a common vision – to create products that emphasize clarity, simplicity and value.</p>
+            </div>
+
+            <div class="collapse" id="blurbStrategy" data-parent="#blurbs">
+                <img class="home-service-blurb-arrow" src="/images/arrow-blurb.svg" class="Blurb arrow">
+                <h3 class="home-service-blurb-heading mb-4">Strategy</h3>
+                <p class="home-service-blurb-text">Proximity Lab is an award-winning interaction design studio with deep experienced in research, product strategy and UX design. We are designers, creators and thinkers who bring diverse backgrounds together to develop a common vision – to create products that emphasize clarity, simplicity and value.</p>
+            </div>
+
+            <div class="collapse" id="blurbDesign" data-parent="#blurbs">
+                <img class="home-service-blurb-arrow" src="/images/arrow-blurb.svg" class="Blurb arrow">
+                <h3 class="home-service-blurb-heading mb-4">Design</h3>
+                <p class="home-service-blurb-text">Proximity Lab is an award-winning interaction design studio with deep experienced in research, product strategy and UX design. We are designers, creators and thinkers who bring diverse backgrounds together to develop a common vision – to create products that emphasize clarity, simplicity and value.</p>
+            </div>
         </div>
     </div>
 </div>

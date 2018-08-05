@@ -3,6 +3,30 @@
  */
 $(document).ready(function() {
 
+    // services icon and heading dimmed
+    var headingOne = $('#headingOne');
+    var headingTwo = $('#headingTwo');
+    var headingThree = $('#headingThree');
+
+    $('#blurbResearch').on('show.bs.collapse', function () {
+        headingOne.removeClass("dim")
+        headingTwo.addClass("dim");
+        headingThree.addClass("dim");
+    })
+
+    $('#blurbStrategy').on('show.bs.collapse', function () {
+        headingOne.addClass("dim")
+        headingTwo.removeClass("dim");
+        headingThree.addClass("dim");
+    })
+
+    $('#blurbDesign').on('show.bs.collapse', function () {
+        headingOne.addClass("dim")
+        headingTwo.addClass("dim");
+        headingThree.removeClass("dim");
+    })
+
+
     // Minim video
     var minimVideo = $("#minim-video"); 
 
