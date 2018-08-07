@@ -110,6 +110,14 @@
     z-index: -1;
 }
 
+.home-service-blurb-arrow-design {
+    width: 895px;
+    position: absolute;
+    top: -60px;
+    left: -55px;
+    z-index: -1;
+}
+
 .home-service-blurb-text {
     font-size: 27px;
     font-family: 'aleoregular';
