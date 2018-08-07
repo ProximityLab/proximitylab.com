@@ -69,11 +69,6 @@
     }
 }
 
-.dim .home-icon-service,
-.dim .home-service-heading {
-    opacity: 0.5;
-}
-
 .home-service-link {
     font-size: 20px;
     font-family: 'aleoregular';
