@@ -94,11 +94,11 @@
     display: block;
 }
 
-.home-service-blurb-arrow {
-    width: 50px;
+.home-service-blurb-arrow-research {
+    width: 55px;
     position: absolute;
-    top: -130px;
-    left: -50px;
+    top: -95px;
+    left: -55px;
 }
 
 .home-service-blurb-text {
