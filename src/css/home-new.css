@@ -39,10 +39,12 @@
  * Services
  */
 
+.home-service-wrapper {
+    cursor: pointer;
+}
+
 .home-icon-service {
     height: 55px;
-    opacity: 1;
-    transition: .5s;
 }
 
 @media (min-width: 768px) {
@@ -57,8 +59,6 @@
     color: rgb(0, 0, 0);
     margin-top: 10px;
     margin-bottom: 0;
-    opacity: 1;
-    transition: .5s;
 }
 
 @media (min-width: 768px) {
@@ -74,18 +74,24 @@
     font-family: 'aleoregular';
     line-height: 2.6;
     color: rgb(220, 67, 150);
-    opacity: 1;
+    opacity: 0;
     transition: .5s;
 }
 
-.home-service-link[aria-expanded="true"] {
-    opacity: 0;
-    pointer-events: none;
+.home-service-link-less {
+    display: none;
 }
 
-.home-service-link:hover {
-    color: rgb(220, 67, 150);
-    text-decoration: none;
+.home-service-wrapper:hover .home-service-link {
+    opacity: 1;
+}
+
+.home-service-wrapper[aria-expanded="true"] .home-service-link-more {
+    display: none;
+}
+
+.home-service-wrapper[aria-expanded="true"] .home-service-link-less {
+    display: block;
 }
 
 .home-service-blurb-arrow {

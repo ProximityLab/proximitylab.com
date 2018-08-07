@@ -30,22 +30,31 @@
 <!-- Services md and up -->
 <div class="container mt-2 d-none d-md-block module-fade" id="blurbs">
     <div class="row text-center text-md-left module">
-        <div class="col-12 col-md-4 py-4 pt-md-0 module" id="headingOne">
-            <img src="/images/icon-service-research.svg" class="home-icon-service">
-            <h2 class="home-service-heading px-5 px-md-0">Research for Deep Understanding</h2>
-            <a class="home-service-link" data-toggle="collapse" data-target="#blurbResearch" href="#0" role="button" aria-expanded="false" aria-controls="blurbResearch">+ Learn More</a>
+        <div class="col-12 col-md-4 py-4 pt-md-0 module">
+            <div class="home-service-wrapper" data-toggle="collapse" data-target="#blurbResearch" role="button" aria-expanded="false" aria-controls="blurbResearch">
+                <img src="/images/icon-service-research.svg" class="home-icon-service">
+                <h2 class="home-service-heading px-5 px-md-0">Research for Deep Understanding</h2>
+                <span class="home-service-link home-service-link-more">Show More</span>
+                <span class="home-service-link home-service-link-less">Show Less</span>
+            </div>
         </div>
 
-        <div class="col-12 col-md-4 py-4 pt-md-0 module" id="headingTwo">
-            <img src="/images/icon-service-strategy.svg" class="home-icon-service">
-            <h2 class="home-service-heading px-5 px-md-0 mr-xl-5">Business-centric Product Strategy</h2>
-            <a class="home-service-link" data-toggle="collapse" data-target="#blurbStrategy" href="#0" role="button" aria-expanded="false" aria-controls="blurbStrategy">+ Learn More</a>
+        <div class="col-12 col-md-4 py-4 pt-md-0 module">
+            <div class="home-service-wrapper" data-toggle="collapse" data-target="#blurbStrategy" role="button" aria-expanded="false" aria-controls="blurbStrategy">
+                <img src="/images/icon-service-strategy.svg" class="home-icon-service">
+                <h2 class="home-service-heading px-5 px-md-0 mr-xl-5">Business-centric Product Strategy</h2>
+                <span class="home-service-link home-service-link-more">Show More</span>
+                <span class="home-service-link home-service-link-less">Show Less</span>
+            </div>
         </div>
 
-        <div class="col-12 col-md-4 py-4 pt-md-0 module" id="headingThree">
-            <img src="/images/icon-service-design.svg" class="home-icon-service">
-            <h2 class="home-service-heading px-5 px-md-0 mr-xl-5">Results-based UX and UI Design</h2>
-            <a class="home-service-link" data-toggle="collapse" data-target="#blurbDesign" href="#0" role="button" aria-expanded="false" aria-controls="blurbDesign">+ Learn More</a>
+        <div class="col-12 col-md-4 py-4 pt-md-0 module">
+            <div class="home-service-wrapper" data-toggle="collapse" data-target="#blurbDesign" role="button" aria-expanded="false" aria-controls="blurbDesign">
+                <img src="/images/icon-service-design.svg" class="home-icon-service">
+                <h2 class="home-service-heading px-5 px-md-0 mr-xl-5">Results-based UX and UI Design</h2>
+                <span class="home-service-link home-service-link-more">Show More</span>
+                <span class="home-service-link home-service-link-less">Show Less</span>
+            </div>
         </div>
     </div>
 
