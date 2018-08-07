@@ -76,6 +76,7 @@
     color: rgb(220, 67, 150);
     opacity: 0;
     transition: .5s;
+    background-color: white;
 }
 
 .home-service-link-less {
@@ -91,7 +92,7 @@
 }
 
 .home-service-wrapper[aria-expanded="true"] .home-service-link-less {
-    display: block;
+    display: inline;
 }
 
 .home-service-blurb-arrow-research {
@@ -99,6 +100,14 @@
     position: absolute;
     top: -95px;
     left: -55px;
+}
+
+.home-service-blurb-arrow-strategy {
+    width: 500px;
+    position: absolute;
+    top: -60px;
+    left: -55px;
+    z-index: -1;
 }
 
 .home-service-blurb-text {

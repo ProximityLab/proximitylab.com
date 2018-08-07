@@ -66,7 +66,7 @@
             </div>
 
             <div class="collapse" id="blurbStrategy" data-parent="#blurbs">
-                <img class="home-service-blurb-arrow-research" src="/images/arrow-blurb-research.svg" class="Blurb arrow">
+                <img class="home-service-blurb-arrow-strategy" src="/images/arrow-blurb-strategy.svg" class="Blurb arrow">
                 <p class="home-service-blurb-text">Proximity Lab is an award-winning interaction design studio with deep experienced in research, product strategy and UX design. We are designers, creators and thinkers who bring diverse backgrounds together to develop a common vision – to create products that emphasize clarity, simplicity and value.</p>
             </div>
 
