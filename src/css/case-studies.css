@@ -1,0 +1,260 @@
+/**
+ * Case Studies
+ */
+
+ .work-logo {
+    width: 27px;
+    position: fixed;
+    top: 37px;
+    left: 45px;
+    z-index: 3;
+}
+
+.work-header-heading {
+    font-size: 36px;
+    font-weight: 300;
+    color: #282828;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 576px) {
+    .work-header-heading {
+        margin-bottom: 1.6rem;
+    }
+}
+
+.work-header-text {
+    font-size: 18px;
+    color: #7C7C7C;
+    line-height: 36px;
+    max-width: 578px;
+    margin-bottom: 4rem;
+}
+
+.ww-work .work-tems {
+  padding: 0 3rem;
+}
+/* portfolio section */
+
+.work-item {
+    margin: 0 0 4rem 0;
+    padding: 0 2rem;
+}
+
+.work-item-container {
+    height: 0;
+    min-height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width:99.9%;
+    padding-bottom:99.9%;
+    /*width: 95vw;
+    height: 95vw;*/
+    background-color: #f1f1f1;
+}
+
+@media (min-width: 576px) {
+    .work-item-container {
+        min-height: 320px;
+        width:100%;
+        padding-bottom:0;
+        /*height: 266px;*/
+    }
+}
+
+@media (min-width: 768px) {
+    .work-item-container {
+        min-height: 420px;
+    }
+}
+
+
+
+
+#eagle { background-image: url('/images/work-item-background-eagle-2x.jpg'); }
+#minim { background-image: url('/images/work-item-background-minim-2x.jpg'); }
+#scribe { background-image: url('/images/work-item-background-scribe-2x.jpg'); }
+#wagz { background-image: url('/images/work-item-background-wagz-2x.jpg'); }
+#scheduleme { background-image: url('/images/work-item-background-scheduleme-2x.jpg'); }
+#massart { background-image: url('/images/work-item-background-massart-2x.jpg'); }
+#mosaic { background-image: url('/images/work-item-background-mosaic-2x.jpg'); }
+#icovia { background-image: url('/images/work-item-background-icovia-2x.jpg'); }
+#songbird { background-image: url('/images/work-item-background-songbird-2x.jpg'); }
+#solidworks { background-image: url('/images/work-item-background-solidworks-2x.png'); }
+#philips { background-image: url('/images/work-item-background-philips-2x.jpg'); }
+#adobe { background-image: url('/images/work-item-background-adobe-2x.jpg'); }
+#rootinsight { background-image: url('/images/work-item-background-insight-2x.jpg'); }
+#nye { background-image: url('/images/work-item-background-nye-2x.jpg'); }
+#amadeus { background-image: url('/images/work-item-background-amadeus-2x.jpg'); }
+
+@media (min-width: 768px){
+.work-item-container:hover .work-item-overlay {
+     opacity: 1;
+  }
+}
+
+.work-item-container.active .work-item-overlay { opacity: 1 !important; }
+
+.work-item-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+#scheduleme .work-item-overlay { background-color: rgba(213, 115, 2, 1) }
+#mosaic .work-item-overlay { background-color: rgba(222, 34, 131, 1) }
+#icovia .work-item-overlay { background-color: rgba(235, 154, 0, 1) }
+#songbird .work-item-overlay { background-color: rgba(40, 185, 176, 1) }
+#eagle .work-item-overlay { background-color: rgba(178, 55, 231, 1) }
+#massart .work-item-overlay { background-color: rgba(211, 28, 123, 1) }
+#solidworks .work-item-overlay { background-color: rgba(38, 101, 162, 1) }
+#philips .work-item-overlay { background-color: rgba(42, 124, 234, 1) }
+#scribe .work-item-overlay { background-color: rgba(20, 143, 214, 1) }
+#rootinsight .work-item-overlay { background-color: rgba(108, 192, 2, 1) }
+#nye .work-item-overlay { background-color: rgba(60, 161, 94, 1) }
+#wagz .work-item-overlay { background-color: rgba(87, 155, 18, 1) }
+#amadeus .work-item-overlay { background-color: rgba(205, 25, 64, 1) }
+#minim .work-item-overlay { background-color: #21C6D6; }
+#adobe .work-item-overlay { background-color: rgba(246, 26, 52, 1) }
+
+#scheduleme .work-item-logo { height: 53px; }
+#mosaic .work-item-logo { height: 86px; width: 96px;}
+#icovia .work-item-logo { height: 39px; }
+#songbird .work-item-logo { width: 173px;}
+#eagle .work-item-logo { height: 69px; }
+#massart .work-item-logo { height: 55px; width: 248px;}
+#solidworks .work-item-logo { height: 32px; width: 155px;}
+#philips .work-item-logo { height: 33px; width: 180px; }
+#rootinsight .work-item-logo { height: 53px; }
+#scribe .work-item-logo { height: 30px; width: 180px;}
+#nye .work-item-logo { height: 70px; }
+#minim .work-item-logo { height: 53px; }
+#wagz .work-item-logo { height: 70px; }
+#amadeus .work-item-logo { height: 21px; }
+#minim .work-item-logo { height: 40px;  }
+.work-item-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.work-item-logo {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    height: 70px;
+    display: block;
+}
+
+
+.work-item-text {
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 28px;
+    max-width: 339px;
+    margin-bottom: 42px;
+}
+
+@media (min-width: 992px) {
+    .col-md-4 .work-item-text {
+        max-width: 240px;
+    }
+
+    .col-md-8 .work-item-text {
+        max-width: 425px;
+    }
+
+    .col-md-4 #mosaic .work-item-text {
+        max-width: 200px;
+    }
+
+    .col-md-4 #songbird .work-item-text {
+        max-width: 190px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-md-4 .work-item-text {
+        max-width: 300px;
+    }
+
+    .col-md-4 #nye .work-item-text {
+        max-width: 270px;
+    }
+
+    .col-md-4 #minim .work-item-text {
+        max-width: 230px;
+    }
+
+    .col-md-4 #solidworks .work-item-text {
+        max-width: 260px;
+    }
+
+    .col-md-4 #wagz .work-item-text {
+        max-width: 260px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .col-md-4 .work-item-text {
+        max-width: 300px;
+    }
+
+    .col-md-4 #minim .work-item-text {
+        max-width: 360px;
+    }
+
+    .col-md-4 #solidworks .work-item-text {
+        max-width: 370px;
+    }
+}
+
+.work-item-button {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: 0.5px solid rgba(255, 255, 255, 1);
+    padding: 11px 27px;
+    display: none;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all .25s ease-in-out;
+}
+
+@media (min-width: 768px) {
+
+	.work-item-button { display: inline-block; }
+
+}
+
+.work-item-button:hover {
+    color: #444;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.work-item-container.active .work-item-button { display: inline-block !important; }
+
+@media (min-width: 768px) {
+    .work-tems .work-item:nth-child(2) { transition-delay: .5s }
+
+    .work-tems .work-item:nth-child(4) { transition-delay: .5s }
+    .work-tems .work-item:nth-child(5) { transition-delay: 1s }
+
+    .work-tems .work-item:nth-child(7) { transition-delay: .5s }
+
+    .work-tems .work-item:nth-child(9) { transition-delay: .5s }
+
+    .work-tems .work-item:nth-child(11) { transition-delay: .5s }
+    .work-tems .work-item:nth-child(12) { transition-delay: 1s }
+
+    .work-tems .work-item:nth-child(14) { transition-delay: .5s }
+    .work-tems .work-item:nth-child(15) { transition-delay: 1s }
+}
