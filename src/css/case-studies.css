@@ -37,8 +37,7 @@
 /* portfolio section */
 
 .work-item {
-    margin: 0 0 4rem 0;
-    padding: 0 2rem;
+    margin: 0 0 30px 0;
 }
 
 /* removes margin from last item so, in smartphones, it

@@ -1,5 +1,5 @@
 <div class="container work-tems mt-5 pt-2 mt-md-5 pt-md-5">
-    <div class="row">
+    <div class="row px-4 px-md-0">
 
         <div class="work-item col-sm-12 col-md-8 module-fade module-mobile">
             <div id = "scribe" class="work-item-container text-center">
