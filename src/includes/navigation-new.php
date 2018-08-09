@@ -10,7 +10,7 @@
 
         <div class="col-9 col-md-7 text-right">
             <a class="newnav-link <?php if ($activePage == '/studio') echo 'newnav-link-active'; ?>" href="/studio">Studio</a>
-            <a class="newnav-link ml-4 ml-sm-5" href="#">Case&nbsp;Studies</a>
+            <a class="newnav-link ml-4 ml-sm-5 <?php if ($activePage == '/case-studies') echo 'newnav-link-active'; ?>" href="/case-studies">Case&nbsp;Studies</a>
             <a class="newnav-link mx-4 ml-sm-5 mr-sm-0" href="#">Contact</a>
         </div>
     </div>

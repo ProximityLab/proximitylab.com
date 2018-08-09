@@ -100,6 +100,10 @@
         $activePagePhp = 'includes/pages/404.php';
         $pageTitle = 'Proximity Lab | Portfolio | 404';
         break;
+      case '/case-studies':
+        $pageCss = '<link rel="stylesheet" href="/css/case-studies.css">';
+        $activePagePhp = 'includes/pages/case-studies.php';
+        break;
       case '/studio':
         $pageCss = '<link rel="stylesheet" href="/css/studio.css">';
         $activePagePhp = 'includes/pages/studio.php';
@@ -162,10 +166,17 @@
     </head>
     <body id="waypoint" class="animated fadeIn <?php echo $bodyclass ?>">
       <?php
-        if (empty($activePage) || $activePage == '/home' || $activePage == '/studio') {
-          include('includes/navigation-new.php');
-        } else {
-          include('includes/navigation.php');
+        switch ($activePage) {
+          case '':
+          case '/home':
+          case '/studio':
+          case '/case-studies':
+            include('includes/navigation-new.php');
+            break;
+
+          default:
+            include('includes/navigation.php');
+            break;
         }
 
         include($activePagePhp);
