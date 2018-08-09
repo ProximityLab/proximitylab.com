@@ -41,6 +41,12 @@
     padding: 0 2rem;
 }
 
+/* removes margin from last item so, in smartphones, it
+does not have too much spacing between the footer */
+.work-item:last-child {
+    margin: 0;
+}
+
 .work-item-container {
     height: 0;
     min-height: 220px;
