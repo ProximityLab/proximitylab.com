@@ -43,6 +43,10 @@
     cursor: pointer;
 }
 
+.home-service-wrapper:hover {
+    text-decoration: none;
+}
+
 .home-icon-service {
     height: 55px;
 }
