@@ -100,6 +100,10 @@
         $activePagePhp = 'includes/pages/404.php';
         $pageTitle = 'Proximity Lab | Portfolio | 404';
         break;
+      case '/contact':
+        $pageCss = '<link rel="stylesheet" href="/css/contact.css">';
+        $activePagePhp = 'includes/pages/contact.php';
+        break;
       case '/case-studies':
         $pageCss = '<link rel="stylesheet" href="/css/case-studies.css">';
         $activePagePhp = 'includes/pages/case-studies.php';
@@ -171,6 +175,7 @@
           case '/home':
           case '/studio':
           case '/case-studies':
+          case '/contact':
             include('includes/navigation-new.php');
             break;
 
