@@ -101,6 +101,7 @@
         $pageTitle = 'Proximity Lab | Portfolio | 404';
         break;
       case '/contact':
+        $bodyclass = '';
         $pageCss = '<link rel="stylesheet" href="/css/contact.css">';
         $activePagePhp = 'includes/pages/contact.php';
         break;

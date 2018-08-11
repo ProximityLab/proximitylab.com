@@ -1,0 +1,25 @@
+.contact-heading {
+    font-size: 45px;
+    font-family: "aleobold";
+    color: rgb(0, 0, 0);
+}
+
+.contact-input {
+    font-size: 27px;
+    font-family: 'aleolight';
+    color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-color: #b7b7b7;
+}
+
+.contact-button {
+    font-size: 27.76px;
+    font-family: "aleobold";
+}
+
+.contact-button,
+.contact-button:hover,
+.contact-button:not(:disabled):not(.disabled):active {
+    background-color: #bec7c8;
+    border-color: #bec7c8;
+}
