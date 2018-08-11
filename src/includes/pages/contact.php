@@ -1,12 +1,12 @@
 <!-- Form -->
-<div class="container mt-5 pt-md-5">
-    <div class="row mt-3 px-4 px-md-0">
+<div class="container mt-5 pt-md-5 module-fade">
+    <div class="row mt-3 px-4 px-md-0 module">
         <div class="col">
             <h1 class="contact-heading mb-5">Talk to us.</h1>
         </div>
     </div>
 
-    <form class="px-4 px-md-0" action="https://formspree.io/info@proximitylab.com" method="POST">
+    <form class="px-4 px-md-0 module" action="https://formspree.io/info@proximitylab.com" method="POST">
         <div class="form-row">
             <div class="col-12 col-md-6 col-xl-4 mb-4">
                 <input type="text" class="form-control form-control-lg contact-input" placeholder="First name" name="firstName" required>
@@ -40,8 +40,8 @@
 
 
 <!-- Portsmouth -->
-<div class="container mt-5 pt-2 pt-md-5">
-    <div class="row mt-5 px-4 px-md-0">
+<div class="container mt-5 pt-2 pt-md-5 module-fade">
+    <div class="row mt-5 px-4 px-md-0 module">
         <div class="col-12">
             <h1 class="contact-heading mb-4">Portsmouth</h1>
         </div>
@@ -59,8 +59,8 @@
 
 
 <!-- San Francisco -->
-<div class="container mt-5 pt-md-5">
-    <div class="row mt-5 px-4 px-md-0">
+<div class="container mt-5 pt-md-5 module-fade">
+    <div class="row mt-5 px-4 px-md-0 module">
         <div class="col-12">
             <h1 class="contact-heading mb-4">San Francisco</h1>
         </div>
