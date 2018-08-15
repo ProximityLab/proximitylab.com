@@ -31,7 +31,7 @@
 <div class="container mt-2 d-none d-md-block module-fade" id="blurbs">
     <div class="row text-center text-md-left module">
         <div class="col-12 col-md-4 py-4 pt-md-0 module">
-            <a href="#blurbs" class="home-service-wrapper" data-toggle="collapse" data-target="#blurbResearch" role="button" aria-expanded="false" aria-controls="blurbResearch">
+            <a href="#blurbs" class="home-service-wrapper" id="blurbToggleResearch">
                 <img src="/images/icon-service-research.svg" class="home-icon-service">
                 <h2 class="home-service-heading px-5 px-md-0">Research for Deep Understanding</h2>
                 <span class="home-service-link home-service-link-more">Show More</span>
@@ -40,7 +40,7 @@
         </div>
 
         <div class="col-12 col-md-4 py-4 pt-md-0 module">
-            <a href="#blurbs" class="home-service-wrapper" data-toggle="collapse" data-target="#blurbStrategy" role="button" aria-expanded="false" aria-controls="blurbStrategy">
+            <a href="#blurbs" class="home-service-wrapper" id="blurbToggleStrategy">
                 <img src="/images/icon-service-strategy.svg" class="home-icon-service">
                 <h2 class="home-service-heading px-5 px-md-0 mr-xl-5">Business-centric Product Strategy</h2>
                 <span class="home-service-link home-service-link-more">Show More</span>
@@ -49,7 +49,7 @@
         </div>
 
         <div class="col-12 col-md-4 py-4 pt-md-0 module">
-            <a href="#blurbs" class="home-service-wrapper" data-toggle="collapse" data-target="#blurbDesign" role="button" aria-expanded="false" aria-controls="blurbDesign">
+            <a href="#blurbs" class="home-service-wrapper" id="blurbToggleDesign">
                 <img src="/images/icon-service-design.svg" class="home-icon-service">
                 <h2 class="home-service-heading px-5 px-md-0 mr-xl-5">Results-based UX and UI Design</h2>
                 <span class="home-service-link home-service-link-more">Show More</span>
@@ -60,21 +60,21 @@
 
     <div class="row mt-3">
         <div class="col-12">
-            <div class="collapse" id="blurbResearch" data-parent="#blurbs">
+            <div class="collapse" id="blurbResearch">
                 <div class="home-service-blurb-arrow-wrapper home-service-blurb-arrow-wrapper-research">
                     <img src="/images/arrow-blurb-research.svg" alt="Blurb arrow">
                 </div>
                 <p class="home-service-blurb-text">Proximity Lab is an award-winning interaction design studio with deep experienced in research, product strategy and UX design. We are designers, creators and thinkers who bring diverse backgrounds together to develop a common vision – to create products that emphasize clarity, simplicity and value.</p>
             </div>
 
-            <div class="collapse" id="blurbStrategy" data-parent="#blurbs">
+            <div class="collapse" id="blurbStrategy">
                 <div class="home-service-blurb-arrow-wrapper home-service-blurb-arrow-wrapper-strategy">
                     <img src="/images/arrow-blurb-strategy.svg" alt="Blurb arrow">
                 </div>
                 <p class="home-service-blurb-text">Proximity Lab is an award-winning interaction design studio with deep experienced in research, product strategy and UX design. We are designers, creators and thinkers who bring diverse backgrounds together to develop a common vision – to create products that emphasize clarity, simplicity and value.</p>
             </div>
 
-            <div class="collapse" id="blurbDesign" data-parent="#blurbs">
+            <div class="collapse" id="blurbDesign">
                 <div class="home-service-blurb-arrow-wrapper home-service-blurb-arrow-wrapper-design">
                     <img src="/images/arrow-blurb-design.svg" alt="Blurb arrow">
                 </div>

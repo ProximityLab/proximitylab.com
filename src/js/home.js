@@ -3,6 +3,91 @@
  */
 $(document).ready(function() {
 
+    // hide blurb before showing another blurb
+    var trigger = null;
+    var blurbToggleResearch = $("#blurbToggleResearch");
+    var blurbToggleStrategy = $("#blurbToggleStrategy");
+    var blurbToggleDesign = $("#blurbToggleDesign");
+    var blurbResearch = $("#blurbResearch");
+    var blurbStrategy = $("#blurbStrategy");
+    var blurbDesign = $("#blurbDesign");
+
+    blurbResearch.on("hidden.bs.collapse", function() {
+        if (trigger === 'strategy') {
+            blurbStrategy.collapse("toggle");
+        }
+
+        if (trigger === 'design') {
+            blurbDesign.collapse("toggle");
+        }
+
+        blurbToggleResearch.removeClass('expanded');
+    });
+
+    blurbStrategy.on("hidden.bs.collapse", function() {
+        if (trigger === 'research') {
+            blurbResearch.collapse("toggle");
+        }
+
+        if (trigger === 'design') {
+            blurbDesign.collapse("toggle");
+        }
+
+        blurbToggleStrategy.removeClass('expanded');
+    });
+
+    blurbDesign.on("hidden.bs.collapse", function() {
+        if (trigger === 'research') {
+            blurbResearch.collapse("toggle");
+        }
+
+        if (trigger === 'strategy') {
+            blurbStrategy.collapse("toggle");
+        }
+
+        blurbToggleDesign.removeClass('expanded');
+    });
+
+    blurbToggleResearch.click(function() {
+        $(this).toggleClass('expanded');
+        trigger = 'research';
+
+        if (blurbStrategy.hasClass("show")) {
+            blurbStrategy.collapse("hide");
+        } else if (blurbDesign.hasClass("show")) {
+            blurbDesign.collapse("hide");
+        } else {
+            blurbResearch.collapse("toggle");
+        }
+    });
+
+    blurbToggleStrategy.click(function() {
+        $(this).toggleClass('expanded');
+        trigger = 'strategy';
+
+        if (blurbResearch.hasClass("show")) {
+            blurbResearch.collapse("hide");
+        } else if (blurbDesign.hasClass("show")) {
+            blurbDesign.collapse("hide");
+        } else {
+            blurbStrategy.collapse("toggle");
+        }
+    });
+
+    blurbToggleDesign.click(function() {
+        $(this).toggleClass('expanded');
+        trigger = 'design';
+
+        if (blurbResearch.hasClass("show")) {
+            blurbResearch.collapse("hide");
+        } else if (blurbStrategy.hasClass("show")) {
+            blurbStrategy.collapse("hide");
+        } else {
+            blurbDesign.collapse("toggle");
+        }
+    });
+
+
     // Minim video
     var minimVideo = $("#minim-video"); 
 

@@ -91,11 +91,11 @@
     opacity: 1;
 }
 
-.home-service-wrapper[aria-expanded="true"] .home-service-link-more {
+.home-service-wrapper.expanded .home-service-link-more {
     display: none;
 }
 
-.home-service-wrapper[aria-expanded="true"] .home-service-link-less {
+.home-service-wrapper.expanded .home-service-link-less {
     display: inline;
 }
 
