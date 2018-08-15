@@ -21,10 +21,10 @@
 }
 
 .contact-input {
-    font-size: 27px;
+    font-size: 25px;
     font-family: 'aleolight';
     color: rgb(0, 0, 0);
-    border-width: 2px;
+    border-width: 1px;
     border-color: #b7b7b7;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .contact-button {
-    font-size: 27.76px;
+    font-size: 25px;
     font-family: "aleobold";
 }
 
@@ -45,12 +45,12 @@
 }
 
 .contact-office-info {
-    font-size: 27px;
+    font-size: 25px;
     font-family: 'aleoregular';
     color: rgba(0, 0, 0, 0.8);
 }
 
 .contact-icon-location {
-    width: 30px;
+    width: 28px;
     vertical-align: sub;
 }
