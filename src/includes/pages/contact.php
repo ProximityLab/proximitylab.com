@@ -42,7 +42,7 @@
             </div>
         </div>
 
-        <button type="submit" class="btn btn-primary btn-lg contact-button px-5">Submit</button>
+        <button type="submit" class="btn btn-primary contact-button px-5">Submit</button>
     </form>
 </div>
 
@@ -54,8 +54,8 @@
             <h1 class="contact-heading mb-4">Portsmouth</h1>
         </div>
 
-        <div class="col-12 col-sm mb-4"><img class="img-fluid" src="/images/contact-photo-portsmouth1.jpg" alt="Portsmouth photo"></div>
-        <div class="col-12 col-sm mb-4"><img class="img-fluid" src="/images/contact-photo-portsmouth2.jpg" alt="Portsmouth photo"></div>
+        <div class="col-12 col-sm col-xl-5 mb-4"><img class="img-fluid" src="/images/contact-photo-portsmouth1.jpg" alt="Portsmouth photo"></div>
+        <div class="col-12 col-sm col-xl-5 mb-4"><img class="img-fluid" src="/images/contact-photo-portsmouth2.jpg" alt="Portsmouth photo"></div>
         <div class="col-12">
             <p class="contact-office-info">
                 <img class="contact-icon-location" src="/images/contact-icon-location.svg" alt="Location icon">
@@ -73,8 +73,8 @@
             <h1 class="contact-heading mb-4">San Francisco</h1>
         </div>
 
-        <div class="col-12 col-sm mb-4"><img class="img-fluid" src="/images/contact-photo-sanfrancisco1.jpg" alt="San Francisco photo"></div>
-        <div class="col-12 col-sm mb-4"><img class="img-fluid" src="/images/contact-photo-sanfrancisco2.jpg" alt="San Francisco photo"></div>
+        <div class="col-12 col-sm col-xl-5 mb-4"><img class="img-fluid" src="/images/contact-photo-sanfrancisco1.jpg" alt="San Francisco photo"></div>
+        <div class="col-12 col-sm col-xl-5 mb-4"><img class="img-fluid" src="/images/contact-photo-sanfrancisco2.jpg" alt="San Francisco photo"></div>
         <div class="col-12">
             <p class="contact-office-info">
                 <img class="contact-icon-location" src="/images/contact-icon-location.svg" alt="Location icon">
