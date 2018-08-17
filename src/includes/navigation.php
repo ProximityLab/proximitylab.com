@@ -60,10 +60,11 @@ else {
 	<nav class="page-navigation">
 		<a href="/" id="pl-nav-logo" class="site-title-r">Proximity Lab</a>
 		<ul class="d-flex">
-			<li class="align-self-center"><a class="page-navigation-link<?php if ($activePage == '/about') echo ' page-navigation-link-active'; ?>" href="/about">About</a></li>
-			<li class="align-self-center"><a class="page-navigation-link<?php if ($activePage == '/work' || $isWorkCurrent) echo ' page-navigation-link-active'; ?><?php if ($isWorkCurrent) echo ' work-page'; ?>" href="/work">Work</a></li>
-			<?php if ($isWorkCurrent) { ?><li class="align-self-center"><a href="<?php echo $previous; ?>" data-role="previous-page" class="jumbotron-left d-flex justify-content-center" alt="Previous project"><span class="align-self-center"></span></a></li><?php } ?>
-			<?php if ($isWorkCurrent) { ?><li class="align-self-center"><a href="<?php echo $next; ?>" data-role="next-page"  class="jumbotron-right d-flex justify-content-center" alt="Next project"><span class="align-self-center"></span></a></li><?php } ?>
+			<li class="align-self-center"><a class="page-navigation-link<?php if ($activePage == '/studio') echo ' page-navigation-link-active'; ?>" href="/studio">Studio</a></li>
+			<li class="align-self-center"><a class="page-navigation-link<?php if ($activePage == '/case-studies' || $isWorkCurrent) echo ' page-navigation-link-active'; ?><?php if ($isWorkCurrent) echo ' work-page'; ?>" href="/case-studies">Case&nbsp;Studies</a></li>
+      <li class="align-self-center"><a class="page-navigation-link<?php if ($activePage == '/contact') echo ' page-navigation-link-active'; ?> mr-4 md-sm-0" href="/contact">Contact</a></li>
+			<?php if ($isWorkCurrent) { ?><li class="align-self-center d-none d-sm-inline-block"><a href="<?php echo $previous; ?>" data-role="previous-page" class="jumbotron-left d-flex justify-content-center" alt="Previous project"><span class="align-self-center"></span></a></li><?php } ?>
+			<?php if ($isWorkCurrent) { ?><li class="align-self-center d-none d-sm-inline-block"><a href="<?php echo $next; ?>" data-role="next-page"  class="jumbotron-right d-flex justify-content-center" alt="Next project"><span class="align-self-center"></span></a></li><?php } ?>
 		</ul>
 	</nav>
 	<div class="ww-underlay"></div>
