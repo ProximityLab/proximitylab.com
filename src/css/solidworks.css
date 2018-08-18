@@ -19,6 +19,12 @@
   }
 }
 
+@media (min-width: 992px){
+  .ww-portfolio .jumbotron {
+    padding-top: 4rem;
+  }
+}
+
 .ww-portfolio .jumbotron [class*='col-'] {
   padding-left: 0;
   padding-right: 0;
