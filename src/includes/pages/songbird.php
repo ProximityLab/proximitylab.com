@@ -5,7 +5,7 @@
             <div class="col-12 col-md-3 order-md-12 header-image-fade">
               <img class="jumbotron-logo-project" src="/images/logo-songbird.svg" alt="Songbird logo">
             </div>
-            <div class="col-10 col-sm-8 col-md-8 flex-first ww-hero-image header-image-fade"><img class="img-fluid" src="/images/website-mockup-songbird-2x.png" alt="Songbird website mockup"></div>
+            <div class="col-10 col-sm-8 col-md-8 flex-first ww-hero-image header-image-fade mt-lg-5 mt-xl-0"><img class="img-fluid" src="/images/website-mockup-songbird-2x.png" alt="Songbird website mockup"></div>
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- jumbotron -->
