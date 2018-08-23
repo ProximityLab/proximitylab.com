@@ -31,30 +31,30 @@
 <div class="container mt-2 d-none d-md-block module-fade" id="blurbs">
     <div class="row text-center text-md-left module">
         <div class="col-12 col-md-4 py-4 pt-md-0 module">
-            <a href="#blurbs" class="home-service-wrapper" id="blurbToggleResearch">
+            <!-- <a href="#blurbs" class="home-service-wrapper" id="blurbToggleResearch"> -->
                 <img src="/images/icon-service-research.svg" class="home-icon-service">
                 <h2 class="home-service-heading px-5 px-md-0">Research for Deep Understanding</h2>
-                <span class="home-service-link home-service-link-more">Show More</span>
+                <!-- <span class="home-service-link home-service-link-more">Show More</span>
                 <span class="home-service-link home-service-link-less">Show Less</span>
-            </a>
+            </a> -->
         </div>
 
         <div class="col-12 col-md-4 py-4 pt-md-0 module">
-            <a href="#blurbs" class="home-service-wrapper" id="blurbToggleStrategy">
+            <!-- <a href="#blurbs" class="home-service-wrapper" id="blurbToggleStrategy"> -->
                 <img src="/images/icon-service-strategy.svg" class="home-icon-service">
                 <h2 class="home-service-heading px-5 px-md-0 mr-xl-5">Business-centric Product Strategy</h2>
-                <span class="home-service-link home-service-link-more">Show More</span>
+                <!-- <span class="home-service-link home-service-link-more">Show More</span>
                 <span class="home-service-link home-service-link-less">Show Less</span>
-            </a>
+            </a> -->
         </div>
 
         <div class="col-12 col-md-4 py-4 pt-md-0 module">
-            <a href="#blurbs" class="home-service-wrapper" id="blurbToggleDesign">
+            <!-- <a href="#blurbs" class="home-service-wrapper" id="blurbToggleDesign"> -->
                 <img src="/images/icon-service-design.svg" class="home-icon-service">
                 <h2 class="home-service-heading px-5 px-md-0 mr-xl-5">Results-based UX and UI Design</h2>
-                <span class="home-service-link home-service-link-more">Show More</span>
+                <!-- <span class="home-service-link home-service-link-more">Show More</span>
                 <span class="home-service-link home-service-link-less">Show Less</span>
-            </a>
+            </a> -->
         </div>
     </div>
 
