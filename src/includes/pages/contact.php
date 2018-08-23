@@ -17,11 +17,12 @@
         </div>
 
         <div class="col-12 col-lg-4 mt-5 mt-lg-0 order-lg-1 module">
-            <p class="contact-info mb-5">Proximity Lab has locations on both coasts to enable collaboration with your product teams.</p>
+            <p class="contact-info mb-5">Proximity Lab is committed to designing exceptional products that achieve critical business goals.<br><br>Have a product you'd like to discuss?<br>Send us a note.</p>
 
             <img class="contact-icon-location" src="/images/contact-icon-location.svg" alt="Location icon">
-            <p class="contact-address">3 Congress Street<br>
-            Portsmouth, NH  03801</p>
+            <p class="contact-address">104 Congress Street<br>
+            Suite 302<br>
+            Portsmouth, NH 03801</p>
 
             <br>
 

@@ -1,24 +1,25 @@
 .contact-info {
     font-size: 20px;
-    font-family: 'aleoregular';
-    color: rgba(0, 0, 0, 0.8);
+    font-family: 'aleolight';
+    color: #585858;
     font-style: italic;
 }
 
 .contact-icon-location {
     width: 26px;
+    vertical-align: text-bottom;
 }
 
 .contact-address {
     display: inline-flex;
     font-size: 20px;
-    font-family: 'aleoregular';
-    color: rgba(0, 0, 0, 0.8);
+    font-family: 'aleolight';
+    color: #585858;
 }
 
 .contact-email {
     font-size: 20px;
-    font-family: 'aleoregular';
+    font-family: 'aleolight';
     color: #dc4396;
     margin-left: 30px;
 }
@@ -30,14 +31,14 @@
 
 .contact-phone {
     font-size: 20px;
-    font-family: 'aleoregular';
-    color: rgba(0, 0, 0, 0.8);
+    font-family: 'aleolight';
+    color: #585858;
     margin-left: 30px;
 }
 
 .contact-phone:hover {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.8);
+    color: #585858;
 }
 
 .contact-heading {
@@ -74,7 +75,7 @@
 
 .contact-button {
     font-size: 25px;
-    font-family: "aleobold";
+    font-family: "aleoregular";
     border-radius: 25px;
 }
 
