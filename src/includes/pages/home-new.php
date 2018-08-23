@@ -108,7 +108,7 @@
         <div class="col-12 col-md col-lg-5 col-xl-4 pl-sm-0 align-self-center home-minim-copy module">
             <h1 class="home-minim-heading-primary mx-4 px-2 mx-md-0 px-md-0 mb-4 mb-md-5">Demystifying the Internet of Things</h1>
             <h2 class="home-minim-heading-secondary mx-4 px-2 mx-md-0 px-md-0 mb-2 mb-md-4">Empowering consumers with smart home security</h2>
-            <a class="home-minim-link mx-4 px-2 mx-md-0 px-md-0" href="#">+ Read the Case Study</a>
+            <a class="home-minim-link mx-4 px-2 mx-md-0 px-md-0" href="/work/minim">+ Read the Case Study</a>
         </div>
     </div>
 </div>
@@ -153,7 +153,7 @@
         <div class="col-lg-4 order-lg-1 px-lg-0 col-xl-3 offset-xl-1 align-self-center module">
             <h1 class="home-eagle-heading-primary mx-4 px-2 mx-md-0 px-md-0 mb-4 mb-md-5">Accelerating Data Driven Discovery</h1>
             <h2 class="home-eagle-heading-secondary mx-4 px-2 mx-md-0 px-md-0 mb-2 mb-md-4 ">Visualization based AI to power genomic research and insights</h2>
-            <a class="home-eagle-link mx-4 px-2 mx-md-0 px-md-0" href="#">+ Read the Case Study</a>
+            <a class="home-eagle-link mx-4 px-2 mx-md-0 px-md-0" href="/work/eagle">+ Read the Case Study</a>
         </div>
     </div>
 </div>
@@ -183,7 +183,7 @@
         <div class="col-12 col-lg-5 col-xl-3 px-xl-0 align-self-center module">
             <h1 class="home-amadeus-heading-primary mx-4 px-2 mx-md-0 px-md-0 mb-4 mb-md-5">Best Laid Plans</h1>
             <h2 class="home-amadeus-heading-secondary mx-4 px-2 mx-md-0 px-md-0 mb-2 mb-md-4">Designing a cohesive SaaS product suite for professional event planners</h2>
-            <a class="home-amadeus-link mx-4 px-2 mx-md-0 px-md-0" href="#">+ Read the Case Study</a>
+            <a class="home-amadeus-link mx-4 px-2 mx-md-0 px-md-0" href="/work/amadeus">+ Read the Case Study</a>
         </div>
     </div>
 </div>
@@ -193,7 +193,7 @@
 <div class="container my-5 py-5 module">
     <div class="row mb-5">
         <div class="col text-center">
-            <a href="#" class="home-more-work-button px-5 py-3">+ More Work</a>
+            <a href="/case-studies" class="home-more-work-button px-5 py-3">+ More Work</a>
         </div>
     </div>
 </div>
