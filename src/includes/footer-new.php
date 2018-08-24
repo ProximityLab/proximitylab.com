@@ -6,7 +6,7 @@
         </div>
 
         <div class="col-12 pt-4 pb-5">
-            <a href="#" class="global-footer-link">+ Get in Touch</a>
+            <a href="/contact" class="global-footer-link">+ Get in Touch</a>
         </div>
 
         <div class="col-12">
