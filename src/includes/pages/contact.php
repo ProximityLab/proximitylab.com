@@ -21,14 +21,14 @@
             <p class="contact-info mb-5">Have a product you'd like to discuss? Send us a note.</p>
 
             <img class="contact-icon-location" src="/images/contact-icon-location.svg" alt="Location icon">
-            <p class="contact-address">104 Congress Street<br>
+            <p class="contact-address mb-5">104 Congress Street<br>
             Suite 302<br>
             Portsmouth, NH 03801</p>
 
             <br>
 
             <img class="contact-icon-location" src="/images/contact-icon-location.svg" alt="Location icon">
-            <p class="contact-address">1161 Mission Street<br>
+            <p class="contact-address mb-5">1161 Mission Street<br>
             San Francisco, CA  94103</p>
 
             <br>
