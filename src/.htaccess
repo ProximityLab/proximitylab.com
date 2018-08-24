@@ -38,3 +38,9 @@ RewriteRule ^/?(.*)$ %1? [R=302,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^/?([^\.]*)(\.php)?$ /index.php?marker&page=/$1 [L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /about
+RewriteRule ^.*$ /studio [L,R=301]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /work
+RewriteRule ^.*$ /case-studies [L,R=301]
