@@ -17,7 +17,8 @@
         </div>
 
         <div class="col-12 col-lg-4 mt-5 mt-lg-0 order-lg-1 module">
-            <p class="contact-info mb-5">Proximity Lab is committed to designing exceptional products that achieve critical business goals.<br><br>Have a product you'd like to discuss?<br>Send us a note.</p>
+            <p class="contact-info">Proximity Lab is committed to designing exceptional products that achieve critical business goals.</p>
+            <p class="contact-info mb-5">Have a product you'd like to discuss? Send us a note.</p>
 
             <img class="contact-icon-location" src="/images/contact-icon-location.svg" alt="Location icon">
             <p class="contact-address">104 Congress Street<br>
