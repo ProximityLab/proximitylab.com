@@ -4,7 +4,7 @@
             <div class="col-12 col-lg-2">
               <img class="jumbotron-logo-project header-image-fade" src="/images/logo-amadeus.svg" alt="Amadeus logo">
             </div>
-            <div class="col-lg-7 justify-content-center header-image-fade">
+            <div class="col-lg-7 justify-content-center header-image-fade mt-lg-5 pt-lg-3">
               <div class="ww-vid-holder d-flex justify-content-center">
                 <div class="ww-vid d-flex align-self-center">
                   <video id="video-amadeus" class="ww-vid" poster="/images/video-poster-amadeus-2x.png" autoplay></video>

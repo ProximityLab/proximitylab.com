@@ -4,7 +4,7 @@
             <div class="col-12 col-lg-3">
               <img class="jumbotron-logo-project header-image-fade" src="/images/logo-minim.svg" alt="Minim logo">
             </div>
-            <div class="col-12 col-lg-6 ww-hero-image header-image-fade">
+            <div class="col-12 col-lg-6 ww-hero-image header-image-fade mt-lg-5 mt-xl-0">
               <div class="ww-vid-holder">
                 <div class="ww-vid text-center">
                   <img src="/images/container-minim.png" class="img-fluid">

@@ -384,6 +384,16 @@ a[name=start] {
     transition: opacity 0.3s ease-in-out;
 }
 
+.page-navigation-link {
+    font-size: 15px;
+}
+
+@media (min-width: 576px) {
+    .page-navigation-link {
+        font-size: 22px;
+    }
+}
+
 .scrolled .page-navigation {
     opacity: 0;
 }
@@ -402,7 +412,13 @@ a[name=start] {
 
 .page-navigation li a {
     color: #1e2128;
-    margin-left: 30px;
+    margin-left: 1.5rem;
+}
+
+@media (min-width: 576px) {
+    .page-navigation li a {
+        margin-left: 3rem;
+    }
 }
 
 .page-navigation li a.jumbotron-right {
@@ -1085,4 +1101,133 @@ a[name=start] {
         padding: 0 0 0 4rem;
         margin: 6rem 0 0;
     }
+}
+
+
+/**
+ * Web Fonts
+ */
+
+ @font-face {
+    font-family: 'aleoregular';
+    src: url('fonts/Aleo-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aleobold';
+    src: url('fonts/Aleo-Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aleolight';
+    src: url('fonts/Aleo-Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/**
+ * New navigation
+ */
+
+.newnav-proximity-lab-logo {
+    height: 54px;
+}
+
+@media (min-width: 576px) {
+    .newnav-proximity-lab-logo{
+        height: 64px;
+    }
+}
+
+.newnav-link {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 2.7;
+    color: rgb(0, 0, 0);
+}
+
+@media (min-width: 576px) {
+    .newnav-link {
+        font-size: 22px;
+    }
+}
+
+.newnav-link:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.newnav-link-active {
+    color: #dc4396 !important;
+    border-bottom: 2px solid #dc4396;
+    padding-bottom: 8px;
+    font-weight: 400;
+}
+
+@media (min-width: 576px) {
+    .newnav-link-active {
+        font-weight: 300;
+    }
+}
+
+
+/**
+ * Global Footer
+ */
+
+.global-footer-link {
+    font-size: 26px;
+    font-family: 'aleoregular';
+    color: rgb(220, 67, 150);
+}
+
+.global-footer-link:hover {
+    text-decoration: none;
+    color: rgb(220, 67, 150);
+}
+
+.global-footer-heading {
+    font-size: 45px;
+    font-family: 'aleoregular';
+    color: rgb(0, 0, 0);
+}
+
+.global-footer-info {
+    font-size: 1.4rem;
+    color: #7c7c7c;
+}
+
+.global-footer-separator {
+    margin: 0 12px;
+    color: #404f60;
+    opacity: 0.3;
+    color: #000;
+}
+
+.global-footer-phone {
+    color: #000;
+}
+
+.global-footer-phone:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.global-footer-email {
+    color: #04c3ed;
+}
+
+.global-footer-email:hover {
+    text-decoration: none;
+    color: #04c3ed;
+}
+
+.global-footer-social-logo {
+    height: 16px;
 }

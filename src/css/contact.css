@@ -1,0 +1,88 @@
+.contact-info {
+    font-size: 20px;
+    font-family: 'aleolight';
+    color: #585858;
+    font-style: italic;
+}
+
+.contact-icon-location {
+    width: 24px;
+    margin-right: 5px;
+}
+
+.contact-address {
+    display: inline-flex;
+    font-size: 20px;
+    font-family: 'aleolight';
+    color: #585858;
+    line-height: 2.8rem;
+}
+
+.contact-email {
+    font-size: 20px;
+    font-family: 'aleolight';
+    color: #dc4396;
+    margin-left: 30px;
+}
+
+.contact-email:hover {
+    text-decoration: none;
+    color: #dc4396;
+}
+
+.contact-phone {
+    font-size: 20px;
+    font-family: 'aleolight';
+    color: #585858;
+    margin-left: 30px;
+}
+
+.contact-phone:hover {
+    text-decoration: none;
+    color: #585858;
+}
+
+.contact-heading {
+    font-size: 36px;
+    font-family: "aleobold";
+    color: rgb(0, 0, 0);
+}
+
+.contact-input {
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #b7b7b7;
+    font-family: 'aleolight';
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.contact-input::-webkit-input-placeholder {
+    color: #ccc !important;
+}
+
+.contact-input::-moz-placeholder {
+    color: #ccc !important;
+}
+
+.contact-input:-ms-input-placeholder {
+    color: #ccc !important;
+}
+
+.contact-input::placeholder {
+    color: #ccc !important;
+}
+
+.contact-button {
+    font-size: 25px;
+    font-family: "aleoregular";
+    border-radius: 25px;
+}
+
+.contact-button,
+.contact-button:hover,
+.contact-button:not(:disabled):not(.disabled):active {
+    background-color: #bec7c8;
+    border-color: #bec7c8;
+}

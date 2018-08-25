@@ -82,12 +82,6 @@
         $activePagePhp = 'includes/pages/amadeus.php';
         $pageTitle = 'Proximity Lab | Portfolio | Amadeus';
         break;
-      case '':
-      case '/home':
-        $bodyclass = 'home';
-        $pageCss = '<link rel="stylesheet" href="/css/home.css">';
-        $activePagePhp = 'includes/pages/home.php';
-        break;
       case '/about':
         $bodyclass = 'about';
         $pageCss = '<link rel="stylesheet" href="/css/about.css">';
@@ -106,11 +100,33 @@
         $activePagePhp = 'includes/pages/404.php';
         $pageTitle = 'Proximity Lab | Portfolio | 404';
         break;
+      case '/contact':
+        $bodyclass = '';
+        $pageCss = '<link rel="stylesheet" href="/css/contact.css">';
+        $activePagePhp = 'includes/pages/contact.php';
+        break;
+      case '/case-studies':
+        $pageCss = '<link rel="stylesheet" href="/css/case-studies.css">';
+        $activePagePhp = 'includes/pages/case-studies.php';
+        break;
+      case '/studio':
+        $pageCss = '<link rel="stylesheet" href="/css/studio.css">';
+        $activePagePhp = 'includes/pages/studio.php';
+        $pageJs = '<script src="/js/studio.js"></script>';
+        break;
+      case '':
+      case '/home':
+        $bodyclass = 'home';
+        $pageCss = '<link rel="stylesheet" href="/css/home-new.css">';
+        $activePagePhp = 'includes/pages/home-new.php';
+        $pageJs = '<script src="/js/home.js"></script>';
+        break;
       default:
         if (empty($activePage)) { // If activePage is empty then we assume it's home
           $bodyclass = 'home';
-          $pageCss = '<link rel="stylesheet" href="/css/home.css">';
-          $activePagePhp = 'includes/pages/home.php';
+          $pageCss = '<link rel="stylesheet" href="/css/home-new.css">';
+          $activePagePhp = 'includes/pages/home-new.php';
+          $pageJs = '<script src="/js/home.js"></script>';
         } else { // If activePage isn't empty, but doesn't match anything else then it's 404
           header('Location: /404');
           exit;
@@ -125,9 +141,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title><?php echo $pageTitle ?></title>
 
-
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
         <link rel="stylesheet" href="/css/main.css">
         <?= $pageCss ?>
@@ -154,15 +171,27 @@
     </head>
     <body id="waypoint" class="animated fadeIn <?php echo $bodyclass ?>">
       <?php
-        include('includes/navigation.php');
+        switch ($activePage) {
+          case '':
+          case '/home':
+          case '/studio':
+          case '/case-studies':
+          case '/contact':
+            include('includes/navigation-new.php');
+            break;
+
+          default:
+            include('includes/navigation.php');
+            break;
+        }
+
         include($activePagePhp);
-        include('includes/footer.php');
+        include('includes/footer-new.php');
       ?>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
       <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
       <script src="/js/carousel-swipe.js"></script>
       <script src="/js/jquery.waypoints.min.js"></script>
@@ -170,5 +199,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
       <script src="/js/jquery.isvisible.js"></script>
       <script src="/custom.js"></script>
+      <?= $pageJs ?>
     </body>
 </html>

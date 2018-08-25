@@ -6,7 +6,7 @@
               <img class="jumbotron-logo-project" src="/images/logo-wagz-green-2x.png" alt="Wagz logo">
             </div>
 
-            <div id="wagz-carousel-hero" class="col-lg-5 ww-hero-image carousel carousel-fade header-image-fade" data-ride="carousel" data-interval="6000" data-pause="false">
+            <div id="wagz-carousel-hero" class="col-lg-5 ww-hero-image carousel carousel-fade header-image-fade mt-lg-4 mt-xl-0" data-ride="carousel" data-interval="6000" data-pause="false">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item wagz-carousel-testimonial-item wagz-carousel-hero-item-two text-center active">
                   <img class="img-fluid" src="/images/hero-image-wagz1.png" alt="Wagz iPhone mockup">
